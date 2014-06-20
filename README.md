@@ -10,9 +10,9 @@ A set of Python scripts to scrape data from law enforcement agency web sites tha
 
 IMPORTANT: These scripts aren't finished. There is some inline documentation, but they need further testing and a bunch of cleanup. Also, some functionality is not yet included, as noted below.
 
-The script scrape.py pulls from a [Google spreadsheet]<https://docs.google.com/spreadsheets/d/1353q8QCgtscYRBU0INeOKIhPAiXt2IXpdTjD3ufl8Ko> that has fields describing each agency site to scrape. Those fields include: Agency name, city, county, the main URL of the P2C site and how many days back to scrape.
+The script scrape.py pulls from a [Google spreadsheet](https://docs.google.com/spreadsheets/d/1353q8QCgtscYRBU0INeOKIhPAiXt2IXpdTjD3ufl8Ko) that has fields describing each agency site to scrape. Those fields include: Agency name, city, county, the main URL of the P2C site and how many days back to scrape.
 
-If the P2C site has a [daily bulletin]<http://p2c.wakeso.net/dailybulletin.aspx>, we try to scrape that. If not, we use the site's ["Event Search" interface]<http://p2c.wakeso.net/Summary.aspx>.
+If the P2C site has a [daily bulletin](http://p2c.wakeso.net/dailybulletin.aspx), we try to scrape that. If not, we use the site's ["Event Search" interface](http://p2c.wakeso.net/Summary.aspx).
 
 In this first iteration, the data is being compiled into tab-delimited files based on record type (accident, arrest, citation, incident). Ultimately we will:
 
