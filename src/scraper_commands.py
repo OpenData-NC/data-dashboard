@@ -13,8 +13,8 @@ required_fields = {
         'record_id', 'agency', 'name', 'age', 'race', 'sex', 'on_date', 'from_date'
         , 'to_date', 'address', 'charge', 'offense_code', 'reporting_officer']
         ,
-    'Accident': ['record_id', 'agency', 'name1', 'name2', 'address', 'occurred_date'
-        , 'date_occurred', 'time_occurred', 'reporting_officer'
+    'Accident': ['record_id', 'agency', 'name1', 'name2', 'occurred_date'
+        , 'date_occurred', 'time_occurred', 'address', 'reporting_officer'
     ],
     'Arrest': [
         'record_id', 'agency', 'name', 'age', 'race', 'sex', 'occurred_date'
@@ -22,8 +22,8 @@ required_fields = {
         , 'reporting_officer'
     ],
     'Citation': [
-        'record_id', 'agency', 'name','age', 'race', 'sex', 'address', 'occurred_date'
-        , 'date_occurred', 'time_occurred', 'charge'
+        'record_id', 'agency', 'name','age', 'race', 'sex', 'occurred_date'
+        , 'date_occurred', 'time_occurred', 'address', 'charge', 'reporting_officer'
     ]
 }
 #these are added to required fields, are common to all
