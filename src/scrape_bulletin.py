@@ -46,6 +46,8 @@ def parse_second(piece, id_and_type, officer):
     #data contains a dict with the items we pulled and formatted
     #we append that to the record_type array in all data
     #build a single all_data to print later
+    if data is None:
+        return
     return scraper_commands.all_data[id_and_type['record_type']].append(scraper_commands.check_data(data))
 
 #each of the following four functions parse specific record types
@@ -71,18 +73,18 @@ def parse_incident(piece, id_and_type, officer):
 
 def parse_arrest(piece, id_and_type, officer):
     other_data = {'scrape_type': 'bulletin', 'id_generate': '0'}
-    m = re.compile('(?P<name>[^()]+) Arrest on chrg of (?P<charge>.+) \(*?P<offense_code>[A-Za-z]?\)?'
+    m = re.compile('(?P<name>[^()]+) Arrest on chrg of (?P<charge>[^(]+) \(*?P<offense_code>[A-Za-z]?\)?'
                    ' ?\(?(?P<other_code>.?)\)?, at (?P<address>.+), +on +(?P<occurred_date>[^\.]+)\.')
     matches = m.search(piece.text)
     if matches:
         matches = matches
     else:
-        m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>.+) '
-                       '\(?(?P<offense_code>[A-Za-z])\)? ?\(?(?P<other_offense_code>.?)\)?, '
+        m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>[^(]+) '
+                       '\(?(?P<offense_code>[A-Za-z]?)\)? ?\(?(?P<other_offense_code>.?)\)?, '
                        'at (?P<address>.+), +on +(?P<occurred_date>.+)\.')
         matches = m.search(piece.text)
         if not matches:
-            m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>.+) '
+            m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>[^(]+) '
                            '\(?(?P<offense_code>[A-Za-z]?)\)? ?\(?(?P<other_offense_code>.?)\)?, '
                            '.+, +on +(?P<occurred_date>[^\.]+)\.')
             matches = m.search(piece.text)
@@ -93,6 +95,8 @@ def parse_arrest(piece, id_and_type, officer):
     data = race_sex_age(data)
     if id_and_type['record_id'] == '':
         other_data['id_generated'] = "1"
+        if 'address' not in data:
+            data['address'] = ''
 #        id_and_type['record_id'] = hashlib.sha224( + matches[0][2] + matches[0][3] + matches[0][4] + matches[0][5]) \
         id_and_type['record_id'] = hashlib.sha224(data['name'] + data['occurred_date'] + data['address']
              + data['charge']).hexdigest()
@@ -130,9 +134,12 @@ def parse_accident(piece, id_and_type, officer):
 def race_sex_age(data):
     rsa = {'race': '', 'sex': '', 'age': ''}
     if 'rsa' in data and data['rsa'] != '':
-        pieces = data['rsa'].split('/')
-        pieces[0] = pieces[0].strip()
-        rsa = {'race': pieces[0], 'sex': pieces[1], 'age': pieces[2]}
+        m = re.compile('(?P<race>[A-Z])[ /]*(?P<sex>[A-Z])[,/ ]*(?P<age>[\d+])');
+        matches = m.search(data['rsa'])
+        rsa = matches.groupdict()
+#        pieces = data['rsa'].split('/')
+#        pieces[0] = pieces[0].strip()
+#        rsa = {'race': pieces[0], 'sex': pieces[1], 'age': pieces[2]}
     return dict(data.items() + rsa.items())
 
 

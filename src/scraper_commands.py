@@ -28,7 +28,7 @@ required_fields = {
 }
 #these are added to required fields, are common to all
 
-other_fields = ['pdf', 'street_address', 'city', 'county', 'state', 'zip', 'lat', 'lon','scrape_type', 'id_generate']
+other_fields = ['pdf', 'street_address', 'city', 'county', 'state', 'zip', 'lat', 'lon', 'scrape_type', 'id_generate']
 
 #this takes the data we scraped in the form of a dictionary and checks it for required field
 #if that field isn't there, we add it as a blank. this also strips out spaces on either side of the fields
@@ -52,7 +52,7 @@ def print_files(data):
         data_file = record_type + '.txt'
         for record in records:
             holder = holder + record + "\n"
-        with open(data_file,'w') as f:
+        with open(data_file, 'w') as f:
             f.write(holder)
             f.close()
 
@@ -71,7 +71,7 @@ def fetch_commands(url=None):
         lines = data.text.split("\n")
         headers = lines.pop(0).split(",")
         for line in lines:
-            commands.append(dict(zip(headers,line.split(","))))
+            commands.append(dict(zip(headers, line.split(","))))
         return commands
 
 

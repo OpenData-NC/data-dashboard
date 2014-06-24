@@ -82,7 +82,7 @@ def number_of_pages(soup):
 
 
 #find records in pages
-def find_records(soup, community):
+def find_records(soup, community, agency):
     records = soup.find_all('tr', class_='EventSearchGridRow')
     v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
@@ -94,19 +94,25 @@ def find_records(soup, community):
         data = {}
         id_and_type = {}
         record_fields = record.find_all('td')
+        id_and_type['record_type'] = record_fields[2].string.strip()  # record type
         data['occurred_date'] = format_db_date(record_fields[1].string.strip())  # date
         data['address'] = re.sub(r' +', ' ', record_fields[4].string.strip())  #address
-        data['charge'] = remove_semicolon(
-            record_fields[3].find_all('strong')[1].next_sibling.strip()
-        )  # offense text
-        id_and_type['record_type'] = record_fields[2].string.strip()  # record type
+        if id_and_type['record_type'] != 'Accident':
+            data['charge'] = remove_semicolon(
+                record_fields[3].find_all('strong')[1].next_sibling.strip()
+            )  # offense text
+        else:
+            data['charge'] = ''
         if id_and_type['record_type'] == 'Arrest':
             data['name'] = record_fields[3].find_all('strong')[0].next_sibling.strip()  # arrestee
             id_and_type['record_id'] = hashlib.sha224(data['name'] + data['occurred_date'] + data['address']
                  + data['charge']).hexdigest()
-            other_data['id_generate': '1']
+            other_data['id_generate'] = '1'
         else:
-            id_and_type['record_id'] = record_fields[3].find_all('strong')[0].next_sibling.strip()  # case number
+            if len(record_fields[3].find_all('strong')) == 0:
+                id_and_type['record_id'] = hashlib.sha224(data['occurred_date'] + data['address']).hexdigest()
+            else:
+                id_and_type['record_id'] = record_fields[3].find_all('strong')[0].next_sibling.strip()  # case number
         # geocoded = bing_geocode.geocode(new_record[5] + ', NC')
         # if geocoded['geocoded']:
         #     new_record[5] = geocoded['address']
@@ -120,13 +126,14 @@ def find_records(soup, community):
 #        data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], data['record_id'],
 #                                v_e)  # pdf stuff, but this isn't going to help us right now
 
-        data = dict(data.items() + other_data.items())
+        data = dict(data.items() + other_data.items() + id_and_type.items() + {'agency': agency}.items())
         scraper_commands.all_data[id_and_type['record_type']].append(scraper_commands.check_data(data))
+
 
 def dl_pdf(target, record_id, v_e):
     if target == '' or target is None:
         return ''
-    global search_items, url, date_rante, community_item
+    global search_items, url, date_range, community_item
     pdf_search_items = search_items
     pdf_search_items['__EVENTTARGET'] = target
     pdf_search_items['__EVENTARGUMENT'] = ''
@@ -175,7 +182,7 @@ def pass_disclaimer(url):
 
 
 #initial search page
-def fetch_page(url, page, page_number, community, code):
+def fetch_page(url, page, page_number, community, code, agency):
     global pages_of_records, date_range, community_item, search_items
     community_item['MasterPage$mainContent$CGeoCityDDL12'] = code
     soup = BeautifulSoup(page.text)
@@ -196,10 +203,10 @@ def fetch_page(url, page, page_number, community, code):
         return
     if page_number == 1:
         pages_of_records = number_of_pages(soup)
-    records = find_records(soup, community)
+    records = find_records(soup, community, agency)
     page_number += 1
     if page_number <= pages_of_records:
-        fetch_page(url, page, page_number, community, code)
+        fetch_page(url, page, page_number, community, code, agency)
 
 def start_scrape(agency, url, howfar, county):
     global date_range
@@ -210,6 +217,6 @@ def start_scrape(agency, url, howfar, county):
     for current_date_range in date_ranges:
         date_range = current_date_range
         for community, code in communities.items():
-            fetch_page(url, page, 1, community, code)
+            fetch_page(url, page, 1, community, code, agency)
     return scraper_commands.all_data
 
