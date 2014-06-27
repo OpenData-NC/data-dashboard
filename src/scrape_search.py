@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
-import datetime
 import re
 import shutil
 import hashlib
 
 import scraper_commands
+import date_formatters
 #import bing_geocode
 
 
@@ -14,7 +14,7 @@ disclaimer_items = {'_popupBlockerExists': 'true', '__EVENTTARGET': '', '__EVENT
                     'ctl00$MasterPage$mainContent$CenterColumnContent$btnContinue': 'I Agree'}
 search_items = {'__EVENTTARGET': 'MasterPage$mainContent$cmdSubmit2', '__EVENTARGUMENT': '', '__LASTFOCUS': '',
                 'MasterPage$DDLSiteMap1$ddlQuickLinks': '~/main.aspx', 'MasterPage$mainContent$txtCase2': '',
-                'MasterPage$mainContent$rblSearchDateToUse2': 'Date Occurred',
+                'MasterPage$mainContent$rblSearchDateToUse2': 'Date Reported',
                 'MasterPage$mainContent$ddlDates2': 'Specify Date', 'MasterPage$mainContent$txtLName2': '',
                 'MasterPage$mainContent$txtFName2': '', 'MasterPage$mainContent$txtMName2': '',
                 'MasterPage$mainContent$txtStreetNo2': '', 'MasterPage$mainContent$txtStreetName2': '',
@@ -23,7 +23,7 @@ search_items = {'__EVENTTARGET': 'MasterPage$mainContent$cmdSubmit2', '__EVENTAR
 community_item = {'MasterPage$mainContent$CGeoCityDDL12': ''}  # testing
 
 s = requests.Session()
-
+county_st = ''
 
 def types_available(page):
     global search_items
@@ -38,23 +38,6 @@ def find_v_e(page):
     v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
     return {'__VIEWSTATE': v, '__EVENTVALIDATION': e}
-
-
-def find_range(farback):
-    date_wanted = (datetime.datetime.today() - datetime.timedelta(days=farback)).strftime('%m/%d/%Y')
-    return {'MasterPage$mainContent$txtDateFrom2': date_wanted, 'MasterPage$mainContent$txtDateTo2': date_wanted}
-
-
-def make_date_ranges(howfar):
-    date_ranges = []
-    while howfar >= 0:
-        date_ranges.append(find_range(howfar))
-        howfar -= 1
-    return date_ranges
-
-
-def format_db_date(date_string):
-    return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M').strftime('%Y/%m/%d %H:%M')
 
 
 # remove the stray semicolon beautiful soup adds
@@ -83,6 +66,7 @@ def number_of_pages(soup):
 
 #find records in pages
 def find_records(soup, community, agency):
+    global date_range
     records = soup.find_all('tr', class_='EventSearchGridRow')
     v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
@@ -95,8 +79,18 @@ def find_records(soup, community, agency):
         id_and_type = {}
         record_fields = record.find_all('td')
         id_and_type['record_type'] = record_fields[2].string.strip()  # record type
-        data['occurred_date'] = format_db_date(record_fields[1].string.strip())  # date
-        data['address'] = re.sub(r' +', ' ', record_fields[4].string.strip())  #address
+        data['occurred_date'] = date_formatters.format_db_datetime(record_fields[1].string.strip())  # date
+        data['address'] = re.sub(r' +', ' ', record_fields[4].string.strip())
+        if re.search('[A-Za-z]+',data['address']) is not None:
+            data['address'] = data['address'] + county_st
+        if id_and_type['record_type'] == 'Incident':
+            data['reported_date'] = date_formatters.format_db_date(date_range['MasterPage$mainContent$txtDateFrom2'])
+            data['date_reported'] = data['reported_date']
+            data['time_reported'] = ''
+            data['on_date'] = data['occurred_date']
+        else:
+            data['date_occurred'] = date_formatters.format_db_date_part(record_fields[1].string.strip())
+            data['time_occurred'] = date_formatters.format_db_time_part(record_fields[1].string.strip()) 
         if id_and_type['record_type'] != 'Accident':
             data['charge'] = remove_semicolon(
                 record_fields[3].find_all('strong')[1].next_sibling.strip()
@@ -113,15 +107,6 @@ def find_records(soup, community, agency):
                 id_and_type['record_id'] = hashlib.sha224(data['occurred_date'] + data['address']).hexdigest()
             else:
                 id_and_type['record_id'] = record_fields[3].find_all('strong')[0].next_sibling.strip()  # case number
-        # geocoded = bing_geocode.geocode(new_record[5] + ', NC')
-        # if geocoded['geocoded']:
-        #     new_record[5] = geocoded['address']
-        #     new_record[6] = geocoded['city']
-        #     new_record[7] = geocoded['county']
-        #     new_record[8] = geocoded['state']
-        #     new_record[9] = geocoded['zip_code']
-        #     new_record[10] = geocoded['lat']
-        #     new_record[11] = geocoded['lon']
 #this is to download the pdf. not sure if we want to try that now.
 #        data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], data['record_id'],
 #                                v_e)  # pdf stuff, but this isn't going to help us right now
@@ -211,9 +196,14 @@ def fetch_page(url, page, page_number, community, code, agency):
 def start_scrape(agency, url, howfar, county):
     global date_range
     global communities
+    global county_st
+    if county.find('County') == -1:
+        county_st = ', ' + county + ' County, NC'
+    else :
+        county_st = ', ' + county + ', NC'
     page = pass_disclaimer(url)
     communities = find_communities(page.text, county)
-    date_ranges = make_date_ranges(howfar)
+    date_ranges = date_formatters.make_date_ranges(howfar)
     for current_date_range in date_ranges:
         date_range = current_date_range
         for community, code in communities.items():

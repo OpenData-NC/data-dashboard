@@ -29,7 +29,7 @@ CREATE TABLE `accidents` (
   `name2` varchar(250) DEFAULT NULL,
   `occurred_date` datetime DEFAULT NULL,
   `date_occurred` date DEFAULT NULL,
-  `time_date` time DEFAULT NULL,
+  `time_occurred` time DEFAULT NULL,
   `address` varchar(250) DEFAULT NULL,
   `reporting_officer` varchar(250) DEFAULT NULL,
   `pdf` varchar(250) DEFAULT NULL,
@@ -71,7 +71,7 @@ CREATE TABLE `arrests` (
   `sex` char(3) DEFAULT NULL,
   `occurred_date` datetime DEFAULT NULL,
   `date_occurred` date DEFAULT NULL,
-  `time_date` time DEFAULT NULL,
+  `time_occurred` time DEFAULT NULL,
   `address` varchar(250) DEFAULT NULL,
   `charge` varchar(250) DEFAULT NULL,
   `offense_code` char(3) DEFAULT NULL,
@@ -115,10 +115,9 @@ CREATE TABLE `citations` (
   `sex` char(3) DEFAULT NULL,
   `occurred_date` datetime DEFAULT NULL,
   `date_occurred` date DEFAULT NULL,
-  `time_date` time DEFAULT NULL,
+  `time_occurred` time DEFAULT NULL,
   `address` varchar(250) DEFAULT NULL,
   `charge` varchar(250) DEFAULT NULL,
-  `offense_code` char(3) DEFAULT NULL,
   `reporting_officer` varchar(250) DEFAULT NULL,
   `pdf` varchar(250) DEFAULT NULL,
   `street_address` varchar(250) DEFAULT NULL,
@@ -160,6 +159,9 @@ CREATE TABLE `incidents` (
   `on_date` datetime DEFAULT NULL,
   `from_date` datetime DEFAULT NULL,
   `to_date` datetime DEFAULT NULL,
+  `reported_date` datetime DEFAULT NULL,
+  `date_reported` date DEFAULT NULL,
+  `time_reported` time DEFAULT NULL,
   `address` varchar(250) DEFAULT NULL,
   `charge` varchar(250) DEFAULT NULL,
   `offense_code` char(3) DEFAULT NULL,
@@ -196,4 +198,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-06-24 14:46:57
+-- Dump completed on 2014-06-27 12:32:46

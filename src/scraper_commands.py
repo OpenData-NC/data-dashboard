@@ -11,7 +11,7 @@ all_data = {'Incident': [], 'Arrest': [], 'Accident': [], 'Citation': []}
 required_fields = {
     'Incident': [
         'record_id', 'agency', 'name', 'age', 'race', 'sex', 'on_date', 'from_date'
-        , 'to_date', 'address', 'charge', 'offense_code', 'reporting_officer']
+        , 'to_date', 'reported_date', 'date_reported', 'time_reported', 'address', 'charge', 'offense_code', 'reporting_officer']
         ,
     'Accident': ['record_id', 'agency', 'name1', 'name2', 'occurred_date'
         , 'date_occurred', 'time_occurred', 'address', 'reporting_officer'
@@ -23,7 +23,7 @@ required_fields = {
     ],
     'Citation': [
         'record_id', 'agency', 'name','age', 'race', 'sex', 'occurred_date'
-        , 'date_occurred', 'time_occurred', 'address', 'charge', 'reporting_officer'
+        , 'date_occurred', 'time_occurred', 'address', 'charge', 'reporting officer'
     ]
 }
 #these are added to required fields, are common to all
@@ -46,10 +46,10 @@ def check_data(data):
 #this takes our final collection of data, going through each data type to create a file name (e.g., arrest.txt)
 #and printing out all of that data into the file. so we end up with a tab-delimited file for each record type.
 #later we'll take these files and insert them into their tables.
-def print_files(data):
+def print_files(data,data_dir):
     for record_type, records in data.iteritems():
         holder = ''
-        data_file = record_type + '.txt'
+        data_file = data_dir + '/' + record_type + '.txt'
         for record in records:
             holder = holder + record + "\n"
         with open(data_file, 'w') as f:
