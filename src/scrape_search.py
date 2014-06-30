@@ -49,7 +49,12 @@ def remove_semicolon(text):
 def find_communities(page, county='None'):
     communities_available = {}
     soup = BeautifulSoup(page)
-    options = soup.find_all("select", class_="geofields2")[0].find_all("option")
+    if len(soup.find_all("select", class_="geofields2")) > 0:
+        options = soup.find_all("select", class_="geofields2")[0].find_all("option")
+    elif soup.find_all("select", class_="geofields") > 0:
+        options = soup.find_all("select", class_="geofields")[0].find_all("option")
+    else:
+        return communities_available
     for option in options:
         if option.string is None:
             community = county

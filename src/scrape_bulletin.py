@@ -55,7 +55,7 @@ def parse_incident(piece, id_and_type, officer):
     matches = m.search(piece.text)
     if not matches:
         m = re.compile(
-            '(?P<name>.*) VICTIM of (?P<charge>[^.+]+) \((?P<offense_code>[A-Z ])\), at (?P<address>.+),'
+            '(?P<name>.*) VICTIM of (?P<charge>.+) \((?P<offense_code>[A-Z ])\), at (?P<address>.+),'
             ' +(?P<on_or_between>between|on) (?P<occurred_date>[^\.]+)\. Reported: (?P<reported_date>[^\.]+)\.')
         matches = m.search(piece.text)
     data = matches.groupdict()
