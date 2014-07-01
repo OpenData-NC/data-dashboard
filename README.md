@@ -14,7 +14,7 @@ The script scrape.py pulls from a [Google spreadsheet](https://docs.google.com/s
 
 If the P2C site has a [daily bulletin](http://p2c.wakeso.net/dailybulletin.aspx), we try to scrape that. If not, we use the site's ["Event Search" interface](http://p2c.wakeso.net/Summary.aspx).
 
-The data is being compiled into tab-delimited files based on record type (accident, arrest, citation, incident) and loaded into a dabase. Ultimately we will:
+The data is being compiled into tab-delimited files based on record type (accident, arrest, citation, incident) and loaded into a database. Ultimately we will:
 
 * load that data into database tables
 * geocode and standardize addresses
