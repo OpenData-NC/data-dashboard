@@ -1,11 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import shutil
+#import shutil
 import hashlib
 
 import scraper_commands
 import date_formatters
+import store_pdf
 #import bing_geocode
 
 
@@ -70,7 +71,7 @@ def number_of_pages(soup):
 
 
 #find records in pages
-def find_records(soup, community, agency):
+def find_records(soup, community, agency, url):
     global date_range
     records = soup.find_all('tr', class_='EventSearchGridRow')
     v = soup.find('input', {'id': "__VIEWSTATE"})['value']
@@ -113,28 +114,28 @@ def find_records(soup, community, agency):
             else:
                 id_and_type['record_id'] = record_fields[3].find_all('strong')[0].next_sibling.strip()  # case number
 #this is to download the pdf. not sure if we want to try that now.
-#        data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], data['record_id'],
-#                                v_e)  # pdf stuff, but this isn't going to help us right now
+        data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type,
+                                agency, v_e, url)  # pdf stuff, but this isn't going to help us right now
 
         data = dict(data.items() + other_data.items() + id_and_type.items() + {'agency': agency}.items())
         scraper_commands.all_data[id_and_type['record_type']].append(scraper_commands.check_data(data))
 
 
-def dl_pdf(target, record_id, v_e):
+def dl_pdf(target, id_and_type, agency, v_e, url):
     if target == '' or target is None:
         return ''
-    global search_items, url, date_range, community_item
+    pdf_file = store_pdf.create_file_name(id_and_type['record_id'],id_and_type['record_type'],agency)
+    if store_pdf.file_exists(pdf_file):
+        return pdf_file
+    global search_items, date_range, community_item
     pdf_search_items = search_items
     pdf_search_items['__EVENTTARGET'] = target
     pdf_search_items['__EVENTARGUMENT'] = ''
     payload = dict(pdf_search_items.items() + v_e.items() + date_range.items() + community_item.items())
     referer = {'Referer': url}
     pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
-    file_name = record_id + '.pdf'
-    with open(file_name, 'wb') as out_file:
-        shutil.copyfileobj(pdf_response.raw, out_file)
-    del pdf_response
-    return file_name
+    pdf_file = store_pdf.store_file(pdf_response,pdf_file)
+    return pdf_file
 
 
 #parse ints
@@ -193,7 +194,7 @@ def fetch_page(url, page, page_number, community, code, agency):
         return
     if page_number == 1:
         pages_of_records = number_of_pages(soup)
-    records = find_records(soup, community, agency)
+    records = find_records(soup, community, agency, url)
     page_number += 1
     if page_number <= pages_of_records:
         fetch_page(url, page, page_number, community, code, agency)

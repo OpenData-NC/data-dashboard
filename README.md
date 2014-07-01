@@ -29,7 +29,7 @@ Google spreadsheets
 The following non-standard Python modules:
 * Requests
 * BeautifulSoup
-
+* python-slugify
 What's in here
 --------------
 
@@ -37,9 +37,12 @@ What's in here
 * src/scraper_commands.py: Functions to pull and format the Google spreadsheet, to make sure we have spots for all the data fields and to print out the tab-delimited data files.
 * src/date_formatters.py: Functions to format dates in the vaarious ways we need them (just date, just time, database format, for submitting in forms)
 * src/db_load.py: First iteration of function to load our data using local infile and replace.
+* src/store_pdf.py: Functions to create file names and directory structure and to store PDFs of reports downloaded from sites (only on search scrapes for now)
 * src/scrape_bulletin.py: Functions specific to pulling and formatting data from sites that have Daily Bulletins available.
 * src/scrape_search.py: Functions specific to pulling and formatting data from sites that don't have Daily Bulletins. Instead, we use the Event Search.
 
 * sql/crime_scrapers.sql: SQL to create our tables
 
 * data/[various].txt: Example output of the tab-delimited files created by the scripts
+
+* pdf/...: Examples of downloaded report PDFs
