@@ -4,8 +4,27 @@ import hashlib
 
 import scraper_commands
 import date_formatters
+import store_pdf
 import requests
 from bs4 import BeautifulSoup
+
+
+# disclaimer_items = {'_popupBlockerExists': 'true', '__EVENTTARGET': '', '__EVENTARGUMENT': '', '__LASTFOCUS': '',
+# 'ctl00$MasterPage$DDLSiteMap1$ddlQuickLinks': '~/main.aspx',
+# 'ctl00$MasterPage$mainContent$CenterColumnContent$btnContinue': 'I Agree'}
+
+# search_items = {'__EVENTTARGET': 'MasterPage$mainContent$cmdSubmit2', '__EVENTARGUMENT': '', '__LASTFOCUS': '',
+# 'MasterPage$DDLSiteMap1$ddlQuickLinks': '~/main.aspx', 'MasterPage$mainContent$txtCase2': '',
+# 'MasterPage$mainContent$rblSearchDateToUse2': 'Date Reported',
+# 'MasterPage$mainContent$ddlDates2': 'Specify Date', 'MasterPage$mainContent$txtLName2': '',
+# 'MasterPage$mainContent$txtFName2': '', 'MasterPage$mainContent$txtMName2': '',
+# 'MasterPage$mainContent$txtStreetNo2': '', 'MasterPage$mainContent$txtStreetName2': '',
+# 'MasterPage$mainContent$ddlNeighbor2': '', 'MasterPage$mainContent$ddlRange2': '',
+# 'MasterPage$mainContent$addresslat': '', 'MasterPage$mainContent$addresslng': '','MasterPage$mainContent$txtDateFrom2': '', 'MasterPage$mainContent$txtDateTo2': ''}
+
+main_url = ''
+
+s = requests.Session()
 
 #make an array of formatted dates we'll use to grab
 #each of the bulletin pages
@@ -64,6 +83,8 @@ def parse_incident(piece, id_and_type, officer):
     data['date_reported'] = date_formatters.format_db_date_part(data['reported_date'])
     data['time_reported'] = date_formatters.format_db_time_part(data['reported_date'])
     data = date_formatters.format_reported_date(data, 'reported_date')
+    data['pdf'] = find_pdf(data, id_and_type)
+
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
 
@@ -96,6 +117,10 @@ def parse_arrest(piece, id_and_type, officer):
 #        id_and_type['record_id'] = hashlib.sha224( + matches[0][2] + matches[0][3] + matches[0][4] + matches[0][5]) \
         id_and_type['record_id'] = hashlib.sha224(data['name'] + data['occurred_date'] + data['address']
              + data['charge']).hexdigest()
+    else:
+        data['date_reported'] = date_formatters.format_db_date(data['occurred_date'].split(' ')[0])
+        data['pdf'] = find_pdf(data, id_and_type)
+
     data = date_formatters.format_date_time(data, 'occurred_date')
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
@@ -124,6 +149,8 @@ def parse_accident(piece, id_and_type, officer):
     # names might be more than one
     data = people_in_accident(data)
     data = date_formatters.format_date_time(data, 'occurred_date')
+    data['date_reported'] = date_formatters.format_db_date(data['occurred_date'].split(' ')[0])
+    data['pdf'] = find_pdf(data,id_and_type)
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
 
@@ -149,11 +176,168 @@ def people_in_accident(data):
             names[key] = people[i]
     return dict(data.items() + names.items())
 
+
+def find_pdf(data,id_and_type):
+#    print id_and_type
+    global main_url
+    if main_url == '':
+        return ''
+    page = s.get(main_url)
+    soup = BeautifulSoup(page.text)
+    payload = extract_form_fields(soup)
+	if 'MasterPage$mainContent$txtDateFrom2' in payload:
+		payload['MasterPage$mainContent$txtDateFrom2'] = payload['MasterPage$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
+		payload['MasterPage$mainContent$txtCase2'] = id_and_type['record_id']
+		payload['MasterPage$mainContent$rblSearchDateToUse2'] = 'Date Reported'
+		payload['__EVENTTARGET'] = 'MasterPage$mainContent$cmdSubmit2'
+	if 'MasterPage$mainContent$txtDateFrom$txtDatePicker' in payload:
+		payload['MasterPage$mainContent$txtDateFrom$txtDatePicker'] = payload['MasterPage$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(data['date_reported'])
+		payload['MasterPage$mainContent$txtCase'] = id_and_type['record_id']
+		payload['MasterPage$mainContent$rblSearchDateToUse'] = 'Date Reported'
+		payload['__EVENTTARGET'] = 'Search'
+	
+#     here is where we shouldturn on the record type
+#    print payload
+#    exit()
+    referer = {'Referer': main_url}
+    page = s.post(main_url, data=payload, headers=referer)
+    soup = BeautifulSoup(page.text)
+    records = soup.find_all('tr', class_='EventSearchGridRow')
+#    print records
+#    exit()
+    payload = extract_form_fields(soup)
+    # v = soup.find('input', {'id': "__VIEWSTATE"})['value']
+    # e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
+    # v_e = {'__VIEWSTATE': v, '__EVENTVALIDATION': e}
+#we should only have one. if not, something's wrong
+    if not records or len(records) > 1:
+        return ''
+    for record in records:
+        record_fields = record.find_all('td')
+        return dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type, payload, main_url)
+
+
+def dl_pdf(target, id_and_type, payload, url):
+    print target
+    if target == '' or target is None:
+        return ''
+    pdf_file = store_pdf.create_file_name(id_and_type['record_id'],id_and_type['record_type'],id_and_type['agency'])
+    if store_pdf.file_exists(pdf_file):
+        return pdf_file
+    # pdf_search_items = dict(search_items.items())
+    # pdf_search_items['__EVENTTARGET'] = target
+    # pdf_search_items['__EVENTARGUMENT'] = ''
+    # payload = dict(pdf_search_items.items() + v_e.items())
+    payload['__EVENTTARGET'] = target
+    referer = {'Referer': url}
+    pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
+    pdf_file = store_pdf.store_file(pdf_response,pdf_file)
+    return pdf_file
+
+
+def pass_disclaimer(url):
+#    print "Passing disclaimer"
+    page = s.get(url)
+    if page.url != url:
+        disclaimer_url = page.url
+        soup = BeautifulSoup(page.text)
+        payload = extract_form_fields(soup)
+        referer = {'Referer': disclaimer_url}
+        page = s.post(disclaimer_url, data=payload, headers=referer)
+#        types_available(page)
+
+
+
+def types_available(page):
+    global search_items
+    soup = BeautifulSoup(page.text)
+    checkboxes = soup.find_all('input', {'type': 'checkbox'})
+    for checkbox in checkboxes:
+        search_items[checkbox['name']] = 'on'
+
+def extract_form_fields(soup):
+    fields = {}
+    for input in soup.findAll('input'):
+        # ignore submit/image with no name attribute
+        if input['type'] in ('submit', 'image') and not input.has_attr('name'):
+            continue
+        
+        # single element nome/value fields
+        if input['type'] in ('text', 'hidden', 'password', 'submit', 'image'):
+            value = ''
+            if input.has_attr('value'):
+                value = input['value']
+            fields[input['name']] = value
+            continue
+        
+        # checkboxes and radios
+        if input['type'] in ('checkbox', 'radio'):
+            value = ''
+            if input.has_attr('checked'):
+                if input.has_attr('value'):
+                    value = input['value']
+                else:
+                    value = 'on'
+            if fields.has_key(input['name']) and value:
+                fields[input['name']] = value
+            
+            if not fields.has_key(input['name']):
+                fields[input['name']] = value
+            
+            continue
+        
+        assert False, 'input type %s not supported' % input['type']
+    
+    # textareas
+    for textarea in soup.findAll('textarea'):
+        fields[textarea['name']] = textarea.string or ''
+    
+    # select fields
+    for select in soup.findAll('select'):
+        value = ''
+        options = select.findAll('option')
+        is_multiple = select.has_attr('multiple')
+        selected_options = [
+            option for option in options
+            if option.has_attr('selected')
+        ]
+        
+        # If no select options, go with the first one
+        if not selected_options and options:
+            selected_options = [options[0]]
+        
+        if not is_multiple:
+            assert(len(selected_options) < 2)
+            if len(selected_options) == 1:
+                value = selected_options[0]['value']
+        else:
+            value = [option['value'] for option in selected_options]
+        
+        fields[select['name']] = value
+    
+    return fields
+
+def find_v_e(page):
+    soup = BeautifulSoup(page)
+    v = soup.find('input', {'id': "__VIEWSTATE"})['value']
+    e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
+    return {'__VIEWSTATE': v, '__EVENTVALIDATION': e}
+
+
 def try_bulletin(url):
-    bulletin_url = re.sub('Summary', 'dailybulletin', url)
+    global main_url
+    main_url = url
+    if url.find('Summary') != -1:
+        bulletin_url = re.sub('Summary', 'dailybulletin', url)
+    else:
+         bulletin_url = url
+         main_url = ''
     page = requests.get(bulletin_url)
     if page.url != bulletin_url:
+        print "no"
+        print page.url
         return False
+    pass_disclaimer(url)
     return bulletin_url
 
 
@@ -164,7 +348,6 @@ def start_scrape(agency, url, howfar):
     :param howfar: How many days back to scrape
     """
     print_url = re.sub('dailybulletin', 'DailyBulletinPrint', url)
-    s = requests.Session()
     s.get(url)
     dates = date_formatters.make_dates(howfar)
     for date in dates:
