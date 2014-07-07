@@ -114,8 +114,13 @@ def find_records(soup, community, agency, url):
             else:
                 id_and_type['record_id'] = record_fields[3].find_all('strong')[0].next_sibling.strip()  # case number
 #this is to download the pdf. not sure if we want to try that now.
-        data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type,
-                                agency, v_e, url)  # pdf stuff, but this isn't going to help us right now
+        has_gif = record_fields[5].find('a').find('div')
+        if has_gif is None:
+            #there's no pdf
+            return ''
+        else:
+            data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type,
+                                    agency, v_e, url)  # pdf stuff
 
         data = dict(data.items() + other_data.items() + id_and_type.items() + {'agency': agency}.items())
         scraper_commands.all_data[id_and_type['record_type']].append(scraper_commands.check_data(data))
@@ -184,7 +189,6 @@ def fetch_page(url, page, page_number, community, code, agency):
     else:
         search_items['__EVENTTARGET'] = 'MasterPage$mainContent$cmdSubmit2'
         search_items['__EVENTARGUMENT'] = ''
-
     payload = dict(search_items.items() + v_e.items() + date_range.items() + community_item.items())
     referer = {'Referer': url}
     page = s.post(url, data=payload, headers=referer)
@@ -198,6 +202,69 @@ def fetch_page(url, page, page_number, community, code, agency):
     page_number += 1
     if page_number <= pages_of_records:
         fetch_page(url, page, page_number, community, code, agency)
+
+
+def extract_form_fields(soup):
+    fields = {}
+    for input in soup.findAll('input'):
+        # ignore submit/image with no name attribute
+        if input['type'] in ('submit', 'image') and not input.has_attr('name'):
+            continue
+        
+        # single element nome/value fields
+        if input['type'] in ('text', 'hidden', 'password', 'submit', 'image'):
+            value = ''
+            if input.has_attr('value'):
+                value = input['value']
+            fields[input['name']] = value
+            continue
+        
+        # checkboxes and radios
+        if input['type'] in ('checkbox', 'radio'):
+            value = ''
+            if input.has_attr('checked'):
+                if input.has_attr('value'):
+                    value = input['value']
+                else:
+                    value = 'on'
+            if fields.has_key(input['name']) and value:
+                fields[input['name']] = value
+            
+            if not fields.has_key(input['name']):
+                fields[input['name']] = value
+            
+            continue
+        
+        assert False, 'input type %s not supported' % input['type']
+    
+    # textareas
+    for textarea in soup.findAll('textarea'):
+        fields[textarea['name']] = textarea.string or ''
+    
+    # select fields
+    for select in soup.findAll('select'):
+        value = ''
+        options = select.findAll('option')
+        is_multiple = select.has_attr('multiple')
+        selected_options = [
+            option for option in options
+            if option.has_attr('selected')
+        ]
+        
+        # If no select options, go with the first one
+        if not selected_options and options:
+            selected_options = [options[0]]
+        
+        if not is_multiple:
+            assert(len(selected_options) < 2)
+            if len(selected_options) == 1:
+                value = selected_options[0]['value']
+        else:
+            value = [option['value'] for option in selected_options]
+        
+        fields[select['name']] = value
+    
+    return fields
 
 def start_scrape(agency, url, howfar, county):
     global date_range

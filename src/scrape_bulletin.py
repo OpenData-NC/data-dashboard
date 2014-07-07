@@ -185,26 +185,61 @@ def find_pdf(data,id_and_type):
     page = s.get(main_url)
     soup = BeautifulSoup(page.text)
     payload = extract_form_fields(soup)
-	if 'MasterPage$mainContent$txtDateFrom2' in payload:
-		payload['MasterPage$mainContent$txtDateFrom2'] = payload['MasterPage$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
-		payload['MasterPage$mainContent$txtCase2'] = id_and_type['record_id']
-		payload['MasterPage$mainContent$rblSearchDateToUse2'] = 'Date Reported'
-		payload['__EVENTTARGET'] = 'MasterPage$mainContent$cmdSubmit2'
-	if 'MasterPage$mainContent$txtDateFrom$txtDatePicker' in payload:
-		payload['MasterPage$mainContent$txtDateFrom$txtDatePicker'] = payload['MasterPage$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(data['date_reported'])
-		payload['MasterPage$mainContent$txtCase'] = id_and_type['record_id']
-		payload['MasterPage$mainContent$rblSearchDateToUse'] = 'Date Reported'
-		payload['__EVENTTARGET'] = 'Search'
-	
-#     here is where we shouldturn on the record type
-#    print payload
-#    exit()
+    types = {'Arrest':'AR','Accident':'TA','Incident':'LW','Citation':'TC'}
+    this_type = types[id_and_type['record_type']]
+#try to figure out what version it is
+    if 'MasterPage$mainContent$txtDateFrom2' in payload:
+        payload['MasterPage$mainContent$txtDateFrom2'] = payload['MasterPage$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
+        payload['MasterPage$mainContent$txtCase2'] = id_and_type['record_id']
+        payload['MasterPage$mainContent$rblSearchDateToUse2'] = 'Date Reported'
+        payload['__EVENTTARGET'] = 'MasterPage$mainContent$cmdSubmit2'
+    if 'ctl00$mainContent$txtDateFrom2' in payload:
+        payload['ctl00$mainContent$txtDateFrom2'] = payload['ctl00$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
+        if 'ct100$mainContent$btnReset' in payload:
+            del payload['ct199$mainContent$btnReset']
+        if 'MasterPage$DDLSiteMap1$ddlQuickLinks' in payload and payload['MasterPage$DDLSiteMap1$ddlQuickLinks'] == '':
+            del payload['MasterPage$DDLSiteMap1$ddlQuickLinks']
+        payload['ctl00$mainContent$txtCase2'] = id_and_type['record_id']
+        payload['ctl00$mainContent$rblSearchDateToUse2'] = 'Date Reported'
+        payload['__EVENTTARGET'] = 'ctl00$mainContent$cmdSubmit2'
+    if 'MasterPage$mainContent$txtDateFrom$txtDatePicker' in payload:
+        payload['MasterPage$mainContent$txtDateFrom$txtDatePicker'] = payload['MasterPage$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(data['date_reported'])
+        if 'MasterPage$mainContent$btnReset' in payload:
+            del payload['MasterPage$mainContent$btnReset']
+        if 'MasterPage$DDLSiteMap1$ddlQuickLinks' in payload and payload['MasterPage$DDLSiteMap1$ddlQuickLinks'] == '':
+            del payload['MasterPage$DDLSiteMap1$ddlQuickLinks']
+        payload['MasterPage$mainContent$txtCase'] = id_and_type['record_id']
+        payload['MasterPage$mainContent$rblSearchDateToUse'] = 'Date Reported'
+        payload['__EVENTTARGET'] = 'Search'
+    if 'ctl00$mainContent$txtDateFrom$txtDatePicker' in payload:
+        payload['ctl00$mainContent$txtDateFrom$txtDatePicker'] = payload['ctl00$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(data['date_reported'])
+        if 'ctl00$mainContent$btnReset' in payload:
+            del payload['ctl00$mainContent$btnReset']
+        payload['ctl00$mainContent$txtCase'] = id_and_type['record_id']
+        payload['ctl00$mainContent$rblSearchDateToUse'] = 'Date Reported'
+        payload['ctl00$mainContent$cmdSubmit'] = 'Search'
+        payload['__EVENTTARGET'] = ''
+        payload['__EVENTARGUMENT'] = ''
+        payload['__LASTFOCUS'] = ''
+#check to see if our type is available. if it is, only
+#only search for that type. incidents and arrests on the same event
+#sometimes have the same case number
+    found_type = False
+    check_payload = dict(payload.items())
+    for key, value in check_payload.iteritems():
+        if value == 'on':
+            if key.find(this_type) != -1:
+                found_type = True
+            else:
+                del payload[key]
+#the type of record we're searching for isn't available
+#via aearch
+    if not found_type:
+        return ''
     referer = {'Referer': main_url}
     page = s.post(main_url, data=payload, headers=referer)
     soup = BeautifulSoup(page.text)
     records = soup.find_all('tr', class_='EventSearchGridRow')
-#    print records
-#    exit()
     payload = extract_form_fields(soup)
     # v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     # e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
@@ -213,11 +248,23 @@ def find_pdf(data,id_and_type):
     if not records or len(records) > 1:
         return ''
     for record in records:
-        record_fields = record.find_all('td')
-        return dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type, payload, main_url)
+        record_fields = record.find_all('td',attrs={'class':None})
+        has_gif = record_fields[5].find('a').find('div')
+        if has_gif is None:
+            #there's no pdf
+            return ''
+        report = record_fields[5].find('a')['href']
+        if report is not None:
+            m = re.compile(r"'(?P<first>[^']*)','(?P<second>[^']*)'")
+            matches = m.search(report)
+            data = matches.groupdict()
+            target = data['first']
+            argument = data['second']
+#            return dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type, payload, main_url)
+            return dl_pdf(target, argument, id_and_type, payload, main_url)
 
 
-def dl_pdf(target, id_and_type, payload, url):
+def dl_pdf(target, argument, id_and_type, payload, url):
     print target
     if target == '' or target is None:
         return ''
@@ -229,6 +276,12 @@ def dl_pdf(target, id_and_type, payload, url):
     # pdf_search_items['__EVENTARGUMENT'] = ''
     # payload = dict(pdf_search_items.items() + v_e.items())
     payload['__EVENTTARGET'] = target
+    if 'ctl00$mainContent$btnReset' in payload:
+        del payload['ctl00$mainContent$btnReset']
+    if 'ctl00$mainContent$cmdSubmit' in payload:
+        del payload['ctl00$mainContent$cmdSubmit']
+    if argument != '':
+        payload['__EVENTARGUMENT'] = argument
     referer = {'Referer': url}
     pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
     pdf_file = store_pdf.store_file(pdf_response,pdf_file)
@@ -254,6 +307,7 @@ def types_available(page):
     checkboxes = soup.find_all('input', {'type': 'checkbox'})
     for checkbox in checkboxes:
         search_items[checkbox['name']] = 'on'
+
 
 def extract_form_fields(soup):
     fields = {}
@@ -334,8 +388,6 @@ def try_bulletin(url):
          main_url = ''
     page = requests.get(bulletin_url)
     if page.url != bulletin_url:
-        print "no"
-        print page.url
         return False
     pass_disclaimer(url)
     return bulletin_url
