@@ -44,7 +44,10 @@ def format_db_date_part(date_string):
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M:%S').strftime('%Y/%m/%d')
     else:
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M').strftime('%Y/%m/%d')
-    
+
+		
+def format_search_date(date_string):
+    return datetime.datetime.strptime(date_string, '%Y/%m/%d').strftime('%m/%d/%Y')
 
 
 def format_db_time_part(date_string):
