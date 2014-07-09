@@ -37,6 +37,10 @@ def format_db_date(date_string):
     return datetime.datetime.strptime(date_string, '%m/%d/%Y').strftime('%Y/%m/%d')
 
 
+def format_search_date(date_string):
+    return datetime.datetime.strptime(date_string, '%Y/%m/%d').strftime('%m/%d/%Y')
+
+
 def format_db_date_part(date_string):
     if date_string.find('M') != -1:
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %I:%M:%S %p').strftime('%Y/%m/%d')
@@ -44,10 +48,7 @@ def format_db_date_part(date_string):
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M:%S').strftime('%Y/%m/%d')
     else:
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M').strftime('%Y/%m/%d')
-
-		
-def format_search_date(date_string):
-    return datetime.datetime.strptime(date_string, '%Y/%m/%d').strftime('%m/%d/%Y')
+    
 
 
 def format_db_time_part(date_string):
@@ -87,7 +88,10 @@ def format_reported_date(data,position):
 def on_between(data):
     on_and_between = {'on_date': '', 'from_date': '', 'to_date': ''}
     if data['on_or_between'] == 'on':
-        on_and_between['on_date'] = format_db_datetime(data['occurred_date'].split(', ')[0])
+        date_pieces = data['occurred_date'].split(', ')
+        if date_pieces[0].find(':') == -1:
+            date_pieces[0] = (' ').join(date_pieces)
+        on_and_between['on_date'] = format_db_datetime(date_pieces[0])
     else:
         pieces = data['occurred_date'].split(' and ')
         from_date_pieces = pieces[0].split(', ')

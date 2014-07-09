@@ -77,12 +77,19 @@ def parse_incident(piece, id_and_type, officer):
             '(?P<name>.*) VICTIM of (?P<charge>.+) \((?P<offense_code>[A-Z ])\), at (?P<address>.+),'
             ' +(?P<on_or_between>between|on) (?P<occurred_date>[^\.]+)\. Reported: (?P<reported_date>[^\.]+)\.')
         matches = m.search(piece.text)
+    if not matches:
+        return
     data = matches.groupdict()
     data = race_sex_age(data)
     data = date_formatters.on_between(data)
-    data['date_reported'] = date_formatters.format_db_date_part(data['reported_date'])
-    data['time_reported'] = date_formatters.format_db_time_part(data['reported_date'])
-    data = date_formatters.format_reported_date(data, 'reported_date')
+    if data['reported_date'].find(':') == -1:
+        data['reported_date'] = date_formatters.format_db_date(data['reported_date'])
+        data['date_reported'] = data['reported_date']
+        data['time_reported'] = ''
+    else:
+        data['date_reported'] = date_formatters.format_db_date_part(data['reported_date'])
+        data['time_reported'] = date_formatters.format_db_time_part(data['reported_date'])
+        data = date_formatters.format_reported_date(data, 'reported_date')
     data['pdf'] = find_pdf(data, id_and_type)
 
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
@@ -134,6 +141,8 @@ def parse_citation(piece, id_and_type, officer):
     if not matches:
         m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Cited on Charge of (?P<charge>.+)')
         matches = m.search(piece.text)
+    if not matches:
+        return
     data = matches.groupdict()
     data = race_sex_age(data)
     data = date_formatters.format_date_time(data, 'occurred_date')
@@ -145,6 +154,8 @@ def parse_accident(piece, id_and_type, officer):
     m = re.compile('On (?P<occurred_date>.+) at (.*), an accident occured on'
                    ' +(?P<address>[^\.]+)\..+Accident involving: (?P<names>.+)')
     matches = m.search(piece.text)
+    if not matches:
+        return
     data = matches.groupdict()
     # names might be more than one
     data = people_in_accident(data)
@@ -182,7 +193,10 @@ def find_pdf(data,id_and_type):
     global main_url
     if main_url == '':
         return ''
-    page = s.get(main_url)
+    try:
+        page = s.get(main_url)
+    except requests.exceptions.ConnectionError as e:
+        return ''
     soup = BeautifulSoup(page.text)
     payload = extract_form_fields(soup)
     types = {'Arrest':'AR','Accident':'TA','Incident':'LW','Citation':'TC'}
@@ -239,7 +253,7 @@ def find_pdf(data,id_and_type):
     referer = {'Referer': main_url}
     page = s.post(main_url, data=payload, headers=referer)
     soup = BeautifulSoup(page.text)
-    records = soup.find_all('tr', class_='EventSearchGridRow')
+    records = soup.find_all('tr', {"class":'EventSearchGridRow'})
     payload = extract_form_fields(soup)
     # v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     # e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']

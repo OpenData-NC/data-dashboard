@@ -1,7 +1,9 @@
+#!/usr/bin/env python
 import scrape_bulletin
 import scrape_search
 import scraper_commands
-data_dir = 'data'
+home_dir = '/home/vaughn.hagerty/crime-scrapers/'
+data_dir = home_dir + 'data'
 database = 'crime'
 user = {'user': 'db_username','pw':'db_pw'}
 commands_url = \

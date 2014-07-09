@@ -1,8 +1,8 @@
 import os
 import shutil
 from slugify import slugify
-
-parent_directory = 'pdfs'
+home_directory = '/home/vaughn.hagerty/crime-scrapers/'
+parent_directory = home_directory + 'pdfs'
 
 def store_file(pdf_response, path_to_file):
     if file_exists(path_to_file):

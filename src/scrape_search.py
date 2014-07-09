@@ -50,10 +50,10 @@ def remove_semicolon(text):
 def find_communities(page, county='None'):
     communities_available = {}
     soup = BeautifulSoup(page)
-    if len(soup.find_all("select", class_="geofields2")) > 0:
-        options = soup.find_all("select", class_="geofields2")[0].find_all("option")
+    if len(soup.find_all("select", {"class":"geofields2"})) > 0:
+        options = soup.find_all("select", {"class":"geofields2"})[0].find_all("option")
     elif soup.find_all("select", class_="geofields") > 0:
-        options = soup.find_all("select", class_="geofields")[0].find_all("option")
+        options = soup.find_all("select", {"class":"geofields"})[0].find_all("option")
     else:
         return communities_available
     for option in options:
@@ -67,13 +67,13 @@ def find_communities(page, county='None'):
 
 #how many pages of records?
 def number_of_pages(soup):
-    return num(soup.find_all('span', id='mainContent_lblPageCount')[0].find('b').next_sibling.split(' ').pop())
+    return num(soup.find_all('span', {"id":"mainContent_lblPageCount"})[0].find('b').next_sibling.split(' ').pop())
 
 
 #find records in pages
 def find_records(soup, community, agency, url):
     global date_range
-    records = soup.find_all('tr', class_='EventSearchGridRow')
+    records = soup.find_all('tr', {"class":"EventSearchGridRow"})
     v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
     v_e = {'__VIEWSTATE': v, '__EVENTVALIDATION': e}
@@ -138,7 +138,10 @@ def dl_pdf(target, id_and_type, agency, v_e, url):
     pdf_search_items['__EVENTARGUMENT'] = ''
     payload = dict(pdf_search_items.items() + v_e.items() + date_range.items() + community_item.items())
     referer = {'Referer': url}
-    pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
+    try:
+        pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
+    except requests.exceptions.ConnectionError as e:
+        return ''
     pdf_file = store_pdf.store_file(pdf_response,pdf_file)
     return pdf_file
 
@@ -152,7 +155,7 @@ def num(s):
 
 
 def has_records(soup):
-    if (len(soup.find_all('span', id='mainContent_lblRecordCount')) > 0):
+    if (len(soup.find_all('span', {"id":'mainContent_lblRecordCount'})) > 0):
         return True
     return False
 
@@ -165,7 +168,7 @@ def pass_disclaimer(url):
         disclaimer_url = page.url
         soup = BeautifulSoup(page.text)
         redirect_link = \
-            soup.find_all('select', id="DDLSiteMap1_ddlQuickLinks")[0].find_all('option',
+            soup.find_all('select', {"id":"DDLSiteMap1_ddlQuickLinks"})[0].find_all('option',
                                                                         attrs={'selected': "selected"})[0]['value']
         disclaimer_items['ctl00$MasterPage$DDLSiteMap1$ddlQuickLinks'] = redirect_link
         search_items['MasterPage$DDLSiteMap1$ddlQuickLinks'] = redirect_link
