@@ -1,7 +1,7 @@
 OSSI crime scrapers
 ===================
 
-Tools to let users create searchable tables, graphs, maps and other simple interactives, as well as links to and instructions for certain commonly used open-source tools.
+Scripts to scrape data from OSSI P2C sites.
 
 What is this?
 -------------
