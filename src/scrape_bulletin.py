@@ -117,8 +117,8 @@ def parse_arrest(piece, id_and_type, officer):
             return
     data = matches.groupdict()
     data = race_sex_age(data)
-    if id_and_type['record_id'] == '':
-        other_data['id_generated'] = "1"
+    if id_and_type['record_id'] is None or id_and_type['record_id'] == '':
+        other_data['id_generate'] = "1"
         if 'address' not in data:
             data['address'] = ''
 #        id_and_type['record_id'] = hashlib.sha224( + matches[0][2] + matches[0][3] + matches[0][4] + matches[0][5]) \
@@ -160,8 +160,15 @@ def parse_accident(piece, id_and_type, officer):
     # names might be more than one
     data = people_in_accident(data)
     data = date_formatters.format_date_time(data, 'occurred_date')
-    data['date_reported'] = date_formatters.format_db_date(data['occurred_date'].split(' ')[0])
-    data['pdf'] = find_pdf(data,id_and_type)
+    if id_and_type['record_id'] is None or id_and_type['record_id'] == '':
+        other_data['id_generate'] = "1"
+        if 'address' not in data:
+            data['address'] = ''
+        id_and_type['record_id'] = hashlib.sha224(data['names'] + data['occurred_date'] + data['address']
+             + data['charge']).hexdigest()
+    else:
+        data['date_reported'] = date_formatters.format_db_date(data['occurred_date'].split(' ')[0])
+        data['pdf'] = find_pdf(data,id_and_type)
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
 
@@ -279,7 +286,7 @@ def find_pdf(data,id_and_type):
 
 
 def dl_pdf(target, argument, id_and_type, payload, url):
-    print target
+#    print target
     if target == '' or target is None:
         return ''
     pdf_file = store_pdf.create_file_name(id_and_type['record_id'],id_and_type['record_type'],id_and_type['agency'])

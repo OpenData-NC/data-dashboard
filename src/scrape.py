@@ -2,10 +2,11 @@
 import scrape_bulletin
 import scrape_search
 import scraper_commands
+import db_load
 home_dir = '/home/vaughn.hagerty/crime-scrapers/'
 data_dir = home_dir + 'data'
 database = 'crime'
-user = {'user': 'db_username','pw':'db_pw'}
+user = {'user': 'crimeloader','pw':'redaolemirc'}
 commands_url = \
     'https://docs.google.com/spreadsheets/d/1353q8QCgtscYRBU0INeOKIhPAiXt2IXpdTjD3ufl8Ko/export?gid=0&format=csv'
 
@@ -24,7 +25,6 @@ def main():
         howfar = int(site['How far back'])
         #try for daily bulletin
         #if not, then go for search
-        print url
         bulletin_url = scrape_bulletin.try_bulletin(url)
         if bulletin_url:
             data = scrape_bulletin.start_scrape(agency, bulletin_url, howfar)
@@ -35,9 +35,9 @@ def main():
     #output data as tab-delimited text files named for the
     #record type (arrest.txt, incident.txt, citation.txt, accident.txt)
     scraper_commands.print_files(scraper_commands.all_data,data_dir)
-#    for data_type in scraper_commands.all_data:
-#        data_file = data_type + '.txt'
-#        table = data_type.lower() + 's'
-#        db_load.load(database,data_file, table, user)
+    for data_type in scraper_commands.all_data:
+        data_file = data_dir + '/' + data_type + '.txt'
+        table = data_type.lower() + 's'
+        db_load.load(database,data_file, table, user)
 if __name__ == "__main__":
     main()
