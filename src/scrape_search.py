@@ -284,6 +284,6 @@ def start_scrape(agency, url, howfar, county):
     for current_date_range in date_ranges:
         date_range = current_date_range
         for community, code in communities.items():
-            fetch_page(url, page, 1, community, code, agency)
+            fetch_page(url, page, 1, community, code, agency, county)
     return scraper_commands.all_data
 
