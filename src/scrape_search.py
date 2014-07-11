@@ -111,6 +111,7 @@ def find_records(soup, community, agency, url):
         else:
             if len(record_fields[3].find_all('strong')) == 0:
                 id_and_type['record_id'] = hashlib.sha224(data['occurred_date'] + data['address']).hexdigest()
+                other_data['id_generate'] = '1'
             else:
                 id_and_type['record_id'] = record_fields[3].find_all('strong')[0].next_sibling.strip()  # case number
 #this is to download the pdf. not sure if we want to try that now.
