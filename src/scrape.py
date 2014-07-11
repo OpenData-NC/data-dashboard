@@ -27,7 +27,7 @@ def main():
         #if not, then go for search
         bulletin_url = scrape_bulletin.try_bulletin(url)
         if bulletin_url:
-            data = scrape_bulletin.start_scrape(agency, bulletin_url, howfar)
+            data = scrape_bulletin.start_scrape(agency, county, bulletin_url, howfar)
         else:
             data = scrape_search.start_scrape(agency, url, howfar, county)
 #        for record_type in data:

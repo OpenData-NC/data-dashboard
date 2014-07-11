@@ -71,7 +71,7 @@ def number_of_pages(soup):
 
 
 #find records in pages
-def find_records(soup, community, agency, url):
+def find_records(soup, community, agency, county, url):
     global date_range
     records = soup.find_all('tr', {"class":"EventSearchGridRow"})
     v = soup.find('input', {'id': "__VIEWSTATE"})['value']
@@ -123,7 +123,7 @@ def find_records(soup, community, agency, url):
             data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type,
                                     agency, v_e, url)  # pdf stuff
 
-        data = dict(data.items() + other_data.items() + id_and_type.items() + {'agency': agency}.items())
+        data = dict(data.items() + other_data.items() + id_and_type.items() + {'agency': agency, 'county': county}.items())
         scraper_commands.all_data[id_and_type['record_type']].append(scraper_commands.check_data(data))
 
 
@@ -182,7 +182,7 @@ def pass_disclaimer(url):
 
 
 #initial search page
-def fetch_page(url, page, page_number, community, code, agency):
+def fetch_page(url, page, page_number, community, code, agency, county):
     global pages_of_records, date_range, community_item, search_items
     community_item['MasterPage$mainContent$CGeoCityDDL12'] = code
     soup = BeautifulSoup(page.text)
@@ -202,10 +202,10 @@ def fetch_page(url, page, page_number, community, code, agency):
         return
     if page_number == 1:
         pages_of_records = number_of_pages(soup)
-    records = find_records(soup, community, agency, url)
+    records = find_records(soup, community, agency, county, url)
     page_number += 1
     if page_number <= pages_of_records:
-        fetch_page(url, page, page_number, community, code, agency)
+        fetch_page(url, page, page_number, community, code, agency, county)
 
 
 def extract_form_fields(soup):

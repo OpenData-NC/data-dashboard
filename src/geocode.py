@@ -65,6 +65,13 @@ def make_intersection(text):
         text = " and ".join(text.split("/"))
     return text
 
+#check if we've already geocoded this one
+#if so, we'll use that data without hitting the api	
+def check_already_geocoded(text,county):
+    cursor.execute("""SELECT * from geocoded_addresses where county=%s and original_address=%s""",(county,text,))
+    result = cursor.fetchone()
+    return result
+	
 #to use with no city or state info
 #we'll restrict address search to near county center
 county_centroids = make_county_centroids()

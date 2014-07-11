@@ -414,7 +414,7 @@ def try_bulletin(url):
     return bulletin_url
 
 
-def start_scrape(agency, url, howfar):
+def start_scrape(agency, county, url, howfar):
     """
 
     :param url: The url to the daily bulletin
@@ -435,7 +435,7 @@ def start_scrape(agency, url, howfar):
             else:
                 # if not row.has_attr('bgcolor'):
                 pieces = row.findAll('td')
-                id_type_agency = dict(parse_id_and_type(pieces[0]).items() + {'agency': agency}.items())
+                id_type_agency = dict(parse_id_and_type(pieces[0]).items() + {'agency': agency,'county': county}.items())
                 reporting_officer = {'reporting_officer': pieces[2].text}
                 parse_details(pieces[1], id_type_agency, reporting_officer)
     # for incident_type, incidents in scraper_commands.all_data.iteritems():
