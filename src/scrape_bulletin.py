@@ -5,6 +5,7 @@ import hashlib
 import scraper_commands
 import date_formatters
 import store_pdf
+import scrape_logs
 import requests
 from bs4 import BeautifulSoup
 
@@ -78,6 +79,7 @@ def parse_incident(piece, id_and_type, officer):
             ' +(?P<on_or_between>between|on) (?P<occurred_date>[^\.]+)\. Reported: (?P<reported_date>[^\.]+)\.')
         matches = m.search(piece.text)
     if not matches:
+        log_parse_issue(piece,id_and_type)
         return
     data = matches.groupdict()
     data = race_sex_age(data)
@@ -114,6 +116,7 @@ def parse_arrest(piece, id_and_type, officer):
             matches = m.search(piece.text)
         # skip this one if there's not enough info
         if not matches:
+            log_parse_issue(piece,id_and_type)
             return
     data = matches.groupdict()
     data = race_sex_age(data)
@@ -142,6 +145,7 @@ def parse_citation(piece, id_and_type, officer):
         m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Cited on Charge of (?P<charge>.+)')
         matches = m.search(piece.text)
     if not matches:
+        log_parse_issue(piece,id_and_type)
         return
     data = matches.groupdict()
     data = race_sex_age(data)
@@ -155,6 +159,7 @@ def parse_accident(piece, id_and_type, officer):
                    ' +(?P<address>[^\.]+)\..+Accident involving: (?P<names>.+)')
     matches = m.search(piece.text)
     if not matches:
+        log_parse_issue(piece,id_and_type)
         return
     data = matches.groupdict()
     # names might be more than one
@@ -202,6 +207,7 @@ def find_pdf(data,id_and_type):
     try:
         page = s.get(main_url)
     except requests.exceptions.ConnectionError as e:
+        log_pdf_scrape_issue(id_and_type)
         return ''
     soup = BeautifulSoup(page.text)
     payload = extract_form_fields(soup)
@@ -311,6 +317,19 @@ def dl_pdf(target, argument, id_and_type, payload, url):
     return pdf_file
 
 
+def log_parse_issue(this_piece,this_id_and_type):
+    log_msg = 'Failed to match ' + this_piece.replace("\n","") + " " + " / ".join(this_id_and_type.values())
+    scrape_logs.log(this_id_and_type['agency'],log_msg)
+
+
+def log_unreachable(url):
+    scrape_logs.log('See URL',url)
+
+
+def log_pdf_scrape_issue(this_id_and_type):
+    log_msg = 'PDF url failed for ' + " / ".join(this_id_and_type.values())
+    scrape_logs.log(this_id_and_type['agency'],log_msg)
+
 def pass_disclaimer(url):
 #    print "Passing disclaimer"
     page = s.get(url)
@@ -412,6 +431,7 @@ def try_bulletin(url):
     try:
         page = requests.get(bulletin_url)
     except requests.exceptions.ConnectionError as e:
+        log_unreachable(bulletin_url)
         return 'unreachable'
     if page.url != bulletin_url:
         return False

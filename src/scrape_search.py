@@ -1,13 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-#import shutil
 import hashlib
 
 import scraper_commands
 import date_formatters
 import store_pdf
-#import bing_geocode
+import scrape_logs
 
 
 disclaimer_items = {'_popupBlockerExists': 'true', '__EVENTTARGET': '', '__EVENTARGUMENT': '', '__LASTFOCUS': '',
@@ -144,9 +143,20 @@ def dl_pdf(target, id_and_type, agency, v_e, url):
     try:
         pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
     except requests.exceptions.ConnectionError as e:
+        log_pdf_scrape_issue(id_and_type,agency)
         return ''
     pdf_file = store_pdf.store_file(pdf_response,pdf_file)
     return pdf_file
+
+
+def log_parse_issue(this_piece,this_id_and_type):
+    log_msg = 'Failed to match ' + this_piece.replace("\n","") + " " + " / ".join(this_id_and_type.values())
+    scrape_logs.log(this_id_and_type['agency'],log_msg)
+
+
+def log_pdf_scrape_issue(this_id_and_type, this_agency):
+    log_msg = 'PDF url failed for ' + " / ".join(this_id_and_type.values())
+    scrape_logs.log(this_id_and_type['agency'],log_msg)
 
 
 #parse ints
