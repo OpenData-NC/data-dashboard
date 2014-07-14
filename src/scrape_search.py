@@ -79,7 +79,6 @@ def find_records(soup, community, agency, county, url):
     v_e = {'__VIEWSTATE': v, '__EVENTVALIDATION': e}
 
     for record in records:
-#        new_record = [community, '', '', '', '', '', '', '', '', '', '', '', '', '']
         other_data = {'scrape_type': 'search', 'id_generate': '0'}
         data = {}
         id_and_type = {}
@@ -98,6 +97,9 @@ def find_records(soup, community, agency, county, url):
             data['date_occurred'] = date_formatters.format_db_date_part(record_fields[1].string.strip())
             data['time_occurred'] = date_formatters.format_db_time_part(record_fields[1].string.strip()) 
         if id_and_type['record_type'] != 'Accident':
+            if len(record_fields) < 4 or len(record_fields[3].find_all('strong')) < 2:
+                print record
+                continue
             data['charge'] = remove_semicolon(
                 record_fields[3].find_all('strong')[1].next_sibling.strip()
             )  # offense text
@@ -284,6 +286,6 @@ def start_scrape(agency, url, howfar, county):
     for current_date_range in date_ranges:
         date_range = current_date_range
         for community, code in communities.items():
-            fetch_page(url, page, 1, community, code, agency, county)
+            fetch_page(url, page, 1, community, code, agency,county)
     return scraper_commands.all_data
 

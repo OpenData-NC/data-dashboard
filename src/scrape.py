@@ -18,6 +18,7 @@ def main():
         #variables we'll use in our scraping and data format
         county = site['County']
         url = site['URL']
+        print url
         agency = site['Agency']
         #this is how many days back we want to scrape
         #e.g. 1 would scrape a total of 2 days:
@@ -27,7 +28,10 @@ def main():
         #if not, then go for search
         bulletin_url = scrape_bulletin.try_bulletin(url)
         if bulletin_url:
-            data = scrape_bulletin.start_scrape(agency, county, bulletin_url, howfar)
+            if bulletin_url == 'unreachable':
+                print "\t".join([url,bulletin_url])
+            else:
+                data = scrape_bulletin.start_scrape(agency, county, bulletin_url, howfar)
         else:
             data = scrape_search.start_scrape(agency, url, howfar, county)
 #        for record_type in data:

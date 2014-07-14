@@ -164,8 +164,7 @@ def parse_accident(piece, id_and_type, officer):
         other_data['id_generate'] = "1"
         if 'address' not in data:
             data['address'] = ''
-        id_and_type['record_id'] = hashlib.sha224(data['names'] + data['occurred_date'] + data['address']
-             + data['charge']).hexdigest()
+        id_and_type['record_id'] = hashlib.sha224(data['names'] + data['occurred_date'] + data['address']).hexdigest()
     else:
         data['date_reported'] = date_formatters.format_db_date(data['occurred_date'].split(' ')[0])
         data['pdf'] = find_pdf(data,id_and_type)
@@ -258,7 +257,10 @@ def find_pdf(data,id_and_type):
     if not found_type:
         return ''
     referer = {'Referer': main_url}
-    page = s.post(main_url, data=payload, headers=referer)
+    try:
+        page = s.post(main_url, data=payload, headers=referer)
+    except requests.exceptions.ConnectionError as e:
+        return ''
     soup = BeautifulSoup(page.text)
     records = soup.find_all('tr', {"class":'EventSearchGridRow'})
     payload = extract_form_fields(soup)
@@ -407,7 +409,10 @@ def try_bulletin(url):
     else:
          bulletin_url = url
          main_url = ''
-    page = requests.get(bulletin_url)
+    try:
+        page = requests.get(bulletin_url)
+    except requests.exceptions.ConnectionError as e:
+        return 'unreachable'
     if page.url != bulletin_url:
         return False
     pass_disclaimer(url)
