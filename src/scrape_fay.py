@@ -2,7 +2,7 @@ import scrape_bulletin
 import scrape_search_fay
 import scraper_commands
 home_dir = '/home/vaughn.hagerty/crime-scrapers/'
-data_dir = home_dir + 'data_fay'
+data_dir = home_dir + g'data_fay'
 database = 'crime'
 user = {'user': 'db_username','pw':'db_pw'}
 commands_url = \
