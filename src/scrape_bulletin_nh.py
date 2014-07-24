@@ -24,7 +24,7 @@ from bs4 import BeautifulSoup
 # 'MasterPage$mainContent$addresslat': '', 'MasterPage$mainContent$addresslng': '','MasterPage$mainContent$txtDateFrom2': '', 'MasterPage$mainContent$txtDateTo2': ''}
 
 main_url = ''
-
+json_url = 'http://p2c.nhcgov.com/p2c/jqHandler.ashx?op=s'
 s = requests.Session()
 
 #make an array of formatted dates we'll use to grab
