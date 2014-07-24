@@ -1,7 +1,8 @@
 import re
 import datetime
 import hashlib
-
+import json
+import time
 import scraper_commands
 import date_formatters
 import store_pdf
@@ -406,11 +407,12 @@ def start_scrape(agency, url, howfar):
     page = s.get(url)
     dates = date_formatters.make_dates(howfar)
     for date in dates:
-        print date
         soup = BeautifulSoup(page.text.encode('utf-8'))
         payload = extract_form_fields(soup)
         date_pieces = date.split('/')
-        other_params = {'cpMonth': int(date_pieces[0]),'cpYear': date_pieces[2], 'ctl00$mainContent$txtDate$txtDatePicker': date, 'ctl00$mainContent$btnUpdate':'Update'}
+#        other_params = {'cpMonth': int(date_pieces[0]),'cpYear': date_pieces[2], 'ctl00$mainContent$txtDate$txtDatePicker': date, 'ctl00$mainContent$btnUpdate':'Update'}
+        print payload
+        exit()
         payload = dict(payload.items() + other_params.items())
         referer = {'Referer': url}
         page = s.post(url, data=payload, headers=referer)

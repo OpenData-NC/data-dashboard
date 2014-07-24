@@ -2,13 +2,11 @@ import datetime
 import requests
 from bs4 import BeautifulSoup
 import re
-#import shutil
 import hashlib
 
 import scraper_commands
 import date_formatters
 import store_pdf
-#import bing_geocode
 
 
 disclaimer_items = {'_popupBlockerExists': 'true', '__EVENTTARGET': '', '__EVENTARGUMENT': '', '__LASTFOCUS': '',
@@ -63,10 +61,10 @@ def remove_semicolon(text):
 def find_communities(page, county='None'):
     communities_available = {}
     soup = BeautifulSoup(page)
-    if len(soup.find_all("select", class_="geofields2")) > 0:
-        options = soup.find_all("select", class_="geofields2")[0].find_all("option")
+    if len(soup.find_all("select", {'class':"geofields2"})) > 0:
+        options = soup.find_all("select", {'class':"geofields2"})[0].find_all("option")
     elif soup.find_all("select", class_="geofields") > 0:
-        options = soup.find_all("select", class_="geofields")[0].find_all("option")
+        options = soup.find_all("select", {'class':"geofields"})[0].find_all("option")
     else:
         return communities_available
     for option in options:
@@ -86,7 +84,7 @@ def number_of_pages(soup):
 #find records in pages
 def find_records(soup, community, agency, url):
     global date_range
-    records = soup.find_all('tr', class_='EventSearchGridRow')
+    records = soup.find_all('tr', {'class':'EventSearchGridRow'})
     v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
     v_e = {'__VIEWSTATE': v, '__EVENTVALIDATION': e}

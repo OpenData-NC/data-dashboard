@@ -1,12 +1,14 @@
+#!/usr/bin/env python
+
 import scrape_bulletin_nh
 import scrape_search
 import scraper_commands
+import db_load
+
 home_dir = '/home/vaughn.hagerty/crime-scrapers/'
 data_dir = home_dir + 'data_nh'
 database = 'crime'
-user = {'user': 'db_username','pw':'db_pw'}
-commands_url = \
-    'https://docs.google.com/spreadsheets/d/1353q8QCgtscYRBU0INeOKIhPAiXt2IXpdTjD3ufl8Ko/export?gid=0&format=csv'
+user = {'user': 'crimeloader','pw':'redaolemirc'}
 
 
 def main():

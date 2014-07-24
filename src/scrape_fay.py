@@ -1,17 +1,18 @@
+#!/usr/bin/env python
+
 import scrape_bulletin
 import scrape_search_fay
 import scraper_commands
-home_dir = '/home/vaughn.hagerty/crime-scrapers/'
-data_dir = home_dir + g'data_fay'
-database = 'crime'
-user = {'user': 'db_username','pw':'db_pw'}
-commands_url = \
-    'https://docs.google.com/spreadsheets/d/1353q8QCgtscYRBU0INeOKIhPAiXt2IXpdTjD3ufl8Ko/export?gid=0&format=csv'
+import db_load
 
+home_dir = '/home/vaughn.hagerty/crime-scrapers/'
+data_dir = home_dir + 'data_fay'
+database = 'crime'
+user = {'user': 'crimeloader','pw':'redaolemirc'}
 
 def main():
     #fetch data from our google spreadsheet that tells us what to scrape
-    sites_to_scrape = [{'URL': 'http://p2c.bethebadge.com/p2c/Summary.aspx','Agency':'Fayetteville Police Department','County': 'Cumberland County','How far back':'2'}]
+    sites_to_scrape = [{'URL': 'http://p2c.bethebadge.com/p2c/Summary.aspx','Agency':'Fayetteville Police Department','County': 'Cumberland County','How far back':'7'}]
     for site in sites_to_scrape:
         #variables we'll use in our scraping and data format
         county = site['County']
@@ -33,9 +34,9 @@ def main():
     #output data as tab-delimited text files named for the
     #record type (arrest.txt, incident.txt, citation.txt, accident.txt)
     scraper_commands.print_files(scraper_commands.all_data,data_dir)
-#    for data_type in scraper_commands.all_data:
-#        data_file = data_type + '.txt'
-#        table = data_type.lower() + 's'
-#        db_load.load(database,data_file, table, user)
+    for data_type in scraper_commands.all_data:
+        data_file = data_type + '.txt'
+        table = data_type.lower() + 's'
+        db_load.load(database,data_file, table, user)
 if __name__ == "__main__":
     main()
