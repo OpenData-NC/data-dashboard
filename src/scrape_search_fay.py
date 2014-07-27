@@ -149,7 +149,10 @@ def dl_pdf(target, id_and_type, agency, v_e, url):
     pdf_search_items['__EVENTARGUMENT'] = ''
     payload = dict(pdf_search_items.items() + v_e.items() + date_range.items() + community_item.items())
     referer = {'Referer': url}
-    pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
+    try:
+        pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
+    except requests.exceptions.ConnectionError as e:
+        return ''
     pdf_file = store_pdf.store_file(pdf_response,pdf_file)
     return pdf_file
 
@@ -293,6 +296,6 @@ def start_scrape(agency, url, howfar, county):
     for current_date_range in date_ranges:
         date_range = current_date_range
         for community, code in communities.items():
-            fetch_page(url, page, 1, community, code, agency)
+            fetch_page(url, page, 1, community, code, agency, county)
     return scraper_commands.all_data
 

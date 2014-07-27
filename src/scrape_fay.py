@@ -35,7 +35,7 @@ def main():
     #record type (arrest.txt, incident.txt, citation.txt, accident.txt)
     scraper_commands.print_files(scraper_commands.all_data,data_dir)
     for data_type in scraper_commands.all_data:
-        data_file = data_type + '.txt'
+        data_file = data_dir + '/' + data_type + '.txt'
         table = data_type.lower() + 's'
         db_load.load(database,data_file, table, user)
 if __name__ == "__main__":

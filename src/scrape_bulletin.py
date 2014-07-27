@@ -282,7 +282,7 @@ def find_pdf(data,id_and_type):
         if has_gif is None:
             #there's no pdf
             return ''
-        report = record_fields[5].find('a')['href']
+        report = record_fields[5].find('a')['href'].replace("&#39;","'")
         if report is not None:
             m = re.compile(r"'(?P<first>[^']*)','(?P<second>[^']*)'")
             matches = m.search(report)
