@@ -27,36 +27,36 @@ main_url = ''
 json_url = 'http://p2c.nhcgov.com/p2c/jqHandler.ashx?op=s'
 s = requests.Session()
 
-#make an array of formatted dates we'll use to grab
+# make an array of formatted dates we'll use to grab
 #each of the bulletin pages
 
 #should probably rename this and the next function
 #this one grabs the record type (arrest, incident, etc.)
 # and, if available, the record id
-def parse_id_and_type(piece):
+def parse_id_and_type(row):
     record_types = {'LW': 'Incident', 'AR': 'Arrest', 'TA': 'Accident', 'TC': 'Citation', 'OR': 'Citation'}
-    items = piece.text.split(" ")
-    record_type = record_types[items[0]]
-    if record_type == 'Accident':
-        record_id = items.pop()
-    else:
-        record_id = piece.find('br').previous_sibling.split(" ").pop()
+    record_type = record_types[row['key']]
+    if row['id'] == '&nbsp;':
+        row['id'] = ''
+
+    record_id = row['id']
     return {'record_id': record_id, 'record_type': record_type}
+
 
 #this one decides what parsing function to call based on record type.
 #piece is the beautifulsoup table row that contains our data
 #id_and_type is a dict with those items
 #officer is a dict with the reporting officer
 
-def parse_details(piece, id_and_type, officer):
+def parse_details(row, id_and_type, officer):
     if id_and_type['record_type'] == 'Incident':
-        data = parse_incident(piece, id_and_type, officer)
+        data = parse_incident(row, id_and_type, officer)
     elif id_and_type['record_type'] == 'Arrest':
-        data = parse_arrest(piece, id_and_type, officer)
+        data = parse_arrest(row, id_and_type, officer)
     elif id_and_type['record_type'] == 'Citation':
-        data = parse_citation(piece, id_and_type, officer)
+        data = parse_citation(row, id_and_type, officer)
     else:
-        data = parse_accident(piece, id_and_type, officer)
+        data = parse_accident(row, id_and_type, officer)
     #data contains a dict with the items we pulled and formatted
     #we append that to the record_type array in all data
     #build a single all_data to print later
@@ -64,63 +64,67 @@ def parse_details(piece, id_and_type, officer):
         return
     return scraper_commands.all_data[id_and_type['record_type']].append(scraper_commands.check_data(data))
 
+
 #each of the following four functions parse specific record types
 
-def parse_incident(piece, id_and_type, officer):
+def parse_incident(row, id_and_type, officer):
     other_data = {'scrape_type': 'bulletin', 'id_generate': '0'}
-    m = re.compile(
-        '(?P<name>.*) *\((?P<rsa>.*)\) ?VICTIM of (?P<charge>[^.]+) \((?P<offense_code>[A-Z ])\), '
-        'at (?P<address>.+), +(?P<on_or_between>between|on) (?P<occurred_date>[^\.]+)\. Reported: '
-        '(?P<reported_date>[^\.]+)\.')
-    matches = m.search(piece.text)
-    if not matches:
-        m = re.compile(
-            '(?P<name>.*) VICTIM of (?P<charge>.+) \((?P<offense_code>[A-Z ])\), at (?P<address>.+),'
-            ' +(?P<on_or_between>between|on) (?P<occurred_date>[^\.]+)\. Reported: (?P<reported_date>[^\.]+)\.')
-        matches = m.search(piece.text)
-    data = matches.groupdict()
+    data = {}
+    name_rsa = row['name'].split(" (")
+    data['name'] = name_rsa[0].strip()
+    if len(name_rsa) > 1:
+        rsa = name_rsa[1].split(')')
+        data['rsa'] = rsa[0]
     data = race_sex_age(data)
+
+
+    m = re.compile('(?P<on_or_between>between|on) (?P<occurred_date>[^\.]+)\. Reported: (?P<reported_date>[^\.]+)\.')
+    matches = m.search(row['time'])
+    data = dict(data.items() + matches.groupdict().items())
+    m = re.compile('VICTIM of (?P<charge>.+) ?\((?P<offense_code>[A-Z ]?)\)?')
+    matches = m.search(row['crime'])
+    data = dict(data.items() + matches.groupdict().items())
+    m = re.compile('at (?P<address>.+),? ?$')
+    data = dict(data.items() + matches.groupdict().items())
     data = date_formatters.on_between(data)
     data['date_reported'] = date_formatters.format_db_date_part(data['reported_date'])
     data['time_reported'] = date_formatters.format_db_time_part(data['reported_date'])
     data = date_formatters.format_reported_date(data, 'reported_date')
-#    data['pdf'] = find_pdf(data, id_and_type)
+    data['pdf'] = find_pdf(data, id_and_type)
 
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
 
-def parse_arrest(piece, id_and_type, officer):
+def parse_arrest(row, id_and_type, officer):
     other_data = {'scrape_type': 'bulletin', 'id_generate': '0'}
-    m = re.compile('(?P<name>[^()]+) Arrest on chrg of (?P<charge>[^(]+) \(*?P<offense_code>[A-Za-z]?\)?'
-                   ' ?\(?(?P<other_code>.?)\)?, at (?P<address>.+), +on +(?P<occurred_date>[^\.]+)\.')
-    matches = m.search(piece.text)
-    if matches:
-        matches = matches
-    else:
-        m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>[^(]+) '
-                       '\(?(?P<offense_code>[A-Za-z]?)\)? ?\(?(?P<other_offense_code>.?)\)?, '
-                       'at (?P<address>.+), +on +(?P<occurred_date>.+)\.')
-        matches = m.search(piece.text)
-        if not matches:
-            m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>[^(]+) '
-                           '\(?(?P<offense_code>[A-Za-z]?)\)? ?\(?(?P<other_offense_code>.?)\)?, '
-                           '.+, +on +(?P<occurred_date>[^\.]+)\.')
-            matches = m.search(piece.text)
-        # skip this one if there's not enough info
-        if not matches:
-            return
-    data = matches.groupdict()
+    data = {}
+    name_rsa = row['name'].split(" (")
+    data['name'] = name_rsa[0].strip()
+    if len(name_rsa) > 1:
+        rsa = name_rsa[1].split(')')
+        data['rsa'] = rsa[0]
     data = race_sex_age(data)
+
+
+    m = re.compile('on (?P<occurred_date>[^\.]+)\.')
+    matches = m.search(row['time'])
+    data = dict(data.items() + matches.groupdict().items())
+    data['charge'] = row['charge'].split(',')[0]
+    m = re.compile('\(*(?P<offense_code>[A-Z ]*)\)*,*$')
+    matches = m.search(row['crime'])
+    data = dict(data.items() + matches.groupdict().items())
+    m = re.compile('at (?P<address>.+),? ?$')
+    data = dict(data.items() + matches.groupdict().items())
     if id_and_type['record_id'] == '':
-        other_data['id_generated'] = "1"
+        other_data['id_generate'] = "1"
         if 'address' not in data:
             data['address'] = ''
-#        id_and_type['record_id'] = hashlib.sha224( + matches[0][2] + matches[0][3] + matches[0][4] + matches[0][5]) \
+        #        id_and_type['record_id'] = hashlib.sha224( + matches[0][2] + matches[0][3] + matches[0][4] + matches[0][5]) \
         id_and_type['record_id'] = hashlib.sha224(data['name'] + data['occurred_date'] + data['address']
-             + data['charge']).hexdigest()
+                                                  + data['charge']).hexdigest()
     else:
         data['date_reported'] = date_formatters.format_db_date(data['occurred_date'].split(' ')[0])
- #       data['pdf'] = find_pdf(data, id_and_type)
+        data['pdf'] = find_pdf(data, id_and_type)
 
     data = date_formatters.format_date_time(data, 'occurred_date')
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
@@ -151,7 +155,7 @@ def parse_accident(piece, id_and_type, officer):
     data = people_in_accident(data)
     data = date_formatters.format_date_time(data, 'occurred_date')
     data['date_reported'] = date_formatters.format_db_date(data['occurred_date'].split(' ')[0])
-#    data['pdf'] = find_pdf(data,id_and_type)
+    data['pdf'] = find_pdf(data,id_and_type)
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
 
@@ -162,9 +166,9 @@ def race_sex_age(data):
         matches = m.search(data['rsa'])
         if matches:
             rsa = matches.groupdict()
-#        pieces = data['rsa'].split('/')
-#        pieces[0] = pieces[0].strip()
-#        rsa = {'race': pieces[0], 'sex': pieces[1], 'age': pieces[2]}
+        #        pieces = data['rsa'].split('/')
+        #        pieces[0] = pieces[0].strip()
+        #        rsa = {'race': pieces[0], 'sex': pieces[1], 'age': pieces[2]}
     return dict(data.items() + rsa.items())
 
 
@@ -178,24 +182,26 @@ def people_in_accident(data):
     return dict(data.items() + names.items())
 
 
-def find_pdf(data,id_and_type):
-#    print id_and_type
+def find_pdf(data, id_and_type):
+    #    print id_and_type
     global main_url
     if main_url == '':
         return ''
     page = s.get(main_url)
     soup = BeautifulSoup(page.text)
     payload = extract_form_fields(soup)
-    types = {'Arrest':'AR','Accident':'TA','Incident':'LW','Citation':'TC'}
+    types = {'Arrest': 'AR', 'Accident': 'TA', 'Incident': 'LW', 'Citation': 'TC'}
     this_type = types[id_and_type['record_type']]
-#try to figure out what version it is
+    #try to figure out what version it is
     if 'MasterPage$mainContent$txtDateFrom2' in payload:
-        payload['MasterPage$mainContent$txtDateFrom2'] = payload['MasterPage$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
+        payload['MasterPage$mainContent$txtDateFrom2'] = payload[
+            'MasterPage$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
         payload['MasterPage$mainContent$txtCase2'] = id_and_type['record_id']
         payload['MasterPage$mainContent$rblSearchDateToUse2'] = 'Date Reported'
         payload['__EVENTTARGET'] = 'MasterPage$mainContent$cmdSubmit2'
     if 'ctl00$mainContent$txtDateFrom2' in payload:
-        payload['ctl00$mainContent$txtDateFrom2'] = payload['ctl00$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
+        payload['ctl00$mainContent$txtDateFrom2'] = payload[
+            'ctl00$mainContent$txtDateTo2'] = date_formatters.format_search_date(data['date_reported'])
         if 'ct100$mainContent$btnReset' in payload:
             del payload['ct199$mainContent$btnReset']
         if 'MasterPage$DDLSiteMap1$ddlQuickLinks' in payload and payload['MasterPage$DDLSiteMap1$ddlQuickLinks'] == '':
@@ -204,7 +210,9 @@ def find_pdf(data,id_and_type):
         payload['ctl00$mainContent$rblSearchDateToUse2'] = 'Date Reported'
         payload['__EVENTTARGET'] = 'ctl00$mainContent$cmdSubmit2'
     if 'MasterPage$mainContent$txtDateFrom$txtDatePicker' in payload:
-        payload['MasterPage$mainContent$txtDateFrom$txtDatePicker'] = payload['MasterPage$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(data['date_reported'])
+        payload['MasterPage$mainContent$txtDateFrom$txtDatePicker'] = payload[
+            'MasterPage$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(
+            data['date_reported'])
         if 'MasterPage$mainContent$btnReset' in payload:
             del payload['MasterPage$mainContent$btnReset']
         if 'MasterPage$DDLSiteMap1$ddlQuickLinks' in payload and payload['MasterPage$DDLSiteMap1$ddlQuickLinks'] == '':
@@ -213,7 +221,8 @@ def find_pdf(data,id_and_type):
         payload['MasterPage$mainContent$rblSearchDateToUse'] = 'Date Reported'
         payload['__EVENTTARGET'] = 'Search'
     if 'ctl00$mainContent$txtDateFrom$txtDatePicker' in payload:
-        payload['ctl00$mainContent$txtDateFrom$txtDatePicker'] = payload['ctl00$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(data['date_reported'])
+        payload['ctl00$mainContent$txtDateFrom$txtDatePicker'] = payload[
+            'ctl00$mainContent$txtDateTo$txtDatePicker'] = date_formatters.format_search_date(data['date_reported'])
         if 'ctl00$mainContent$btnReset' in payload:
             del payload['ctl00$mainContent$btnReset']
         payload['ctl00$mainContent$txtCase'] = id_and_type['record_id']
@@ -222,9 +231,10 @@ def find_pdf(data,id_and_type):
         payload['__EVENTTARGET'] = ''
         payload['__EVENTARGUMENT'] = ''
         payload['__LASTFOCUS'] = ''
-#check to see if our type is available. if it is, only
-#only search for that type. incidents and arrests on the same event
-#sometimes have the same case number
+    #check to see if our type is available. if it is, only
+    #only search for that type. incidents and arrests on the same event
+    #sometimes have the same case number
+    payload['__LASTFOCUS'] = ''
     found_type = False
     check_payload = dict(payload.items())
     for key, value in check_payload.iteritems():
@@ -233,44 +243,48 @@ def find_pdf(data,id_and_type):
                 found_type = True
             else:
                 del payload[key]
-#the type of record we're searching for isn't available
-#via aearch
+            #the type of record we're searching for isn't available
+            #via aearch
     if not found_type:
         return ''
     referer = {'Referer': main_url}
     page = s.post(main_url, data=payload, headers=referer)
     soup = BeautifulSoup(page.text)
-    records = soup.find_all('table', class_='DataGridText')[0].find_all('tr',attrs={'bgcolor':None})
-
+    records = soup.find_all('table', {'class':'DataGridText'})
+    if records is not None and len(records) > 0:
+        records = records[0].find_all('tr', {'class':'EventSearchGridRow'})
+    else:
+        return ''
     payload = extract_form_fields(soup)
     # v = soup.find('input', {'id': "__VIEWSTATE"})['value']
     # e = soup.find('input', {'id': "__EVENTVALIDATION"})['value']
     # v_e = {'__VIEWSTATE': v, '__EVENTVALIDATION': e}
-#we should only have one. if not, something's wrong
+    #we should only have one. if not, something's wrong
     if not records or len(records) > 1:
         return ''
     for record in records:
-        print record
-        record_fields = record.find_all('td',attrs={'class':None})
+        record_fields = record.find_all('td', attrs={'class': None})
         field_wanted = len(record_fields) - 1
-        has_gif = record_fields[field_wanted].find('img')['src']
+        if record_fields[field_wanted].find('img'):
+            has_gif = record_fields[field_wanted].find('img')['src']
+        else:
+            return ''
         if has_gif == 'images/noimage.gif':
             #there's no pdf
             return ''
         report = record_fields[field_wanted].find('a')['href']
-        print record_fields[field_wanted].find('a')['href']
+        report.replace('%#39;',"'")
         if report is not None:
             m = re.compile(r"'(?P<first>[^']*)','(?P<second>[^']*)'")
             matches = m.search(report)
             data = matches.groupdict()
             target = data['first']
             argument = data['second']
-#            return dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type, payload, main_url)
+            #            return dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type, payload, main_url)
             return dl_pdf(target, argument, id_and_type, payload, main_url)
 
 
 def dl_pdf(target, argument, id_and_type, payload, url):
-    print target
     if target == '' or target is None:
         return ''
     pdf_file = store_pdf.create_file_name(id_and_type['record_id'],id_and_type['record_type'],id_and_type['agency'])
@@ -294,7 +308,7 @@ def dl_pdf(target, argument, id_and_type, payload, url):
 
 
 def pass_disclaimer(url):
-#    print "Passing disclaimer"
+    #    print "Passing disclaimer"
     page = s.get(url)
     if page.url != url:
         disclaimer_url = page.url
@@ -302,6 +316,8 @@ def pass_disclaimer(url):
         payload = extract_form_fields(soup)
         referer = {'Referer': disclaimer_url}
         page = s.post(disclaimer_url, data=payload, headers=referer)
+
+
 #        types_available(page)
 
 
@@ -320,7 +336,7 @@ def extract_form_fields(soup):
         # ignore submit/image with no name attribute
         if input['type'] in ('submit', 'image') and not input.has_attr('name'):
             continue
-        
+
         # single element nome/value fields
         if input['type'] in ('text', 'hidden', 'password', 'submit', 'image'):
             value = ''
@@ -328,7 +344,7 @@ def extract_form_fields(soup):
                 value = input['value']
             fields[input['name']] = value
             continue
-        
+
         # checkboxes and radios
         if input['type'] in ('checkbox', 'radio'):
             value = ''
@@ -339,18 +355,18 @@ def extract_form_fields(soup):
                     value = 'on'
             if fields.has_key(input['name']) and value:
                 fields[input['name']] = value
-            
+
             if not fields.has_key(input['name']):
                 fields[input['name']] = value
-            
+
             continue
-        
+
         assert False, 'input type %s not supported' % input['type']
-    
+
     # textareas
     for textarea in soup.findAll('textarea'):
         fields[textarea['name']] = textarea.string or ''
-    
+
     # select fields
     for select in soup.findAll('select'):
         value = ''
@@ -360,21 +376,22 @@ def extract_form_fields(soup):
             option for option in options
             if option.has_attr('selected')
         ]
-        
+
         # If no select options, go with the first one
         if not selected_options and options:
             selected_options = [options[0]]
-        
+
         if not is_multiple:
-            assert(len(selected_options) < 2)
+            assert (len(selected_options) < 2)
             if len(selected_options) == 1:
                 value = selected_options[0]['value']
         else:
             value = [option['value'] for option in selected_options]
-        
+
         fields[select['name']] = value
-    
+
     return fields
+
 
 def find_v_e(page):
     soup = BeautifulSoup(page)
@@ -389,8 +406,8 @@ def try_bulletin(url):
     if url.find('Summary') != -1:
         bulletin_url = re.sub('Summary', 'dailybulletin', url)
     else:
-         bulletin_url = url
-         main_url = ''
+        bulletin_url = url
+        main_url = ''
     page = requests.get(bulletin_url)
     if page.url != bulletin_url:
         return False
@@ -398,37 +415,34 @@ def try_bulletin(url):
     return bulletin_url
 
 
-def start_scrape(agency, url, howfar):
+def start_scrape(agency, url, howfar, county):
     """
 
     :param url: The url to the daily bulletin
     :param howfar: How many days back to scrape
     """
-    page = s.get(url)
+    json_params = {'t': 'db', '_search': 'false', 'rows': 10000, 'nd': '', 'page': '1', 'sidx': 'case', 'sort': 'asc'}
+    keys_wanted = ['key','id','name','crime','location','time']
     dates = date_formatters.make_dates(howfar)
     for date in dates:
+        page = s.get(url)
         soup = BeautifulSoup(page.text.encode('utf-8'))
         payload = extract_form_fields(soup)
-        date_pieces = date.split('/')
-#        other_params = {'cpMonth': int(date_pieces[0]),'cpYear': date_pieces[2], 'ctl00$mainContent$txtDate$txtDatePicker': date, 'ctl00$mainContent$btnUpdate':'Update'}
-        print payload
-        exit()
-        payload = dict(payload.items() + other_params.items())
+        payload['MasterPage$mainContent$txtDate2'] = date
+        payload['__EVENTTARGET'] = 'MasterPage$mainContent$lbUpdate'
         referer = {'Referer': url}
         page = s.post(url, data=payload, headers=referer)
-	soup = BeautifulSoup(page.text.encode('utf-8'))
-        count = 0
-        for row in soup.find_all('table', id="ctl00_mainContent_dgBulletin")[0].find_all('tr'):
-            if count == 0:
-                count += 1
-            else:
-                # if not row.has_attr('bgcolor'):
-                pieces = row.findAll('td')
-                id_type_agency = dict(parse_id_and_type(pieces[0]).items() + {'agency': agency}.items())
-                reporting_officer = {'reporting_officer': pieces[2].text}
-                parse_details(pieces[1], id_type_agency, reporting_officer)
-    # for incident_type, incidents in scraper_commands.all_data.iteritems():
-    #     for incident in incidents:
-    #         print incident
+        json_params['nd'] = int(time.time() *1000)
+        page = s.post(json_url,data=json_params,headers=referer)
+        rows = json.loads(page.text)['rows']
+        for row in rows:
 
+            this_row = [row[key] for key in keys_wanted]
+            id_type_agency = dict(
+                parse_id_and_type(row).items() + {'agency': agency, 'county': county}.items())
+            reporting_officer = {'reporting_officer': row['officer']}
+            parse_details(row, id_type_agency, reporting_officer)
+        # for incident_type, incidents in scraper_commands.all_data.iteritems():
+        #     for incident in incidents:
+        #         print incident
     return scraper_commands.all_data

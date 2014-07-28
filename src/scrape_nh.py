@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import scrape_bulletin_nh
-import scrape_search
 import scraper_commands
 import db_load
 
@@ -13,7 +12,7 @@ user = {'user': 'crimeloader','pw':'redaolemirc'}
 
 def main():
     #fetch data from our google spreadsheet that tells us what to scrape
-    sites_to_scrape = [{'URL': 'http://p2c.nhcgov.com/p2c/Summary.aspx','Agency':"New Hanover County Sheriff's Office",'County': 'New Hanover','How far back':'2'}]
+    sites_to_scrape = [{'URL': 'http://p2c.nhcgov.com/p2c/Summary.aspx','Agency':"New Hanover County Sheriff's Office",'County': 'New Hanover','How far back':'7'}]
     for site in sites_to_scrape:
         #variables we'll use in our scraping and data format
         county = site['County']
@@ -26,10 +25,7 @@ def main():
         #try for daily bulletin
         #if not, then go for search
         bulletin_url = scrape_bulletin_nh.try_bulletin(url)
-        if bulletin_url:
-            data = scrape_bulletin_nh.start_scrape(agency, bulletin_url, howfar)
-        else:
-            data = scrape_search_fay.start_scrape(agency, url, howfar, county)
+        data = scrape_bulletin_nh.start_scrape(agency, bulletin_url, howfar, county)
 #        for record_type in data:
 #            scraper_commands.all_data[record_type] = scraper_commands.all_data[record_type] + data[record_type]
     #output data as tab-delimited text files named for the
