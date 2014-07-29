@@ -42,7 +42,7 @@ What's in here
 * src/scrape_search.py: Functions specific to pulling and formatting data from sites that don't have Daily Bulletins. Instead, we use the Event Search.
 * src/scrape_fay.py: Main script for custom Fayetteville PD scraper. Imports the others.
 * src/scrape_search_fay.py: Functions specific to pulling and formatting data for Fayetteville.
-* * src/scrape_nh.py: Main script for custom New Hanover County SO scraper. Imports the others.
+* src/scrape_nh.py: Main script for custom New Hanover County SO scraper. Imports the others.
 * src/scrape_bulletin_nh.py: Functions specific to pulling and formatting data for New Hanover.
 
 * sql/crime_scrapers.sql: SQL to create our tables
