@@ -130,15 +130,16 @@ def parse_arrest(row, id_and_type, officer):
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
 
-def parse_citation(piece, id_and_type, officer):
+def parse_citation(row, id_and_type, officer):
     other_data = {'scrape_type': 'bulletin', 'id_generate': '0'}
+    text = row['description']
     m = re.compile(
         '(?P<name>.+) \((?P<rsa>.*)\) Cited on Charge of (?P<charge>.+), at (?P<address>.+), +'
         'on +(?P<occurred_date>.+)\.')
-    matches = m.search(piece.text)
+    matches = m.search(text)
     if not matches:
         m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Cited on Charge of (?P<charge>.+)')
-        matches = m.search(piece.text)
+        matches = m.search(text)
     data = matches.groupdict()
     data = race_sex_age(data)
     data = date_formatters.format_date_time(data, 'occurred_date')
@@ -415,7 +416,7 @@ def try_bulletin(url):
     return bulletin_url
 
 
-def start_scrape(agency, url, howfar, county):
+def start_scrape(agency, county, url, howfar):
     """
 
     :param url: The url to the daily bulletin

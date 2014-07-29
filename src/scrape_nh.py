@@ -25,15 +25,15 @@ def main():
         #try for daily bulletin
         #if not, then go for search
         bulletin_url = scrape_bulletin_nh.try_bulletin(url)
-        data = scrape_bulletin_nh.start_scrape(agency, bulletin_url, howfar, county)
+        data = scrape_bulletin_nh.start_scrape(agency, county, bulletin_url, howfar)
 #        for record_type in data:
 #            scraper_commands.all_data[record_type] = scraper_commands.all_data[record_type] + data[record_type]
     #output data as tab-delimited text files named for the
     #record type (arrest.txt, incident.txt, citation.txt, accident.txt)
     scraper_commands.print_files(scraper_commands.all_data,data_dir)
-#    for data_type in scraper_commands.all_data:
-#        data_file = data_type + '.txt'
-#        table = data_type.lower() + 's'
-#        db_load.load(database,data_file, table, user)
+    for data_type in scraper_commands.all_data:
+        data_file = data_dir + '/' + data_type + '.txt'
+        table = data_type.lower() + 's'
+        db_load.load(database,data_file, table, user)
 if __name__ == "__main__":
     main()
