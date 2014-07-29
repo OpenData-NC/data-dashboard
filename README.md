@@ -38,11 +38,13 @@ What's in here
 * src/date_formatters.py: Functions to format dates in the vaarious ways we need them (just date, just time, database format, for submitting in forms)
 * src/db_load.py: First iteration of function to load our data using local infile and replace.
 * src/store_pdf.py: Functions to create file names and directory structure and to store PDFs of reports downloaded from sites (only on search scrapes for now)
-* src/scrape_bulletin.py: Functions specific to pulling and formatting data from sites that have Daily Bulletins available.
+* src/scrape_bulletin.py: Functions specific to pulling and formatting data from sites that have Daily Bulletins available
 * src/scrape_search.py: Functions specific to pulling and formatting data from sites that don't have Daily Bulletins. Instead, we use the Event Search.
+* src/scrape_fay.py: Main script for custom Fayetteville PD scraper. Imports the others.
+* src/scrape_search_fay.py: Functions specific to pulling and formatting data for Fayetteville.
+* * src/scrape_nh.py: Main script for custom New Hanover County SO scraper. Imports the others.
+* src/scrape_bulletin_nh.py: Functions specific to pulling and formatting data for New Hanover.
 
 * sql/crime_scrapers.sql: SQL to create our tables
-
 * data/[various].txt: Example output of the tab-delimited files created by the scripts
-
 * pdf/...: Examples of downloaded report PDFs
