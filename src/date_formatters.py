@@ -29,8 +29,12 @@ def format_db_datetime(date_string):
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %I:%M:%S %p').strftime('%Y/%m/%d %H:%M:%S')
     elif len(date_string.split(':')) == 3:
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M:%S').strftime('%Y/%m/%d %H:%M:%S')
-    else:
+    elif len(date_string.split('/')) == 3:
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M').strftime('%Y/%m/%d %H:%M')
+    else:
+    #there's something wrong because no date
+        print date_string
+        return ''
     
 
 def format_db_date(date_string):
