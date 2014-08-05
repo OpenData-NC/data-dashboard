@@ -1,6 +1,7 @@
 import MySQLdb
 import requests
 import json
+import re
 
 user = 'crimeloader'
 pw = 'redaolemirc'
@@ -36,6 +37,7 @@ def get_token(url,id,secret,expire=None):
 #for those with no city info
 def geocode(url,text,ll,token=None):
     text = make_intersection(text)
+    payload = {'text':text,'f':'pjson','outfields':'*'}
     if token:
         payload['forStorage'] = 'true'
         payload['token'] = token
@@ -50,14 +52,14 @@ def batch_geocode(url,items,token):
     response = requests.get(url, params=payload)
     return json.loads(response.text)
     
-def make_address_json(addresses):
+def make_address_json(rows):
     records = {'records':[]}
     count = 1
-    for address in addresses:
-        address = make_intersection(address)
+    for row in rows:
+        address = make_intersection(row[2])
         item = {'attributes': {'OBJECTID': count,'SingleLine':address}}
         records['records'].append(item)
-        count += 1
+        count = count + 1
     return json.dumps(records)
 
 def make_intersection(text):
@@ -80,14 +82,47 @@ token = get_token(auth_url,id,secret)
 
 #this is just for testing
 
+def fetch_to_be_geocoded(table, limit=100):
+    sql = 'SELECT record_id, agency, address from ' + table + " where lat=0 and lon=0 and address like '%, NC' limit " + str(limit)
+    cursor.execute(sql)
+    result = cursor.fetchall()
+    return result
+
+def find_address(location):
+    address_pattern = '(?P<address>^.+), ' + location['attributes']['City']
+    m = re.compile(address_pattern)
+    matches = m.search(location['address'])
+    return matches.groupdict()['address']
+
 #those with just addresses need to be done singly
 county = 'New Hanover'
 text = '1701 Oxford Rd'
 ll = county_centroids[county]
 print geocode(find_url,text,ll,token)
 
-#these are batched
-to_geocode = ['400 Wood Green Dr., Wendell, NC','1406 Pisgah Hwy, Candler, NC','28 Florian Way, Fletcher, NC']
-address_json = make_address_json(to_geocode)
-print batch_geocode(batch_url,address_json,token)
+exit()
+
+data_table = 'incidents'
+rows = fetch_to_be_geocoded('incidents', '10')
+address_json = make_address_json(rows)
+geocoded = batch_geocode(batch_url,address_json,token)
+for location in geocoded['locations']:
+    record_id = rows[location['attributes']['ResultID'] - 1][0]
+    agency = rows[location['attributes']['ResultID'] - 1][1]
+    street_address = find_address(location)
+    city = location['attributes']['City']
+    zip = int(location['attributes']['Postal'])
+    lat = float(location['location']['y'])
+    lon = float(location['location']['x'])
+    address = location['address']
+
+    print rows[location['attributes']['ResultID'] - 1][2]
+    sql = 'update %s set street_address = "%s", city = "%s", zip = %i, lat = %f, lon = %f, address = "%s" where record_id = "%s" and agency = "%s" limit 1' % (data_table,street_address,city,int(zip),float(lat),float(lon),address,record_id,agency)
+    print sql
+    cursor.execute(sql)
+    connection.commit()    
+    exit()
+
+
+
 
