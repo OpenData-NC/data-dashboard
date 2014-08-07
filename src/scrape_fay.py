@@ -12,7 +12,7 @@ user = {'user': 'crimeloader','pw':'redaolemirc'}
 
 def main():
     #fetch data from our google spreadsheet that tells us what to scrape
-    sites_to_scrape = [{'URL': 'http://p2c.bethebadge.com/p2c/Summary.aspx','Agency':'Fayetteville Police Department','County': 'Cumberland County','How far back':'7'}]
+    sites_to_scrape = [{'URL': 'http://p2c.bethebadge.com/p2c/Summary.aspx','Agency':'Fayetteville Police Department','County': 'Cumberland','How far back':'7'}]
     for site in sites_to_scrape:
         #variables we'll use in our scraping and data format
         county = site['County']
