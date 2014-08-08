@@ -120,8 +120,8 @@ def load_batch_geocoded(geocoded,rows):
         zip = int(location['attributes']['Postal'])
         lat = float(location['location']['y'])
         lon = float(location['location']['x'])
-        sql = 'update %s set street_address = "%s", city = "%s", zip = %i, lat = %f, lon = %f, address = "%s" where record_id = "%s" and agency = "%s" limit 1' % (print sql
-        # data_table,street_address,city,int(zip),float(lat),float(lon),address,record_id,agency)
+        sql = 'update %s set street_address = "%s", city = "%s", zip = %i, lat = %f, lon = %f, address = "%s" where record_id = "%s" and agency = "%s" limit 1' % (data_table,street_address,city,int(zip),float(lat),float(lon),address,record_id,agency)
+        print sql
         # cursor.execute(sql)
         # connection.commit()    
 
@@ -134,8 +134,8 @@ def load_single_geocoded(location, record_id, agency):
     zip = int(location['attributes']['Postal'])
     lat = float(location['feature']['geometry']['y'])
     lon = float(location['feature']['geometry']['x'])
-    sql = 'update %s set street_address = "%s", city = "%s", zip = %i, lat = %f, lon = %f, address = "%s" where record_id = "%s" and agency = "%s" limit 1' % (print sql
-    # data_table,street_address,city,int(zip),float(lat),float(lon),address,record_id,agency)
+    sql = 'update %s set street_address = "%s", city = "%s", zip = %i, lat = %f, lon = %f, address = "%s" where record_id = "%s" and agency = "%s" limit 1' % (data_table,street_address,city,int(zip),float(lat),float(lon),address,record_id,agency)
+    print sql
     # cursor.execute(sql)
     # connection.commit()    
 
