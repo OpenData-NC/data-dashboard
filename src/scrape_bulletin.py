@@ -318,7 +318,7 @@ def dl_pdf(target, argument, id_and_type, payload, url):
 
 
 def log_parse_issue(this_piece,this_id_and_type):
-    log_msg = 'Failed to match ' + " / ".join(this_id_and_type.values())
+    log_msg = 'Failed to match ' + " / ".join(this_id_and_type.values()) + " / " + this_piece
     scrape_logs.log(this_id_and_type['agency'],log_msg)
 
 
