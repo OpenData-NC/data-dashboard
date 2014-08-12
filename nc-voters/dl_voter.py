@@ -3,7 +3,7 @@
 from subprocess import call
 
 url = 'ftp://alt.ncsbe.gov/data/'
-home_dir = '/home/vaughn.hagerty/nc-voters/';
+home_dir = '/home/vaughn.hagerty/nc-voters/'
 output_zip_dir = home_dir + 'raw/'
 output_txt_dir = home_dir + 'txt/'
 processed_dir = home_dir + 'processed/'
@@ -23,9 +23,9 @@ def process(txt_file):
             if skip:
                 skip = False
                 continue
-            line = line.replace('"','')
-            pieces = line.split("\t")
-            stripped = [piece.strip() for piece in pieces]
+#            line = line.replace('"','')
+            pieces = line.split("\"\t\"")
+            stripped = [piece.strip(' "\t\n\r') for piece in pieces]
             stripped[24] = stripped[24].replace(' ','')
             stripped[31] = make_date(stripped[31])
             finished.write("\t".join(stripped) + "\n")
@@ -36,8 +36,8 @@ def process(txt_file):
 	
 def load(database,data_file, table, user):
     load_command = 'mysql --local-infile --user=' + user['user'] + ' --password=' + user['pw'] + ' ' + database + ' -e '\
-    + '"load data local infile \'' + data_file + '\' '\
-    + 'into table ' + table + '";'
+    + '"ALTER TABLE ' +  table + ' DISABLE KEYS;SET bulk_insert_buffer_size=1024*1024*256;load data local infile \'' + data_file + '\' '\
+    + 'into table ' + table + ';"'
     call(load_command,shell=True)
 
 	
