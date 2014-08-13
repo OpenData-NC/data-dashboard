@@ -207,7 +207,15 @@ def fetch_page(url, page, page_number, community, code, agency, county):
         search_items['__EVENTARGUMENT'] = ''
     payload = dict(search_items.items() + v_e.items() + date_range.items() + community_item.items() + search_param.items())
     referer = {'Referer': url}
-    page = s.post(url, data=payload, headers=referer)
+#    page = s.post(url, data=payload, headers=referer)
+    try:
+        page = s.post(url, data=payload, headers=referer)
+    except requests.exceptions.ConnectionError as e:
+        page_number += 1
+        if page_number <= pages_of_records:
+            fetch_page(url, page, page_number, community, code, agency, county)
+        else:
+            return
     soup = BeautifulSoup(re.sub("\r", "\n", page.text.encode('utf-8')))
     v_e = find_v_e(page.text)
     if not has_records(soup):
