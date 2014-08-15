@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import MySQLdb
 import requests
 import json
@@ -9,7 +11,6 @@ db = 'crime'
 
 data_tables = ['accidents','arrests','citations','incidents']
 
-county_centroids = make_county_centroids()
 
 id = 'Jh9RZLWe2B6Yz2eU'
 secret = '616f668608064d25a26f1741c73788cb'
@@ -25,10 +26,10 @@ cursor = connection.cursor()
 
 def make_county_centroids():
     county_centroids = {}
-    cursor.execute("""SELECT * from county_centers""")
+    cursor.execute('select county_name, concat_ws(",",min_lon,min_lat,max_lon,max_lat) from county_centers')
     rows = cursor.fetchall()
     for row in rows:
-        county_centroids[row[1]] = {'lat':str(row[3]),'lon':str(row[2])}
+        county_centroids[row[0]] = row[1]
     return county_centroids
 
 	
@@ -42,22 +43,22 @@ def get_token(url,id,secret,expire=None):
 #for those with no city info
 def single_geocode(text,ll,token):
     address = make_intersection(text)
-    payload = {'text':address,'f':'pjson','outfields':'*'}
+    payload = {'category':'Address','text':address,'f':'pjson','outfields':'*'}
     if token:
         payload['forStorage'] = 'true'
         payload['token'] = token
     if ll:
-        payload['location'] = ','.join([ll['lon'],ll['lat']])
+        payload['bbox'] = ll
     response = requests.get(single_url, params=payload)
     return json.loads(response.text)
 
 #for those with city,state
 def batch_geocode(url,items,token):
-    payload = {'addresses':items,'f':'pjson','sourceCountry':'USA','token':token}
+    payload = {'category': 'Point Address,Street Address,Intersection','addresses':items,'f':'pjson','sourceCountry':'USA','token':token}
     response = requests.get(url, params=payload)
     return json.loads(response.text)
     
-def make_address_json(rows):
+def batch_make_address_json(rows):
     records = {'records':[]}
     count = 1
     for row in rows:
@@ -69,7 +70,7 @@ def make_address_json(rows):
 
 def make_intersection(text):
     if text.find("/") != -1:
-        text = " and ".join(text.split("/"))
+        text = text.replace("/"," & ")
     return text
 
 #check if we've already geocoded this one
@@ -81,20 +82,18 @@ def check_already_geocoded(text,county):
 	
 #to use with no city or state info
 #we'll restrict address search to near county center
-county_centroids = make_county_centroids()
 #oath toaken
-token = get_token(auth_url,id,secret)
 
 #this is just for testing
 
-def fetch_to_be_geocoded_batch(table, limit=100):
-    sql = 'SELECT record_id, agency, address from ' + table + " where lat=0 and lon=0 and address like '%, NC' limit " + str(limit)
+def fetch_to_be_geocoded_batch(table, limit=10):
+    sql = 'SELECT record_id, agency, address from ' + table + " where lat=0 and lon=0 and address like '%, NC' and address not like '% county, nc' limit " + str(limit)
     cursor.execute(sql)
     result = cursor.fetchall()
     return result
 
 
-def fetch_to_be_geocoded_single(table, limit=100):
+def fetch_to_be_geocoded_single(table, limit=10):
     sql = 'SELECT record_id, agency, county, address from ' + table + " where lat=0 and lon=0 and address not like '%, NC' and address not like '%restricted%' and address is not null and address != '' limit " + str(limit)
     cursor.execute(sql)
     result = cursor.fetchall()
@@ -108,9 +107,9 @@ def find_address(full_address, city):
     return matches.groupdict()['address']
 
 
-def load_batch_geocoded(geocoded,rows):
+def load_batch_geocoded(geocoded,rows,data_table):
     for location in geocoded['locations']:
-        if location['attribute']['score'] < 95:
+        if location['score'] < 95:
             continue
         record_id = rows[location['attributes']['ResultID'] - 1][0]
         agency = rows[location['attributes']['ResultID'] - 1][1]
@@ -125,13 +124,13 @@ def load_batch_geocoded(geocoded,rows):
         # cursor.execute(sql)
         # connection.commit()    
 
-def load_single_geocoded(location, record_id, agency):
-    if location['attribute']['score'] < 95:
+def load_single_geocoded(location, record_id, agency, data_table):
+    if location['feature']['attributes']['Score'] < 95:
         return
-    city = location['attributes']['City']
+    city = location['feature']['attributes']['City']
     address = location['name']
     street_address = find_address(address, city)
-    zip = int(location['attributes']['Postal'])
+    zip = int(location['feature']['attributes']['Postal1'])
     lat = float(location['feature']['geometry']['y'])
     lon = float(location['feature']['geometry']['x'])
     sql = 'update %s set street_address = "%s", city = "%s", zip = %i, lat = %f, lon = %f, address = "%s" where record_id = "%s" and agency = "%s" limit 1' % (data_table,street_address,city,int(zip),float(lat),float(lon),address,record_id,agency)
@@ -141,20 +140,27 @@ def load_single_geocoded(location, record_id, agency):
 
         
 def main():
+    token = get_token(auth_url,id,secret)
+    county_centroids = make_county_centroids()
     for data_table in data_tables:
         #for those with full address, including city and state
         batch_rows = fetch_to_be_geocoded_batch(data_table)
-        batch_address_json = batch_make_address_json(batch_rows)
-        batch_geocoded = batch_geocode(batch_url,batch_address_json,token)
-        load_batch_geocoded(batch_geocoded, batch_rows)
+        if (batch_rows):
+            batch_address_json = batch_make_address_json(batch_rows)
+            batch_geocoded = batch_geocode(batch_url,batch_address_json,token)
+            load_batch_geocoded(batch_geocoded, batch_rows, data_table)
         
         #for those with just street address
-        single_rows = fetch_to_be_geocoded_single(data_table)
-        for row in rows:
-            ll = county_centroids[row[3]]
-            single_geocoded = single_geocode(row[4], ll, token)
-            load_single_geocoded(single_geocoded['locations'][0], row[0], row[1])
+        else:
+            single_rows = fetch_to_be_geocoded_single(data_table)
+            for row in single_rows:
+                ll = county_centroids[row[2]]
+                single_geocoded = single_geocode(row[3], ll, token)
+                if len(single_geocoded['locations']):
+                    load_single_geocoded(single_geocoded['locations'][0], row[0], row[1],data_table)
 
 
 
+if __name__ == "__main__":
+    main()
 
