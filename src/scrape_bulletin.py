@@ -120,7 +120,7 @@ def parse_arrest(piece, id_and_type, officer):
             m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>[^\(]+) '
                '(?P<offense_code>.+), '
                'at (?P<address>.+), +on +(?P<occurred_date>.+)\.')
-            matches = m.search(string)
+            matches = m.search(piece.text)
             if matches:
                 data = matches.groupdict()
                 data['offense_code'] = extract_offense_code(data['offense_code'])        
@@ -337,7 +337,7 @@ def dl_pdf(target, argument, id_and_type, payload, url):
 
 
 def log_parse_issue(this_piece,this_id_and_type):
-    log_msg = 'Failed to match ' + " / ".join(this_id_and_type.values()) + " / " + this_piece
+    log_msg = 'Failed to match ' + " / ".join(this_id_and_type.values()) + " / " + this_piece.encode('utf-8')
     scrape_logs.log(this_id_and_type['agency'],log_msg)
 
 
@@ -470,7 +470,11 @@ def start_scrape(agency, county, url, howfar):
     for date in dates:
         payload = {'Date': date, 'Type': 'AL'}
         referer = {'Referer': url}
-        page = s.get(print_url, params=payload, headers=referer)
+        try:
+            page = s.get(print_url, params=payload, headers=referer)
+        except requests.exceptions.ConnectionError as e:
+            log_unreachable(print_url)
+            continue
 	soup = BeautifulSoup(page.text.encode('utf-8'))
         count = 0
         for row in soup.find_all('table', id="dgBulletin")[0].find_all('tr'):
