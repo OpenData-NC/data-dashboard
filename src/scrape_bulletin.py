@@ -98,6 +98,7 @@ def parse_incident(piece, id_and_type, officer):
 
 
 def parse_arrest(piece, id_and_type, officer):
+    data = None
     other_data = {'scrape_type': 'bulletin', 'id_generate': '0'}
     m = re.compile('(?P<name>[^()]+) Arrest on chrg of (?P<charge>[^(]+) \(*?P<offense_code>[A-Za-z]?\)?'
                    ' ?\(?(?P<other_code>.?)\)?, at (?P<address>.+), +on +(?P<occurred_date>[^\.]+)\.')
@@ -116,9 +117,18 @@ def parse_arrest(piece, id_and_type, officer):
             matches = m.search(piece.text)
         # skip this one if there's not enough info
         if not matches:
+            m = re.compile('(?P<name>.+) \((?P<rsa>.*)\) Arrest on chrg of (?P<charge>[^\(]+) '
+               '(?P<offense_code>.+), '
+               'at (?P<address>.+), +on +(?P<occurred_date>.+)\.')
+            matches = m.search(string)
+            if matches:
+                data = matches.groupdict()
+                data['offense_code'] = extract_offense_code(data['offense_code'])        
+        if not matches:
             log_parse_issue(piece,id_and_type)
             return
-    data = matches.groupdict()
+    if not data:
+        data = matches.groupdict()
     data = race_sex_age(data)
     if id_and_type['record_id'] is None or id_and_type['record_id'] == '':
         other_data['id_generate'] = "1"
@@ -175,7 +185,16 @@ def parse_accident(piece, id_and_type, officer):
         data['pdf'] = find_pdf(data,id_and_type)
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
+    
+def extract_offense_code(offense_code):
+    m = re.compile('\((?P<offense_code>[A-Z])\)')
+    matches = m.search(offense_code)
+    if matches:
+        return matches.groupdict()['offense_code']
+    else:
+        return ''
 
+        
 def race_sex_age(data):
     rsa = {'race': '', 'sex': '', 'age': ''}
     if 'rsa' in data and data['rsa'] != '':
