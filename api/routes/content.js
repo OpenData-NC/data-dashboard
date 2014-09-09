@@ -3,19 +3,21 @@ var Connection = require('../connection').Connection;
 /* The ContentHandler must be constructed with a connected db */
 function ContentHandler (db, data_type, query_params, res) {
     "use strict";
-//    var res = res;
     var connection = new Connection(db, data_type);
     var group_by = false;
     this.displayData = function(res,query_params,data_type) {
         "use strict";
-//        console.log(data_type);
         var pieces = query_params.split('/');
         var group_by;
+        var geo = false;
         if(pieces[pieces.length - 2] === 'group_by') {
             group_by = pieces[pieces.length - 1];
             pieces = pieces.slice(0,pieces.length - 2);
         }
-        var query_obj = make_query(pieces, data_type);
+        if(pieces[pieces.length-1] === 'geo') {
+            geo = true;
+        }
+        var query_obj = make_query(pieces, data_type, geo);
         if (!query_obj.length) {
             return false;
         }
@@ -34,11 +36,12 @@ function ContentHandler (db, data_type, query_params, res) {
         , how_many;
         var date_keys = {'incidents': 'date_reported', 'arrests': 'date_occurred'}
         , date_key = date_keys[data_type];
-//        var fields = {'_id': false, 'agency': true, 'county': true, 'charge': true, 'category': true, lat: true, lon: true, address: true, pdf: true};
         var fields = {'_id': false, 'agency': true, 'county': true, 'charge': true, 'category': true,  address: true, pdf: true};
         if(geo) {
             fields['lat'] = true;
             fields['lon'] = true;
+            query_obj['lat'] = {'$gt': 0};
+            query_obj['lon'] = {'$lt': -1};
         }
         fields[date_key] = true;
         how_many = pieces.length;
