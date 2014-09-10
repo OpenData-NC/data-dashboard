@@ -1,0 +1,8 @@
+﻿body { margin: auto 0;}
+#ncod-container { width: 1200px; height: 500px; }
+#ncod-map { width: 93%; height: 90%; margin: 20px;}
+.ncod-viz-bottom{width: 45%; float: left; display: inline; height: 48%;}
+#ncod-chart, #ncod-table{width: 100%; height: 100%;}
+#ncod-nav { margin: 5px 20px;}
+#ncod-county { font-size: 18px; }
+.info-window {width: 200px; height: 110px; color: black; padding: 0; margin: 0;}
