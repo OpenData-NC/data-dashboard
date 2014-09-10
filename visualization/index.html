@@ -4,17 +4,21 @@
 <link rel="stylesheet" href="lib/css/style.css" />
 </head>
 <body>
-<style type="text/css">
-body { margin: 0 auto;}
-#ncod-container { width: 100%; height: 100%; }
-.ncod-viz {width: 100%; height: 32%}
-/*#ncod-map { width: 100%; height: 100%;} */
-.info-window {width: 200px; height: 110px; color: black; padding: 0; margin: 0;}
-</style>
     <div id="ncod-container">
-        <div id="ncod-map" class="ncod-viz"></div>
-        <div id="ncod-table" class="ncod-viz"></div>
-        <div id="ncod-chart" class="ncod-viz"></div>
+        <div id="ncod-nav">
+        <select id="ncod-county">
+        
+        </select>
+        </div>
+        <div id="ncod-map" class="ncod-viz">Loading map ...</div>
+        <div> 
+            <div class="ncod-viz-bottom">
+                <div id="ncod-chart"></div>
+            </div>
+            <div class="ncod-viz-bottom">
+                <div id="ncod-table"></div>
+            </div>
+        </div>
 	</div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
