@@ -229,9 +229,10 @@
               duration: 1000,
               easing: 'out'
             }
-            , width: 660
-            , height: 600
+            , width: 780
+            , height: 680
             , chartArea: {top: 15, left: 58}
+            , hAxis: {slantedText: true}
 //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
             
             
@@ -240,7 +241,7 @@
     };
     
     function GTable() {
-        this.table = new google.visualization.Table(document.getElementById("ncod-table"));
+        this.table = new google.visualization.DataTable();
         this.formatter = new google.visualization.DateFormat({pattern: 'M/d/yyyy'});
     }
     GTable.prototype.newData = function(table_data) {
@@ -307,11 +308,61 @@
             formatted_table_data.push(row);
         });
         that.data.addRows(formatted_table_data);
-        that.options = {page:"enable",pageSize:8, allowHtml: true};
+        that.options = {page:"enable",pageSize:20, allowHtml: true};
         date_indexes.forEach(function(i){
             that.formatter.format(that.data,i);
         });
-        that.table.draw(that.data,this.options);
+
+        var view_data = new google.visualization.DataView(that.data);
+        var filters = [];
+        var categoryFilter = new google.visualization.ControlWrapper({
+          'controlType': 'CategoryFilter',
+          'containerId': 'category-filter',
+          'options': {
+            'filterColumnLabel': 'category',
+            'ui': {
+                'label': 'catgory',
+                'labelStacking': 'horizontal',
+ //               'cssClass': 'searchFieldText',
+                'allowTyping': false,
+                'allowMultiple': false
+            }
+
+          }
+        });
+        filters.push(categoryFilter);
+        var stringFilter = new google.visualization.ControlWrapper({
+            'controlType': 'StringFilter',
+            'containerId': 'text-filter',
+            'options': {
+                'matchType': 'any',
+                'filterColumnLabel': 'address',
+                'ui': {
+                    'label': 'Address'
+                    ,'cssClass': 'text-control'
+                }
+            }
+        
+        });
+
+        filters.push(stringFilter);
+        // Define a table visualization
+        var wrapper = new google.visualization.ChartWrapper({
+          'chartType': 'Table',
+          'containerId': 'ncod-table',
+          'options': that.options
+//        ,'view': {'columns': [1,2,3,4,5,6]}
+        });
+        // Create the dashboard.
+        var data_dashboard = new google.visualization.Dashboard(document.getElementById('ncod-dashboard')).
+          // Configure the string filter to affect the table contents
+          bind(filters, wrapper).
+          // Draw the dashboard
+          draw(view_data);
+
+
+        
+//        that.table.draw(that.data,this.options);
     };
     function GMap() {
         this.current_county = null;
@@ -448,16 +499,20 @@
         });
         $('#ncod-county').html(options);
     }
-    google.load("visualization", "1", {packages:["corechart","table"]});
+    google.load("visualization", "1", {packages:["corechart","controls"]});
 
     google.setOnLoadCallback( function() {
         build_dropdown();
         fetch_data(start_params);
         //add all change listeners here
         $('#ncod-county').change(function(){
+            $('#ncod-map').html('Loading ...');
             var county = $(this).val();
             var url = '/api/incidents/county/' + county + '/start_date/08-01-2014/end_date/09-01-2014/group_by/category';
             fetch_data(url);
+        });
+        $('#ncod-chart-tab').on('shown', function (e) {
+            chart.draw();
         });
     });
 })();

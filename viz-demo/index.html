@@ -1,27 +1,69 @@
-﻿<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>test</title>
+<link rel="stylesheet" href = "lib/vendor/css/bootstrap.min.css" />
 <link rel="stylesheet" href="lib/css/style.css" />
 </head>
 <body>
-    <div id="ncod-container">
-        <div id="ncod-nav">
-        <select id="ncod-county">
-        
-        </select>
+    <div class="container">
+        <div class="row">
+            <select id="ncod-county">
+            
+            </select>
         </div>
-        <div id="ncod-map" class="ncod-viz">Loading map ...</div>
-        <div> 
-            <div class="ncod-viz-bottom">
-                <div id="ncod-chart"></div>
-            </div>
-            <div class="ncod-viz-bottom">
-                <div id="ncod-table"></div>
+        <div class="row">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="active">
+                    <a href="#map-tab"  role="tab" data-toggle="tab">
+                     Map
+                    </a>
+               </li>
+                <li>
+                    <a href="#table-tab" role="tab" data-toggle="tab">
+                        Table
+                    </a>
+                </li>
+                <li>
+                    <a id="ncod-chart-tab" href="#chart-tab"  role="tab" data-toggle="tab">
+                        Chart
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="map-tab">
+                    <div id="ncod-map">Loading map ...</div>
+                </div> 
+                <div class="tab-pane" id="table-tab">
+                    <div id="ncod-dashboard">
+                        <div>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <span id="category-filter" class="data-control"></span>
+                                        </td>
+                                        <td>
+                                            <span id="text-filter" class="data-control"></span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="ncod-table"></div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="chart-tab">
+                    <div id="ncod-chart"></div>
+                </div>
             </div>
         </div>
 	</div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="lib/vendor/js/bootstrap.min.js"></script>
 <script src="https://www.google.com/jsapi"></script>
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script src="lib/js/crime-viz.js"></script>
