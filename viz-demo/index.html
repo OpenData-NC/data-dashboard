@@ -9,6 +9,10 @@
 <body>
     <div class="container">
         <div class="row">
+            <select id="ncod-data-type">
+                <option selected value="incidents">Incidents</option>
+                <option value="arrests">Arrests</option>
+            </select>
             <select id="ncod-county">
             
             </select>
@@ -16,7 +20,7 @@
         <div class="row">
             <ul class="nav nav-tabs" role="tablist">
                 <li class="active">
-                    <a href="#map-tab"  role="tab" data-toggle="tab">
+                    <a id="ncod-map-tab" href="#map-tab"  role="tab" data-toggle="tab">
                      Map
                     </a>
                </li>

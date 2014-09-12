@@ -4,6 +4,19 @@
 #ncod-map, #ncod-chart { width: 800px; height: 700px; margin: 20px;}
 #ncod-chart { width: 800px; height: 900px; margin: 20px;}
 #ncod-nav { margin: 5px 20px;}
-#ncod-county { font-size: 18px; }
+#ncod-county, #ncod-data-type { font-size: 18px; }
 #ncod-dashboard { margin-top: 10px;}
 .info-window {width: 200px; height: 110px; color: black; padding: 0; margin: 0;}
+.little-square { 
+    width: 15px !important;
+    height: 15px !important;
+    padding: 0;
+    margin: 0 10px 2px 0;
+    border: 1px solid black;
+    display: inline;
+    float: left;
+    
+}
+.legend { width: 120px; background-color: #fff; opacity: 0.80; border: 1px solid #666; padding: 2px 5px; margin-right: 5px; font: 10pt Arial;}
+.legend p { margin-top: 3px;}
+p.legend-explain { font: 8pt Arial; line-height: 1; }

@@ -167,6 +167,10 @@
           ]
         }
     ];
+	var legend_html = '<p><b>Marker colors</b></p>'
+		+ '<p><div class="little-square" style="background-color:#da482c"></div><span>Violent crime</span></p>'
+		+ '<p><div class="little-square" style="background-color:#503158"></div><span>Property crime</span></p>'
+		+ '<p><div class="little-square" style="background-color:#b49530"></div><span>Other crime</span></p>';
 
     var chart, table, map;
     var start_params = '/api/incidents/county/Forsyth/start_date/08-01-2014/end_date/09-01-2014/group_by/category'
@@ -291,7 +295,7 @@
             if(key === 'pdf') {
                 pdf_index = index;
             }
-            that.data.addColumn(column[key], key);
+            that.data.addColumn(column[key], column_format(key));
         });
         that.table_data.forEach(function(row){
             date_indexes.forEach(function(i){
@@ -319,9 +323,9 @@
           'controlType': 'CategoryFilter',
           'containerId': 'category-filter',
           'options': {
-            'filterColumnLabel': 'category',
+            'filterColumnLabel': 'Category',
             'ui': {
-                'label': 'catgory',
+                'label': 'Category',
                 'labelStacking': 'horizontal',
  //               'cssClass': 'searchFieldText',
                 'allowTyping': false,
@@ -336,7 +340,7 @@
             'containerId': 'text-filter',
             'options': {
                 'matchType': 'any',
-                'filterColumnLabel': 'address',
+                'filterColumnLabel': 'Address',
                 'ui': {
                     'label': 'Address'
                     ,'cssClass': 'text-control'
@@ -359,7 +363,10 @@
           bind(filters, wrapper).
           // Draw the dashboard
           draw(view_data);
-
+        function column_format(text){
+            text = text.replace('_', ' ');
+            return text.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+        }
 
         
 //        that.table.draw(that.data,this.options);
@@ -371,12 +378,15 @@
         this.map_options = {zoom: start_zoom, styles: map_styles, center: this.start_center};
         this.map = new google.maps.Map(document.getElementById('ncod-map'),this.map_options);
         this.info_window = new google.maps.InfoWindow({content:''});
+        this.legend = this.makeLegend(legend_html);
+        this.map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(this.legend);        
     }
     
     GMap.prototype.newData = function(table_data) {
         var that = this, temp_record;
         that.data_type = table_data.data_type;
         that.map_data = [];
+        
 /* this will be in GTable, so remove */
         that.geo_indexes = [];
         that.columns = table_data.headers.filter( function(header,i){
@@ -401,8 +411,8 @@
             record.forEach( function(item, i){
                 if(!that.current_county || that.current_county !== item[that.county_index]){
                     that.current_county = record[that.county_index];
-                    var coords = county_centers[ that.current_county ];
-                    that.map.panTo( new google.maps.LatLng(coords[0], coords[1]) );
+                    that.coords = county_centers[ that.current_county ];
+                    that.map.panTo( new google.maps.LatLng(that.coords[0], that.coords[1]) );
                     that.map.setZoom(start_zoom);
                 }
                 if(that.geo_indexes.indexOf(i) !== -1)
@@ -413,6 +423,13 @@
         });
 //        console.log(that.map_data);
     };
+    GMap.prototype.makeLegend = function(legend_html) {
+        var legend_div = document.createElement('div');
+        legend_div.className = 'legend';
+        legend_div.innerHTML = legend_html;
+        legend_div.index = 1;
+        return legend_div;
+    }
     GMap.prototype.draw = function() {
         
         var rows = [], key, date_indexes = [];
@@ -505,14 +522,20 @@
         build_dropdown();
         fetch_data(start_params);
         //add all change listeners here
-        $('#ncod-county').change(function(){
-            $('#ncod-map').html('Loading ...');
-            var county = $(this).val();
-            var url = '/api/incidents/county/' + county + '/start_date/08-01-2014/end_date/09-01-2014/group_by/category';
-            fetch_data(url);
+        $('#ncod-county, #ncod-data-type').change(function(){
+            var county = $('#ncod-county').val();
+            if(county !== 'Change county ...'){
+                $('#ncod-map').html('Loading ...');
+                var record_type = $('#ncod-data-type').val();
+                var url = '/api/' + record_type + '/county/' + county + '/start_date/08-01-2014/end_date/09-01-2014/group_by/category';
+                fetch_data(url);
+            }
         });
-        $('#ncod-chart-tab').on('shown', function (e) {
-            chart.draw();
+        $('#ncod-map-tab').on('shown.bs.tab', function (e) {
+            console.log("redraw");
+            google.maps.event.trigger(map.map, 'resize');
+            map.map.panTo( new google.maps.LatLng(map.coords[0], map.coords[1]) )
         });
+
     });
 })();
