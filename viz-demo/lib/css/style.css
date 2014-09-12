@@ -3,6 +3,7 @@
 #ncod-map,#ncod-chart, #ncod-table { width: 80%; height: 60%;}
 #ncod-map, #ncod-chart { width: 800px; height: 700px; margin: 20px;}
 #ncod-chart { width: 800px; height: 900px; margin: 20px;}
+#ncod-unemp-chart, #ncod-sales-tax-chart { width: 800px; height: 440px; margin: 20px;}
 #ncod-nav { margin: 5px 20px;}
 #ncod-county, #ncod-data-type { font-size: 18px; }
 #ncod-dashboard { margin-top: 10px;}

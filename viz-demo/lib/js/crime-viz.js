@@ -172,7 +172,7 @@
 		+ '<p><div class="little-square" style="background-color:#503158"></div><span>Property crime</span></p>'
 		+ '<p><div class="little-square" style="background-color:#b49530"></div><span>Other crime</span></p>';
 
-    var chart, table, map;
+    var chart, table, map, county = 'Forsyth', sales_tax_chart, unemp_chart;
     var start_params = '/api/incidents/county/Forsyth/start_date/08-01-2014/end_date/09-01-2014/group_by/category'
     var start_coords = [35.7768935,-80.8740215];
     var start_zoom = 12;
@@ -369,8 +369,8 @@
         }
 
         
-//        that.table.draw(that.data,this.options);
     };
+//Map
     function GMap() {
         this.current_county = null;
         this.markers = [];
@@ -447,12 +447,9 @@
             if(key === 'pdf') {
                 pdf_index = index;
             }
-//            that.data.addColumn(column[key], key);
         });
         that.map_data.forEach(function(row){
             date_indexes.forEach(function(i){
-            //NEEDED
-            //CAN I USE THE TABLE FORMATTER HERE?
                 row[i] = format_date(new Date(row[i]));
             });
             if(row[pdf_index]){
@@ -485,6 +482,66 @@
             return [date.getMonth() + 1, date.getDate(), date.getFullYear()].join('/');
         }
     };
+//econ graphs
+
+    function SalesTaxChart() {
+        this.chart = new google.visualization.ColumnChart(document.getElementById('ncod-sales-tax-chart'));
+        this.sales_tax_headers = ['Month','Tax receipts', 'Gross sales'];
+        this.number_formatter_dec = new google.visualization.NumberFormat({prefix: '$'});
+        this.number_formatter_no_dec = new google.visualization.NumberFormat({prefix: '$', fractionDigits: 0});
+        this.options = {
+            isStacked: true
+            , colors: ['#56A0D3','#ADCD9E','#8E7098','#F3D469','#E1755F','#7EBEE4']
+            , animation:{
+              duration: 1000,
+              easing: 'out'
+            }
+            , width: 780
+            , height: 440
+//            , chartArea: {top: 15, left: 58}
+           
+        };
+    }
+    SalesTaxChart.prototype.draw = function(county) {
+        var county_data = sales_tax[county];
+        county_data.unshift(this.sales_tax_headers);
+        var sales_tax_data = google.visualization.arrayToDataTable(county_data);
+        this.number_formatter_no_dec.format(sales_tax_data,2);
+        this.number_formatter_dec.format(sales_tax_data,1);
+        this.options['title'] = county + ' sales and tax';
+        this.chart.draw(sales_tax_data,this.options);
+    
+    }
+
+    function UnempChart() {
+        this.chart = new google.visualization.LineChart(document.getElementById('ncod-unemp-chart'));
+        this.unemp_headers = ['Month','Rate'];
+        this.percent_formatter = new google.visualization.NumberFormat({suffix: '%', fractionDigits: 1});
+        this.options = {
+            vAxis: {baseline: 0, title: 'Rate'}
+            , legend: {position: 'none'}
+            , curveType: 'function'
+            , colors: ['#56A0D3','#ADCD9E','#8E7098','#F3D469','#E1755F','#7EBEE4']
+            , animation:{
+              duration: 1000,
+              easing: 'out'
+            }
+            , width: 780
+            , height: 440
+//            , chartArea: {top: 15, left: 58}
+            
+        };
+    }
+
+    UnempChart.prototype.draw = function(county) {
+        var county_data = state_unemp[county];
+        county_data.unshift(this.unemp_headers);
+        var unemp_data = google.visualization.arrayToDataTable(county_data);
+        this.percent_formatter.format(unemp_data, 1);
+        this.options['title'] = county + ' unemployment by month';
+        this.chart.draw(unemp_data,this.options);
+    
+    }
 
     function redraw(crime_data) {
         chart = new GChart();
@@ -496,6 +553,10 @@
         map = new GMap();
         map.newData(crime_data);
         map.draw();
+        sales_tax_chart = new SalesTaxChart();
+        sales_tax_chart.draw(county);
+        unemp_chart = new UnempChart();
+        unemp_chart.draw(county);
     }
     function fetch_data(url){
         $.getJSON(url, function(data){
@@ -523,8 +584,9 @@
         fetch_data(start_params);
         //add all change listeners here
         $('#ncod-county, #ncod-data-type').change(function(){
-            var county = $('#ncod-county').val();
-            if(county !== 'Change county ...'){
+            var selected_county = $('#ncod-county').val();
+            if(selected_county !== 'Change county ...'){
+                county = selected_county;
                 $('#ncod-map').html('Loading ...');
                 var record_type = $('#ncod-data-type').val();
                 var url = '/api/' + record_type + '/county/' + county + '/start_date/08-01-2014/end_date/09-01-2014/group_by/category';
