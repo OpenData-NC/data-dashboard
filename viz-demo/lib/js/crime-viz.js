@@ -510,6 +510,7 @@
         this.number_formatter_dec.format(sales_tax_data,1);
         this.options['title'] = county + ' sales and tax';
         this.chart.draw(sales_tax_data,this.options);
+        county_data.shift();
     
     }
 
@@ -557,6 +558,7 @@
         sales_tax_chart.draw(county);
         unemp_chart = unemp_chart || new UnempChart();
         unemp_chart.draw(county);
+        county_data.shift();
     }
     function fetch_data(url){
         $.getJSON(url, function(data){
