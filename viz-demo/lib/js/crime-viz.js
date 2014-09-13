@@ -544,18 +544,18 @@
     }
 
     function redraw(crime_data) {
-        chart = new GChart();
+        chart = chart || new GChart();
         chart.newData(crime_data);
         chart.draw();
-        table = new GTable();
+        table = table || new GTable();
         table.newData(crime_data);
         table.draw();
         map = new GMap();
         map.newData(crime_data);
         map.draw();
-        sales_tax_chart = new SalesTaxChart();
+        sales_tax_chart = sales_tax_chart || new SalesTaxChart();
         sales_tax_chart.draw(county);
-        unemp_chart = new UnempChart();
+        unemp_chart = unemp_chart || new UnempChart();
         unemp_chart.draw(county);
     }
     function fetch_data(url){
@@ -594,7 +594,6 @@
             }
         });
         $('#ncod-map-tab').on('shown.bs.tab', function (e) {
-            console.log("redraw");
             google.maps.event.trigger(map.map, 'resize');
             map.map.panTo( new google.maps.LatLng(map.coords[0], map.coords[1]) )
         });
