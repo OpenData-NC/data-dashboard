@@ -470,7 +470,10 @@
                 icon: icon,
                 map: that.map
             });
-            var content = '<div class="info-window">' + row.slice(0,4).join('<br />') + '</div>';
+//            console.log(row);
+            var content_data = [row[0], row[1], row[5], row[6], row[7]];
+//            var content = '<div class="info-window">' + row.slice(0,4).join('<br />') + '</div>';
+            var content = '<div class="info-window">' + content_data.join('<br />') + '</div>';
             google.maps.event.addListener(marker, 'click', function(){
                 that.info_window.setContent(content);
                 that.info_window.open(that.map, marker);
@@ -485,8 +488,8 @@
 //econ graphs
 
     function SalesTaxChart() {
-        this.chart = new google.visualization.ColumnChart(document.getElementById('ncod-sales-tax-chart'));
         this.sales_tax_headers = ['Month','Tax receipts', 'Gross sales'];
+        this.chart = new google.visualization.ColumnChart(document.getElementById('ncod-sales-tax-chart'));
         this.number_formatter_dec = new google.visualization.NumberFormat({prefix: '$'});
         this.number_formatter_no_dec = new google.visualization.NumberFormat({prefix: '$', fractionDigits: 0});
         this.options = {
@@ -504,7 +507,7 @@
     }
     SalesTaxChart.prototype.draw = function(county) {
         var county_data = sales_tax[county];
-        county_data.unshift(this.sales_tax_headers);
+        county_data.unshift(this.sales_tax_headers)
         var sales_tax_data = google.visualization.arrayToDataTable(county_data);
         this.number_formatter_no_dec.format(sales_tax_data,2);
         this.number_formatter_dec.format(sales_tax_data,1);
@@ -574,8 +577,10 @@
     }
     function build_dropdown(){
         var options = '<option>Change county ...</options>';
-        counties.sort().forEach(function(county){
-            options += '<option value="' + county + '">' + county + '</option>';
+        var selected = '';
+        counties.sort().forEach(function(county_option){
+            selected = county_option === county? 'selected':'';
+            options += '<option value="' + county_option + '"' + selected + ' >' + county_option + '</option>';
         });
         $('#ncod-county').html(options);
     }
