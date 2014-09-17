@@ -29,10 +29,14 @@ def format_db_datetime(date_string):
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %I:%M:%S %p').strftime('%Y/%m/%d %H:%M:%S')
     elif len(date_string.split(':')) == 3:
         return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M:%S').strftime('%Y/%m/%d %H:%M:%S')
-    elif len(date_string.split('/')) == 3:
-        return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M').strftime('%Y/%m/%d %H:%M')
+    elif date_string.find('/') != -1:
+        try:
+            return datetime.datetime.strptime(date_string, '%m/%d/%Y %H:%M').strftime('%Y/%m/%d %H:%M')
+        except ValueError as e:
+            print date_string
+            return ''
     else:
-    #there's something wrong because no date
+    #there's no date or it has an odd format
         print date_string
         return ''
     

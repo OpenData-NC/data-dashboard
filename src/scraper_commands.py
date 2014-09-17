@@ -53,7 +53,7 @@ def print_files(data,data_dir):
         for record in records:
             holder = holder + record + "\n"
         with open(data_file, 'w') as f:
-            f.write(holder)
+            f.write(holder.encode('utf8'))
             f.close()
 
 

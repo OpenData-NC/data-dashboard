@@ -180,9 +180,12 @@ def pass_disclaimer(url):
     if page.url != url:
         disclaimer_url = page.url
         soup = BeautifulSoup(page.text)
-        redirect_link = \
-            soup.find_all('select', {"id":"DDLSiteMap1_ddlQuickLinks"})[0].find_all('option',
+        try:
+            redirect_link = \
+                soup.find_all('select', {"id":"DDLSiteMap1_ddlQuickLinks"})[0].find_all('option',
                                                                         attrs={'selected': "selected"})[0]['value']
+        except IndexError:
+            return False
         disclaimer_items['ctl00$MasterPage$DDLSiteMap1$ddlQuickLinks'] = redirect_link
         search_items['MasterPage$DDLSiteMap1$ddlQuickLinks'] = redirect_link
         v_e = find_v_e(page.text)
@@ -291,6 +294,8 @@ def start_scrape(agency, url, howfar, county):
     else :
         county_st = ', ' + county + ', NC'
     page = pass_disclaimer(url)
+    if not page:
+       return False
     communities = find_communities(page.text, county)
     date_ranges = date_formatters.make_date_ranges(howfar)
     for current_date_range in date_ranges:

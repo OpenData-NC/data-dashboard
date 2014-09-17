@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import glob
 import os
 from subprocess import call
@@ -12,9 +14,10 @@ def pdf_to_text(incident_type):
     files = glob.glob(incident_type + '/*.pdf')
     for pdf_file in files:
         text_file = pdf_file.replace('pdf','txt')
-        if file_exists(text_file):
+        if os.path.exists(text_file):
             continue
         command = 'pdftotext -layout ' + pdf_file + ' ' + text_file
+        print command
         call(command,shell=True)
 
 

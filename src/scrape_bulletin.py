@@ -130,6 +130,7 @@ def parse_arrest(piece, id_and_type, officer):
     if not data:
         data = matches.groupdict()
     data = race_sex_age(data)
+    data['charge'] = clean_charge(data['charge'])
     if id_and_type['record_id'] is None or id_and_type['record_id'] == '':
         other_data['id_generate'] = "1"
         if 'address' not in data:
@@ -194,7 +195,11 @@ def extract_offense_code(offense_code):
     else:
         return ''
 
+
+def clean_charge(charge):
+    return re.sub(r', [FM]$', '', charge)
         
+
 def race_sex_age(data):
     rsa = {'race': '', 'sex': '', 'age': ''}
     if 'rsa' in data and data['rsa'] != '':
@@ -331,7 +336,11 @@ def dl_pdf(target, argument, id_and_type, payload, url):
     if argument != '':
         payload['__EVENTARGUMENT'] = argument
     referer = {'Referer': url}
-    pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
+    try:
+        pdf_response = s.post(url, data=payload, headers=referer, allow_redirects=True, stream=True)
+    except requests.exceptions.ConnectionError:
+        log_pdf_scrape_issue(id_and_type)
+        return ''
     pdf_file = store_pdf.store_file(pdf_response,pdf_file)
     return pdf_file
 
@@ -477,7 +486,13 @@ def start_scrape(agency, county, url, howfar):
             continue
 	soup = BeautifulSoup(page.text.encode('utf-8'))
         count = 0
-        for row in soup.find_all('table', id="dgBulletin")[0].find_all('tr'):
+        try:
+            rows = soup.find_all('table', id="dgBulletin")[0].find_all('tr')
+        except IndexError:
+            continue
+        
+#        for row in soup.find_all('table', id="dgBulletin")[0].find_all('tr'):
+        for row in rows:
             if count == 0:
                 count += 1
             else:

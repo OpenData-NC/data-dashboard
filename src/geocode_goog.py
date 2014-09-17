@@ -1,4 +1,3 @@
-__author__ = 'vaughn'
 #!/usr/bin/env python
 
 import requests
@@ -8,18 +7,23 @@ import time
 import MySQLdb
 
 acceptable_types = ['RANGE_INTERPOLATED', 'ROOFTOP', 'GEOMETRIC_CENTER']
+acceptable_location_types =['bus_station', 'transit_station', 'establishment','intersection','street_number','parking','establishment']
 url = 'https://maps.googleapis.com/maps/api/geocode/json'
 geocoder = 'Google'
 
 user = 'crimeloader'
 pw = 'redaolemirc'
 db = 'crime'
-data_tables = ['accidents','arrests','citations','incidents']
+data_tables = ['arrests','incidents']
 connection = MySQLdb.connect(user=user,passwd=pw,db=db)
 cursor = connection.cursor()
 
+count = 0
+daily_max = 2450
 
 def geocode(row, bbox, data_table):
+    global count
+    global daily_max
     county = row[2]
     address = row[3]
 
@@ -29,16 +33,25 @@ def geocode(row, bbox, data_table):
     payload = {'address':address, 'bounds': bbox}
 
     page = requests.get(url,params=payload)
+    try:
+       results = json.loads(page.text)
+    except ValueError:
+        time.sleep(120)
+        requests.get(url, params=payload)
+        results = json.loads(page.text)
 
-    results = json.loads(page.text)
-
+    if results['status'] == 'OVER_QUERY_LIMIT':
+        time.sleep(120)
+        page = requests.get(url,params=payload)
+        results = json.loads(page.text)
     if results['status'] != 'OK':
         return False
     data = results['results'][0]
     geometry = data['geometry']
     address_components = data['address_components']
     formatted_address = data['formatted_address']
-    if geometry['location_type'] in acceptable_types or "intersection" in data['types']:
+    found_types = list(set(acceptable_location_types) & set(data['types']))
+    if geometry['location_type'] in acceptable_types or len(found_types):
         address_tuple = make_address_tuple(address_components)
         if not address_tuple:
             failed_geocode(row, geocoder, data_table)
@@ -52,8 +65,10 @@ def geocode(row, bbox, data_table):
 #        sql_tuple = row +  + (formatted_address,) +
     else:
         failed_geocode(row, geocoder, data_table)
-
-    time.sleep(0.2)
+    count += 1
+    if count == daily_max:
+        exit()
+    time.sleep(0.25)
 
 
 def title_case(s, county):
@@ -141,8 +156,8 @@ def already_geocoded(data_table, row):
     return False
 
 def failed_geocode(row, geocoder, data_table):
-    sql = 'update %s set lat = -1, lon= -1, geocoder = "%s" where record_id = "%s" and agency = "%s" and county = "%s" limit 1' \
-        % (data_table, geocoder, row[0], row[1], row[2])
+    sql = 'update %s set lat = -1, lon= -1  where record_id = "%s" and agency = "%s" and county = "%s" limit 1' \
+        % (data_table, row[0], row[1], row[2])
     cursor.execute(sql)
     connection.commit()
 
@@ -159,7 +174,7 @@ def main():
     geocoder = 'Google'
     for data_table in data_tables:
         #for those with full address, including city and state
-        rows = fetch_to_be_geocoded(data_table)
+        rows = fetch_to_be_geocoded(data_table, 1250)
         for row in rows:
             if not already_geocoded(data_table, row):
                 bbox = county_centroids[row[2]]
