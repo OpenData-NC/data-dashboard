@@ -470,7 +470,6 @@
                 icon: icon,
                 map: that.map
             });
-//            console.log(row);
             var content_data = [row[0], row[1], row[5], row[6], row[7]];
 //            var content = '<div class="info-window">' + row.slice(0,4).join('<br />') + '</div>';
             var content = '<div class="info-window">' + content_data.join('<br />') + '</div>';
@@ -547,6 +546,17 @@
         county_data.shift();
     
     }
+    
+    function build_stat_table(stats, div_id){
+        var rows = '', key, value;
+        stats.forEach(function(stat){
+            key = Object.keys(stat)[0];
+            value = stat[key];
+            rows += '<tr><td>' + Object.keys(stat)[0] + '</td><td>' + value + '</td></tr>';
+        })
+        $('#' + div_id).html(rows);
+    
+    }
 
     function redraw(crime_data) {
         chart = chart || new GChart();
@@ -562,6 +572,9 @@
         sales_tax_chart.draw(county);
         unemp_chart = unemp_chart || new UnempChart();
         unemp_chart.draw(county);
+        build_stat_table(crime_data.stats.by_day, 'stats-by-day');
+        build_stat_table(crime_data.stats.by_address, 'stats-by-address');
+        build_stat_table(crime_data.stats.by_officer, 'stats-by-officer');
     }
     function fetch_data(url){
         $.getJSON(url, function(data){
@@ -589,7 +602,6 @@
     google.setOnLoadCallback( function() {
         build_dropdown();
         fetch_data(start_params);
-        //add all change listeners here
         $('#ncod-county, #ncod-data-type').change(function(){
             var selected_county = $('#ncod-county').val();
             if(selected_county !== 'Change county ...'){

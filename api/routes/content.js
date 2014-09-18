@@ -9,7 +9,7 @@ function ContentHandler (db, data_type, query_params, res) {
         "use strict";
         var pieces = query_params.split('/');
         var group_by;
-        var geo = false;
+//        var geo = false;
         if(pieces[pieces.length - 2] === 'group_by') {
             group_by = pieces[pieces.length - 1];
             pieces = pieces.slice(0,pieces.length - 2);
@@ -37,7 +37,7 @@ function ContentHandler (db, data_type, query_params, res) {
         , how_many;
         var date_keys = {'incidents': 'date_reported', 'arrests': 'date_occurred'}
         , date_key = date_keys[data_type];
-        var fields = {'_id': false, 'agency': true, 'county': true, 'charge': true, 'category': true,  address: true, pdf: true, lat: true, lon: true};
+        var fields = {'_id': false, 'agency': true, 'county': true, 'name': true, 'age': true, 'race': true, 'sex': true, 'charge': true, 'category': true,  address: true, pdf: true, lat: true, lon: true, 'reporting_officer': true};
         fields[date_key] = true;
         how_many = pieces.length;
 
@@ -112,6 +112,79 @@ function ContentHandler (db, data_type, query_params, res) {
         return headers;
         
     }
+    function stats(data_type, records){
+        var date_keys = {'incidents': 'date_reported', 'arrests': 'date_occurred'}
+        , date_key = date_keys[data_type];
+        var all_stats = {};
+        var by_days = [];
+        var by_officer = {};
+        var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        days.forEach(function(day){
+            by_days[day] = 0;
+        });
+        var by_address = {};
+        records.forEach(function(record){
+            by_days[ days[record[date_key].getDay()]]++;
+            if(by_address[record['address']]) {
+                by_address[record['address']]+=1;
+            }
+            else {
+                if(record['address'] !== ''){
+                    by_address[record['address']] = 1;
+                }
+            }
+            if(record['reporting_officer'] !== ''){
+                if(by_officer[record['reporting_officer']]) {
+                    by_officer[record['reporting_officer']]+=1;
+                }
+                else {
+                    by_officer[record['reporting_officer']] = 1;
+                }
+            }
+        });
+        var addresses = [], officers = [], days = [];
+        var skips = /address|restricted/i;
+        for(var i in by_address){
+            var obj = {};
+            if(!skips.test(i)){
+                obj[i] = by_address[i];
+                addresses.push(obj);
+            }
+        
+        }
+        for(var i in by_officer){
+            var obj = {};
+            obj[i] = by_officer[i];
+            officers.push(obj);
+            
+        
+        }
+        for(var i in by_days) {
+            var obj = {};
+            obj[i] = by_days[i];
+            days.push(obj);
+        
+        }
+        addresses.sort(obj_sorter);
+        officers.sort(obj_sorter);
+
+        function obj_sorter(a,b){
+            var a_key = Object.keys(a)[0]; 
+            var b_key = Object.keys(b)[0];
+            if( b[b_key] > a[a_key]) {
+                return 1;
+            }
+            else if( a[a_key] > b[b_key]) {
+                return -1;
+            }
+            return 0;        
+        } 
+        all_stats['by_day'] = days;
+        all_stats['by_address'] = addresses.slice(0,20);
+        all_stats['by_officer'] = officers.slice(0,20);
+        return all_stats;
+    }
+    
     function show_json(records, data_type, group_by, record_type ) {
         "use strict";
         var json = {};
@@ -125,7 +198,7 @@ function ContentHandler (db, data_type, query_params, res) {
             json['grouped'] = {};
             json['grouped'][group_by] = group_records(records, group_by);
         }
-        
+        json['stats'] = stats(data_type,records);
         res.status(200);
         res.set('Content-Type','Application/JSON');        
         res.send(JSON.stringify(json));        
