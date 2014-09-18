@@ -21,17 +21,22 @@
             <ul class="nav nav-tabs" role="tablist">
                 <li class="active">
                     <a id="ncod-map-tab" href="#map-tab"  role="tab" data-toggle="tab">
-                     Map
+                        Crime map
                     </a>
                </li>
                 <li>
                     <a href="#table-tab" role="tab" data-toggle="tab">
-                        Table
+                        Crime table
                     </a>
                 </li>
                 <li>
                     <a id="ncod-chart-tab" href="#chart-tab"  role="tab" data-toggle="tab">
-                        Chart
+                        Crime chart
+                    </a>
+                </li>
+                <li>
+                    <a id="ncod-stats-tab" href="#stats-tab"  role="tab" data-toggle="tab">
+                        Crime stats
                     </a>
                 </li>
                 <li>
@@ -66,6 +71,35 @@
                 </div>
                 <div class="tab-pane" id="chart-tab">
                     <div id="ncod-chart"></div>
+                </div>
+                <div class="tab-pane" id="stats-tab">
+                    <h2>By day of week</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <th>Day</th><th>Incidents</th>
+                        </thead>
+                        <tbody id="stats-by-day">
+                        
+                        </tbody>
+                    </table>
+                    <h2>By address</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <th>Day</th><th>Incidents</th>
+                        </thead>
+                        <tbody id="stats-by-address">
+                        
+                        </tbody>
+                    </table>
+                    <h2>By reporting officer</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <th>Day</th><th>Incidents</th>
+                        </thead>
+                        <tbody id="stats-by-officer">
+                        
+                        </tbody>
+                    </table>
                 </div>
                 <div class="tab-pane" id="econ-chart-tab">
                     <div id="ncod-unemp-chart"></div>
