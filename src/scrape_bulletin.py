@@ -475,7 +475,7 @@ def start_scrape(agency, county, url, howfar):
     """
     print_url = re.sub('dailybulletin', 'DailyBulletinPrint', url)
     s.get(url)
-    dates = date_formatters.make_dates(howfar)
+    dates = date_formatters.make_dates(agency, howfar)
     for date in dates:
         payload = {'Date': date, 'Type': 'AL'}
         referer = {'Referer': url}

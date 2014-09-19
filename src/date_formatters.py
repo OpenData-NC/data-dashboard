@@ -1,25 +1,56 @@
 import datetime
+import MySQLdb
+
+
+def find_min_date(agency):
+    user = 'crimeloader'
+    pw = 'redaolemirc'
+    db = 'crime'
+    data_tables = ['accidents','arrests','citations','incidents']
+    connection = MySQLdb.connect(user=user, passwd=pw, db=db)
+    cursor = connection.cursor()
+    sql = 'select min(%s) from incidents where agency = "%s" and date_reported > "00-00-00"' % (agency)
+    cursor.execute(sql)
+    min_date = cursor.fetchone()[0]
+    cursor.close()
+    return min_date
 
 #make an array of formatted dates we'll use to grab
 #each of the bulletin pages
-def make_dates(howfar=0):
+def make_dates(agency, howfar=0):
+    howfar_save = howfar
+    min_date = find_min_date(agency)
+#    start_hist_date = datetime.datetime.strptime(min_date,'%Y-%m-%d')
     dates = []
     while howfar >= 0:
         date = (datetime.datetime.today() - datetime.timedelta(days=howfar)).strftime('%m/%d/%Y')
         dates.append(date)
         howfar -= 1
+    howfar = howfar_save
+    while howfar > 0:
+        date = (min_date - datetime.timedelta(days=howfar)).strftime('%m/%d/%Y')
+        print min_date
+        print date
+        dates.append(date)
+        howfar -= 1
+        print howfar
     return dates
 
 
-def find_range(farback):
-    date_wanted = (datetime.datetime.today() - datetime.timedelta(days=farback)).strftime('%m/%d/%Y')
+def find_range(farback, start_date = Null):
+    if not start_date:
+        start_date = datetime.datetime.today()
+    date_wanted = (start_date - datetime.timedelta(days=farback)).strftime('%m/%d/%Y')
     return {'MasterPage$mainContent$txtDateFrom2': date_wanted, 'MasterPage$mainContent$txtDateTo2': date_wanted}
 
 
-def make_date_ranges(howfar):
+def make_date_ranges(agency, howfar = 0):
+    howfar_save = howfar
+    min_date = find_min_date(agency)
     date_ranges = []
     while howfar >= 0:
         date_ranges.append(find_range(howfar))
+        date_ranges.append(find_range(howfar,min_date))
         howfar -= 1
     return date_ranges
 
