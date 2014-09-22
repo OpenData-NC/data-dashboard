@@ -85,13 +85,15 @@ def parse_incident(row, id_and_type, officer):
     matches = m.search(row['crime'])
     data = dict(data.items() + matches.groupdict().items())
     m = re.compile('at (?P<address>.+),? ?$')
-    data = dict(data.items() + matches.groupdict().items())
+    matches = m.search(row['location'])
+    if matches:
+        data = dict(data.items() + matches.groupdict().items())
     data = date_formatters.on_between(data)
     data['date_reported'] = date_formatters.format_db_date_part(data['reported_date'])
     data['time_reported'] = date_formatters.format_db_time_part(data['reported_date'])
     data = date_formatters.format_reported_date(data, 'reported_date')
     data['pdf'] = find_pdf(data, id_and_type)
-
+    data['charge'] = data['charge'].strip()
     return dict(data.items() + officer.items() + id_and_type.items() + other_data.items())
 
 
@@ -109,12 +111,14 @@ def parse_arrest(row, id_and_type, officer):
     m = re.compile('on (?P<occurred_date>[^\.]+)\.')
     matches = m.search(row['time'])
     data = dict(data.items() + matches.groupdict().items())
-    data['charge'] = row['charge'].split(',')[0]
+    data['charge'] = row['charge'].split(',')[0].strip()
     m = re.compile('\(*(?P<offense_code>[A-Z ]*)\)*,*$')
     matches = m.search(row['crime'])
     data = dict(data.items() + matches.groupdict().items())
     m = re.compile('at (?P<address>.+),? ?$')
-    data = dict(data.items() + matches.groupdict().items())
+    matches = m.search(row['location'])
+    if matches:
+        data = dict(data.items() + matches.groupdict().items())
     if id_and_type['record_id'] == '':
         other_data['id_generate'] = "1"
         if 'address' not in data:
@@ -424,7 +428,7 @@ def start_scrape(agency, county, url, howfar):
     """
     json_params = {'t': 'db', '_search': 'false', 'rows': 10000, 'nd': '', 'page': '1', 'sidx': 'case', 'sort': 'asc'}
     keys_wanted = ['key','id','name','crime','location','time']
-    dates = date_formatters.make_dates(howfar)
+    dates = date_formatters.make_dates(agency, howfar)
     for date in dates:
         page = s.get(url)
         soup = BeautifulSoup(page.text.encode('utf-8'))

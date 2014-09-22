@@ -297,7 +297,7 @@ def start_scrape(agency, url, howfar, county):
     if not page:
        return False
     communities = find_communities(page.text, county)
-    date_ranges = date_formatters.make_date_ranges(howfar, agency)
+    date_ranges = date_formatters.make_date_ranges(agency, howfar)
     for current_date_range in date_ranges:
         date_range = current_date_range
         for community, code in communities.items():

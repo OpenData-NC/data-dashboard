@@ -9,9 +9,13 @@ def find_min_date(agency):
     data_tables = ['accidents','arrests','citations','incidents']
     connection = MySQLdb.connect(user=user, passwd=pw, db=db)
     cursor = connection.cursor()
-    sql = 'select min(%s) from incidents where agency = "%s" and date_reported > "00-00-00"' % (agency)
+    sql = 'select min(date_reported) from incidents where agency = "' + agency + '" and date_reported > "00-00-00"'
     cursor.execute(sql)
     min_date = cursor.fetchone()[0]
+    if not min_date:
+        sql = 'select min(date_occurred) from arrests where agency = "' + agency + '" and date_occurred > "00-00-00"'
+        cursor.execute(sql)
+        min_date = cursor.fetchone()[0]
     cursor.close()
     return min_date
 
@@ -27,17 +31,15 @@ def make_dates(agency, howfar=0):
         dates.append(date)
         howfar -= 1
     howfar = howfar_save
-    while howfar > 0:
-        date = (min_date - datetime.timedelta(days=howfar)).strftime('%m/%d/%Y')
-        print min_date
-        print date
-        dates.append(date)
-        howfar -= 1
-        print howfar
+    if min_date:
+        while howfar > 0:
+            date = (min_date - datetime.timedelta(days=howfar)).strftime('%m/%d/%Y')
+            dates.append(date)
+            howfar -= 1
     return dates
 
 
-def find_range(farback, start_date = Null):
+def find_range(farback, start_date = 0):
     if not start_date:
         start_date = datetime.datetime.today()
     date_wanted = (start_date - datetime.timedelta(days=farback)).strftime('%m/%d/%Y')
@@ -50,7 +52,8 @@ def make_date_ranges(agency, howfar = 0):
     date_ranges = []
     while howfar >= 0:
         date_ranges.append(find_range(howfar))
-        date_ranges.append(find_range(howfar,min_date))
+        if min_date:
+            date_ranges.append(find_range(howfar,min_date))
         howfar -= 1
     return date_ranges
 

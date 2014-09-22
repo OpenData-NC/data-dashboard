@@ -26,16 +26,32 @@ community_item = {'MasterPage$mainContent$CGeoCityDDL11': ''}  # testing
 s = requests.Session()
 county_st = ''
 
-def find_range(farback):
-    date_wanted = (datetime.datetime.today() - datetime.timedelta(days=farback)).strftime('%m/%d/%Y')
+def find_range(farback, start_date = 0):
+#    date_wanted = (datetime.datetime.today() - datetime.timedelta(days=farback)).strftime('%m/%d/%Y')
+    if not start_date:
+        start_date = datetime.datetime.today()
+    date_wanted = (start_date - datetime.timedelta(days=farback)).strftime('%m/%d/%Y')
     return {'MasterPage$mainContent$txtDateFrom$txtDatePicker': date_wanted, 'MasterPage$mainContent$txtDateTo$txtDatePicker': date_wanted}
 
-def make_date_ranges(howfar):
+#def make_date_ranges(howfar):
+#    date_ranges = []
+#    while howfar >= 0:
+#        date_ranges.append(find_range(howfar))
+#        howfar -= 1
+#    return date_ranges
+def make_date_ranges(agency, howfar = 0):
+    print agency
+    howfar_save = howfar
+    min_date = date_formatters.find_min_date(agency)
     date_ranges = []
     while howfar >= 0:
         date_ranges.append(find_range(howfar))
+        if min_date:
+            date_ranges.append(find_range(howfar,min_date))
         howfar -= 1
     return date_ranges
+
+
 
 def types_available(page):
     global search_items
@@ -300,7 +316,7 @@ def start_scrape(agency, url, howfar, county):
         county_st = ', ' + county + ', NC'
     page = pass_disclaimer(url)
     communities = find_communities(page.text, county)
-    date_ranges = make_date_ranges(howfar)
+    date_ranges = make_date_ranges(agency, howfar)
     for current_date_range in date_ranges:
         date_range = current_date_range
         for community, code in communities.items():
