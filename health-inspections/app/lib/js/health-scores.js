@@ -35,7 +35,7 @@
         options['pagingSymbols'] = {prev: 'prev', next: 'next'};
         options['pagingButtonsConfiguration'] = 'auto';
         options['allowHtml'] = true;
-        var view_data = new google.visualization.DataView(data);
+//        var view_data = new google.visualization.DataView(data);
 //        var view_data = new google.visualization.DataTable(data);
         var filters = [];
         var stringFilter = new google.visualization.ControlWrapper({
@@ -64,26 +64,37 @@
         $('#content-row').html(html);
         make_breadcrumbs();
         var data_dashboard = new google.visualization.Dashboard(document.getElementById('data-dashboard'));
+        var t;
         google.visualization.events.addListener(data_dashboard, 'ready', function(){
-            $('.show-facility').on('click', function(e){
-                e.preventDefault();
-                var facility_id = $(this).data('fid');
-                fetch_facility_details(facility_id);
+            table_clicks();
+            t = table.getChart();
+            google.visualization.events.addListener(t, 'sort', function(){
+                table_clicks();
             });
-            $('.show-city').on('click', function(e){
-                e.preventDefault();
-                var city = $(this).data('city');
-                fetch_city_data(city);
+            google.visualization.events.addListener(t, 'page', function(){
+                table_clicks();
             });
         });
         
           // Configure the string filter to affect the table contents
         data_dashboard.bind(filters, table).
         // Draw the dashboard
-          draw(view_data);
+          draw(data);
           
     }
-    
+
+    function table_clicks(){
+        $('.show-facility').on('click', function(e){
+            e.preventDefault();
+            var facility_id = $(this).data('fid');
+            fetch_facility_details(facility_id);
+        });
+            $('.show-city').on('click', function(e){
+            e.preventDefault();
+            var city = $(this).data('city');
+            fetch_city_data(city);
+        });    
+    }
     function show_facility_details(facility_data) {
         facility_data['item_comments'] = format_comments(facility_data['item_comments']);
         var html = fill_template('facility-details', facility_data);
