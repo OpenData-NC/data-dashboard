@@ -3,7 +3,7 @@
     var breadcrumbs = {};
     var geocoder = new google.maps.Geocoder();
     var map, start_zoom = 15;
-	$.getJSON('/health', function(data){
+	$.getJSON('lib/data/index.js', function(data){
 		var how_many = data.results.length;
 		var slices = slice_data(data.results,4);
         $('#content-row').empty();
@@ -106,7 +106,7 @@
     
     function fetch_facility_data(county){
         breadcrumbs = {};
-        var url = '/health/county/' + encodeURIComponent(county);
+        var url = 'lib/data/' + encodeURIComponent(slugify(county)) + '/index.js';
         $.getJSON(url, function(data){
             var facility_data = data.results.map(format_facility_data);
             draw_table(facility_data, county);
@@ -116,7 +116,7 @@
     }
     function fetch_city_data(city){
         breadcrumbs.city && delete breadcrumbs.city;
-        var url = '/health/city/' + encodeURIComponent(city);
+        var url = 'lib/data/' + encodeURIComponent(slugify(breadcrumbs.county)) + '/' + encodeURIComponent(slugify(city)) + '.js';
         $.getJSON(url, function(data){
             var city_data = data.results.map(format_facility_data);
             draw_table(city_data, city);
@@ -126,7 +126,7 @@
     }
 
     function fetch_facility_details(facility_id){
-        var url = '/health/facility/' + encodeURIComponent(facility_id);
+        var url = 'lib/data/' + encodeURIComponent(slugify(breadcrumbs.county)) + '/' + encodeURIComponent(slugify(facility_id)) + '.js';
         $.getJSON(url, function(data){
             var facility_data = data.results;
             show_facility_details(facility_data);
@@ -134,6 +134,10 @@
     
     }
 
+function slugify(str) {
+    return str.toLowerCase().replace(' ', '-');
+
+}
     function draw_map(latlon) {
         var mapOptions = {
             zoom: start_zoom,
