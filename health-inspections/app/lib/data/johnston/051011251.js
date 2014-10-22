@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Asia Cafe", "addr_city": "Clayton", "item_comments": "ASIA CAFE", "activity_date": "08/14/2014", "county": "Johnston", "facility_id": "051011251", "score": 98.5, "addr_line1": "14 Flowers Crossroads Way B-10"}}

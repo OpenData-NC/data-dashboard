@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sbarros", "addr_city": "Charlotte", "item_comments": "SBARROS", "activity_date": "09/19/2014", "county": "Mecklenburg", "facility_id": "060013574", "score": 94.0, "addr_line1": "5501 Josh Birmingham Pky"}}

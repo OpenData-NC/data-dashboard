@@ -1,0 +1,1 @@
+{"results": {"fac_name": "On the Border #135", "addr_city": "Charlotte", "item_comments": "ON THE BORDER #135", "activity_date": "09/05/2014", "county": "Mecklenburg", "facility_id": "060016774", "score": 96.5, "addr_line1": "10710 Providence Rd"}}

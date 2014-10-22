@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Breakaway Cafe", "addr_city": "Rutherfordton", "item_comments": "BREAKAWAY CAFE", "activity_date": "09/08/2014", "county": "Rutherford", "facility_id": "081010723", "score": 99.0, "addr_line1": "288 S. Ridgecrest Ave"}}

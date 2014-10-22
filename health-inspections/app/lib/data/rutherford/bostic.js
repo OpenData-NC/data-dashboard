@@ -1,0 +1,1 @@
+{"results": [["Freeman's Convenience", "5301 Bostic Sunshine Hwy", "Bostic", "08/11/2014", 95.5, "081010677"], ["Becky' S Country Store and Grill", "2259 Hwy 226", "Bostic", "06/11/2014", 95.5, "081010407"], ["New Forest City Fish Camp", "236 Old Us 74", "Bostic", "05/30/2014", 96.0, "081010363"]]}

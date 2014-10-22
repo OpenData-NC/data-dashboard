@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Basf Cafeteria", "addr_city": "Rtp", "item_comments": "3 202.15 DENTED CAN REMOVED FROM CAN RACK.;", "activity_date": "07/02/2014", "county": "Durham", "facility_id": "032011244", "score": 99.0, "addr_line1": "26 Davis Drive"}}

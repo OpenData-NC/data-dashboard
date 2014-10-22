@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mi Casita Mexican Restaurant #6", "addr_city": "Laurinburg", "item_comments": "DATE MARK AND TIME SHALL BE PLACED ON FOOD ITEMS BEING COOLED ..STEW WAS 33;", "activity_date": "05/30/2014", "county": "Scotland", "facility_id": "083010100", "score": 98.5, "addr_line1": "1797 South Main St"}}

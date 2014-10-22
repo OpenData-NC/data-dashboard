@@ -1,0 +1,1 @@
+{"results": {"fac_name": "215 Westside", "addr_city": "Powells Point", "item_comments": "DO NOT STORE PERSONAL ITEMS ON COUNTER OR IN HAND WASH SINK AT BAR.;", "activity_date": "06/04/2014", "county": "Currituck", "facility_id": "027010234", "score": 99.5, "addr_line1": "215 Westside"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cappollas Pizza and Grill", "addr_city": "Knightdale", "item_comments": "CAPPOLLAS PIZZA AND GRILL", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092016134", "score": 93.0, "addr_line1": "7039 Knightdale Blvd"}}

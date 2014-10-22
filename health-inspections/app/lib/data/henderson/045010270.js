@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds #2980", "addr_city": "Fletcher", "item_comments": "MCDONALDS #2980", "activity_date": "09/22/2014", "county": "Henderson", "facility_id": "045010270", "score": 96.5, "addr_line1": "525 Airport Rd."}}

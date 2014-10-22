@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jin Jin Chinese Resturant", "addr_city": "Pikeville", "item_comments": "JIN JIN CHINESE RESTURANT", "activity_date": "09/03/2014", "county": "Wayne", "facility_id": "096010629", "score": 93.5, "addr_line1": "4779-B N Us 117 Hwy"}}

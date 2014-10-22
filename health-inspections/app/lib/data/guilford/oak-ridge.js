@@ -1,0 +1,1 @@
+{"results": [["Kobe Japanese Restaurant", "2205 L Oak Ridge Rd", "Oak Ridge", "09/22/2014", 99.0, "041012755"], ["Stokeridge Tavern & Grill", "7607-H  Hwy 68 N", "Oak Ridge", "09/22/2014", 98.5, "041013676"], ["McDonalds #31841", "8000  Market Place Dr", "Oak Ridge", "06/23/2014", 98.5, "041013000"]]}

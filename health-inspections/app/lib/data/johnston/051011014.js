@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway # 270", "addr_city": "Princeton", "item_comments": "SUBWAY # 270", "activity_date": "07/03/2014", "county": "Johnston", "facility_id": "051011014", "score": 98.5, "addr_line1": "1050 Edwards Road"}}

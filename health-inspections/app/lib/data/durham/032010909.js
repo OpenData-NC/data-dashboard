@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Golden Corral  637", "addr_city": "Durham", "item_comments": "4 201.11 ALL BROKEN AND CHIPPED UTENSILS MUST BE DISCARDED.;3 304.14 ALL WET CLOTHS MUST BE KEPT IN SANITIZING SOLUTION.;", "activity_date": "07/24/2014", "county": "Durham", "facility_id": "032010909", "score": 97.0, "addr_line1": "5008 Apex Hwy  55"}}

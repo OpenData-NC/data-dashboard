@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Simonetti's Pizza", "addr_city": "Belmont", "item_comments": "SIMONETTI\\'S PIZZA", "activity_date": "09/11/2014", "county": "Gaston", "facility_id": "036011269", "score": 96.5, "addr_line1": "6432 Wilkinson Blvd."}}

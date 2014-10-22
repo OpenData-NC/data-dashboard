@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Little Tokyo 2", "addr_city": "Albemarle", "item_comments": "3 501.19 TIME AS A PUBLIC HEALTH CONTROL   P,PF APPROVED PROCEDURE FOR LABELING SUSHI RICE IS NOT BEING FOLLOWED.;", "activity_date": "06/12/2014", "county": "Stanly", "facility_id": "084010446", "score": 99.0, "addr_line1": "730 Leonard  Ave"}}

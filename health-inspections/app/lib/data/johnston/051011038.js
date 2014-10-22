@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mill Creek General Store", "addr_city": "Four Oaks", "item_comments": "MILL CREEK GENERAL STORE", "activity_date": "08/29/2014", "county": "Johnston", "facility_id": "051011038", "score": 95.5, "addr_line1": "873 Stricklands Crossroads Rd"}}

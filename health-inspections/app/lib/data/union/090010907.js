@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hong Kong #1", "addr_city": "Monroe", "item_comments": "HONG KONG #1", "activity_date": "07/31/2014", "county": "Union", "facility_id": "090010907", "score": 97.5, "addr_line1": "813-Ii East Roosevelt Blvd"}}

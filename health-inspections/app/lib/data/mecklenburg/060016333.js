@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ming`s Bistro", "addr_city": "Davidson", "item_comments": "MING`S BISTRO", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060016333", "score": 92.5, "addr_line1": "624 Jetton St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds #25393", "addr_city": "Raleigh", "item_comments": "MCDONALDS #25393", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092016517", "score": 94.5, "addr_line1": "2900 Wakefield Pines Dr"}}

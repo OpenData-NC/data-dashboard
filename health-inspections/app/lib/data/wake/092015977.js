@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Starbucks Coffee #8589", "addr_city": "Raleigh", "item_comments": "STARBUCKS COFFEE #8589", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092015977", "score": 97.0, "addr_line1": "4325 Glenwood Ave"}}

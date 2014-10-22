@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Apple Spice Junction", "addr_city": "Greensboro", "item_comments": "APPLE SPICE JUNCTION", "activity_date": "09/02/2014", "county": "Guilford", "facility_id": "041012789", "score": 98.5, "addr_line1": "104  Meadowood St"}}

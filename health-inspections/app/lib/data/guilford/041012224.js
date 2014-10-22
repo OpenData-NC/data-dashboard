@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Shogun Japanese Rest.", "addr_city": "High Point", "item_comments": "SHOGUN JAPANESE REST.", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041012224", "score": 98.0, "addr_line1": "2645 N Main St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "South Beach Grille", "addr_city": "Nags Head", "item_comments": "KEEP DUMPSTER LIDS CLOSED;GENERAL CLEANING;", "activity_date": "06/21/2014", "county": "Dare", "facility_id": "028010210", "score": 98.0, "addr_line1": "6806 S Virginia Dare Trl"}}

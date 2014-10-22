@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees   #1501093", "addr_city": "Walnut Cove", "item_comments": "HARDEES   #1501093", "activity_date": "09/16/2014", "county": "Stokes", "facility_id": "085010066", "score": 93.0, "addr_line1": "1074 N Main St"}}

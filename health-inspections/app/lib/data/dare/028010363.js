@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China King", "addr_city": "Kill Devil Hills", "item_comments": "NO SS;DUMPSTER LIDS CLOSED;HATS/NETS ALL KITCHEN STAFF;FOOD OFF FLR IN FREEZER;", "activity_date": "05/14/2014", "county": "Dare", "facility_id": "028010363", "score": 95.0, "addr_line1": "1728 N Croathan  Highway"}}

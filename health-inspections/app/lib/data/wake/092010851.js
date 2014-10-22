@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Brew Master Bar & Grill", "addr_city": "Raleigh", "item_comments": "BREW MASTER BAR & GRILL", "activity_date": "08/19/2014", "county": "Wake", "facility_id": "092010851", "score": 0.0, "addr_line1": "301 West Martin St"}}

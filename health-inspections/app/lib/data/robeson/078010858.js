@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sams Club Rotisserie", "addr_city": "Lumberton", "item_comments": "6 202.11 LIGHT BULBS, PROTECTIVE SHIELDING   C6 303.11 INTENSITY LIGHTING   CPLEASE REPLACE BLOWN LIGHT BULBS ABOVE THE ROTISSERIE.;", "activity_date": "07/10/2014", "county": "Robeson", "facility_id": "078010858", "score": 99.0, "addr_line1": "5085 Dawn Drive"}}

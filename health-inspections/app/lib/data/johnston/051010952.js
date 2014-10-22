@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Shop N Go", "addr_city": "Micro", "item_comments": "SHOP N GO", "activity_date": "08/08/2014", "county": "Johnston", "facility_id": "051010952", "score": 93.5, "addr_line1": "102 Hwy 301"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Country Junction", "addr_city": "Durham", "item_comments": "SINGLE SERVICE UTENSILS NOT PROPERLY STORED.;3 304.14 ALL WET CLOTHS MUST BE KEPT IN SANITIZING SOLUTION.;", "activity_date": "07/11/2014", "county": "Durham", "facility_id": "032010241", "score": 98.0, "addr_line1": "4823 Apex Highway"}}

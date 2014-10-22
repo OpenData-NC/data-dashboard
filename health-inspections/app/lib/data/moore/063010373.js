@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Woodlake Country Club", "addr_city": "Vass", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE; REPEAT VIOLATION;NOT APPLICABLE;NOT IN COMPLIANCE; CORRECTED DURING INSPECTION;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "05/23/2014", "county": "Moore", "facility_id": "063010373", "score": 96.5, "addr_line1": "150 Woodlake Blvd"}}

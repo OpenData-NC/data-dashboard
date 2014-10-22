@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hotel Sierra Dining", "addr_city": "Morrisville", "item_comments": "HOTEL SIERRA DINING", "activity_date": "07/08/2014", "county": "Wake", "facility_id": "092015978", "score": 97.0, "addr_line1": "10962 Chapel Hill Rd"}}

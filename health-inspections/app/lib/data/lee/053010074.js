@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wenger's Restaurant", "addr_city": "Sanford", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE sand and repaint shelf under prep table in kitchen;NOT APPLICABLE;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "07/31/2014", "county": "Lee", "facility_id": "053010074", "score": 99.0, "addr_line1": "105 Charlotte Avenue"}}

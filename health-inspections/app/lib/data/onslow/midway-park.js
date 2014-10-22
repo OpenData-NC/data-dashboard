@@ -1,0 +1,1 @@
+{"results": [["China King", "175 Freedom Way Shop I", "Midway Park", "09/05/2014", 90.5, "067010555"], ["Mi Cabana #3", "135 Glade Lane", "Midway Park", "08/28/2014", 98.5, "067011046"], ["Supreme Buffet and Hibachi Grill", "209 Freedom Way", "Midway Park", "07/01/2014", 93.5, "067011008"], ["Burger King 5998", "165 Freedom Way", "Midway Park", "06/13/2014", 97.5, "067010707"]]}

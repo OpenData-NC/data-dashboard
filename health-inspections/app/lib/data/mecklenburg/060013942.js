@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Staybridge Suites @ Ballentyne", "addr_city": "Charlotte", "item_comments": "STAYBRIDGE SUITES @ BALLENTYNE", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060013942", "score": 96.0, "addr_line1": "15735 Brixham Hill Ave"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dairy Queen", "addr_city": "Smithfield", "item_comments": "DAIRY QUEEN", "activity_date": "08/20/2014", "county": "Johnston", "facility_id": "051010699", "score": 98.5, "addr_line1": "1025 Industrial Park Drive"}}

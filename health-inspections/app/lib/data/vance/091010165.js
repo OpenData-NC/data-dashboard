@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King  9705", "addr_city": "Henderson", "item_comments": "BURGER KING  9705", "activity_date": "09/16/2014", "county": "Vance", "facility_id": "091010165", "score": 97.5, "addr_line1": "1817 N Garnett St"}}

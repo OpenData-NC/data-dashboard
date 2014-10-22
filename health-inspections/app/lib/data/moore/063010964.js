@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Vaquero #2", "addr_city": "Southern Pines", "item_comments": "EL VAQUERO #2", "activity_date": "09/26/2014", "county": "Moore", "facility_id": "063010964", "score": 97.0, "addr_line1": "210 W Pennsylvania Ave"}}

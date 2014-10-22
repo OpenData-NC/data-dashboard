@@ -1,0 +1,1 @@
+{"results": [["Slatestone Grill", "2040 Slatestone Road", "27889", "09/05/2014", 95.5, "007010060"], ["Eclectic Cafe", "913 John Small Ave..", "27889", "09/04/2014", 100.0, "007010288"], ["Sheetz #506", "1695 West 5th Street", "27889", "09/04/2014", 99.0, "007010378"], ["Zaxby's", "1400 Carolina Avenue", "27889", "09/04/2014", 97.5, "007010394"]]}

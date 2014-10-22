@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pizza Hut", "addr_city": "Mount Airy", "item_comments": "PIZZA HUT", "activity_date": "09/16/2014", "county": "Surry", "facility_id": "086010517", "score": 94.5, "addr_line1": "349 South Andy Griffith Pkwy"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taqueria La Tapatia", "addr_city": "Wilmington", "item_comments": "2-102.12 Certified Food Protection Manager. NEED CERTIFIED MANAGER;;;;4-501.11", "activity_date": "05/12/2014", "county": "New Hanover", "facility_id": "065011687", "score": 93.0, "addr_line1": "812 S College Road"}}

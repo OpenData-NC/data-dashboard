@@ -1,0 +1,1 @@
+{"results": {"fac_name": "J.K.S Kitchen", "addr_city": "Arden", "item_comments": ";;;;;4-602.11; Slicer in need of cleaning and sanitizing.;;;;4-204.18; Core; Ice ambulation present in walk-in freezer.;;", "activity_date": "08/05/2014", "county": "Buncombe", "facility_id": "011011689", "score": 97.5, "addr_line1": "6 Long Shoals Rd"}}

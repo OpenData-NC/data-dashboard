@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees #1206", "addr_city": "Raleigh", "item_comments": "HARDEES #1206", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092014956", "score": 97.5, "addr_line1": "5601 Creedmoor Rd"}}

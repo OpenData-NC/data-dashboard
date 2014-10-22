@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Carolina Ale House / Greenville", "addr_city": "Greenville", "item_comments": "CAROLINA ALE HOUSE / GREENVILLE", "activity_date": "09/17/2014", "county": "Pitt", "facility_id": "074011309", "score": 98.5, "addr_line1": "714 Greenville Blvd"}}

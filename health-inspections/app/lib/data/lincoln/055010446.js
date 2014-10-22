@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zaxbys 49201", "addr_city": "Denver", "item_comments": "3 601.11 STANDARDS OF IDENTITY   C WHEN REMOVING ANY PRODUCT FROM ORIGINAL CONTAINER, MUST BE PROPERLY LABELED.  WAS CORRECTED ON SITE;", "activity_date": "07/07/2014", "county": "Lincoln", "facility_id": "055010446", "score": 100.0, "addr_line1": "7179 Nc 73 Hwy"}}

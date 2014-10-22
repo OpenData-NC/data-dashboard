@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dresslers Restaurant", "addr_city": "Huntersville", "item_comments": "DRESSLERS RESTAURANT", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060014669", "score": 96.0, "addr_line1": "8630 Lindholm Dr"}}

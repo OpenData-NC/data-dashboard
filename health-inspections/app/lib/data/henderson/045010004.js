@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Arbys", "addr_city": "Hendersonville", "item_comments": "ARBYS", "activity_date": "09/10/2014", "county": "Henderson", "facility_id": "045010004", "score": 98.0, "addr_line1": "1809 Chimney Rock Hwy"}}

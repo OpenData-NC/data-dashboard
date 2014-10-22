@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Terrace, The", "addr_city": "Gastonia", "item_comments": "TERRACE, THE", "activity_date": "09/22/2014", "county": "Gaston", "facility_id": "036010803", "score": 98.5, "addr_line1": "2525 Court Drive"}}

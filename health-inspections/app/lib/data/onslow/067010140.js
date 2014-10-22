@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees Skat Thru  1825", "addr_city": "Sneads Ferry", "item_comments": "HARDEES SKAT THRU  1825", "activity_date": "08/22/2014", "county": "Onslow", "facility_id": "067010140", "score": 96.5, "addr_line1": "968 Hwy 210"}}

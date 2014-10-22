@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Family Foods Convenience Inc", "addr_city": "Corapeake", "item_comments": "CLEAN TOILET FIXTURES, FLOOR   WALL;ALL EQUIPMENT TO BE NSF APPROVED.;", "activity_date": "05/19/2014", "county": "Gates", "facility_id": "037010039", "score": 98.5, "addr_line1": "1479 Nc 32n"}}

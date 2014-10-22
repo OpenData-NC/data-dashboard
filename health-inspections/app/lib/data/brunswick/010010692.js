@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Baked With Love", "addr_city": "Southport", "item_comments": "CLEAN AND RE SEAL THE FLOOR BY THE BREAD SLICER,NEXT TO THE SMALL PREP COOLER, BELOW THE GRADE CARD.6 201.12 FLOORS, WALLS, AND CEILINGS, UTILITY LINES   C;", "activity_date": "07/16/2014", "county": "Brunswick", "facility_id": "010010692", "score": 99.0, "addr_line1": "302 N Howe Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #1684", "addr_city": "Clayton", "item_comments": "SUBWAY #1684", "activity_date": "08/04/2014", "county": "Johnston", "facility_id": "051010342", "score": 93.5, "addr_line1": "10159 Hwy 70"}}

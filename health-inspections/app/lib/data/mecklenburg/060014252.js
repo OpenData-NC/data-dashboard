@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lance Inc", "addr_city": "Charlotte", "item_comments": "LANCE INC", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060014252", "score": 97.0, "addr_line1": "8600 South Blvd"}}

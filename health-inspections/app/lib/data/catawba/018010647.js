@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Frye Regional Hospital Cafe #18849", "addr_city": "Hickory", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   CCLEAN BEHIND OVENS AND FRYERSMAYBE HAVE MAINTENANCE MOVE THEM FOR CLEAN PERIODICALLY FOR YOU.;", "activity_date": "06/24/2014", "county": "Catawba", "facility_id": "018010647", "score": 99.0, "addr_line1": "1 3rd Av Nw"}}

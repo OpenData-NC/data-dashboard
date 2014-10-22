@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Carolina Jacks", "addr_city": "Raleigh", "item_comments": "CAROLINA JACKS", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092016643", "score": 100.0, "addr_line1": "4100 Glenwood Ave"}}

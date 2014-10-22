@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Curtis Country Stores", "addr_city": "Kannapolis", "item_comments": "CURTIS COUNTRY STORES", "activity_date": "09/05/2014", "county": "Rowan", "facility_id": "080010911", "score": 96.5, "addr_line1": "615 N Enochville Ave"}}

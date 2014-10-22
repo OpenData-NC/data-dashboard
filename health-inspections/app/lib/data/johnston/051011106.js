@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Papas Pizza and Italian Restaurant", "addr_city": "Benson", "item_comments": "PAPAS PIZZA AND ITALIAN RESTAURANT", "activity_date": "07/07/2014", "county": "Johnston", "facility_id": "051011106", "score": 97.0, "addr_line1": "309 S Walton Dr."}}

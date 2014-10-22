@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taco Bell", "addr_city": "Wilkesboro", "item_comments": "BROKEN TILE AND WORN GROUT AT 3 COMP SINK AREA.  MOPS WERE STORED HEAD DOWN IN CAN WASH.  HANG TO AIR DRY.6 501.16 DRYING MOPS   C;", "activity_date": "07/18/2014", "county": "Wilkes", "facility_id": "097010084", "score": 99.5, "addr_line1": "Winkler Mill Road"}}

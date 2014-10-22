@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ninja Japan", "addr_city": "Smithfield", "item_comments": "NINJA JAPAN", "activity_date": "07/23/2014", "county": "Johnston", "facility_id": "051011159", "score": 96.0, "addr_line1": "1249 N Brightleaf Blvd"}}

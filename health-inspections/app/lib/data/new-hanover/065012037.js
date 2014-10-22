@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Grannys Country Kitchen", "addr_city": "Carolina Beach", "item_comments": "KEEP PERSONAL ITEMS IN DESIGNATED AREA  6-403.11", "activity_date": "06/11/2014", "county": "New Hanover", "facility_id": "065012037", "score": 94.0, "addr_line1": "1310 S Lake Park Blv"}}

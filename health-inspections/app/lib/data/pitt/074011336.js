@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Mellow Mushroom", "addr_city": "Greenville", "item_comments": "THE MELLOW MUSHROOM", "activity_date": "09/02/2014", "county": "Pitt", "facility_id": "074011336", "score": 98.0, "addr_line1": "2020 Charles Blvd"}}

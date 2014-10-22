@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mickey & Mooch-The Other Joint", "addr_city": "Charlotte", "item_comments": "MICKEY & MOOCH-THE OTHER JOINT", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060013915", "score": 95.5, "addr_line1": "8128 Providence Rd"}}

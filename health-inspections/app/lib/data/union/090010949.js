@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Buddys Point Restaurant and Tavern", "addr_city": "Monroe", "item_comments": "BUDDYS POINT RESTAURANT AND TAVERN", "activity_date": "07/28/2014", "county": "Union", "facility_id": "090010949", "score": 97.0, "addr_line1": "350 E. Franklin St."}}

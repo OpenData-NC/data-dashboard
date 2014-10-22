@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House #2086", "addr_city": "Lexington", "item_comments": "WAFFLE HOUSE #2086", "activity_date": "09/22/2014", "county": "Davidson", "facility_id": "029011008", "score": 96.5, "addr_line1": "1720 Cotton Grove Rd"}}

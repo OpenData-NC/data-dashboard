@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Parkwood Place", "addr_city": "Elkin", "item_comments": "PARKWOOD PLACE", "activity_date": "09/04/2014", "county": "Surry", "facility_id": "086010124", "score": 99.5, "addr_line1": "601 Johnson Ridge Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway Walmart", "addr_city": "Wallace", "item_comments": "SUBWAY WALMART", "activity_date": "08/15/2014", "county": "Duplin", "facility_id": "031010462", "score": 94.5, "addr_line1": "5625 Nc 41 Hwy. South"}}

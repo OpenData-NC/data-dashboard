@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Goldsboro", "item_comments": "NOT IN COMPLIANCE; Water temperature at handsink in men&apos;s restroom was still below 100 degrees F.  Repair to provide water &gt;100 degrees F.;", "activity_date": "07/28/2014", "county": "Wayne", "facility_id": "096010931", "score": 0.0, "addr_line1": "2509 E Ash St"}}

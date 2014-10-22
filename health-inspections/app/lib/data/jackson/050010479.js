@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bucks Coffee Cafe", "addr_city": "Cashiers", "item_comments": "PERSON IN CHARGE DOES NOT HAVE CERTIFICATE FROM APPROVED TRAINING.  MUST HAVE CERTIFICATE.2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C;", "activity_date": "08/26/2014", "county": "Jackson", "facility_id": "050010479", "score": 98.0, "addr_line1": "6 Highway 107 North"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "South of Philly", "addr_city": "Sylva", "item_comments": "SOUTH OF PHILLY", "activity_date": "09/15/2014", "county": "Jackson", "facility_id": "050010632", "score": 95.0, "addr_line1": "44 East Sylva Shopping Center"}}

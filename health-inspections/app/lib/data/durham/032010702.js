@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Las Palmas", "addr_city": "Durham", "item_comments": "LAS PALMAS", "activity_date": "09/16/2014", "county": "Durham", "facility_id": "032010702", "score": 97.5, "addr_line1": "3801 Wake Forest Hwy"}}

@@ -1,0 +1,1 @@
+{"results": [["Dunkin Donuts", "851 Cedar Point Blvd", "Cedar Point", "07/28/2014", 0.0, "016010884"], ["Riptidez", "105 Hill Street", "Cedar Point", "05/23/2014", 91.0, "016010802"], ["Cedar Point Bp", "605 Cedar Point Blvd.", "Cedar Point", "05/22/2014", 96.0, "016010894"]]}

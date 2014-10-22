@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kfc/Taco Bell", "addr_city": "Garner", "item_comments": "KFC/TACO BELL", "activity_date": "09/05/2014", "county": "Johnston", "facility_id": "051010439", "score": 98.5, "addr_line1": "5530 Nc 42"}}

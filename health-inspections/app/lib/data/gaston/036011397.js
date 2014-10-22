@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Nara Express", "addr_city": "Gastonia", "item_comments": "NARA EXPRESS", "activity_date": "09/08/2014", "county": "Gaston", "facility_id": "036011397", "score": 95.0, "addr_line1": "1808 South York Road"}}

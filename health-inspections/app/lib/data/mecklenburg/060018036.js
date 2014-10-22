@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chinatown Restaurant", "addr_city": "Charlotte", "item_comments": "CHINATOWN RESTAURANT", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060018036", "score": 95.5, "addr_line1": "2910-A Mt Holly Huntersville R"}}

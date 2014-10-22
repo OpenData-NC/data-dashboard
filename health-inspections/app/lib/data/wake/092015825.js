@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wakefield Tavern", "addr_city": "Raleigh", "item_comments": "WAKEFIELD TAVERN", "activity_date": "08/29/2014", "county": "Wake", "facility_id": "092015825", "score": 97.0, "addr_line1": "13200 New Falls of Neuse Rd"}}

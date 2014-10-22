@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Salt Water Grill", "addr_city": "Corolla,nc", "item_comments": "NEED TO REMOVE DOMESTIC FREEZER IN KITCHEN AREA.  NOT NSF APPROVED.;", "activity_date": "08/07/2014", "county": "Currituck", "facility_id": "027010314", "score": 98.0, "addr_line1": "811 Ocean Trail"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fatz Cafe", "addr_city": "Shelby", "item_comments": "FATZ CAFE", "activity_date": "08/18/2014", "county": "Cleveland", "facility_id": "023010432", "score": 95.0, "addr_line1": "1235 E Dixon Blvd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Char-Grill of Garner", "addr_city": "Garner", "item_comments": "CHAR-GRILL OF GARNER", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092015643", "score": 96.0, "addr_line1": "1155 Timber  Dr E"}}

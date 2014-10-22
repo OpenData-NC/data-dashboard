@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Glen Oaks T", "addr_city": "Maiden", "item_comments": "3 301.11 PREVENTING CONTAMINATION FROM HANDS   P,PFEMPLOYEE TOUCHED HOT DOG BUN WITH BARE HAND.  BUN WAS DISCARDED.;", "activity_date": "06/06/2014", "county": "Catawba", "facility_id": "018011266", "score": 98.5, "addr_line1": "245 Golf Course Rd"}}

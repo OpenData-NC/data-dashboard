@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway  6023", "addr_city": "Henderson", "item_comments": "SUBWAY  6023", "activity_date": "09/08/2014", "county": "Vance", "facility_id": "091010474", "score": 98.5, "addr_line1": "1417 E. Andrews Avenue"}}

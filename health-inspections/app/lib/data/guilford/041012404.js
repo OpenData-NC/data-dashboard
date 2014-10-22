@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds #316", "addr_city": "High Point", "item_comments": "MCDONALDS #316", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041012404", "score": 97.5, "addr_line1": "1901 N Main St"}}

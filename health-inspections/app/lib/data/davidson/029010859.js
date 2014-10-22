@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China Ming", "addr_city": "Lexington", "item_comments": "CHINA MING", "activity_date": "09/09/2014", "county": "Davidson", "facility_id": "029010859", "score": 90.5, "addr_line1": "284 Talbert Blvd"}}

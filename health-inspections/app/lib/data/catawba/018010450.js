@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Shrine Club Building", "addr_city": "Newton", "item_comments": "NEED TO CLEAN TABLES AND EQUIPMENT IN STORE ROOM WHERE BEER COOLER IS.4 602.13 NONFOOD CONTACT SURFACES   C;", "activity_date": "08/11/2014", "county": "Catawba", "facility_id": "018010450", "score": 99.5, "addr_line1": "1488 W Nc 10 Hwy"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Quizno's Classic Subs", "addr_city": "Clayton", "item_comments": "QUIZNO\\'S CLASSIC SUBS", "activity_date": "07/30/2014", "county": "Johnston", "facility_id": "051010536", "score": 98.0, "addr_line1": "11689 Hwy 70 W"}}

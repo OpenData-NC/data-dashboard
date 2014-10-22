@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Panera Bread", "addr_city": "Gastonia", "item_comments": "PANERA BREAD", "activity_date": "09/11/2014", "county": "Gaston", "facility_id": "036011033", "score": 98.0, "addr_line1": "2625 E Franklin Blvd"}}

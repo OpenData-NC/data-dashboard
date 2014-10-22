@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Smileys Pizza", "addr_city": "Moyock", "item_comments": "CLEAN STORAGE ROOM FLOORS.;CLEAN CEILINGS IN MEN TOILET;", "activity_date": "05/12/2014", "county": "Currituck", "facility_id": "027010321", "score": 98.5, "addr_line1": "101 Caratoke Hwy"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sweet Leaf Cafe", "addr_city": "Raleigh", "item_comments": "SWEET LEAF CAFE", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092016445", "score": 96.5, "addr_line1": "1313 N Main  St"}}

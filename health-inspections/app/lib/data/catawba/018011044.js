@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Reynolds Sandwich Sh0p", "addr_city": "Hickory", "item_comments": "WIPING CLOTHS TO BE STORED IN SANITIZING SOLUTION WHEN NOT IN USE;EMPLOYEES TO WEAR HAIR RESTRAINTS;", "activity_date": "06/20/2014", "county": "Catawba", "facility_id": "018011044", "score": 99.0, "addr_line1": "1437 2nd Ave Nw"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King #223", "addr_city": "Raleigh", "item_comments": "BURGER KING #223", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092011465", "score": 96.5, "addr_line1": "349 Tryon Rd"}}

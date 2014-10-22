@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lambuth Inn Dining Room", "addr_city": "Lake Junaluska", "item_comments": "LAMBUTH INN DINING ROOM", "activity_date": "09/26/2014", "county": "Haywood", "facility_id": "044010065", "score": 96.0, "addr_line1": "123 Lambuth Drive"}}

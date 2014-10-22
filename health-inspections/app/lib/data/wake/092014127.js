@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Murphy House  Graham Bldg", "addr_city": "Raleigh", "item_comments": "MURPHY HOUSE  GRAHAM BLDG", "activity_date": "09/06/2014", "county": "Wake", "facility_id": "092014127", "score": 93.5, "addr_line1": "1025 Blue Ridge Rd"}}

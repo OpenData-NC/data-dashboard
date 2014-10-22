@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Panera Bread", "addr_city": "Asheville", "item_comments": "5-501.13; Core; Provide trash can at handwash sink near ice machine.;;;;;;4-901.11; Core; Air dry utensils before stacking.;;;;;", "activity_date": "07/29/2014", "county": "Buncombe", "facility_id": "011011398", "score": 98.5, "addr_line1": "1843 Hendersonville Rd"}}

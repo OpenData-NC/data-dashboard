@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Homewood Suites Rdu Food Service", "addr_city": "Durham", "item_comments": "5 501.15  DUMPSTER DOORS SHOULD BE CLOSED WHEN NOT IN USE.;", "activity_date": "05/12/2014", "county": "Durham", "facility_id": "032012022", "score": 99.0, "addr_line1": "4603 Central Park Drive"}}

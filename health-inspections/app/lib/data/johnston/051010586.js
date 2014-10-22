@@ -1,0 +1,1 @@
+{"results": {"fac_name": "New Jumbo China", "addr_city": "Clayton", "item_comments": "NEW JUMBO CHINA", "activity_date": "07/09/2014", "county": "Johnston", "facility_id": "051010586", "score": 98.0, "addr_line1": "50 D Neuse River Parkway"}}

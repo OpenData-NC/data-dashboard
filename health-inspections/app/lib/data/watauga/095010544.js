@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Thompsons Seafood", "addr_city": "Deep Gap", "item_comments": "THOMPSONS SEAFOOD", "activity_date": "09/11/2014", "county": "Watauga", "facility_id": "095010544", "score": 90.5, "addr_line1": "5714 Old Highway 421 South"}}

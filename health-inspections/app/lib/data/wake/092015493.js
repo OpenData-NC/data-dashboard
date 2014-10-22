@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zayka Indian Cuisine", "addr_city": "Raleigh", "item_comments": "ZAYKA INDIAN CUISINE", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092015493", "score": 96.5, "addr_line1": "10410-103 Moncreiffe  Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dale's Seafood - Whiteville", "addr_city": "Whiteville", "item_comments": "DALE\\'S SEAFOOD - WHITEVILLE", "activity_date": "09/29/2014", "county": "Columbus", "facility_id": "024010013", "score": 96.0, "addr_line1": "107 S Jk Powell Blvd"}}

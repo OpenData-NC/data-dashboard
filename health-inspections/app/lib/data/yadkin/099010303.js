@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Arby's", "addr_city": "Yadkinville", "item_comments": "ARBY\\'S", "activity_date": "09/05/2014", "county": "Yadkin", "facility_id": "099010303", "score": 94.5, "addr_line1": "801-A S State Street"}}

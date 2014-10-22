@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Comfort Inn", "addr_city": "Sylva", "item_comments": "COMFORT INN", "activity_date": "08/28/2014", "county": "Jackson", "facility_id": "050010621", "score": 95.5, "addr_line1": "1235 East Main Street"}}

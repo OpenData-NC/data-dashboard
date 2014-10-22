@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Papa Johns #3920  Cherryville", "addr_city": "Cherryville", "item_comments": "PAPA JOHNS #3920  CHERRYVILLE", "activity_date": "09/02/2014", "county": "Gaston", "facility_id": "036011376", "score": 94.0, "addr_line1": "1407 East Main Street"}}

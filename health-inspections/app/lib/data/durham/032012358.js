@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Freddy's Frozen Custard and Steakburgers", "addr_city": "Durham", "item_comments": "FREDDY\\'S FROZEN CUSTARD AND STEAKBURGERS", "activity_date": "09/18/2014", "county": "Durham", "facility_id": "032012358", "score": 0.0, "addr_line1": "3303 Watkins Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ghassans", "addr_city": "Greensboro", "item_comments": "GHASSANS", "activity_date": "09/08/2014", "county": "Guilford", "facility_id": "041010160", "score": 99.0, "addr_line1": "400 e.cornwallis Dr."}}

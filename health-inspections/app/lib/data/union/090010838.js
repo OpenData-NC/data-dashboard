@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds Sun Valley", "addr_city": "Indian Trail", "item_comments": "MCDONALDS SUN VALLEY", "activity_date": "07/23/2014", "county": "Union", "facility_id": "090010838", "score": 96.0, "addr_line1": "6501 Old Monroe Road"}}

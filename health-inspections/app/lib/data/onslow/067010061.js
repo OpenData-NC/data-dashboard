@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hakata", "addr_city": "Jacksonville", "item_comments": "HAKATA", "activity_date": "09/25/2014", "county": "Onslow", "facility_id": "067010061", "score": 95.5, "addr_line1": "2553 Onslow Drive"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Corner Cafe/Fish Fare", "addr_city": "Pineville", "item_comments": "CORNER CAFE/FISH FARE", "activity_date": "09/08/2014", "county": "Mecklenburg", "facility_id": "060016758", "score": 97.0, "addr_line1": "11200 Nations Ford Rd"}}

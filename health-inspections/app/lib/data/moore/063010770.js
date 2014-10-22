@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Neighbors Country Store", "addr_city": "Vass", "item_comments": "NEIGHBORS COUNTRY STORE", "activity_date": "09/22/2014", "county": "Moore", "facility_id": "063010770", "score": 91.5, "addr_line1": "2511 Lobelia Rd"}}

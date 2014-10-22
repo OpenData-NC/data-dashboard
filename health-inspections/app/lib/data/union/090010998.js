@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Starbucks 15707", "addr_city": "Monroe", "item_comments": "STARBUCKS 15707", "activity_date": "08/06/2014", "county": "Union", "facility_id": "090010998", "score": 100.0, "addr_line1": "2937 Monroe Way"}}

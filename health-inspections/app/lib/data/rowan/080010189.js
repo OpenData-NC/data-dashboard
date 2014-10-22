@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ting Hao", "addr_city": "Salisbury", "item_comments": "TING HAO", "activity_date": "09/17/2014", "county": "Rowan", "facility_id": "080010189", "score": 96.5, "addr_line1": "519 G Jake Alexander Blvd W"}}

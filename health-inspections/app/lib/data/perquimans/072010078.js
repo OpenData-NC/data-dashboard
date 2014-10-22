@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees", "addr_city": "Hertford", "item_comments": "RUBBER STRIP OVER DRINK MACHINE IS GROWING MOLD;COOL FOODS UNCOVERED UNTIL 70 IS ACHIEVED THEN COVER;", "activity_date": "06/30/2014", "county": "Perquimans", "facility_id": "072010078", "score": 99.5, "addr_line1": "200 Ocean Hwy South"}}

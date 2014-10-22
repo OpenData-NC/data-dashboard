@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cruizers #19", "addr_city": "Cary", "item_comments": "CRUIZERS #19", "activity_date": "07/30/2014", "county": "Wake", "facility_id": "092013561", "score": 92.5, "addr_line1": "1205 N E Maynard"}}

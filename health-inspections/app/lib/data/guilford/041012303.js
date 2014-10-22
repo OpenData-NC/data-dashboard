@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mrs Winner's Chicken and Biscuits", "addr_city": "Jamestown", "item_comments": "6 201.12 FLOORS, WALLS, AND CEILINGS, UTILITY LINES   C OLDER FACILITY WITH OBSTRUCTIONS TO CLEANING;", "activity_date": "08/06/2014", "county": "Guilford", "facility_id": "041012303", "score": 99.0, "addr_line1": "726 W Main St"}}

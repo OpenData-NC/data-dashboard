@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Duckworth's  Grill and Tap House", "addr_city": "Mooresville", "item_comments": "DUCKWORTH\\'S  GRILL AND TAP HOUSE", "activity_date": "09/19/2014", "county": "Iredell", "facility_id": "049010720", "score": 94.0, "addr_line1": "560 River Hwy"}}

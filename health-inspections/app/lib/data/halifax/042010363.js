@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Frazier's Restaurant", "addr_city": "Weldon", "item_comments": "FRAZIER\\'S RESTAURANT", "activity_date": "09/22/2014", "county": "Halifax", "facility_id": "042010363", "score": 96.0, "addr_line1": "1220 Julian Allsbrook Hwy"}}

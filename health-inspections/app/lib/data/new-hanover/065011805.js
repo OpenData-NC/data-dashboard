@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds 952", "addr_city": "Wilmington", "item_comments": ";;;;;;3-302.11", "activity_date": "05/20/2014", "county": "New Hanover", "facility_id": "065011805", "score": 96.5, "addr_line1": "4301 Market St"}}

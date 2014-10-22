@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Laurel Hill", "item_comments": "PERSON IN CHARGE  NO FOOD SERVICE EDUCATION;SEVERAL FLIES WERE IN THE KITCHEN;", "activity_date": "07/07/2014", "county": "Scotland", "facility_id": "083010246", "score": 97.0, "addr_line1": "9811 Andrew Jackson Hwy."}}

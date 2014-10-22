@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ihop  4423", "addr_city": "Salisbury", "item_comments": "IHOP  4423", "activity_date": "09/18/2014", "county": "Rowan", "facility_id": "080010296", "score": 98.5, "addr_line1": "275 Bendix Dr."}}

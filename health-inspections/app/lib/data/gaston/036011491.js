@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zoe's Coffe House", "addr_city": "Gastonia", "item_comments": "ZOE\\'S COFFE HOUSE", "activity_date": "09/05/2014", "county": "Gaston", "facility_id": "036011491", "score": 98.0, "addr_line1": "170 South South Street"}}

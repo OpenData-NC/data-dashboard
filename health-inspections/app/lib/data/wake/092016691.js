@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Latitudes Fine Food and Spirits", "addr_city": "Knightdale", "item_comments": "LATITUDES FINE FOOD AND SPIRITS", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092016691", "score": 96.5, "addr_line1": "7425 Knightdale Blvd."}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Happy Garden", "addr_city": "Jamestown", "item_comments": "6 201.12 FLOORS, WALLS, AND CEILINGS, UTILITY LINES   C  OLDER FACILITY WITH OBSTACLES TO CLEANING;", "activity_date": "08/20/2014", "county": "Guilford", "facility_id": "041013182", "score": 99.5, "addr_line1": "108-D W Main St"}}

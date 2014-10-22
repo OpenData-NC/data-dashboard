@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Parkside Cafe", "addr_city": "Pine Level", "item_comments": "PARKSIDE CAFE", "activity_date": "08/25/2014", "county": "Johnston", "facility_id": "051010716", "score": 98.5, "addr_line1": "2176 Us 70 A"}}

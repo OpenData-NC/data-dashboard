@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Brewer's Grill", "addr_city": "Middlesex", "item_comments": "BREWER\\'S GRILL", "activity_date": "08/28/2014", "county": "Johnston", "facility_id": "051010013", "score": 98.5, "addr_line1": "11413 Nc 42 E"}}

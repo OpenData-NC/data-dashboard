@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendys #1337", "addr_city": "Raleigh", "item_comments": "WENDYS #1337", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092016519", "score": 98.5, "addr_line1": "3715 Western Blvd"}}

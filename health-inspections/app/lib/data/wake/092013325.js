@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Harris Teeter Deli  90", "addr_city": "Raleigh", "item_comments": "HARRIS TEETER DELI  90", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092013325", "score": 98.0, "addr_line1": "9810 Leesville Rd"}}

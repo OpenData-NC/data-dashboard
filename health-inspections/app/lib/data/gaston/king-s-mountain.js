@@ -1,0 +1,1 @@
+{"results": [["Crowders Mountain Golf Club", "255 Lincoln Academy Rd", "King S Mountain", "09/02/2014", 97.0, "036010460"]]}

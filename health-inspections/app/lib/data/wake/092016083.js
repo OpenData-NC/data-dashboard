@@ -1,0 +1,1 @@
+{"results": {"fac_name": "New Rainbow Chinese Restaurnat", "addr_city": "Fuquay-Varina", "item_comments": "NEW RAINBOW CHINESE RESTAURNAT", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092016083", "score": 90.0, "addr_line1": "3427 N Main St"}}

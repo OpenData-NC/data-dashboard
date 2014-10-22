@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hampton Inn & Suites of Burlington", "addr_city": "Burlington", "item_comments": "4 501.11 GOOD REPAIR AND PROPER ADJUSTMENT EQUIPMENT   C     GASKET SPLIT ON 2 DOOR COOLER  NEED TO REPLACE.;", "activity_date": "06/06/2014", "county": "Alamance", "facility_id": "001011161", "score": 100.0, "addr_line1": "2935 Saconn Rd"}}

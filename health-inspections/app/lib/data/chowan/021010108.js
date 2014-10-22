@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jims Market and Deli", "addr_city": "Edenton", "item_comments": "CLEAN HOOD VENTS.;STORE ALL ITEMS 6  ABOVE THE FLOOR.;CLEAN DRINK NOZZLES.;", "activity_date": "07/28/2014", "county": "Chowan", "facility_id": "021010108", "score": 97.0, "addr_line1": "2738 Rocky Hock Rd"}}

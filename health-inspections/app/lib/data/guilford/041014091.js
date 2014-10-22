@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendys #6239", "addr_city": "Greensboro", "item_comments": "WENDYS #6239", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041014091", "score": 95.5, "addr_line1": "913 Summit Ave"}}

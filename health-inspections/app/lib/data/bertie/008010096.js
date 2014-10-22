@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Duck Thru #21", "addr_city": "Windsor", "item_comments": "STILL NEED ENDCAPS ON SOME LIGHTS IN KITCHEN;HOOD GREASY.  COUNTERTOPS UNDER EQUIPMENT NEED WIPING;", "activity_date": "08/11/2014", "county": "Bertie", "facility_id": "008010096", "score": 98.5, "addr_line1": "125 Hwy 13 & 17 South"}}

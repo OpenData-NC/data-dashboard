@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #59146", "addr_city": "Raleigh", "item_comments": "SUBWAY #59146", "activity_date": "07/28/2014", "county": "Wake", "facility_id": "092016513", "score": 99.5, "addr_line1": "8320 Litchford Rd"}}

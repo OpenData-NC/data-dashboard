@@ -1,0 +1,1 @@
+{"results": {"fac_name": "King Tiger", "addr_city": "Kinston", "item_comments": "KING TIGER", "activity_date": "08/06/2014", "county": "Lenoir", "facility_id": "054010279", "score": 94.5, "addr_line1": "1503 Rouse Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ruby Tuesday 3185", "addr_city": "Durham", "item_comments": "RUBY TUESDAY 3185", "activity_date": "09/05/2014", "county": "Durham", "facility_id": "032011020", "score": 97.5, "addr_line1": "210 Hwy 54"}}

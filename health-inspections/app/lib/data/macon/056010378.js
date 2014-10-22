@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pescados", "addr_city": "Highlands", "item_comments": "4 202.16 NONFOOD CONTACT SURFACES  REMOVE RUST AND REPAINT AIR DRYING WIRE SHELVES IN DISH WASHING ROOM.;", "activity_date": "05/02/2014", "county": "Macon", "facility_id": "056010378", "score": 99.0, "addr_line1": "226 South 4th Street"}}

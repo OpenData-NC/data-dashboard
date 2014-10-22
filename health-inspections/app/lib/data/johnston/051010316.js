@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Smithfield Chicken and Bbq #05", "addr_city": "Garner", "item_comments": "SMITHFIELD CHICKEN AND BBQ #05", "activity_date": "07/31/2014", "county": "Johnston", "facility_id": "051010316", "score": 98.5, "addr_line1": "5180 Nc 42 West"}}

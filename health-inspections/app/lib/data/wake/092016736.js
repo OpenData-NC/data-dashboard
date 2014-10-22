@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Clouds Brewing", "addr_city": "Raleigh", "item_comments": "CLOUDS BREWING", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092016736", "score": 95.0, "addr_line1": "126 N. West Street"}}

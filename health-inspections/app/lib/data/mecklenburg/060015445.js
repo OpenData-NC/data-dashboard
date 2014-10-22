@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Asbury Park Grove", "addr_city": "Charlotte", "item_comments": "ASBURY PARK GROVE", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060015445", "score": 98.5, "addr_line1": "9300 Bob Beatty Rd"}}

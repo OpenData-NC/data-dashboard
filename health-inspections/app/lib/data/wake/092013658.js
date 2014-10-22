@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kroger R 371 Deli", "addr_city": "Fuquay Varina", "item_comments": "KROGER R 371 DELI", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092013658", "score": 93.5, "addr_line1": "1371 East Broad St"}}

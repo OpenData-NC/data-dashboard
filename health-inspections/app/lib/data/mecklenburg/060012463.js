@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fuddruckers Matthews", "addr_city": "Matthews", "item_comments": "FUDDRUCKERS MATTHEWS", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060012463", "score": 94.0, "addr_line1": "1643 Matthews Township Pky"}}

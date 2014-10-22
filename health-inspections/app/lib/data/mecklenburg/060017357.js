@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kopper Kettle Family Restaurant", "addr_city": "Pineville", "item_comments": "KOPPER KETTLE FAMILY RESTAURANT", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060017357", "score": 97.5, "addr_line1": "11000 Nations Ford Road"}}

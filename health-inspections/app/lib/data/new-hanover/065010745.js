@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Costa", "addr_city": "Wilmington", "item_comments": ";;;6-201.11", "activity_date": "05/12/2014", "county": "New Hanover", "facility_id": "065010745", "score": 95.5, "addr_line1": "3617 Market St"}}

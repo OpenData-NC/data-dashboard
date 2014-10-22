@@ -1,0 +1,1 @@
+{"results": [["South Fork Deli", "119 B Center Street", "Cramerton", "09/02/2014", 97.5, "036011506"], ["Market Street Pizza", "202i Market Street", "Cramerton", "07/28/2014", 96.5, "036011370"], ["Burger King #728", "200 Market Street", "Cramerton", "07/25/2014", 97.0, "036011444"], ["Asian Garden", "202b Market Street", "Cramerton", "07/21/2014", 96.0, "036010675"]]}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Arbys #7811", "addr_city": "Roxboro", "item_comments": "NOT APPLICABLE;NOT IN COMPLIANCE - hair restraints required in food prep area;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "06/26/2014", "county": "Person", "facility_id": "073010226", "score": 99.5, "addr_line1": "1003 Durham Rd."}}

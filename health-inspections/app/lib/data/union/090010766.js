@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Gus Family Restaurant", "addr_city": "Monroe", "item_comments": "GUS FAMILY RESTAURANT", "activity_date": "08/28/2014", "county": "Union", "facility_id": "090010766", "score": 99.5, "addr_line1": "1627 Walkup Avenue"}}

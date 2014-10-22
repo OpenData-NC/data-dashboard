@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Rehab Cafeteria", "addr_city": "Charlotte", "item_comments": "REHAB CAFETERIA", "activity_date": "09/05/2014", "county": "Mecklenburg", "facility_id": "060013546", "score": 96.5, "addr_line1": "1100 Blythe Bv"}}

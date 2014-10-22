@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wildflower Cafe", "addr_city": "Elizabeth City", "item_comments": "MANAGER CERTIFICATION REQUIRED;LIGHT IN STORAGE OUT   REPLACE BULB;UTENSIL BINS NEED TO BE WIPED OUT.;", "activity_date": "05/29/2014", "county": "Pasquotank", "facility_id": "070010115", "score": 97.5, "addr_line1": "407 McArthur Drive"}}

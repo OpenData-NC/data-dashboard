@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Rice Fun", "addr_city": "Statesville", "item_comments": "RICE FUN", "activity_date": "09/04/2014", "county": "Iredell", "facility_id": "049010945", "score": 94.0, "addr_line1": "1531-G Cinema Dr"}}

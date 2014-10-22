@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway 3411", "addr_city": "Conover", "item_comments": "PERSOIN IN CHARGE TO BE ACCREDITED BY APPROVED FOOD SAFETY COURSE.;MIX SANITIZER TO 150 400 PPM PRIOR TO FOOD PREP   SANITIZER PROVIDED WAS TOO WEAK.  MIXED ACCORDINGLY;", "activity_date": "07/30/2014", "county": "Catawba", "facility_id": "018010816", "score": 96.5, "addr_line1": "508 10th St Nw"}}

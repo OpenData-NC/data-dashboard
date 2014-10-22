@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tangy Cafe & Eatery", "addr_city": "Rutherfordton", "item_comments": "TANGY CAFE & EATERY", "activity_date": "09/09/2014", "county": "Rutherford", "facility_id": "081010704", "score": 96.0, "addr_line1": "213 N. Main St."}}

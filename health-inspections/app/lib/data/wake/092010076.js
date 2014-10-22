@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Border", "addr_city": "Wake Forest", "item_comments": "BORDER", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092010076", "score": 94.5, "addr_line1": "712 North Main St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "New Lucky Chens Kitchen", "addr_city": "Thomasville", "item_comments": "CLEAN REFRIGERATION GASKETS OF PREP COOLER;PLEASE ALLOW UTENSILS TO AIR DRY. DO NOT DRY WITH A CLOTH TOWEL;", "activity_date": "06/16/2014", "county": "Davidson", "facility_id": "029010863", "score": 99.0, "addr_line1": "1122 Randolph St Suite 118"}}

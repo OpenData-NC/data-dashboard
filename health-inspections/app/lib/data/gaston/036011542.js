@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bantam Chef Pizza", "addr_city": "Gastonia", "item_comments": "BANTAM CHEF PIZZA", "activity_date": "09/10/2014", "county": "Gaston", "facility_id": "036011542", "score": 98.0, "addr_line1": "3033 Union Road"}}

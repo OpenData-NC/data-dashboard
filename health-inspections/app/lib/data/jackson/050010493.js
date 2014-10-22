@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McAlister Deli", "addr_city": "Cullowhee", "item_comments": "MCALISTER\\'S DELI", "activity_date": "09/10/2014", "county": "Jackson", "facility_id": "050010493", "score": 96.5, "addr_line1": "160 University Way"}}

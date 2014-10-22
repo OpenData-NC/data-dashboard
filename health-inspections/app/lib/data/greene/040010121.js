@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chele's Cafe", "addr_city": "Snow Hill", "item_comments": "CHELE\\'S CAFE", "activity_date": "08/29/2014", "county": "Greene", "facility_id": "040010121", "score": 96.0, "addr_line1": "423 W. Harper St."}}

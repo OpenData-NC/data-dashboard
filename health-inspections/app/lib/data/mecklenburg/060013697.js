@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Boston Market #359", "addr_city": "Charlotte", "item_comments": "BOSTON MARKET #359", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060013697", "score": 95.0, "addr_line1": "829 Providence Rd"}}

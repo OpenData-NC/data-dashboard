@@ -1,0 +1,1 @@
+{"results": [["Holiday Inn Express Hotel Breakfast Bar", "3400 Southport-Supply Rd Se", "Bolivia", "09/15/2014", 96.5, "010011081"], ["Brunswick Novant Medical Center Dietary", "240 Hospital Drive Ne", "Bolivia", "08/12/2014", 96.5, "010010959"], ["Island Cafe", "30 Government Center Drive", "Bolivia", "07/22/2014", 98.0, "010011033"]]}

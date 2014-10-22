@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Olive Garden 1407", "addr_city": "Hickory", "item_comments": "CLEAN DOORHANDLES, GASKETS, SHELVES, ETC AS NEEDED;THO/ROUGHLY WASH, RINSE, SANITIZE MULTI USE EQUIPMENT AFTER EACH USE   PANS DIRTY  PLACED IN DISH AREA;", "activity_date": "06/18/2014", "county": "Catawba", "facility_id": "018010404", "score": 98.0, "addr_line1": "2261 Hwy 70 Se"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tommy's Drive In", "addr_city": "Dallas", "item_comments": "TOMMY\\'S DRIVE IN", "activity_date": "09/09/2014", "county": "Gaston", "facility_id": "036011424", "score": 96.0, "addr_line1": "2708 Gastonia Dallas Highway"}}

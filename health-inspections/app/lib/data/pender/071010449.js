@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #58774 Wards Corner", "addr_city": "Burgaw", "item_comments": "6 202.11 LIGHT BULBS, PROTECTIVE SHIELDING   C;", "activity_date": "07/10/2014", "county": "Pender", "facility_id": "071010449", "score": 100.0, "addr_line1": "14531 Highway 421"}}

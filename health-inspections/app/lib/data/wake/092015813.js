@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chais Asian Bistro", "addr_city": "Raleigh", "item_comments": "CHAIS ASIAN BISTRO", "activity_date": "07/25/2014", "county": "Wake", "facility_id": "092015813", "score": 97.5, "addr_line1": "8347 Creedmoor  Rd"}}

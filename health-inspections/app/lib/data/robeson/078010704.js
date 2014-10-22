@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mikoto Express", "addr_city": "Pembroke", "item_comments": "3 305.11 FOOD STORAGE PREVENTING CONTAMINATION FROM THE PREMISES   CPLEASE KEEP FOODS COVERED IN THE WALK IN COOLER TO PREVENT CONTAMINATION FROM PREMISES.;", "activity_date": "07/23/2014", "county": "Robeson", "facility_id": "078010704", "score": 99.0, "addr_line1": "412-C West 3rd Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sheetz #541", "addr_city": "High Point", "item_comments": "SHEETZ #541", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041014041", "score": 99.0, "addr_line1": "1813 South Main Street"}}

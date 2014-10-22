@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Southern Sizzler", "addr_city": "Whiteville", "item_comments": "SOUTHERN SIZZLER", "activity_date": "09/25/2014", "county": "Columbus", "facility_id": "024010525", "score": 98.0, "addr_line1": "1405 S Madison St"}}

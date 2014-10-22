@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees Skat Thru", "addr_city": "Princeton", "item_comments": "HARDEES SKAT THRU", "activity_date": "07/03/2014", "county": "Johnston", "facility_id": "051010144", "score": 96.5, "addr_line1": "101 Smith Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Epworth Towers @ Aldersgate", "addr_city": "Charlotte", "item_comments": "EPWORTH TOWERS @ ALDERSGATE", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060016356", "score": 97.5, "addr_line1": "2125 Cole Dr"}}

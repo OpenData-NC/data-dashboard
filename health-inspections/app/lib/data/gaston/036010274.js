@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Papa's Pizza to Go", "addr_city": "Cherryville", "item_comments": "PAPA\\'S PIZZA TO GO", "activity_date": "09/15/2014", "county": "Gaston", "facility_id": "036010274", "score": 96.5, "addr_line1": "1002 E Main"}}

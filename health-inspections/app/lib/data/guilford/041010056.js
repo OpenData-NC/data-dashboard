@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #26", "addr_city": "Greensboro", "item_comments": "OLDER FACILITY IN VARIOUS STATES OF DETERIATION;THE DUMPSTER DOORS OPEN MUST REMAIN CLOSED;GENERAL CLEANING OF EQUIPMENT NEEDED;FLIES PRESENT;", "activity_date": "06/26/2014", "county": "Guilford", "facility_id": "041010056", "score": 96.5, "addr_line1": "3737 High Point Rd"}}

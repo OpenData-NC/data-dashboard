@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway # 3262", "addr_city": "Cary", "item_comments": "SUBWAY # 3262", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092015114", "score": 90.5, "addr_line1": "1813 N. Harrison Ave"}}

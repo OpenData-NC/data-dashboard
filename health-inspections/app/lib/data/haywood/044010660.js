@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ganko Express", "addr_city": "Waynesville", "item_comments": "GANKO EXPRESS", "activity_date": "09/29/2014", "county": "Haywood", "facility_id": "044010660", "score": 92.5, "addr_line1": "1896 S. Main Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lucky 32", "addr_city": "Greensboro", "item_comments": "LUCKY 32", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041010555", "score": 96.0, "addr_line1": "1421 Westover Terrace"}}

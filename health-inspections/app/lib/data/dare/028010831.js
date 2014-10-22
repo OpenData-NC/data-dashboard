@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Josephine's Sicilian Kitchen", "addr_city": "Kitty Hawk", "item_comments": "NETS/HATS;GREASE OVER GREAS TRAP;", "activity_date": "06/20/2014", "county": "Dare", "facility_id": "028010831", "score": 98.5, "addr_line1": "3701 N Croatan Hwy Unit 1415"}}

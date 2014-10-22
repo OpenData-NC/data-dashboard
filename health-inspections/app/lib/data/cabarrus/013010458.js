@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wingate Inn", "addr_city": "Concord", "item_comments": "4-602.13; Core; Clean some mold build-up around juice spouts on outside (not actual spout).  Shown to Sharon while here today, may need a brush to clean.;;;;;;;;;;;;", "activity_date": "07/08/2014", "county": "Cabarrus", "facility_id": "013010458", "score": 99.5, "addr_line1": "7841 Gateway Lane"}}

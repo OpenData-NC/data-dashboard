@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mulligan's Bar & Grill", "addr_city": "Franklin", "item_comments": "MULLIGAN\\'S BAR & GRILL", "activity_date": "09/09/2014", "county": "Macon", "facility_id": "056010379", "score": 95.0, "addr_line1": "579 Depot Street"}}

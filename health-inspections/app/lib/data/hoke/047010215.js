@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Our Daily Bread Cafe and Bakery", "addr_city": "Raeford", "item_comments": "OUR DAILY BREAD CAFE AND BAKERY", "activity_date": "08/20/2014", "county": "Hoke", "facility_id": "047010215", "score": 97.5, "addr_line1": "7599 Rockfish Rd"}}

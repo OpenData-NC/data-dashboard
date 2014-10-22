@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waveriders Coffee and Deli", "addr_city": "Nags Head", "item_comments": "KEEP RAGS IN SANI            CARPET DIRTY;HATS;", "activity_date": "08/12/2014", "county": "Dare", "facility_id": "028010850", "score": 98.5, "addr_line1": "6705 S Croatan Hwy"}}

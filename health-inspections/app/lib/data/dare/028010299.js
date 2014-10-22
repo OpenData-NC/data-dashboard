@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Diamond Shoals", "addr_city": "Buxton", "item_comments": "REACH IN COOLER ONLINE IS DAMAGED HAVE DOOR PANEL AND SEAL REPLACED/FIXED;", "activity_date": "08/06/2014", "county": "Dare", "facility_id": "028010299", "score": 99.0, "addr_line1": "46843 Nc 12"}}

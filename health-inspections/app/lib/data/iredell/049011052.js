@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Groucho's Deli of Statesville", "addr_city": "Statesville", "item_comments": "7 102.11 COMMON NAME WORKING CONTAINERS   PF  OBSERVED SPRAY BOTTLE OF CLEANER NOT LABELED  CDI   CO OWNER LABELD BOTTLE CORRECTLY;", "activity_date": "05/07/2014", "county": "Iredell", "facility_id": "049011052", "score": 100.0, "addr_line1": "101 E Broad Street"}}

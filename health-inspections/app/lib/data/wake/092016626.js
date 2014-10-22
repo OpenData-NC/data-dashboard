@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #17385", "addr_city": "Cary", "item_comments": "SUBWAY #17385", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092016626", "score": 95.0, "addr_line1": "611 E Chatham St"}}

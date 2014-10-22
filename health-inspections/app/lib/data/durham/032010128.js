@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardee's #1624", "addr_city": "Durham", "item_comments": "LIQUID EGG SPILL ON THE COOLER FLOOR;GASKETS NEED REPLACING ON SMALL COUNTER REFRIGERATORS.;", "activity_date": "07/14/2014", "county": "Durham", "facility_id": "032010128", "score": 98.0, "addr_line1": "4607 Alston Avenue"}}

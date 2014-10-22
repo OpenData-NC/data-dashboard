@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Arby's # 7415", "addr_city": "Dallas", "item_comments": "ARBY\\'S # 7415", "activity_date": "09/17/2014", "county": "Gaston", "facility_id": "036011309", "score": 94.5, "addr_line1": "1009 Dallas Cherryville Hwy."}}

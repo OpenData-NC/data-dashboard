@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Corner Mart", "addr_city": "China Grove", "item_comments": "CORNER MART", "activity_date": "09/18/2014", "county": "Rowan", "facility_id": "080010791", "score": 93.0, "addr_line1": "2570 Hwy 29 S"}}

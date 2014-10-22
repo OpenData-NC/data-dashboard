@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #11742", "addr_city": "Hampstead", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER;", "activity_date": "07/10/2014", "county": "Pender", "facility_id": "071010465", "score": 98.0, "addr_line1": "15010 a Us Highway 17"}}

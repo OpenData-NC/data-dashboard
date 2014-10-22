@@ -1,0 +1,1 @@
+{"results": [["Smitty's", "4763 Nc  11 N.", "Bethel", "06/19/2014", 98.0, "074011330"], ["Da-Nite Lunch", "214 S Main St", "Bethel", "06/11/2014", 93.5, "074010043"], ["La Casetta", "106 North Main Street", "Bethel", "06/11/2014", 99.5, "074010770"]]}

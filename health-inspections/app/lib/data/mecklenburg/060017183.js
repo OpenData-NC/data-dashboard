@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Levant Meditteranean Cuisine", "addr_city": "Charlotte", "item_comments": "LEVANT MEDITTERANEAN CUISINE", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060017183", "score": 95.0, "addr_line1": "501 S Church Street Suite 120"}}

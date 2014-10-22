@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Morazan Restaurant", "addr_city": "Charlotte", "item_comments": "MORAZAN RESTAURANT", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060017433", "score": 94.0, "addr_line1": "5421 South Blvd"}}

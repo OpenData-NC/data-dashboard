@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Handy Mart #65", "addr_city": "Kinston", "item_comments": "HANDY MART #65", "activity_date": "07/15/2014", "county": "Lenoir", "facility_id": "054010370", "score": 96.0, "addr_line1": "2325 Hwy 258 North"}}

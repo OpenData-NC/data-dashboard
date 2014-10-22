@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #31488", "addr_city": "Albemarle", "item_comments": "4 501.11   REPLACE THE TORN GASKETS ON THE WALK IN COOLER.;", "activity_date": "08/11/2014", "county": "Stanly", "facility_id": "084010306", "score": 99.0, "addr_line1": "1920-C Hwy 52 North"}}

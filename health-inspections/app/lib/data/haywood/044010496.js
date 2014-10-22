@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Captain's Bay Seafood", "addr_city": "Waynesville", "item_comments": "CAPTAIN\\'S BAY SEAFOOD", "activity_date": "09/17/2014", "county": "Haywood", "facility_id": "044010496", "score": 96.0, "addr_line1": "562 Russ Ave"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Flama", "addr_city": "Snow Hill", "item_comments": "LA FLAMA", "activity_date": "09/17/2014", "county": "Greene", "facility_id": "040010062", "score": 96.0, "addr_line1": "111 Se 2nd St."}}

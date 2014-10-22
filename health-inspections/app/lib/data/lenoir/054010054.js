@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kings Restaurant/Kinston", "addr_city": "Kinston", "item_comments": "KINGS RESTAURANT/KINSTON", "activity_date": "08/11/2014", "county": "Lenoir", "facility_id": "054010054", "score": 94.5, "addr_line1": "405 East New Bern Rd"}}

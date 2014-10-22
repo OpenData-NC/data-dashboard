@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Brueggers Bagels  #20504", "addr_city": "Greensboro", "item_comments": "BRUEGGERS BAGELS  #20504", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041011475", "score": 98.5, "addr_line1": "431 Pisgah Church Rd"}}

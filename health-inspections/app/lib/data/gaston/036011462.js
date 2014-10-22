@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tavern 24 Gastonia", "addr_city": "Gastonia", "item_comments": "TAVERN 24 GASTONIA", "activity_date": "09/22/2014", "county": "Gaston", "facility_id": "036011462", "score": 95.5, "addr_line1": "421 Cox Road"}}

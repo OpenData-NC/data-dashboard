@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pinehurst Halfway House # 3 & 5 (Combine", "addr_city": "Pinehurst", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "06/19/2014", "county": "Moore", "facility_id": "063010089", "score": 99.0, "addr_line1": "Sugar Gum Lane"}}

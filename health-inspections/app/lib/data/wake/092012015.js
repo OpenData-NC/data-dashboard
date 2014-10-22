@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mos Diner", "addr_city": "Raleigh", "item_comments": "MOS DINER", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092012015", "score": 92.5, "addr_line1": "306 East Hargett St"}}

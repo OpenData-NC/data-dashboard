@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bi-Lo #5156 Deli", "addr_city": "Charlotte", "item_comments": "BI-LO #5156 DELI", "activity_date": "09/23/2014", "county": "Mecklenburg", "facility_id": "060014220", "score": 96.0, "addr_line1": "8620 Camfield St."}}

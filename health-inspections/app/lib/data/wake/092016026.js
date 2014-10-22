@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Which Wich? #192", "addr_city": "Raleigh", "item_comments": "WHICH WICH? #192", "activity_date": "08/19/2014", "county": "Wake", "facility_id": "092016026", "score": 95.5, "addr_line1": "4120 Main at North Hills Suite"}}

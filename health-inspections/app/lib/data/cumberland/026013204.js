@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Nubian's Restaurant & Classic Catering", "addr_city": "Fayetteville", "item_comments": "NUBIAN\\'S RESTAURANT & CLASSIC CATERING", "activity_date": "09/09/2014", "county": "Cumberland", "facility_id": "026013204", "score": 97.5, "addr_line1": "524  S Reilly Road"}}

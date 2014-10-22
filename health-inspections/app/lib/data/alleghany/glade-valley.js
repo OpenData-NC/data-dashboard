@@ -1,0 +1,1 @@
+{"results": [["Camp Cheerio", "1430 Camp Cheerio Road", "Glade Valley", "08/14/2014", 95.0, "003010281"], ["Circle L Restaurant", "3238 Us Hwy 21 South", "Glade Valley", "07/23/2014", 91.0, "003010092"], ["Alexander Hall", "214 Glade Valley Church Rd", "Glade Valley", "05/22/2014", 94.5, "003010190"]]}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Grays Landing Bistro", "addr_city": "Windsor", "item_comments": "CHECK LIGHT IN KITCHEN THAT HAS GONE OUT AGAIN.   WAS REPAIRED AT LAST INSPECTION AND IS NOW OUT AGAIN.;", "activity_date": "09/18/2014", "county": "Bertie", "facility_id": "008010111", "score": 100.0, "addr_line1": "401 South King St"}}

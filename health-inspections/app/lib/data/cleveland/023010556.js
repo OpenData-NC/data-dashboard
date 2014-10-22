@@ -1,0 +1,1 @@
+{"results": {"fac_name": "D and N Mini Mart", "addr_city": "Shelby", "item_comments": "D AND N MINI MART", "activity_date": "09/11/2014", "county": "Cleveland", "facility_id": "023010556", "score": 96.0, "addr_line1": "4002 Fallston Rd"}}

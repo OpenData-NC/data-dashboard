@@ -1,0 +1,1 @@
+{"results": {"fac_name": "San Marcos", "addr_city": "Smithfield", "item_comments": "SAN MARCOS", "activity_date": "07/15/2014", "county": "Johnston", "facility_id": "051011249", "score": 95.5, "addr_line1": "275 N. Equity Dr."}}

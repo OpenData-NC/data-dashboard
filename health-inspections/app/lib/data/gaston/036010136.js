@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House #601", "addr_city": "Gastonia", "item_comments": "WAFFLE HOUSE #601", "activity_date": "09/18/2014", "county": "Gaston", "facility_id": "036010136", "score": 97.0, "addr_line1": "1845 Remount Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #3726", "addr_city": "Wake Forest", "item_comments": "SUBWAY #3726", "activity_date": "08/06/2014", "county": "Wake", "facility_id": "092015530", "score": 100.0, "addr_line1": "12233 Capital Blvd"}}

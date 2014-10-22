@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ingles #23  Deli", "addr_city": "Waynesville", "item_comments": "INGLES #23  DELI", "activity_date": "09/15/2014", "county": "Haywood", "facility_id": "044010271", "score": 99.5, "addr_line1": "201 Barber Blvd"}}

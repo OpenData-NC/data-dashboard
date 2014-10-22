@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Western Sizzlin", "addr_city": "Wallace", "item_comments": "WESTERN SIZZLIN", "activity_date": "08/11/2014", "county": "Duplin", "facility_id": "031010255", "score": 90.0, "addr_line1": "1270 N Norwood St"}}

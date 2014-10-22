@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Rodeo Mexican Rest", "addr_city": "Raleigh", "item_comments": "EL RODEO MEXICAN REST", "activity_date": "07/01/2014", "county": "Wake", "facility_id": "092011623", "score": 97.5, "addr_line1": "4112 Pleasant Valley Rd"}}

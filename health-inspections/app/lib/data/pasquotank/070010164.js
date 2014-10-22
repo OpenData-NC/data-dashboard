@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees of Elizabeth City #1", "addr_city": "Elizabeth City", "item_comments": "FREEZER DOOR DAMAGE ALLOWING ICE BUILD UP   CLEAN AS NEEDED.;SANITIZER BUCKET CAN NOT BE STORED ON THE FLOOR.;", "activity_date": "08/07/2014", "county": "Pasquotank", "facility_id": "070010164", "score": 98.0, "addr_line1": "211 W Ehringhaus St"}}

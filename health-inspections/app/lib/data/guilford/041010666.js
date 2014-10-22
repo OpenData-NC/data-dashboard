@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Blair Park Grill", "addr_city": "High Point", "item_comments": "COMPARTMENT SINK FAUCET LEAKING;", "activity_date": "05/30/2014", "county": "Guilford", "facility_id": "041010666", "score": 99.0, "addr_line1": "1901 S Main St"}}

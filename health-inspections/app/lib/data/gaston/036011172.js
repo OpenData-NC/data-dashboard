@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Las Palmas Bakery & Restaurant", "addr_city": "Gastonia", "item_comments": "LAS PALMAS BAKERY & RESTAURANT", "activity_date": "09/22/2014", "county": "Gaston", "facility_id": "036011172", "score": 95.0, "addr_line1": "2688 S New Hope Rd"}}

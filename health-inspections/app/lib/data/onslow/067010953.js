@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cedar Point Grill", "addr_city": "Swansboro", "item_comments": "CEDAR POINT GRILL", "activity_date": "09/22/2014", "county": "Onslow", "facility_id": "067010953", "score": 94.5, "addr_line1": "715 W Corbett Avenue"}}

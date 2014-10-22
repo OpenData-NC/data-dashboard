@@ -1,0 +1,1 @@
+{"results": [["Chick-Fil-A", "85 Main St.", "Buies Creek", "06/09/2014", 98.0, "043010505"], ["Keith Hills Country Club", "216 Country Club Dr.", "Buies Creek", "06/02/2014", 98.5, "043010536"]]}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Johnston Community College", "addr_city": "Smithfield", "item_comments": "JOHNSTON COMMUNITY COLLEGE", "activity_date": "08/25/2014", "county": "Johnston", "facility_id": "051010902", "score": 100.0, "addr_line1": "245 College Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kroger Deli Store  354", "addr_city": "Raleigh", "item_comments": "KROGER DELI STORE  354", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092011931", "score": 96.5, "addr_line1": "8345 Creedmoor Rd"}}

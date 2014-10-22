@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Rock Store Express", "addr_city": "Weddington", "item_comments": "ROCK STORE EXPRESS", "activity_date": "08/19/2014", "county": "Union", "facility_id": "090011041", "score": 96.0, "addr_line1": "13801 Providence Road"}}

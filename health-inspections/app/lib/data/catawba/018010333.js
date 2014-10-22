@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sidepocket Lounge", "addr_city": "Hickory", "item_comments": "CLEAN/REPAIR FLOORS, WALLS, CEILINGS AS NEEDED;RESTROOM FLOORS, WALLS, IN POOR REPAIR;COUNTERS/DOOR GASKETS IN POOR REPAIR;REPLACE PAPER LINER UNDER GLASSES;", "activity_date": "06/13/2014", "county": "Catawba", "facility_id": "018010333", "score": 96.5, "addr_line1": "2040 12th Av Ne"}}

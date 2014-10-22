@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kangaroo Express # 3474", "addr_city": "Goldsboro", "item_comments": "Potentially hazardous/ready to eat foods were all date marked with a shelf life of 7 days max.  Violation corrected.;", "activity_date": "07/01/2014", "county": "Wayne", "facility_id": "096010919", "score": 0.0, "addr_line1": "2035 W Us 70 Hwy"}}

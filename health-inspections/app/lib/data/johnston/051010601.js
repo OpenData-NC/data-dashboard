@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Papas Subs & Pizza", "addr_city": "Four Oaks", "item_comments": "PAPAS SUBS & PIZZA", "activity_date": "07/14/2014", "county": "Johnston", "facility_id": "051010601", "score": 100.0, "addr_line1": "5831 Us 301 S"}}

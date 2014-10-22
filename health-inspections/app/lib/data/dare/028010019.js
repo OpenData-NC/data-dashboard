@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Captain Frank's-Kh", "addr_city": "Kitty Hawk", "item_comments": "HATS/NETS;", "activity_date": "06/20/2014", "county": "Dare", "facility_id": "028010019", "score": 99.0, "addr_line1": "3800 No Croatan Hwy"}}

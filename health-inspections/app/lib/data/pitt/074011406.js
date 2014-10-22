@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wimpies", "addr_city": "Winterville", "item_comments": "WIMPIES", "activity_date": "09/25/2014", "county": "Pitt", "facility_id": "074011406", "score": 99.0, "addr_line1": "206 Main Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hampton Inn - Hendersonville", "addr_city": "Hendersonville", "item_comments": "HAMPTON INN - HENDERSONVILLE", "activity_date": "09/11/2014", "county": "Henderson", "facility_id": "045010883", "score": 98.0, "addr_line1": "155 Sugarloaf Road"}}

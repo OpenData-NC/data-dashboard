@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Us Sushi", "addr_city": "High Point", "item_comments": "US SUSHI", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041013782", "score": 97.5, "addr_line1": "2531-113 Eastchester Avenue"}}

@@ -1,0 +1,1 @@
+{"results": [["Tartan Restaurant", "31 Coffey Rd", "Linville", "06/26/2014", 98.5, "006010044"], ["Old Hamptons Store", "77 Ruffin St", "Linville", "05/12/2014", 97.0, "006010147"], ["Cannon Mem Hospital Food Svc", "434 Hospital Drive", "Linville", "05/09/2014", 98.0, "006010115"]]}

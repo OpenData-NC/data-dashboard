@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway Conover", "addr_city": "Conover", "item_comments": "PERSON IN CHARGE TO BE ACCREDITED BY APPROVED FOOD SAFETY COURSE;REPAIR/REFINISH WALLS  REPAIR LIGHT IN BACK ROOM AS NEEDED;", "activity_date": "06/27/2014", "county": "Catawba", "facility_id": "018010862", "score": 97.5, "addr_line1": "801  Conover Blvd West"}}

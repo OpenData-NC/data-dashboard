@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mrs Winner's Chicken and Biscuits", "addr_city": "Greensboro", "item_comments": "MRS WINNER\\'S CHICKEN AND BISCUITS", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041010471", "score": 97.5, "addr_line1": "814  Summit Av"}}

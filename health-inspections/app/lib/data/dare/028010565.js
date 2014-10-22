@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Long Boards Island Grill", "addr_city": "Kitty Hawk", "item_comments": "CLEAN WALKIN FLR;CLEAN FLR AND FRYERS ON COOK LINE;", "activity_date": "05/20/2014", "county": "Dare", "facility_id": "028010565", "score": 97.0, "addr_line1": "3833 N. Craotan Hwy"}}

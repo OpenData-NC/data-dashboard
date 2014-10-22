@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jordans  Catering Service", "addr_city": "Westend", "item_comments": "JORDANS  CATERING SERVICE", "activity_date": "09/25/2014", "county": "Moore", "facility_id": "063010168", "score": 95.0, "addr_line1": "Nc 73 Hwy"}}

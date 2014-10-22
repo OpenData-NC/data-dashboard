@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bolt Bistro and Bar", "addr_city": "Raleigh", "item_comments": "BOLT BISTRO AND BAR", "activity_date": "08/28/2014", "county": "Wake", "facility_id": "092016278", "score": 91.5, "addr_line1": "219 Fayettteville St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sunrise Cafe", "addr_city": "Brevard", "item_comments": "SUNRISE CAFE", "activity_date": "09/15/2014", "county": "Transylvania", "facility_id": "088010150", "score": 95.5, "addr_line1": "468 Broad St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "X-Ray Cafe", "addr_city": "Charlotte", "item_comments": "X-RAY CAFE", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060016036", "score": 98.0, "addr_line1": "1000 Blythe Blvd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pizza Hut #14495", "addr_city": "Cornelius", "item_comments": "PIZZA HUT #14495", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060014774", "score": 97.5, "addr_line1": "20300 W Catawba Ave"}}

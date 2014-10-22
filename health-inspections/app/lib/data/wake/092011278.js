@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardee's #1638", "addr_city": "Rolesville", "item_comments": "HARDEE\\'S #1638", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092011278", "score": 94.5, "addr_line1": "403 S Main Street"}}

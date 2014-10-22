@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Buffalo Wild Wings #388", "addr_city": "Hickory", "item_comments": "CLEAN DOOR HANDLES, GASKETS, SHELVES, ETC;REPLACE WORN CUTTING BOARDS AS NEEDED;WIPING CLOTHS TO BE STORED IN SANITIZING SOLUTION WHEN NOT IN USE;", "activity_date": "06/03/2014", "county": "Catawba", "facility_id": "018011242", "score": 98.0, "addr_line1": "2410 Hwy 70 Se"}}

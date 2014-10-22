@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Alcancia", "addr_city": "Salisbury", "item_comments": "LA ALCANCIA", "activity_date": "09/16/2014", "county": "Rowan", "facility_id": "080010485", "score": 96.5, "addr_line1": "3023 S Main St"}}

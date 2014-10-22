@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fuji Express", "addr_city": "Apex", "item_comments": "FUJI EXPRESS", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092014266", "score": 98.0, "addr_line1": "2143 Ten Ten Road"}}

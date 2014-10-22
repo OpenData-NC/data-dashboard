@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Home Plate Restaurant", "addr_city": "Durham", "item_comments": "HOME PLATE RESTAURANT", "activity_date": "09/16/2014", "county": "Durham", "facility_id": "032010722", "score": 95.0, "addr_line1": "3327 Wake Forest Hwy"}}

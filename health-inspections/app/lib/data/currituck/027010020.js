@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees # 1834", "addr_city": "Grandy", "item_comments": "CLEAN OVEN DOORS, EDGE OF FRYER AND ICE MACHINE BETTER OR MORE OFTEN.  CLEAN GASKETS ON 4 DOOR FREEZER;", "activity_date": "06/04/2014", "county": "Currituck", "facility_id": "027010020", "score": 99.0, "addr_line1": "6501 Caratoke Hwy"}}

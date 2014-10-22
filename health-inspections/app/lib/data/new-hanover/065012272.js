@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Belle Airosa", "addr_city": "Wilmington", "item_comments": ";;2-103.11 Person in Charge. EMPLOYEE HEALTH POLICY NEEDED;;;;;3-501.13", "activity_date": "05/07/2014", "county": "New Hanover", "facility_id": "065012272", "score": 98.5, "addr_line1": "3500 Kerr Ave N"}}

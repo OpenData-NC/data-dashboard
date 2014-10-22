@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Wing Company", "addr_city": "Fayetteville,", "item_comments": "THE WING COMPANY", "activity_date": "09/15/2014", "county": "Cumberland", "facility_id": "026012988", "score": 95.5, "addr_line1": "6411 Camdin Road"}}

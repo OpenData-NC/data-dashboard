@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Valle De Bravo", "addr_city": "Banner Elk", "item_comments": "VALLE DE BRAVO", "activity_date": "09/19/2014", "county": "Watauga", "facility_id": "095010682", "score": 90.0, "addr_line1": "608 Beech Mtn Parkway"}}

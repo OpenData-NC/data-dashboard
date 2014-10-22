@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sugar Creek", "addr_city": "Nags Head", "item_comments": "REACH IN FREEZER HAD ITEMS UNCOVERED, REACH IN COOLER HAD SERVERAL ITEMS UNCOVERED. KEEP ALL FOOD ITEMS COVERED TO PREVENT FROM CONTAIMINATION;", "activity_date": "08/18/2014", "county": "Dare", "facility_id": "028010598", "score": 98.5, "addr_line1": "7340 Virginia Dare Trail"}}

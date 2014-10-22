@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kfc G135207", "addr_city": "Elizabeth City", "item_comments": "FLOORS NEED TO BE CLEANED BETTER   STORAGE AREA, UNDER RACKS COOLER ETC. WALL TILES DAMAGED/MISSING;PANS STACKED WET   ALLOW TO AIR DRY BEFORE NESTING.;", "activity_date": "08/25/2014", "county": "Pasquotank", "facility_id": "070010323", "score": 98.5, "addr_line1": "116 S. Hughes Blvd."}}

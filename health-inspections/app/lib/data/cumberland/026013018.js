@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King  950", "addr_city": "Fayetteville", "item_comments": ".;.;.;", "activity_date": "06/11/2014", "county": "Cumberland", "facility_id": "026013018", "score": 97.0, "addr_line1": "5025 Ramsey Street"}}

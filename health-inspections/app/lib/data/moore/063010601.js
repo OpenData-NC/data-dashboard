@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Short Stop # 71", "addr_city": "Southern Pines", "item_comments": "SHORT STOP # 71", "activity_date": "08/25/2014", "county": "Moore", "facility_id": "063010601", "score": 97.0, "addr_line1": "105 Conn Ave"}}

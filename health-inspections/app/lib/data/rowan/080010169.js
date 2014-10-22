@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Trinity Oaks", "addr_city": "Salisbury", "item_comments": "TRINITY OAKS", "activity_date": "09/10/2014", "county": "Rowan", "facility_id": "080010169", "score": 95.5, "addr_line1": "728 Klumac Rd"}}

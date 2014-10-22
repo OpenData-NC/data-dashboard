@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mi Cabana", "addr_city": "Greenville", "item_comments": "MI CABANA", "activity_date": "09/03/2014", "county": "Pitt", "facility_id": "074010892", "score": 97.5, "addr_line1": "333 E Arlington Blvd"}}

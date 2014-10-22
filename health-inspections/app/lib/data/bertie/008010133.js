@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Quik Bite", "addr_city": "Roxobel", "item_comments": "STILL UNDER GRACE PERIOD FOR NEW PERMIT;AIR DRY WASHED ITEMS.  DO NOT TOWEL DRY;", "activity_date": "07/24/2014", "county": "Bertie", "facility_id": "008010133", "score": 99.5, "addr_line1": "102 North Main Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mountain Fried Chicken Stanleyvil", "addr_city": "Winston Salem", "item_comments": "MOUNTAIN FRIED CHICKEN STANLEYVIL", "activity_date": "09/03/2014", "county": "Forsyth", "facility_id": "034012238", "score": 97.5, "addr_line1": "5954 University Parkway"}}

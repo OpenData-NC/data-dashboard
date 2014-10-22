@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dairy Queen # 19512", "addr_city": "Greensboro", "item_comments": "5 501.11 OUTDOOR STORAGE SURFACE   C, OUTSIDE BACK DOOR COULD BE BETTER MAINTAINED;", "activity_date": "08/05/2014", "county": "Guilford", "facility_id": "041013274", "score": 99.5, "addr_line1": "1708 - E Stanley Road"}}

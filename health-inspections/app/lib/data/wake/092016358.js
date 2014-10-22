@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sheetz #505", "addr_city": "Wake Forest", "item_comments": "SHEETZ #505", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092016358", "score": 99.0, "addr_line1": "1895  S Franklin St"}}

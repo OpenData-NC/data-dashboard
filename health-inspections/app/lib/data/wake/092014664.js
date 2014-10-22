@@ -1,0 +1,1 @@
+{"results": {"fac_name": "701 Cafe", "addr_city": "Raleigh", "item_comments": "701 CAFE", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092014664", "score": 97.0, "addr_line1": "701 Corporate Center Drive"}}

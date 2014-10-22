@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fishermans Wharf", "addr_city": "Wanchese", "item_comments": "EQUIPMENT IN DISREPAIR......RACKS......DWASHER AREA .......CABINETS AT WAIT ST....;", "activity_date": "06/25/2014", "county": "Dare", "facility_id": "028010687", "score": 99.0, "addr_line1": "4683 Mill Landing Rd"}}

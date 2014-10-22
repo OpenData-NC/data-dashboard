@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Crafty Cow  Restaurant", "addr_city": "Corolla,nc", "item_comments": "CLEAN INSIDE   OUTSIDE WALK IN REFRIG. UNIT.;DO NOT SOTRE BUST TUBS ON FLOOR BEHIND BAR;", "activity_date": "06/03/2014", "county": "Currituck", "facility_id": "027010327", "score": 99.0, "addr_line1": "817c Ocean Trail"}}

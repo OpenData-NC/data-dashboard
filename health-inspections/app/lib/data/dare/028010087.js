@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonald", "addr_city": "Manteo", "item_comments": "KEEP SINGLE SERVICE BAGGED AND CLOSED;", "activity_date": "05/12/2014", "county": "Dare", "facility_id": "028010087", "score": 99.0, "addr_line1": "515 Hwy 64/264"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sheetz #548", "addr_city": "Greensboro", "item_comments": "SHEETZ #548", "activity_date": "09/15/2014", "county": "Guilford", "facility_id": "041014102", "score": 99.5, "addr_line1": "4736 Us Hwy 29n"}}

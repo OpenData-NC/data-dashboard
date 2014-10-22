@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jersey Mikes Subs", "addr_city": "Charlotte", "item_comments": "JERSEY MIKES SUBS", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060013927", "score": 96.5, "addr_line1": "128 S Tryon St"}}

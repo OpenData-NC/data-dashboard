@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Monterrey Restaurant", "addr_city": "Greensboro", "item_comments": "MONTERREY RESTAURANT", "activity_date": "09/19/2014", "county": "Guilford", "facility_id": "041011006", "score": 97.0, "addr_line1": "3724  Battleground Av"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway of Grandy", "addr_city": "Grandy", "item_comments": "SUBWAY OF GRANDY", "activity_date": "09/04/2014", "county": "Currituck", "facility_id": "027010283", "score": 98.0, "addr_line1": "6691 Caratoke Hwy"}}

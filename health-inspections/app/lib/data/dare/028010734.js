@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Frisco Sandwich", "addr_city": "Po Bx 160", "item_comments": "7REPAIR DUMPSTER;", "activity_date": "05/30/2014", "county": "Dare", "facility_id": "028010734", "score": 99.0, "addr_line1": "53674 Hwy 12"}}

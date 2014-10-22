@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Pointe", "addr_city": "Littleton", "item_comments": "THE POINTE", "activity_date": "09/24/2014", "county": "Warren", "facility_id": "093010154", "score": 95.0, "addr_line1": "1865 Eaton's Ferry Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Nantucket Cafe and Grill", "addr_city": "Chapel Hill", "item_comments": "NANTUCKET CAFE AND GRILL", "activity_date": "09/19/2014", "county": "Durham", "facility_id": "032011318", "score": 93.0, "addr_line1": "5925 Farrington Rd"}}

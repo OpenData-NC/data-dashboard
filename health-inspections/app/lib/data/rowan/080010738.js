@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway 23687", "addr_city": "Salisbury", "item_comments": "SUBWAY 23687", "activity_date": "09/03/2014", "county": "Rowan", "facility_id": "080010738", "score": 98.5, "addr_line1": "1317 Klumac Rd"}}

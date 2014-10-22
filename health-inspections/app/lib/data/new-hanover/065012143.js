@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kure Beach Diner", "addr_city": "Kure Beach", "item_comments": ";REPAIR WALL AT AIR CONDITIONER;;;;4-602.13", "activity_date": "06/04/2014", "county": "New Hanover", "facility_id": "065012143", "score": 99.0, "addr_line1": "101 K Ave"}}

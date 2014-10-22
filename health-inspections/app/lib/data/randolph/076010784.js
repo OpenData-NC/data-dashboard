@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway 35339 (Walmart)", "addr_city": "Randleman", "item_comments": "SUBWAY 35339 (WALMART)", "activity_date": "09/19/2014", "county": "Randolph", "facility_id": "076010784", "score": 98.0, "addr_line1": "1021 High Point Street"}}

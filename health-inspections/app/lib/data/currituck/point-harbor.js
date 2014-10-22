@@ -1,0 +1,1 @@
+{"results": [["Hotdoggers Suf Cafe", "9040 Caratoke Hwy", "Point Harbor", "08/19/2014", 99.0, "027010281"], ["Dawns Kitchen Gourmet", "9026 Caratoke Hwy", "Point Harbor", "05/28/2014", 99.5, "027010266"]]}

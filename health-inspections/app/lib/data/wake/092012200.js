@@ -1,0 +1,1 @@
+{"results": {"fac_name": "N.Y. Pizza", "addr_city": "Cary", "item_comments": "N.Y. PIZZA", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092012200", "score": 99.0, "addr_line1": "6458 Tryon Road"}}

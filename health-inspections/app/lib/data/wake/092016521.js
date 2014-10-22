@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Patrick Janess Gourmet Pizza Bar", "addr_city": "Raleigh", "item_comments": "PATRICK JANESS GOURMET PIZZA BAR", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092016521", "score": 100.0, "addr_line1": "1353 Kildaire Farm Rd"}}

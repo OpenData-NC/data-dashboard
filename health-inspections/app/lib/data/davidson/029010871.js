@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dawg House Grill", "addr_city": "Winston Salem", "item_comments": "DAWG HOUSE GRILL", "activity_date": "09/04/2014", "county": "Davidson", "facility_id": "029010871", "score": 93.5, "addr_line1": "11141 Old Hwy 52 Suite 1"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Circle K  6314", "addr_city": "Raleigh", "item_comments": "CIRCLE K  6314", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092014360", "score": 94.0, "addr_line1": "11700 New Leesville Rd"}}

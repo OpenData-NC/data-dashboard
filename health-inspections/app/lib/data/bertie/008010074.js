@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Food Lion Deli 1199", "addr_city": "Windsor", "item_comments": "DUST BUILDUP ON SHELVING AND SOME TABLE TOPS DUE TO CONSTRUCTION IN OTHER PARTS OF STORE.  WILL NEED TO WIPE DOWN ALL SURFACES AT LEAST DAILY.;", "activity_date": "09/18/2014", "county": "Bertie", "facility_id": "008010074", "score": 99.5, "addr_line1": "117 Us 13 Bypass"}}

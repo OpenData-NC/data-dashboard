@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Christophers", "addr_city": "Kinston", "item_comments": "CHRISTOPHERS", "activity_date": "07/14/2014", "county": "Lenoir", "facility_id": "054010024", "score": 92.0, "addr_line1": "217 N Queen St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Samis Pizza", "addr_city": "Selma", "item_comments": "SAMIS PIZZA", "activity_date": "07/11/2014", "county": "Johnston", "facility_id": "051011166", "score": 97.0, "addr_line1": "25a Jr Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Greensboro Auto Auction Ii", "addr_city": "Greensboro", "item_comments": "GREENSBORO AUTO AUCTION II", "activity_date": "09/17/2014", "county": "Guilford", "facility_id": "041011902", "score": 98.5, "addr_line1": "3907 W Wendover Av"}}

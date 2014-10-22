@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Japan Express", "addr_city": "Raleigh", "item_comments": "JAPAN EXPRESS", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092015445", "score": 91.0, "addr_line1": "6250-100 Glennwood Ave"}}

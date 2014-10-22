@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mojoes", "addr_city": "Raleigh", "item_comments": "MOJOES", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092013546", "score": 93.0, "addr_line1": "620 Glenwood Ave"}}

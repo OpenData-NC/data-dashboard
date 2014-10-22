@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mazatlan Restaurant", "addr_city": "Abemarle", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   CTHE PERSON IN CHARGE MUST BE A CERTIFIED FOOD PROTECTION MANAGER.;", "activity_date": "08/18/2014", "county": "Stanly", "facility_id": "084010172", "score": 98.0, "addr_line1": "1900 Hilco Street"}}

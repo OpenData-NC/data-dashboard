@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Extreme Ice Center Snack Bar", "addr_city": "Indian Trail", "item_comments": "EXTREME ICE CENTER SNACK BAR", "activity_date": "07/21/2014", "county": "Union", "facility_id": "090010721", "score": 94.0, "addr_line1": "4705 Indian Trail Fairview Roa"}}

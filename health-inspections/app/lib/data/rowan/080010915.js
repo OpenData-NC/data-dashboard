@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Curt & Geri's Cafe & Ice Cream", "addr_city": "Kannapolis", "item_comments": "CURT & GERI\\'S CAFE & ICE CREAM", "activity_date": "09/17/2014", "county": "Rowan", "facility_id": "080010915", "score": 96.5, "addr_line1": "1403 N Cannon Blvd"}}

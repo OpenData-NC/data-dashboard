@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Rainbow Lanes", "addr_city": "Clayton", "item_comments": "RAINBOW LANES", "activity_date": "07/08/2014", "county": "Johnston", "facility_id": "051010424", "score": 96.0, "addr_line1": "850 Nc 42 West"}}

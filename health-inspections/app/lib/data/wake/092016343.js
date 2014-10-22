@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Plaza Cafe", "addr_city": "Raleigh", "item_comments": "PLAZA CAFE", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092016343", "score": 97.5, "addr_line1": "411 Fayetteville St"}}

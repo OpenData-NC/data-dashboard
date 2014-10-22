@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Panera Bread", "addr_city": "Mooresville", "item_comments": "PANERA BREAD", "activity_date": "09/17/2014", "county": "Iredell", "facility_id": "049010712", "score": 96.5, "addr_line1": "109 Williamson Rd"}}

@@ -1,0 +1,1 @@
+{"results": [["Subway #23656", "8304 Us Hwy 158", "Stokesdale", "09/11/2014", 98.5, "041012335"], ["P & M Truckstop", "2221 Hwy 220 South", "Stokesdale", "09/11/2014", 90.5, "079010083"]]}

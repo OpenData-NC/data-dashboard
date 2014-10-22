@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway # 2391", "addr_city": "King", "item_comments": "SUBWAY # 2391", "activity_date": "09/12/2014", "county": "Stokes", "facility_id": "085010148", "score": 98.0, "addr_line1": "100 Five Fork Street"}}

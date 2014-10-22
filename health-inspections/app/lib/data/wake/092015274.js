@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Oxford,  The", "addr_city": "Raleigh", "item_comments": "OXFORD,  THE", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092015274", "score": 96.0, "addr_line1": "319 Fayetteville Street"}}

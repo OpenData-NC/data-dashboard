@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tobacco Road Sports Cafe", "addr_city": "Durham", "item_comments": "TOBACCO ROAD SPORTS CAFE", "activity_date": "09/12/2014", "county": "Durham", "facility_id": "032012026", "score": 92.5, "addr_line1": "280 S Mangum St Suite 100"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Applebees #353", "addr_city": "Raleigh", "item_comments": "APPLEBEES #353", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092014920", "score": 97.0, "addr_line1": "7831 Target Circle"}}

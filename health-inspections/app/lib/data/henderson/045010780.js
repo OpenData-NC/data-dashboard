@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Papas Dog House", "addr_city": "East Flat Rock", "item_comments": "PAPAS DOG HOUSE", "activity_date": "09/17/2014", "county": "Henderson", "facility_id": "045010780", "score": 98.0, "addr_line1": "104 West Blue Ridge Road"}}

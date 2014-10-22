@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Research Triangle Institute Cafeteria", "addr_city": "Rtp", "item_comments": "RESEARCH TRIANGLE INSTITUTE CAFETERIA", "activity_date": "09/09/2014", "county": "Durham", "facility_id": "032011551", "score": 99.0, "addr_line1": "3040 Cornwallis Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ruby Tuesday #4850", "addr_city": "Mount Airy", "item_comments": "RUBY TUESDAY #4850", "activity_date": "09/16/2014", "county": "Surry", "facility_id": "086010499", "score": 95.0, "addr_line1": "2139 Rockford Street"}}

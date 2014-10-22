@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Harris Teeter Deli #289", "addr_city": "Raleigh", "item_comments": "HARRIS TEETER DELI #289", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092010350", "score": 97.5, "addr_line1": "2915 Essex Circel"}}

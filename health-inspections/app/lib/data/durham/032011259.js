@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Champps Americana #65233", "addr_city": "Durham", "item_comments": "CHAMPPS AMERICANA #65233", "activity_date": "09/15/2014", "county": "Durham", "facility_id": "032011259", "score": 96.0, "addr_line1": "8030 Renaissance Pkwy, Suite 8"}}

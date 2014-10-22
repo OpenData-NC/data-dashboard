@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mayflower Seafood Restaurant", "addr_city": "Shelby", "item_comments": "MAYFLOWER SEAFOOD RESTAURANT", "activity_date": "09/04/2014", "county": "Cleveland", "facility_id": "023010879", "score": 97.0, "addr_line1": "1315 East Dixon Blvd"}}

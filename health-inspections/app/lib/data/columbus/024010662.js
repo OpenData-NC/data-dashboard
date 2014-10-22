@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dee Cafe'", "addr_city": "Riegelwood", "item_comments": "DEE CAFE\\'", "activity_date": "09/04/2014", "county": "Columbus", "facility_id": "024010662", "score": 93.0, "addr_line1": "865 John L. Riegel Rd."}}

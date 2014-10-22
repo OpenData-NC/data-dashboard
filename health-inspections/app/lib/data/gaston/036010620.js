@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sams Club Cafe #6414", "addr_city": "Gastonia", "item_comments": "SAMS CLUB CAFE #6414", "activity_date": "09/16/2014", "county": "Gaston", "facility_id": "036010620", "score": 98.0, "addr_line1": "3540 East Franklin Blvd"}}

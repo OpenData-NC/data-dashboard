@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #940", "addr_city": "Shelby", "item_comments": "BOJANGLES #940", "activity_date": "08/06/2014", "county": "Cleveland", "facility_id": "023010877", "score": 98.5, "addr_line1": "211 North Main Street"}}

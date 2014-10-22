@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Yum Yum", "addr_city": "Wilmington", "item_comments": ";;;;2-401.11", "activity_date": "05/29/2014", "county": "New Hanover", "facility_id": "065012323", "score": 97.0, "addr_line1": "603 Red Cross St"}}

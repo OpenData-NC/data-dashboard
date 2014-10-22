@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway 15345", "addr_city": "Harrisburg", "item_comments": ";;;;;;6-501.111; Core;  Fruit flies present.  Many in boxes of rotting tomatoes.;;;;;;", "activity_date": "08/25/2014", "county": "Cabarrus", "facility_id": "013011114", "score": 99.0, "addr_line1": "4252 Hwy 49 S"}}

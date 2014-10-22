@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Beach Shop  The", "addr_city": "Topsail Beach", "item_comments": "3 301.11 PREVENTING CONTAMINATION FROM HANDS   P,PF;3 305.11 FOOD STORAGE PREVENTING CONTAMINATION FROM THE PREMISES   C;", "activity_date": "08/05/2014", "county": "Pender", "facility_id": "071010305", "score": 97.5, "addr_line1": "701 South Anderson Blvd"}}

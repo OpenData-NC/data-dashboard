@@ -1,0 +1,1 @@
+{"results": [["Heritage Healthcare at Taylor Place", "468 Hwy 70 E", "Sea Level", "07/25/2014", 100.0, "016010957"]]}

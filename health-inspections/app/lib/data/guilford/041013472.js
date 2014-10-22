@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Butlers Catering", "addr_city": "Greensboro", "item_comments": "BUTLERS CATERING", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041013472", "score": 96.0, "addr_line1": "1811   Freeman Mill Rd"}}

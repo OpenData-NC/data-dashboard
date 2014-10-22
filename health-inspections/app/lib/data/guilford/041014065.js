@@ -1,0 +1,1 @@
+{"results": {"fac_name": "D'S Pool Bar & Grill", "addr_city": "High Point", "item_comments": "PERSON IN CHARGE MUST HAVE APPROVED FOOD SAFETY CERTIFICATION  SERVE SAFE;", "activity_date": "07/23/2014", "county": "Guilford", "facility_id": "041014065", "score": 100.0, "addr_line1": "2033 W Green Dr"}}

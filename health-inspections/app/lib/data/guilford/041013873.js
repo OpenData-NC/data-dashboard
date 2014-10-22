@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sarah's Kabob Shop", "addr_city": "Greensboro", "item_comments": "SARAH\\'S KABOB SHOP", "activity_date": "09/04/2014", "county": "Guilford", "facility_id": "041013873", "score": 99.0, "addr_line1": "5553 W. Market Street"}}

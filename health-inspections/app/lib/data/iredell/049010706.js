@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Salsarita's Fresh Cantina", "addr_city": "Mooresville", "item_comments": "6 501.114 MAINTAINING PREMISES, UNNECESSARY ITEMS AND LITTER   COBSERVED FOOD DEBRIS ON FLOOR BEHIND FRONT LINE EQUIPMENT.;", "activity_date": "06/26/2014", "county": "Iredell", "facility_id": "049010706", "score": 99.5, "addr_line1": "688a Bluefield Rd"}}

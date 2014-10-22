@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Camino Real Mexican Restaurant", "addr_city": "Richlands", "item_comments": "CAMINO REAL MEXICAN RESTAURANT", "activity_date": "09/24/2014", "county": "Onslow", "facility_id": "067010841", "score": 95.0, "addr_line1": "172 Kinston Hwy"}}

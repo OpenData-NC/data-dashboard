@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Griffins Food Store", "addr_city": "Red Oak", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE; REPEAT VIOLATION;NOT IN COMPLIANCE;NOT IN COMPLIANCE;", "activity_date": "06/11/2014", "county": "Nash", "facility_id": "064010057", "score": 97.0, "addr_line1": "8353 Red Oak Blvd"}}

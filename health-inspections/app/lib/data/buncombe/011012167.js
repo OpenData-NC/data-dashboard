@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zaxbys", "addr_city": "Weaverville", "item_comments": ";;;;;;;;4-601.11(B) and (C); Core; Clean ice shield inside main ice machine. Clean on top of ice machine in customer self-service area.;;;", "activity_date": "07/07/2014", "county": "Buncombe", "facility_id": "011012167", "score": 99.5, "addr_line1": "60 Weaver Blvd"}}

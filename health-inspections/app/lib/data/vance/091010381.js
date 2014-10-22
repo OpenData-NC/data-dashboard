@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dave's Bar & Grill", "addr_city": "Henderson", "item_comments": "DAVE\\'S BAR & GRILL", "activity_date": "09/05/2014", "county": "Vance", "facility_id": "091010381", "score": 93.5, "addr_line1": "197 Parham Raod"}}

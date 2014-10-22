@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway 47026", "addr_city": "Cherryville", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C  CERTIFIED FOOD PROTECTION MANAGER MUST BE PRESENT DURING INSPECTION.;", "activity_date": "07/23/2014", "county": "Gaston", "facility_id": "036011440", "score": 98.0, "addr_line1": "2502 Lincolnton Highway"}}

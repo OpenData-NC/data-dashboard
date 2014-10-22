@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hwy. 55 Snow Hill", "addr_city": "Snow Hill", "item_comments": "HWY. 55 SNOW HILL", "activity_date": "09/19/2014", "county": "Greene", "facility_id": "040010119", "score": 98.0, "addr_line1": "415-A Hwy. 13, South"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cook Out 27", "addr_city": "Mount Airy", "item_comments": "COOK OUT 27", "activity_date": "09/03/2014", "county": "Surry", "facility_id": "086010512", "score": 98.5, "addr_line1": "1988 Rockford Street"}}

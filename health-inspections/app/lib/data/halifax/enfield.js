@@ -1,0 +1,1 @@
+{"results": [["Vito's Italian Restaurant", "210 N. McDaniel Street", "Enfield", "09/23/2014", 97.0, "042010307"], ["Robbies Express Mart", "23970 Hwy 561", "Enfield", "08/15/2014", 87.0, "042010426"], ["Jackrabbit Grill", "3620 Ita Road", "Enfield", "06/13/2014", 98.0, "042010391"], ["Golden China Restaurant", "707 South McDaniel St", "Enfield", "05/19/2014", 90.5, "042010151"]]}

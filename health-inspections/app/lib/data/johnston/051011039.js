@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds #33546", "addr_city": "Garner", "item_comments": "MCDONALDS #33546", "activity_date": "09/03/2014", "county": "Johnston", "facility_id": "051011039", "score": 97.0, "addr_line1": "5141 Nc Hwy 42 W"}}

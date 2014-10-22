@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Holiday Inn Express", "addr_city": "Durham", "item_comments": "3 501.18 BOILED EGGS NEED TO BE MARKED WITH DATE OF PREPARATION.;", "activity_date": "07/07/2014", "county": "Durham", "facility_id": "032011654", "score": 98.5, "addr_line1": "4912 S Miami Blvd"}}

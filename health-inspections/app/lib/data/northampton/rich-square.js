@@ -1,0 +1,1 @@
+{"results": [["Sugarbunks", "408 N. Main Street", "Rich Square", "07/24/2014", 98.5, "066010173"], ["Duck Thru #7", "117 N. Main St", "Rich Square", "06/24/2014", 93.5, "066010144"], ["Claudine's Restaurant", "500 South Main Street", "Rich Square", "06/16/2014", 92.5, "066010002"], ["China King", "120 N. Main St", "Rich Square", "06/16/2014", 94.0, "066010132"]]}

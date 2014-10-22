@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King  766", "addr_city": "Greensboro", "item_comments": "FLOORS NEED CLEANING AROUND EQUIPMENT ESPECIALLY IN DRIVE THROUGH AREA;", "activity_date": "06/27/2014", "county": "Guilford", "facility_id": "041013808", "score": 99.0, "addr_line1": "3003 High Point Rd."}}

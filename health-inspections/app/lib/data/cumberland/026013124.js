@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dairy Queen", "addr_city": "Fayetteville", "item_comments": "DAIRY QUEEN", "activity_date": "08/27/2014", "county": "Cumberland", "facility_id": "026013124", "score": 98.5, "addr_line1": "430 Westwood Shopping Center"}}

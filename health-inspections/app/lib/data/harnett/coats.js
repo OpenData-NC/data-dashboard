@@ -1,0 +1,1 @@
+{"results": [["T Mart #10", "46 East Stewart St.", "Coats", "07/23/2014", 90.5, "043010597"], ["Hardees Coats", "459 N. McKinley St.", "Coats", "06/02/2014", 93.0, "043010086"], ["Rainbow King", "68 E Stewart St.", "Coats", "05/22/2014", 84.5, "043010642"]]}

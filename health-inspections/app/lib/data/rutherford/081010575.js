@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Forest City Baseball Concessions", "addr_city": "Forest City", "item_comments": "FOREST CITY BASEBALL CONCESSIONS", "activity_date": "08/04/2014", "county": "Rutherford", "facility_id": "081010575", "score": 95.0, "addr_line1": "214 McNair Dr."}}

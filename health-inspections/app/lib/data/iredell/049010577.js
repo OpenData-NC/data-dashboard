@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Friendly Family Restaurant", "addr_city": "Statesville", "item_comments": "FRIENDLY FAMILY RESTAURANT", "activity_date": "09/18/2014", "county": "Iredell", "facility_id": "049010577", "score": 93.0, "addr_line1": "1311 West Front Street"}}

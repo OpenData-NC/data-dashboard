@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Armc Kitchen", "addr_city": "Burlington", "item_comments": "3 501.15 COOLING METHODS. COOLING PASTA IN WALKIN COOLER TIGHTLY COVERED WITH PLASTIC WRAP. LOOSELY COVER WHILE COOLING. PASTA COOLING PROPERLY.;", "activity_date": "06/06/2014", "county": "Alamance", "facility_id": "001010365", "score": 100.0, "addr_line1": "1240 Huffman Mill Rd"}}

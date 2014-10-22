@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Roly Poly Sandwiches", "addr_city": "Fayetteville", "item_comments": "4 602.13  CLEAN FANGUARDS IN WIC;", "activity_date": "06/02/2014", "county": "Cumberland", "facility_id": "026013082", "score": 99.5, "addr_line1": "306 North McPherson Church Roa"}}

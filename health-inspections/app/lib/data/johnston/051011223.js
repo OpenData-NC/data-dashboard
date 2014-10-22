@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Historic Wagner House", "addr_city": "Clayton", "item_comments": "HISTORIC WAGNER HOUSE", "activity_date": "08/26/2014", "county": "Johnston", "facility_id": "051011223", "score": 96.5, "addr_line1": "121 East Main St"}}

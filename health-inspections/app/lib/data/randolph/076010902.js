@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kickback Jack's", "addr_city": "Asheboro", "item_comments": "KICKBACK JACK\\'S", "activity_date": "09/24/2014", "county": "Randolph", "facility_id": "076010902", "score": 98.0, "addr_line1": "1131 East Dixie Drive"}}

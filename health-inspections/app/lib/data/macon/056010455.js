@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway Walmart", "addr_city": "Franklin", "item_comments": "6 501.18 CLEANING OF PLUMBING FIXTURES   C  GENERAL COMMENT NO POINTS TAKEN  FIXTURES IN FAMILY RESTROOM NEED TO BE CLEANED.;", "activity_date": "07/15/2014", "county": "Macon", "facility_id": "056010455", "score": 100.0, "addr_line1": "883 Wells Grove Rd"}}

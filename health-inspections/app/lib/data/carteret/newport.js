@@ -1,0 +1,1 @@
+{"results": [["Fat Fellas Barbeque and Grill", "133 E. Chatham St", "Newport", "08/27/2014", 98.0, "016010883"], ["Time Out Tavern", "360 E Chatham St", "Newport", "08/21/2014", 100.0, "016010976"], ["Riverside Pizza & Subs", "6919 a Hwy 70 E", "Newport", "07/23/2014", 94.0, "016010738"], ["Bojangles #25", "7085 Highway 70", "Newport", "07/08/2014", 96.0, "016010581"]]}

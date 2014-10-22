@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Alexander's Events", "addr_city": "Greensboro", "item_comments": "COOLER DOORS NEED GASKETS REPLACED WHERE TORN;", "activity_date": "07/01/2014", "county": "Guilford", "facility_id": "041013785", "score": 99.0, "addr_line1": "2800-A High Point Road"}}

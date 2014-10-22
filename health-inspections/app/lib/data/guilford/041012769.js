@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ishikawa", "addr_city": "High Point", "item_comments": "ISHIKAWA", "activity_date": "09/12/2014", "county": "Guilford", "facility_id": "041012769", "score": 96.0, "addr_line1": "2620 S Main St"}}

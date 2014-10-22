@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Oasis of Monroe, Llc", "addr_city": "Monroe", "item_comments": "OASIS OF MONROE, LLC", "activity_date": "07/30/2014", "county": "Union", "facility_id": "090010764", "score": 100.0, "addr_line1": "116 S Main Street"}}

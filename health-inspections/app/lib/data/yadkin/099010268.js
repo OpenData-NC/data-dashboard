@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cuatro Angeles", "addr_city": "Hamptonville", "item_comments": "CUATRO ANGELES", "activity_date": "09/07/2014", "county": "Yadkin", "facility_id": "099010268", "score": 94.0, "addr_line1": "2892 Rocky Branch Rd."}}

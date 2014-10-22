@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Highway 55- G1", "addr_city": "Goldsboro", "item_comments": "Interior of ice machine was cleaned, but shield has grooves in it that do not allow for thorough cleaning.  If shield cannot be easily cleaned it should be replaced.;", "activity_date": "07/18/2014", "county": "Wayne", "facility_id": "096010637", "score": 0.0, "addr_line1": "400 N Spence Av"}}

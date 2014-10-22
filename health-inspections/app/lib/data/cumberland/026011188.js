@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Crown Coliseum Kitchen", "addr_city": "Fayetteville", "item_comments": "CROWN COLISEUM KITCHEN", "activity_date": "09/11/2014", "county": "Cumberland", "facility_id": "026011188", "score": 97.5, "addr_line1": "121 E Mountain Dr"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tysons Diner", "addr_city": "Lumberton", "item_comments": "THOROUGHLY CLEAN ALL NON FOOD CONTACT SURFACES.;PROPERLY STORE VEGETABLES IN REFRIGERATOR.;FLIES PRESENT.;", "activity_date": "06/02/2014", "county": "Robeson", "facility_id": "078010664", "score": 97.5, "addr_line1": "2303 N. Pine Street"}}

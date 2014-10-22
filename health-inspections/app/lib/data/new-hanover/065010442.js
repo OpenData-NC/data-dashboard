@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Delphina Dos", "addr_city": "Wilmington", "item_comments": "3-501.13", "activity_date": "05/20/2014", "county": "New Hanover", "facility_id": "065010442", "score": 97.5, "addr_line1": "5 Water St"}}

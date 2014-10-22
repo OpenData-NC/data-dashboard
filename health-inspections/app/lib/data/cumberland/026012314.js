@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fayetteville Swamp Dogs", "addr_city": "Fayetteville", "item_comments": "2 102.12 ANSI APPROVED FOOD PROTECTION MANAGER ON DUTY AS DISCUSSED;", "activity_date": "05/29/2014", "county": "Cumberland", "facility_id": "026012314", "score": 98.0, "addr_line1": "2823 Legion Road"}}

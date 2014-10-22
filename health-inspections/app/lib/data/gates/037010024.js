@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tarheel B-B-Q", "addr_city": "Eure", "item_comments": "CERTIFICATION BY ACCREDITED PROGRAM REQUIRED.;CLEAN KITCHEN FLOOR UNDER EQUIPMENT. CLEAN CEILING VENTS.;SEPTIC SYSTEM MALFUNCTIONING.;CLEAN OUTER SURFACES OF EQUIPMENT;", "activity_date": "06/26/2014", "county": "Gates", "facility_id": "037010024", "score": 95.0, "addr_line1": "009 U. S. 13s"}}

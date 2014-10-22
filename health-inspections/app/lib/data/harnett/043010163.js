@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Brass Lantern", "addr_city": "Dunn", "item_comments": "COPY OF YELLOW EHP PROVIDED.2 103.11  M  PERSON IN CHARGE DUTIES   PF;", "activity_date": "05/06/2014", "county": "Harnett", "facility_id": "043010163", "score": 100.0, "addr_line1": "Exit 72 I-95"}}

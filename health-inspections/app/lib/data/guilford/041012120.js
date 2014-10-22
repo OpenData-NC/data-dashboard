@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tokyo Express", "addr_city": "High Point", "item_comments": "TOKYO EXPRESS", "activity_date": "09/16/2014", "county": "Guilford", "facility_id": "041012120", "score": 99.0, "addr_line1": "123  Westchester Dr"}}

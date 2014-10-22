@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dallas Mini Mart", "addr_city": "Dallas", "item_comments": "DALLAS MINI MART", "activity_date": "08/29/2014", "county": "Gaston", "facility_id": "036011342", "score": 95.5, "addr_line1": "616 East Trade Street"}}

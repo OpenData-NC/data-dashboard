@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taqueria Mi Pueblo", "addr_city": "Durham", "item_comments": "TAQUERIA MI PUEBLO", "activity_date": "09/15/2014", "county": "Durham", "facility_id": "032010848", "score": 89.5, "addr_line1": "223 the Village"}}

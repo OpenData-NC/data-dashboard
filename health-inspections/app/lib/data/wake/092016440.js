@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Case Dining Hall", "addr_city": "Raleigh", "item_comments": "CASE DINING HALL", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092016440", "score": 98.0, "addr_line1": "240 Jeter Dr"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Wood Box Inc", "addr_city": "Boonville", "item_comments": "THE WOOD BOX INC", "activity_date": "09/03/2014", "county": "Yadkin", "facility_id": "099010366", "score": 97.0, "addr_line1": "108 S Carolina Avenue"}}

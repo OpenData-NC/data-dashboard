@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sheetz # 416", "addr_city": "Zebulon", "item_comments": "SHEETZ # 416", "activity_date": "07/03/2014", "county": "Wake", "facility_id": "092015287", "score": 99.0, "addr_line1": "1406 N. Arendell Ave"}}

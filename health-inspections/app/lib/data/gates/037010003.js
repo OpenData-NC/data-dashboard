@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Doris and Rogers", "addr_city": "Gates", "item_comments": "REPAIR CEILING BACK RROM OVER ENTRANCE TO LADIES REST ROOM;", "activity_date": "06/24/2014", "county": "Gates", "facility_id": "037010003", "score": 99.0, "addr_line1": "010 Reynoldson Rd"}}

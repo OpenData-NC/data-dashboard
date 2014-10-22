@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Whites", "addr_city": "Manns Harbor", "item_comments": "HAND SINK NEEDED AT FRONT COUNTER;NON NSF FREEZERS;HATS;", "activity_date": "06/23/2014", "county": "Dare", "facility_id": "028010171", "score": 94.5, "addr_line1": "7395 Hwy 64/264"}}

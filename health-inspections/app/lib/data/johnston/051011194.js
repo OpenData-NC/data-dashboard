@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendys # 1345", "addr_city": "Clayton", "item_comments": "WENDYS # 1345", "activity_date": "07/02/2014", "county": "Johnston", "facility_id": "051011194", "score": 98.0, "addr_line1": "10197 Us 70 Business West"}}

@@ -1,0 +1,1 @@
+{"results": [["John C Campbell Folk School", "1 Folk School Road", "Brasstown", "09/02/2014", 99.0, "020010064"]]}

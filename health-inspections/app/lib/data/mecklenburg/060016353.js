@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Drury Inn and Suites", "addr_city": "Charlotte", "item_comments": "DRURY INN AND SUITES", "activity_date": "09/05/2014", "county": "Mecklenburg", "facility_id": "060016353", "score": 97.5, "addr_line1": "6920 Northlake Mall Dr"}}

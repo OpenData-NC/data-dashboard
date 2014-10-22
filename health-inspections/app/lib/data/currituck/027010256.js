@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Giant Slice Pizza", "addr_city": "Corolla,nc", "item_comments": "THAW WINGS PROPERLY IN SINK;", "activity_date": "08/21/2014", "county": "Currituck", "facility_id": "027010256", "score": 99.5, "addr_line1": "785 Sunset Blvd"}}

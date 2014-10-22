@@ -1,0 +1,1 @@
+{"results": [["Lenny & Vc's Grill and Catering", "441 W Kornegay Street", "Dover", "08/27/2014", 90.0, "025010840"], ["New Way Food Mart", "108 Kornegay Street", "Dover", "08/27/2014", 92.5, "025010863"], ["Jones Grocery", "9390 Nc Hwy 55w", "Dover", "08/18/2014", 90.0, "025010625"]]}

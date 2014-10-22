@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Angelos Downtown Pizza", "addr_city": "Hayesville", "item_comments": "ANGELOS DOWNTOWN PIZZA", "activity_date": "09/11/2014", "county": "Clay", "facility_id": "022010039", "score": 95.5, "addr_line1": "45 Main Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China Wok", "addr_city": "Winterville", "item_comments": "CHINA WOK", "activity_date": "09/08/2014", "county": "Pitt", "facility_id": "074011107", "score": 91.5, "addr_line1": "711 Thomas Langston Road"}}

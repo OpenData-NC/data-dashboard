@@ -1,0 +1,1 @@
+{"results": [["Stem Minimart", "102 Tally Ho Rd", "Stem", "07/14/2014", 98.0, "039010289"]]}

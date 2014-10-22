@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Thai Room", "addr_city": "Kill Devil Hills", "item_comments": "KEEP DOOR TO BACK BATHROOM CLOSED;CLEAN FLR UNDER COOKLINE;PUT CARDBOARD IN RECYCLE DUMPSTER;", "activity_date": "05/14/2014", "county": "Dare", "facility_id": "028010152", "score": 97.5, "addr_line1": "710 S Virginia Dare Trail"}}

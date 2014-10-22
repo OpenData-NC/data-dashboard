@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jus Enuff Home Cookin", "addr_city": "Fuquay Varina", "item_comments": "JUS ENUFF HOME COOKIN", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092016432", "score": 96.0, "addr_line1": "736 N Main St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kabob Grill", "addr_city": "Charlotte", "item_comments": "KABOB GRILL", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060014253", "score": 98.5, "addr_line1": "1235 G East Blvd"}}

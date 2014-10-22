@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles/Lexington", "addr_city": "Lexington", "item_comments": "BOJANGLES/LEXINGTON", "activity_date": "08/29/2014", "county": "Davidson", "facility_id": "029010491", "score": 95.5, "addr_line1": "1040 South  Main Street"}}

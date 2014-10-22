@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Village Deli Andamp; Grill Lake Boone Tr", "addr_city": "Raleigh", "item_comments": "VILLAGE DELI ANDAMP; GRILL LAKE BOONE TR", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092016483", "score": 97.5, "addr_line1": "2500 Wycliff Rd"}}

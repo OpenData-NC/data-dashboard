@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King", "addr_city": "Lumberton", "item_comments": "THOROUGHLY CLEAN ALL NON FOOD CONTACT.;COMPLETELY AIR DRY ALL CONTAINERS.;", "activity_date": "06/10/2014", "county": "Robeson", "facility_id": "078010591", "score": 98.5, "addr_line1": "5017 Fayetteville Rd"}}

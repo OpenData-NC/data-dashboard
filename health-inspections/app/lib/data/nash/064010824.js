@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Smith's Restaurant and Deli", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE.  clean cooling unit in walk in.;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "08/19/2014", "county": "Nash", "facility_id": "064010824", "score": 99.5, "addr_line1": "3635 N. Halifax Rd."}}

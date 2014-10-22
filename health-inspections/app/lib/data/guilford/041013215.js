@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Olympic Family Restaurant #3", "addr_city": "Greensboro", "item_comments": "OLYMPIC FAMILY RESTAURANT #3", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041013215", "score": 97.5, "addr_line1": "8900 W Market St"}}

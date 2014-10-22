@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Athens Pizza", "addr_city": "Stallings", "item_comments": "ATHENS PIZZA", "activity_date": "07/22/2014", "county": "Union", "facility_id": "090010758", "score": 95.0, "addr_line1": "2920 a Old Monroe Road"}}

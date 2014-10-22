@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jakes Diner", "addr_city": "Greensboro", "item_comments": "JAKES DINER", "activity_date": "09/19/2014", "county": "Guilford", "facility_id": "041012005", "score": 96.5, "addr_line1": "4220 W Wendover Av"}}

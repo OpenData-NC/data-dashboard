@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Wreck", "addr_city": "Hatteras", "item_comments": "KEEP SALSA COLD DURING STORAGE;C LEAN TEA NOZZLES;", "activity_date": "08/12/2014", "county": "Dare", "facility_id": "028010834", "score": 98.0, "addr_line1": "58848 Nc 12 Hatteras Landing"}}

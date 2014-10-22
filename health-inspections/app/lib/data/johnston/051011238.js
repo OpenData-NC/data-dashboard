@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Starbucks Coffee", "addr_city": "Clayton", "item_comments": "STARBUCKS COFFEE", "activity_date": "07/16/2014", "county": "Johnston", "facility_id": "051011238", "score": 100.0, "addr_line1": "329 Pineville Blvd."}}

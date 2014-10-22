@@ -1,0 +1,1 @@
+{"results": {"fac_name": "First China", "addr_city": "Indian Trail", "item_comments": "FIRST CHINA", "activity_date": "08/18/2014", "county": "Union", "facility_id": "090010694", "score": 93.0, "addr_line1": "6640-F Old Monroe Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Holiday in Express Food Service", "addr_city": "Roanoke Rapids", "item_comments": "HOLIDAY IN EXPRESS FOOD SERVICE", "activity_date": "09/24/2014", "county": "Halifax", "facility_id": "042010375", "score": 95.0, "addr_line1": "74 Premier Blvd."}}

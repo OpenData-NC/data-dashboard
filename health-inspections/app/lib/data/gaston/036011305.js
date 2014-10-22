@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dunkin Doughnuts", "addr_city": "Gastonia", "item_comments": "DUNKIN DOUGHNUTS", "activity_date": "09/17/2014", "county": "Gaston", "facility_id": "036011305", "score": 98.5, "addr_line1": "2165 N. Chester Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pizza Hut Cherokee", "addr_city": "Whittier", "item_comments": "PIZZA HUT CHEROKEE", "activity_date": "09/23/2014", "county": "Jackson", "facility_id": "050010278", "score": 97.5, "addr_line1": "584 Casino Trail"}}

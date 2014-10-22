@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Shanghai Express", "addr_city": "Raleigh", "item_comments": "SHANGHAI EXPRESS", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092015569", "score": 96.5, "addr_line1": "2502 Hillsborough St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mamasita S", "addr_city": "Edenton", "item_comments": "DUMPSTER NEEDS TO BE SWITCHED OUT FOR A CLEAN DUMPSTER BOTH LIDS MUST BE ABLE TO CLOSE COMPLETELY.;", "activity_date": "08/18/2014", "county": "Chowan", "facility_id": "021010063", "score": 100.0, "addr_line1": "1316 N Broad St"}}

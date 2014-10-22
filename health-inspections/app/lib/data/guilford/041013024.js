@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sonic Drive in #3490", "addr_city": "High Point", "item_comments": "SONIC DRIVE IN #3490", "activity_date": "09/05/2014", "county": "Guilford", "facility_id": "041013024", "score": 96.5, "addr_line1": "112 E Parris Av"}}

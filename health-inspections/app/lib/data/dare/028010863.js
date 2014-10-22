@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Outer Bean Juice and Java", "addr_city": "Kitty Hawk", "item_comments": "COLD HOLD ON GLASS DOOR;", "activity_date": "06/09/2014", "county": "Dare", "facility_id": "028010863", "score": 98.5, "addr_line1": "3701 N Croatan Hwy"}}

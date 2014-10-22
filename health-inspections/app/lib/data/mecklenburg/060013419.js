@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waldhorn Restaurant", "addr_city": "Pineville", "item_comments": "WALDHORN RESTAURANT", "activity_date": "09/19/2014", "county": "Mecklenburg", "facility_id": "060013419", "score": 95.0, "addr_line1": "12101 Lancaster Highway"}}

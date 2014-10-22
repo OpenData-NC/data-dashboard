@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Barnes and Noble   #2631", "addr_city": "Durham", "item_comments": "BARNES AND NOBLE   #2631", "activity_date": "09/16/2014", "county": "Durham", "facility_id": "032010721", "score": 99.5, "addr_line1": "5400 New Hope Commons Drive"}}

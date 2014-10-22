@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lafiesta Mexican Restaurant", "addr_city": "Greenville", "item_comments": "LAFIESTA MEXICAN RESTAURANT", "activity_date": "09/08/2014", "county": "Pitt", "facility_id": "074011420", "score": 94.0, "addr_line1": "4420 East 10 Street Unit 126"}}

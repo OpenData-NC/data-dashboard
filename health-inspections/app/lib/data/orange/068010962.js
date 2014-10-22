@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Joe's Joint", "addr_city": "Chapel Hill", "item_comments": "JOE\\'S JOINT", "activity_date": "09/17/2014", "county": "Orange", "facility_id": "068010962", "score": 97.0, "addr_line1": "161 and a Half E Franklin Stre"}}

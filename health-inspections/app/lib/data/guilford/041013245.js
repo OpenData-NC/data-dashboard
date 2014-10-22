@@ -1,0 +1,1 @@
+{"results": {"fac_name": "San Luis Ii", "addr_city": "Greensboro", "item_comments": "SAN LUIS II", "activity_date": "09/17/2014", "county": "Guilford", "facility_id": "041013245", "score": 97.0, "addr_line1": "4207   High Point Rd"}}

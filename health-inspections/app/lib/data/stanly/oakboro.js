@@ -1,0 +1,1 @@
+{"results": [["Los Jacubes Family Mexican Restaurant", "213 N Main St", "Oakboro", "08/27/2014", 99.0, "084010450"], ["Wayside Restaurant  2", "606 North Main St", "Oakboro", "08/13/2014", 93.5, "084010129"], ["Subway - Oakboro", "220 Alonzo Rd", "Oakboro", "06/19/2014", 95.0, "084010501"], ["Oakboro Restaurant", "1128 North Main", "Oakboro", "05/20/2014", 93.5, "084010147"]]}

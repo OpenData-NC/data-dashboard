@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mojo's on the Harbor", "addr_city": "Bald Head Island", "item_comments": "CLEAN UNDER THE CUTTING BOARDS ON THE SAUTE STATION, AND REFINISH/CLEAN THE STAND TABLE.4 602.13 NONFOOD CONTACT SURFACES   C;", "activity_date": "08/26/2014", "county": "Brunswick", "facility_id": "010010965", "score": 99.5, "addr_line1": "8 Marina Wynd"}}

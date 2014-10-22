@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Plaza Cafe", "addr_city": "High Point", "item_comments": "IN PROCESS OF GETTING APPROVED FOOD SAFETY CERTIFICATION;OLDER FACILITY WITH DETERIATING CONSTRUCTION;", "activity_date": "05/14/2014", "county": "Guilford", "facility_id": "041010533", "score": 99.5, "addr_line1": "336 S Main St"}}

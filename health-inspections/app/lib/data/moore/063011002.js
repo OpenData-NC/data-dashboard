@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Susa Hibachi Grill", "addr_city": "Carthage", "item_comments": "SUSA HIBACHI GRILL", "activity_date": "08/21/2014", "county": "Moore", "facility_id": "063011002", "score": 98.5, "addr_line1": "105 McReynolds St"}}

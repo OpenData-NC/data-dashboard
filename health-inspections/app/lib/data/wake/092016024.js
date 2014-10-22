@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waba", "addr_city": "Raleigh", "item_comments": "WABA", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092016024", "score": 91.0, "addr_line1": "2502 1/2 Hillsborough  St"}}

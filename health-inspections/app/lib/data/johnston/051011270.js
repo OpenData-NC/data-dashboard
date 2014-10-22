@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taco Rico", "addr_city": "Selma", "item_comments": "TACO RICO", "activity_date": "07/16/2014", "county": "Johnston", "facility_id": "051011270", "score": 97.0, "addr_line1": "302 S. Pollock St."}}

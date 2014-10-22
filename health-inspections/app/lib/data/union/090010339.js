@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Great China", "addr_city": "Wingate", "item_comments": "GREAT CHINA", "activity_date": "08/19/2014", "county": "Union", "facility_id": "090010339", "score": 99.5, "addr_line1": "3820 B Hwy 74 W"}}

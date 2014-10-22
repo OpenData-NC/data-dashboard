@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lighthouse Cafe", "addr_city": "Wilmington", "item_comments": ";;3-202.15", "activity_date": "05/30/2014", "county": "New Hanover", "facility_id": "065011822", "score": 96.5, "addr_line1": "2131 S 17th St"}}

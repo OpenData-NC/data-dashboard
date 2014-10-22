@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Duvall's Restaurant", "addr_city": "Waynesville", "item_comments": "DUVALL\\'S RESTAURANT", "activity_date": "09/15/2014", "county": "Haywood", "facility_id": "044010029", "score": 90.0, "addr_line1": "783 North Main St."}}

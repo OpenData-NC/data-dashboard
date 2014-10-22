@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tasteful Beans Coffee House and Gallery", "addr_city": "Hickory", "item_comments": "5 501.16 STORAGE AREAS, ROOMS AND RECEPTACLES, CAPACITY AND AVAILABILITY   CNO FLOOR STORAGE PLEASECLEAN STORAGE AREAS BACK;", "activity_date": "06/27/2014", "county": "Catawba", "facility_id": "018011303", "score": 99.0, "addr_line1": "29 2nd St Nw"}}

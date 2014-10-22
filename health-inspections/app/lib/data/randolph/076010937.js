@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jeri's Diner", "addr_city": "Asheboro", "item_comments": "JERI\\'S DINER", "activity_date": "09/11/2014", "county": "Randolph", "facility_id": "076010937", "score": 95.0, "addr_line1": "177 G Hwy 42"}}

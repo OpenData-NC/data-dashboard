@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ruths Chris Steakhouse", "addr_city": "Wilmington", "item_comments": "4-903.11", "activity_date": "06/03/2014", "county": "New Hanover", "facility_id": "065011801", "score": 98.0, "addr_line1": "301 N Water St"}}

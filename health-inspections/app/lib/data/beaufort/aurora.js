@@ -1,0 +1,1 @@
+{"results": [["Wayside Restaurant", "980 Hwy 33 and 306", "Aurora", "09/11/2014", 94.5, "007010323"], ["Terry's Convenient Store", "351 Nc Hwy 33 E", "Aurora", "08/11/2014", 93.5, "007010350"], ["Phos Rock Cafe", "1530  Nc Hwy 306 South", "Aurora", "06/18/2014", 92.5, "007010365"], ["Aurora Mini Mart", "391 Nc Hwy 33 E", "Aurora", "06/10/2014", 94.5, "007010290"]]}

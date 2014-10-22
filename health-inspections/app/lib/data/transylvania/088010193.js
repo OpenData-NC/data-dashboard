@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Connestee Falls Clubhouse Gril", "addr_city": "Brevard", "item_comments": "CONNESTEE FALLS CLUBHOUSE GRIL", "activity_date": "09/08/2014", "county": "Transylvania", "facility_id": "088010193", "score": 95.5, "addr_line1": "33 Connestee Trail"}}

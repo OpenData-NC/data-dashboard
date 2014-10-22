@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cook Out", "addr_city": "Durham", "item_comments": "COOK OUT", "activity_date": "09/15/2014", "county": "Durham", "facility_id": "032012340", "score": 99.0, "addr_line1": "3119 Shannon Road"}}

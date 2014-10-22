@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Beach Bagels", "addr_city": "Wilmington", "item_comments": "3-305.11", "activity_date": "06/03/2014", "county": "New Hanover", "facility_id": "065012195", "score": 96.0, "addr_line1": "7220 Wrightsville Ave"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cracker Barrel  #663", "addr_city": "Matthews", "item_comments": "CRACKER BARREL  #663", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060016320", "score": 94.0, "addr_line1": "9330 E Independence Blvd"}}

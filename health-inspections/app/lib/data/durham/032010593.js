@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Dorado's #6", "addr_city": "Durham", "item_comments": "6 202.11 LIGHT MUST HAVE SHIELD INTHE KITCHEN AREA.;4 901.11 ALL UTENSILS MUST BE AIR DRIED.;6 501.111 FLIES PRESENT IN THE KITCHEN AREA.;", "activity_date": "07/25/2014", "county": "Durham", "facility_id": "032010593", "score": 98.0, "addr_line1": "4900 Hwy 55"}}

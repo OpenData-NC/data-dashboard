@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Peace N Hominy Q Shack", "addr_city": "Belmont", "item_comments": "PEACE N HOMINY Q SHACK", "activity_date": "09/17/2014", "county": "Gaston", "facility_id": "036011540", "score": 98.5, "addr_line1": "403 East Catawba Street"}}

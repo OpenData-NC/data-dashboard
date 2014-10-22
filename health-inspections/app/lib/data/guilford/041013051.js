@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hooters of High Point", "addr_city": "High Point", "item_comments": "HOOTERS OF HIGH POINT", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041013051", "score": 97.5, "addr_line1": "274  Eastchester Dr"}}

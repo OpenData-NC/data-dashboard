@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ingles Salad Bar  118", "addr_city": "Shelby", "item_comments": "INGLES SALAD BAR  118", "activity_date": "08/27/2014", "county": "Cleveland", "facility_id": "023010473", "score": 95.0, "addr_line1": "1305 Fallston Rd"}}

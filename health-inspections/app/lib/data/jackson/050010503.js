@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger Studio", "addr_city": "Cullowhee", "item_comments": "BURGER STUDIO", "activity_date": "09/10/2014", "county": "Jackson", "facility_id": "050010503", "score": 98.5, "addr_line1": "160 West University Way"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Queen's Soul Food", "addr_city": "Charlotte", "item_comments": "QUEEN\\'S SOUL FOOD", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060011052", "score": 93.0, "addr_line1": "7308-D E Independence Blvd"}}

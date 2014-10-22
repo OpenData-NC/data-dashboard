@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Court Street Grille", "addr_city": "Hickory", "item_comments": "4 501.11 GOOD REPAIR AND PROPER ADJUSTMENT EQUIPMENT   REPAIR BACK DOUBLE DOOR REFRIGERATION;", "activity_date": "06/11/2014", "county": "Catawba", "facility_id": "018011247", "score": 99.0, "addr_line1": "2950 Hwy 127 S"}}

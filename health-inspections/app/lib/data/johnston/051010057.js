@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Grocery Bag", "addr_city": "Clayton", "item_comments": "GROCERY BAG", "activity_date": "08/15/2014", "county": "Johnston", "facility_id": "051010057", "score": 100.0, "addr_line1": "4879-A Nc 42 East"}}

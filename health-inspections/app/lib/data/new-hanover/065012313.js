@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jax 5th Ave Deli", "addr_city": "Wilmington", "item_comments": ";3-304.14", "activity_date": "05/01/2014", "county": "New Hanover", "facility_id": "065012313", "score": 99.0, "addr_line1": "5046 New Centre Drive"}}

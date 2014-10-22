@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Piggly Wiggly #3 Deli", "addr_city": "Zebulon", "item_comments": "PIGGLY WIGGLY #3 DELI", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092015897", "score": 96.5, "addr_line1": "507 W Gannon Ave"}}

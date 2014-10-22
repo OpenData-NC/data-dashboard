@@ -1,0 +1,1 @@
+{"results": [["Duffers Restaurant and Lounge", "928 Caswell Beach Road", "Caswell Beach", "05/29/2014", 95.0, "010010184"], ["Nc Baptist Assembly Conf Ctr", "100 Caswell Beach Road", "Caswell Beach", "05/19/2014", 98.0, "010010082"]]}

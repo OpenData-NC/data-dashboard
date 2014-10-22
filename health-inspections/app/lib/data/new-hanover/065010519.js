@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Nhrmc Food & Nutrition Mgt Dept", "addr_city": "Wilmington", "item_comments": ";;4-901.11   Equipment and Utensils, Air-Drying Required.  JUICE CUPS ON TRAY LINE STACKED WET. ALLOW TO AIR DRY.;;3-501.19", "activity_date": "06/06/2014", "county": "New Hanover", "facility_id": "065010519", "score": 96.5, "addr_line1": "2131 S 17th St"}}

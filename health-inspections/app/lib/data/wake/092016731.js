@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tasty 8s", "addr_city": "Raleigh", "item_comments": "TASTY 8S", "activity_date": "08/29/2014", "county": "Wake", "facility_id": "092016731", "score": 97.0, "addr_line1": "121 Fayetteville Street"}}

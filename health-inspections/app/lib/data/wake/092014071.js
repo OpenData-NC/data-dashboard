@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wangs Kitchen", "addr_city": "Raleigh", "item_comments": "WANGS KITCHEN", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092014071", "score": 93.5, "addr_line1": "1030 109 N Rogers Ln"}}

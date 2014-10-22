@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Laniers Campground", "addr_city": "Holly Ridge", "item_comments": "/6 202.14 TOILET ROOMS, ENCLOSED   C;4 903.11  A  AND  C  EQUIPMENT, UTENSILS, LINENS AND SINGLE SERVICE AND SINGLE USE ARTICLES STORING   C;", "activity_date": "05/02/2014", "county": "Pender", "facility_id": "071010260", "score": 99.0, "addr_line1": "1161 Spot Lane"}}

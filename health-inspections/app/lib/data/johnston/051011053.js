@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Applebees", "addr_city": "Garner", "item_comments": "APPLEBEES", "activity_date": "08/20/2014", "county": "Johnston", "facility_id": "051011053", "score": 96.0, "addr_line1": "5158 Nc 42w"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cafe Le Rouge", "addr_city": "Waynesville", "item_comments": "CAFE LE ROUGE", "activity_date": "09/24/2014", "county": "Haywood", "facility_id": "044010713", "score": 96.0, "addr_line1": "180 North Main St"}}

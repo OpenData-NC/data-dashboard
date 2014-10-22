@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Uncw-Burney Center Catering Facilit", "addr_city": "Wilmington", "item_comments": ";;;3-202.11", "activity_date": "05/07/2014", "county": "New Hanover", "facility_id": "065011762", "score": 97.0, "addr_line1": "601 S College Rd"}}

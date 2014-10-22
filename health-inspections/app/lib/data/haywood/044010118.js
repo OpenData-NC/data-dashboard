@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Snappy's Italian Restaurant", "addr_city": "Maggie Valley", "item_comments": "SNAPPY\\'S ITALIAN RESTAURANT", "activity_date": "09/19/2014", "county": "Haywood", "facility_id": "044010118", "score": 96.5, "addr_line1": "2769 Soco Rd."}}

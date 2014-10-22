@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sal's Pizza", "addr_city": "Durham", "item_comments": "SAL\\'S PIZZA", "activity_date": "09/08/2014", "county": "Durham", "facility_id": "032011940", "score": 95.0, "addr_line1": "2103 Allendown Drive"}}

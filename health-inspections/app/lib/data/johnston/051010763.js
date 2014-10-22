@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Seafood Station", "addr_city": "Kenly", "item_comments": "SEAFOOD STATION", "activity_date": "07/25/2014", "county": "Johnston", "facility_id": "051010763", "score": 95.5, "addr_line1": "100 Church Street"}}

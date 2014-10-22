@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Nicklaus Club House - Landfall", "addr_city": "Wilmington", "item_comments": ";4-602.13", "activity_date": "06/10/2014", "county": "New Hanover", "facility_id": "065011389", "score": 99.0, "addr_line1": "800 Sun Runner Pl"}}

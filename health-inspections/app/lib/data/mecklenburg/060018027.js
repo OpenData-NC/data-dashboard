@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hacienda Mexican Grill", "addr_city": "Charlotte", "item_comments": "HACIENDA MEXICAN GRILL", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060018027", "score": 98.0, "addr_line1": "5933 Albemarle Rd"}}

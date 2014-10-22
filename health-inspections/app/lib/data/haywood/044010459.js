@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Pobre", "addr_city": "Canton", "item_comments": "EL POBRE", "activity_date": "09/18/2014", "county": "Haywood", "facility_id": "044010459", "score": 95.5, "addr_line1": "6841 Cruso Road"}}

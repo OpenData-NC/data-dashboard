@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cobblestone Cafe", "addr_city": "Wilmington", "item_comments": ";;;4-601.11", "activity_date": "05/13/2014", "county": "New Hanover", "facility_id": "065012249", "score": 98.0, "addr_line1": "225 S Water St Ste 109"}}

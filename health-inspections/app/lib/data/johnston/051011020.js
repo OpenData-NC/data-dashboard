@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #40", "addr_city": "Benson", "item_comments": "BOJANGLES #40", "activity_date": "08/01/2014", "county": "Johnston", "facility_id": "051011020", "score": 98.5, "addr_line1": "12355 Nc Hwy 210"}}

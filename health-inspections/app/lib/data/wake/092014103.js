@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Red Robin International", "addr_city": "Raleigh", "item_comments": "RED ROBIN INTERNATIONAL", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092014103", "score": 94.5, "addr_line1": "7860 Alexander Promanade Pl"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendy's 37", "addr_city": "Gastonia", "item_comments": "WENDY\\'S 37", "activity_date": "09/09/2014", "county": "Gaston", "facility_id": "036010518", "score": 96.5, "addr_line1": "2216 Union Rd"}}

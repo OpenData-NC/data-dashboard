@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Salsarita's Fresh Cantina #115", "addr_city": "Charlotte", "item_comments": "SALSARITA\\'S FRESH CANTINA #115", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060017621", "score": 96.0, "addr_line1": "9941 Rea Rd"}}

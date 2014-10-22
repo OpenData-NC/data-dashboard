@@ -1,0 +1,1 @@
+{"results": [["China Garden", "112 E Old Hwy 74-76", "Lake Waccamaw", "08/21/2014", 92.5, "024010424"], ["Lake Cove Grill", "104-B Top Tobacco Rd", "Lake Waccamaw", "07/23/2014", 97.0, "024010649"], ["Dales Seafood", "100 Canal Cove Rd", "Lake Waccamaw", "07/21/2014", 92.5, "024010193"], ["Subway #52502", "8631 Sam Potts Hwy", "Lake Waccamaw", "07/21/2014", 97.5, "024010619"]]}

@@ -1,0 +1,1 @@
+{"results": [["Subway 34912 @ Superwalmart", "4601 Ramsey St.", "Fay", "06/13/2014", 98.0, "026012777"]]}

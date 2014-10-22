@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Prospector Cafeteria, The", "addr_city": "Charlotte", "item_comments": "PROSPECTOR CAFETERIA, THE", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060014595", "score": 94.5, "addr_line1": "9201 University City Bv"}}

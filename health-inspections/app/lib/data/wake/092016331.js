@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #55675", "addr_city": "Raleigh", "item_comments": "SUBWAY #55675", "activity_date": "08/21/2014", "county": "Wake", "facility_id": "092016331", "score": 96.0, "addr_line1": "234 Fayetteville  St"}}

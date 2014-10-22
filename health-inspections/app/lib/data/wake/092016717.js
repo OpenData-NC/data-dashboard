@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Red Lobster #0598", "addr_city": "Cary", "item_comments": "RED LOBSTER #0598", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092016717", "score": 98.5, "addr_line1": "1805 Walnut St"}}

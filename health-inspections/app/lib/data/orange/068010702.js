@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Panciuto", "addr_city": "Hillsborough", "item_comments": "DUMPSTERS ARE TO BE PLACED ON A NON ABSORBENT SURFACES;", "activity_date": "06/18/2014", "county": "Orange", "facility_id": "068010702", "score": 100.0, "addr_line1": "110 South Churton Street"}}

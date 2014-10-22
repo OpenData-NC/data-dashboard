@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Asian Wok", "addr_city": "Greensboro", "item_comments": "ASIAN WOK", "activity_date": "09/18/2014", "county": "Guilford", "facility_id": "041013212", "score": 96.0, "addr_line1": "6310-B  Old Oak Ridge Rd"}}

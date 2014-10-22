@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Kings Mtn", "item_comments": "SUBWAY", "activity_date": "08/13/2014", "county": "Cleveland", "facility_id": "023010284", "score": 98.0, "addr_line1": "105 York Rd"}}

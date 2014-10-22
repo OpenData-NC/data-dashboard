@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dirty Dicks", "addr_city": "Nags Head", "item_comments": "DUMPSTER LIDS;", "activity_date": "06/05/2014", "county": "Dare", "facility_id": "028010727", "score": 99.0, "addr_line1": "2074 So Croatan Hyw"}}

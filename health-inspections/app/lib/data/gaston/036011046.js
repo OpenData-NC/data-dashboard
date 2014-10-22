@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sammy S Neighborhood Pub", "addr_city": "Belmont", "item_comments": "SAMMY S NEIGHBORHOOD PUB", "activity_date": "09/19/2014", "county": "Gaston", "facility_id": "036011046", "score": 98.0, "addr_line1": "25 South Main St"}}

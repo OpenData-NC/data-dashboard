@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendys  9758", "addr_city": "Raleigh", "item_comments": "WENDYS  9758", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092014214", "score": 100.0, "addr_line1": "8000 Pooler Rd"}}

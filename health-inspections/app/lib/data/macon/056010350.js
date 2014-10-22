@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardee S", "addr_city": "Franklin", "item_comments": "HARDEE S", "activity_date": "09/09/2014", "county": "Macon", "facility_id": "056010350", "score": 97.5, "addr_line1": "710 East Main Street"}}

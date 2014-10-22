@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #14", "addr_city": "Fuquay", "item_comments": "BOJANGLES #14", "activity_date": "07/25/2014", "county": "Wake", "facility_id": "092011132", "score": 95.0, "addr_line1": "1400 N Main St"}}

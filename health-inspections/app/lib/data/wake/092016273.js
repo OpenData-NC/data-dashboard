@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kumbala Bar and Grill", "addr_city": "Raleigh", "item_comments": "KUMBALA BAR AND GRILL", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092016273", "score": 87.0, "addr_line1": "3945 New Bern  Ave"}}

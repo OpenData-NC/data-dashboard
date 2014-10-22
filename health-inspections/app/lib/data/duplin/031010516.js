@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sabor Latino", "addr_city": "Rose Hill", "item_comments": "SABOR LATINO", "activity_date": "08/27/2014", "county": "Duplin", "facility_id": "031010516", "score": 93.5, "addr_line1": "323 Sycamore St"}}

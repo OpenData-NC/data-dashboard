@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King 756", "addr_city": "Raleigh", "item_comments": "BURGER KING 756", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092011809", "score": 93.0, "addr_line1": "310 Six Forks Rd"}}

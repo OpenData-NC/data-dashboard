@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kfc #112", "addr_city": "Cary", "item_comments": "KFC #112", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092014553", "score": 94.0, "addr_line1": "1011 Harrison Ave"}}

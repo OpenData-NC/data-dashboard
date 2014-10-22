@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees Skat Thru  1832", "addr_city": "Raleigh", "item_comments": "HARDEES SKAT THRU  1832", "activity_date": "07/02/2014", "county": "Wake", "facility_id": "092010674", "score": 92.0, "addr_line1": "8000 Fayetteville Rd"}}

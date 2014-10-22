@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Food Court", "addr_city": "Whittier", "item_comments": "THE FOOD COURT", "activity_date": "09/05/2014", "county": "Jackson", "facility_id": "050010407", "score": 99.5, "addr_line1": "5427 Hwy 74 W"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Crabbies Restaurant", "addr_city": "Coinjock", "item_comments": "NEED TO SUMIT PAPERWORK FOR SEPTIC SYSTEM;", "activity_date": "06/26/2014", "county": "Currituck", "facility_id": "027010147", "score": 99.0, "addr_line1": "159 Coinjock Development"}}

@@ -1,0 +1,1 @@
+{"results": [["Griffins Food Store", "8353 Red Oak Blvd", "Red Oak", "06/11/2014", 97.0, "064010057"]]}

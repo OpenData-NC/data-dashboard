@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Corner Cafe 2 @ Siemens", "addr_city": "Charlotte", "item_comments": "6 303.11 INTENSITY LIGHTINGOBSERVED BLOWN LIGHTBULB UNDERNEATH KITCHEN HOOD. REPAIR ORDER MADE TO BLDG MAINTENANCE WHILE I WAS ONSITE.;", "activity_date": "09/02/2014", "county": "Mecklenburg", "facility_id": "060017272", "score": 99.5, "addr_line1": "5101 Westinghouse Blvd"}}

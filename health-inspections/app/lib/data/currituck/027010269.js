@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Dolce Vita Italian Restaurant", "addr_city": "Corolla", "item_comments": "STORE EXCESS BOXES OFF FLOOR IN BAKERY SECTION;", "activity_date": "07/16/2014", "county": "Currituck", "facility_id": "027010269", "score": 99.5, "addr_line1": "798-C Sunset  Blvd"}}

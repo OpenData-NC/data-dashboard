@@ -1,0 +1,1 @@
+{"results": [["Roys Family Restaurant", "808 D St", "Bridgeton", "08/11/2014", 96.0, "025010709"], ["George's Pizza & Italian Cafe", "505 a Highway 17 North", "Bridgeton", "08/08/2014", 90.0, "025010928"]]}

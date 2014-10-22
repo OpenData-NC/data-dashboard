@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kroger Deli 305", "addr_city": "Raleigh", "item_comments": "KROGER DELI 305", "activity_date": "08/04/2014", "county": "Wake", "facility_id": "092010426", "score": 95.5, "addr_line1": "6300-150 Creedmoor Rd"}}

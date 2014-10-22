@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Flame Event Center", "addr_city": "New Bern", "item_comments": "FLAME EVENT CENTER", "activity_date": "09/11/2014", "county": "Craven", "facility_id": "025010747", "score": 96.5, "addr_line1": "2301 Neuse Blvd"}}

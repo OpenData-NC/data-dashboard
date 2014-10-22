@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zio", "addr_city": "Charlotte", "item_comments": "ZIO", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060015273", "score": 93.5, "addr_line1": "116 Middleton Drive"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Independence Place", "addr_city": "Charlotte", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C. OBSERVED NO SERVSAFE OR EQUIVALENT. CDI BY INSTRUCTION.;", "activity_date": "07/23/2014", "county": "Mecklenburg", "facility_id": "060017457", "score": 98.0, "addr_line1": "3501 E Independence Blvd"}}

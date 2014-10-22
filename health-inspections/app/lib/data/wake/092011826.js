@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taco Bell  75", "addr_city": "Raleigh", "item_comments": "TACO BELL  75", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092011826", "score": 96.5, "addr_line1": "3224 S Wilmington St"}}
