@@ -16,6 +16,11 @@ def find_min_date(agency):
         sql = 'select min(date_occurred) from arrests where agency = "' + agency + '" and date_occurred > "00-00-00"'
         cursor.execute(sql)
         min_date = cursor.fetchone()[0]
+    if agency == 'Huntersville Police Department':
+        sql = 'select min(date_occurred) from citations where agency = "' + agency + '" and date_occurred > "00-00-00"'
+        cursor.execute(sql)
+        min_date = cursor.fetchone()[0]
+
     cursor.close()
     return min_date
 
