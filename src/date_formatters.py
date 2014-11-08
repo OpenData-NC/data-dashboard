@@ -36,6 +36,8 @@ def make_dates(agency, howfar=0):
             date = (min_date - datetime.timedelta(days=howfar)).strftime('%m/%d/%Y')
             dates.append(date)
             howfar -= 1
+    print agency
+    print dates
     return dates
 
 
@@ -55,6 +57,8 @@ def make_date_ranges(agency, howfar = 0):
         if min_date:
             date_ranges.append(find_range(howfar,min_date))
         howfar -= 1
+    print agency
+    print date_ranges
     return date_ranges
 
 	

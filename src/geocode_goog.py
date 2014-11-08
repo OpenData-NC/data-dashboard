@@ -60,7 +60,7 @@ def geocode(row, bbox, data_table):
         update = (address_tuple[0], address_tuple[1], address_tuple[4],geometry_tuple[0], geometry_tuple[1])
         update_record(data_table, update, row)
 #county, agency, address, street_address, full_address, city, zip, lat, lon, geocoder, geocoder_score
-        geocode_add = (row[2],row[1],row[3],address_tuple[0], formatted_address, address_tuple[1],address_tuple[4]) + geometry_tuple
+        geocode_add = (row[2],row[1], MySQLdb.escape_string(row[3]),address_tuple[0], formatted_address, address_tuple[1],address_tuple[4]) + geometry_tuple
         add_address(geocode_add)
 #        sql_tuple = row +  + (formatted_address,) +
     else:
@@ -145,7 +145,7 @@ def add_address(data):
 def already_geocoded(data_table, row):
     agency = row[1]
     county = row[2]
-    original_address = row[3]
+    original_address = MySQLdb.escape_string(row[3])
     sql = 'select standardized_address, city, zip, lat, lon from geocoded_addresses where agency = "%s" and county = "%s" and original_address = "%s"' \
         % (agency, county, original_address)
     cursor.execute(sql)

@@ -361,6 +361,7 @@ def log_pdf_scrape_issue(this_id_and_type):
 def pass_disclaimer(url):
 #    print "Passing disclaimer"
     page = s.get(url)
+
     if page.url != url:
         disclaimer_url = page.url
         soup = BeautifulSoup(page.text)
