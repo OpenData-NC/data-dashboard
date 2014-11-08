@@ -144,7 +144,8 @@ def find_records(soup, community, agency, county, url):
         has_gif = record_fields[5].find('a').find('div')
         if has_gif is None:
             #there's no pdf
-            return ''
+            #return ''
+            data['pdf'] = ''
         else:
             data['pdf'] = dl_pdf(record_fields[5].find('a')['href'].strip().split("'")[1], id_and_type,
                                     agency, v_e, url)  # pdf stuff
