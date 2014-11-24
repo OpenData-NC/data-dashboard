@@ -109,7 +109,10 @@ def make_address_tuple(address_components):
         if 'administrative_area_level_1' in component['types']:
             state = component['short_name']
         if 'postal_code' in component['types']:
-            zip = int(component['short_name'])
+            try:
+                zip = int(component['short_name'])
+            except:
+                return False
     if zip == '':
         return False
     if street_number != '':
