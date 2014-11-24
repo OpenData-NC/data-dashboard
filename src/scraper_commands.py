@@ -46,10 +46,10 @@ def check_data(data):
 #this takes our final collection of data, going through each data type to create a file name (e.g., arrest.txt)
 #and printing out all of that data into the file. so we end up with a tab-delimited file for each record type.
 #later we'll take these files and insert them into their tables.
-def print_files(data,data_dir):
+def print_files(data,data_dir, site=''):
     for record_type, records in data.iteritems():
         holder = ''
-        data_file = data_dir + '/' + record_type + '.txt'
+        data_file = data_dir + '/' + site + record_type + '.txt'
         for record in records:
             holder = holder + record + "\n"
         with open(data_file, 'w') as f:
