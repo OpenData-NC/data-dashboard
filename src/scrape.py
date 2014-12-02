@@ -15,7 +15,7 @@ commands_url = \
 def main():
     sites_to_scrape = scraper_commands.fetch_commands(commands_url)
     #pick out site we want as index from list of sites
-    site_wanted = sites_to_scrape( int(sys.argv[1]) )    
+    site = sites_to_scrape[int(sys.argv[1])]
     #variables we'll use in our scraping and data format
     county = site['County']
     url = site['URL']
@@ -38,9 +38,9 @@ def main():
             print "\t".join([url,"failed"])
     #output data as tab-delimited text files named for the
     #record type (arrest.txt, incident.txt, citation.txt, accident.txt)
-    scraper_commands.print_files(scraper_commands.all_data,data_dir, site['site'])
+    scraper_commands.print_files(scraper_commands.all_data,data_dir, site['Site'])
     for data_type in scraper_commands.all_data:
-        data_file = data_dir + '/' + site['site'] + data_type + '.txt'
+        data_file = data_dir + '/' + site['Site'] + data_type + '.txt'
         table = data_type.lower() + 's'
         db_load.load(database,data_file, table, user)
         
