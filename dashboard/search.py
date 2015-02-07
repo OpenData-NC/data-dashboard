@@ -47,7 +47,7 @@ def build_query(data_type, params):
                       'to-date': '(date_occurred >= "%s" and date_occurred <= "%s")',
                       'street-number': 'address like "%s %%"',
                       'street-name': 'address like "%%%s%%"'},
-        'accidents': {'first-name': '(name1 like "%s%%" or name2 like "%s%%)',
+        'accidents': {'first-name': '(name1 like "%s%%" or name2 like "%s%%")',
                       'last-name': '(name1 like "%% %s" or name2 like "%% %s")',
                       'county': 'county = "%s"', 'from-date': 'date_occurred = "%s"',
                       'to-date': '(date_occurred >= "%s" and date_occurred <= "%s")',
@@ -76,26 +76,26 @@ def build_query(data_type, params):
                       'street-number': 'housenum = "%s"',
                       'street-name': 'streetname = "%s"'},
 
-        'dash_nh_property': {'first-name': '(owner like "%s%%" or `co-owner` like "%s%%)',
+        'dash_nh_property': {'first-name': '(owner like "%s%%" or `co-owner` like "%s%%")',
                       'last-name': '(owner like "%% %s" or `co-owner` like "%% %s")',
                       'street-number': '`situs-num` = "%s"',
                       'street-name': '`situs-street` = "%s"'},
 
-        'dash_nh_real_estate': {'first-name': '(seller like "%s%%" or seller like "%s%%)',
+        'dash_nh_real_estate': {'first-name': '(seller like "%s%%" or seller like "%s%%")',
                       'last-name': '(buyer like "%% %s" or buyer like "%% %s")',
                       'from-date': 'sale_date = "%s"',
                       'to-date': '(sale_date >= "%s" and sale_date <= "%s")',
                       'street-number': 'address like "%s %%"',
                       'street-name': 'address like "%%%s%%"'},
 
-        'dash_wake_property': {'first-name': '(owner_line1 like "%s%%" or owner_line2 like "%s%%)',
+        'dash_wake_property': {'first-name': '(owner_line1 like "%s%%" or owner_line2 like "%s%%")',
                       'last-name': '(owner_line1 like "%% %s" or owner_line1 like "%% %s")',
                       'from-date': 'total_sale_date = "%s"',
                       'to-date': '(total_sale_date >= "%s" and total_sale_date <= "%s")',
                       'street-number': 'site_address_street_number = "%s"',
                       'street-name': 'site_address_street_name = "%s"'},
 
-        'dash_wake_real_estate': {'first-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%)',
+        'dash_wake_real_estate': {'first-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
                       'last-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
                       'from-date': 'total_sale_date = "%s"',
                       'to-date': '(total_sale_date >= "%s" and total_sale_date <= "%s")',
@@ -104,18 +104,18 @@ def build_query(data_type, params):
     }
 #fields we're selecting for return for each table
     selects = {
-        'incidents': 'record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%m/%d/%Y") `Date reported` , category `Category`, incidents.charge `Charge`, address `Address`',
-        'arrests': 'record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, `Category`, arrests.charge `Charge`, address `Address`',
-        'citations': 'record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, charge, address `Address`',
-        'accidents': 'record_id `Record ID`, agency `Agency`, name1 `Driver 1`, name2 `Driver 2`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, address `Address`',
+        'incidents': 'record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%%m/%%d/%%Y") `Date reported` , category `Category`, incidents.charge `Charge`, address `Address`',
+        'arrests': 'record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%%m/%%d/%%Y") `Date occurred`, `Category`, arrests.charge `Charge`, address `Address`',
+        'citations': 'record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%%m/%%d/%%Y") `Date occurred`, charge, address `Address`',
+        'accidents': 'record_id `Record ID`, agency `Agency`, name1 `Driver 1`, name2 `Driver 2`, date_format(date_occurred,"%%m/%%d/%%Y") `Date occurred`, address `Address`',
         'nc_voters_new': 'voter_reg_num `Voter reg. num.`, first_name `First name`, last_name `Last name`, res_street_address `Address` , res_city_desc `City`, zip_code `Zip code`',
-        'rr': 'fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score`',
-        'dash_buncombe_property': 'parcelid `Parcel ID`, concat_ws(" ", owner1_firstname, owner1_lastname) `Owner 1`, concat_ws(" ", owner2_firstname, owner2_lastname) `Owner 2`, date_format(deeddate,"%m/%d/%Y") `Deed date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, taxableval `Tax value`',
-        'dash_buncombe_real_estate': 'parcelid `Parcel ID`, concat_ws(" ", seller1_fname, seller1_lname) `Seller 1`, concat_ws(" ", seller2_fname, seller2_lname) `Seller 2`, concat_ws(" ", buyer1_fname, buyer1_lname) `Buyer 1`, concat_ws(" ", buyer2_fname, buyer2_lname) `Buyer 2`,date_format(selldate,"%m/%d/%Y") `Sale date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, sellingprice `Sale price`',
+        'rr': 'fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%%m/%%d/%%Y") `Insp. date`, activity_final_score `Score`',
+        'dash_buncombe_property': 'parcelid `Parcel ID`, concat_ws(" ", owner1_firstname, owner1_lastname) `Owner 1`, concat_ws(" ", owner2_firstname, owner2_lastname) `Owner 2`, date_format(deeddate,"%%m/%%d/%%Y") `Deed date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, taxableval `Tax value`',
+        'dash_buncombe_real_estate': 'parcelid `Parcel ID`, concat_ws(" ", seller1_fname, seller1_lname) `Seller 1`, concat_ws(" ", seller2_fname, seller2_lname) `Seller 2`, concat_ws(" ", buyer1_fname, buyer1_lname) `Buyer 1`, concat_ws(" ", buyer2_fname, buyer2_lname) `Buyer 2`,date_format(selldate,"%%m/%%d/%%Y") `Sale date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, sellingprice `Sale price`',
         'dash_nh_property': 'pid `Parcel ID`, owner `Owner 1`, `co-owner` `Owner 2`, concat_ws(" ", `situs-num`, `situs-street`) `Address`, `situs-city` `City code`, `real-assval` `Tax value`',
-        'dash_nh_real_estate': 'pid `Parcel ID`, seller `Seller`, buyer `Buyer`, date_format(sale_date,"%m/%d/%Y") `Sale date`, address `Address`, city `City`, price `Sale price`',
-        'dash_wake_property': 'pin_num `Parcel ID`, owner_line1 `Owner 1`, owner_line2 `Owner 2`, date_format(deed_date,"%m/%d/%Y") `Deed date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, sum(building_assessed_value,land_assessed_value) `Tax value`',
-        'dash_wake_real_estate': 'pin_num `Parcel ID`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, date_format(total_sale_date,"%m/%d/%Y") `Sale date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, total_sale_price `Sale price`'
+        'dash_nh_real_estate': 'pid `Parcel ID`, seller `Seller`, buyer `Buyer`, date_format(sale_date,"%%m/%%d/%%Y") `Sale date`, address `Address`, city `City`, price `Sale price`',
+        'dash_wake_property': 'pin_num `Parcel ID`, owner_line1 `Owner 1`, owner_line2 `Owner 2`, date_format(deed_date,"%%m/%%d/%%Y") `Deed date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, sum(building_assessed_value,land_assessed_value) `Tax value`',
+        'dash_wake_real_estate': 'pin_num `Parcel ID`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, date_format(total_sale_date,"%%m/%%d/%%Y") `Sale date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, total_sale_price `Sale price`'
 #        'nc_voters': 'voter_reg_num `Voter reg. num.`, first_name `First name`, last_name `Last name`, res_street_address `Address` , res_city_desc `City`, zip_code `Zip code`, full_phone_number `Phone num.`',
     }
 #any joins we might need, such as county name lookups and crime categories
@@ -169,10 +169,13 @@ def build_query(data_type, params):
                     query_vals.append(params[param])
 
 
-    sql = 'select ' + selects[data_type] + ' from ' + data_type + joins[data_type] + ' where ' + ' and '.join(query_string) % tuple(query_vals)
+#    sql = 'select ' + selects[data_type] + ' from ' + data_type + joins[data_type] + ' where ' + ' and '.join(query_string) % tuple(query_vals)
+    sql = 'select ' + selects[data_type] + ' from ' + data_type + joins[data_type] + ' where ' + ' and '.join(query_string)
+    sql += ' limit 1000'
 #for debugging
 #    return [sql]
-    return query_db(sql)
+#    return query_db(sql)
+    return query_db(sql, tuple(query_vals))
 
 #python chokes on some of the data that has unusual characters (possibly copied and pasted from Word).
 #we try to encode it, but failing that for now we don't return it.
@@ -186,9 +189,14 @@ def clean_data(item):
     return cleaned_item
 
 #execute our query and return the data    
-def query_db(sql):
+def query_db(sql, query_vals):
 #we're currently limiting the return to 1000 rows
-    cursor.execute(sql + ' limit 1000')
+#    cursor.execute(sql + ' limit 1000')
+    try:
+        cursor.execute(sql % query_vals)
+    except:
+    #for now. should return error
+        return {'headings':[], 'data': []}
     formatted_data = []
 #we'll need the field names for headings in the json
     cols = [ d[0] for d in cursor.description ]
