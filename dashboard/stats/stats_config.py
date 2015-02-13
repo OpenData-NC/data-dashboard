@@ -37,16 +37,16 @@ date_fields = {
 #note that this might not return incidents or arrests without categories
 joins = {
         'rr': ' inner join rr_counties on county_id = c_id ',
-        'incidents': ' inner join charge_categories on incidents.charge = charge_categories.charge ',
-        'arrests': ' inner join charge_categories on arrests.charge = charge_categories.charge ',
-        'dash_buncombe_real_estate': ' inner join dash_buncombe_addresses on full_address = concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) ',
-        'dash_nh_real_estate': ' a inner join dash_new_hanover_addresses b on full_address = address and a.city = b.city ',
-        'dash_wake_real_estate': ' inner join dash_wake_addresses on pin_num = pin ',
+        'incidents': ' left join charge_categories on incidents.charge = charge_categories.charge ',
+        'arrests': ' left join charge_categories on arrests.charge = charge_categories.charge ',
+        'dash_buncombe_real_estate': ' left join dash_buncombe_addresses on full_address = concat_ws(" ", if(length(trim(housenum)), trim(housenum), NULL), if(length(trim(housesuffix)), trim(housesuffix), NULL), if(length(trim(streetdirection)), trim(streetdirection), NULL), if(length(trim(streetname)), trim(streetname), NULL), if(length(trim(streettype)), trim(streettype), NULL)) ',
+        'dash_nh_real_estate': ' a left join dash_new_hanover_addresses b on full_address = address and a.city = b.city ',
+        'dash_wake_real_estate': ' left join dash_wake_addresses on pin_num = pin ',
 }
 
 select_all = {
         'incidents': {
-            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%m/%d/%Y") `Date reported` , category `Category`, incidents.charge `Charge`, address `Address`, lat, lon ',
+            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%m/%d/%Y") `Date reported` , if(category is null, "Uncategorized", category) `Category`, incidents.charge `Charge`, address `Address`, lat, lon ',
             'by category': '  category `Category`, count(*) `Count` ',
             'by day of week': ' dayofweek(date_reported) `Order`, date_format(date_reported,"%W") `Day`, count(*) `Count` ',
             'by hour of day': ' hour(reported_date) `Hour`, count(*) `Count` ', #note that might be problem with those without hours
@@ -54,7 +54,7 @@ select_all = {
             'by officer': ' agency `Source agency`, reporting_officer `Reporting officer`, count(*) `Count` ',
         },
         'arrests': {
-            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, `Category`, arrests.charge `Charge`, address `Address`, lat, lon ',
+            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, if(category is null, "Uncategorized", category) `Category`, arrests.charge `Charge`, address `Address`, lat, lon ',
             'by category': '  category `Category`, count(*) `Count` ',
             'by day of week': ' dayofweek(date_occurred) `Order`, date_format(date_occurred,"%W") `Day`, count(*) `Count` ',
             'by hour of day': ' hour(occurred_date) `Hour`, count(*) `Count` ', #note that might be problem with those without hours
@@ -89,7 +89,7 @@ select_all = {
             'none': '',
         },
         'dash_buncombe_real_estate': {
-            'all': '  parcelid `Parcel ID`, date_format(selldate, "%m/%d/%Y") `Sale date`, concat(seller1_fname," ", seller1_lname) `Seller 1`,concat(seller2_fname," ", seller2_lname) `Seller 2`, concat(buyer1_fname," ", buyer1_lname) `Buyer 1`, concat(buyer2_fname," ", buyer2_lname) `Buyer 2`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `Address`, citycode `City code`, sellingprice `Sale price`, lat, lon ',
+            'all': ' parcelid `Parcel ID`, date_format(selldate, "%m/%d/%Y") `Sale date`, concat(seller1_fname," ", seller1_lname) `Seller 1`,concat(seller2_fname," ", seller2_lname) `Seller 2`, concat(buyer1_fname," ", buyer1_lname) `Buyer 1`, concat(buyer2_fname," ", buyer2_lname) `Buyer 2`, concat_ws(" ", if(length(trim(housenum)), trim(housenum), NULL), if(length(trim(housesuffix)), trim(housesuffix), NULL), if(length(trim(streetdirection)), trim(streetdirection), NULL), if(length(trim(streetname)), trim(streetname), NULL), if(length(trim(streettype)), trim(streettype), NULL)) `Address`, citycode `City code`, sellingprice `Sale price`, lat, lon ',
             'total by day': '  date_format(selldate,"%m/%d/%Y") `Sale date`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
             'top 10 sellers': '  concat_ws(" ",seller1_fname, seller1_lname, seller2_fname, seller2_lname) `Sellers`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
             'top 10 buyers': ' concat_ws(" ",buyer1_fname, buyer1_lname, buyer2_fname, buyer2_lname) `Buyers`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
