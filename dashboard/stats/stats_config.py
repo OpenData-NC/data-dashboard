@@ -39,11 +39,14 @@ joins = {
         'rr': ' inner join rr_counties on county_id = c_id ',
         'incidents': ' inner join charge_categories on incidents.charge = charge_categories.charge ',
         'arrests': ' inner join charge_categories on arrests.charge = charge_categories.charge ',
+        'dash_buncombe_real_estate': ' inner join dash_buncombe_addresses on full_address = concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) ',
+        'dash_nh_real_estate': ' a inner join dash_new_hanover_addresses b on full_address = address and a.city = b.city ',
+        'dash_wake_real_estate': ' inner join dash_wake_addresses on pin_num = pin ',
 }
 
 select_all = {
         'incidents': {
-            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%m/%d/%Y") `Date reported` , category `Category`, incidents.charge `Charge`, address `Address` ',
+            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%m/%d/%Y") `Date reported` , category `Category`, incidents.charge `Charge`, address `Address`, lat, lon ',
             'by category': '  category `Category`, count(*) `Count` ',
             'by day of week': ' dayofweek(date_reported) `Order`, date_format(date_reported,"%W") `Day`, count(*) `Count` ',
             'by hour of day': ' hour(reported_date) `Hour`, count(*) `Count` ', #note that might be problem with those without hours
@@ -51,7 +54,7 @@ select_all = {
             'by officer': ' agency `Source agency`, reporting_officer `Reporting officer`, count(*) `Count` ',
         },
         'arrests': {
-            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, `Category`, arrests.charge `Charge`, address `Address` ',
+            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, `Category`, arrests.charge `Charge`, address `Address`, lat, lon ',
             'by category': '  category `Category`, count(*) `Count` ',
             'by day of week': ' dayofweek(date_occurred) `Order`, date_format(date_occurred,"%W") `Day`, count(*) `Count` ',
             'by hour of day': ' hour(occurred_date) `Hour`, count(*) `Count` ', #note that might be problem with those without hours
@@ -86,7 +89,7 @@ select_all = {
             'none': '',
         },
         'dash_buncombe_real_estate': {
-            'all': '  parcelid `Parcel ID`, date_format(selldate, "%m/%d/%Y") `Sale date`, concat(seller1_fname," ", seller1_lname) `Seller 1`,concat(seller2_fname," ", seller2_lname) `Seller 2`, concat(buyer1_fname," ", buyer1_lname) `Buyer 1`, concat(buyer2_fname," ", buyer2_lname) `Buyer 2`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `Address`, citycode `City code`, sellingprice `Sale price` ',
+            'all': '  parcelid `Parcel ID`, date_format(selldate, "%m/%d/%Y") `Sale date`, concat(seller1_fname," ", seller1_lname) `Seller 1`,concat(seller2_fname," ", seller2_lname) `Seller 2`, concat(buyer1_fname," ", buyer1_lname) `Buyer 1`, concat(buyer2_fname," ", buyer2_lname) `Buyer 2`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `Address`, citycode `City code`, sellingprice `Sale price`, lat, lon ',
             'total by day': '  date_format(selldate,"%m/%d/%Y") `Sale date`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
             'top 10 sellers': '  concat_ws(" ",seller1_fname, seller1_lname, seller2_fname, seller2_lname) `Sellers`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
             'top 10 buyers': ' concat_ws(" ",buyer1_fname, buyer1_lname, buyer2_fname, buyer2_lname) `Buyers`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
@@ -96,7 +99,7 @@ select_all = {
         
         },
         'dash_nh_real_estate': {
-            'all': ' pid `Parcel ID`, date_format(sale_date,"%m/%d/%Y") `Sale date`, seller `Seller`, buyer `Buyer`, address `Address`, city `City`, price `Sale price` ',
+            'all': ' a.pid `Parcel ID`, date_format(sale_date,"%m/%d/%Y") `Sale date`, seller `Seller`, buyer `Buyer`, address `Address`, a.city `City`, price `Sale price`, b.lat `lat`, b.lon `lon` ',
             'total by day': ' date_format(sale_date, "%m/%d/%Y") `Sale date`, sum(price) `Total $s sold`, count(*) `Count` ',
             'top 10 sellers': ' seller `Sellers`, sum(price) `Total $s sold`, count(*) `Count` ',
             'top 10 buyers': ' buyer `Buyers`, sum(price) `Total $s sold`, count(*) `Count` ',
@@ -105,7 +108,7 @@ select_all = {
             'none': '',
         },
         'dash_wake_real_estate': {
-            'all': ' pin_num `Parcel ID`, date_format(total_sale_date,"%m/%d/%Y") `Sale date`, seller_line1 `Seller 1`,seller_line2 `Seller 2`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `Address`, city `City code`, total_sale_price `Sale price` ',
+            'all': ' pin_num `Parcel ID`, date_format(total_sale_date,"%m/%d/%Y") `Sale date`, seller_line1 `Seller 1`,seller_line2 `Seller 2`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `Address`, dash_wake_real_estate.city `City code`, total_sale_price `Sale price`, lat, lon ',
             'total by day': ' date_format(total_sale_date,"%m/%d/%Y") `Sale date`, sum(total_sale_price) `Total $s sold`, count(*) `Count` ',
 #            'top 10 sellers': '', 
 #wake doesn't have right now
@@ -120,7 +123,7 @@ groups_orders_limits = {
             'by category': ' group by `Category`',
             'by day of week': ' group by `Order` order by `Order`',
             'by hour of day': ' group by `Hour` order by `Hour`',
-            'by address': ' and `Reporting officer` not in ("&nbsp;","") group by `Address` order by `Count` desc limit 10', #note that might need to filter out '', restricted etc.
+            'by address': ' and group by `Address` order by `Count` desc limit 10', #note that might need to filter out '', restricted etc.
             'by officer': ' and reporting_officer not in ("&nbsp;","") group by `Reporting officer` order by `Count` desc limit 10',
         },
         'arrests': {

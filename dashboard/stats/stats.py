@@ -45,7 +45,7 @@ def query_data(table, max_min, this_type='all', county=None):
     group_order_limit = ''
     if table in config.joins:
         join = config.joins[table]
-    params.append(join)    
+#    params.append(join)    
     if table in config.no_county:
         county = None
     if table in config.date_fields:
