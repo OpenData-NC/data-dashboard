@@ -1,20 +1,22 @@
 # counties = ['Buncombe', 'New Hanover', 'Wake']
 counties = {
             'Buncombe': ['incidents','arrests','accidents','citations','dash_buncombe_real_estate','rr','nc_voters_new'], 
-            'New Hanover': ['incidents','arrests','accidents','citations','dash_nh_real_estate','rr','nc_voters_new'],
+            'New Hanover': ['incidents','arrests','accidents','citations','dash_nh_real_estate','dash_nh_rr','nc_voters_new'],
             'Wake':['incidents','arrests','accidents','citations','dash_wake_real_estate','rr','nc_voters_new'],
 }
 
 data_types = {
-                'incidents': ['all', 'by category', 'by day of week', 'by hour of day', 'by officer'],
-                'arrests': ['all', 'by category', 'by day of week', 'by hour of day', 'by officer'],
+                'incidents': ['all', 'by category', 'by day of week', 'by officer'],
+                'arrests': ['all', 'by category', 'by day of week', 'by officer'],
                 'accidents': ['all', 'by day of week', 'by officer'],
-                'citations': ['all', 'by day of week', 'by officer'],
+                'citations': ['all', 'by day of week'],
                 'dash_buncombe_real_estate': ['all', 'total by day', 'top 10 sellers', 'top 10 buyers'],
                 'dash_nh_real_estate': ['all', 'total by day', 'top 10 sellers', 'top 10 buyers'],
                 'dash_wake_real_estate': ['all', 'total by day', 'top 10 buyers'],
                 'rr': ['all', 'lowest 10 scores'],
-                'nc_voters_new': ['by party', 'party by precinct'],
+                'dash_nh_rr': ['all', 'lowest 10 scores'],
+#                'nc_voters_new': ['by party', 'party by precinct'],
+                'nc_voters_new': ['by party'],
 }
 
 no_county = ['dash_buncombe_real_estate','dash_nh_real_estate', 'dash_wake_real_estate']
@@ -30,6 +32,7 @@ date_fields = {
                 'dash_wake_property': 'total_sale_date',
                 'dash_wake_real_estate': 'total_sale_date',
                 'rr': 'activity_date',
+                'dash_nh_rr': 'activity_date',
             }
 
 
@@ -37,11 +40,12 @@ date_fields = {
 #note that this might not return incidents or arrests without categories
 joins = {
         'rr': ' inner join rr_counties on county_id = c_id ',
+        'dash_nh_rr': ' inner join rr_counties on county_id = c_id ',
         'incidents': ' left join charge_categories on incidents.charge = charge_categories.charge ',
         'arrests': ' left join charge_categories on arrests.charge = charge_categories.charge ',
         'dash_buncombe_real_estate': ' left join dash_buncombe_addresses on full_address = concat_ws(" ", if(length(trim(housenum)), trim(housenum), NULL), if(length(trim(housesuffix)), trim(housesuffix), NULL), if(length(trim(streetdirection)), trim(streetdirection), NULL), if(length(trim(streetname)), trim(streetname), NULL), if(length(trim(streettype)), trim(streettype), NULL)) ',
         'dash_nh_real_estate': ' a left join dash_new_hanover_addresses b on full_address = address and a.city = b.city ',
-        'dash_wake_real_estate': ' left join dash_wake_addresses on pin_num = pin ',
+#        'dash_wake_real_estate': ' left join dash_wake_addresses on pin_num = pin ',
 }
 
 select_all = {
@@ -80,6 +84,11 @@ select_all = {
             'lowest 10 scores': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
         
         },
+        'dash_nh_rr': {
+            'all': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
+            'lowest 10 scores': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
+        
+        },
         'nc_voters_new': {
             'by party': ' party_cd `Party`, count(*) `Count` ',
             'party by precinct': ' precinct_desc `Precinct`, party_cd `Party`, count(*) `Count` ',
@@ -108,7 +117,7 @@ select_all = {
             'none': '',
         },
         'dash_wake_real_estate': {
-            'all': ' pin_num `Parcel ID`, date_format(total_sale_date,"%m/%d/%Y") `Sale date`, seller_line1 `Seller 1`,seller_line2 `Seller 2`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `Address`, dash_wake_real_estate.city `City code`, total_sale_price `Sale price`, lat, lon ',
+            'all': ' pin_num `Parcel ID`, date_format(total_sale_date,"%m/%d/%Y") `Sale date`, seller_line1 `Seller 1`,seller_line2 `Seller 2`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `Address`, dash_wake_real_estate.city `City code`, total_sale_price `Sale price` ',
             'total by day': ' date_format(total_sale_date,"%m/%d/%Y") `Sale date`, sum(total_sale_price) `Total $s sold`, count(*) `Count` ',
 #            'top 10 sellers': '', 
 #wake doesn't have right now
@@ -149,6 +158,10 @@ groups_orders_limits = {
         
         },
         'rr': {
+            'all': ' order by `Facility name`',
+            'lowest 10 scores': ' and activity_final_score != "0.0" order by `Score` limit 10',
+        },
+        'dash_nh_rr': {
             'all': ' order by `Facility name`',
             'lowest 10 scores': ' and activity_final_score != "0.0" order by `Score` limit 10',
         },
@@ -200,5 +213,6 @@ return_types = {
         'dash_wake_property': 'Property tax',
         'dash_wake_real_estate': 'Real estate',
         'rr': 'Health inspection scores',
+        'dash_nh_rr': 'Health inspection scores',
         'nc_voters_new': 'Voter registration',
 }
