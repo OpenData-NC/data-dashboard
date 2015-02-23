@@ -4,11 +4,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Data dashboard</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="lib/css/style.css" />
+        <link rel="stylesheet" href="/lib/css/style.css" />
     </head>
     <body>
         <div class="container">
-     
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <a class="navbar-brand" href="http://www.open-nc.org" target="_blank">
+                        <img alt="Brand" src="lib/img/opennc_logo.png" style="height:30px" />
+                    </a>
+                    <h3 class="navbar-text"><span id="dd-county"></span> County data dashboard</h3>
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">30-day snapshot</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Search data sets<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="search/">Search across all data</a></li>
+                                <li class="divider"></li>
+                                <li><a><strong>Police and sheriff</strong></a></li>
+                                <li><a href="search/incidents/">Incidents</a></li>
+                                <li><a href="search/arrests/">Arrests</a></li>
+                                <li><a href="search/traffic-accidents/">Traffic accidents</a></li>
+                                <li><a href="search/citations/">Citations</a></li>
+                                <li class="divider"></li>
+                                <li><a><strong>Property and real estate</strong></a></li>
+                                <li><a href="search/property-tax/">Property tax rolls</a></li>
+                                <li><a href="search/real-estate/">Real estate transactions</a></li>
+                                <li class="divider"></li>
+                                <li><a href="search/health-inspections/">Health inspection</a></li>
+                                <li class="divider"></li>
+                                <li><a href="search/voter-registration/">Voter registration</a></li>
+                            </ul>
+                        </li>
+                    </ul>    
+                </div>
+            </nav>
             <div class="row" id="incidents">
                 <div id="dd-loading" class="col-mid-6 center-block"><h2>Loading ...</h2></div>
                 <div class="col-md-6">
@@ -86,8 +116,9 @@
         </div>
         <script src="http://www.google.com/jsapi"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-        <script src="lib/js/dd-viz.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <script src="/lib/js/dd-config.js"></script>
+        <script src="/lib/js/dd-viz.js"></script>
 
     </body>
 </html>

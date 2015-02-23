@@ -1,0 +1,108 @@
+﻿    <div class="row">
+        <form>
+            <div class="row"  style="margin-bottom: .5em">
+                <div class="col-md-4 col-xs-10">
+                    <label for="first-name" class="control-label">First name</label>
+                        <input type="text" class="form-control search-item" id="first-name" placeholder="First name">
+                </div>
+                <div class="col-md-4 col-xs-10">
+
+                    <label for="last-name" class="control-label">Last name</label>
+                        <input type="text" class="form-control search-item" id="last-name" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: .5em">
+                <div class="col-md-4 col-xs-10">
+                    <label for="from-date" class="control-label">From or on </label>
+                        <input type="date" class="form-control search-item" id="from-date">
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="to-date" class="control-label">To (only if range)</label>
+                        <input type="date" class="form-control search-item" id="to-date">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-10">
+            
+                <b>Address</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-number" class="control-label">Street number </label>
+                        <input type="text" class="form-control search-item" id="street-number" placeholder="Ex. 123">
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-name" class="control-label">Street name </label>
+                        <input type="text" class="form-control search-item" id="street-name" placeholder="Main">
+                </div>
+            </div>
+            <div class="row hidden-xs" >
+                <div class="col-md-10 col-xs-6">
+                    <div class="checkbox">
+                        <p><b>Categories to search</b></p>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="crime" class="data-type" value="1">
+                            Police and sheriff
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="property" class="data-type" value="1">
+                            Property tax
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="realestate" class="data-type" value="1">
+                            Real estate transactions
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="health" class="data-type" value="1">
+                            Public health inspections
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="voter" class="data-type" value="1">
+                            Voter registration
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row visible-xs-block">
+                <div class="col-md-10 col-xs-6">
+                    <div class="checkbox">
+                        <p><b>Categories to search</b></p>
+                        <label>
+                            <input type="checkbox" id="crime" class="data-type" value="1">
+                            Police and sheriff
+                        </label>
+                        <label>
+                            <input type="checkbox" id="property" class="data-type" value="" disabled>
+                            Property tax
+                        </label>
+                        <label>
+                            <input type="checkbox" id="realestate" class="data-type" value="" disabled>
+                            Real estate transactions
+                        </label>
+                        <label>
+                            <input type="checkbox" id="health" class="data-type" value="" disabled>
+                            Public health inspections
+                        </label>
+                        <label>
+                            <input type="checkbox" id="voter" class="data-type" value="1">
+                            Voter registration
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="col-sm-4">
+            <button type="button" class="btn btn-default" id="search">Search</button>
+            <button class="btn btn-default" type="reset">Reset</button>
+            </div>
+            </div>
+        </form>
+
+    </div>
+            <div class="row">
+                <div class="col-md-10 col-xs-10" id="data-tables">
+                </div>
+
+            </div>
