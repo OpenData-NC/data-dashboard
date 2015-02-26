@@ -45,25 +45,7 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="/lib/js/dd-config.js"></script>
-        <script src="/lib/js/search.js"></script>
-        <script>
-        (function() {
-            var county = dd_config[find_county()].county;
-            $('#dd-county').text(county);
-
-            $('#dd-form').load('form.html');
-            $('.dd-nav').each(function() {
-                $(this).attr('href', '/' + county + '/' + $(this).attr('href'));
-            });
-            function find_county() {
-                var county_re = /org\/([^\/]+)\//;
-                var county_match = county_re.exec(location.href);
-                return county_match[1];        
-            }
-
-        })()
-        
-        </script>
+        <script src="/lib/js/dd-search.js"></script>
 
     </body>
 </html>

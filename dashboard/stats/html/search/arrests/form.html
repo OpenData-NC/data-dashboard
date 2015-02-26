@@ -1,0 +1,171 @@
+﻿    <div class="row">
+        <div class="center-block col-md-8">
+            <h3 class="text-center">Search arrests</h3>
+        </div>
+    </div>
+    <div class="row">
+        <form>
+            <div class="row"  style="margin-bottom: .5em">
+                <h4>Suspect</h4>
+                <div class="col-md-4 col-xs-10">
+                    <label for="first-name" class="control-label">First name</label>
+                        <input type="text" class="form-control search-item" id="first-name" placeholder="First name">
+                </div>
+                <div class="col-md-4 col-xs-10">
+
+                    <label for="last-name" class="control-label">Last name</label>
+                        <input type="text" class="form-control search-item" id="last-name" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="checkbox">
+                    <div class="col-md-4">
+                        <h4>Gender</h4>
+                        <label class="checkbox">
+                            <input type="checkbox" id="F" class="gender-type" value="1">
+                            Female
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="M" class="gender-type" value="1">
+                            Male
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Age range</h4>
+                    <div class="col-md-3">
+                        <label for="min-age" class="control-label">Min. age</label>
+                        <input type="number" class="form-control search-item" id="min-age">
+                    </div>
+                    <div class="col-md-3">                    
+                        <label for="max-age" class="control-label">Max. age</label>
+                        <input type="number" class="form-control search-item" id="max-age">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row" style="margin-bottom: .5em">
+                <h4>Date occurred</h4>
+                <div class="col-md-4 col-xs-10">
+                    <label for="from-date" class="control-label">From or on </label>
+                        <input type="date" class="form-control search-item" id="from-date">
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="to-date" class="control-label">To (only if range)</label>
+                        <input type="date" class="form-control search-item" id="to-date">
+                </div>
+            </div>
+            <div class="row">
+                <h4>Arrest address</h4>
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-number" class="control-label">Street number </label>
+                        <input type="text" class="form-control search-item" id="street-number" placeholder="Ex. 123">
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-name" class="control-label">Street name </label>
+                        <input type="text" class="form-control search-item" id="street-name" placeholder="Main">
+                </div>
+            </div>
+            <div class="row">
+                <div class="checkbox">
+                    <h4>Categories to search</h4>
+                    <div class="col-md-3">
+                        <label class="checkbox">
+                            <input type="checkbox" id="Alcohol-related" class="category-type" value="1">
+                            Alcohol-related
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="All other crimes" class="category-type" value="1">
+                            All other crimes
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Arson" class="category-type" value="1">
+                            Arson
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Assault" class="category-type" value="1">
+                            Assault
+                        </label>                    
+                        <label class="checkbox">
+                            <input type="checkbox" id="Auto theft-related" class="category-type" value="1">
+                            Auto theft-related
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Breaking & Entering" class="category-type" value="1">
+                            Breaking & Entering
+                        </label>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="checkbox">
+                            <input type="checkbox" id="Crimes against children" class="category-type" value="1">
+                            Crimes against children
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Domestic violence-related" class="category-type" value="1">
+                            Domestic violence-related
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Drug crimes" class="category-type" value="1">
+                            Drug crimes
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="DUI" class="category-type" value="1">
+                            DUI
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Financial crimes" class="category-type" value="1">
+                            Financial crimes
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Homicide" class="category-type" value="1">
+                            Homicide
+                        </label>
+                    </div>
+                    <div class="col-md-3">
+                        <label class="checkbox">
+                            <input type="checkbox" id="Kidnapping" class="category-type" value="1">
+                            Kidnapping
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Robbery" class="category-type" value="1">
+                            Robbery
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Sex crimes" class="category-type" value="1">
+                            Sex crimes
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Theft" class="category-type" value="1">
+                            Theft
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Traffic-related" class="category-type" value="1">
+                            Traffic-related
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Vandalism" class="category-type" value="1">
+                            Vandalism
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="Weapon-related" class="category-type" value="1">
+                            Weapon-related
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="col-sm-4">
+            <input type="hidden" class="data-type" id="arrests" value="picked" />
+            <button type="button" class="btn btn-default" id="search">Search</button>
+            <button class="btn btn-default" type="reset">Reset</button>
+            </div>
+            </div>
+        </form>
+
+    </div>
+            <div class="row">
+                <div class="col-md-10 col-xs-10" id="data-tables">
+                </div>
+
+            </div>

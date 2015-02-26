@@ -10,7 +10,7 @@
 .goog-menu-button-dropdown {
 	height: 12px !important;
 }
-.google-visualization-table-tr-head, .google-visualization-table-tr-head td, .google-visualization-table-tr-head-nonstrict {
+.google-visualization-table-tr-head, .google-visualization-table-tr-head td, .google-visualization-table-tr-head th, .google-visualization-table-tr-head-nonstrict {
 	text-align: left !important;
 	padding-left: 5px !important;
 	line-height: 1.2em !important;
