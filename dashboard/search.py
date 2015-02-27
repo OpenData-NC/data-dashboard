@@ -201,7 +201,7 @@ def build_query(data_type, params):
 #we'll need to try to address this later.
 
 def format_categories(cats):
-    return '"' + cats.replace('-',',"') + '"'
+    return '"' + cats.replace('~','","') + '"'
 
 def clean_data(item):
     try:

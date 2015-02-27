@@ -48,7 +48,7 @@
                     }
                 });
                 if(multiple_vals.length > 0) {
-                    search_params[multiple_item] = multiple_vals.join('-');
+                    search_params[multiple_item] = multiple_vals.join('~');
                 }
             });
             $('.data-type').each(function(i,item){
