@@ -74,15 +74,17 @@
             
         }
         function show_data(data){
-//		console.log(data);
+            var have_no_data = true;
             $('#data-tables').empty();
             for (data_type in data.results) {
 //                    console.log(data_type);
 //                    console.log(data.results[data_type]);
                 if(data.results[data_type].data.length > 0) {
+                    have_no_data = false;
                     build_table(data_type, data.results[data_type]);
                 }
             }
+            have_no_data && $('#data-tables').html('<h4>No results found</h4>');
         }
      
 //not used anymore
