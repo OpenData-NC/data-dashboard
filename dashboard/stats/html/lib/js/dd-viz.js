@@ -8,6 +8,7 @@
                 'by address': 'Table',
                 'by officer': 'Table',
                 'lowest 10 scores': 'Table',
+                'score distribution': 'ColumnChart',
                 'by party': 'Table',
                 'total by day': 'ColumnChart',
                 'top 10 sellers': 'Table',
@@ -69,6 +70,23 @@
                 'by address': {page:"enable",pageSize:20, allowHtml: true},
                 'by officer': {page:"enable",pageSize:20, allowHtml: true, width: 450},
                 'lowest 10 scores': {page:"enable",pageSize:20, allowHtml: true},
+                'score distribution': {
+              hAxis:{title:"Score"}
+              , vAxis: {title: "#"}
+              , colors: viz_colors
+              , legend: { position: "none" }
+              , animation:{
+                  duration: 1000,
+                  easing: 'out'
+                }
+                , width: 900
+                , height: 400
+                , chartArea: {top: 40, left: 100}
+     //           , hAxis: {slantedText: true}
+    //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
+                
+                
+            },
                 'by party': {page:"enable",pageSize:20, allowHtml: true, width: 230},
                 'total by day': {
               hAxis:{title:"Sale date"}
@@ -80,7 +98,7 @@
                   easing: 'out'
                 }
                 , width: 1000
-                , height: 500
+                , height: 400
                 , chartArea: {top: 40, left: 100}
 //                , hAxis: {slantedText: true}
     //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
@@ -161,7 +179,7 @@
             }
         }
         $('.row').addClass('main-data-cat'); //puts borders around specific data types
-        $('.health-insp').addClass('health-insp-cat'); //horizontal line between health insp and voter data
+//        $('.health-insp').addClass('health-insp-cat'); //horizontal line between health insp and voter data
         $('#voter-registration-head').show();
     }
     //appends the div to hold the viz and returns its id

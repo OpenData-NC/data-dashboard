@@ -13,8 +13,8 @@ data_types = {
                 'dash_buncombe_real_estate': ['all', 'total by day', 'top 10 sellers', 'top 10 buyers'],
                 'dash_nh_real_estate': ['all', 'total by day', 'top 10 sellers', 'top 10 buyers'],
                 'dash_wake_real_estate': ['all', 'total by day', 'top 10 buyers'],
-                'rr': ['all', 'lowest 10 scores'],
-                'dash_nh_rr': ['all', 'lowest 10 scores'],
+                'rr': ['all', 'lowest 10 scores', 'score distribution'],
+                'dash_nh_rr': ['all', 'lowest 10 scores', 'score distribution'],
 #                'nc_voters_new': ['by party', 'party by precinct'],
                 'nc_voters_new': ['by party'],
 }
@@ -44,7 +44,7 @@ joins = {
         'incidents': ' left join charge_categories on incidents.charge = charge_categories.charge ',
         'arrests': ' left join charge_categories on arrests.charge = charge_categories.charge ',
         'dash_buncombe_real_estate': ' left join dash_buncombe_addresses on full_address = concat_ws(" ", if(length(trim(housenum)), trim(housenum), NULL), if(length(trim(housesuffix)), trim(housesuffix), NULL), if(length(trim(streetdirection)), trim(streetdirection), NULL), if(length(trim(streetname)), trim(streetname), NULL), if(length(trim(streettype)), trim(streettype), NULL)) ',
-        'dash_nh_real_estate': ' a left join dash_new_hanover_addresses b on full_address = address and a.city = b.city ',
+        'dash_nh_real_estate': ' ',
 #        'dash_wake_real_estate': ' left join dash_wake_addresses on pin_num = pin ',
 }
 
@@ -82,11 +82,13 @@ select_all = {
         'rr': {
             'all': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
             'lowest 10 scores': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
+            'score distribution': ' activity_final_score `Score`, count(activity_final_score) as `Count` ',
         
         },
         'dash_nh_rr': {
             'all': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
             'lowest 10 scores': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
+            'score distribution': ' activity_final_score `Score`, count(activity_final_score) as `Count` ',
         
         },
         'nc_voters_new': {
@@ -108,7 +110,7 @@ select_all = {
         
         },
         'dash_nh_real_estate': {
-            'all': ' a.pid `Parcel ID`, date_format(sale_date,"%m/%d/%Y") `Sale date`, seller `Seller`, buyer `Buyer`, address `Address`, a.city `City`, price `Sale price`, b.lat `lat`, b.lon `lon` ',
+            'all': ' pid `Parcel ID`, date_format(sale_date,"%m/%d/%Y") `Sale date`, seller `Seller`, buyer `Buyer`, address `Address`, city `City`, price `Sale price` ',
             'total by day': ' date_format(sale_date, "%m/%d/%Y") `Sale date`, sum(price) `Total $s sold`, count(*) `Count` ',
             'top 10 sellers': ' seller `Sellers`, sum(price) `Total $s sold`, count(*) `Count` ',
             'top 10 buyers': ' buyer `Buyers`, sum(price) `Total $s sold`, count(*) `Count` ',
@@ -160,10 +162,12 @@ groups_orders_limits = {
         'rr': {
             'all': ' order by `Facility name`',
             'lowest 10 scores': ' and activity_final_score != "0.0" order by `Score` limit 10',
+            'score distribution': ' and activity_final_score != "0.0" group by `Score` order by `Score`',
         },
         'dash_nh_rr': {
             'all': ' order by `Facility name`',
             'lowest 10 scores': ' and activity_final_score != "0.0" order by `Score` limit 10',
+            'score distribution': ' and activity_final_score != "0.0" group by `Score` order by `Score`',
         },
         'nc_voters_new': {
             'by party': ' and voter_status_desc in ("ACTIVE","TEMPORARY") group by `Party` order by `Party`',

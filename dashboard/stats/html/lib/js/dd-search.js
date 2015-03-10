@@ -1,6 +1,7 @@
 ﻿    (function(){
         var county_dir = find_county();
         var county = dd_config[county_dir].county;
+        var base_url = location.href;
         $('#dd-county').text(county);
 //load the form html and add click event to search button
         $('#dd-form').load('form.html', add_click);
@@ -9,21 +10,43 @@
         });
         
         google.load("visualization", "1", {packages:["table"]});
+        check_search();
+        
+        window.onpopstate = function(e){
+            if(e.state){
+                document.getElementById('main-content').innerHTML = e.state.html;                
+            }
+            
+        }
+        
         function add_click() {
             $('#search').click(function(){
                 var query = find_query_params();
                 query?query_data(query):error();
             });
         }
+        
+        function check_search(){
+            if(location.href.indexOf('#!') === -1) {
+                return false;
+            }
+            else{
+                var pieces = location.href.split('#!');
+                base_url = pieces[0];
+                query_data(pieces[1]);
+            }
+        }
+        
         function query_data(query) {
+            console.log(query);
             $('#data-tables').empty();
             $('#data-tables').html('<h2>Searching ...</h2>');
             $.get(query)
                 .done(function(data){
                     console.log(data);
-                    show_data(data);
+                    show_data(data, query);
                 });
-
+            
         }
         function error(){
             $('#data-tables').html('<h4 class="text-danger">Specify at least one search category.</h4>');
@@ -73,7 +96,7 @@
             return [base, query.join('|')].join('/');
             
         }
-        function show_data(data){
+        function show_data(data, query){
             var have_no_data = true;
             $('#data-tables').empty();
             for (data_type in data.results) {
@@ -85,6 +108,9 @@
                 }
             }
             have_no_data && $('#data-tables').html('<h4>No results found</h4>');
+            var stateObj = { html: document.getElementById('main-content').innerHTML};
+            var new_url = [base_url, query].join('#!');
+            history.pushState(stateObj, "Data Dashboard", new_url);
         }
      
 //not used anymore
@@ -106,6 +132,7 @@
         }
         
         function build_table(data_type, data_content, page_size){
+            var formatted_table_data;
             if(data_type === 'arrests' || data_type === 'incidents' || data_type === 'accidents' || data_type === 'citations') {
                 formatted_table_data = data_content.data.map(function(row) { 
                     row[0] = truncate(row[0], 15);
