@@ -50,7 +50,7 @@ joins = {
 
 select_all = {
         'incidents': {
-            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%m/%d/%Y") `Date reported` , if(category is null, "Uncategorized", category) `Category`, incidents.charge `Charge`, address `Address`, lat, lon ',
+            'all': ' concat_ws("|", "record_id", record_id, "agency", agency) `Record ID`, agency `Agency`, name `Name`, date_format(date_reported,"%m/%d/%Y") `Date reported` , if(category is null, "Uncategorized", category) `Category`, incidents.charge `Charge`, address `Address`, lat, lon ',
             'by category': '  category `Category`, count(*) `Count` ',
             'by day of week': ' dayofweek(date_reported) `Order`, date_format(date_reported,"%W") `Day`, count(*) `Count` ',
             'by hour of day': ' hour(reported_date) `Hour`, count(*) `Count` ', #note that might be problem with those without hours
@@ -58,7 +58,7 @@ select_all = {
             'by officer': ' agency `Source agency`, reporting_officer `Reporting officer`, count(*) `Count` ',
         },
         'arrests': {
-            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, if(category is null, "Uncategorized", category) `Category`, arrests.charge `Charge`, address `Address`, lat, lon ',
+            'all': ' concat_ws("|", "record_id", record_id, "agency", agency) `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, if(category is null, "Uncategorized", category) `Category`, arrests.charge `Charge`, address `Address`, lat, lon ',
             'by category': '  category `Category`, count(*) `Count` ',
             'by day of week': ' dayofweek(date_occurred) `Order`, date_format(date_occurred,"%W") `Day`, count(*) `Count` ',
             'by hour of day': ' hour(occurred_date) `Hour`, count(*) `Count` ', #note that might be problem with those without hours
@@ -66,14 +66,14 @@ select_all = {
             'by officer': ' agency `Source agency`, reporting_officer `Reporting officer`, count(*) `Count` ',
         },
         'accidents': {
-            'all': ' record_id `Record ID`, agency `Agency`, name1 `Driver 1`, name2 `Driver 2`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, address `Address` ',
+            'all': ' concat_ws("|", "record_id", record_id, "agency", agency) `Record ID`, agency `Agency`, name1 `Driver 1`, name2 `Driver 2`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, address `Address` ',
             'by day of week': ' dayofweek(date_occurred) `Order`, date_format(date_occurred,"%W") `Day`, count(*) `Count` ',
             'by address': ' address `Address`, count(*) `Count` ', #note that might need to filter out '', restricted etc.
             'by officer': ' agency `Source agency`, reporting_officer `Reporting officer`, count(*) `Count` ',
         
         },
         'citations': {
-            'all': ' record_id `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, charge, address `Address` ',
+            'all': ' concat_ws("|", "record_id", record_id, "agency", agency) `Record ID`, agency `Agency`, name `Name`, date_format(date_occurred,"%m/%d/%Y") `Date occurred`, charge, address `Address` ',
             'by day of week': ' dayofweek(date_occurred) `Order`, date_format(date_occurred,"%W") `Day`, count(*) `Count` ',
             'by address': ' address `Address`, count(*) `Count` ', #note that might need to filter out '', restricted etc.
             'by officer': ' agency `Source agency`, reporting_officer `Reporting officer`, count(*) `Count` ',

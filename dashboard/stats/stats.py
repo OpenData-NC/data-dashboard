@@ -107,6 +107,7 @@ if __name__ == '__main__':
         for table in config.counties[county]:
             return_type = config.return_types[table]
             response[return_type] = {}
+            response[return_type]['data-source'] = table
             max_min = date_range(table, county)
             for this_type in config.data_types[table]:
                 response[return_type][this_type] = {}
@@ -114,6 +115,7 @@ if __name__ == '__main__':
                     response[return_type][this_type]['date ranges'] = dict(zip(['end','start'], max_min[-2:]))
                 response[return_type][this_type]['data'] = query_data(table, max_min, this_type, county)
         with open(output_file, 'w') as output:
-            output.write(json.dumps(response, indent=4, sort_keys=True))
+#            output.write(json.dumps(response, indent=4, sort_keys=True))
+            output.write(json.dumps(response))
     connection.close()
     

@@ -117,7 +117,8 @@
             'Date occurred': format_date,
             'Sale date': format_date,
             'Sale price': format_currency,
-            'Count': format_number
+            'Count': format_number,
+            'Record ID': format_detail
         }
     //determine the data type
         , heading_types = {
@@ -154,8 +155,9 @@
                 , has_no_data = true //if we don't have data for a data type, we'll delete that div
                 , main_data_type;
             //summary types include both "all" and summary data such as "by day", etc.
+            var data_source = all_data[data_type]['data-source'];
             for(summary_type in all_data[data_type]) {
- 
+                if(summary_type === 'data-source') { continue; }
                 var main_data_type = data_type.toLowerCase().replace(/ /g,'-'); //id for data type div
                 if(all_data[data_type][summary_type].data.rows.length === 0) { continue; }
                 else { has_no_data = false; } 
@@ -170,7 +172,7 @@
                     $('#' + main_data_type).prepend(main_heading);
                     range = '<h4>Data from ' + all_data[data_type][summary_type]["date ranges"].start + ' to ' + all_data[data_type][summary_type]["date ranges"].end  + '</h4>';
                 }
-                draw_viz(all_data[data_type][summary_type].data, viz_type, div, viz_option);
+                draw_viz(all_data[data_type][summary_type].data, viz_type, div, viz_option, data_source);
                 //here maybe we can add the data ranges we're using for each one
             }
             if(main_data_type !== 'voter-registration') { $('#' + main_data_type + ' h2:first').after(range);}
@@ -194,16 +196,54 @@
         return div_id;
     }
 
-    function draw_viz(data, viz_type, div, options) {
-        var viz_data = make_viz_data(data);
+    function draw_viz(data, viz_type, div, options, data_source) {
+        var viz_data = make_viz_data(data, data_source);
         if(viz_type) {
             var viz = new google.visualization[viz_type](document.getElementById(div));
+//            if(typeof viz_data.getValue(0,0) === 'string' && viz_data.getValue(0,0).indexOf('See detail') !== -1) {
+                google.visualization.events.addListener(viz, 'ready', function(){
+                    
+                    make_items_clickable(data_source);
+                    google.visualization.events.addListener(viz, 'sort', function(){
+                        make_items_clickable(data_source);
+                    });
+                    google.visualization.events.addListener(viz, 'page', function(){
+                        make_items_clickable(data_source);
+                    });
+                });
+//            }
             viz.draw(viz_data,options);
+
+            
         }
     }
 
-    function make_viz_data(data) {
-        var formatted_data = format_data(data)
+    function make_items_clickable(data_type){
+        $('.dd-detail').unbind('click');
+        $('.dd-detail').bind('click', function(){
+            build_detail_query($(this).data('key'), $(this).data('source')); 
+        });
+
+    }
+    
+    function build_detail_query(key, data_source) {
+        var detail_param = '|detail|1|';
+        var search_types = {
+            'incidents': 'incidents',
+            'accidents': 'traffic-accidents',
+            'arrests': 'arrests',
+            'citations': 'citations'
+            
+        }
+        var search_url = 'http://beta.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
+            + county + detail_param + key + '|data_types|' + data_source;
+        window.location.assign(search_url);
+        
+        
+    }
+    
+    function make_viz_data(data, data_source) {
+        var formatted_data = format_data(data, data_source)
             , headings = formatted_data.headings
             , viz_data = new google.visualization.DataTable();
         headings.forEach(function(h,i) {
@@ -214,13 +254,14 @@
         return viz_data;
     }
 
-    function format_data(data) {
+    function format_data(data, data_source) {
         var headings = []
             ,rows = []
             ,row
             , heading_indexes = []
             , headings = data.headings.filter(function(h,i) {
-                if(h === 'lat' || h === 'lon' || h === 'Order' || h === 'Record ID') {
+//                if(h === 'lat' || h === 'lon' || h === 'Order' || h === 'Record ID') {
+                if(h === 'lat' || h === 'lon' || h === 'Order') {
                     return false;
                 }
                 else {
@@ -233,7 +274,8 @@
             var row = r.filter(function(d,j){ return heading_indexes.indexOf(j) !== -1; });
             row.forEach( function(d,i) {
                 //format dates or numbers if the heading is in data_formats (see above)
-                row[i] = data_formats[headings[i]]?data_formats[headings[i]](row[i]):row[i];            
+                //pass the heading and use that to figure out what the query should be
+                row[i] = data_formats[headings[i]]?data_formats[headings[i]](row[i], data_source):row[i];            
             });
             rows.push(row);           
         });
@@ -243,21 +285,26 @@
     }
 
     //data formatting functions
-    function format_date(date_string) {
+    function format_date(date_string, data_source) {
         var date = new Date(date_string);
         return {v: date, f: date_string};
     }
 
-    function format_currency(number) {
-        return format_number(number, '$');
+    function format_currency(number, data_source) {
+        return format_number(number, data_source, '$');
     }
-    function format_number(number, currency) {
+    function format_number(number, data_source, currency) {
         var prefix = currency || ''
             , decimal_places = currency?2:0
             , formatted = prefix + number.formatNumber(decimal_places)
         return {v: number, f: formatted };
     }
     
+    function format_detail(record_key, data_source) {
+        var detail_link = '<span class="dd-detail" data-key="' + record_key.replace(/"/g,'%22') + '" data-source="' + data_source +'">See detail</span>';
+        return detail_link;
+        
+    }
     function find_county() {
         var county_re = /org\/([^\/]+)\//;
         var county_match = county_re.exec(location.href);
