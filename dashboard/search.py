@@ -70,7 +70,10 @@ def build_query(data_type, params):
     else:
         selects = config.selects
     sql = 'select ' + selects[data_type] + ' from ' + data_type + config.joins[data_type] + ' where ' + ' and '.join(query_string)
-    sql += ' limit 20000'
+    if 'detail' in params and data_type in config.order_limit:
+        sql += config.order_limit[data_type]
+    else:
+        sql += ' limit 20000'
 #for debugging
 #    return [sql]
 #    return query_db(sql)

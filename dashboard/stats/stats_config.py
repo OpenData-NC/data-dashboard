@@ -80,13 +80,13 @@ select_all = {
         
         },
         'rr': {
-            'all': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
+            'all': ' concat_ws("|","facility_id",facility_id,"from-date",activity_date) `Record ID`, fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
             'lowest 10 scores': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
             'score distribution': ' activity_final_score `Score`, count(activity_final_score) as `Count` ',
         
         },
         'dash_nh_rr': {
-            'all': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
+            'all': ' concat_ws("|","facility_id",facility_id,"from-date",activity_date) `Record ID`, fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
             'lowest 10 scores': ' fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%m/%d/%Y") `Insp. date`, activity_final_score `Score` ',
             'score distribution': ' activity_final_score `Score`, count(activity_final_score) as `Count` ',
         
@@ -100,7 +100,7 @@ select_all = {
             'none': '',
         },
         'dash_buncombe_real_estate': {
-            'all': ' parcelid `Parcel ID`, date_format(selldate, "%m/%d/%Y") `Sale date`, concat(seller1_fname," ", seller1_lname) `Seller 1`,concat(seller2_fname," ", seller2_lname) `Seller 2`, concat(buyer1_fname," ", buyer1_lname) `Buyer 1`, concat(buyer2_fname," ", buyer2_lname) `Buyer 2`, concat_ws(" ", if(length(trim(housenum)), trim(housenum), NULL), if(length(trim(housesuffix)), trim(housesuffix), NULL), if(length(trim(streetdirection)), trim(streetdirection), NULL), if(length(trim(streetname)), trim(streetname), NULL), if(length(trim(streettype)), trim(streettype), NULL)) `Address`, citycode `City code`, sellingprice `Sale price`, lat, lon ',
+            'all': ' concat_ws("|","parcelid",parcelid,"from-date",selldate) `Record ID`, date_format(selldate, "%m/%d/%Y") `Sale date`, concat(seller1_fname," ", seller1_lname) `Seller 1`,concat(seller2_fname," ", seller2_lname) `Seller 2`, concat(buyer1_fname," ", buyer1_lname) `Buyer 1`, concat(buyer2_fname," ", buyer2_lname) `Buyer 2`, concat_ws(" ", if(length(trim(housenum)), trim(housenum), NULL), if(length(trim(housesuffix)), trim(housesuffix), NULL), if(length(trim(streetdirection)), trim(streetdirection), NULL), if(length(trim(streetname)), trim(streetname), NULL), if(length(trim(streettype)), trim(streettype), NULL)) `Address`, citycode `City code`, sellingprice `Sale price`, lat, lon ',
             'total by day': '  date_format(selldate,"%m/%d/%Y") `Sale date`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
             'top 10 sellers': '  concat_ws(" ",seller1_fname, seller1_lname, seller2_fname, seller2_lname) `Sellers`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
             'top 10 buyers': ' concat_ws(" ",buyer1_fname, buyer1_lname, buyer2_fname, buyer2_lname) `Buyers`, sum(sellingprice) `Total $s sold`, count(*) `Count` ',
@@ -110,7 +110,7 @@ select_all = {
         
         },
         'dash_nh_real_estate': {
-            'all': ' pid `Parcel ID`, date_format(sale_date,"%m/%d/%Y") `Sale date`, seller `Seller`, buyer `Buyer`, address `Address`, city `City`, price `Sale price` ',
+            'all': ' concat_ws("|","pid",pid,"from-date",sale_date) `Record ID`, date_format(sale_date,"%m/%d/%Y") `Sale date`, seller `Seller`, buyer `Buyer`, address `Address`, city `City`, price `Sale price` ',
             'total by day': ' date_format(sale_date, "%m/%d/%Y") `Sale date`, sum(price) `Total $s sold`, count(*) `Count` ',
             'top 10 sellers': ' seller `Sellers`, sum(price) `Total $s sold`, count(*) `Count` ',
             'top 10 buyers': ' buyer `Buyers`, sum(price) `Total $s sold`, count(*) `Count` ',
@@ -119,7 +119,7 @@ select_all = {
             'none': '',
         },
         'dash_wake_real_estate': {
-            'all': ' pin_num `Parcel ID`, date_format(total_sale_date,"%m/%d/%Y") `Sale date`, seller_line1 `Seller 1`,seller_line2 `Seller 2`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `Address`, dash_wake_real_estate.city `City code`, total_sale_price `Sale price` ',
+            'all': ' concat_ws("|","pin_num",pin_num,"from-date",total_sale_date) `Record ID`, date_format(total_sale_date,"%m/%d/%Y") `Sale date`, seller_line1 `Seller 1`,seller_line2 `Seller 2`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `Address`, dash_wake_real_estate.city `City code`, total_sale_price `Sale price` ',
             'total by day': ' date_format(total_sale_date,"%m/%d/%Y") `Sale date`, sum(total_sale_price) `Total $s sold`, count(*) `Count` ',
 #            'top 10 sellers': '', 
 #wake doesn't have right now
