@@ -148,6 +148,9 @@ def make_index(query=None):
 #map the data type requested to the actual table name
     tables = {'voter': 'nc_voters_new',
                 'health': 'rr',
+                'rr': 'rr',
+                'dash_nh_rr': 'dash_nh_rr',
+                'nc_voters_new': 'nc_voters_new',
                 'property-Buncombe': 'dash_buncombe_property',
                 'realestate-Buncombe': 'dash_buncombe_real_estate',
                 'property-New Hanover': 'dash_nh_property',

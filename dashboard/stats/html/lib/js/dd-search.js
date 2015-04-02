@@ -40,9 +40,13 @@
         
         window.onpopstate = function(e){
             if(e.state){
-                document.getElementById('main-content').innerHTML = e.state.html;                
+                document.getElementById('main-content').innerHTML = e.state.html;
+                make_items_clickable();
             }
-            
+            else {
+                $('#data-tables').empty();
+                add_click();
+            }
         }
         
         function add_click() {
@@ -176,16 +180,20 @@
                 'incidents': 'incidents',
                 'accidents': 'traffic-accidents',
                 'arrests': 'arrests',
-                'citations': 'citations'
+                'citations': 'citations',
+                'rr': 'health-inspections',
+                'dash_nh_rr': 'health-inspections',
+                'nc_voters_new': 'voter-registration'
                 
             }
             var search_url = '/search/county|'
                 + county + detail_param + key + '|data_types|' + data_source;
-            window.location.replace('#!' + search_url);
+//            window.location.replace('#!' + search_url);
             query_data(search_url);
             
-            
         }
+        
+
         
         function build_detail(data_type, data_content){
             var context = {};

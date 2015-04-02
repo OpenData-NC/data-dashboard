@@ -232,7 +232,10 @@
             'incidents': 'incidents',
             'accidents': 'traffic-accidents',
             'arrests': 'arrests',
-            'citations': 'citations'
+            'citations': 'citations',
+            'rr': 'health-inspections',
+            'dash_nh_rr': 'health-inspections',
+            'nc_voters_new': 'voter-registration'
             
         }
         var search_url = 'http://beta.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'

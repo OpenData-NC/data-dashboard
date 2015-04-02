@@ -39,6 +39,11 @@
                   'to-date': '(activity_date >= "%s" and activity_date <= "%s")',
                   'street-number': 'addr_line1 like "%s %%"',
                   'street-name': 'addr_line1 like "%%%s%%"', 'city': 'addr_city = "%s"', 'zip-code': 'addr_zip5 = "%s"'},
+    'dash_nh_rr': {'facility_id': 'facility_id = "%s"', 'first-name': 'fac_name like "%%%s%%"', 'last-name': 'fac_name like "%s%%"',
+                  'location-name': 'fac_name like "%%%s%%"', 'county': 'county = "%s"', 'from-date': 'activity_date = "%s"',
+                  'to-date': '(activity_date >= "%s" and activity_date <= "%s")',
+                  'street-number': 'addr_line1 like "%s %%"',
+                  'street-name': 'addr_line1 like "%%%s%%"', 'city': 'addr_city = "%s"', 'zip-code': 'addr_zip5 = "%s"'},
     'dash_buncombe_property': {'first-name': '(owner1_firstname like "%s%%" or owner2_firstname like "%s%%")',
                   'last-name': '(owner1_lastname = "%s" or owner2_lastname = "%s")',
                   'from-date': 'deeddate = "%s"',
@@ -107,9 +112,9 @@ detail_selects = {
     'arrests' : 'if(id_generate=1,"N/A",record_id) as record_id, agency, name, if(age=0,"",age) as age, race, sex, date_format(date_occurred,"%%m/%%d/%%Y %%h:%%i %%p") as date_occurred, address, arrests.charge, category, offense_code, reporting_officer, replace(pdf,"/home/vaughn.hagerty/crime-scrapers","http://pdf.open-nc.org") as pdf',
     'citations': 'if(id_generate=1,"N/A",record_id) as record_id, agency, name, if(age=0,"",age) as age, race, sex, date_format(date_occurred,"%%m/%%d/%%Y %%h:%%i %%p") as date_occurred, address, charge',
     'accidents' : 'if(id_generate=1,"N/A",record_id) as record_id, agency, name1, name2, date_format(date_occurred,"%%m/%%d/%%Y %%h:%%i %%p") as date_occurred, address, reporting_officer, replace(pdf,"/home/vaughn.hagerty/crime-scrapers","http://pdf.open-nc.org") as pdf',
-    'rr': 'select fac_name, addr_line1, addr_city, addr_zip5, date_format(activity_date, "%m/%d/%Y") as activity_date, activity_final_score, replace(";","<p>",item_comments) as item_comments',
-    'dash_nh_rr': 'select fac_name, addr_line1, addr_city, addr_zip5, date_format(activity_date, "%m/%d/%Y") as activity_date, activity_final_score, replace(";","<p>",item_comments) as item_comments',
-    'nc_voters_new':'concat_ws(" ",if(length(trim(name_prefx_cd)), trim(name_prefx_cd), NULL), if(length(trim(first_name)), trim(first_name), NULL), if(length(trim(midl_name)), trim(midl_name), NULL), if(length(trim(last_name)), trim(last_name), NULL), if(length(trim(name_sufx_cd)), trim(name_sufx_cd), NULL) ) as name, res_street_address, res_city_desc, state_cd res_state_cd, zip_code res_zip_code, concat_ws(", ", if(length(trim(mail_addr1)), trim(mail_addr1), NULL), if(length(trim(mail_addr2)), trim(mail_addr2), NULL), if(length(trim(mail_addr3)), trim(mail_addr3), NULL), if(length(trim(mail_addr4)), trim(mail_addr4), NULL) ) as mail_addr, mail_city, mail_state, mail_zipcode, full_phone_number, race_code, ethnic_code, party_cd, gender_code, birth_age, birth_place, drivers_lic, date_format(registr_dt, "%m/%d/%Y") as registr_dt, voter_reg_num, voter_status_desc, voter_status_reason_desc, absent_ind, party_cd, precinct_desc, municipality_desc, ward_desc, cong_dist_abbrv, super_court_abbrv, judic_dist_abbrv, nc_senate_abbrv, nc_house_abbrv, county_commiss_desc, township_desc, school_dist_desc, fire_dist_desc, water_dist_desc, sewer_dist_desc, sanit_dist_desc, rescue_dist_desc, munic_dist_desc, dist_1_desc, dist_2_desc, vtd_desc',
+    'rr': 'fac_name, addr_line1, addr_city, addr_zip5, date_format(activity_date, "%%m/%%d/%%Y") as activity_date, activity_final_score, replace(item_comments,";","<p>") as item_comments',
+    'dash_nh_rr': 'fac_name, addr_line1, addr_city, addr_zip5, date_format(activity_date, "%%m/%%d/%%Y") as activity_date, activity_final_score, replace(item_comments,";","<p>") as item_comments',
+    'nc_voters_new':'concat_ws(" ",if(length(trim(name_prefx_cd)), trim(name_prefx_cd), NULL), if(length(trim(first_name)), trim(first_name), NULL), if(length(trim(midl_name)), trim(midl_name), NULL), if(length(trim(last_name)), trim(last_name), NULL), if(length(trim(name_sufx_cd)), trim(name_sufx_cd), NULL) ) as name, res_street_address, res_city_desc, state_cd res_state_cd, zip_code res_zip_code, concat_ws(", ", if(length(trim(mail_addr1)), trim(mail_addr1), NULL), if(length(trim(mail_addr2)), trim(mail_addr2), NULL), if(length(trim(mail_addr3)), trim(mail_addr3), NULL), if(length(trim(mail_addr4)), trim(mail_addr4), NULL) ) as mail_addr, mail_city, mail_state, mail_zipcode, full_phone_number, race_code, ethnic_code, party_cd, gender_code, birth_age, birth_place, drivers_lic, date_format(registr_dt, "%%m/%%d/%%Y") as registr_dt, voter_reg_num, voter_status_desc, voter_status_reason_desc, absent_ind, party_cd, precinct_desc, municipality_desc, ward_desc, cong_dist_abbrv, super_court_abbrv, judic_dist_abbrv, nc_senate_abbrv, nc_house_abbrv, county_commiss_desc, township_desc, school_dist_desc, fire_dist_desc, water_dist_desc, sewer_dist_desc, sanit_dist_desc, rescue_dist_desc, munic_dist_desc, dist_1_desc, dist_2_desc, vtd_desc',
 
 }
 
@@ -122,6 +127,7 @@ joins = {
     'accidents': '',
     'nc_voters_new': '',
     'rr': ' inner join rr_counties on county_id = c_id ',
+    'dash_nh_rr': ' inner join rr_counties on county_id = c_id ',
     'dash_buncombe_property': '',
     'dash_buncombe_real_estate': '',
     'dash_nh_property': '',
