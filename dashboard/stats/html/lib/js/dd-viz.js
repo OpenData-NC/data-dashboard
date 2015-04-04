@@ -238,7 +238,7 @@
             'nc_voters_new': 'voter-registration'
             
         }
-        var search_url = 'http://beta.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
+        var search_url = 'http://data.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
             + county + detail_param + key + '|data_types|' + data_source;
         window.location.assign(search_url);
         

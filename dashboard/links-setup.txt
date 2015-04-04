@@ -1,0 +1,16 @@
+﻿sudo rm arrests/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html arrests/index.html
+sudo rm citations/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html citations/index.html
+sudo rm health-inspections/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html health-inspections/index.html
+sudo rm incidents/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html incidents/index.html
+sudo rm property-tax/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html property-tax/index.html
+sudo rm real-estate/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html real-estate/index.html
+sudo rm traffic-accidents/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html traffic-accidents/index.html
+sudo rm voter-registration/index.html
+sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html voter-registration/index.html
