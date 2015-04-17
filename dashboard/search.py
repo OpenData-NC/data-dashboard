@@ -62,8 +62,8 @@ def build_query(data_type, params):
                 continue;
             query_string.append(search_items[param])
             query_vals.append(params[param])
-            if data_type in config.name_counts and (param == 'first-name' or param == 'last-name'):
-                for i in range(0, config.name_counts[data_type]):
+            if data_type in config.name_counts and param in config.name_counts[data_type]:
+                for i in range(0, config.name_counts[data_type][param]):
                     query_vals.append(params[param])
     if 'detail' in params:
         selects = config.detail_selects

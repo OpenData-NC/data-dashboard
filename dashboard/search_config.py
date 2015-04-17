@@ -157,7 +157,17 @@ skip_params = ['from-date','to-date','data_types']
 skip_dates = ['nc_voters_new','dash_nh_property']
 #some tables have numerous name fields, so we have to account for that when building our query. 
 #The number is how many times in addition to the first that we'll use a name string in building a query (e.g. 1 = 2 times, 3 = 4, etc.)
-name_counts = {'accidents': 1, 'dash_buncombe_property': 1, 'dash_buncombe_real_estate': 3,'dash_nh_property': 1, 'dash_nh_real_estate': 1,'dash_wake_property': 1, 'dash_wake_real_estate': 1 }
+#name_counts = {'accidents': 1, 'dash_buncombe_property': 1, 'dash_buncombe_real_estate': 3,'dash_nh_property': 1, 'dash_nh_real_estate': 1,'dash_wake_property': 1, 'dash_wake_real_estate': 1 }
+name_counts = {
+    'accidents': {'first-name':1, 'last-name': 1},
+    'dash_buncombe_property': {'first-name':1, 'last-name': 1}, 
+    'dash_buncombe_real_estate': {'first-name':3, 'last-name': 3, 'buyer-first-name': 1, 'buyer-last-name': 1,
+    'seller-first-name': 1, 'seller-last-name': 1},
+    'dash_nh_property': {'first-name':1, 'last-name': 1}, 
+    'dash_nh_real_estate': 1,
+    'dash_wake_property': {'first-name':1, 'last-name': 1 }, 
+    'dash_wake_real_estate': {'first-name':1, 'last-name': 1, 'buyer-first-name':1, 'buyer-last-name': 1 }
+}
 #we don't use the county in these tables. they don't have a county field because they're already county-specific.
 skip_counties = ['dash_buncombe_property','dash_buncombe_real_estate','dash_nh_property', 'dash_nh_real_estate','dash_wake_property', 'dash_wake_real_estate']
 #no seller data in wake
