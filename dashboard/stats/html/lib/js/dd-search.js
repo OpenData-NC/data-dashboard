@@ -8,7 +8,35 @@
                     'Sale date': format_date,
                     'Sale price': format_currency,
                     'Count': format_number,
-                    'Record ID': format_detail
+                    'Record ID': format_detail,
+                    'REAL-ASSVAL': format_currency_detail,
+                    'LAND-ASSVAL': format_currency_detail,
+                    'EXFEAT-ASSVAL': format_currency_detail,
+                    'BLDG-ASSVAL': format_currency_detail,
+                    'USE-ASSVAL': format_currency_detail,
+                    'APP-LAND-VAL': format_currency_detail,
+                    'APP-FEAT-VAL': format_currency_detail,
+                    'APP-BLDG-VAL': format_currency_detail,
+                    
+                    'TaxableVal': format_currency_detail,
+                    'LandMarket': format_currency_detail,
+                    'BldgMarket': format_currency_detail,
+                    'ImprMarket': format_currency_detail,
+                    'DfrdMarket': format_currency_detail,
+                    'DeedDate': format_date_detail,
+                    'SellingPrice': format_currency_detail,
+                    'SellDate': format_date_detail,
+                    'price': format_currency_detail,
+                    'sale_date': format_date_detail,
+                    'BUILDING_ASSESSED_VALUE': format_currency_detail,
+                    'LAND_ASSESSED_VALUE': format_currency_detail,
+                    'TOTAL_SALE_PRICE': format_currency_detail,
+                    'LAND_SALE_PRICE': format_currency_detail,
+                    'LAND_DEF_AMOUNT': format_currency_detail,
+                    'TOT_SCH_VAL_ASSD': format_currency_detail,
+                    'TOTAL_SALE_DATE': format_date_detail,
+                    'LAND_SALE_DATE': format_date_detail,
+                    'DEED_DATE': format_date_detail,
                 };
             //determine the data type
         var heading_types = {
@@ -183,7 +211,13 @@
                 'citations': 'citations',
                 'rr': 'health-inspections',
                 'dash_nh_rr': 'health-inspections',
-                'nc_voters_new': 'voter-registration'
+                'nc_voters_new': 'voter-registration',
+                'dash_nh_property': 'property-tax',
+                'dash_nh_real_estate': 'real-estate',
+                'dash_buncombe_property': 'property-tax',
+                'dash_buncombe_real_estate': 'real-estate',
+                'dash_wake_property': 'property-tax',
+                'dash_wake_real_estate': 'real-estate',
                 
             }
             var search_url = '/search/county|'
@@ -198,7 +232,7 @@
         function build_detail(data_type, data_content){
             var context = {};
             data_content.headings.forEach(function(key, i){
-                context[key] = data_content.data[0][i];
+                context[key] = data_formats[key]? data_formats[key](data_content.data[0][i]): data_content.data[0][i];
             });
             var hb_temp_path = '/lib/templates/' + data_type + '.handlebars';
             $.get(hb_temp_path, function(data) {
@@ -235,7 +269,7 @@
             data.addRows(formatted_table_data.data);
             var options = {page:'enable',pageSize: page_size, allowHtml: true};
             var table_div_id = 'data-table-' + data_type;
-            var table_div = '<h2 style="text-transform: capitalize">' + data_type + ': ' + data_content.data.length + ' records</h2><div style="width:100%" id="' + table_div_id + '"></div>';
+            var table_div = '<h2 style="text-transform: capitalize">' + data_type.replace('estate',' estate') + ': ' + data_content.data.length + ' records</h2><div style="width:100%" id="' + table_div_id + '"></div>';
             $('#data-tables').append(table_div);
             var table = new google.visualization.Table(document.getElementById(table_div_id));
             google.visualization.events.addListener(table, 'ready', function(){
@@ -294,6 +328,29 @@
                 , decimal_places = currency?2:0
                 , formatted = prefix + number.formatNumber(decimal_places)
             return {v: number, f: formatted };
+        }
+
+        function format_currency_detail(number) {
+            return format_number_detail(number, '$');
+        }
+        function format_number_detail(number, currency) {
+            if(typeof number !== 'number') {
+                try {
+                    number = parseFloat(a);
+                }
+                catch(err) {
+                    return 'Cannot format ' + number;
+                }
+            }
+            var prefix = currency || ''
+                , decimal_places = currency?2:0
+                , formatted = prefix + number.formatNumber(decimal_places)
+            return formatted;           
+        }
+        function format_date_detail(date_string) {
+            var d = new Date(date_string + 'T00:00:00-05:00');
+            return d.toLocaleDateString();
+            
         }
         
         function format_detail(record_key, data_source) {

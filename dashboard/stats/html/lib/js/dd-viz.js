@@ -235,10 +235,17 @@
             'citations': 'citations',
             'rr': 'health-inspections',
             'dash_nh_rr': 'health-inspections',
-            'nc_voters_new': 'voter-registration'
+            'nc_voters_new': 'voter-registration',
+            'dash_nh_property': 'property-tax',
+            'dash_nh_real_estate': 'real-estate',
+            'dash_buncombe_property': 'property-tax',
+            'dash_buncombe_real_estate': 'real-estate',
+            'dash_wake_property': 'property-tax',
+            'dash_wake_real_estate': 'real-estate',
             
         }
-        var search_url = 'http://data.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
+//        var search_url = 'http://data.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
+        var search_url = 'http://beta.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
             + county + detail_param + key + '|data_types|' + data_source;
         window.location.assign(search_url);
         

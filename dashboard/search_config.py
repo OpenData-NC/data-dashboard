@@ -44,7 +44,7 @@
                   'to-date': '(activity_date >= "%s" and activity_date <= "%s")',
                   'street-number': 'addr_line1 like "%s %%"',
                   'street-name': 'addr_line1 like "%%%s%%"', 'city': 'addr_city = "%s"', 'zip-code': 'addr_zip5 = "%s"'},
-    'dash_buncombe_property': {'first-name': '(owner1_firstname like "%s%%" or owner2_firstname like "%s%%")',
+    'dash_buncombe_property': {'parcelid': 'parcelid = "%s"', 'first-name': '(owner1_firstname like "%s%%" or owner2_firstname like "%s%%")',
                   'last-name': '(owner1_lastname = "%s" or owner2_lastname = "%s")',
                   'from-date': 'deeddate = "%s"',
                   'to-date': '(deeddate >= "%s" and deeddate <= "%s")',
@@ -59,12 +59,12 @@
                   'street-number': 'housenum = "%s"',
                   'street-name': 'streetname = "%s"','min-value': 'sellingPrice >= %s', 'max-value': 'sellingPrice <= %s'},
 
-    'dash_nh_property': {'first-name': '(owner like "%%%s%%" or `co-owner` like "%%%s%%")',
+    'dash_nh_property': {'pid': 'pid = "%s"', 'first-name': '(owner like "%%%s%%" or `co-owner` like "%%%s%%")',
                   'last-name': '(owner like "%s%%" or `co-owner` like "%s%%")',
                   'street-number': '`situs-num` like "%%%s"',
                   'street-name': '`situs-street` like "%s%%"', 'min-value': '`real-assval` >= %s', 'max-value': '`reall-assval` <= %s'},
 
-    'dash_nh_real_estate': {'pid': 'pid = "%s"', 'first-name': '(seller like "%s%%" or buyer like "%s%%")',
+    'dash_nh_real_estate': {'pid': 'pid = "%s"', 'instrument': 'instrument = "%s"', 'buyer': 'buyer = "%s"', 'seller': 'seller = "%s"', 'first-name': '(seller like "%s%%" or buyer like "%s%%")',
                   'last-name': '(seller like "%% %s" or buyer like "%% %s")',
                   'buyer-first-name': 'buyer like "%s%%"', 'buyer-last-name': 'buyer like "%% %s"',
                   'seller-first-name': 'seller like "%s%%"', 'seller-last-name': 'seller like "%% %s"',                      
@@ -73,14 +73,14 @@
                   'street-number': 'address like "%s %%"',
                   'street-name': 'address like "%%%s%%"', 'min-value': 'price >= %s', 'max-value': 'price <= %s'},
 
-    'dash_wake_property': {'first-name': '(owner_line1 like "%s%%" or owner_line2 like "%s%%")',
+    'dash_wake_property': {'pin_num': 'pin_num = "%s"', 'card_number': 'card_number = "%s"', 'first-name': '(owner_line1 like "%s%%" or owner_line2 like "%s%%")',
                   'last-name': '(owner_line1 like "%% %s" or owner_line1 like "%% %s")',
                   'from-date': 'total_sale_date = "%s"',
                   'to-date': '(total_sale_date >= "%s" and total_sale_date <= "%s")',
                   'street-number': 'site_address_street_number = "%s"',
                   'street-name': 'site_address_street_name = "%s"', 'min-value': 'sum(building_assessed_value,land_assessed_value) >= %s', 'max-value': 'sum(building_assessed_value,land_assessed_value) <= %s'},
 
-    'dash_wake_real_estate': {'pin_num': 'pin_num = "%s"', 'first-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
+    'dash_wake_real_estate': {'pin_num': 'pin_num = "%s"', 'card_number': 'card_number = "%s"', 'first-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
                   'last-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
                   'buyer-first-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")', 'buyer-last-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
                   'seller-first-name': '', 'seller-last-name': '',     #no seller data in wake                 
@@ -97,12 +97,12 @@ selects = {
     'accidents': 'concat_ws("|", "record_id", record_id, "agency", agency) `Record ID`, agency `Agency`, name1 `Driver 1`, name2 `Driver 2`, date_format(date_occurred,"%%m/%%d/%%Y") `Date occurred`, address `Address`, if(pdf="" or pdf is null, "N/A", pdf) `View report`',
     'nc_voters_new': 'concat_ws("|", "ncid", ncid) `Record ID`, voter_reg_num `Voter reg. num.`, first_name `First name`, last_name `Last name`, res_street_address `Address` , res_city_desc `City`, zip_code `Zip code`',
     'rr': 'concat_ws("|","facility_id",facility_id,"from-date",activity_date) `Record ID`, fac_name `Facility name`, addr_line1 `Address`, addr_city `City`, addr_zip5 `ZIP code`,date_format(activity_date,"%%m/%%d/%%Y") `Insp. date`, activity_final_score `Score`',
-    'dash_buncombe_property': 'parcelid `Parcel ID`, concat_ws(" ", owner1_firstname, owner1_lastname) `Owner 1`, concat_ws(" ", owner2_firstname, owner2_lastname) `Owner 2`, date_format(deeddate,"%%m/%%d/%%Y") `Deed date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, taxableval `Tax value`',
-    'dash_buncombe_real_estate': 'parcelid `Parcel ID`, concat_ws(" ", seller1_fname, seller1_lname) `Seller 1`, concat_ws(" ", seller2_fname, seller2_lname) `Seller 2`, concat_ws(" ", buyer1_fname, buyer1_lname) `Buyer 1`, concat_ws(" ", buyer2_fname, buyer2_lname) `Buyer 2`,date_format(selldate,"%%m/%%d/%%Y") `Sale date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, sellingprice `Sale price`',
-    'dash_nh_property': 'pid `Parcel ID`, owner `Owner 1`, `co-owner` `Owner 2`, concat_ws(" ", `situs-num`, `situs-street`) `Address`, `situs-city` `City code`, `real-assval` `Tax value`',
-    'dash_nh_real_estate': 'pid `Parcel ID`, seller `Seller`, buyer `Buyer`, date_format(sale_date,"%%m/%%d/%%Y") `Sale date`, address `Address`, city `City`, price `Sale price`',
-    'dash_wake_property': 'pin_num `Parcel ID`, owner_line1 `Owner 1`, owner_line2 `Owner 2`, date_format(deed_date,"%%m/%%d/%%Y") `Deed date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, sum(building_assessed_value,land_assessed_value) `Tax value`',
-    'dash_wake_real_estate': 'pin_num `Parcel ID`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, date_format(total_sale_date,"%%m/%%d/%%Y") `Sale date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, total_sale_price `Sale price`'
+    'dash_buncombe_property': 'concat_ws("|","parcelid",parcelid) `Record ID`, parcelid `Parcel ID`, concat_ws(" ", owner1_firstname, owner1_lastname) `Owner 1`, concat_ws(" ", owner2_firstname, owner2_lastname) `Owner 2`, date_format(deeddate,"%%m/%%d/%%Y") `Deed date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, taxableval `Tax value`',
+    'dash_buncombe_real_estate': 'concat_ws("|","parcelid",parcelid,"from-date",selldate) `Record ID`, parcelid `Parcel ID`, concat_ws(" ", seller1_fname, seller1_lname) `Seller 1`, concat_ws(" ", seller2_fname, seller2_lname) `Seller 2`, concat_ws(" ", buyer1_fname, buyer1_lname) `Buyer 1`, concat_ws(" ", buyer2_fname, buyer2_lname) `Buyer 2`,date_format(selldate,"%%m/%%d/%%Y") `Sale date`, concat_ws(" ", housenum, housesuffix, streetdirection, streetname, streettype) `address`, citycode `City code`, sellingprice `Sale price`',
+    'dash_nh_property': 'concat_ws("|", "pid", pid) `Record ID`, pid `Parcel ID`, owner `Owner 1`, `co-owner` `Owner 2`, concat_ws(" ", `situs-num`, `situs-street`) `Address`, `situs-city` `City code`, `real-assval` `Tax value`',
+    'dash_nh_real_estate': 'concat_ws("|", "pid", pid, "from-date", sale_date, "instrument", instrument, "buyer", buyer, "seller", seller) `Record ID`, pid `Parcel ID`, seller `Seller`, buyer `Buyer`, date_format(sale_date,"%%m/%%d/%%Y") `Sale date`, address `Address`, city `City`, price `Sale price`',
+    'dash_wake_property': 'concat_ws("|", "pin_num", pin_num, "card_number", card_number, "from-date",total_sale_date) `Record ID`, pin_num `Parcel ID`, owner_line1 `Owner 1`, owner_line2 `Owner 2`, date_format(deed_date,"%%m/%%d/%%Y") `Deed date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, sum(building_assessed_value,land_assessed_value) `Tax value`',
+    'dash_wake_real_estate': 'concat_ws("|", "pin_num", pin_num, "card_number", card_number) `Record ID`, pin_num `Parcel ID`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, date_format(total_sale_date,"%%m/%%d/%%Y") `Sale date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, total_sale_price `Sale price`'
 #        'nc_voters': 'voter_reg_num `Voter reg. num.`, first_name `First name`, last_name `Last name`, res_street_address `Address` , res_city_desc `City`, zip_code `Zip code`, full_phone_number `Phone num.`',
 }
 
@@ -115,6 +115,12 @@ detail_selects = {
     'rr': 'fac_name, addr_line1, addr_city, addr_zip5, date_format(activity_date, "%%m/%%d/%%Y") as activity_date, activity_final_score, replace(item_comments,";","<p>") as item_comments',
     'dash_nh_rr': 'fac_name, addr_line1, addr_city, addr_zip5, date_format(activity_date, "%%m/%%d/%%Y") as activity_date, activity_final_score, replace(item_comments,";","<p>") as item_comments',
     'nc_voters_new':'concat_ws(" ",if(length(trim(name_prefx_cd)), trim(name_prefx_cd), NULL), if(length(trim(first_name)), trim(first_name), NULL), if(length(trim(midl_name)), trim(midl_name), NULL), if(length(trim(last_name)), trim(last_name), NULL), if(length(trim(name_sufx_cd)), trim(name_sufx_cd), NULL) ) as name, res_street_address, res_city_desc, state_cd res_state_cd, zip_code res_zip_code, concat_ws(", ", if(length(trim(mail_addr1)), trim(mail_addr1), NULL), if(length(trim(mail_addr2)), trim(mail_addr2), NULL), if(length(trim(mail_addr3)), trim(mail_addr3), NULL), if(length(trim(mail_addr4)), trim(mail_addr4), NULL) ) as mail_addr, mail_city, mail_state, mail_zipcode, full_phone_number, race_code, ethnic_code, party_cd, gender_code, birth_age, birth_place, drivers_lic, date_format(registr_dt, "%%m/%%d/%%Y") as registr_dt, voter_reg_num, voter_status_desc, voter_status_reason_desc, absent_ind, party_cd, precinct_desc, municipality_desc, ward_desc, cong_dist_abbrv, super_court_abbrv, judic_dist_abbrv, nc_senate_abbrv, nc_house_abbrv, county_commiss_desc, township_desc, school_dist_desc, fire_dist_desc, water_dist_desc, sewer_dist_desc, sanit_dist_desc, rescue_dist_desc, munic_dist_desc, dist_1_desc, dist_2_desc, vtd_desc',
+    'dash_nh_property': '*',
+    'dash_nh_real_estate': '*',
+    'dash_buncombe_property': '*',
+    'dash_buncombe_real_estate': '*',
+    'dash_wake_property': '*',
+    'dash_wake_real_estate': '*',
 
 }
 
