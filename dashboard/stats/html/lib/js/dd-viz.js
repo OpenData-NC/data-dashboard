@@ -244,8 +244,13 @@
             'dash_wake_real_estate': 'real-estate',
             
         }
+        var base_re = /(.+org\/)/;
+        var base_match = base_re.exec(location.href);
+        var base_url = base_match[1];        
+ 
 //        var search_url = 'http://data.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
-        var search_url = 'http://beta.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
+//        var search_url = 'http://beta.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
+        var search_url = base_url + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
             + county + detail_param + key + '|data_types|' + data_source;
         window.location.assign(search_url);
         

@@ -66,8 +66,8 @@
 
     'dash_nh_real_estate': {'pid': 'pid = "%s"', 'instrument': 'instrument = "%s"', 'buyer': 'buyer = "%s"', 'seller': 'seller = "%s"', 'first-name': '(seller like "%s%%" or buyer like "%s%%")',
                   'last-name': '(seller like "%% %s" or buyer like "%% %s")',
-                  'buyer-first-name': 'buyer like "%s%%"', 'buyer-last-name': 'buyer like "%% %s"',
-                  'seller-first-name': 'seller like "%s%%"', 'seller-last-name': 'seller like "%% %s"',                      
+                  'buyer-first-name': 'buyer like "%%%s%%"', 'buyer-last-name': 'buyer like "%%%s%%"',
+                  'seller-first-name': 'seller like "%%%s%%"', 'seller-last-name': 'seller like "%%%s%%"',                      
                   'from-date': 'sale_date = "%s"',
                   'to-date': '(sale_date >= "%s" and sale_date <= "%s")',
                   'street-number': 'address like "%s %%"',
@@ -164,7 +164,7 @@ name_counts = {
     'dash_buncombe_real_estate': {'first-name':3, 'last-name': 3, 'buyer-first-name': 1, 'buyer-last-name': 1,
     'seller-first-name': 1, 'seller-last-name': 1},
     'dash_nh_property': {'first-name':1, 'last-name': 1}, 
-    'dash_nh_real_estate': 1,
+    'dash_nh_real_estate': {'first-name':1, 'last-name': 1},
     'dash_wake_property': {'first-name':1, 'last-name': 1 }, 
     'dash_wake_real_estate': {'first-name':1, 'last-name': 1, 'buyer-first-name':1, 'buyer-last-name': 1 }
 }
