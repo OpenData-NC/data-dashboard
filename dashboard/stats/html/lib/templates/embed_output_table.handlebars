@@ -1,0 +1,67 @@
+        <!--START EMBED-->
+        <style type="text/css">
+            td.string-filter-td {
+                padding-bottom: 15px
+            }
+            .google-visualization-controls-label {
+                vertical-align: middle !important;
+                text-align: left;
+                width: 70px !important;
+
+            }
+            .goog-menu-button-dropdown {
+                height: 12px !important;
+            }
+            .google-visualization-table-tr-head, .google-visualization-table-tr-head td, .google-visualization-table-tr-head th, .google-visualization-table-tr-head-nonstrict {
+                text-align: left !important;
+                padding-left: 5px !important;
+                line-height: 1.2em !important;
+                border: 1px solid #FFF;
+                background: #efefef !important;
+            }
+            .a-d-e { font-size: 13px;}
+
+            .row {
+                padding: 1em;
+                margin-bottom: 1em;
+
+            }
+            .google-visualization-table-page-numbers .page-number { 
+                font-family: Arial, sans-serif; 
+                font-size: 10px !important;
+            }
+            .source-creds {
+                clear: both;
+                font: 10px Arial, sans-serif; 
+                padding-top: .5em;
+                padding-left: 2px; 
+                line-height: 25%;
+            }
+            .open-nc-embed-div {
+                width: {{width}}px;
+                padding: 0;
+            }
+        </style>
+        <div class="open-nc-embed-div" style="width: {{width}}px;">
+            <div id="open-nc-embed"></div>
+                <div class="source-creds">
+                    <p>Source: {{{source}}}</p>
+                    Powered by <a href="http://www.open-nc.org" target="_blank">Open-NC.org</a>.
+                </div>
+        </div>
+        <{{script}} src="https://www.google.com/jsapi"></{{script}}>
+        <{{script}}>
+            google.load("visualization", "1", {packages:["corechart","table"]});
+            google.setOnLoadCallback(init);
+            function init() {
+                var data = new google.visualization.{{array_to}}DataTable({{{data}}});
+                var options = {{{options}}};
+                data = new google.visualization.DataView(data);
+                data.setColumns({{{view}}});
+                var chart = new google.visualization.{{viz_type}}(document.getElementById('open-nc-embed'));
+                chart.draw(data, options);                
+            }
+        </{{script}}>
+
+        
+        <!--END EMBED-->

@@ -1,0 +1,52 @@
+        <form id="table-widget-form" class="widget-form">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Table appearance and fields</h4>
+                </div>
+                <div class="col-md-12 col-xs-10">
+					<div class="checkbox">
+                        <b>Fields to show</b>
+                        {{#each headings}}
+                        <label class="checkbox">
+                            <input type="checkbox" name="table-fields" class="table-fields" value="{{this.index}}" checked>
+                            {{this.label}}
+                        </label>
+                        {{/each}}
+					</div>
+                </div>
+                <div class="col-md-4 col-xs-10">
+					<div class="radio">
+							<b>Page results?</b><br /><br />
+							<label class="radio-inline">
+								<input type="radio" id="page-results-yes" name="page-results" class="form control graph-change-param" value="enable" data-option="page" checked>
+								Yes
+							</label>
+							<label class="radio-inline">
+								<input type="radio" id="page-results-no" name="page-results" class="form control graph-change-param" value="disable" data-option="page">
+								No
+							</label>
+					</div>
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="table-page-size" class="control-label">Results per page</label>
+                        <input type="number" class="form-control graph-change-param" id="table-page-size" data-option="pageSize">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Table dimensions</h4>
+                    <p>Recommend width of at least 600. Height will vary, depending on the data.</p>
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="table-width" class="control-label">Table width</label>
+                        <input type="number" class="form-control graph-change-param" id="graph-width" data-option="width">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: .5em">
+                <div class="col-md-8">
+                    <button type="button" class="btn btn-default" id="graph-change-button">Change</button>
+                    <button class="btn btn-default" type="button" id="graph-change-reset">Reset</button>
+                </div>
+            </div>
+        </form>

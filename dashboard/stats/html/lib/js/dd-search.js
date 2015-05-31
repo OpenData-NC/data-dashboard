@@ -1,5 +1,11 @@
 ﻿    (function(){
-        google.load("visualization", "1", {packages:["table"]});
+        google.load("visualization", "1", {packages:["corechart","table"]});
+//widget configs
+        var graph_configs = {}
+            , which_graph
+            
+            , table_options = {page:"enable",pageSize:8, allowHtml: true, width: 700};
+        
         var data_formats = {
                     'Total $s sold': format_currency,
                     'Tax value': format_currency,
@@ -269,8 +275,10 @@
             data.addRows(formatted_table_data.data);
             var options = {page:'enable',pageSize: page_size, allowHtml: true};
             var table_div_id = 'data-table-' + data_type;
-            var table_div = '<h2 style="text-transform: capitalize">' + data_type.replace('estate',' estate') + ': ' + data_content.data.length + ' records</h2><div style="width:100%" id="' + table_div_id + '"></div>';
+            var table_div = '<div><h2 style="text-transform: capitalize; display:inline">' + data_type.replace('estate',' estate') + ': ' + data_content.data.length + ' records</h2> <button type="button" style="margin-left: 3em; margin-bottom: 1em;" class="btn btn-default" id="dd-make-widget">Create visualization</button></div><div style="width:100%" id="' + table_div_id + '"></div>';
             $('#data-tables').append(table_div);
+            
+            
             var table = new google.visualization.Table(document.getElementById(table_div_id));
             google.visualization.events.addListener(table, 'ready', function(){
                 
@@ -283,6 +291,11 @@
                 });
             });
             table.draw(data,options);
+            $('#dd-make-widget').click(function(e) {
+                e.preventDefault();
+                show_widget_wizard(data.toJSON(), data_type, county);
+            });
+//            console.log(data.toJSON());
         }
         function format_data(data, data_source) {
             var headings = []
@@ -313,6 +326,425 @@
             data.headings = headings;
             return data;
         }
+        //widget stuff starts here
+        function hide_widget_wizard() {
+            $('#open-nc-widget').remove();
+            $('#dd-form, #data-tables').show('slow');            
+        }
+        function show_widget_wizard(data, data_type, county) {
+            $('#dd-form, #data-tables').hide('slow')
+            $('#dd-form').before('<div id="open-nc-widget" style="width: 600px"><button type="button" class="btn btn-default" id="hide-widget-wizard">Back to search results</div>');
+            $('#hide-widget-wizard').click( function(e) {
+                hide_widget_wizard();
+            });
+            show_available_graphs(JSON.parse(data), data_type, county);
+        }
+
+        function show_available_graphs(table_data, data_type, county) {
+       //     console.log(table_data);
+                
+            var skip_labels = ['Record ID', 'View report']
+                , skip_labels_table = ['Record ID']
+                , headings = []
+                , table_headings = []
+                , skip_indexes = []
+                , too_many = []
+                , data_and_msg
+                , graph_type;
+            //table stuff here    
+            table_data.cols.forEach(function(col, index) {
+                if(skip_labels.indexOf(col.label) < 0) {
+                    headings.push({label:col.label, index: index});
+    //                group_on({label:col.label, index: index});
+                }
+                if (skip_labels_table.indexOf(col.label) < 0){
+                   table_headings.push(col);
+                }
+                else {
+                    skip_indexes.push(index);
+                }
+            });
+            headings.forEach(function(heading) {
+                data_and_msg = group_on(heading.label, data_type, headings, table_data.rows);
+                
+                if(data_and_msg['msg']) {
+                    too_many.push(data_and_msg['msg']);
+                }
+
+            });
+            var source = find_source(county, data_type, headings, table_data.rows);
+            make_table(table_data, table_headings, skip_indexes);
+            if(too_many.length > 0) {
+                var msg = '<div class="dd-graphs"><p><b>The following fields have too many unique values to reasonably graph:</b></p>' + too_many.join("\n") + '</div>';
+                $('#open-nc-widget').append(msg);
+
+            }
+
+
+            //pull out into own function
+            $('.graph-option').click(function() {
+                which_graph = $(this).data('which');
+                var graph_config = graph_configs[which_graph];
+    //            console.log(graph_config);
+                $('.dd-graphs').each(function(index, el) {
+                    if($(this).attr('id') !== ('holder-' + which_graph)) {
+                        $(this).hide('slow');
+                    }
+                });
+                $(this).after('<button class="btn btn-default graph-show-all">Back to all graphs</button>');
+                $(this).hide();
+                $('.graph-show-all').after(' <button class="btn btn-default graph-show-code" style"margin-left: 5px">Get code</button>');
+                $('.graph-show-code').click(function(e) {
+                    e.preventDefault();
+                    var graph_type = graph_config['graph_type'];
+                    var output_template = '_graph';
+                    var height = parseInt($('#graph-height').val()) || 'auto';
+                    var width = parseInt($('#graph-width').val());
+                    var context = {width: width, height: height, source: source, data: JSON.stringify(graph_config['data']), options: JSON.stringify(graph_config['options']), viz_type: graph_type ,script: 'script'};
+                    if(graph_type !== 'Table'){
+                        context['array_to'] = 'arrayTo';
+                    }
+                    else {
+                        context['view'] = JSON.stringify(graph_config.view);
+                        output_template = '_table';
+                        
+                    }
+                    var code = fill_template('embed_output' + output_template,context);
+                    var embed_textarea = fill_template('embed_textarea',{});
+                    $('#' + which_graph).before(embed_textarea);
+                    $('#embed-code').val(code);
+                    $('#embed-code').on('click',function() {
+                        this.select();
+                    });
+                });
+                $('.graph-show-all').click( function(e) {
+                    e.preventDefault();
+                    if(graph_type !== graph_config['graph_type']) {
+                        graph_type = graph_config['graph_type'];
+    //                    show_graph(graph_config['data'],which_graph,graph_config['options'], graph_type);
+                        show_graph(graph_config,which_graph);
+                    }
+                    $('#embed-code-row, .widget-form, .graph-show-code').remove();                
+                    $('.dd-graphs').show('slow');
+                    $(this).remove();
+                    $('.graph-option').show();
+                    $('#graph-change-form').remove();
+                });
+
+                //own function
+                //puts existing values in form
+                var form_template = 'graph_widget_form';
+                var context = {};
+                if(graph_config['graph_type'] === 'Table') {
+                    form_template = 'table_widget_form';
+                    context['headings'] = graph_config['headings'];
+                }
+                var form = fill_template(form_template, context);
+                $('#holder-' + which_graph).append(form);
+                if(graph_config['graph_type'] === 'LineChart') {
+                    $('#graph-change-row').remove();
+                }
+                $('.graph-change-param').each(function(i, el) {
+                    var param = $(this).data('option');
+                    var form_type = $(this).attr('type');
+                    var val;
+                    if(param.indexOf('.') !== -1) {
+                        var keys = param.split('.');
+                        var val_obj = graph_config['options'];
+                        keys.forEach( function(key) {
+                            val_obj = val_obj[key];
+                        });
+                        val = val_obj;
+                    }
+                    else {
+                        if(param === 'colors') {
+                            val = graph_config['options'][param][0];
+                        }
+                        else {
+                            val = graph_config['options'][param];   
+                        }
+                    }
+                    if(form_type === 'radio' || form_type === 'checkbox') {
+                        if($(this).val() === val) {
+                            $(this).attr('checked','checked');
+                        }
+                        
+                    }
+                    else {
+                        $(this).val(val);
+                    }
+                });
+                $('.graph-type').click( function() {
+                    graph_type = $(this).val();
+                    var temp_config = graph_config;
+                    graph_config['graph_type'] = graph_type;
+    //                show_graph(graph_config['data'],which_graph,graph_config['options'], graph_type);
+                    show_graph(graph_config,which_graph);
+                });
+                //puts form values in option obj
+                $('#graph-change-button').click( function(e) {
+                    e.preventDefault();
+                    $('.graph-change-param').each( function(i, el) {
+                        var data_type = $(el).attr('type');
+                        if(data_type === 'number') {
+                            val = parseInt($(el).val());
+                        }
+                        else if (data_type === 'radio' || data_type === 'checkbox') {
+                            if($(el).is(':checked')) {
+                                val = $(el).val();
+                            }
+                        }
+                        else {
+                            val = $(el).val();
+                        }
+                        var param = $(el).data('option');
+                        if(param === 'hAxis.title' && val !== '' && val && (graph_config['graph_type'] === 'ColumnChart' || graph_config['graph_type'] === 'LineChart')) {
+                            graph_config['data'][0][1] = val;
+                        }
+                        if(param === 'vAxis.title' && val !== '' && val && graph_config['graph_type'] === 'BarChart') {
+                            graph_config['data'][0][1] = val;
+                        }
+                        if(param.indexOf('.') !== -1) {
+                            var keys = param.split('.');
+                            var val_obj = {};
+                            var last = keys.length;
+                            var first = keys[0];
+                            for(var i = 1; i < keys.length; i++) {
+                                val_obj[keys[i]] = val;
+                            }
+                            graph_config['options'][first] = val_obj;
+                        }
+                        else {
+                            if(param === 'colors') {
+                                if(graph_config['options']['colors'][0] !== val) {
+                                    
+                                    graph_config['options']['colors'].unshift(val);
+                                }
+                            }
+                            else {
+                                graph_config['options'][param] = val;   
+                            }
+                        }
+                        
+                    });
+                    if(graph_config['graph_type'] === 'Table') {
+                        var show_cols = [];
+                        $('.table-fields').each(function(i, el) {
+                            if($(el).is(':checked')) {
+                                show_cols.push(parseInt($(el).val()));
+                            }
+                        });
+                        graph_config['view'] = show_cols;
+                    }
+    //                show_graph(graph_config['data'],which_graph,graph_config['options'], graph_config['graph_type'], graph_config['view']);
+                    show_graph(graph_config,which_graph);
+                    $('#embed-code-row').remove();                
+                });
+                $('#graph-change-reset').click(function(e) {
+                    e.preventDefault();
+                    $('.graph-change-param').each(function(i, el) {
+                        var param = $(this).data('option');
+                        var form_type = $(this).attr('type');
+                        var val;
+                        if(param.indexOf('.') !== -1) {
+                            var keys = param.split('.');
+                            var val_obj = graph_config['options'];
+                            keys.forEach( function(key) {
+                                val_obj = val_obj[key];
+                            });
+                            val = val_obj;
+                        }
+                        else {
+                            if(param === 'colors') {
+                                val = graph_config['options'][param][0];
+                            }
+                            else {
+                                val = graph_config['options'][param];   
+                            }
+                        }
+                        if(form_type === 'radio' || form_type === 'checkbox') {
+                            if($(this).val() === val) {
+                                $(this).prop('checked',true);
+                            }
+                            else {
+                                $(this).prop('checked', false);
+                            }
+                            
+                        }
+                        else {
+                            $(this).val(val);
+                        }
+                        if(graph_type !== 'ColumnChart') {
+                            graph_type = 'ColumnChart';
+    //                        show_graph(graph_config['data'],which_graph,graph_config['options'], graph_type);
+                            show_graph(graph_config,which_graph);
+                        }
+                    });                
+                });
+            });
+        }
+        
+        function find_source(county, data_type, headings, data){
+            var crime = ['incidents', 'arrests', 'accidents', 'citations']
+                , agencyIndex
+                , source;
+            var others = {
+                'realestate': ' County Tax Office',
+                'property': ' County Tax Office',
+                'health': ' County Health Department',
+                'voter': 'N.C. Board of Elections'
+            }
+            if (crime.indexOf(data_type) !== -1) {
+                headings.forEach(function(heading) {
+                    if(heading.label === 'Agency') {
+                        agencyIndex = heading.index;
+                    }
+                    
+                });
+                var agencies = [];
+                data.forEach(function(row) {
+                    if (agencies.indexOf(row.c[agencyIndex].v) < 0) {
+                        agencies.push(row.c[agencyIndex].v);
+                    }
+                });
+                source = agencies.sort().join(", ");
+            }
+            else {
+                source = county.toUpperCase() + others['data_type'];
+            }
+            return source;
+        }
+
+        function fill_template(id,context) {
+            var hb_temp_path = '/lib/templates/' + id + '.handlebars';
+            var compiled_temp = null;
+            $.ajax({
+                url: hb_temp_path,
+                type: 'get',
+                dataType: 'html',
+                async: false,
+                success: function(data) {
+                    result = data;
+                    compiled_temp = Handlebars.compile(data);
+                }
+            });
+            return compiled_temp(context);
+
+        } 
+        
+        //group_on('Category', headings, table_data.rows);
+        //show headings to pick
+        function group_on(field, data_type, headings, data, options) {
+            var index = index_wanted(field, headings)
+    //            , date_labels = ['Date occurred', 'Date reported', 'Sale date', 'Insp. date']
+                , date_labels = []
+                , grouped = {}
+                , grouped_array = [[field,"Count"]]
+                , msg
+                , max = 50;
+                var options = options || init_options(field, data_type);
+            data.forEach(function(row) {
+                var val = row.c[index].f || row.c[index].v;
+                if(!grouped[val]) { grouped[val] = 0}
+                grouped[val]++;
+            });
+            $.each(grouped, function(heading, count) {
+                grouped_array.push([heading, count]);
+            });
+            var graph_div = 'graph-div-' + index;
+            var graph_holder = 'holder-' + graph_div;
+            var graph_type = date_labels.indexOf(field) !== -1 ? 'LineChart' : 'ColumnChart';
+            var how_many = grouped_array.length - 1;
+            if(how_many > max && graph_type === 'ColumnChart') {
+                msg = '<p>' + field + ' (' + how_many + ')</p>';
+            }
+            else {
+                $('#open-nc-widget').append('<div id="' + graph_holder + '" class="dd-graphs"></div>');
+                $('#' + graph_holder).append('<div id="' + graph_div + '" class="dd-graph-div"></div>');
+                graph_configs[graph_div] = {'data': grouped_array, 'options': options, 'graph_type': graph_type};
+                show_graph(graph_configs[graph_div],graph_div);
+                $('#' + graph_holder).prepend('<button class="btn btn-default graph-option" data-which="' + graph_div + '">Customize</button>');
+    //            console.log(JSON.stringify(grouped_array));
+            }
+            return {'data': grouped_array, 'msg': msg, 'div': graph_div};
+        }
+        function make_table(table_data, table_headings, skip_indexes){
+            var table_data_rows = table_data.rows.map( function(row) {
+                var new_row = [];
+                row.c.forEach(function (data, index) {
+                    if(skip_indexes.indexOf(index) === -1){
+                        new_row.push(data);
+                    }
+                    row['c'] = new_row;
+                });
+                return row;
+            });
+            var filtered_table_data = {cols: table_headings, rows: table_data_rows};
+            var headings = []
+                ,view = [];
+            table_headings.forEach( function(heading,index) {
+                headings.push({label: heading.label, index: index});
+                view.push(index);
+            });
+            var table_div = 'table-div-1';
+            var table_holder = 'holder-' + table_div;
+            $('#open-nc-widget').append('<div id="' + table_holder + '" class="dd-graphs"></div>');
+            $('#' + table_holder).append('<div id="' + table_div + '" class="dd-graph-div"></div>');
+            $('#' + table_holder).prepend('<button class="btn btn-default graph-option" data-which="' + table_div + '">Customize</button>');
+            graph_configs[table_div] = {'data': filtered_table_data, 'options': table_options, 'graph_type': 'Table', 'headings': headings,'view':view};        
+    //        show_graph(filtered_table_data, table_div, table_options, 'Table');
+            show_graph(graph_configs[table_div],table_div);
+        }
+        function init_options(field, data_type) {
+            var colors = ['#ADCD9E','#8E7098','#F3D469','#E1755F','#7EBEE4'];
+            var options = {
+                title: capitalizeFirstLetter(data_type) + ' by ' + field.toLowerCase(), 
+                width: 700,
+                height: 400,
+                legend: { position: 'right' },
+                colors: colors,
+                hAxis: {title: '', minValue: 0},
+                vAxis: {title: '', minValue: 0},
+                curveType: 'function',
+                animation: {startup: true, easing: 'linear'}
+            };
+            return options;
+        }
+
+    //    function show_graph(graph_data, graph_div, options, graph_type, view) {
+        function show_graph(graph_config, graph_div) {
+    //        console.log(graph_config);
+            var graph_type = graph_config.graph_type || "ColumnChart";
+            if(graph_type === 'Table') {
+                var data = new google.visualization.DataTable(graph_config.data);
+                data = new google.visualization.DataView(data);
+                if(graph_config.view) {
+                    data.setColumns(graph_config.view);
+                }
+            }
+            else {
+                var data = new google.visualization.arrayToDataTable(graph_config.data);
+            }
+            var chart = new google.visualization[graph_type](document.getElementById(graph_div));
+            chart.draw(data, graph_config.options);
+            
+        }
+        
+        function index_wanted(field, headings) {
+            var index;
+            headings.forEach( function(heading) {
+                if(heading.label === field) {
+                    index = heading.index;
+                }
+            });
+            return index;
+            
+        }
+        //from StackOverflow
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }            
+        //widget stuff ends here
 
         //data formatting functions
         function format_date(date_string, data_source) {
