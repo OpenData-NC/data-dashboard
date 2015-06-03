@@ -251,7 +251,8 @@
         
         function build_table(data_type, data_content, page_size){
             var data_source = data_content.data_source,
-                formatted_table_data = format_data(data_content, data_source);
+                formatted_table_data = format_data(data_content, data_source),
+                table_data_holder = {};
             if(data_type === 'arrests' || data_type === 'incidents' || data_type === 'accidents' || data_type === 'citations') {
                 formatted_table_data.data = formatted_table_data.data.map(function(row) { 
 //                    row[0] = truncate(row[0], 15);
@@ -275,7 +276,8 @@
             data.addRows(formatted_table_data.data);
             var options = {page:'enable',pageSize: page_size, allowHtml: true};
             var table_div_id = 'data-table-' + data_type;
-            var table_div = '<div><h2 style="text-transform: capitalize; display:inline">' + data_type.replace('estate',' estate') + ': ' + data_content.data.length + ' records</h2> <button type="button" style="margin-left: 3em; margin-bottom: 1em;" class="btn btn-default" id="dd-make-widget">Create visualization</button></div><div style="width:100%" id="' + table_div_id + '"></div>';
+            var viz_click_btn = table_div_id + '-btn';
+            var table_div = '<div><h2 style="text-transform: capitalize; display:inline">' + data_type.replace('estate',' estate') + ': ' + data_content.data.length + ' records</h2> <button type="button" style="margin-left: 3em; margin-bottom: 1em;" id="' + viz_click_btn + '" class="btn btn-default" data-which="' + table_div_id + '">Create visualization</button></div><div style="width:100%" id="' + table_div_id + '"></div>';
             $('#data-tables').append(table_div);
             
             
@@ -290,12 +292,15 @@
                     make_items_clickable(data_source);
                 });
             });
+            table_data_holder[table_div_id] = data;
             table.draw(data,options);
-            $('#dd-make-widget').click(function(e) {
+            
+            $('#' + viz_click_btn).click(function(e) {
                 e.preventDefault();
+                var which_data = $(this).data('which');
+                var data = table_data_holder[which_data];
                 show_widget_wizard(data.toJSON(), data_type, county);
             });
-//            console.log(data.toJSON());
         }
         function format_data(data, data_source) {
             var headings = []
@@ -341,7 +346,7 @@
         }
 
         function show_available_graphs(table_data, data_type, county) {
-       //     console.log(table_data);
+//            console.log(table_data);
                 
             var skip_labels = ['Record ID', 'View report']
                 , skip_labels_table = ['Record ID']
