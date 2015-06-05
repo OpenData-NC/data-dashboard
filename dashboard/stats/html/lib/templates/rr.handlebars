@@ -1,0 +1,13 @@
+﻿<div class="row">
+	<div class="col-md-8"><p><strong>Facility name:</strong> {{fac_name}}</p></div>
+</div>
+<div class="row">
+	<div class="col-md-12"><p><strong>Address:</strong> {{addr_line1}}, {{addr_city}} {{addr_zip5}}</p></div> 
+</div>
+<div class="row">
+	<div class="col-md-6"><p><strong>Last inspected:</strong> {{activity_date}}</p></div> 
+	<div class="col-md-4"><p><strong>Score:</strong> {{activity_final_score}}</p></div> 
+</div>
+<div class="row">
+	{{#if item_comments}}<div class="col-md-12"><p><strong>Comments:</strong> {{{item_comments}}}</p></div>{{/if}}	
+</div>

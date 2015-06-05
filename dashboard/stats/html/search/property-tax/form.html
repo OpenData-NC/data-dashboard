@@ -1,0 +1,79 @@
+﻿    <div class="row">
+        <div class="center-block col-md-8">
+            <h3 class="text-center">Search property tax data</h3>
+        </div>
+    </div>
+    <div class="row">
+        <form>
+            <div class="row"  style="margin-bottom: .5em">
+                <h4>Any person listed as an owner</h4>
+                <div class="col-md-4 col-xs-10">
+                    <label for="first-name" class="control-label">First name</label>
+                        <input type="text" class="form-control search-item" id="first-name" placeholder="First name">
+                </div>
+                <div class="col-md-4 col-xs-10">
+
+                    <label for="last-name" class="control-label">Last name</label>
+                        <input type="text" class="form-control search-item" id="last-name" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <h4>Property address</h4>
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-number" class="control-label">Street number </label>
+                        <input type="text" class="form-control search-item" id="street-number" placeholder="Ex. 123">
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-name" class="control-label">Street name </label>
+                        <input type="text" class="form-control search-item" id="street-name" placeholder="Main">
+                </div>
+            </div>
+            <div class="row">
+				<h4>Property value</h4>
+                <div class="col-md-4">
+				
+					<label>Minimum value
+						<select class="prop-val form-control search-item" id="min-value">
+							<option value="">Select</option>
+							<option value="50000">$50K</option>
+							<option value="100000">$100K</option>
+							<option value="250000">$250K</option>
+							<option value="500000">$500K</option>
+							<option value="750000">$750K</option>
+							<option value="1000000">$1M</option>
+							<option value="5000000">$5M</option>
+							<option value="10000000">$10M</option>
+						</select>
+					</label>
+				</div>
+                <div class="col-md-4">				
+					<label>Maximum value
+						<select class="prop-val form-control search-item" id="max-value">
+							<option value="">Select</option>
+							<option value="50000">$50K</option>
+							<option value="100000">$100K</option>
+							<option value="250000">$250K</option>
+							<option value="500000">$500K</option>
+							<option value="750000">$750K</option>
+							<option value="1000000">$1M</option>
+							<option value="5000000">$5M</option>
+							<option value="10000000">$10M</option>
+						</select>
+					</label>
+				</div>
+            </div>
+            <div class="row">
+            <div class="col-sm-4">
+            <input type="hidden" class="data-type" id="property" value="picked" />
+            <button type="button" class="btn btn-default" id="search">Search</button>
+            <button class="btn btn-default" type="reset">Reset</button>
+            </div>
+            </div>
+        </form>
+
+    </div>
+            <div class="row">
+                <div class="col-md-10 col-xs-10" id="data-tables">
+                </div>
+
+            </div>

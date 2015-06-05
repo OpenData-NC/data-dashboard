@@ -1,0 +1,43 @@
+        <!--START EMBED-->
+        <style type="text/css">
+
+            .row {
+                font: 10px Arial, sans-serif; 
+                padding-left: 10px; 
+                line-height: 25%;
+
+            }
+            .open-nc-embed-div{
+                width: {{width}}px;
+                height: {{height}}px;
+                padding: 0;
+            }
+            .source-creds {
+                clear: both;
+                font: 10px Arial, sans-serif; 
+                padding-left: 10em; 
+                line-height: 25%;
+            }
+        
+        </style>
+        <div class="open-nc-embed-div">
+            <div id="open-nc-embed"></div>
+                <div class="source-creds">
+                    <p>Source: {{{source}}}</p>
+                    Powered by <a href="http://www.open-nc.org" target="_blank">Open-NC.org</a>.
+                </div>
+        </div>
+        <{{script}} src="https://www.google.com/jsapi"></{{script}}>
+        <{{script}}>
+            google.load("visualization", "1", {packages:["corechart","table"]});
+            google.setOnLoadCallback(init);
+            function init() {
+                var data = new google.visualization.{{array_to}}DataTable({{{data}}});
+                var options = {{{options}}};
+                var chart = new google.visualization.{{viz_type}}(document.getElementById('open-nc-embed'));
+                chart.draw(data, options);                
+            }
+        </{{script}}>
+
+        
+        <!--END EMBED-->

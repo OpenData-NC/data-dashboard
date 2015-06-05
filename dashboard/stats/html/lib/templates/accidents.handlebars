@@ -1,0 +1,18 @@
+﻿<div class="row">
+	<div class="col-md-4"><p><strong>Record ID:</strong> {{record_id}}</p></div>
+	<div class="col-md-4"><p><strong>Source agency:</strong> {{agency}}</p></div>
+</div>
+<div class="row">
+	{{#if name1}}<div class="col-md-4"><p><strong>First driver:</strong> {{name1}}</p></div>{{/if}} 
+	{{#if name2}}<div class="col-md-4"><p><strong>Second driver:</strong> {{name2}}</p></div>{{/if}} 
+</div>
+<div class="row">
+	{{#if date_occurred}}<div class="col-md-4"><p><strong>Date/time occurred:</strong> {{date_occurred}}</p></div>{{/if}}	
+</div>
+<div class="row">
+	{{#if address}}<div class="col-md-8"><p><strong>Address:</strong> {{address}}</p></div>{{/if}}
+</div>
+<div class="row">
+	{{#if reporting_officer}}<div class="col-md-4"><p><strong>Reporting officer:</strong> {{reporting_officer}}</p></div>{{/if}}	
+	{{#if pdf}}<div class="col-md-4"><a href="{{pdf}}" target="_top">View report</a></div>{{/if}}
+</div>
