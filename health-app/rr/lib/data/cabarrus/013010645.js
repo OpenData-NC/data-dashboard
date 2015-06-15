@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds #6420", "addr_city": "Concord", "item_comments": "5-202.12; Hand washing hot water verified at hand washing sinks in kitchen and restrooms to be above 100 F.  Mixing valve had been repaired.;", "activity_date": "10/03/2014", "county": "Cabarrus", "facility_id": "013010645", "score": 0.0, "addr_line1": "1511 Hwy 29 Concord Parkway"}}

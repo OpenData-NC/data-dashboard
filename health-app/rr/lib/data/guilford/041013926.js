@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Starbucks Coffee #8486", "addr_city": "High Point", "item_comments": "6 501.111 CONTROLLING PESTS   PF, TOO MANY FLIES;", "activity_date": "06/13/2014", "county": "Guilford", "facility_id": "041013926", "score": 99.0, "addr_line1": "3875 John Gordon Ln"}}

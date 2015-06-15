@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pizza Hut", "addr_city": "Franklin", "item_comments": "PIZZA HUT", "activity_date": "09/08/2014", "county": "Macon", "facility_id": "056010066", "score": 97.5, "addr_line1": "999 Georgia Road"}}

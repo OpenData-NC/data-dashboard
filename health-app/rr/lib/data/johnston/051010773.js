@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Benson", "item_comments": "SUBWAY", "activity_date": "07/07/2014", "county": "Johnston", "facility_id": "051010773", "score": 100.0, "addr_line1": "701 E Church St"}}

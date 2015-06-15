@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Aunt Serafina's Pizza", "addr_city": "Durham", "item_comments": "AUNT SERAFINA\\'S PIZZA", "activity_date": "09/10/2014", "county": "Durham", "facility_id": "032012354", "score": 98.0, "addr_line1": "1125 W Nc 54 Suite 503"}}

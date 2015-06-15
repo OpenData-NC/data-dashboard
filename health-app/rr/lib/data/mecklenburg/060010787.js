@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Gardenia Restaurant", "addr_city": "Charlotte", "item_comments": "GARDENIA RESTAURANT", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060010787", "score": 98.0, "addr_line1": "1019 Alleghany St"}}

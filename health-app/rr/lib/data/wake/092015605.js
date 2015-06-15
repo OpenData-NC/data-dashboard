@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House #1279", "addr_city": "Knightdale", "item_comments": "WAFFLE HOUSE #1279", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092015605", "score": 92.0, "addr_line1": "7605 Us 64 Hwy E"}}

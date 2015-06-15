@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Salsaritas", "addr_city": "Monroe", "item_comments": "SALSARITAS", "activity_date": "07/07/2014", "county": "Union", "facility_id": "090010701", "score": 96.0, "addr_line1": "3173 W. Highway 74"}}

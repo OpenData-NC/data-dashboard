@@ -1,0 +1,1 @@
+{"results": [["Country Mile Community Mart", "2044 S Nc 111", "Chinquapin", "09/19/2014", 96.5, "031010520"], ["Quick Bite", "1018 S. Nc 111", "Chinquapin", "05/30/2014", 96.0, "031010472"]]}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Log Cabin Bbq Restaurant", "addr_city": "Albemarle", "item_comments": "LOG CABIN BBQ RESTAURANT", "activity_date": "09/12/2014", "county": "Stanly", "facility_id": "084010113", "score": 98.5, "addr_line1": "2322 Hwy 52 North"}}

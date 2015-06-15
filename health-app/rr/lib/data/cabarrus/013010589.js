@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #727", "addr_city": "Concord", "item_comments": ";;;;;;;;6-501.12; Core;  Clean floors in corners, under equipment, and hard-to-reach places.;;", "activity_date": "08/11/2014", "county": "Cabarrus", "facility_id": "013010589", "score": 99.5, "addr_line1": "1115 Copperfield Blvd."}}

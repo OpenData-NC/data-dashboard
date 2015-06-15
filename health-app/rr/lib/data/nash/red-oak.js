@@ -1,0 +1,1 @@
+{"results": [["Faulkner's Store", "8155 Red Oak Blvd", "Red Oak", "10/17/2014", 99.0, "064010924"], ["Griffins Food Store", "8353 Red Oak Blvd", "Red Oak", "06/11/2014", 97.0, "064010057"]]}

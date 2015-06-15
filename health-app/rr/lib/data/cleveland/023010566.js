@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sonic  Drive in #5091", "addr_city": "Shelby", "item_comments": "SONIC  DRIVE IN #5091", "activity_date": "08/29/2014", "county": "Cleveland", "facility_id": "023010566", "score": 97.5, "addr_line1": "101 Earl Rd"}}

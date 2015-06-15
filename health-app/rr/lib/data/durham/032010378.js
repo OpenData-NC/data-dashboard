@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sara's  Empanadas", "addr_city": "Durham", "item_comments": "4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED   C   ALL UTENSILS MUST BE AIR DRIED.;", "activity_date": "11/12/2014", "county": "Durham", "facility_id": "032010378", "score": 100.0, "addr_line1": "5410-0 Hwy 55"}}

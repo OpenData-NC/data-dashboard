@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway Sun Valley", "addr_city": "Indian Trail", "item_comments": "SUBWAY SUN VALLEY", "activity_date": "07/17/2014", "county": "Union", "facility_id": "090010840", "score": 97.5, "addr_line1": "6751 Old Monroe Road"}}

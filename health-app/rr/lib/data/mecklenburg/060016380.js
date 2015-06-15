@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Moe`s Southwest Grill #1295", "addr_city": "Huntersville", "item_comments": "MOE`S SOUTHWEST GRILL #1295", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060016380", "score": 90.0, "addr_line1": "16933 Kaufinger St"}}

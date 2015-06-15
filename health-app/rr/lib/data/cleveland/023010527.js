@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Golden Corral #2458", "addr_city": "Shelby", "item_comments": "GOLDEN CORRAL #2458", "activity_date": "09/08/2014", "county": "Cleveland", "facility_id": "023010527", "score": 95.5, "addr_line1": "1108 E Dixon Blvd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fresca Cafe and Gelato", "addr_city": "Raleigh", "item_comments": "FRESCA CAFE AND GELATO", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092016162", "score": 98.0, "addr_line1": "302 Colonades  Way"}}

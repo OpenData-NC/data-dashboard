@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bonnie & Clydes Drive In", "addr_city": "Bakersville", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "06/25/2014", "county": "Mitchell", "facility_id": "061010123", "score": 0.0, "addr_line1": "2660 Hwy 226 North"}}

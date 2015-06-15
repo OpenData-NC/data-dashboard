@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sanya Asia Bistro", "addr_city": "Kitty Hawk", "item_comments": "CLEAN HOOD FILTERS;CLEAN FLR BEHIND COOKLINE;", "activity_date": "05/13/2014", "county": "Dare", "facility_id": "028010829", "score": 98.0, "addr_line1": "3919 N Croatan Hwy"}}

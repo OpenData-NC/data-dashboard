@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Flying Fish Cafe", "addr_city": "Kill Devil Hill", "item_comments": "CLEAN HOOD AND AREA UNDER COOKLINE;REPLACE WATER DAMAGED CEILING TILES IN KITCHEN;", "activity_date": "05/21/2014", "county": "Dare", "facility_id": "028010305", "score": 98.0, "addr_line1": "2003 Croatan Hwy"}}

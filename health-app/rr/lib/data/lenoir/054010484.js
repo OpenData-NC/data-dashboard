@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Kinston", "item_comments": "SUBWAY", "activity_date": "07/16/2014", "county": "Lenoir", "facility_id": "054010484", "score": 97.5, "addr_line1": "2719 Hwy 11/55"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "King Chinese Buffet", "addr_city": "Garner", "item_comments": "KING CHINESE BUFFET", "activity_date": "09/03/2014", "county": "Johnston", "facility_id": "051011052", "score": 96.5, "addr_line1": "5121 Nc 42 Hwy W Ste 120"}}

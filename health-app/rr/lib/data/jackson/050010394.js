@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zaxbys of Sylva", "addr_city": "Sylva", "item_comments": "ZAXBYS OF SYLVA", "activity_date": "09/15/2014", "county": "Jackson", "facility_id": "050010394", "score": 98.5, "addr_line1": "284 E Main St"}}

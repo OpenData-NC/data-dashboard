@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Golden China  Zebulon", "addr_city": "Zebulon", "item_comments": "GOLDEN CHINA  ZEBULON", "activity_date": "07/01/2014", "county": "Wake", "facility_id": "092013879", "score": 94.5, "addr_line1": "182 Wakelon St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Flyin Buffalo", "addr_city": "Kannapolis", "item_comments": "FLYIN BUFFALO", "activity_date": "09/19/2014", "county": "Rowan", "facility_id": "080010488", "score": 98.5, "addr_line1": "800 Sloop Ave"}}

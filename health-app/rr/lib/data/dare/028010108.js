@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Peppercorn's", "addr_city": "Kill Devil Hills", "item_comments": "SLICER KNIVES NOT SANITIZED;KEEP RAGS IN SANI BUCKET;LIDS    RAISE RACKS;MAJOR CLEANING;FLOORS WALLS;", "activity_date": "10/15/2014", "county": "Dare", "facility_id": "028010108", "score": 93.0, "addr_line1": "1701 S Virginia Dare Trail"}}

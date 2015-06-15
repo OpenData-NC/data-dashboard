@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Richs Food Stores-Hwy55 of Hope Mills", "addr_city": "Hope Mills", "item_comments": "RICHS FOOD STORES-HWY55 OF HOPE MILLS", "activity_date": "09/08/2014", "county": "Cumberland", "facility_id": "026013150", "score": 95.5, "addr_line1": "3020 N Main Street Suite 338"}}

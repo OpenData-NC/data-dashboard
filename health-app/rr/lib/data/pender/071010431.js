@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Gallagher's Bar and Grill", "addr_city": "Surf City", "item_comments": "4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED   C;3 305.14 FOOD PREPARATION   C;", "activity_date": "06/05/2014", "county": "Pender", "facility_id": "071010431", "score": 98.5, "addr_line1": "614 New River Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Panda Express", "addr_city": "Cullowhee", "item_comments": "PANDA EXPRESS", "activity_date": "09/10/2014", "county": "Jackson", "facility_id": "050010494", "score": 99.0, "addr_line1": "160 University Way"}}

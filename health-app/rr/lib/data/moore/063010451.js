@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dugans Pub", "addr_city": "Pinehurst", "item_comments": "DUGANS PUB", "activity_date": "09/29/2014", "county": "Moore", "facility_id": "063010451", "score": 100.0, "addr_line1": "2 Market Square"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees #1302", "addr_city": "Rocky Point", "item_comments": ". 6 202.12 HEATING, VENTILATION, AIR CONDITIONING SYSTEM VENTS;6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY;", "activity_date": "08/20/2014", "county": "Pender", "facility_id": "071010349", "score": 99.0, "addr_line1": "8081 Us Hwy 117 South"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King", "addr_city": "Wilmington", "item_comments": ";;;4-601.11", "activity_date": "05/09/2014", "county": "New Hanover", "facility_id": "065011349", "score": 95.0, "addr_line1": "1901 S 17th St"}}

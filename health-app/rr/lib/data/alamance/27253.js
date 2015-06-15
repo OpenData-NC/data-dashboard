@@ -1,0 +1,1 @@
+{"results": [["Graham Soda Shop and Grill", "22 Ne Court Sq", "27253", "09/04/2014", 99.0, "001010889"], ["Hideaway Grill", "1179 Challenge Dr", "27253", "09/03/2014", 99.0, "001010956"], ["Luigi's Pizza", "302 N Main St", "27253", "09/03/2014", 99.0, "001011279"]]}

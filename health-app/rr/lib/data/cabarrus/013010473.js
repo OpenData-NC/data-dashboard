@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chong Chin", "addr_city": "Harrisburg", "item_comments": ";;;;4-702.11; Priority;  Food contact surfaces must be sanitized after washing.  Items that were washed were not sanitized.  CDI;;;;;;;", "activity_date": "08/11/2014", "county": "Cabarrus", "facility_id": "013010473", "score": 98.5, "addr_line1": "4232 Hwy 49"}}

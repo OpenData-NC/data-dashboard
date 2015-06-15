@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Imperial Garden Chinese Restaurant", "addr_city": "Raleigh", "item_comments": "IMPERIAL GARDEN CHINESE RESTAURANT", "activity_date": "07/30/2014", "county": "Wake", "facility_id": "092015871", "score": 98.0, "addr_line1": "7713 Lead Mine Rd"}}

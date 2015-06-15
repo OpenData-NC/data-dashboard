@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Holiday Inn Express and Suites Monroe Br", "addr_city": "Monroe", "item_comments": ";", "activity_date": "10/09/2014", "county": "Union", "facility_id": "090011101", "score": 0.0, "addr_line1": "2505 W. Roosevelt Blvd."}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Gateway Restaurant Inc", "addr_city": "Raleigh", "item_comments": "GATEWAY RESTAURANT INC", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092010280", "score": 94.0, "addr_line1": "2411 Crabtree Blvd"}}

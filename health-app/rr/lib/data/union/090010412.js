@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King #12456", "addr_city": "Stallings", "item_comments": ";", "activity_date": "09/22/2014", "county": "Union", "facility_id": "090010412", "score": 0.0, "addr_line1": "4390 Potter Road"}}

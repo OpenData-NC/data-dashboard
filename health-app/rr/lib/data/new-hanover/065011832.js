@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Verizon Wireless", "addr_city": "Wilmington", "item_comments": ";;;;;;;3-304.14", "activity_date": "06/16/2014", "county": "New Hanover", "facility_id": "065011832", "score": 95.5, "addr_line1": "3601 Converse Dr"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pier, The", "addr_city": "Marshville", "item_comments": "PIER, THE", "activity_date": "08/26/2014", "county": "Union", "facility_id": "090010128", "score": 99.0, "addr_line1": "7130 Marshville Blvd."}}

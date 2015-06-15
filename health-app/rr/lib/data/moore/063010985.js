@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Lake House Bar and Grill", "addr_city": "West End", "item_comments": "THE LAKE HOUSE BAR AND GRILL", "activity_date": "07/31/2014", "county": "Moore", "facility_id": "063010985", "score": 97.0, "addr_line1": "200 Grant St"}}

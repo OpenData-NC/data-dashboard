@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Firehouse Subs", "addr_city": "Sanford", "item_comments": "FIREHOUSE SUBS", "activity_date": "09/22/2014", "county": "Lee", "facility_id": "053010422", "score": 99.0, "addr_line1": "3248 Nc Hwy 87 South"}}

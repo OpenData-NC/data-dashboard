@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mex Grill and Bar", "addr_city": "Wilson", "item_comments": "MEX GRILL AND BAR", "activity_date": "09/19/2014", "county": "Wilson", "facility_id": "098010791", "score": 97.0, "addr_line1": "3711 Peppermill Drive"}}

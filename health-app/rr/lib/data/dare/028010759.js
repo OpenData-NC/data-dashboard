@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Snack Shack", "addr_city": "Duck", "item_comments": "KEEP DOOR TO KITCHEN CLOSED TO PREVENT FLIES;", "activity_date": "06/20/2014", "county": "Dare", "facility_id": "028010759", "score": 99.0, "addr_line1": "1245 Duck Road"}}

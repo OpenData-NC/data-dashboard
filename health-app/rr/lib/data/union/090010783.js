@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China Cafe", "addr_city": "Stallings", "item_comments": "CHINA CAFE", "activity_date": "08/25/2014", "county": "Union", "facility_id": "090010783", "score": 0.0, "addr_line1": "15080 Idlewild Road"}}

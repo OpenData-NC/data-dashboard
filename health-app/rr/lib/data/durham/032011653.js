@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kangaroo Express  3780", "addr_city": "Durham", "item_comments": "KANGAROO EXPRESS  3780", "activity_date": "09/18/2014", "county": "Durham", "facility_id": "032011653", "score": 98.0, "addr_line1": "3321 Apex Hwy"}}

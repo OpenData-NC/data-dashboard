@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hampton Inn and Suites", "addr_city": "Sapphire", "item_comments": "ALL FRUIT ON LINE WAS 52   56 DEGREES F.  COLD HOLD IS 41 DEGREES F OR BELOW.  CDI;", "activity_date": "07/15/2014", "county": "Jackson", "facility_id": "050010557", "score": 98.5, "addr_line1": "3245 Hwy 64 East"}}

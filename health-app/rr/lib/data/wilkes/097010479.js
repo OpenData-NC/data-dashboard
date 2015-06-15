@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Qdoba Mexican Grill", "addr_city": "Wilkesboro", "item_comments": "4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED   C   AIR DRY CAMBROS BEFORE STACKING.;", "activity_date": "06/23/2014", "county": "Wilkes", "facility_id": "097010479", "score": 99.0, "addr_line1": "1510 a Winkler Mill Road Ext"}}

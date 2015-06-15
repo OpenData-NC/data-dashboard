@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Carrier Corporation Cafeteria", "addr_city": "Charlotte", "item_comments": "CARRIER CORPORATION CAFETERIA", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060015803", "score": 98.0, "addr_line1": "9701 Old Statesville Rd"}}

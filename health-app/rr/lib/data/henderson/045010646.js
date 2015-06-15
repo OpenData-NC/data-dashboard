@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Cabana", "addr_city": "Fletcher", "item_comments": "LA CABANA", "activity_date": "09/06/2014", "county": "Henderson", "facility_id": "045010646", "score": 94.0, "addr_line1": "5386 Hendersonville Rd"}}

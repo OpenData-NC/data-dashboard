@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fairfield Inn Food Service", "addr_city": "Fletcher", "item_comments": "FAIRFIELD INN FOOD SERVICE", "activity_date": "09/25/2014", "county": "Henderson", "facility_id": "045010802", "score": 98.0, "addr_line1": "31 Airport Park Road"}}

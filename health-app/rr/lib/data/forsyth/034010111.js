@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Doss Old Fashion Ice Cream", "addr_city": "Kernersville", "item_comments": "DOSS OLD FASHION ICE CREAM", "activity_date": "09/11/2014", "county": "Forsyth", "facility_id": "034010111", "score": 98.5, "addr_line1": "406 N. Main Street"}}

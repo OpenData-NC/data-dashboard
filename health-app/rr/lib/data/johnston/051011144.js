@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Shirleys Country Cooking", "addr_city": "Four Oaks", "item_comments": "SHIRLEYS COUNTRY COOKING", "activity_date": "07/16/2014", "county": "Johnston", "facility_id": "051011144", "score": 94.5, "addr_line1": "203 West Wellons St"}}

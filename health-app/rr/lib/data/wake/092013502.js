@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lowes Foods Deli 184", "addr_city": "Apex", "item_comments": "LOWES FOODS DELI 184", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092013502", "score": 97.0, "addr_line1": "5400 Apex Peakway"}}

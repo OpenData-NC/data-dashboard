@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Guadalupe", "addr_city": "Sylva", "item_comments": "DISH MACHINE NOT FUNCTIONING PROPERLY.  NO SANITIZING SOLUTION.  ADVISED DISH WASHER TO USE THREE COMPARTMENT.  USING DISH MACHINE SANITIZING IN SINK.;", "activity_date": "09/30/2014", "county": "Jackson", "facility_id": "050010352", "score": 98.5, "addr_line1": "606 West Main St"}}

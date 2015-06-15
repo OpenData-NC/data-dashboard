@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lifesaving Station", "addr_city": "Duck", "item_comments": "SANITIZE CUTTING BOARDS ETCBEFORE PUTTING READY TO FOOD ON SURFACE;KEEP DIRTY RAGS IN SANI BUCKET;", "activity_date": "06/20/2014", "county": "Dare", "facility_id": "028010835", "score": 98.0, "addr_line1": "1461 Duck Rd"}}

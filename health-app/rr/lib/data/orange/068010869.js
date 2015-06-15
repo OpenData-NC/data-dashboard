@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Minga Restaurant", "addr_city": "Chapel Hill", "item_comments": "MINGA RESTAURANT", "activity_date": "09/16/2014", "county": "Orange", "facility_id": "068010869", "score": 98.5, "addr_line1": "116 Old Durham Road"}}

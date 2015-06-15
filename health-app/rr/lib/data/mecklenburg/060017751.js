@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #25393", "addr_city": "Charlotte", "item_comments": "GENERAL COMMENT  6 202.11 LIGHT BULBS, PROTECTIVE SHIELDING   C. OBSERVED NO SHEILD ON THE LIGHT BULBS IN THE MEN&apos;S BATHROOM.;", "activity_date": "10/29/2014", "county": "Mecklenburg", "facility_id": "060017751", "score": 100.0, "addr_line1": "5600 Albemarle Rd"}}

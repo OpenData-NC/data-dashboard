@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hot Wok Restaurant", "addr_city": "Matthews", "item_comments": "HOT WOK RESTAURANT", "activity_date": "08/19/2014", "county": "Union", "facility_id": "090010910", "score": 94.5, "addr_line1": "5943 Weddington-Monroe Rd."}}

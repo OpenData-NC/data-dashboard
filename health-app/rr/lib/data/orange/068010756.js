@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Neals Deli", "addr_city": "Carrboro", "item_comments": "NEALS DELI", "activity_date": "09/16/2014", "county": "Orange", "facility_id": "068010756", "score": 100.0, "addr_line1": "100 East Main Street"}}

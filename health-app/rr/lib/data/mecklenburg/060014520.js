@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fujos Uptown Bistro", "addr_city": "Charlotte", "item_comments": "FUJOS UPTOWN BISTRO", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060014520", "score": 92.5, "addr_line1": "301 S College St"}}

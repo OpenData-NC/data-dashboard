@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Randolph Hospital Kitchen", "addr_city": "Asheboro", "item_comments": "RANDOLPH HOSPITAL KITCHEN", "activity_date": "09/17/2014", "county": "Randolph", "facility_id": "076010905", "score": 95.5, "addr_line1": "364 White Oak Street"}}

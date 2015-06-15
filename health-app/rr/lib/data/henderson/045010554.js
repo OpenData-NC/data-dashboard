@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House #1639", "addr_city": "Flat Rock", "item_comments": "WAFFLE HOUSE #1639", "activity_date": "09/25/2014", "county": "Henderson", "facility_id": "045010554", "score": 96.5, "addr_line1": "747 Upward Rd."}}

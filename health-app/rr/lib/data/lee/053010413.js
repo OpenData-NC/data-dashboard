@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Holiday Inn Express Breakfast Bar", "addr_city": "Sanford", "item_comments": "NOT IN COMPLIANCE;NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT IN COMPLIANCE; need thermometer in milk cooler;", "activity_date": "11/19/2014", "county": "Lee", "facility_id": "053010413", "score": 97.5, "addr_line1": "2110 Dalrymple Street"}}

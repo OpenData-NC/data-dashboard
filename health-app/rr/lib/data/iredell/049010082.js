@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Julia's Talley House", "addr_city": "Troutman", "item_comments": "JULIA\\'S TALLEY HOUSE", "activity_date": "09/08/2014", "county": "Iredell", "facility_id": "049010082", "score": 93.5, "addr_line1": "305 Main Street"}}

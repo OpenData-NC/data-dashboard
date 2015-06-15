@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kai Sushi Andamp; Sake Bar", "addr_city": "Raleigh", "item_comments": "KAI SUSHI ANDAMP; SAKE BAR", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092016431", "score": 0.0, "addr_line1": "7713 Leadmine  Rd"}}

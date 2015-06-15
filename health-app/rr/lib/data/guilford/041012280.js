@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Harris Teeter Distribution Ctr", "addr_city": "Greensboro", "item_comments": "HARRIS TEETER DISTRIBUTION CTR", "activity_date": "09/17/2014", "county": "Guilford", "facility_id": "041012280", "score": 100.0, "addr_line1": "200 Distribution Dr"}}

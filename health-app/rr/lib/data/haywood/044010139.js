@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sagebrush #520", "addr_city": "Waynesville", "item_comments": "SAGEBRUSH #520", "activity_date": "09/29/2014", "county": "Haywood", "facility_id": "044010139", "score": 95.5, "addr_line1": "895 Russ Avenue"}}

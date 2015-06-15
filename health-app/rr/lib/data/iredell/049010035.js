@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dragon Golden Restaurant", "addr_city": "Statesville", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C    NO CERTIFED  PERSON IN CHARGE;", "activity_date": "06/27/2014", "county": "Iredell", "facility_id": "049010035", "score": 98.0, "addr_line1": "1529 East Broad Street"}}

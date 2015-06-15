@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Residence Inn by Marriott", "addr_city": "Charlotte", "item_comments": "RESIDENCE INN BY MARRIOTT", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060015274", "score": 99.0, "addr_line1": "5816 Westpark Drive"}}

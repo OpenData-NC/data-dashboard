@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lou Reda's an American Table", "addr_city": "Rocky Mount", "item_comments": "LOU REDA\\'S AN AMERICAN TABLE", "activity_date": "09/24/2014", "county": "Nash", "facility_id": "064010920", "score": 99.5, "addr_line1": "3646 Sunset Avenue"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bass Lake Draft House", "addr_city": "Holly Springs", "item_comments": "BASS LAKE DRAFT HOUSE", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092013876", "score": 93.5, "addr_line1": "124 Bass Lake Rd"}}

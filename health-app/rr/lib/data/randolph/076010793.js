@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Midtown Dixie Express", "addr_city": "Asheboro", "item_comments": "MIDTOWN DIXIE EXPRESS", "activity_date": "09/29/2014", "county": "Randolph", "facility_id": "076010793", "score": 97.0, "addr_line1": "455 W. Salisbury Street"}}

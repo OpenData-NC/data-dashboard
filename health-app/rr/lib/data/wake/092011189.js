@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendy's  1794", "addr_city": "Raleigh", "item_comments": ";;;;;;;;;;;", "activity_date": "09/30/2014", "county": "Wake", "facility_id": "092011189", "score": 99.0, "addr_line1": "8209 Creedmoor Road"}}

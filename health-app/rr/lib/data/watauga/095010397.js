@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sakura Japanese Steakhouse", "addr_city": "Boone", "item_comments": "SAKURA JAPANESE STEAKHOUSE", "activity_date": "09/28/2014", "county": "Watauga", "facility_id": "095010397", "score": 93.0, "addr_line1": "273 Boone Heights Drive"}}

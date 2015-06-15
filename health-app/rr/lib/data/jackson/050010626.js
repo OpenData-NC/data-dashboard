@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Huddle House", "addr_city": "Dillsboro", "item_comments": "HUDDLE HOUSE", "activity_date": "09/10/2014", "county": "Jackson", "facility_id": "050010626", "score": 98.0, "addr_line1": "609 Haywood Road"}}

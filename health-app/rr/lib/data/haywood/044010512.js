@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Providence Lodge", "addr_city": "Lake Junaluska", "item_comments": "PROVIDENCE LODGE", "activity_date": "09/30/2014", "county": "Haywood", "facility_id": "044010512", "score": 98.0, "addr_line1": "49  Atkins Loop"}}

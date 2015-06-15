@@ -1,0 +1,1 @@
+{"results": [["Cuatro Angeles", "2892 Rocky Branch Rd.", "Hamptonville", "09/07/2014", 94.0, "099010268"], ["Debbies Snack Bar", "3008 Rocky Branch Road", "Hamptonville", "08/14/2014", 94.0, "099010278"], ["Subway #23022 - Hamptonville", "2941 Rocky Branch Rd", "Hamptonville", "08/06/2014", 98.0, "099010220"]]}

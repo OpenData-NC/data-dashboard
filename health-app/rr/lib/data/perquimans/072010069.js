@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #39603", "addr_city": "Hertford", "item_comments": "DAMAGED BASE BOARDS AND CRACKED FLOOR TILE IN DISHROOM;DOORS ON DUMPSTER LEFT OPEN;", "activity_date": "06/30/2014", "county": "Perquimans", "facility_id": "072010069", "score": 99.0, "addr_line1": "205 Ocean Hwy South"}}

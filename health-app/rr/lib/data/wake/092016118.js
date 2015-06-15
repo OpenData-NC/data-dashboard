@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tenko Japan", "addr_city": "Raleigh", "item_comments": "TENKO JAPAN", "activity_date": "08/11/2014", "county": "Wake", "facility_id": "092016118", "score": 99.0, "addr_line1": "6325 Falls of Neuse  Rd"}}

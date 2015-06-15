@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Catrina Mexican Grill", "addr_city": "Charlotte", "item_comments": "LA CATRINA MEXICAN GRILL", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060018042", "score": 97.0, "addr_line1": "8129 Ardrey Kell Rd"}}

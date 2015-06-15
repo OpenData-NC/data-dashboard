@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mother Tuckers Eatery", "addr_city": "Greensboro", "item_comments": "MOTHER TUCKERS EATERY", "activity_date": "09/02/2014", "county": "Guilford", "facility_id": "041013616", "score": 95.0, "addr_line1": "1642   Spring Garden St"}}

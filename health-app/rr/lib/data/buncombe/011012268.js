@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Allgood Coffee", "addr_city": "Weaverville", "item_comments": ";;;;;;;;;;;;;;;", "activity_date": "07/09/2014", "county": "Buncombe", "facility_id": "011012268", "score": 100.0, "addr_line1": "10 S Main St"}}

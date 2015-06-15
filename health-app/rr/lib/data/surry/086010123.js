@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pandowdy's", "addr_city": "Mount Airy", "item_comments": "PANDOWDY\\'S", "activity_date": "09/05/2014", "county": "Surry", "facility_id": "086010123", "score": 95.0, "addr_line1": "243 N. Main St."}}

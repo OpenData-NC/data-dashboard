@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sir Pizza #2", "addr_city": "High Point", "item_comments": "SIR PIZZA #2", "activity_date": "09/08/2014", "county": "Guilford", "facility_id": "041010394", "score": 96.5, "addr_line1": "1916 N Main St"}}

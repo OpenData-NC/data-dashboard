@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Gavilan", "addr_city": "Wilson", "item_comments": "EL GAVILAN", "activity_date": "09/19/2014", "county": "Wilson", "facility_id": "098010760", "score": 93.0, "addr_line1": "1403 Tarboro Street"}}

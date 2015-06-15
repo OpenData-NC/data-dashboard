@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Carolina Beer/Great American Bagel & Bak", "addr_city": "Charlotte", "item_comments": "CAROLINA BEER/GREAT AMERICAN BAGEL & BAK", "activity_date": "09/19/2014", "county": "Mecklenburg", "facility_id": "060016020", "score": 97.0, "addr_line1": "5501 Josh Birmingham Pky"}}

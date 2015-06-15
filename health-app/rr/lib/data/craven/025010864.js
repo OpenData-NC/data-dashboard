@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Savage's Wood-Burning Pizzeria", "addr_city": "New Bern", "item_comments": "SAVAGE\\'S WOOD-BURNING PIZZERIA", "activity_date": "09/10/2014", "county": "Craven", "facility_id": "025010864", "score": 95.0, "addr_line1": "2116 Trent Road"}}

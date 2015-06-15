@@ -1,0 +1,1 @@
+{"results": [["Subway#23432", "8532 Hwy 33", "Whitakers", "10/20/2014", 97.5, "064010492"], ["Dairy Queen at Whitakers", "8532 Hwy 33", "Whitakers", "10/20/2014", 95.5, "064010493"], ["Tonys Food Mart", "301 N. White St.", "Whitakers", "08/08/2014", 97.0, "064010830"]]}

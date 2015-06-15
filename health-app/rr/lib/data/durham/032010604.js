@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Quality Mart #34", "addr_city": "Durham", "item_comments": "COMMODE SEAT IN THE MEN ROOM NEEDS REPAIRING.;ALL APPLES MUST BE INDIVIDUALLY WRAPED.;", "activity_date": "05/07/2014", "county": "Durham", "facility_id": "032010604", "score": 98.0, "addr_line1": "5203 S Miami Blvd"}}

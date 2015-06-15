@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #22638", "addr_city": "Greensboro", "item_comments": "NEED TO HAVE AN ANSI APPROVED FOOD SAFETY COURSE FOR PERSON S  IN CHARGE.2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C;", "activity_date": "10/03/2014", "county": "Guilford", "facility_id": "041013767", "score": 98.0, "addr_line1": "4626 W Market St"}}

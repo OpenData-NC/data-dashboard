@@ -1,0 +1,1 @@
+{"results": [["Sneads Grove Convenient Store", "20501 Sneads Grove Rd", "Laurel Hill", "07/28/2014", 99.0, "083010185"], ["Subway", "9811 Andrew Jackson Hwy.", "Laurel Hill", "07/07/2014", 97.0, "083010246"]]}

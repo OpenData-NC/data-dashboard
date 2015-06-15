@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds 27813", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT IN COMPLIANCE.  Flies are present.;NOT IN COMPLIANCE; CORRECTED DURING INSPECTION.  dumpster door was open.;", "activity_date": "10/27/2014", "county": "Nash", "facility_id": "064010462", "score": 98.5, "addr_line1": "3752 Wesleyan Blvd"}}

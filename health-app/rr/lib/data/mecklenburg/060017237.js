@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Emeril's Eatery", "addr_city": "Charlotte", "item_comments": "EMERIL\\'S EATERY", "activity_date": "09/19/2014", "county": "Mecklenburg", "facility_id": "060017237", "score": 94.0, "addr_line1": "135 Levine Avenue of the Arts"}}

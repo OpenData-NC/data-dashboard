@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Oceanfront Grille at Corolla Light", "addr_city": "Corolla", "item_comments": "GENERAL REPAIR TO FLOORS, WALLS   CEILINGS IN KITCHEN.  REAPIR CEILING IN KITCHEN;NEED TO OBTAIN 2 COMPARTMENT SINK VARIANCE FROM STATE.;", "activity_date": "08/12/2014", "county": "Currituck", "facility_id": "027010050", "score": 98.5, "addr_line1": "1196 Franklin St"}}

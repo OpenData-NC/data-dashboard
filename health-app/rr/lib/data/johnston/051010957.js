@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Clayton Steak House", "addr_city": "Clayton", "item_comments": "CLAYTON STEAK HOUSE", "activity_date": "09/02/2014", "county": "Johnston", "facility_id": "051010957", "score": 98.5, "addr_line1": "307 E Main St"}}

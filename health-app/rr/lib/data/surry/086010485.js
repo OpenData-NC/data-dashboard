@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Barney's", "addr_city": "Mount Airy", "item_comments": "BARNEY\\'S", "activity_date": "09/03/2014", "county": "Surry", "facility_id": "086010485", "score": 93.5, "addr_line1": "206 N Main St"}}

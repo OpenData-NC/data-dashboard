@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Speedy's", "addr_city": "Eden", "item_comments": "SPEEDY\\'S", "activity_date": "09/04/2014", "county": "Rockingham", "facility_id": "079010792", "score": 97.5, "addr_line1": "955 Washington St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cafe Lachine", "addr_city": "Nags Head", "item_comments": "EMPLOYEE DRINGKS NEED LIDS/STRAWS;CLEAN MORE NEAR EQUIP;", "activity_date": "05/23/2014", "county": "Dare", "facility_id": "028010811", "score": 98.0, "addr_line1": "5000 S Croatan  Hwy Unit 1"}}

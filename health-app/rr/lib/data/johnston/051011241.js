@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Holt Lake Gas Andamp; Grill", "addr_city": "Four Oaks", "item_comments": "HOLT LAKE GAS ANDAMP; GRILL", "activity_date": "08/25/2014", "county": "Johnston", "facility_id": "051011241", "score": 94.0, "addr_line1": "4056 Hwy 301 S."}}

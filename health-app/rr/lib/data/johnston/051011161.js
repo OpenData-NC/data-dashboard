@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Don Betos Tacos", "addr_city": "Selma", "item_comments": "DON BETOS TACOS", "activity_date": "07/09/2014", "county": "Johnston", "facility_id": "051011161", "score": 93.5, "addr_line1": "720 Ricks Rd"}}

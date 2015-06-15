@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cape Fear Valley Cafe", "addr_city": "Fayetteville", "item_comments": "THOROUGHLY WASH, RINSE, AND SANITIZE ALL POTS AND PANS. ALLOW ALL PANS TO AIR DRY BEFORE STORAGE AND REUSAGE.;", "activity_date": "09/30/2014", "county": "Cumberland", "facility_id": "026010825", "score": 98.5, "addr_line1": "Owen Drive"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cookout 25 Western Blvd", "addr_city": "Raleigh", "item_comments": "COOKOUT 25 WESTERN BLVD", "activity_date": "07/10/2014", "county": "Wake", "facility_id": "092013988", "score": 97.0, "addr_line1": "3930 Western Blvd"}}

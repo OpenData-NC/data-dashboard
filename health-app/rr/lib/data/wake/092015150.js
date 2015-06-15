@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Lodge at Wake Forest # 5339", "addr_city": "Wake Forest", "item_comments": "THE LODGE AT WAKE FOREST # 5339", "activity_date": "07/30/2014", "county": "Wake", "facility_id": "092015150", "score": 95.5, "addr_line1": "1151 S. Main Street"}}

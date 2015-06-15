@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kay S Catering", "addr_city": "Maxton", "item_comments": "4 602.13 NONFOOD CONTACT SURFACES   C;4 205.10 FOOD EQUIPMENT, CERTIFICATION AND CLASSIFICATION   C;", "activity_date": "05/12/2014", "county": "Robeson", "facility_id": "078010764", "score": 98.0, "addr_line1": "705 Jacobs Road"}}

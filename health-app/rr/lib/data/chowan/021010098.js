@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Coa Culinary Department", "addr_city": "Edenton", "item_comments": "SPLASH GUARD NEEDED BETWEEN HAND STATION AND PREP SINK.;REPLACE RUSTED CAN OPENER.;", "activity_date": "10/08/2014", "county": "Chowan", "facility_id": "021010098", "score": 99.0, "addr_line1": "1316 C. North Broad Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway  28785", "addr_city": "Raleigh", "item_comments": "SUBWAY  28785", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092014006", "score": 98.0, "addr_line1": "10450 101 Durante Rd"}}

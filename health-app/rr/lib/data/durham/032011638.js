@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pulcinella", "addr_city": "Durham", "item_comments": "PULCINELLA", "activity_date": "09/05/2014", "county": "Durham", "facility_id": "032011638", "score": 99.5, "addr_line1": "4711 Hope Valley Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tokyo Express", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;", "activity_date": "10/22/2014", "county": "Nash", "facility_id": "064010827", "score": 0.0, "addr_line1": "2816 Sunset Avenue"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "A & B Food Mart", "addr_city": "Watha", "item_comments": "2 402.11 EFFECTIVENESS HAIR RESTRAINTS   C;6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C;", "activity_date": "10/23/2014", "county": "Pender", "facility_id": "071010303", "score": 98.0, "addr_line1": "17331 Us Hwy 421"}}

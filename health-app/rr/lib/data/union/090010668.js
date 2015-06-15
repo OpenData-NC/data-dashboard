@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cook Out Mo #29", "addr_city": "Monroe", "item_comments": ";", "activity_date": "09/11/2014", "county": "Union", "facility_id": "090010668", "score": 0.0, "addr_line1": "1410 W. Roosevelt Blvd."}}

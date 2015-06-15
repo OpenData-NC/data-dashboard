@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway#23432", "addr_city": "Whitakers", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT IN COMPLIANCE; REPEAT VIOLATION  flies present.;NOT IN COMPLIANCE;", "activity_date": "10/20/2014", "county": "Nash", "facility_id": "064010492", "score": 97.5, "addr_line1": "8532 Hwy 33"}}

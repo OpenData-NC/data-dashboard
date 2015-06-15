@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Plank Road Steakhouse", "addr_city": "Farmville", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "05/15/2014", "county": "Pitt", "facility_id": "074011216", "score": 0.0, "addr_line1": "3689 Wilson St"}}

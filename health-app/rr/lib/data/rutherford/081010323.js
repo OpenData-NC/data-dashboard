@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Larkins on the Lake", "addr_city": "Lake Luke", "item_comments": "LARKINS ON THE LAKE", "activity_date": "09/17/2014", "county": "Rutherford", "facility_id": "081010323", "score": 92.5, "addr_line1": "1020 Memorial Hwy"}}

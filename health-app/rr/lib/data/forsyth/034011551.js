@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Time to Eat", "addr_city": "Clemmons", "item_comments": "TIME TO EAT", "activity_date": "09/23/2014", "county": "Forsyth", "facility_id": "034011551", "score": 96.5, "addr_line1": "2570 Lewisville Clemmons Rd"}}

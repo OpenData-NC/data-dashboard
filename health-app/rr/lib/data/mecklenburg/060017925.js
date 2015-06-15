@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cmc Behavioral Health Davidson", "addr_city": "Davidson", "item_comments": "CMC BEHAVIORAL HEALTH DAVIDSON", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060017925", "score": 99.0, "addr_line1": "16740 Davidson Concord Rd"}}

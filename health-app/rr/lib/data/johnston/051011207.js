@@ -1,0 +1,1 @@
+{"results": {"fac_name": "New China Star", "addr_city": "Raleigh", "item_comments": "NEW CHINA STAR", "activity_date": "07/10/2014", "county": "Johnston", "facility_id": "051011207", "score": 100.0, "addr_line1": "7277 Hwy 42 W Ste 213"}}

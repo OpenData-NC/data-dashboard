@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Buffalo Wild Wings #439", "addr_city": "Holly Springs", "item_comments": "BUFFALO WILD WINGS #439", "activity_date": "07/28/2014", "county": "Wake", "facility_id": "092016386", "score": 95.0, "addr_line1": "121 Grand Hill Pl"}}

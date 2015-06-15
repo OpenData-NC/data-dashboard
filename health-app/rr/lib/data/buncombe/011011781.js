@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Nine Mile", "addr_city": "Asheville", "item_comments": ";;;;;;;;;;4-903.11(A) and (B); Core; There was a spatula that was no longer smooth and easily cleanable.  Therefore, the spatula can&apos;t be sanitized properly.;", "activity_date": "09/10/2014", "county": "Buncombe", "facility_id": "011011781", "score": 99.5, "addr_line1": "233 Montford Ave"}}

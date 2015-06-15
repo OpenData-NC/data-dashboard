@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Elizabeth's Cafe", "addr_city": "Kitty Hawk", "item_comments": "FLOORSW AND WALLS DISREPAIR.......SELF CLOSER;WAREWASH SINK NOT APPROVED;", "activity_date": "08/19/2014", "county": "Dare", "facility_id": "028010040", "score": 98.5, "addr_line1": "1177 Duck Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chinatown Express", "addr_city": "Raleigh", "item_comments": "CHINATOWN EXPRESS", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092014045", "score": 93.5, "addr_line1": "5800 Duraleigh Road"}}

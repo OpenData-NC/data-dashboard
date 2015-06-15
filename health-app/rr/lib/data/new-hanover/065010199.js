@@ -1,0 +1,1 @@
+{"results": {"fac_name": "German Cafe", "addr_city": "Wilmington", "item_comments": ";;;;6-201.11", "activity_date": "06/04/2014", "county": "New Hanover", "facility_id": "065010199", "score": 95.5, "addr_line1": "316 Nutt St"}}

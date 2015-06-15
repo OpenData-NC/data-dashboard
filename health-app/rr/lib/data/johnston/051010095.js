@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Log Cabin Inn", "addr_city": "Smithfield", "item_comments": "LOG CABIN INN", "activity_date": "09/03/2014", "county": "Johnston", "facility_id": "051010095", "score": 96.5, "addr_line1": "2491 U S 70 Bus East"}}

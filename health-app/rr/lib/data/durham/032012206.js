@@ -1,0 +1,1 @@
+{"results": {"fac_name": "India Gate", "addr_city": "Durham", "item_comments": "3 302.12 ALL FOOD CONTAINERS MUST BE LABELED WITH THE NAME OF PRODUCT INSIDE OF THE CONTAINER.;", "activity_date": "07/08/2014", "county": "Durham", "facility_id": "032012206", "score": 99.0, "addr_line1": "2223 E Nc 54 Suite Q"}}

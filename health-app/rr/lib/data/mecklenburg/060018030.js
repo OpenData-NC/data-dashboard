@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Smelly Cat Coffeehouse", "addr_city": "Charlotte", "item_comments": "SMELLY CAT COFFEEHOUSE", "activity_date": "09/08/2014", "county": "Mecklenburg", "facility_id": "060018030", "score": 98.5, "addr_line1": "514 E 36th St"}}

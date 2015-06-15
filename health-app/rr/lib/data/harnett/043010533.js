@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Crimson Lights Catering", "addr_city": "Dunn", "item_comments": "YELLOW COPY OF EHP PROVIDED.2 103.11  M  PERSON IN CHARGE DUTIES   PF;", "activity_date": "08/21/2014", "county": "Harnett", "facility_id": "043010533", "score": 100.0, "addr_line1": "600 South Magnolia St."}}

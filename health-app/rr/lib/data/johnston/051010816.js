@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Serving Spoon", "addr_city": "Pine Level", "item_comments": "SERVING SPOON", "activity_date": "07/11/2014", "county": "Johnston", "facility_id": "051010816", "score": 100.0, "addr_line1": "212 N. Peedin Ave."}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Nueva Fiesta", "addr_city": "Smithfield", "item_comments": "LA NUEVA FIESTA", "activity_date": "08/25/2014", "county": "Johnston", "facility_id": "051010990", "score": 97.0, "addr_line1": "1219 S. Brightleaf Blvd"}}

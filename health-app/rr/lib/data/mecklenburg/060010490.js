@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zacks  Hamburgers", "addr_city": "Charlotte", "item_comments": "ZACKS  HAMBURGERS", "activity_date": "09/08/2014", "county": "Mecklenburg", "facility_id": "060010490", "score": 98.0, "addr_line1": "4009 South Boulevard"}}

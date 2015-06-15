@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House  Whittier  #1456", "addr_city": "Whittier", "item_comments": "A FEW TILES IN KITCHEN AREA NEED REPLACING  REPAIR AS NECESSARY.;", "activity_date": "10/28/2014", "county": "Jackson", "facility_id": "050010284", "score": 100.0, "addr_line1": "112 Cherokee Crossing"}}

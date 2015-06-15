@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kfc  120", "addr_city": "Fuquay Varina", "item_comments": "KFC  120", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092015245", "score": 91.0, "addr_line1": "1298 N Main St"}}

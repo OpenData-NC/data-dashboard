@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Coffee Haven", "addr_city": "Raleigh", "item_comments": "COFFEE HAVEN", "activity_date": "07/14/2014", "county": "Wake", "facility_id": "092013863", "score": 96.5, "addr_line1": "2710 Hillsborough St"}}

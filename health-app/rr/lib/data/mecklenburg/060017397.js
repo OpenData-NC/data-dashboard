@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Portofino's Italian Restaurant - the Arb", "addr_city": "Charlotte", "item_comments": "PORTOFINO\\'S ITALIAN RESTAURANT - THE ARB", "activity_date": "09/08/2014", "county": "Mecklenburg", "facility_id": "060017397", "score": 95.0, "addr_line1": "8128 Providence Rd"}}

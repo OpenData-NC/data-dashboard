@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bad Daddy`s Burger Bar", "addr_city": "Charlotte", "item_comments": "BAD DADDY`S BURGER BAR", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060016060", "score": 92.0, "addr_line1": "1626 East Blvd"}}

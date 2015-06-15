@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lucky 12 Tavern", "addr_city": "Nags Head", "item_comments": "COVER ALL FOODS IN WALKIN AND REFRIGERATORS;", "activity_date": "06/18/2014", "county": "Dare", "facility_id": "028010637", "score": 99.0, "addr_line1": "3308 S Virginia Dare Trail"}}

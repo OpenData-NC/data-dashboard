@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees", "addr_city": "Wilmington", "item_comments": ";;3-501.16", "activity_date": "05/19/2014", "county": "New Hanover", "facility_id": "065010108", "score": 95.0, "addr_line1": "2518 Carolina Beach Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zengs Palace", "addr_city": "Clinton", "item_comments": "ZENGS PALACE", "activity_date": "09/17/2014", "county": "Sampson", "facility_id": "082010204", "score": 90.5, "addr_line1": "411 Southeast Blvd"}}

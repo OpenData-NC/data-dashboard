@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Greenville Grande", "addr_city": "Greenville", "item_comments": ";Food employees shall wear hair restraints. None today.  NOT IN COMPLIANCE; REPEAT VIOLATION;;;;;;;;;;;;;;;", "activity_date": "07/16/2014", "county": "Pitt", "facility_id": "074011185", "score": 99.0, "addr_line1": "750 Sw Greenville Blvd."}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sheetz 391", "addr_city": "Greenville", "item_comments": ";;;;;;;;;;;;", "activity_date": "10/09/2014", "county": "Pitt", "facility_id": "074011020", "score": 100.0, "addr_line1": "2100 County Home Road"}}

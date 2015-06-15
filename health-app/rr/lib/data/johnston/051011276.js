@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Seven Food Mart", "addr_city": "Middlesex", "item_comments": "SEVEN FOOD MART", "activity_date": "08/15/2014", "county": "Johnston", "facility_id": "051011276", "score": 95.0, "addr_line1": "11585 Nc Hwy 42 E"}}

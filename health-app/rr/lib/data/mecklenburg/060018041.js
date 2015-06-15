@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wang & King Asian Cafe", "addr_city": "Charlotte", "item_comments": "WANG & KING ASIAN CAFE", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060018041", "score": 93.0, "addr_line1": "10720 S Tryon St Suite A"}}

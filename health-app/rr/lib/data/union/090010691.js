@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Rock Store Bar-B-Que", "addr_city": "Stallings", "item_comments": "ROCK STORE BAR-B-QUE", "activity_date": "07/28/2014", "county": "Union", "facility_id": "090010691", "score": 97.5, "addr_line1": "3116 Old Monroe Road"}}

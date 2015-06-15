@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waltonwood at Cary Dining", "addr_city": "Cary", "item_comments": "WALTONWOOD AT CARY DINING", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092015636", "score": 97.5, "addr_line1": "750 Se Cary Pky"}}

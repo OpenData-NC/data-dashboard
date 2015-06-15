@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Energy Cafe", "addr_city": "Charlotte", "item_comments": "ENERGY CAFE", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060016624", "score": 95.0, "addr_line1": "101 S Tryon St"}}

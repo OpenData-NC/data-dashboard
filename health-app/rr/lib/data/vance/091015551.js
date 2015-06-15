@@ -1,0 +1,1 @@
+{"results": {"fac_name": "S & N Mart", "addr_city": "Henderson", "item_comments": "S & N MART", "activity_date": "09/16/2014", "county": "Vance", "facility_id": "091015551", "score": 93.0, "addr_line1": "1458 Warrenton Road"}}

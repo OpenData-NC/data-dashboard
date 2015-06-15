@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taqueria Colima", "addr_city": "Clayton", "item_comments": "TAQUERIA COLIMA", "activity_date": "07/10/2014", "county": "Johnston", "facility_id": "051011164", "score": 96.5, "addr_line1": "11538 Us 70 West"}}

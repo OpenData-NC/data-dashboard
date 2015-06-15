@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dunkin Donuts #348417", "addr_city": "Raleigh", "item_comments": "DUNKIN DONUTS #348417", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092015624", "score": 95.0, "addr_line1": "3817 Western Blvd"}}

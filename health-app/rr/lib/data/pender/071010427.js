@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds /  Hampstead", "addr_city": "Hampstead", "item_comments": "4 302.14 SANITIZING SOLUTIONS, TESTING DEVICES;4 502.13 SINGLE SERVICE AND SINGLE USE ARTICLES USE LIMITATIONS;", "activity_date": "08/11/2014", "county": "Pender", "facility_id": "071010427", "score": 98.5, "addr_line1": "14985 Us Hwy 17"}}

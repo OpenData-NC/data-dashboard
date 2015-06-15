@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Elders Diner", "addr_city": "Whittier", "item_comments": "GRAVY HOLDING AT 111 DEGREES F. HOT HOLDING IS 135 DEGREES F OR ABOVE. PRODUCT WAS DISPOSED. NEED TO TURN UNIT UP TO HOLD AT 135.;", "activity_date": "07/08/2014", "county": "Jackson", "facility_id": "050010631", "score": 98.5, "addr_line1": "4732 Us Hwy 74 West"}}

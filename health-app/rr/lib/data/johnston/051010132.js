@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Reedy Creek Golf Course", "addr_city": "Four Oaks", "item_comments": "REEDY CREEK GOLF COURSE", "activity_date": "07/22/2014", "county": "Johnston", "facility_id": "051010132", "score": 96.0, "addr_line1": "585 Reedy Creek Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Soundside Beach Club", "addr_city": "Merry Hill", "item_comments": "REPAINT FLOORS REPAINT BASEBOARDS.;", "activity_date": "08/07/2014", "county": "Bertie", "facility_id": "008010130", "score": 99.5, "addr_line1": "101 E. Royal Way"}}

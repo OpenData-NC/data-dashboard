@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Blue Waves Food Shop", "addr_city": "Norlina", "item_comments": "thermometer is available;", "activity_date": "06/09/2014", "county": "Warren", "facility_id": "093010098", "score": 0.0, "addr_line1": "140 Us 1 Hwy 158"}}

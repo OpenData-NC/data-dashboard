@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Hope Mills", "item_comments": "6 501.12 CLEANING, FREQUENCY    C  CLEAN CEILING ABOVE  WARE WASH SINK;6 501.14 CLEANING VENTILATION SYSTEMS,   C   CLEAN VENT LIGHT SHIELD AREAS IN THE KITCHEN;", "activity_date": "11/07/2014", "county": "Cumberland", "facility_id": "026013218", "score": 99.0, "addr_line1": "3030 N Main Street"}}

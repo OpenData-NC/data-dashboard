@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Lumberton", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C;4 602.11 EQUIPMENT FOOD CONTACT SURFACES AND UTENSILS FREQUENCY   P  CLEAN AND SANITIZE ICE MACHINE.;", "activity_date": "07/11/2014", "county": "Robeson", "facility_id": "078010760", "score": 96.5, "addr_line1": "2731 North Roberts Ave."}}

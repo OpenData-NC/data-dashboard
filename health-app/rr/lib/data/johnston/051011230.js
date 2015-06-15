@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Moes Stop and Shop", "addr_city": "Garner", "item_comments": "MOES STOP AND SHOP", "activity_date": "08/11/2014", "county": "Johnston", "facility_id": "051011230", "score": 96.5, "addr_line1": "5447 Nc Hwy 42w"}}

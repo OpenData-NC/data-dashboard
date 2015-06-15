@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Penn Station East Coast Subs", "addr_city": "Charlotte", "item_comments": "PENN STATION EAST COAST SUBS", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060017497", "score": 96.5, "addr_line1": "125 Remount Rd"}}

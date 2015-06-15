@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Target #2090 Food Avenue/Pizza Hot Starb", "addr_city": "Charlotte", "item_comments": ".;", "activity_date": "10/07/2014", "county": "Mecklenburg", "facility_id": "060015352", "score": 100.0, "addr_line1": "9870 Rea Rd"}}

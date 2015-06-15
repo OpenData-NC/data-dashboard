@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway/Walmart", "addr_city": "High Point", "item_comments": "MEAT BALLS MUST BE HEATED TO 165F BEFORE BEING PLACED ON STEAM TABLE;", "activity_date": "05/06/2014", "county": "Guilford", "facility_id": "041013109", "score": 100.0, "addr_line1": "2628 S Main St"}}

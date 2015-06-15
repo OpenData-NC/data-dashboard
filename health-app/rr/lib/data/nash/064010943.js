@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cafe 58", "addr_city": "Castalia", "item_comments": "CAFE 58", "activity_date": "08/28/2014", "county": "Nash", "facility_id": "064010943", "score": 97.5, "addr_line1": "8909 Main St"}}

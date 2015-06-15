@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sheetz  371", "addr_city": "Raleigh", "item_comments": "SHEETZ  371", "activity_date": "07/07/2014", "county": "Wake", "facility_id": "092014354", "score": 98.0, "addr_line1": "5200 New Bern Ave"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dunkin Donuts Grandy", "addr_city": "Grandy", "item_comments": "DUNKIN DONUTS GRANDY", "activity_date": "09/08/2014", "county": "Currituck", "facility_id": "027010299", "score": 99.5, "addr_line1": "6520 Caratoke Hwy"}}

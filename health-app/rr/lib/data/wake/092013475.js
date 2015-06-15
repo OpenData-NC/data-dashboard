@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #29", "addr_city": "Wake Forest", "item_comments": "BOJANGLES #29", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092013475", "score": 96.5, "addr_line1": "12109 Cloverleaf Dr"}}

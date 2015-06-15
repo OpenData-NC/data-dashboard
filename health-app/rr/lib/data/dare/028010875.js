@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jersey Mikes", "addr_city": "Nags Head", "item_comments": "ORGANIZE EMPLOYEE STORAGE;", "activity_date": "11/19/2014", "county": "Dare", "facility_id": "028010875", "score": 99.5, "addr_line1": "2424 Scroatan Hwy"}}

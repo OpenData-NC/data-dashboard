@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King Restaurant", "addr_city": "Elizabeth City", "item_comments": "CHEMICAL CABINET IN POOR SHAPE   RUSTING;FRYERS AND RACKS NEED BETTER CLEANING.;", "activity_date": "10/07/2014", "county": "Pasquotank", "facility_id": "070010050", "score": 97.0, "addr_line1": "1601 W. Ehringhaus St"}}

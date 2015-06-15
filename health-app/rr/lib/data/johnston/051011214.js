@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Gregory Vineyards", "addr_city": "Angier", "item_comments": "GREGORY VINEYARDS", "activity_date": "08/11/2014", "county": "Johnston", "facility_id": "051011214", "score": 100.0, "addr_line1": "275 Bowling Spring Dr."}}

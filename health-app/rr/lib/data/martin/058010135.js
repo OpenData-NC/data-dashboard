@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China Kitchen", "addr_city": "Robersonville", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT IN COMPLIANCE;", "activity_date": "10/30/2014", "county": "Martin", "facility_id": "058010135", "score": 99.0, "addr_line1": "710 N Main St"}}

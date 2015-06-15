@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Assaggio's", "addr_city": "Raleigh", "item_comments": "ASSAGGIO\\'S", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092014033", "score": 92.5, "addr_line1": "3501 West Millbrook Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway # 12460", "addr_city": "Raleigh", "item_comments": "SUBWAY # 12460", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092015321", "score": 96.5, "addr_line1": "706 W. Peace Street"}}

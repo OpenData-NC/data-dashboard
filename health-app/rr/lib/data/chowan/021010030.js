@@ -1,0 +1,1 @@
+{"results": {"fac_name": "American Legion Hall", "addr_city": "Edenton", "item_comments": "PIC/MANAGER CERTIFICATION NEEDED.;REPAIR DAMAGED FLOOR AND CEILING AREAS.;EMPLOYEE HEALTH DISCLOSURE POLICY NEEDED.;", "activity_date": "07/09/2014", "county": "Chowan", "facility_id": "021010030", "score": 94.0, "addr_line1": "1317 W. Queen Street"}}

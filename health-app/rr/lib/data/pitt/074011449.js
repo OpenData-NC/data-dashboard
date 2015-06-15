@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dairy Queen Grill & Chill #43643", "addr_city": "Greenville", "item_comments": "DAIRY QUEEN GRILL & CHILL #43643", "activity_date": "09/22/2014", "county": "Pitt", "facility_id": "074011449", "score": 94.5, "addr_line1": "3221 East 10th Street"}}

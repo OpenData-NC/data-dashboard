@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mythos Grill", "addr_city": "Greensboro", "item_comments": "MYTHOS GRILL", "activity_date": "09/04/2014", "county": "Guilford", "facility_id": "041013699", "score": 95.5, "addr_line1": "2412 Battleground Avenue, Suit"}}

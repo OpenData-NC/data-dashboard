@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pier 41 Seafood", "addr_city": "Lumberton", "item_comments": "4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED   CPLEASE PROPERLY AIR DRY ALL CUPS AND UNTENSILS BEFORE STACKING FOR STORAGE.;", "activity_date": "06/06/2014", "county": "Robeson", "facility_id": "078010846", "score": 99.0, "addr_line1": "2401 Elizabethtown Road"}}

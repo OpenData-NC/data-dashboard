@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Austins", "addr_city": "High Point", "item_comments": "AUSTINS", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041010834", "score": 93.0, "addr_line1": "2448 N Main St"}}

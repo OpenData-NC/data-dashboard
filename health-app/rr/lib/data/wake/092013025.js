@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Western Wake Hospital Food Ser", "addr_city": "Cary", "item_comments": "WESTERN WAKE HOSPITAL FOOD SER", "activity_date": "07/25/2014", "county": "Wake", "facility_id": "092013025", "score": 98.5, "addr_line1": "1900 Kildaire Farm Rd"}}

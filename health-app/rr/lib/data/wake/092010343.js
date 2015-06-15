@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees of Knightdale  1623", "addr_city": "Knightdale", "item_comments": "HARDEES OF KNIGHTDALE  1623", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092010343", "score": 95.5, "addr_line1": "905 N Smithfield Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ingles Deli   118", "addr_city": "Shelby", "item_comments": "INGLES DELI   118", "activity_date": "08/27/2014", "county": "Cleveland", "facility_id": "023010219", "score": 94.0, "addr_line1": "1305 Fallston Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #41211", "addr_city": "Wake Forest", "item_comments": "SUBWAY #41211", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092016222", "score": 100.0, "addr_line1": "922 Gateway Common Cir"}}

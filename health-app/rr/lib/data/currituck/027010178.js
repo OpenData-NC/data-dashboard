@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sundogs Sports Bar and Grill", "addr_city": "Corolla", "item_comments": "STORE TOOLS/BOTTLES OF CHEMICALS OFF FLOOR UNDER STORAGE SHELVES NEAR BACK DOOR OF KITCHEN;", "activity_date": "06/05/2014", "county": "Currituck", "facility_id": "027010178", "score": 99.0, "addr_line1": "807m Ocean Trail"}}

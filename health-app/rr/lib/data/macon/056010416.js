@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Highlands Smokehouse", "addr_city": "Highlands", "item_comments": "THE HIGHLANDS SMOKEHOUSE", "activity_date": "09/02/2014", "county": "Macon", "facility_id": "056010416", "score": 90.0, "addr_line1": "595 Franklin Road"}}

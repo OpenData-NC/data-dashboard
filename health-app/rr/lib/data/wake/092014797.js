@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Five Guys Cary Towne Ctr", "addr_city": "Cary", "item_comments": "FIVE GUYS CARY TOWNE CTR", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092014797", "score": 99.0, "addr_line1": "712 S E Maynard Rd"}}

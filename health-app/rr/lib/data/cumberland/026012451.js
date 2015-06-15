@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Salvador Restaurant", "addr_city": "Fayetteville", "item_comments": "4 101.11 CHARACTERISTICS MATERIALS FOR CONSTRUCTION AND REPAIRREPLACE GASKET OF REACH IN REFRIGERATOR.;", "activity_date": "09/30/2014", "county": "Cumberland", "facility_id": "026012451", "score": 100.0, "addr_line1": "155 Bonanza Drive"}}

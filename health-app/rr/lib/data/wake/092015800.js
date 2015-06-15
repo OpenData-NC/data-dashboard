@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Andys #121 Crabtree", "addr_city": "Raleigh", "item_comments": "ANDYS #121 CRABTREE", "activity_date": "08/21/2014", "county": "Wake", "facility_id": "092015800", "score": 95.0, "addr_line1": "4325  Glenwood  Ave"}}

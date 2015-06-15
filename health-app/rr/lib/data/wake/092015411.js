@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Flik International at Fidelity", "addr_city": "Cary", "item_comments": "FLIK INTERNATIONAL AT FIDELITY", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092015411", "score": 96.0, "addr_line1": "11000 Weston Pkwy"}}

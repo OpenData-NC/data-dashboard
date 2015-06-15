@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cheesecake Factory  The", "addr_city": "Raleigh", "item_comments": "CHEESECAKE FACTORY  THE", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092013869", "score": 96.0, "addr_line1": "4325 Glenwood Ave"}}

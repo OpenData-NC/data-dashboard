@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #23656", "addr_city": "Stokesdale", "item_comments": "SUBWAY #23656", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041012335", "score": 98.5, "addr_line1": "8304 Us Hwy 158"}}

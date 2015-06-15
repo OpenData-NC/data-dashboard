@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tl County Kitchen", "addr_city": "Manteo", "item_comments": "KEEP FOODS COVERED;CLEAN FLOORS IN CORNERS;CLEAN COOKLINE BEHIND EQUIP;KEEP SALAD BAGS CLOSED;", "activity_date": "05/12/2014", "county": "Dare", "facility_id": "028010396", "score": 95.5, "addr_line1": "115 Hwy 64"}}

@@ -1,0 +1,1 @@
+{"results": [["Aggie's Steak Sub", "100 Hwy 301 North", "Lucama", "08/12/2014", 98.0, "098010703"], ["Klints Korner", "511 Hwy 301 S", "Lucama", "06/23/2014", 96.0, "098010054"], ["Southern National Motorsports Park", "8071 Newsome Mill Road", "Lucama", "05/10/2014", 99.0, "098010784"]]}

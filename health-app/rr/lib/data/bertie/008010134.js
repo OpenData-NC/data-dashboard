@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ryan's Cafe", "addr_city": "Aulander", "item_comments": "UNDER TRANSITIONAL PERIOD;CONTINUE WALL AND WINDOW REPAIRS.  SCREEN DAMAGED AT KITCHEN DOOR.;HOOD AREA GREASY;", "activity_date": "05/28/2014", "county": "Bertie", "facility_id": "008010134", "score": 98.0, "addr_line1": "108 East Main Street"}}

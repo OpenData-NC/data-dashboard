@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kings Barcade & Neptunes Parlor", "addr_city": "Raleigh", "item_comments": "KINGS BARCADE & NEPTUNES PARLOR", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092015669", "score": 96.0, "addr_line1": "14 W. Martin St"}}

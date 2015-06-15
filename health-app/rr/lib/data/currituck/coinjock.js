@@ -1,0 +1,1 @@
+{"results": [["Coinjock Marina/Resort Inc", "321 Waterlily Road", "Coinjock", "09/25/2014", 99.5, "027010125"], ["Crabbies Restaurant", "159 Coinjock Development", "Coinjock", "06/26/2014", 99.0, "027010147"]]}

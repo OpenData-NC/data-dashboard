@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Weeping Radish Restaurant and Pub", "addr_city": "Grandy,nc", "item_comments": "GENERAL CLEANING OF EQUIPMENT IN KITCHEN;GENERAL REPAIR FLOORS/WALLS/CEILINGS. CLEAN FLOORS BEHIND EQUIPMENT.;", "activity_date": "05/14/2014", "county": "Currituck", "facility_id": "027010309", "score": 99.0, "addr_line1": "6810 Carotank Hwy"}}

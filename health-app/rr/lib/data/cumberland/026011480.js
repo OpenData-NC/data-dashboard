@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Tucan Mexican Restaurant", "addr_city": "Spring Lake", "item_comments": ".;.;.;", "activity_date": "09/30/2014", "county": "Cumberland", "facility_id": "026011480", "score": 99.0, "addr_line1": "250 S. Bragg Blvd"}}

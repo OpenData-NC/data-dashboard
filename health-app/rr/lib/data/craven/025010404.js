@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Golden Corral  756", "addr_city": "New Bern", "item_comments": "GOLDEN CORRAL  756", "activity_date": "09/16/2014", "county": "Craven", "facility_id": "025010404", "score": 90.5, "addr_line1": "400 Hotel Dr"}}

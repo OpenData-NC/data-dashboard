@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Leon's Burger Express", "addr_city": "Mount Airy", "item_comments": "LEON\\'S BURGER EXPRESS", "activity_date": "08/27/2014", "county": "Surry", "facility_id": "086010108", "score": 93.5, "addr_line1": "407 N. Main Street"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fiction Kitchen", "addr_city": "Raleigh", "item_comments": "FICTION KITCHEN", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092016325", "score": 97.0, "addr_line1": "428 Se Dawson St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hong Kong Restaurant", "addr_city": "Battleboro", "item_comments": "HONG KONG RESTAURANT", "activity_date": "09/09/2014", "county": "Nash", "facility_id": "064010445", "score": 0.0, "addr_line1": "3922 Bishops Road"}}

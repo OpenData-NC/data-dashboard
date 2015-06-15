@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hunan Park Restaurant", "addr_city": "Charlotte", "item_comments": "HUNAN PARK RESTAURANT", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060015858", "score": 95.5, "addr_line1": "5818 Prosperity Church Rd"}}

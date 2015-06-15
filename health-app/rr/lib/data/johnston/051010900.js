@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Skylines Cafe", "addr_city": "Clayton", "item_comments": "SKYLINES CAFE", "activity_date": "08/26/2014", "county": "Johnston", "facility_id": "051010900", "score": 98.5, "addr_line1": "8878 Us 70 W"}}

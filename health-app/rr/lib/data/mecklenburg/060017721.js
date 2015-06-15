@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Another Broken Egg Cafe Ballanty", "addr_city": "Charlotte", "item_comments": "ANOTHER BROKEN EGG CAFE BALLANTY", "activity_date": "09/23/2014", "county": "Mecklenburg", "facility_id": "060017721", "score": 97.5, "addr_line1": "11324 North Community House Rd"}}

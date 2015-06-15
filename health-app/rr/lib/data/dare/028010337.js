@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fish Heads Grill", "addr_city": "Nags Head", "item_comments": "FLIES;", "activity_date": "06/21/2014", "county": "Dare", "facility_id": "028010337", "score": 99.0, "addr_line1": "8901 Old Oregon Inlet Rd"}}

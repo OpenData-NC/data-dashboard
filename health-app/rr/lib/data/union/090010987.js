@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Village of Woodridge Restaurant", "addr_city": "Monroe", "item_comments": ";;;;;;;;;;;;", "activity_date": "09/25/2014", "county": "Union", "facility_id": "090010987", "score": 100.0, "addr_line1": "2414 Granville Place"}}

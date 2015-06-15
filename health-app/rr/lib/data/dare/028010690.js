@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hatterasman", "addr_city": "Hatteras", "item_comments": "GENERAL MAINTENANCE.......BASE,BULBS,WAQLLS;GENERAL CLEANING, STORAGE ON FLOOR;", "activity_date": "06/30/2014", "county": "Dare", "facility_id": "028010690", "score": 98.0, "addr_line1": "57449 Nc 1z"}}

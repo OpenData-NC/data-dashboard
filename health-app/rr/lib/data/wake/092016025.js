@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Comfort Inn Breakfast", "addr_city": "Apex", "item_comments": "COMFORT INN BREAKFAST", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092016025", "score": 91.5, "addr_line1": "1411 E Williams St"}}

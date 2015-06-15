@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Biscuit Factory", "addr_city": "High Point", "item_comments": "BISCUIT FACTORY", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041010046", "score": 95.0, "addr_line1": "2103 Kirkwood Dr"}}

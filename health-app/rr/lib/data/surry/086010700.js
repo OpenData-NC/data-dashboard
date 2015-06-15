@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Armfield Civic Center", "addr_city": "Pilot Mountain", "item_comments": "ARMFIELD CIVIC CENTER", "activity_date": "09/15/2014", "county": "Surry", "facility_id": "086010700", "score": 96.0, "addr_line1": "873 W Hwy 52 Bypass"}}

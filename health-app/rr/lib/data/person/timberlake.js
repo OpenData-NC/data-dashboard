@@ -1,0 +1,1 @@
+{"results": [["Timberlake Shell", "8151 Durham Rd.", "Timberlake", "10/17/2014", 95.5, "073010218"], ["Homestead Steak House", "155 Frank Timberlake Rd.", "Timberlake", "09/30/2014", 0.0, "073010026"], ["Country Kitchen", "8806 Durham Rd", "Timberlake", "06/12/2014", 94.5, "073010014"]]}

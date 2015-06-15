@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taco Bell Sylva", "addr_city": "Sylva", "item_comments": "SEVERAL OF THE NON FOOD CONTACT SURFACES HAVE BUILD UP  RACKS IN THE REACH IN, RACKS IN THE HOT BOX, BACK OF GRILL .  CLEAN AS NEEDED.;", "activity_date": "05/22/2014", "county": "Jackson", "facility_id": "050010551", "score": 99.5, "addr_line1": "375 West Main St"}}

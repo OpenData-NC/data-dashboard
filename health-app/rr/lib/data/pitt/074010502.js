@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dennys  6958", "addr_city": "Greenville", "item_comments": "DENNYS  6958", "activity_date": "09/26/2014", "county": "Pitt", "facility_id": "074010502", "score": 91.5, "addr_line1": "808 Memorial Dr"}}

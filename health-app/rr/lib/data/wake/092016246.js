@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Starbucks #8214", "addr_city": "Raleigh", "item_comments": "STARBUCKS #8214", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092016246", "score": 97.5, "addr_line1": "6176 Falls of Neuse Rd"}}

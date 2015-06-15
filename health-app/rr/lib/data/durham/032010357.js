@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pizza Hut", "addr_city": "Durham", "item_comments": "PIZZA HUT", "activity_date": "09/04/2014", "county": "Durham", "facility_id": "032010357", "score": 98.0, "addr_line1": "2107 E. Hwy. 54"}}

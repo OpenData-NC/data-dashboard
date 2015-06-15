@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Riviera Restaurant and Motel", "addr_city": "Poplar Branch", "item_comments": "RIVIERA RESTAURANT AND MOTEL", "activity_date": "09/08/2014", "county": "Currituck", "facility_id": "027010189", "score": 98.0, "addr_line1": "5566 Caratoke Hwy"}}

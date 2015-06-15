@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hissho Sushi", "addr_city": "Asheville", "item_comments": ";;;;;;;;;;;;;;3-304.12; Core; Keep knife stored on a clean, dry surface instead of in sanitizer bucket.;4-901.11; Core; Air dry utensils before stacking.;", "activity_date": "09/10/2014", "county": "Buncombe", "facility_id": "011012362", "score": 98.5, "addr_line1": "1856 Hendersonville Rd"}}

@@ -1,0 +1,1 @@
+{"results": [["Watauga Farm Diner", "2931 Broadstone Road", "Valle Crucis", "08/12/2014", 94.5, "095010571"], ["Over Yonder", "3608 Hwy 194", "Valle Crucis", "07/17/2014", 95.0, "095010696"]]}

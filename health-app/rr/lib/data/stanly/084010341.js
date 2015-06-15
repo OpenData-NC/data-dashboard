@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #766", "addr_city": "Richfield", "item_comments": "BOJANGLES #766", "activity_date": "09/22/2014", "county": "Stanly", "facility_id": "084010341", "score": 97.5, "addr_line1": "418 West Church St"}}

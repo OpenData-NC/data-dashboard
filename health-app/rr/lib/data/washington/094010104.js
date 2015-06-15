@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mark's Supermarket", "addr_city": "Creswell", "item_comments": "MARK\\'S SUPERMARKET", "activity_date": "09/18/2014", "county": "Washington", "facility_id": "094010104", "score": 97.0, "addr_line1": "25317 Hwy 64 East"}}

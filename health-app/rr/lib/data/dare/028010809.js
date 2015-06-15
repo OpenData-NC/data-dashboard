@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Trio", "addr_city": "Kitty Hawk", "item_comments": "TEST STRIPS;", "activity_date": "06/26/2014", "county": "Dare", "facility_id": "028010809", "score": 99.5, "addr_line1": "Us 158"}}

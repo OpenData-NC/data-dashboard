@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Don  Ramons Taco Shop", "addr_city": "Fayetteville", "item_comments": "DON  RAMONS TACO SHOP", "activity_date": "09/17/2014", "county": "Cumberland", "facility_id": "026013203", "score": 95.0, "addr_line1": "300 N Reilly Road"}}

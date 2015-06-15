@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Harbor Diner", "addr_city": "Elizabeth City", "item_comments": "HARBOR DINER", "activity_date": "09/05/2014", "county": "Pasquotank", "facility_id": "070010336", "score": 99.5, "addr_line1": "205 S Hughes Blvd"}}

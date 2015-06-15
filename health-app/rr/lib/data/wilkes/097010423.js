@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Staley's", "addr_city": "Roaring River", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C   REPAIR CEILING ABOVE VEGETABLE SINK.;", "activity_date": "10/06/2014", "county": "Wilkes", "facility_id": "097010423", "score": 99.0, "addr_line1": "7894 Elkin Hwy"}}

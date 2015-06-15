@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dandelion Market", "addr_city": "Charlotte", "item_comments": "DANDELION MARKET", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060016656", "score": 95.0, "addr_line1": "118 W 5th St"}}

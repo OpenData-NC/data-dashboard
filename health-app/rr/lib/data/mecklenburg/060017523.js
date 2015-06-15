@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Which Wich", "addr_city": "Charlotte", "item_comments": "WHICH WICH", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060017523", "score": 98.0, "addr_line1": "11318 N Community House  Rd"}}

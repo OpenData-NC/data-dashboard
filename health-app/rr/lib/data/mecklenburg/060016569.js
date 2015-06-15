@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Newk`s Express Cafe", "addr_city": "Charlotte", "item_comments": "NEWK`S EXPRESS CAFE", "activity_date": "09/12/2014", "county": "Mecklenburg", "facility_id": "060016569", "score": 94.0, "addr_line1": "9815 Rea Rd"}}

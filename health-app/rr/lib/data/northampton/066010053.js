@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lakitchen De Lite", "addr_city": "Garysburg", "item_comments": "LAKITCHEN DE LITE", "activity_date": "08/25/2014", "county": "Northampton", "facility_id": "066010053", "score": 90.0, "addr_line1": "95 Sr 1207"}}

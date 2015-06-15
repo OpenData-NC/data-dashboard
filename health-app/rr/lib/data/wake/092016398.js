@@ -1,0 +1,1 @@
+{"results": {"fac_name": "All Aboard Pizzeria", "addr_city": "Holly Springs", "item_comments": "ALL ABOARD PIZZERIA", "activity_date": "08/21/2014", "county": "Wake", "facility_id": "092016398", "score": 94.5, "addr_line1": "204 Village Walk Dr"}}

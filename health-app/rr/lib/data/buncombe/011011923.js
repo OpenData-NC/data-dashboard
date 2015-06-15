@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sazerac", "addr_city": "Asheville", "item_comments": ";;;;4-501.114; Priority;  Bar dish machine required to sanitize at least 50ppm.  Corrected during inspection.;;;;;;;;;;;;;;", "activity_date": "09/17/2014", "county": "Buncombe", "facility_id": "011011923", "score": 98.5, "addr_line1": "29 Broadway"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jays Seafood", "addr_city": "Albemarle", "item_comments": "EMPLOYEE PREPPING BROCCOLI FOR SALAD BAR WITHOUT GLOVES.NO BARE HAND CONTACT WITH RTE FOODS.CDI EMPLOYEE PUT ON GLOVES.;", "activity_date": "06/19/2014", "county": "Stanly", "facility_id": "084010050", "score": 98.5, "addr_line1": "40439 Stony Gap Rd."}}

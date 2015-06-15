@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Davids Red Barn", "addr_city": "Edenton", "item_comments": "PIC/MANAGER CERTIFICATION NEEDED.;", "activity_date": "07/28/2014", "county": "Chowan", "facility_id": "021010086", "score": 98.0, "addr_line1": "1008 David`s Red Barn Lane"}}

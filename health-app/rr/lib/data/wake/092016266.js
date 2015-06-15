@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Top of the Tower", "addr_city": "Raleigh", "item_comments": "TOP OF THE TOWER", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092016266", "score": 90.5, "addr_line1": "320 Hillsborough St"}}

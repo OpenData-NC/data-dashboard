@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Short Trip #10", "addr_city": "Selma", "item_comments": "SHORT TRIP #10", "activity_date": "08/06/2014", "county": "Johnston", "facility_id": "051011235", "score": 91.0, "addr_line1": "900 N. Pollock St."}}

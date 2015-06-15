@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Papa Johns Pizza", "addr_city": "Cullowhee", "item_comments": "PAPA JOHNS PIZZA", "activity_date": "09/10/2014", "county": "Jackson", "facility_id": "050010505", "score": 98.5, "addr_line1": "Hines Universtiy Center"}}

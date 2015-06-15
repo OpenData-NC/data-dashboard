@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bellas Junction Cafe", "addr_city": "Scaly Mountain", "item_comments": "SOME MENUS WERE MISSING THE CONSUMER ADVISORY.  NEW ADVISORIES WERE ADDED TO THE MENUS.;", "activity_date": "10/24/2014", "county": "Macon", "facility_id": "056010443", "score": 100.0, "addr_line1": "20 Mud Creek Rd"}}

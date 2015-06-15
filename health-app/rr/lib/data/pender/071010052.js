@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardee's Restaurant", "addr_city": "Hampstead", "item_comments": "6 202.12 HEATING, VENTILATION, AIR CONDITIONING SYSTEM VENTS;6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY;4 602.13 NONFOOD CONTACT SURFACES;", "activity_date": "08/19/2014", "county": "Pender", "facility_id": "071010052", "score": 97.0, "addr_line1": "1830 Hwy 17"}}

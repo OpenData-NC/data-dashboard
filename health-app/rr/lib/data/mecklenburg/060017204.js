@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King #732", "addr_city": "Charlotte", "item_comments": "BURGER KING #732", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060017204", "score": 98.5, "addr_line1": "10102 Johnston Rd"}}

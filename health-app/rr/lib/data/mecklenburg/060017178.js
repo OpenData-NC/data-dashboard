@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Duckworth's Grill & Taphouse", "addr_city": "Charlotte", "item_comments": "DUCKWORTH\\'S GRILL & TAPHOUSE", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060017178", "score": 97.0, "addr_line1": "14015 Conlan Cir"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Luxury Box", "addr_city": "Raleigh", "item_comments": "THE LUXURY BOX", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092015918", "score": 98.5, "addr_line1": "851 Cantilever Way"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King #729", "addr_city": "Winston Salem", "item_comments": "BURGER KING #729", "activity_date": "09/12/2014", "county": "Forsyth", "facility_id": "034012173", "score": 91.0, "addr_line1": "235 Summit Point Ln"}}

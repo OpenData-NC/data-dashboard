@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Hacienda #2", "addr_city": "High Point", "item_comments": "LA HACIENDA #2", "activity_date": "09/08/2014", "county": "Guilford", "facility_id": "041011027", "score": 98.5, "addr_line1": "1116  Eastchester Dr"}}

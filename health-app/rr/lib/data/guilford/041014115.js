@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Spice Cantina", "addr_city": "Greensboro", "item_comments": "4 901.11 PLASTIC UTENSILS STACKED WET ON CLEAN STORAGE RACK AIR DRY AFTER CLEAN/SANITIZE.;", "activity_date": "10/22/2014", "county": "Guilford", "facility_id": "041014115", "score": 99.5, "addr_line1": "120 Barnhardt St"}}

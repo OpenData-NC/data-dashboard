@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Handi Mart Fast Food", "addr_city": "Albemarle", "item_comments": "USE HANDLED SCOOPS IN DRY GOOD CONTAINERS.;", "activity_date": "06/25/2014", "county": "Stanly", "facility_id": "084010039", "score": 99.5, "addr_line1": "1554 Hwy 24/27 West"}}

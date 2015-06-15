@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jersey Mikes Subs 3008-B", "addr_city": "Raleigh", "item_comments": "JERSEY MIKES SUBS 3008-B", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092015028", "score": 97.5, "addr_line1": "8111-107 Creedmoor Road"}}

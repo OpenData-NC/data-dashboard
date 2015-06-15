@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ichiban Hibachi & Grill", "addr_city": "Clinton", "item_comments": "ICHIBAN HIBACHI & GRILL", "activity_date": "08/13/2014", "county": "Sampson", "facility_id": "082010414", "score": 95.0, "addr_line1": "1115 Sunset Avenue"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds  #5698", "addr_city": "Yadkinville", "item_comments": "MCDONALDS  #5698", "activity_date": "09/09/2014", "county": "Yadkin", "facility_id": "099010188", "score": 96.5, "addr_line1": "1 Beroth Drive"}}

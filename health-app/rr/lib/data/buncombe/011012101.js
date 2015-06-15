@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ya Yas Frozen Yogurt", "addr_city": "Asheville", "item_comments": ";;;;;;;;;;;7-102.11; Priority Foundation; Keep all chemicals in spray bottles labeled.;;;;", "activity_date": "07/01/2014", "county": "Buncombe", "facility_id": "011012101", "score": 99.0, "addr_line1": "29 Schenck  Pky"}}

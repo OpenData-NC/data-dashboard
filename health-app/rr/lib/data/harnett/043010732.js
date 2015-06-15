@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tubby's Diner", "addr_city": "Erwin", "item_comments": "TUBBY\\'S DINER", "activity_date": "09/11/2014", "county": "Harnett", "facility_id": "043010732", "score": 95.5, "addr_line1": "127 East H St."}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Outerbanks Hospital Cafe", "addr_city": "Nags Head", "item_comments": ". PIC MUST HAVE CERTIFICATION IN FOOD PROTECTION COURSE.;ONE VENT STARTING TO ACCUMULATE DUST, NEEDS TO BE CLEANED.;", "activity_date": "08/27/2014", "county": "Dare", "facility_id": "028010882", "score": 98.0, "addr_line1": "4800 S Croatan Highway"}}

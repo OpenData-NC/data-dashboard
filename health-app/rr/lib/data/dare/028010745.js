@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Quality Inn Carolina Oceanfront", "addr_city": "Kill Devil Hlls", "item_comments": "2 402.11 EFFECTIVENESS HAIR RESTRAINTS   CFOOD HANDLERS MUST WEAR EFFECTIVE HAIR RESTRAINTS.;", "activity_date": "10/30/2014", "county": "Dare", "facility_id": "028010745", "score": 99.5, "addr_line1": "401 N Va Dare Trial"}}

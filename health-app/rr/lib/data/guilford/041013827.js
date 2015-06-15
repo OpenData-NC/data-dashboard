@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Blue Rock Pizza and Tap", "addr_city": "High Point", "item_comments": "6 303.11 BURNED OUT HOOD BULBS PROVIDE PROPER LIGHT INTENSITY.;", "activity_date": "09/25/2014", "county": "Guilford", "facility_id": "041013827", "score": 99.5, "addr_line1": "1529 N. Main Street"}}

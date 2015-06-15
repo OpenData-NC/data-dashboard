@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Barbee Seafood", "addr_city": "Smithfield", "item_comments": "BARBEE SEAFOOD", "activity_date": "08/12/2014", "county": "Johnston", "facility_id": "051010345", "score": 98.5, "addr_line1": "728 N Brightleaf"}}

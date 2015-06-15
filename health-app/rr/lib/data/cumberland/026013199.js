@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Asian Express", "addr_city": "Fayetteville", "item_comments": "ASIAN EXPRESS", "activity_date": "09/05/2014", "county": "Cumberland", "facility_id": "026013199", "score": 95.5, "addr_line1": "6415 Camden Rd Suite 101"}}

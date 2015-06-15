@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Badin Inn Restaurnat", "addr_city": "Badin", "item_comments": "BADIN INN RESTAURNAT", "activity_date": "07/29/2014", "county": "Stanly", "facility_id": "084010401", "score": 93.0, "addr_line1": "1 Pine Circle Dr"}}

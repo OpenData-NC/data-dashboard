@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Strickland's Inc.", "addr_city": "Fayetteville", "item_comments": "STRICKLAND\\'S INC.", "activity_date": "09/19/2014", "county": "Cumberland", "facility_id": "026011451", "score": 97.5, "addr_line1": "2354 Cedar Creek Rd"}}

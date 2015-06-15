@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sonic Drive in #5639", "addr_city": "Raleigh", "item_comments": "SONIC DRIVE IN #5639", "activity_date": "08/08/2014", "county": "Wake", "facility_id": "092016653", "score": 99.5, "addr_line1": "1240  N Arendell  Ave"}}

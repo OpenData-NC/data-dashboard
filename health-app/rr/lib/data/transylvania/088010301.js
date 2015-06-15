@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Zaxby's", "addr_city": "Brevard", "item_comments": "ZAXBY\\'S", "activity_date": "09/05/2014", "county": "Transylvania", "facility_id": "088010301", "score": 96.0, "addr_line1": "205 Asheville Hwy"}}

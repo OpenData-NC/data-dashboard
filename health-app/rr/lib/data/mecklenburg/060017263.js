@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Crown Town Cafe", "addr_city": "Charlotte", "item_comments": "CROWN TOWN CAFE", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060017263", "score": 93.5, "addr_line1": "4701 Hedgemore Dr"}}

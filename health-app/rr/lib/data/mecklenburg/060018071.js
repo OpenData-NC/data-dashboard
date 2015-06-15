@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Quik Trip #1053", "addr_city": "Charlotte", "item_comments": "4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED   C  DISCONTINUE WET STACKING INSERT PANS. MUST ALLOW ALL DISHES TO AIR DRY BEFORE STACKING.;", "activity_date": "11/06/2014", "county": "Mecklenburg", "facility_id": "060018071", "score": 99.5, "addr_line1": "6721 Albemarle Rd"}}

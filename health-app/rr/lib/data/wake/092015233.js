@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Qdoba Mexican Grill #203", "addr_city": "Raleigh", "item_comments": "QDOBA MEXICAN GRILL #203", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092015233", "score": 92.5, "addr_line1": "3101-102 Edwards Mill  Rd"}}

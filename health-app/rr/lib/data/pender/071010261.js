@@ -1,0 +1,1 @@
+{"results": {"fac_name": "A B Grille and Ice Cream", "addr_city": "Burgaw", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY;4 601.11  B  AND  C  EQUIPMENT, FOOD CONTACT SURFACES, NONFOOD CONTACT SURFACES, AND UTENSILS;", "activity_date": "08/08/2014", "county": "Pender", "facility_id": "071010261", "score": 98.0, "addr_line1": "211 S Dudley St"}}

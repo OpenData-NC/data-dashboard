@@ -1,0 +1,1 @@
+{"results": {"fac_name": "No.1 Chinese Restaurant", "addr_city": "Selma", "item_comments": "NO.1 CHINESE RESTAURANT", "activity_date": "08/20/2014", "county": "Johnston", "facility_id": "051010458", "score": 95.5, "addr_line1": "1110 s.pollock St."}}

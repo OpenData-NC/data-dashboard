@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House 556", "addr_city": "Durham", "item_comments": "WAFFLE HOUSE 556", "activity_date": "09/17/2014", "county": "Durham", "facility_id": "032012039", "score": 94.5, "addr_line1": "4435 Hwy. 55"}}

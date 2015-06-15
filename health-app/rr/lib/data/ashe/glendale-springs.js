@@ -1,0 +1,1 @@
+{"results": [["Glendale Springs Inn and Restaurant", "7414 Nc Hwy 16 South", "Glendale Springs", "11/14/2014", 94.5, "005010303"]]}

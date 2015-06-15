@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kangaroo Express", "addr_city": "Clayton", "item_comments": "KANGAROO EXPRESS", "activity_date": "09/02/2014", "county": "Johnston", "facility_id": "051010474", "score": 99.0, "addr_line1": "10081 Hwy 70 W"}}

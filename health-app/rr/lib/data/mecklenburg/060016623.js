@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Twenty-Two", "addr_city": "Charlotte", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER  PROVIDE PIC THAT IS A CERTIFIED FOOD PROTECTION MANAGER  OBSERVED PIC ON SITE NOT A CFPM.;", "activity_date": "06/27/2014", "county": "Mecklenburg", "facility_id": "060016623", "score": 98.0, "addr_line1": "1500  Central Avenue"}}

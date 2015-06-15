@@ -1,0 +1,1 @@
+{"results": {"fac_name": "J & J Fish & Chicken", "addr_city": "Durham", "item_comments": "J & J FISH & CHICKEN", "activity_date": "09/18/2014", "county": "Durham", "facility_id": "032012115", "score": 94.5, "addr_line1": "1403 S Miami Blvd"}}

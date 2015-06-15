@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Glenwood Grill", "addr_city": "Raleigh", "item_comments": "GLENWOOD GRILL", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092010287", "score": 94.5, "addr_line1": "2929 Essex Circle"}}

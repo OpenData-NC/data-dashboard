@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Firehouse Subs #0528", "addr_city": "Cary", "item_comments": "FIREHOUSE SUBS #0528", "activity_date": "08/04/2014", "county": "Wake", "facility_id": "092015672", "score": 98.0, "addr_line1": "100 Wrenn Dr"}}

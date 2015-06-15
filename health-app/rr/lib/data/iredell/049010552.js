@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Logan's Roadhouse #208", "addr_city": "Statesville", "item_comments": "LOGAN\\'S ROADHOUSE #208", "activity_date": "09/19/2014", "county": "Iredell", "facility_id": "049010552", "score": 92.5, "addr_line1": "1071 Glenway Dr"}}

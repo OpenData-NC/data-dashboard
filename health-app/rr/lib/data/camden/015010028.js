@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Itza Boutza Pizza", "addr_city": "Camden", "item_comments": "CLEAN HOOD MORE OFTEN;NO CONTRACT FOR SEPTIC SYSTEM, SYSTEM REQUIRES A CONTRACT BETWEEN THE OWNER AND NC SUBSURFACE OPERATOR.  NOV WILL BE MAILED TO OWNER.;", "activity_date": "08/21/2014", "county": "Camden", "facility_id": "015010028", "score": 98.5, "addr_line1": "104 a Investors Way"}}

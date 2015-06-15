@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Art's Place", "addr_city": "Kitty Hawk", "item_comments": "RESIDENTIAL REFRIGERATOR NOT NSF;", "activity_date": "05/20/2014", "county": "Dare", "facility_id": "028010002", "score": 98.0, "addr_line1": "4624 Virginia Dare Trail"}}

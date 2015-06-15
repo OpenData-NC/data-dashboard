@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Daves Pizza and Subs", "addr_city": "Marshville", "item_comments": "DAVES PIZZA AND SUBS", "activity_date": "07/15/2014", "county": "Union", "facility_id": "090010415", "score": 96.5, "addr_line1": "6330 B. West Highway 74"}}

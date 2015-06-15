@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Corolla Grass Course", "addr_city": "Corolla", "item_comments": "FOOD MANAGERS NEED TO BE CERTIFED WITH AN APPROVED FOOD SAFETY COURSE.;", "activity_date": "08/07/2014", "county": "Currituck", "facility_id": "027010332", "score": 98.0, "addr_line1": "1024 Ocean Trail"}}

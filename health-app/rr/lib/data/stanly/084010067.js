@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Piney Point Snack Bar", "addr_city": "Norwood", "item_comments": "CHEST FREEZERS AND UPRIGHT FREEZER ARE NOT NSF APPROVED;", "activity_date": "05/15/2014", "county": "Stanly", "facility_id": "084010067", "score": 98.0, "addr_line1": "48668 Piney Point Rd"}}

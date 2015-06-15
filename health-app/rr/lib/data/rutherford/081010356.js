@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Super China Buffet", "addr_city": "Forest City", "item_comments": "SUPER CHINA BUFFET", "activity_date": "09/15/2014", "county": "Rutherford", "facility_id": "081010356", "score": 96.0, "addr_line1": "143 Plaza Dr"}}

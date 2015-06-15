@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Andy's Limousine Service, Llc", "addr_city": "Hamlet", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C  CEILING IN MENS RESTROOM NEEDS REPAINTING, DAMAGED FROM LEAK.;", "activity_date": "10/24/2014", "county": "Richmond", "facility_id": "077010331", "score": 100.0, "addr_line1": "6 Raleigh St."}}

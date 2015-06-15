@@ -1,0 +1,1 @@
+{"results": [["Nelson Bay Cafe", "604 Highway 70e", "Sea Level", "09/19/2014", 97.5, "016010881"], ["Heritage Healthcare at Taylor Place", "468 Hwy 70 E", "Sea Level", "07/25/2014", 100.0, "016010957"]]}

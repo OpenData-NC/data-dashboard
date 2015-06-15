@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Guayavitos #1", "addr_city": "Maggie Valley", "item_comments": "GUAYAVITOS #1", "activity_date": "09/11/2014", "county": "Haywood", "facility_id": "044010256", "score": 98.0, "addr_line1": "3422 Soco Road"}}

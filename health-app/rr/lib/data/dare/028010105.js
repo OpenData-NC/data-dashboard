@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Owens' Restaurant", "addr_city": "Nags Head", "item_comments": "REPAIR FREEZER DOOR AND FAN COVER. REPAIR CORNER OF DISH STAND;", "activity_date": "06/25/2014", "county": "Dare", "facility_id": "028010105", "score": 99.0, "addr_line1": "7114 Virginia Dare Trail"}}

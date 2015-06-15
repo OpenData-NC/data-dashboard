@@ -1,0 +1,1 @@
+{"results": [["Bojangles  581", "301 N Salisbury Blvd", "Spencer", "10/14/2014", 97.0, "080010322"], ["Subway", "305 N Salisbury Ave", "Spencer", "10/03/2014", 97.0, "080010592"], ["Pinocchio's", "518 S. Salisbury Ave", "Spencer", "09/12/2014", 98.5, "080010343"]]}

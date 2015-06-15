@@ -1,0 +1,1 @@
+{"results": [["Subway #103", "5191-103 Clinton Road", "Stedman", "10/01/2014", 98.5, "026012845"], ["Great Wall Chinese Restaurant", "5196 - 101 Clinton Rd", "Stedman", "09/26/2014", 92.5, "026012214"]]}

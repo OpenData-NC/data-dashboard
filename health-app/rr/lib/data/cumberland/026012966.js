@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China Wok", "addr_city": "Hope Mills", "item_comments": "CHINA WOK", "activity_date": "09/08/2014", "county": "Cumberland", "facility_id": "026012966", "score": 90.5, "addr_line1": "3020 N Main Street"}}

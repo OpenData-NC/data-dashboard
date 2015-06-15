@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mi Pueblo", "addr_city": "High Point", "item_comments": "MI PUEBLO", "activity_date": "09/18/2014", "county": "Guilford", "facility_id": "041011382", "score": 96.5, "addr_line1": "111 Northpoint Ave"}}

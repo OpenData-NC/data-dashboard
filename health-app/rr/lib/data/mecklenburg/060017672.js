@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Terraza Restaurant Bar & Grill", "addr_city": "Charlotte", "item_comments": "LA TERRAZA RESTAURANT BAR & GRILL", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060017672", "score": 88.0, "addr_line1": "6023 Albemarle Rd"}}

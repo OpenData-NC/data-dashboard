@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Starbucks Coffee # 11967", "addr_city": "Cary", "item_comments": "STARBUCKS COFFEE # 11967", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092014977", "score": 99.0, "addr_line1": "8204-120 Tryon Woods Dr."}}

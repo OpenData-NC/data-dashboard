@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Giannos Stone Oven Pizzeria", "addr_city": "High Point", "item_comments": "GIANNOS STONE OVEN PIZZERIA", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041013529", "score": 97.0, "addr_line1": "1124  Eastchester Dr"}}

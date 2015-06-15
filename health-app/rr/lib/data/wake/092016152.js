@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Clark Dining Hall", "addr_city": "Raleigh", "item_comments": "CLARK DINING HALL", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092016152", "score": 98.5, "addr_line1": "221 Jensen  Dr"}}

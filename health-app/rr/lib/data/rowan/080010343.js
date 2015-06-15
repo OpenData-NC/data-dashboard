@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pinocchio's", "addr_city": "Spencer", "item_comments": "PINOCCHIO\\'S", "activity_date": "09/12/2014", "county": "Rowan", "facility_id": "080010343", "score": 98.5, "addr_line1": "518 S. Salisbury Ave"}}

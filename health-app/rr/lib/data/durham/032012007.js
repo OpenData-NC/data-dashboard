@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Rincon", "addr_city": "Durham", "item_comments": "EL RINCON", "activity_date": "09/10/2014", "county": "Durham", "facility_id": "032012007", "score": 97.0, "addr_line1": "3808 Guess Rd. Suite I"}}

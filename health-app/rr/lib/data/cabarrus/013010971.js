@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mt Olivet Umc Food Service", "addr_city": "Concord", "item_comments": ";;;;;;;;;;;6-501.12; Core; Some food debris behind wheels of 2-door tall cooler at wall in kitchen. Cleaned during inspection.;", "activity_date": "10/03/2014", "county": "Cabarrus", "facility_id": "013010971", "score": 100.0, "addr_line1": "301 Mt Olivet Rd"}}

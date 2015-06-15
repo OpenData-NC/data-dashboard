@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chili Loco", "addr_city": "Cashiers", "item_comments": "EMPLOYEE DRINK WITH NO LID.  MUST HAVE LID ON ALL DRINKS.  CDI;COOLING BEANS IN LARGE CONTAINER.  USE SHALLOW PANS WHILE IN COOLING PROCESS.  CDI;", "activity_date": "08/26/2014", "county": "Jackson", "facility_id": "050010602", "score": 98.5, "addr_line1": "45 Slabtown Rd Bldg a Unit 3"}}

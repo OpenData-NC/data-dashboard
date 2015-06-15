@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House #449", "addr_city": "Charlotte", "item_comments": "WAFFLE HOUSE #449", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060010448", "score": 95.0, "addr_line1": "3309 Mulberry Church Rd"}}

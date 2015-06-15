@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Angelos", "addr_city": "Buxton", "item_comments": "ALL FOOD HANDLERS MUST WEAR EFFECTIVE HAIR RESTRAINTS.;CLEAN OUT FLOOR DRAIN IN WALK IN COOLER HAS TRASH AND DIRT BUILD UP  NEEDS TO BE CLEANED;", "activity_date": "11/14/2014", "county": "Dare", "facility_id": "028010653", "score": 99.0, "addr_line1": "46903 Nc 12"}}

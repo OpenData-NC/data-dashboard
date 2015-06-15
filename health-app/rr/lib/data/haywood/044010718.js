@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dlp Haywood Regional Medical Center, Inc", "addr_city": "Clyde", "item_comments": "DLP HAYWOOD REGIONAL MEDICAL CENTER, INC", "activity_date": "09/23/2014", "county": "Haywood", "facility_id": "044010718", "score": 0.0, "addr_line1": "262 Leroy George Drive"}}

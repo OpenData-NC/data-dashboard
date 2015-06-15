@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Airport Grill and Lounge", "addr_city": "Richlands", "item_comments": "AIRPORT GRILL AND LOUNGE", "activity_date": "09/23/2014", "county": "Onslow", "facility_id": "067010718", "score": 91.0, "addr_line1": "264 Albert J Ellis Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Costco Wholesale 645 Food Ser", "addr_city": "Raleigh", "item_comments": "COSTCO WHOLESALE 645 FOOD SER", "activity_date": "08/28/2014", "county": "Wake", "facility_id": "092014706", "score": 97.0, "addr_line1": "2838 Wake Forest Rd"}}

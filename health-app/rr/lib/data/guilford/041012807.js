@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Yamato Japanese Restaurant", "addr_city": "High Point", "item_comments": "YAMATO JAPANESE RESTAURANT", "activity_date": "09/16/2014", "county": "Guilford", "facility_id": "041012807", "score": 98.5, "addr_line1": "5836  Samet Dr"}}

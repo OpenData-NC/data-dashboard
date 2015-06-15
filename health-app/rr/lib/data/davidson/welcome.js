@@ -1,0 +1,1 @@
+{"results": [["Subway #18168", "6425 Old Hwy 52 North", "Welcome", "11/06/2014", 95.5, "029010431"], ["Sheetz #495", "8283 Old Hwy Us 52 N", "Welcome", "11/06/2014", 97.5, "029010961"], ["Kerley S Barbecue  Inc", "5114 Old Us Hwy 52n", "Welcome", "08/28/2014", 96.0, "029010202"]]}

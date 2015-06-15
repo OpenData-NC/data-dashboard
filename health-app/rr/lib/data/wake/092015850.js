@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Flame Kabob", "addr_city": "Raleigh", "item_comments": "FLAME KABOB", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092015850", "score": 92.0, "addr_line1": "7961 Skyland Ridge Pky"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "House of Pizza", "addr_city": "Charlotte", "item_comments": "HOUSE OF PIZZA", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060014926", "score": 94.0, "addr_line1": "3640 Central Ave"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King #778", "addr_city": "King", "item_comments": "BURGER KING #778", "activity_date": "09/17/2014", "county": "Stokes", "facility_id": "085010235", "score": 95.0, "addr_line1": "739 S Main St"}}

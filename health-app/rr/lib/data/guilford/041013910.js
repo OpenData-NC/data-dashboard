@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kozzy's Grille", "addr_city": "High Point", "item_comments": "KOZZY\\'S GRILLE", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041013910", "score": 98.5, "addr_line1": "1179 E. Lexington Avenue"}}

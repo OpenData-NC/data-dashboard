@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees #1319", "addr_city": "Wilmington", "item_comments": ";5-202.11", "activity_date": "05/19/2014", "county": "New Hanover", "facility_id": "065010103", "score": 97.5, "addr_line1": "1900 Castle Hayne Rd"}}

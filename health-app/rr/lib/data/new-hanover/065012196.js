@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Might as Well Bar and Grill", "addr_city": "Wilmington", "item_comments": ";;6-303.11", "activity_date": "06/16/2014", "county": "New Hanover", "facility_id": "065012196", "score": 95.0, "addr_line1": "250 Racine Dr Unit 15"}}

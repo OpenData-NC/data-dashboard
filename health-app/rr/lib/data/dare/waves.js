@@ -1,0 +1,1 @@
+{"results": [["Dairy Queen in Waves", "25199 Lela Ct", "Waves", "08/29/2014", 97.5, "028010644"], ["Atlantic Coast Cafe", "25150 Hwy 12", "Waves", "06/25/2014", 96.0, "028010617"]]}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Short Stop #22", "addr_city": "Benson", "item_comments": "SHORT STOP #22", "activity_date": "07/07/2014", "county": "Johnston", "facility_id": "051011222", "score": 98.5, "addr_line1": "904 E. Main St."}}

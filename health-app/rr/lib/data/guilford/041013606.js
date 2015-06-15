@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Emma Keys", "addr_city": "Greensboro", "item_comments": "4 602.13 INSIDE OVEN, SEAL ON SANDPREP   EXTERIOR LID DRY STORAGE BIN W/SOIL RESIDUE CLEAN   A FREQUENCY NECESSARY TO PRECLUDE ACCUM. SOIL RESIDUE.;", "activity_date": "11/06/2014", "county": "Guilford", "facility_id": "041013606", "score": 99.0, "addr_line1": "2206 Walker Ave"}}

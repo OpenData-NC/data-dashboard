@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Carolina Cafe", "addr_city": "Castle Hayne", "item_comments": ";;;;;;;3-501.16", "activity_date": "05/20/2014", "county": "New Hanover", "facility_id": "065012133", "score": 98.5, "addr_line1": "5512 Castle Hayne Rd"}}

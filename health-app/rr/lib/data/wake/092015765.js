@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House #1901", "addr_city": "Wake Forest", "item_comments": "WAFFLE HOUSE #1901", "activity_date": "08/06/2014", "county": "Wake", "facility_id": "092015765", "score": 92.5, "addr_line1": "1051 Durham  Rd"}}

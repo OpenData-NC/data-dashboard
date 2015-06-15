@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds", "addr_city": "Richfield", "item_comments": "4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED   CUSE SHELVING THAT ALLOWS AIR MOVEMENT TO PROPERLY AIR DRY PANS AND OTHER FOOD UTENSILS.;", "activity_date": "06/10/2014", "county": "Stanly", "facility_id": "084010475", "score": 99.5, "addr_line1": "121 49 Hwy N"}}

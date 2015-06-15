@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonald #35714", "addr_city": "High Point", "item_comments": "MCDONALD\\'S #35714", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041013969", "score": 99.5, "addr_line1": "6530 Old Plank Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway 34912 @ Superwalmart", "addr_city": "Fay", "item_comments": ".;", "activity_date": "06/13/2014", "county": "Cumberland", "facility_id": "026012777", "score": 98.0, "addr_line1": "4601 Ramsey St."}}

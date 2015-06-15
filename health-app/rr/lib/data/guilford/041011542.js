@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Target Food Ave. Express #1079", "addr_city": "High Point", "item_comments": "4 602.13 NONFOOD CONTACT SURFACES   CCLEAN  LOWER SHELVES, REFRIGERATION RACKS AND HANDLES, TOPS OF EQUIPMENT.;", "activity_date": "09/16/2014", "county": "Guilford", "facility_id": "041011542", "score": 99.5, "addr_line1": "1050  Mall Loop Rd"}}

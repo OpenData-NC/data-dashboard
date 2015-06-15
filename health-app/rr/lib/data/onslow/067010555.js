@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China King", "addr_city": "Midway Park", "item_comments": "CHINA KING", "activity_date": "09/05/2014", "county": "Onslow", "facility_id": "067010555", "score": 90.5, "addr_line1": "175 Freedom Way Shop I"}}

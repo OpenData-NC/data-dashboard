@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Keefers Bar and Grille at the Point", "addr_city": "Powells Point", "item_comments": "CLEAN FAN VENT IN EMPLOYEE RESTROOM.  REPAIR LIGHT OUT IN KITCHEN STORAGE AREA.;", "activity_date": "08/19/2014", "county": "Currituck", "facility_id": "027010067", "score": 99.5, "addr_line1": "308 Pointe Golf Club Drive"}}

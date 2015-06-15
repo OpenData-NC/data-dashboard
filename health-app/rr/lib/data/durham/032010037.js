@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #10", "addr_city": "Durham", "item_comments": "BOJANGLES #10", "activity_date": "09/17/2014", "county": "Durham", "facility_id": "032010037", "score": 97.5, "addr_line1": "1712 S. Miami Boulevard"}}

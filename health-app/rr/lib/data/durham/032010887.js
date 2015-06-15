@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Arby's", "addr_city": "Durham", "item_comments": "4 501.11 B    UPRIGHT REFRIGERATOR NEEDS GASKETS REPLACED.;", "activity_date": "07/09/2014", "county": "Durham", "facility_id": "032010887", "score": 99.0, "addr_line1": "2115 S Hwy 54"}}

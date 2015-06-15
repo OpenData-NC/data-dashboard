@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Barnes & Noble Cafe", "addr_city": "Huntersville", "item_comments": "2 102.12 ENSURE A CERTIFIED FOOD PROTECTION MANAGER IS PRESENT AT ALL TIMES.   C OBSERVED NO CERTIFIED FOOD PROTECTION MANAGER PRESENT.;", "activity_date": "07/03/2014", "county": "Mecklenburg", "facility_id": "060014436", "score": 98.0, "addr_line1": "8725 Townley Rd"}}

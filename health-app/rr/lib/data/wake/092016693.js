@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Honey Baked Ham Company #103", "addr_city": "Raleigh", "item_comments": "HONEY BAKED HAM COMPANY #103", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092016693", "score": 96.5, "addr_line1": "5275 Six Forks Rd"}}

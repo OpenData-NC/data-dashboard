@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees  1196", "addr_city": "Henderson", "item_comments": "HARDEES  1196", "activity_date": "09/15/2014", "county": "Vance", "facility_id": "091010272", "score": 96.0, "addr_line1": "120 Dabney Dr"}}

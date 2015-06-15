@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Arbys #1808", "addr_city": "High Point", "item_comments": "ARBYS #1808", "activity_date": "09/08/2014", "county": "Guilford", "facility_id": "041010019", "score": 94.5, "addr_line1": "2601 N. Main St."}}

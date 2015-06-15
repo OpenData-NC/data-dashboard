@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dean & Deluca Cafe-Stonecrest", "addr_city": "Charlotte", "item_comments": "DEAN & DELUCA CAFE-STONECREST", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060013342", "score": 91.5, "addr_line1": "7804-E Rea Rd"}}

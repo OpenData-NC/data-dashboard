@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Old Town Draught House", "addr_city": "Greensboro", "item_comments": "OLD TOWN DRAUGHT HOUSE", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041011314", "score": 98.0, "addr_line1": "1205  Spring Garden St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cappollas Pizza & Grill #2", "addr_city": "Clayton", "item_comments": "CAPPOLLAS PIZZA & GRILL #2", "activity_date": "08/26/2014", "county": "Johnston", "facility_id": "051011139", "score": 100.0, "addr_line1": "272 Prichard Rd"}}

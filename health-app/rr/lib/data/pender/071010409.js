@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burgaw Incubator Kitchen", "addr_city": "Burgaw", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C;", "activity_date": "07/07/2014", "county": "Pender", "facility_id": "071010409", "score": 99.5, "addr_line1": "115 S. Dickerson Street"}}

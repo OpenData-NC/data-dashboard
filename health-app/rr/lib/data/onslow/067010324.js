@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardees  #1642", "addr_city": "Jacksonville", "item_comments": "HARDEES  #1642", "activity_date": "08/19/2014", "county": "Onslow", "facility_id": "067010324", "score": 97.5, "addr_line1": "3001 Richlands Hwy"}}

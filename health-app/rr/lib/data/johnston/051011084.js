@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Chicken Barn", "addr_city": "Smithfield", "item_comments": "THE CHICKEN BARN", "activity_date": "08/19/2014", "county": "Johnston", "facility_id": "051011084", "score": 99.0, "addr_line1": "703-B Seventh Street"}}

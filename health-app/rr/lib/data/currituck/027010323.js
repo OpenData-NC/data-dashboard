@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pass the Salt", "addr_city": "Currituck", "item_comments": "HOOD NEEDS TO BE CLEANED.;", "activity_date": "10/16/2014", "county": "Currituck", "facility_id": "027010323", "score": 99.5, "addr_line1": "138 Courthouse Road"}}

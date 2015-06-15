@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ken's Grocery Snack Bar", "addr_city": "Tuckasegee", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER    PERSON IN CHARGE NO APPROVED FOOD SAFTEY TRAINING .;", "activity_date": "08/13/2014", "county": "Jackson", "facility_id": "050010081", "score": 98.0, "addr_line1": "Hwy 107 South"}}

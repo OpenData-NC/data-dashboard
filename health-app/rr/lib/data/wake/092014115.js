@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sams Club #8223 Cafe", "addr_city": "Raleigh", "item_comments": "SAMS CLUB #8223 CAFE", "activity_date": "07/02/2014", "county": "Wake", "facility_id": "092014115", "score": 98.5, "addr_line1": "2537 S Saunders St"}}

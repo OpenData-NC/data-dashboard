@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Burger King  9453", "addr_city": "Henderson", "item_comments": "BURGER KING  9453", "activity_date": "09/11/2014", "county": "Vance", "facility_id": "091010160", "score": 97.5, "addr_line1": "567  Ruin Creek Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Village Beach Club", "addr_city": "Nags Head", "item_comments": "MAINTENECE, FLOORS,WALLS LIGHTS;GENERAL CLEANING;R ACKS IN WALKIN,    MOP SINK;.FLIES,   HATS,;", "activity_date": "08/29/2014", "county": "Dare", "facility_id": "028010413", "score": 94.0, "addr_line1": "5805 S. Va Dare Tr"}}

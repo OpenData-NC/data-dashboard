@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Nationwide Cafeteria/4401 Bistro", "addr_city": "Raleigh", "item_comments": "NATIONWIDE CAFETERIA/4401 BISTRO", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092015999", "score": 94.0, "addr_line1": "4401 Creedmoor Rd"}}

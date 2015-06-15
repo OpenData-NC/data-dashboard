@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #25374", "addr_city": "Rutherfordton", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   CA PERSON IN CHARGE MUST BE PRESENT AT ALL TIMES.  THIS PERSON MUST BE A CERTIFIED FOOD PROTECTION MANAGER.;", "activity_date": "11/14/2014", "county": "Rutherford", "facility_id": "081010556", "score": 98.0, "addr_line1": "185 Railroad Ave."}}

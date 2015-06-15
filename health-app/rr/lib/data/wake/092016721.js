@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendys #10543", "addr_city": "Holly Springs", "item_comments": "WENDYS #10543", "activity_date": "08/11/2014", "county": "Wake", "facility_id": "092016721", "score": 97.5, "addr_line1": "181 Grand Hill Pl"}}

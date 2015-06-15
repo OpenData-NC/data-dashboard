@@ -1,0 +1,1 @@
+{"results": {"fac_name": "N.Y. Pizza and Pasta", "addr_city": "Indian Trail", "item_comments": "N.Y. PIZZA AND PASTA", "activity_date": "09/04/2014", "county": "Union", "facility_id": "090010334", "score": 97.5, "addr_line1": "624 Indian Trail Road"}}

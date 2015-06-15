@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Courtneys", "addr_city": "Elizabeth City", "item_comments": "FIX LATCH ON WALK IN FRIDGE;ITEMS OUT OF DATE OR NOT DATED.  COOKED RICE 6 9 14. BBQ 5 29 14.  ROAST 5 21 14.;", "activity_date": "06/17/2014", "county": "Pasquotank", "facility_id": "070010259", "score": 96.0, "addr_line1": "522 S Hughes Blvd."}}

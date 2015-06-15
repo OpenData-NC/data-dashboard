@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Randalls Ellenboro Rest", "addr_city": "Ellenboro", "item_comments": "RANDALLS ELLENBORO REST", "activity_date": "09/08/2014", "county": "Rutherford", "facility_id": "081010510", "score": 96.0, "addr_line1": "277 Main St"}}

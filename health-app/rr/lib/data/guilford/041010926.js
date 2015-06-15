@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fishers Grille", "addr_city": "Greensboro", "item_comments": "4 602.13 UNDERNEATH FLAT TOP GRILL W/ACCUM.OF SOIL RESIDUE CLEAN   A FREQUENCY NECESSARY TO PRECLUDE ACCUM. OF SOIL RESIDUES.;", "activity_date": "10/14/2014", "county": "Guilford", "facility_id": "041010926", "score": 99.5, "addr_line1": "608 N Elm St"}}

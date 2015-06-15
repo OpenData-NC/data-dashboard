@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Biz-Ness Center", "addr_city": "Concord", "item_comments": ";;;;;;3-501.17; Priority Foundation;  Beef stock in cooler did not have a correct date and the peppers and onions did not have a date.;;;;;;", "activity_date": "09/25/2014", "county": "Cabarrus", "facility_id": "013011006", "score": 98.5, "addr_line1": "1000 Copperfield  Blvd"}}

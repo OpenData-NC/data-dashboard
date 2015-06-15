@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House #1090", "addr_city": "Morrisville", "item_comments": "WAFFLE HOUSE #1090", "activity_date": "07/02/2014", "county": "Wake", "facility_id": "092015603", "score": 92.0, "addr_line1": "1006 Airport Blvd"}}

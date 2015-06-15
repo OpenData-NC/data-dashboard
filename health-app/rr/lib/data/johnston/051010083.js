@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kentucky Fried Chicken", "addr_city": "Selma", "item_comments": "KENTUCKY FRIED CHICKEN", "activity_date": "08/19/2014", "county": "Johnston", "facility_id": "051010083", "score": 94.0, "addr_line1": "407 Us Hwy 70 E"}}

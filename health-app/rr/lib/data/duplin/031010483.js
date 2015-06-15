@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Wallace", "item_comments": "SUBWAY", "activity_date": "08/28/2014", "county": "Duplin", "facility_id": "031010483", "score": 97.0, "addr_line1": "5680 Nc Hwy 41 S Suite 5"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hwy 55 Burgers, Shakes, Andamp; Fries", "addr_city": "Fuquay Varina", "item_comments": "HWY 55 BURGERS, SHAKES, ANDAMP; FRIES", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092016673", "score": 90.0, "addr_line1": "3421 N Main St"}}

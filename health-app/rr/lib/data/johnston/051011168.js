@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jds Country Store", "addr_city": "Smithfield", "item_comments": "JDS COUNTRY STORE", "activity_date": "09/05/2014", "county": "Johnston", "facility_id": "051011168", "score": 98.5, "addr_line1": "4549 Wilson's Mills Rd"}}

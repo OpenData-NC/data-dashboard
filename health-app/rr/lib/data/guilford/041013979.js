@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Newk's Eatery", "addr_city": "Greensboro", "item_comments": "NEWK\\'S EATERY", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041013979", "score": 98.5, "addr_line1": "2762 Grandview Avenue"}}

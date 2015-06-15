@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Grouchos Deli", "addr_city": "Raleigh", "item_comments": "GROUCHOS DELI", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092016649", "score": 99.5, "addr_line1": "10 Horne St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China King", "addr_city": "Garner", "item_comments": "CHINA KING", "activity_date": "07/31/2014", "county": "Johnston", "facility_id": "051010513", "score": 96.5, "addr_line1": "5176 J. Hwy 42 West"}}

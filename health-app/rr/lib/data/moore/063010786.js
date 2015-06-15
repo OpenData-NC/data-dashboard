@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jersey Mikes Subs / Aberdeen", "addr_city": "Aberdeen", "item_comments": "JERSEY MIKES SUBS / ABERDEEN", "activity_date": "08/18/2014", "county": "Moore", "facility_id": "063010786", "score": 99.5, "addr_line1": "1814b Sandhills Blvd"}}

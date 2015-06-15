@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hinshaw United Methodist Church", "addr_city": "Greensboro", "item_comments": ",. 6 501.114 MAINTAINING PREMISES, UNNECESSARY ITEMS AND LITTER   C, KEEP STORAGE OFF THE FLOOR IN THE STORAGE ROOM;", "activity_date": "07/22/2014", "county": "Guilford", "facility_id": "041013697", "score": 99.5, "addr_line1": "4501   High Point Rd"}}

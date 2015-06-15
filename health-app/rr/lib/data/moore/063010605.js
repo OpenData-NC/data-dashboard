@@ -1,0 +1,1 @@
+{"results": {"fac_name": "New China", "addr_city": "Aberdeen", "item_comments": "NEW CHINA", "activity_date": "09/25/2014", "county": "Moore", "facility_id": "063010605", "score": 95.5, "addr_line1": "2213 N Pinhurst St"}}

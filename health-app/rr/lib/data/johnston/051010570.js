@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dairy Queen", "addr_city": "Garner", "item_comments": "DAIRY QUEEN", "activity_date": "08/20/2014", "county": "Johnston", "facility_id": "051010570", "score": 97.5, "addr_line1": "5596 Hwy 42 West"}}

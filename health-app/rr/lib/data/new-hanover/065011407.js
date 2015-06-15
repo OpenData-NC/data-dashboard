@@ -1,0 +1,1 @@
+{"results": {"fac_name": "George on the Riverwalk", "addr_city": "Wilmington", "item_comments": ";;;;;;2-301.12", "activity_date": "06/03/2014", "county": "New Hanover", "facility_id": "065011407", "score": 98.5, "addr_line1": "128 S Water St"}}

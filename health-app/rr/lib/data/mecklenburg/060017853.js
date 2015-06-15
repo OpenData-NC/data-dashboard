@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Anita's Mexican Grill", "addr_city": "Charlotte", "item_comments": "ANITA\\'S MEXICAN GRILL", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060017853", "score": 97.0, "addr_line1": "2904 B Yorkmont Rd"}}

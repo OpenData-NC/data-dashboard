@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Capt N  Bills", "addr_city": "Wilmington", "item_comments": ";3-304.12", "activity_date": "05/19/2014", "county": "New Hanover", "facility_id": "065010491", "score": 95.0, "addr_line1": "4240 Market St"}}

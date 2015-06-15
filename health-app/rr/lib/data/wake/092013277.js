@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taste of China", "addr_city": "Raleigh", "item_comments": "TASTE OF CHINA", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092013277", "score": 97.0, "addr_line1": "14460 105 New Falls of Neuse"}}

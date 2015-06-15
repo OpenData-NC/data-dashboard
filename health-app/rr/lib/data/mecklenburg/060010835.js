@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fig Tree Restaurant", "addr_city": "Charlotte", "item_comments": "FIG TREE RESTAURANT", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060010835", "score": 97.0, "addr_line1": "1601 E 7th St"}}

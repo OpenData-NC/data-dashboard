@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Riverside Steak & Seafood", "addr_city": "Swansboro", "item_comments": "RIVERSIDE STEAK & SEAFOOD", "activity_date": "09/22/2014", "county": "Onslow", "facility_id": "067010549", "score": 97.0, "addr_line1": "1 Main Street Ext"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Calabash Delicatessen", "addr_city": "Calabash", "item_comments": "KEEP DUMPSTER CLOSED.;", "activity_date": "08/11/2014", "county": "Brunswick", "facility_id": "010010461", "score": 100.0, "addr_line1": "9929 Beach Drive Sw"}}

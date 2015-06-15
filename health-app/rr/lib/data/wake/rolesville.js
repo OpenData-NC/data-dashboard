@@ -1,0 +1,1 @@
+{"results": [["Bojangles #45", "900 S Main St", "Rolesville", "08/20/2014", 96.5, "092015860"], ["Anzios Pizza", "252 Southtown Cir", "Rolesville", "08/14/2014", 97.5, "092015916"], ["Hardee's #1638", "403 S Main Street", "Rolesville", "08/12/2014", 94.5, "092011278"], ["Los Tres Magueyes", "411 J South Main Street", "Rolesville", "08/12/2014", 97.5, "092013519"]]}

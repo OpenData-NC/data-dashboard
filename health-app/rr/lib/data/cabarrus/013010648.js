@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #14038", "addr_city": "Concord", "item_comments": ";;;;;;;;;;;6-501.111; Core; Several fruit flies present.;", "activity_date": "09/26/2014", "county": "Cabarrus", "facility_id": "013010648", "score": 99.0, "addr_line1": "150 Concord Commons"}}

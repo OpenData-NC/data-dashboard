@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Buffalo Wings & Rings", "addr_city": "Charlotte", "item_comments": "BUFFALO WINGS & RINGS", "activity_date": "09/02/2014", "county": "Mecklenburg", "facility_id": "060016679", "score": 94.5, "addr_line1": "16715 Orchard Stone Run"}}

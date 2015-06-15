@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lazy Daze Grill - Holiday Inn", "addr_city": "Wrightsville Beach", "item_comments": ";;;;;;;;3-304.14", "activity_date": "05/30/2014", "county": "New Hanover", "facility_id": "065010998", "score": 99.0, "addr_line1": "1706 N Lumina Ave"}}

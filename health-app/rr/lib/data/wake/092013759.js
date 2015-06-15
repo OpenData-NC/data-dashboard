@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Super Target Food Avenue", "addr_city": "Wake Forest", "item_comments": "SUPER TARGET FOOD AVENUE", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092013759", "score": 99.5, "addr_line1": "12000 Retail Dr"}}

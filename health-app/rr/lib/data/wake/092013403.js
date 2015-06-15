@@ -1,0 +1,1 @@
+{"results": {"fac_name": "El Mandado Comida Casera", "addr_city": "Raleigh", "item_comments": "EL MANDADO COMIDA CASERA", "activity_date": "08/19/2014", "county": "Wake", "facility_id": "092013403", "score": 94.5, "addr_line1": "4020 Capital Blvd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Applebees", "addr_city": "Nags Head", "item_comments": "FLIES;KEEP RAGS IN SANI BUCKET;RACKS PEELING PAINT AND RUSTY;CLEANING OF EQUIP.....MICO,FEEZERS,;DUMPSTER AREA;", "activity_date": "10/15/2014", "county": "Dare", "facility_id": "028010852", "score": 95.0, "addr_line1": "5002 S Croatan  Hwy"}}

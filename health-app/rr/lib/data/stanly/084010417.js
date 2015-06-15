@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Alco 25 - Dq", "addr_city": "Albemarle", "item_comments": "2 301.14 WHEN TO WASH   PEMPLOYEE PUT GLOVES ON WITHOUT WASHING HANDS FIRST. WHEN CHANGING TASKS, YOU MUST WASH HANDS AND PUT GLOVES ON BEFORE HANDLING FOOD. CDI;", "activity_date": "05/09/2014", "county": "Stanly", "facility_id": "084010417", "score": 98.0, "addr_line1": "1904 Us 52 Hwy. N."}}

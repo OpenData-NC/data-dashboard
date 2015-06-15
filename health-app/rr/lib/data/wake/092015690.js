@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Panda Wok", "addr_city": "Raleigh", "item_comments": "PANDA WOK", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092015690", "score": 96.0, "addr_line1": "8521  Cantilever Way"}}

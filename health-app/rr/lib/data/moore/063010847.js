@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Little Caesars", "addr_city": "Southern Pines", "item_comments": "LITTLE CAESARS", "activity_date": "07/07/2014", "county": "Moore", "facility_id": "063010847", "score": 96.5, "addr_line1": "10725 Highway 15 501"}}

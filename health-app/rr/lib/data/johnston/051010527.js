@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Clubhouse at Cleveland Sq.", "addr_city": "Garner", "item_comments": "THE CLUBHOUSE AT CLEVELAND SQ.", "activity_date": "08/12/2014", "county": "Johnston", "facility_id": "051010527", "score": 98.5, "addr_line1": "51 Technology Drive"}}

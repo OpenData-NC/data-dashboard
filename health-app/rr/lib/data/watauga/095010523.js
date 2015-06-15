@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Alpen Restaurant and Bar", "addr_city": "Banner Elk", "item_comments": "ALPEN RESTAURANT AND BAR", "activity_date": "09/19/2014", "county": "Watauga", "facility_id": "095010523", "score": 94.5, "addr_line1": "700 Beech Mountain Parkway"}}

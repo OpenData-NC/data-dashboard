@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Oak Hollow Grill", "addr_city": "High Point", "item_comments": "OAK HOLLOW GRILL", "activity_date": "09/16/2014", "county": "Guilford", "facility_id": "041010148", "score": 98.5, "addr_line1": "3400 N Centennial St"}}

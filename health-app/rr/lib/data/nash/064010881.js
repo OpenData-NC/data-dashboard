@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Waffle House 1930", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "05/29/2014", "county": "Nash", "facility_id": "064010881", "score": 99.0, "addr_line1": "43 Venture Dr"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pitt County Detention Center", "addr_city": "Greenville", "item_comments": "PITT COUNTY DETENTION CENTER", "activity_date": "09/08/2014", "county": "Pitt", "facility_id": "074011153", "score": 94.5, "addr_line1": "124 New Hope Rd"}}

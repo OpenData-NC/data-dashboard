@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sola Coffee and Cafe", "addr_city": "Raleigh", "item_comments": "SOLA COFFEE AND CAFE", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092016139", "score": 92.5, "addr_line1": "7705 Lead Mine Rd"}}

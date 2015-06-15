@@ -1,0 +1,1 @@
+{"results": [["Subway #51063", "3205 a Sandy Ridge Rd", "Colfax", "11/21/2014", 98.0, "041013721"], ["The Moose Cafe", "2914  Sandy Ridge Rd", "Colfax", "09/23/2014", 95.0, "041013015"], ["River Landing Food Service", "1575 John Knox Drive", "Colfax", "07/22/2014", 94.5, "041013811"]]}

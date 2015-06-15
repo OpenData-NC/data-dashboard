@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sagebrush #557", "addr_city": "Canton", "item_comments": "SAGEBRUSH #557", "activity_date": "09/09/2014", "county": "Haywood", "facility_id": "044010328", "score": 93.0, "addr_line1": "1941 Champion Drive"}}

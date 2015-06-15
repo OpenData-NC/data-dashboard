@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Max's Pizza", "addr_city": "Kitty Hawk", "item_comments": "KEEP HAND SINK SUPPLIED;DU MPSTER RUSTY;", "activity_date": "08/29/2014", "county": "Dare", "facility_id": "028010870", "score": 98.5, "addr_line1": "3723 N Croatan Hwy"}}

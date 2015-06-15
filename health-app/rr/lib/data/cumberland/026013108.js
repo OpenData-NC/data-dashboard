@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Asian Dragon", "addr_city": "Fayetteville", "item_comments": "ASIAN DRAGON", "activity_date": "09/05/2014", "county": "Cumberland", "facility_id": "026013108", "score": 92.5, "addr_line1": "5957 Yadkin Road"}}

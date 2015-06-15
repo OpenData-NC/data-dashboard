@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Angelos", "addr_city": "Smithfield", "item_comments": "ANGELOS", "activity_date": "07/15/2014", "county": "Johnston", "facility_id": "051011128", "score": 95.0, "addr_line1": "1267-C North Brightleaf Blvd."}}

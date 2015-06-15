@@ -1,0 +1,1 @@
+{"results": [["Bettys Place", "880 Hwy 19e", "Elk Park", "10/07/2014", 95.0, "006010194"], ["Tlc Cafe/Pizzeria", "131 Main Street", "Elk Park", "10/03/2014", 96.5, "006010258"], ["Sissy's Ole Country House", "8060 Elk Park Hwy", "Elk Park", "06/23/2014", 96.0, "006010225"]]}

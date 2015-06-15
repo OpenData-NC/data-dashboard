@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Qdoba Mexican Grill # 612", "addr_city": "Knightdale", "item_comments": "QDOBA MEXICAN GRILL # 612", "activity_date": "07/28/2014", "county": "Wake", "facility_id": "092015456", "score": 94.0, "addr_line1": "210 a Hinton Oaks Blvd"}}

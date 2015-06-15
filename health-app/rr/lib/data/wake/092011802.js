@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Five Star", "addr_city": "Raleigh", "item_comments": "FIVE STAR", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092011802", "score": 93.0, "addr_line1": "511 W Hargett St"}}

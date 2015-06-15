@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Steve's Famous Hot Subs and Pizza", "addr_city": "Badin", "item_comments": "PERSON IN CHARGE MUST HAVE SERV SAFE BEFORE SEPT. 3, 2014.;", "activity_date": "06/27/2014", "county": "Stanly", "facility_id": "084010504", "score": 100.0, "addr_line1": "101 Walnut St"}}

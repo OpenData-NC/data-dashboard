@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bj Warehouse Club Hotdogs # 134", "addr_city": "Concord", "item_comments": ";;;;;;;;;;;;;4-501.11; Core;  Repair leaking faucet at 3-comp sink.;", "activity_date": "09/29/2014", "county": "Cabarrus", "facility_id": "013010782", "score": 100.0, "addr_line1": "7905 Lyles Lane Nw"}}

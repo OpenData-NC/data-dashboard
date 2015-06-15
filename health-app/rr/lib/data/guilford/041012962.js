@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hilton Garden Inn American Grill", "addr_city": "Greensboro", "item_comments": "HILTON GARDEN INN AMERICAN GRILL", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041012962", "score": 94.5, "addr_line1": "4307  Big Tree Wy"}}

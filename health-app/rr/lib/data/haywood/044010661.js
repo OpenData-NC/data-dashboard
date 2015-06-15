@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bourbon Barrel Beef & Ale", "addr_city": "Waynesville", "item_comments": "BOURBON BARREL BEEF & ALE", "activity_date": "09/22/2014", "county": "Haywood", "facility_id": "044010661", "score": 99.5, "addr_line1": "454 Hazelwood Avenue"}}

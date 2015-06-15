@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ajisai Japanese Fusion", "addr_city": "Raleigh", "item_comments": "AJISAI JAPANESE FUSION", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092016728", "score": 97.0, "addr_line1": "427 Woodburn Road"}}

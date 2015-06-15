@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mamas Fast Food", "addr_city": "Asheville", "item_comments": ";;;;;;;;;4-205.10; Core; Freezer required to be NSF approved for commercial use or equivalent.;6-201.11; Core; Repair any damaged ceiling tiles.;", "activity_date": "09/11/2014", "county": "Buncombe", "facility_id": "011010873", "score": 98.5, "addr_line1": "327 Haywood Rd"}}

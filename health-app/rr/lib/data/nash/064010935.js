@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hibachi Grill Supreme Buffet", "addr_city": "Rocky Mount", "item_comments": "HIBACHI GRILL SUPREME BUFFET", "activity_date": "09/08/2014", "county": "Nash", "facility_id": "064010935", "score": 96.0, "addr_line1": "1450 Benvenue Road"}}

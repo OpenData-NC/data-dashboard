@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taco Bell #24228", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "07/15/2014", "county": "Nash", "facility_id": "064010663", "score": 0.0, "addr_line1": "1451 Benvenue Rd"}}

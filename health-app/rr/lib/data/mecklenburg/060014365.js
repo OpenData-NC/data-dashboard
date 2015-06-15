@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fuel Pizza", "addr_city": "Charlotte", "item_comments": "FUEL PIZZA", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060014365", "score": 98.0, "addr_line1": "1801 South Blvd"}}

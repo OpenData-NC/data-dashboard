@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Parkway House Family Restaurant at East", "addr_city": "Charlotte", "item_comments": "PARKWAY HOUSE FAMILY RESTAURANT AT EAST", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060016403", "score": 93.5, "addr_line1": "5820 A2 E W.T. Harris Blvd"}}

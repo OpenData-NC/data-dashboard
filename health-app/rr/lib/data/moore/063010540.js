@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tripps 18", "addr_city": "Southern Pines", "item_comments": "TRIPPS 18", "activity_date": "09/15/2014", "county": "Moore", "facility_id": "063010540", "score": 94.0, "addr_line1": "10745 Us Hwy  15-501"}}

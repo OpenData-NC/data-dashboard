@@ -1,0 +1,1 @@
+{"results": [["Hwy 55 Burgers, Shakes and Fries", "13645 Providence Rd.", "Weddington", "09/23/2014", 94.0, "090011055"], ["Rock Store Express", "13801 Providence Road", "Weddington", "08/19/2014", 96.0, "090011041"], ["Weddington Corner Subway", "13651 Providence Rd", "Weddington", "07/24/2014", 98.0, "090010253"]]}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mediterranean Grill & Grocery", "addr_city": "Durham", "item_comments": "6 303.11 LIGHT BULBS NEED REPLACING UNDER EXHAUST HOOD.;ALL SINGLE SERVICE UTENSILS MUST BE STORED WITH THE HANDLE UP.;", "activity_date": "07/11/2014", "county": "Durham", "facility_id": "032012244", "score": 99.0, "addr_line1": "5114 Revere Rd"}}

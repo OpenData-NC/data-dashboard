@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Olde Mecklenburg Brewery", "addr_city": "Charlotte", "item_comments": "OLDE MECKLENBURG BREWERY", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060018028", "score": 98.0, "addr_line1": "4150 Yancey Rd"}}

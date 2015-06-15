@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Culler Senior Center", "addr_city": "High Point", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   CWATER DAMAGED CEILING TILES IN DRY STORAGE ROOM NEED REPLACING;", "activity_date": "10/13/2014", "county": "Guilford", "facility_id": "041010743", "score": 99.5, "addr_line1": "600 N Hamilton St"}}

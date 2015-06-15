@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Craft Public House", "addr_city": "Cary", "item_comments": "CRAFT PUBLIC HOUSE", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092015654", "score": 96.0, "addr_line1": "1040 Tryon Village Dr"}}

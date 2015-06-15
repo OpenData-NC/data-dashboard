@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Big Cheese Pizza", "addr_city": "Henderson", "item_comments": "BIG CHEESE PIZZA", "activity_date": "09/11/2014", "county": "Vance", "facility_id": "091010251", "score": 96.0, "addr_line1": "901-0 Beckford Drive"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Charlies Bbq & Grille", "addr_city": "Clayton", "item_comments": ";;;;;;;4-901.11; Core; Several metal pans were stacked wet. Air dry before stacking.;", "activity_date": "09/11/2014", "county": "Johnston", "facility_id": "051010983", "score": 99.5, "addr_line1": "8948 Cleveland School Rd"}}

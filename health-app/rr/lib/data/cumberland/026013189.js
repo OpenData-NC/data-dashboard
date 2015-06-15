@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taco Bell #030547", "addr_city": "Fayetteville", "item_comments": ".;.;.;", "activity_date": "09/29/2014", "county": "Cumberland", "facility_id": "026013189", "score": 98.0, "addr_line1": "1042 Bragg Blvd"}}

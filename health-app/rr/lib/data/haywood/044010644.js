@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tipping Point Brewing", "addr_city": "Waynesville", "item_comments": "TIPPING POINT BREWING", "activity_date": "09/16/2014", "county": "Haywood", "facility_id": "044010644", "score": 96.0, "addr_line1": "190 North Main Street"}}

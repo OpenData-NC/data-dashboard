@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Clayton", "item_comments": "SUBWAY", "activity_date": "07/02/2014", "county": "Johnston", "facility_id": "051011002", "score": 95.0, "addr_line1": "13024 Hwy 70 W Ste. 100 (Besid"}}

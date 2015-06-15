@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pdq", "addr_city": "Concord", "item_comments": ";;;;;;;;;;;;;2-303.11; Core  On the hands and arms, the only jewelry allowed is  a plain ring.  Some employees are wearing a watch or a bracelet.;", "activity_date": "10/03/2014", "county": "Cabarrus", "facility_id": "013011044", "score": 99.5, "addr_line1": "8665 Concord Mills Blvd"}}

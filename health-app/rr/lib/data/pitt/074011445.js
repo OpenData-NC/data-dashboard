@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chicken Shack", "addr_city": "Greenville", "item_comments": "CHICKEN SHACK", "activity_date": "09/05/2014", "county": "Pitt", "facility_id": "074011445", "score": 93.5, "addr_line1": "425 Hooker Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jumbo China", "addr_city": "Raleigh", "item_comments": "JUMBO CHINA", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092014687", "score": 95.5, "addr_line1": "13200-121 New Falls of Neuse"}}

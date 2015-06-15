@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Comfort Inn Fuquay Varina Breakfast", "addr_city": "Fuquay Varina", "item_comments": "COMFORT INN FUQUAY VARINA BREAKFAST", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092016166", "score": 96.5, "addr_line1": "7616 Purfoy Rd"}}

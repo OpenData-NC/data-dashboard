@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDonalds #2437", "addr_city": "Monroe", "item_comments": ";", "activity_date": "10/13/2014", "county": "Union", "facility_id": "090010440", "score": 0.0, "addr_line1": "1101 W. Roosevelt Blvd"}}

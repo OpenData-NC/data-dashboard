@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Anzi Pizzeria", "addr_city": "Charlotte", "item_comments": "ANZI PIZZERIA", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060018045", "score": 93.5, "addr_line1": "8133 Ardrey Kell Rd"}}

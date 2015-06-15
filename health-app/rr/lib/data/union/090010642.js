@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mamma Lena", "addr_city": "Waxhaw", "item_comments": "MAMMA LENA", "activity_date": "08/29/2014", "county": "Union", "facility_id": "090010642", "score": 0.0, "addr_line1": "116 North Main Street"}}

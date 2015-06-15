@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Moes Southwest Grill", "addr_city": "Greensboro", "item_comments": "ICE BUCKET WAS ON THE FLOOR.  FOOD PREPARATION AND DISPENSING UTENSILS SHALL BE STORED IN A CLEAN, PROTECTED LOCATION[3 304.12 E;", "activity_date": "10/14/2014", "county": "Guilford", "facility_id": "041013140", "score": 99.5, "addr_line1": "350-B Four Seasons Town Cent"}}

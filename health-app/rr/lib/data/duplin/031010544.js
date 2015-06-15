@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Smithfield Chicken & Bbq", "addr_city": "Warsaw", "item_comments": "SMITHFIELD CHICKEN & BBQ", "activity_date": "09/15/2014", "county": "Duplin", "facility_id": "031010544", "score": 95.0, "addr_line1": "2669 Hwy 24 West"}}

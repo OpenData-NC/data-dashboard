@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Good Times Dance", "addr_city": "Albemarle", "item_comments": "THE PERSON IN CHARGE MUST BE A CERTIFIED FOOD PROTECTION MANAGER.;", "activity_date": "06/26/2014", "county": "Stanly", "facility_id": "084010466", "score": 98.0, "addr_line1": "1218 N Second St"}}

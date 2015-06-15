@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway", "addr_city": "Elkin", "item_comments": "SUBWAY", "activity_date": "09/04/2014", "county": "Surry", "facility_id": "086010612", "score": 97.5, "addr_line1": "548 Cc Camp Road"}}

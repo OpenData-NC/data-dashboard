@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Community Grocery Hardware", "addr_city": "Cleveland", "item_comments": "COMMUNITY GROCERY HARDWARE", "activity_date": "09/11/2014", "county": "Rowan", "facility_id": "080010596", "score": 95.5, "addr_line1": "11260 Statesville Blvd"}}

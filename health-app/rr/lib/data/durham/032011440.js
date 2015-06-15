@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles #32", "addr_city": "Durham", "item_comments": "BOJANGLES #32", "activity_date": "09/11/2014", "county": "Durham", "facility_id": "032011440", "score": 98.0, "addr_line1": "5425 S Miami Blvd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Walmart  2749 Deli", "addr_city": "Spruce Pine", "item_comments": "WALMART  2749 DELI", "activity_date": "09/05/2014", "county": "Mitchell", "facility_id": "061010065", "score": 99.0, "addr_line1": "2514 Hall Town Rd"}}

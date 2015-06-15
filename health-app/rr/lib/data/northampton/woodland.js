@@ -1,0 +1,1 @@
+{"results": [["Grapevine Cafe", "109 E. Main St", "Woodland", "06/24/2014", 92.5, "066010159"], ["Woodland Restaurant and Lounge", "104 E. Main St", "Woodland", "05/22/2014", 95.5, "066010145"]]}

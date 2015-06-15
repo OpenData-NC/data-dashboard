@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Atria Oakridge Dining", "addr_city": "Raleigh", "item_comments": "ATRIA OAKRIDGE DINING", "activity_date": "07/02/2014", "county": "Wake", "facility_id": "092016457", "score": 100.0, "addr_line1": "10810 Sandy Oak Ln"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dunkin Donuts #348536", "addr_city": "Selma", "item_comments": "DUNKIN DONUTS #348536", "activity_date": "08/13/2014", "county": "Johnston", "facility_id": "051011266", "score": 99.0, "addr_line1": "450 Hwy 70 East"}}

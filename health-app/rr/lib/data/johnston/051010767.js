@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wendys", "addr_city": "Kenly", "item_comments": "WENDYS", "activity_date": "08/21/2014", "county": "Johnston", "facility_id": "051010767", "score": 99.5, "addr_line1": "923 Johnston Parkway"}}

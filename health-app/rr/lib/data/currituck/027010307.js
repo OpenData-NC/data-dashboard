@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Corolla  Movies", "addr_city": "Corolla", "item_comments": "SHIFT MANAGERS NEED FOOD SAFETY CERITFICATION;STORE SINGLE SERVICE ITEMS OFF FLOOR UPSTAIRS IN STORAGE AREA.;", "activity_date": "06/24/2014", "county": "Currituck", "facility_id": "027010307", "score": 97.0, "addr_line1": "815 E Ocean Trail"}}

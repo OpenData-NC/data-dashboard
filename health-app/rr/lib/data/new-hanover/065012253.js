@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Port City Java Uncw", "addr_city": "Wilmington", "item_comments": ";;4-901.11   Equipment and Utensils, Air-Drying Required.  After cleaning and SANITIZING, EQUIPMENT and UTENSILS:  CONTAINERS STORED WET.;;;;;3-602.11", "activity_date": "05/02/2014", "county": "New Hanover", "facility_id": "065012253", "score": 98.0, "addr_line1": "601 S College Rd"}}

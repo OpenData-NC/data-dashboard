@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kellys", "addr_city": "Benson", "item_comments": "KELLYS", "activity_date": "07/28/2014", "county": "Johnston", "facility_id": "051011184", "score": 97.0, "addr_line1": "1402 N. Wall St."}}

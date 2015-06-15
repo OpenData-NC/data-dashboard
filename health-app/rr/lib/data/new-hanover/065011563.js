@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Double Happiness", "addr_city": "Wilmington", "item_comments": ";LIGHTS OUT IN KITCHEN.;COOL PREPARED FOODS TO 45F OR LOWER BEFORE PLACING IN FLIP TOP.  RAW CHICKEN AT 50F.  3-501.15", "activity_date": "05/21/2014", "county": "New Hanover", "facility_id": "065011563", "score": 92.0, "addr_line1": "4403 Wrightsville Ave"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kiwi Cafe Andamp; Smoothies", "addr_city": "Raleigh", "item_comments": "KIWI CAFE ANDAMP; SMOOTHIES", "activity_date": "07/03/2014", "county": "Wake", "facility_id": "092016478", "score": 98.0, "addr_line1": "11211 Galleria Ave"}}

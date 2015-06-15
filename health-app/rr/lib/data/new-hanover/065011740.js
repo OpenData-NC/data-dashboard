@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jamaicas  Comfort", "addr_city": "Wilmington", "item_comments": ";;;;;3-302.11", "activity_date": "05/27/2014", "county": "New Hanover", "facility_id": "065011740", "score": 97.5, "addr_line1": "417 S College Rd Suit 24"}}

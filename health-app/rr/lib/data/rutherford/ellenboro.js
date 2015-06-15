@@ -1,0 +1,1 @@
+{"results": [["Frank's Station", "1031 Henrietta Rd.", "Ellenboro", "11/18/2014", 91.0, "081010571"], ["Subway 22738", "107 Byers St", "Ellenboro", "11/07/2014", 97.0, "081010663"], ["Randalls Ellenboro Rest", "277 Main St", "Ellenboro", "09/08/2014", 96.0, "081010510"]]}

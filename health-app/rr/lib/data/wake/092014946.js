@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Good Taste Chinese Restaurant", "addr_city": "Zebulon", "item_comments": "GOOD TASTE CHINESE RESTAURANT", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092014946", "score": 97.0, "addr_line1": "532 W Gannon Ave"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Autumn Leaf Cafe", "addr_city": "Hendersonville", "item_comments": "AUTUMN LEAF CAFE", "activity_date": "09/23/2014", "county": "Henderson", "facility_id": "045010844", "score": 97.0, "addr_line1": "3591 Chimney Rock Road"}}

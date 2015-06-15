@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Park 51 Cafe", "addr_city": "Charlotte", "item_comments": "PARK 51 CAFE", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060017932", "score": 96.5, "addr_line1": "10703 Park Rd Suite A"}}

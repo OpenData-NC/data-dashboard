@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hardee's  #1231", "addr_city": "Fayetteville", "item_comments": ".;.;.;.;", "activity_date": "10/31/2014", "county": "Cumberland", "facility_id": "026010162", "score": 97.5, "addr_line1": "3405 Murchison Road"}}

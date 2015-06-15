@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway #44808", "addr_city": "Washington", "item_comments": "PIC IS NOT A CERTIFIED FOOD PROTECTION MANAGER. OBTAIN CERTIFICATION BY PASSING A PROCTORED  ANSI ACCREDITED TEST.;", "activity_date": "07/28/2014", "county": "Beaufort", "facility_id": "007010362", "score": 98.0, "addr_line1": "1324 John Small Avenue"}}

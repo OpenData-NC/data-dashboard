@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dunkin Donuts-Corolla", "addr_city": "Corolla", "item_comments": "STORE BOXES OF SINGLE SERVICE ITEMS OFF FLOOR IN KITCHEN;", "activity_date": "10/02/2014", "county": "Currituck", "facility_id": "027010291", "score": 99.0, "addr_line1": "809  Ocean Trail"}}

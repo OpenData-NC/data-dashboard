@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cracker Barrel #283", "addr_city": "Flat Rock", "item_comments": "CRACKER BARREL #283", "activity_date": "09/22/2014", "county": "Henderson", "facility_id": "045010255", "score": 97.0, "addr_line1": "105 Commercial Blvd"}}

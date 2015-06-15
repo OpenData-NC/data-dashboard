@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Andy's of Apex", "addr_city": "Apex", "item_comments": "ANDY\\'S OF APEX", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092015259", "score": 100.0, "addr_line1": "802 Perry Road"}}

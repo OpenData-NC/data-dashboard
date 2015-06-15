@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chick-Fil-A", "addr_city": "Greensboro", "item_comments": "CHICK-FIL-A", "activity_date": "09/19/2014", "county": "Guilford", "facility_id": "041012137", "score": 97.0, "addr_line1": "611 Pembroke Road"}}

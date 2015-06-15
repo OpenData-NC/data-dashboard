@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pita Delite @ Showplace", "addr_city": "High Point", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C  FACILITY HAS OBSTACLES TO CLEANING;", "activity_date": "10/20/2014", "county": "Guilford", "facility_id": "041013952", "score": 99.0, "addr_line1": "211 E. Commerce Avenue"}}

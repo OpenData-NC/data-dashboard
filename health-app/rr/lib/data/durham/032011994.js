@@ -1,0 +1,1 @@
+{"results": {"fac_name": "New Japan Express", "addr_city": "Durham", "item_comments": "NEW JAPAN EXPRESS", "activity_date": "09/23/2014", "county": "Durham", "facility_id": "032011994", "score": 99.0, "addr_line1": "1800 Strauss Dr."}}

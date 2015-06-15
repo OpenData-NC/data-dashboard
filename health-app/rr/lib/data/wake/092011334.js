@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chick-Fil-A", "addr_city": "Raleigh", "item_comments": "CHICK-FIL-A", "activity_date": "07/29/2014", "county": "Wake", "facility_id": "092011334", "score": 94.0, "addr_line1": "6612 Glenwood Ave"}}

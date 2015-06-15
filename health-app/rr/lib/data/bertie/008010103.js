@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ellas Cafe", "addr_city": "Windsor", "item_comments": "FLOORS UNDER COOKING EQUIPMENT RATHER DIRTY.;HOOD AREA GREASY, COOKING EQUIPMENT DIRTIER THAN USUAL;SODA CAN STORED IN ICE MACHINE;", "activity_date": "05/29/2014", "county": "Bertie", "facility_id": "008010103", "score": 97.5, "addr_line1": "448 Hwy 13 North"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cosmo's", "addr_city": "Southern Shores", "item_comments": "NEED SS;", "activity_date": "05/20/2014", "county": "Dare", "facility_id": "028010291", "score": 98.0, "addr_line1": "5591 Market Place Plaza"}}

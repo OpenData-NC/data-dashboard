@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Red Bowl Asian Bistro", "addr_city": "Charlotte", "item_comments": "RED BOWL ASIAN BISTRO", "activity_date": "09/23/2014", "county": "Mecklenburg", "facility_id": "060015471", "score": 95.0, "addr_line1": "3538 B Mt Holly-Huntersville R"}}

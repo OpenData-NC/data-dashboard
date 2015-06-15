@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Glass Onion, The", "addr_city": "Weaverville", "item_comments": ";4-501.114; Priority; Dish machine is not functioning properly. Use three-compartment sink to wash, rinse and sanitize until dish machine is repaired.;;;;;;;;;;;;", "activity_date": "09/16/2014", "county": "Buncombe", "facility_id": "011012191", "score": 97.0, "addr_line1": "18 N Main St"}}

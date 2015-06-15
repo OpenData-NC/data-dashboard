@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Revolution Pizza Express", "addr_city": "Charlotte", "item_comments": "REVOLUTION PIZZA EXPRESS", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060018033", "score": 96.5, "addr_line1": "1055 Metropolitan Ave"}}

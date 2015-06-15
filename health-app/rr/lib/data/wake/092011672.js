@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Irregardless Restaurant", "addr_city": "Raleigh", "item_comments": "IRREGARDLESS RESTAURANT", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092011672", "score": 92.0, "addr_line1": "901 W Morgan"}}

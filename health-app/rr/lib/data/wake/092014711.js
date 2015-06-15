@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Big Easy", "addr_city": "Raleigh", "item_comments": "THE BIG EASY", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092014711", "score": 93.0, "addr_line1": "222 Fayetteville St"}}

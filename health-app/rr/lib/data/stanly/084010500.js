@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Badin Treehouse Co.", "addr_city": "Badin", "item_comments": "BADIN TREEHOUSE CO.", "activity_date": "09/19/2014", "county": "Stanly", "facility_id": "084010500", "score": 98.0, "addr_line1": "24 Falls Rd"}}

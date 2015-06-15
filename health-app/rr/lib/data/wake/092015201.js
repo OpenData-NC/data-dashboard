@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Tony's Pizza", "addr_city": "Raleigh", "item_comments": "TONY\\'S PIZZA", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092015201", "score": 97.5, "addr_line1": "8111 Rowlock Way"}}

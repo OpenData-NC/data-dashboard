@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Arooji`s Wine Room", "addr_city": "Charlotte", "item_comments": "AROOJI`S WINE ROOM", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060014648", "score": 96.0, "addr_line1": "5349 Ballantyne Commons Pky"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pizza Hut", "addr_city": "Benson", "item_comments": "PIZZA HUT", "activity_date": "07/07/2014", "county": "Johnston", "facility_id": "051010121", "score": 98.5, "addr_line1": "702 E Parrish St"}}

@@ -1,0 +1,1 @@
+{"results": [["Horse Shoe Cafe", "3754 Brevard Rd. Suite 117", "Horse Shoe", "08/20/2014", 95.0, "045010805"], ["Mills River Restaurant", "4201 Haywood Road", "Horse Shoe", "07/29/2014", 98.0, "045010514"], ["China Dynasty", "3754 Brevard Road Suite 107", "Horse Shoe", "07/23/2014", 95.0, "045010500"]]}

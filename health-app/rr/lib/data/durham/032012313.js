@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cree Cafeteria", "addr_city": "Durham", "item_comments": "CREE CAFETERIA", "activity_date": "09/15/2014", "county": "Durham", "facility_id": "032012313", "score": 99.0, "addr_line1": "4425 Silicon Drive"}}

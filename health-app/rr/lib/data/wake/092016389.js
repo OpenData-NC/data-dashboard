@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jersey Mikes Subs #3132", "addr_city": "Raleigh", "item_comments": "JERSEY MIKES SUBS #3132", "activity_date": "07/14/2014", "county": "Wake", "facility_id": "092016389", "score": 100.0, "addr_line1": "2712 Hillsborough St"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Taco Bell #030575", "addr_city": "Hampstead", "item_comments": "4 903.11  A  AND  C  EQUIPMENT, UTENSILS, LINENS AND SINGLE SERVICE AND SINGLE USE ARTICLES STORING;4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED;", "activity_date": "06/09/2014", "county": "Pender", "facility_id": "071010466", "score": 98.5, "addr_line1": "17200 Us Highway 17"}}

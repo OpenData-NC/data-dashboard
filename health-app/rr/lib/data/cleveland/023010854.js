@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Southern Chew Restaurant & Catering", "addr_city": "Kings Mountain", "item_comments": "SOUTHERN CHEW RESTAURANT & CATERING", "activity_date": "09/11/2014", "county": "Cleveland", "facility_id": "023010854", "score": 97.5, "addr_line1": "238 Cherokee Street"}}

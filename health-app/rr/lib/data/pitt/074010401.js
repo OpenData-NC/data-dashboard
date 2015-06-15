@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mikes  Deli", "addr_city": "Greenville", "item_comments": "MIKES  DELI", "activity_date": "09/19/2014", "county": "Pitt", "facility_id": "074010401", "score": 91.0, "addr_line1": "810 E 10th Street"}}

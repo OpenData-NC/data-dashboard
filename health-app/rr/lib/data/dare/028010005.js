@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Awful Arthur's Oyster Bar", "addr_city": "Kill Devil Hills", "item_comments": "AWFUL ARTHUR\\'S OYSTER BAR", "activity_date": "09/03/2014", "county": "Dare", "facility_id": "028010005", "score": 99.0, "addr_line1": "2106 N Va Dare Trl"}}

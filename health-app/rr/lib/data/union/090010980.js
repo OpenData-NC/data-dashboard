@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Francescos Pizzeria", "addr_city": "Indian Trail", "item_comments": "FRANCESCOS PIZZERIA", "activity_date": "08/22/2014", "county": "Union", "facility_id": "090010980", "score": 96.0, "addr_line1": "6751 Old Monroe Road"}}

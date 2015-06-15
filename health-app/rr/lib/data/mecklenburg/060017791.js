@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Fairfield Inn", "addr_city": "Charlotte", "item_comments": "FAIRFIELD INN", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060017791", "score": 96.0, "addr_line1": "7920 Arrowridge Rd"}}

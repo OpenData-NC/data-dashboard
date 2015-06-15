@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Galileos", "addr_city": "Boone", "item_comments": "GALILEOS", "activity_date": "09/10/2014", "county": "Watauga", "facility_id": "095010569", "score": 94.0, "addr_line1": "1087 West King Street"}}

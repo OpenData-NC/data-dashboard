@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cosmo Pizzeria Restaurant", "addr_city": "Corolla,nc", "item_comments": "COSMO PIZZERIA RESTAURANT", "activity_date": "08/28/2014", "county": "Currituck", "facility_id": "027010187", "score": 97.5, "addr_line1": "110b Corolla Light Shops"}}

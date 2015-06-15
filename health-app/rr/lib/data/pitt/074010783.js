@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Galley", "addr_city": "Greenville", "item_comments": "THE GALLEY", "activity_date": "09/12/2014", "county": "Pitt", "facility_id": "074010783", "score": 95.0, "addr_line1": "College Hill Drive"}}

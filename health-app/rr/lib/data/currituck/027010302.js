@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Outer Banks Cheesesteaks & Deli", "addr_city": "Corolla", "item_comments": "OUTER BANKS CHEESESTEAKS & DELI", "activity_date": "08/28/2014", "county": "Currituck", "facility_id": "027010302", "score": 97.5, "addr_line1": "1159 Austin  Street"}}

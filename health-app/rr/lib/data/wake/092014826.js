@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Jimmy Johns #791", "addr_city": "Cary", "item_comments": "JIMMY JOHNS #791", "activity_date": "07/29/2014", "county": "Wake", "facility_id": "092014826", "score": 94.5, "addr_line1": "1904-103 Nw Maynard Rd"}}

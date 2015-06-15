@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bi-Lo #5444 Deli & Bakery", "addr_city": "Charlotte", "item_comments": "BI-LO #5444 DELI & BAKERY", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060014513", "score": 96.5, "addr_line1": "1620 Ashley Rd"}}

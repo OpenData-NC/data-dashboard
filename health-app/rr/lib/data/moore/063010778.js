@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Harris Teeter Produce #212", "addr_city": "Carthage", "item_comments": "HARRIS TEETER PRODUCE #212", "activity_date": "08/19/2014", "county": "Moore", "facility_id": "063010778", "score": 98.0, "addr_line1": "400 Mill Creek Road"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "McDuffs", "addr_city": "Laurinburg", "item_comments": "ONE 10 BY 10 INCH PLASTIC FOOD CONTAINER WAS CRACKRED ,DISCARDED;CLEAN GROUND AROUND GARBAGE DUMPSTER;CLEAN MICROWAVE OVENS ,CLEAN HOT HOLDING UNIT;", "activity_date": "05/27/2014", "county": "Scotland", "facility_id": "083010116", "score": 97.5, "addr_line1": "1709 Hwy 401 South"}}

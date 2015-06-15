@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Maple Springs United Methodist Church Kitchen", "addr_city": "Winston-Salem", "item_comments": "MAPLE SPRINGS UNITED METHODIST CHURCH KITCHEN", "activity_date": "09/18/2014", "county": "Forsyth", "facility_id": "034014117", "score": 99.0, "addr_line1": "2569 Reynolda Road"}}

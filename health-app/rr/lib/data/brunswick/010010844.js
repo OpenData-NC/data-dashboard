@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Loco Jos Bar & Grill", "addr_city": "Southport", "item_comments": "RE CAULK  THE HANDSINK IN THE KITCHEN.4 101.19 NONFOOD CONTACT SURFACES   C;", "activity_date": "10/20/2014", "county": "Brunswick", "facility_id": "010010844", "score": 100.0, "addr_line1": "602 N. Howe Street"}}

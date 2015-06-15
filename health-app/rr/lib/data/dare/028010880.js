@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Frisco Sandwich Co", "addr_city": "Frisco", "item_comments": "FLOORS........DUMPSTER;", "activity_date": "05/30/2014", "county": "Dare", "facility_id": "028010880", "score": 99.0, "addr_line1": "53674 Nc 12"}}

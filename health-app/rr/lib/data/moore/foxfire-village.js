@@ -1,0 +1,1 @@
+{"results": [["Foxfire Store", "1960 Hoffman Road", "Foxfire Village", "10/09/2014", 97.5, "063010796"], ["Foxfire Country Club", "9 Foxfire Blvd", "Foxfire Village", "09/10/2014", 97.0, "063011011"]]}

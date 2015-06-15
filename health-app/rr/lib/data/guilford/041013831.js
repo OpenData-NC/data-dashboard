@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dame's Chicken & Waffles", "addr_city": "Greensboro", "item_comments": "DAME\\'S CHICKEN & WAFFLES", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041013831", "score": 97.0, "addr_line1": "301 Martin Luther King Jr. Dri"}}

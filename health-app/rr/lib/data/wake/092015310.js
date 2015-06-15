@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Raleigh Renaissance Hotel", "addr_city": "Raleigh", "item_comments": "RALEIGH RENAISSANCE HOTEL", "activity_date": "09/05/2014", "county": "Wake", "facility_id": "092015310", "score": 98.5, "addr_line1": "4100 Main at North Hills Stree"}}

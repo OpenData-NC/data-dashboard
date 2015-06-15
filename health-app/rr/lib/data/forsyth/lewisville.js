@@ -1,0 +1,1 @@
+{"results": [["China Wok Chinese Restaurant #2", "189 Lowes Foods Drive", "Lewisville", "10/30/2014", 83.0, "034011960"], ["Pig N Out Barbecue", "6489 North Shallowford Rd", "Lewisville", "08/27/2014", 96.0, "034012144"], ["China Best Restaurant", "1321 Lewisville Clemmons Road", "Lewisville", "06/30/2014", 93.0, "034011959"]]}

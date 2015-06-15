@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Crafty Beer Shop", "addr_city": "Raleigh", "item_comments": "CRAFTY BEER SHOP", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092016701", "score": 99.0, "addr_line1": "8450 Honeycutt Road"}}

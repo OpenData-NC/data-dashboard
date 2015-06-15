@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Samis Subs, Pizza and More", "addr_city": "Raleigh", "item_comments": "SAMIS SUBS, PIZZA AND MORE", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092016668", "score": 94.0, "addr_line1": "6405 Westgate Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hendrix Bbq", "addr_city": "Salisbury", "item_comments": "HENDRIX BBQ", "activity_date": "09/23/2014", "county": "Rowan", "facility_id": "080010066", "score": 96.5, "addr_line1": "2488 E Statesville Blvd"}}

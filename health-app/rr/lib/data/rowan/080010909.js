@@ -1,0 +1,1 @@
+{"results": {"fac_name": "La Ceiba", "addr_city": "Salisbury", "item_comments": "LA CEIBA", "activity_date": "09/12/2014", "county": "Rowan", "facility_id": "080010909", "score": 95.5, "addr_line1": "1106 Mooresville Rd"}}

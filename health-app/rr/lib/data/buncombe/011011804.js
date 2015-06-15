@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Five Guys", "addr_city": "Asheville", "item_comments": ";;;;;;;;;;;;5-501.113; Core; Keep lid closed on grease bin. Dumpster area in need of cleaning.;", "activity_date": "10/03/2014", "county": "Buncombe", "facility_id": "011011804", "score": 99.0, "addr_line1": "1838 Hendersonville  Rd"}}

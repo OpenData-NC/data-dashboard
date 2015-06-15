@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Rushing Buckets", "addr_city": "Clayton", "item_comments": "RUSHING BUCKETS", "activity_date": "07/09/2014", "county": "Johnston", "facility_id": "051011264", "score": 97.0, "addr_line1": "119 Oleander Dr."}}

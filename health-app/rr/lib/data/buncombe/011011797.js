@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Borg Warner Cafeteria", "addr_city": "Arden", "item_comments": ";;5-205.11; Priority Foundation;  Hand wash sink not operating.;;;;;;;;;;", "activity_date": "08/04/2014", "county": "Buncombe", "facility_id": "011011797", "score": 98.0, "addr_line1": "1849 Brevard Rd"}}

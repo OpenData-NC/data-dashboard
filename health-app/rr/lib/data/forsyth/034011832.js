@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Mamazoe Michael's", "addr_city": "Winston Salem", "item_comments": "MAMAZOE MICHAEL\\'S", "activity_date": "09/15/2014", "county": "Forsyth", "facility_id": "034011832", "score": 96.5, "addr_line1": "2859 Reynolda Road"}}

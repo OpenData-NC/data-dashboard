@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ramada Breakfast Bar", "addr_city": "Hendersonville", "item_comments": "RAMADA BREAKFAST BAR", "activity_date": "09/25/2014", "county": "Henderson", "facility_id": "045010814", "score": 96.0, "addr_line1": "150 Sugarloaf Rd"}}

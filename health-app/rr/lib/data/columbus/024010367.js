@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Bojangles # 481", "addr_city": "Whiteville", "item_comments": "BOJANGLES # 481", "activity_date": "09/08/2014", "county": "Columbus", "facility_id": "024010367", "score": 92.0, "addr_line1": "1201 N Powell Blvd"}}

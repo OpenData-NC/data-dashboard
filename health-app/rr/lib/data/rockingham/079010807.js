@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Lucie's Cafe", "addr_city": "Reidsville", "item_comments": "LUCIE\\'S CAFE", "activity_date": "09/17/2014", "county": "Rockingham", "facility_id": "079010807", "score": 97.0, "addr_line1": "5891 Hwy 65"}}

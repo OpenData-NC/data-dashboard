@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Captains Table", "addr_city": "Buxton", "item_comments": "LINE COOK WAS REHEATING FOOD IN STEAM WELL. MAKE SURE PRODUCT IS REHEATED USING PROPER METHODS TO REACH 165F.;", "activity_date": "06/16/2014", "county": "Dare", "facility_id": "028010630", "score": 98.5, "addr_line1": "47048 Hwy 12"}}

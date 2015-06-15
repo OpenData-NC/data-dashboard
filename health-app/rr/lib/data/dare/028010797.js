@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Paper Canoe", "addr_city": "Duck", "item_comments": "CLEAN MICROWAVE.....KEEP DIRTY RAGS IN SANI BUCKET.;DISCARD BREADING........DONT STORE UTENSILS IN WATER;", "activity_date": "08/20/2014", "county": "Dare", "facility_id": "028010797", "score": 98.5, "addr_line1": "1564 Duck Rd"}}

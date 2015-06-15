@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Hibachi Japan", "addr_city": "Greenville", "item_comments": "HIBACHI JAPAN", "activity_date": "08/29/2014", "county": "Pitt", "facility_id": "074011194", "score": 97.0, "addr_line1": "110 East 10th Street"}}

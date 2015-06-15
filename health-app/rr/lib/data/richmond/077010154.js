@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Smith Community Store", "addr_city": "Ellerbe", "item_comments": "4 201.11 EQUIPMENT AND UTENSILS DURABILITY AND STRENGTH   C.  NON APPROVED FREEZER, SINK, AND CROCKPOT.;", "activity_date": "06/13/2014", "county": "Richmond", "facility_id": "077010154", "score": 98.0, "addr_line1": "355 Rummage Packhouse Rd"}}

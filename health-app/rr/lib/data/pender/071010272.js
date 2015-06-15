@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wilco Food Mart  #394", "addr_city": "Hampstead", "item_comments": "6 202.11 LIGHT BULBS, PROTECTIVE SHIELDING   C;", "activity_date": "08/11/2014", "county": "Pender", "facility_id": "071010272", "score": 99.0, "addr_line1": "14477 U S Hwy 17"}}

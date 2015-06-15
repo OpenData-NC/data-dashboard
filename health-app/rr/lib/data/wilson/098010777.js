@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Merck", "addr_city": "Wilson", "item_comments": "MERCK", "activity_date": "09/22/2014", "county": "Wilson", "facility_id": "098010777", "score": 100.0, "addr_line1": "4633 Merck Road"}}

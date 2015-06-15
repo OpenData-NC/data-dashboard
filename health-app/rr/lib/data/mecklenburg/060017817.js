@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Summit Coffee Co", "addr_city": "Davidson", "item_comments": "SUMMIT COFFEE CO", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060017817", "score": 96.0, "addr_line1": "120 Patterson Court Cir"}}

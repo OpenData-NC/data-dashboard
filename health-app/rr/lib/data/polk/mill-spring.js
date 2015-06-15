@@ -1,0 +1,1 @@
+{"results": [["Tryon Cafe", "108 Water Mill Dr", "Mill Spring", "11/07/2014", 98.5, "075010266"], ["Brights Creek Golf Club Grill", "2222 Palmer Rd", "Mill Spring", "10/15/2014", 98.0, "075010261"], ["Sunny Mountain Restaurant & Fish Camp", "114 E. Mc Guinn Rd.", "Mill Spring", "09/24/2014", 95.0, "075010258"]]}

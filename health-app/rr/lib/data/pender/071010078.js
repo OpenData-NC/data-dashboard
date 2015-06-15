@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Stricklands Grill", "addr_city": "Willard", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C;6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C;", "activity_date": "07/21/2014", "county": "Pender", "facility_id": "071010078", "score": 97.0, "addr_line1": "7740 Hwy 11"}}

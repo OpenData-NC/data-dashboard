@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Scoop Ice Cream & Sandwich", "addr_city": "Wilmington", "item_comments": ";;4-501.11", "activity_date": "06/09/2014", "county": "New Hanover", "facility_id": "065011614", "score": 98.0, "addr_line1": "365 N Front St"}}

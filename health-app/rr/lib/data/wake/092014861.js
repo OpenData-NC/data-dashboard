@@ -1,0 +1,1 @@
+{"results": {"fac_name": "China Wok", "addr_city": "Raleigh", "item_comments": "CHINA WOK", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092014861", "score": 92.0, "addr_line1": "2720 109 Lake Wheeler Rd"}}

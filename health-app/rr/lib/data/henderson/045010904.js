@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Dickeys Barbecue Pit", "addr_city": "Fletcher", "item_comments": "DICKEYS BARBECUE PIT", "activity_date": "09/15/2014", "county": "Henderson", "facility_id": "045010904", "score": 97.0, "addr_line1": "235 Saint John Rd"}}

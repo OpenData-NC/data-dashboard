@@ -1,0 +1,1 @@
+{"results": [["Smith Community Store", "355 Rummage Packhouse Rd", "Ellerbe", "06/13/2014", 98.0, "077010154"], ["Mama Noi's Pizza & Hot Subs", "2076 Main Street", "Ellerbe", "06/05/2014", 91.5, "077010374"], ["Dixie Burger", "2213 S. Main Street", "Ellerbe", "06/03/2014", 91.5, "077010315"], ["Denise's Diner", "4393 Main St", "Ellerbe", "06/03/2014", 98.5, "077010378"]]}

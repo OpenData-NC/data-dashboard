@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wagon Wheel at Ghost Town", "addr_city": "Maggie Valley", "item_comments": "WAGON WHEEL AT GHOST TOWN", "activity_date": "08/29/2014", "county": "Haywood", "facility_id": "044010720", "score": 94.5, "addr_line1": "16 Fie Top"}}

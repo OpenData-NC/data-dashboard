@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Peking Wok", "addr_city": "Summerfield", "item_comments": "PEKING WOK", "activity_date": "09/22/2014", "county": "Guilford", "facility_id": "041013893", "score": 96.0, "addr_line1": "4446-H Nc Hwy 220 N"}}

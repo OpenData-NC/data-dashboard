@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Buffalo Brothers", "addr_city": "Raleigh", "item_comments": ";;;;;;;;;;;;", "activity_date": "09/19/2014", "county": "Wake", "facility_id": "092015703", "score": 100.0, "addr_line1": "4025-100 Lake Boone  Trail"}}

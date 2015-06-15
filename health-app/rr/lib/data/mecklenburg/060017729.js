@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Kristopher's Sports Bar and Grille", "addr_city": "Matthews", "item_comments": "KRISTOPHER\\'S SPORTS BAR AND GRILLE", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060017729", "score": 96.5, "addr_line1": "250 North Trade Street"}}

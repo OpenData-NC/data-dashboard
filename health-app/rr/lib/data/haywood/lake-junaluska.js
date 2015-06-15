@@ -1,0 +1,1 @@
+{"results": [["Providence Lodge", "49  Atkins Loop", "Lake Junaluska", "09/30/2014", 98.0, "044010512"], ["Lambuth Inn Dining Room", "123 Lambuth Drive", "Lake Junaluska", "09/26/2014", 96.0, "044010065"], ["Terrace Food Service", "689 N. Lakeshore Drive", "Lake Junaluska", "08/19/2014", 98.5, "044010127"]]}

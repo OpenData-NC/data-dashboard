@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Springhill Suites Charlotte Ballantyne", "addr_city": "Charlotte", "item_comments": "SPRINGHILL SUITES CHARLOTTE BALLANTYNE", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060016433", "score": 97.0, "addr_line1": "12325 Johnston Rd"}}

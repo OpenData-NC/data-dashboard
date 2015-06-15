@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chick Fil a Cleveland Mall", "addr_city": "Shelby", "item_comments": "CHICK FIL A CLEVELAND MALL", "activity_date": "09/17/2014", "county": "Cleveland", "facility_id": "023010617", "score": 99.0, "addr_line1": "2001 38 E Dixon Blvd"}}

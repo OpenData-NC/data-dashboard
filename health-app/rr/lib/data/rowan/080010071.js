@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Ivans", "addr_city": "Salisbury", "item_comments": "IVANS", "activity_date": "09/16/2014", "county": "Rowan", "facility_id": "080010071", "score": 98.0, "addr_line1": "2024 Old Mocksville Rd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sandpiper Restaurant", "addr_city": "Clinton", "item_comments": "SANDPIPER RESTAURANT", "activity_date": "08/28/2014", "county": "Sampson", "facility_id": "082010081", "score": 94.5, "addr_line1": "304 Smithfield Highway"}}

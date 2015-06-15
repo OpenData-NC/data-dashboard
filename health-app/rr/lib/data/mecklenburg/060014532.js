@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chin Garden", "addr_city": "Charlotte", "item_comments": "CHIN GARDEN", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060014532", "score": 92.5, "addr_line1": "4420-D the Plaza"}}

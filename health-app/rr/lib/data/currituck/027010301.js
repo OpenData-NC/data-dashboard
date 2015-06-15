@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Sonic Drive Thru #5137", "addr_city": "Grandy", "item_comments": "HOT WATER AT KITCHEN HAND SINKS AND BATH ROOMS WAS ON AT 78 DEGREES, AFTER RUNNING ALMOST 10 MIN.;", "activity_date": "05/16/2014", "county": "Currituck", "facility_id": "027010301", "score": 99.0, "addr_line1": "6454  Caratoke  Hwy"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Harwood's Family Style Restaurant", "addr_city": "Harbinger,nc", "item_comments": "ALL WORKERS IN KITCHEN NEED TO WEAR HAIR RESTRAINTS.;", "activity_date": "09/23/2014", "county": "Currituck", "facility_id": "027010333", "score": 99.5, "addr_line1": "8627 Caratoke Hwy."}}

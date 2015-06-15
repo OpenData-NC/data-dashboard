@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Wok N Grill", "addr_city": "Durham", "item_comments": "WOK N GRILL", "activity_date": "09/11/2014", "county": "Durham", "facility_id": "032011452", "score": 95.0, "addr_line1": "5311 S Miami Blvd"}}

@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Harris Teeter #422 Deli", "addr_city": "Raleigh", "item_comments": ";;;;;;;;;;;;4-501.11; Core; Remove deep cuts in cutting board.;6-501.12; Core; Clean floors in walk-in freezer;", "activity_date": "09/23/2014", "county": "Wake", "facility_id": "092015568", "score": 98.5, "addr_line1": "120-100 St Albans  Dr"}}

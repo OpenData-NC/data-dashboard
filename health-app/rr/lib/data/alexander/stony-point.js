@@ -1,0 +1,1 @@
+{"results": [["Captain's Galley I", "5135 Taylorsville Hwy", "Stony Point", "07/23/2014", 97.5, "049010389"], ["Dairy Bar (The)", "9140 Hwy 90 East", "Stony Point", "06/13/2014", 96.5, "002010043"]]}

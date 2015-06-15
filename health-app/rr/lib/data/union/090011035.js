@@ -1,0 +1,1 @@
+{"results": {"fac_name": "The Friendly Moose", "addr_city": "Matthews", "item_comments": "THE FRIENDLY MOOSE", "activity_date": "07/18/2014", "county": "Union", "facility_id": "090011035", "score": 98.5, "addr_line1": "4320 Potter Rd"}}

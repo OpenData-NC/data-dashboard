@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Subway  30454", "addr_city": "Raleigh", "item_comments": "SUBWAY  30454", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092014155", "score": 94.5, "addr_line1": "7850 100 Alexander Place"}}

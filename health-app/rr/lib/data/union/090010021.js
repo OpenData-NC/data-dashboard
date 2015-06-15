@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Pilgrims Pride", "addr_city": "Marshville", "item_comments": "PILGRIMS PRIDE", "activity_date": "07/28/2014", "county": "Union", "facility_id": "090010021", "score": 90.0, "addr_line1": "P O Box 668"}}

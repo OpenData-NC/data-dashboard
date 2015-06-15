@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Stoneybrook Point Cafe", "addr_city": "Maggie Valley", "item_comments": "STONEYBROOK POINT CAFE", "activity_date": "08/14/2014", "county": "Haywood", "facility_id": "044010719", "score": 98.0, "addr_line1": "4102 Soco Road"}}

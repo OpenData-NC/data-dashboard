@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Smithfield Hibatchi Buffet", "addr_city": "Smithfield", "item_comments": "SMITHFIELD HIBATCHI BUFFET", "activity_date": "07/15/2014", "county": "Johnston", "facility_id": "051011263", "score": 94.5, "addr_line1": "1273 N. Brightleaf Blvd."}}

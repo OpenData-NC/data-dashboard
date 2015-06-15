@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Chick-Fil-A #1817", "addr_city": "Charlotte", "item_comments": "CHICK-FIL-A #1817", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060016544", "score": 97.0, "addr_line1": "8433 Davis Lake Pky"}}

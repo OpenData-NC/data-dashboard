@@ -1,0 +1,1 @@
+{"results": {"fac_name": "Cws Cafe", "addr_city": "Benson", "item_comments": "CWS CAFE", "activity_date": "09/05/2014", "county": "Johnston", "facility_id": "051011246", "score": 100.0, "addr_line1": "12320 Nc Hwy 210"}}
