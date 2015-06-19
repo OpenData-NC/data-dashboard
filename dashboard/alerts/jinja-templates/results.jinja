@@ -1,0 +1,24 @@
+<p style="font-family:arial, sans-serif; color:#000; margin-bottom: .5em;">Your search for:</p>
+<ul style="list-style:none outside none; margin-top: 0; padding:0 .5em .5em .25em; font-family:arial,sans-serif;color:#000">
+{{ search }}
+</ul>
+<p style="font-family:arial, sans-serif; color:#000;">returned the following new data:</p>
+<table style="text-align:left; border-collapse: collapse; font-family:arial, sans-serif;">
+	<thead style="font-weight:bold;">
+		<tr>
+			{% for heading in headings %}
+			<th>{{ heading }}</th>
+			{% endfor %}
+		<tr>
+	</thead>
+	<tbody>
+		{% for row in rows %}
+		<tr style="{{loop.cycle('background:#efefef;','')}}">
+			{% for item in row %}
+			<td>{{ item }}</td>
+			{% endfor %}
+
+		</tr>
+		{% endfor %}
+	</tbody>
+</table>
