@@ -7,6 +7,7 @@ import sys
 sys.path.append('/home/vaughn.hagerty/search')
 import decimal
 import datetime
+import re
 
 import search_config as config
 
@@ -15,6 +16,8 @@ app = Flask(__name__)
 user = 'dataDa5h'
 pw = 'UnC0p3n'
 db = 'crime'
+insert_user = 'crimeloader'
+insert_pw = 'redaolemirc'
 host = '10.240.220.181'
 #connection = MySQLdb.connect(user=user, passwd=pw, db=db, host=host)
 #connection = MySQLdb.connect(user=user, passwd=pw, db=db)
@@ -29,7 +32,7 @@ def make_params(query):
             key = pieces[i]
         else:
             params[key] = pieces[i]
-    params['data_types'] = params['data_types'].split('-')
+#    if 'data-types' in params:
     return params
     
     
@@ -111,7 +114,6 @@ def convert_data(row):
     
 #execute our query and return the data    
 def query_db(sql, data_type, query_vals):
-#we're currently limiting the return to 1000 rows
     connection = MySQLdb.connect(user=user, passwd=pw, db=db, host=host)
 #connection = MySQLdb.connect(user=user, passwd=pw, db=db)
     cursor = connection.cursor()
@@ -135,9 +137,49 @@ def query_db(sql, data_type, query_vals):
     return { 'headings': cols, 'data': formatted_data , 'data_source': data_type, 'sql': sql_return}
 
 
+def login_user(params):
+    connection = MySQLdb.connect(user=user, passwd=pw, db=db, host=host)
+    cursor = connection.cursor()
+    sql = 'select * from dash_users where email = "%s" and password = "%s"' % (params['user'], params['password'])
+    cursor.execute(sql)
+    if cursor.rowcount == 0:
+        return False
+    return True
+
+
+def register_user(params):
+    connection = MySQLdb.connect(user=insert_user, passwd=insert_pw, db=db, host=host)
+    cursor = connection.cursor()
+    sql = 'insert into dash_users (name, email, password, phone) values ("%s","%s","%s","%s")' % (params['name'], params['user'],params['password'], params['phone'])
+    cursor.execute(sql)
+    connection.commit()
+    if cursor.rowcount == 0:
+        return False
+    return True
+
+def check_alert_exists(email, query):
+    connection = MySQLdb.connect(user=user, passwd=pw, db=db, host=host)
+    cursor = connection.cursor()
+    sql = 'select * from dash_alerts where email = "%s" and search = "%s"' % (email, query)
+    cursor.execute(sql)
+    if cursor.rowcount == 0:
+        return False
+    return True
+
+def add_alert(email, query):
+    connection = MySQLdb.connect(user=insert_user, passwd=insert_pw, db=db, host=host)
+    cursor = connection.cursor()
+    alert_exists = check_alert_exists(email, query)
+    if(alert_exists):
+        return "An alert for this search already exists for {}".format(email)
+    sql = 'insert dash_alerts (email, added, last_searched, active, search) values("%s",now(),now(),1,"%s")' % (email, query)
+    cursor.execute(sql)
+    connection.commit()
+    if cursor.rowcount == 0:
+        return "We were unable to add this search to your alerts. Sorry!"
+    return "ok"
+    
 #our very simplistic routing
-#right now, we're just grabbing everything after dashboard/
-#which is the home directory of the app
 
 @app.route('/<query>',methods = ['GET'])
 def make_index(query=None):
@@ -145,6 +187,7 @@ def make_index(query=None):
     log(query)
     data = {}
     params = make_params(query)
+    params['data_types'] = params['data_types'].split('-')
 #map the data type requested to the actual table name
     tables = {'voter': 'nc_voters_new',
                 'health': 'rr',
@@ -192,7 +235,36 @@ def make_index(query=None):
         
     return jsonify(results=data)
 
+#to add an alert    
+@app.route('/alerts/<query>',methods = ['GET'])
+def make_alert(query=None):
+    params = make_params(query)
+    email = params['user']
+    query = '/search/' + re.sub('\|user\|.*','',query)
+    alert_result = add_alert(email, query)
+    if alert_result == 'ok':
+        data = {'success':'yes'}
+    else:
+        data = {'success': 'no', 'alert_result': alert_result}
+    return jsonify(data)
 
+#to register or log in a user    
+@app.route('/users/<query>',methods = ['GET'])
+def make_user(query=None):
+    params = make_params(query)
+    if params['type'] == 'login':
+        if login_user(params):
+            data = {'success':'yes'}
+        else:
+            data = {'success': 'no'}
+    else:
+        if register_user(params):
+            data = {'success':'yes'}
+        else:
+            data = {'success': 'no'}
+    return jsonify(data)
+
+    
 @app.errorhandler(404)
 def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)

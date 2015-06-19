@@ -180,8 +180,21 @@
             var stateObj = { html: document.getElementById('main-content').innerHTML};
             var new_url = [base_url, query].join('#!');
             history.pushState(stateObj, "Data Dashboard", new_url);
+            $('#data-tables').prepend('<button type="button" class="btn-default btn" id="dd-save-query" data-query="' + query + '">Create alert with this query</button>');
+            $('#dd-save-query').click(function(e) {
+                e.preventDefault();
+                var query = $(this).data('query');
+                create_alert(query);
+            });
         }
-     
+
+        function create_alert(query) {
+            query = query.replace('search/','search/alerts/');
+            var today = new Date();
+            today = [today.getFullYear(),(today.getMonth()+1),today.getDate()].join('-');
+            console.log(query + ['|','last-searched','|',today].join(''));
+            
+        }
 //not used anymore
         function get_county(){
             var county = '';
@@ -331,6 +344,119 @@
             data.headings = headings;
             return data;
         }
+        
+        //alert stuff starts here
+        function create_alert(query) {
+            var email = get_cookie('dd-email');
+            if(!email) {
+                show_login_register(query);
+            }
+            else {
+                add_alert(email, query);
+            }
+        }
+        function show_login_register(query){
+            $('#login-register-modal').remove();
+            var modal_html = fill_template('login-register-modal',{'alert-query': query});
+            $('#data-tables').prepend(modal_html);
+            $('#login-register-modal').modal();
+            $('#login-registered').click(function(e) {
+                e.preventDefault();
+                login_registered();
+            });
+            $('#register-user').click(function(e) {
+                e.preventDefault();
+                login_registered(true);
+            });
+        }
+        function login_registered(is_registration) {
+            var type, name, pass, phone, user, params, msg;
+            if(is_registration) {
+                user = $('#new-user-email').val();
+                pass = $('#new-user-password').val();
+                name = $('#new-user-name').val();
+                phone = $('#new-user-phone').val();
+                params = ['type', 'register', 'user', user, 'password', pass, 'name', name, 'phone', phone];
+                
+            }
+            else { //we're logging in
+                user = $('#registered-user-email').val();
+                pass = $('#registered-user-password').val();
+                params = ['type', 'login', 'user', user, 'password', pass];
+                
+            }
+            var query = $('#alert-query').val();
+            var url = '/search/users/' + params.join("|");
+            console.log(url);
+            $.get(url)
+                .done(function(data) {
+                    console.log(data);
+                    if(data.success == 'no') {
+                        if(is_registration) {
+                            msg = 'That email is already registered. Please log in or create a new account';
+                        }
+                        else {
+                            msg = 'Username and/or password incorrect';
+                        }
+                        $('#alert-msg').text(msg).addClass('text-warning');
+                    }
+                    else {
+                        set_cookie('dd-email',user);
+                        add_alert(user, query, true);
+                    }
+                });
+        }
+        function add_alert(email, query, is_modal) {
+            query+= '|user|' + email;
+            query = query.replace('/search/','/search/alerts/');
+            console.log(query);
+            $.get(query)
+                .done(function(data){
+                    console.log(data);
+                    show_query_added(data, is_modal);
+                });
+            
+        }
+
+        function show_query_added(data, is_modal) {
+            var msg = data.alert_result;
+            $('#dd-alert-msg').remove();
+            if(data.success === 'no') {
+                if(is_modal) {
+                    $('#alert-msg').text(msg).addClass('text-warning');
+                }
+                else {
+                    msg = '<h4 id="dd-alert-msg">' + msg + '</h4>';
+                    $('#dd-save-query').after(msg);
+                }
+            }
+            else {
+                if(is_modal) {
+                    $('#login-register-modal').modal('hide');
+                }
+                msg = '<h4 id="dd-alert-msg">This alert has been added. Any new records we collect matching this search will be sent to your email beginning tomorrow.</h4>';
+                $('#dd-save-query').after(msg);
+                $('#dd-save-query').remove();
+                }
+        }
+        
+        function set_cookie(name, val, expire_days) {
+            expire_days = expire_days || 1000;
+            var d = new Date();
+            d.setTime(d.getTime() + (expire_days * 24 * 60 * 60 *1000));
+            var cook_params = [name,val].join('=');
+            var exp_params = ['expires',d.toUTCString()].join('=');
+            document.cookie = [cook_params,exp_params].join(';');
+        }
+
+        function get_cookie(name) {
+            var pattern = new RegExp(name + '=([^;]+)');
+            var val = pattern.exec(document.cookie);
+            return val?val[1]: false;
+        }
+        //alert stuff ends here
+        
+        
         //widget stuff starts here
         function hide_widget_wizard() {
             $('#open-nc-widget').remove();
