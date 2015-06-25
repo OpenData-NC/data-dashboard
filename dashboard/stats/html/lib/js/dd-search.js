@@ -1,5 +1,5 @@
 ﻿    (function(){
-        google.load("visualization", "1", {packages:["corechart","table"]});
+        google.load("visualization", "1", {packages:["corechart", "table"]});
 //widget configs
         var graph_configs = {}
             , which_graph
@@ -233,7 +233,16 @@
             $.get(query)
                 .done(function(data){
                     console.log(data);
-                    show_data(data, query);
+                    //make sure google's viz library is loaded.
+                    //if not, give it a few secs
+                    if(!google.visualization.DataTable) {
+                        setTimeout(function() {
+                                show_data(data,query);
+                            }, 3000);
+                    }
+                    else {
+                        show_data(data, query);
+                    }
                 });
             
         }
