@@ -51,3 +51,6 @@ img#dd-logo {
 #dd-county {
 	text-transform: capitalize;
 }
+.dd-show-pointer { 
+	cursor: pointer; 
+}

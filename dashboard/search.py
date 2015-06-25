@@ -157,6 +157,7 @@ def register_user(params):
         return False
     return True
 
+
 def check_alert_exists(email, query):
     connection = MySQLdb.connect(user=user, passwd=pw, db=db, host=host)
     cursor = connection.cursor()
@@ -165,6 +166,7 @@ def check_alert_exists(email, query):
     if cursor.rowcount == 0:
         return False
     return True
+
 
 def add_alert(email, query):
     connection = MySQLdb.connect(user=insert_user, passwd=insert_pw, db=db, host=host)
@@ -178,7 +180,53 @@ def add_alert(email, query):
     if cursor.rowcount == 0:
         return "We were unable to add this search to your alerts. Sorry!"
     return "ok"
+
+
+def show_alerts(email):
+    connection = MySQLdb.connect(user=user, passwd=pw, db=db, host=host)
+    cursor = connection.cursor()
+    return_alerts = []
+    sql = 'select date_format(added, "%%m/%%d/%%Y") `added`, date_format(last_searched, "%%m/%%d/%%Y") `last_searched`, active, search from dash_alerts where email = "%s" order by added' % (email)
+    cursor.execute(sql)
+    alerts = list(cursor.fetchall())
+    cols = [ d[0] for d in cursor.description ]
+    all_alerts = [dict(zip(cols,alert)) for alert in alerts]
+    for alert in all_alerts:
+        alert['search_params'] = make_query_params(alert['search'])
+        return_alerts.append(alert)
+    return return_alerts
+
+def make_query_params(query):
+    query_params = query.replace('/search/','').split('|')
+    formatted_query_params = []
+    how_many = len(query_params)
+    for i in range(0, how_many):
+        formatted_param = query_params[i]
+        if i%2 == 0:
+            formatted_param = formatted_param.replace('_', ' ')
+            formatted_param = formatted_param.replace('-', ' ')
+            formatted_param = formatted_param.capitalize() + ' = '
+        else:
+            if i != how_many -1:
+                formatted_param+= '; '
+            
+        formatted_query_params.append(formatted_param)
+    return ''.join(formatted_query_params)
     
+def delete_alert(email, search):
+    connection = MySQLdb.connect(user=insert_user, passwd=insert_pw, db=db, host=host)
+    cursor = connection.cursor()
+    sql = 'delete from dash_alerts where email = "%s" and search = "%s" limit 1' % (email, search)
+    cursor.execute(sql)
+    connection.commit()
+
+def pause_alert(email, search, pause):
+    connection = MySQLdb.connect(user=insert_user, passwd=insert_pw, db=db, host=host)
+    cursor = connection.cursor()
+    sql = 'update dash_alerts set active = %i where email = "%s" and search = "%s" limit 1' % (pause, email, search)
+    cursor.execute(sql)
+    connection.commit()
+
 #our very simplistic routing
 
 @app.route('/<query>',methods = ['GET'])
@@ -248,15 +296,22 @@ def make_alert(query=None):
         data = {'success': 'no', 'alert_result': alert_result}
     return jsonify(data)
 
-#to register or log in a user    
+#to register or log in a user
+#to see user's alerts    
 @app.route('/users/<query>',methods = ['GET'])
 def make_user(query=None):
     params = make_params(query)
+    #we're logging in
     if params['type'] == 'login':
         if login_user(params):
             data = {'success':'yes'}
         else:
             data = {'success': 'no'}
+    #showing a user's alerts
+    elif params['type'] == 'show-alerts':
+        alerts = show_alerts(params['email'])
+        data = {'alerts': alerts}
+    #default is registering a user
     else:
         if register_user(params):
             data = {'success':'yes'}
@@ -264,6 +319,21 @@ def make_user(query=None):
             data = {'success': 'no'}
     return jsonify(data)
 
+@app.route('/modify/<query>',methods = ['GET'])
+def modify_alert(query=None):
+    #modifying a user's alerts
+    alerts = query.split('~')
+    for alert in alerts:
+        params = make_params(alert)
+        if int(params['alert-delete']) == 1:
+            delete_alert(params['email'], params['alert-search'].replace('*','|').replace('}','/'))
+        else:
+            pause_alert(params['email'], params['alert-search'].replace('*','|').replace('}','/'), int(params['alert-pause']))
+    alert_text = 'alert'
+    if len(alerts) > 1:
+        alert_text = 'alerts'
+    modified = "{} {} modified".format(str(len(alerts)), alert_text)
+    return jsonify({'alerts_modified': modified})
     
 @app.errorhandler(404)
 def not_found(error):

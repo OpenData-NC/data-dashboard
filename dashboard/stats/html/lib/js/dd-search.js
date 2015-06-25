@@ -69,6 +69,13 @@
         $('.dd-nav').each(function() {
             $(this).attr('href', '/' + county_dir + '/' + $(this).attr('href'));
         });
+
+        if(get_cookie('dd-email')) {
+            show_manage_user();
+        }
+        else {
+            show_log_in();
+        }
         
         check_search();
         
@@ -81,6 +88,124 @@
                 $('#data-tables').empty();
                 add_click();
             }
+        }
+        
+        
+        function show_manage_user(){
+            var manage_user = fill_template('user-management',{});
+            $('#dd-log-in-menu').remove();
+            $('.navbar-nav').append(manage_user);
+            $('#dd-manage-alerts').click( function(e) {
+                show_manage_alerts();
+            });
+            $('#dd-log-out').click( function(e) {
+                set_cookie('dd-email','', -100);
+                show_log_in();
+            });
+        }
+        
+        function show_manage_alerts() {
+
+            $('#alert-modify-modal').remove();
+            var email = get_cookie('dd-email');
+            manage_alerts_data(email, false);
+        }
+
+        function manage_alerts_data(email, is_refresh){
+            var alerts_url = '/search/users/type|show-alerts|email|' + email;
+            $.get(alerts_url)
+                .done(function(data){ 
+                    if(is_refresh) {
+                        var table_html = fill_template('show-alerts-updated',data);
+                        $('#show-alerts-body').html(table_html);
+                        manage_alerts_click(email);
+                        
+                    }
+                    else {
+                        var modal_html = fill_template('show-alerts-modal',data);
+                        $('#data-tables').prepend(modal_html);
+                        $('#alert-modify-modal').modal();
+                        manage_alerts_click(email);
+                    }
+                    
+                })
+            
+        }
+        
+        function manage_alerts_click(email) {
+            $('#modify-alert').click( function(e) {
+                e.preventDefault();
+                var alert_details = [];
+                $('.show-dash-alerts').each( function(i, el) {
+                    var this_alert = [];
+                    var changed = false;
+                    $(el).children('td').children('input').each(function(j, ch) {
+                    
+                        var this_value = 0;
+                        var data_field = $(ch).attr('class');
+                        if($(ch).is(':checkbox')){
+                            if($(ch).is(':checked')) {
+                                if(data_field === 'alert-pause') {
+                                    if($(ch).val() == 0) {
+                                        changed = true;
+                                    }
+                                }
+                                else {
+                                    changed = true;
+                                }
+                                this_value = 1;
+                            }
+                            else {
+                                if(data_field === 'alert-pause') {
+                                    if($(ch).val() == 1) {
+                                        changed = true;
+                                    }
+                                }
+                            }
+                        }
+                        else {
+                            this_value = $(ch).val().replace(/\|/g,'*');
+                        }
+
+                        var this_field = data_field + '|' + this_value;
+                        this_alert.push(this_field);
+                    
+                    });
+                    if(changed) {
+                        this_alert.push('email', email);
+                        alert_details.push(this_alert.join('|'));
+                    }
+                });
+                if(alert_details.length > 0) {
+                    modify_alerts(alert_details.join('~'), email);
+                }
+                else {
+                    var msg = "No changes made. If you're done, click Cancel. Or make a change.";
+                    $('#modify-msg').text(msg);
+                }
+            });
+            
+        }
+        
+        function modify_alerts(alerts, email) {
+            var modify_url = '/search/modify/' + alerts.replace(/\//g, '}');
+            console.log(modify_url);
+            $.get(modify_url)
+                .done(function(data) {
+                    $('#modify-msg').text(data.alerts_modified);
+                    manage_alerts_data(email, true);
+                });
+            
+        }
+        
+        function show_log_in() {
+            var log_in_user = fill_template('log-in',{});
+            $('#dd-manage-user').remove();
+            $('.navbar-nav').append(log_in_user);
+            $('#dd-log-in').click(function(e) {
+               show_login_register(); 
+            });
+            
         }
         
         function add_click() {
@@ -160,6 +285,25 @@
             return [base, query.join('|')].join('/');
             
         }
+        
+        function allowed_alert(query) {
+            var filtered_alert = [];
+            var not_allowed = ['voter','health','property','realestate'];
+            var pieces = query.split('|');
+            var data_types = pieces.pop().split('-');
+            var allowed = data_types.filter( function(data_type) {
+                return not_allowed.indexOf(data_type) === -1;
+            });
+            if(allowed.length === 0) {
+                return false;
+            }
+            else {
+                pieces.push(allowed.join('-'));
+                return pieces.join('|');
+                
+            }
+        }
+        
         function show_data(data, query){
             var have_no_data = true;
             $('#data-tables').empty();
@@ -180,7 +324,19 @@
             var stateObj = { html: document.getElementById('main-content').innerHTML};
             var new_url = [base_url, query].join('#!');
             history.pushState(stateObj, "Data Dashboard", new_url);
-            $('#data-tables').prepend('<button type="button" class="btn-default btn" id="dd-save-query" data-query="' + query + '">Create alert with this query</button>');
+            //only crime data for now
+            var not_last_searched = true;
+            if(query.indexOf('last-searched') !== -1) {
+                not_last_searched = false;
+            }
+            var filtered_query = allowed_alert(query);
+            if(not_last_searched && filtered_query) {
+                var query_btn_text = '';
+                if(filtered_query != query) {
+                    query_btn_text = ' (only crime data will be used)';
+                }
+                $('#data-tables').prepend('<button type="button" style="margin-bottom: 1em" class="btn-default btn" id="dd-save-query" data-query="' + filtered_query + '">Create an alert with this search</button>' + query_btn_text);
+            }
             $('#dd-save-query').click(function(e) {
                 e.preventDefault();
                 var query = $(this).data('query');
@@ -356,6 +512,7 @@
             }
         }
         function show_login_register(query){
+            var query = query || 'none';
             $('#login-register-modal').remove();
             var modal_html = fill_template('login-register-modal',{'alert-query': query});
             $('#data-tables').prepend(modal_html);
@@ -402,7 +559,15 @@
                     }
                     else {
                         set_cookie('dd-email',user);
-                        add_alert(user, query, true);
+                        if(query !== 'none') {
+                            add_alert(user, query, true);
+                        }
+                        //just logging in
+                        else {
+                            $('#login-register-modal').modal('hide');
+                        }
+                        $('.dd-log-in').remove();
+                        show_manage_user();
                     }
                 });
         }
@@ -445,8 +610,9 @@
             var d = new Date();
             d.setTime(d.getTime() + (expire_days * 24 * 60 * 60 *1000));
             var cook_params = [name,val].join('=');
+            console.log(d.toUTCString());
             var exp_params = ['expires',d.toUTCString()].join('=');
-            document.cookie = [cook_params,exp_params].join(';');
+            document.cookie = [cook_params,exp_params,'path=/'].join(';');
         }
 
         function get_cookie(name) {

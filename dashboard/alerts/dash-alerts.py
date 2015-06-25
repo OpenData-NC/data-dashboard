@@ -31,7 +31,7 @@ insert_connection = MySQLdb.connect(user=insert_user, passwd=insert_pw, db=db, h
 insert_cursor = insert_connection.cursor()
 
 #templates to format results for emails
-template_loader = jinja2.FileSystemLoader( 'jinja-templates' )
+template_loader = jinja2.FileSystemLoader( '/home/vaughn.hagerty/alerts/jinja-templates' )
 template_env = jinja2.Environment( loader=template_loader )
 results_template_file = "results.jinja"
 email_template_file = "email.jinja"
@@ -58,7 +58,7 @@ def search_data(query):
     for data_type in data:
         #if there's an element in this array, format it for return
         if len(data[data_type]['data']) > 0:
-            formatted_results += format_results(data[data_type]['data'], data[data_type]['headings'], data_type, query[2])
+            formatted_results += format_results(data[data_type]['data'], data[data_type]['headings'], data_type, query[2], query[1])
             success = True
     if not success:
         return False
@@ -66,10 +66,11 @@ def search_data(query):
     
 
 #we'll format the results into an html table
-def format_results(data, headings, data_type, query):
+def format_results(data, headings, data_type, query, last_searched):
     #we'll use the search url to remind the user what was searched for
     #this formats them into an unordered list like this Field: search string
     query_params = query.replace('/search/','').split('|')
+    dashboard_url = make_dashboard_url(query, query_params[1], last_searched, data_type)
     formatted_query_params = []
     for i in range(0, len(query_params)):
         formatted_param = query_params[i]
@@ -99,8 +100,14 @@ def format_results(data, headings, data_type, query):
     final_data = format_pdfs(filtered_data)
     #this dictionary is passed to the template. headings becomes the headings of the table 
     #and each element (row) of filtered_data becomes a table row 
-    template_data = {'data_type': data_type, 'search': search, 'headings': headings, 'rows': final_data}
+    template_data = {'data_type': data_type, 'search': search, 'headings': headings, 'rows': final_data, 'dashboard_url': dashboard_url}
     return results_template.render( template_data )
+
+
+def make_dashboard_url(query, county, last_searched, data_type):
+    county = county.replace(' ', '-')
+    data_type = data_type.replace(' ', '-')
+    return base_url + '/' + county + '/search/' + data_type + '/#!' + query + '|last-searched|' + last_searched 
 
     
 def format_pdfs(data):
