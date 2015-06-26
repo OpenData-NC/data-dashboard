@@ -9,7 +9,8 @@ import jinja2
 #config stuff
 
 #used to make queries to api
-base_url = 'http://beta.open-nc.org'
+#base_url = 'http://beta.open-nc.org'
+base_url = 'http://data.open-nc.org'
 
 #to send email alerts
 sg = sendgrid.SendGridClient('opennc', 'send0pengr!dNC')
