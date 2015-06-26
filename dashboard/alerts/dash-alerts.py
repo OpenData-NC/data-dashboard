@@ -172,7 +172,6 @@ def main():
         #if we have any successful searches, we'll send them as one email
         if len(records_found) > 0:
             send_alerts(name, email, "\n".join(records_found))
-    exit()
     #update all of the alerts with the current date, which we'll use the following day to find any new data
     update_last_searched()
 
