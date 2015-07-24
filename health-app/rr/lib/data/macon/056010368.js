@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ruka's Table", "addr_city": "Highlands", "item_comments": "RUKA\\'S TABLE", "activity_date": "09/11/2014", "county": "Macon", "facility_id": "056010368", "score": 95.0, "addr_line1": "163 Wright Square"}}

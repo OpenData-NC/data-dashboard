@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Campus Cafe", "addr_city": "Shelby", "item_comments": "CAMPUS CAFE", "activity_date": "08/28/2014", "county": "Cleveland", "facility_id": "023010741", "score": 97.5, "addr_line1": "137 S Post Road"}}

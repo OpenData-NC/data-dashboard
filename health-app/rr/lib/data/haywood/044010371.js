@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bogart's", "addr_city": "Waynesville", "item_comments": "BOGART\\'S", "activity_date": "09/29/2014", "county": "Haywood", "facility_id": "044010371", "score": 98.5, "addr_line1": "303 South Main St"}}

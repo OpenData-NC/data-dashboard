@@ -1,1 +1,0 @@
-{"results": {"fac_name": "La Rancherita", "addr_city": "Raleigh", "item_comments": "LA RANCHERITA", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092013719", "score": 98.5, "addr_line1": "4325 3000 Glenwood Ave"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tasca Brava 607", "addr_city": "Raleigh", "item_comments": "TASCA BRAVA 607", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092012211", "score": 95.5, "addr_line1": "607 Glenwood Avenue"}}

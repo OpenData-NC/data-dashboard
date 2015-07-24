@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tropical Picken Chicken", "addr_city": "Wake Forest", "item_comments": "TROPICAL PICKEN CHICKEN", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092016078", "score": 92.5, "addr_line1": "2010 S Main St"}}

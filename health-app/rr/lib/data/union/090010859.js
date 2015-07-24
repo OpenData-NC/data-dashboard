@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway at Indian Trail - Walmart", "addr_city": "Indian Trail", "item_comments": "SUBWAY AT INDIAN TRAIL - WALMART", "activity_date": "08/04/2014", "county": "Union", "facility_id": "090010859", "score": 96.0, "addr_line1": "2101 Younts Road"}}

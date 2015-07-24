@@ -1,1 +1,0 @@
-{"results": {"fac_name": "5110 Market and Cafe", "addr_city": "Selma", "item_comments": "5110 MARKET AND CAFE", "activity_date": "07/28/2014", "county": "Johnston", "facility_id": "051011063", "score": 99.0, "addr_line1": "5110 Hwy 96 N"}}

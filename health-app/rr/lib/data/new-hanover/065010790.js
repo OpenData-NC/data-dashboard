@@ -1,1 +1,0 @@
-{"results": {"fac_name": "South Beach Grill", "addr_city": "Wrightsville Beach", "item_comments": ";;;6-501.12", "activity_date": "05/22/2014", "county": "New Hanover", "facility_id": "065010790", "score": 98.5, "addr_line1": "100 S Lumina Ave"}}

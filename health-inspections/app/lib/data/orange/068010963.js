@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jay's Chicken Shack", "addr_city": "Hillsborough", "item_comments": "JAY\\'S CHICKEN SHACK", "activity_date": "09/15/2014", "county": "Orange", "facility_id": "068010963", "score": 95.5, "addr_line1": "646 Churton Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Family Fare Kitchen", "addr_city": "Benson", "item_comments": "FAMILY FARE KITCHEN", "activity_date": "07/14/2014", "county": "Johnston", "facility_id": "051011268", "score": 96.0, "addr_line1": "11960 Hwy 210"}}

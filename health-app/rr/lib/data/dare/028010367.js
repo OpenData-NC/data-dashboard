@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Red Drum Tap House", "addr_city": "Nags Head", "item_comments": "INADEQUATE DATE MARKING/  SOME OUT OF DATE;NON APPROVED FREEZER......DISCARD WIRE SCOOP    RACKS IN BAR REFER.;", "activity_date": "06/13/2014", "county": "Dare", "facility_id": "028010367", "score": 97.5, "addr_line1": "2412 S Va Dare Trail"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Moonshine Grill", "addr_city": "Maggie Valley", "item_comments": "MOONSHINE GRILL", "activity_date": "09/24/2014", "county": "Haywood", "facility_id": "044010506", "score": 95.0, "addr_line1": "2550 Soco Road"}}

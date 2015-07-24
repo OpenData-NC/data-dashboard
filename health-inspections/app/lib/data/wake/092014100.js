@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wilco #217", "addr_city": "Raleigh", "item_comments": "WILCO #217", "activity_date": "07/14/2014", "county": "Wake", "facility_id": "092014100", "score": 94.5, "addr_line1": "10920 Creedmoor Rd"}}

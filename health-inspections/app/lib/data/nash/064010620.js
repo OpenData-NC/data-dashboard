@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brians Cheesesteaks", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT IN COMPLIANCE; CORRECTED DURING INSPECTION;NOT APPLICABLE;", "activity_date": "05/21/2014", "county": "Nash", "facility_id": "064010620", "score": 98.5, "addr_line1": "1129 Jeffreys Rd."}}

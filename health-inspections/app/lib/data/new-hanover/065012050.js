@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wayfarer Delicatessen", "addr_city": "Wilmington", "item_comments": ";;;;;;;3-307.11", "activity_date": "05/20/2014", "county": "New Hanover", "facility_id": "065012050", "score": 98.0, "addr_line1": "110 S Front St"}}

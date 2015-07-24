@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cafe De Los Muertos", "addr_city": "Raleigh", "item_comments": "CAFE DE LOS MUERTOS", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092016602", "score": 97.5, "addr_line1": "300 W Hargett St"}}

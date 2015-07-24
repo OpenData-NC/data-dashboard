@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Euro Grill and Cafe", "addr_city": "Charlotte", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C  ENSURE THAT PIC IS A CERTIFIED FOOD PROTECTION MANAGER  OBSERVED PIC ON SITE NOT A CFPM.;", "activity_date": "11/13/2014", "county": "Mecklenburg", "facility_id": "060017560", "score": 98.0, "addr_line1": "2719 Central Ave."}}

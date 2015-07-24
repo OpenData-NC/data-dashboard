@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tokyo Bistro", "addr_city": "Wingate", "item_comments": "TOKYO BISTRO", "activity_date": "07/22/2014", "county": "Union", "facility_id": "090010841", "score": 100.0, "addr_line1": "3921 Highway 74"}}

@@ -1,1 +1,0 @@
-{"results": [["Country House Restaurant", "9187 Nc Hwy 194 North", "Lansing", "11/12/2014", 90.0, "005010158"], ["Smitheys Cafe of Lansing", "8970 Nc Hwy 194 North", "Lansing", "09/27/2014", 97.5, "005010280"], ["Pie on the Mountain", "9360 Nc Highway 194", "Lansing", "08/05/2014", 98.0, "005010300"]]}

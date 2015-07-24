@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Waffle House #1804", "addr_city": "Raeford", "item_comments": "WAFFLE HOUSE #1804", "activity_date": "08/04/2014", "county": "Hoke", "facility_id": "047010182", "score": 95.5, "addr_line1": "106 Laurinburg Road"}}

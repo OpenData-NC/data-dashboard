@@ -1,1 +1,0 @@
-{"results": [["Chestnut Ridge Camp Retreat Ctr", "4300 Camp Chestnut Ridge Road", "Efland", "11/19/2014", 98.5, "068010868"], ["soccer.com Center", "4701 West Ten Road", "Efland", "09/23/2014", 100.0, "068010815"], ["Missys Grill", "321 Mt. Willing Road", "Efland", "07/17/2014", 99.0, "068010757"]]}

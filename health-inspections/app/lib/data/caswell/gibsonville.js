@@ -1,1 +1,0 @@
-{"results": [["Subway #41210", "6266 - C Burlington Road", "Gibsonville", "07/09/2014", 94.0, "041013137"], ["Happy Garden Chinese Restaurant", "233 Burke Street", "Gibsonville", "06/24/2014", 97.0, "041013759"], ["Gibsonville Shell", "6626 Hwy 87", "Gibsonville", "05/29/2014", 97.0, "017010087"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell #21222", "addr_city": "High Point", "item_comments": "FACILITY OF OLDER CONSTRUCTION WITH DETERIATION;", "activity_date": "06/17/2014", "county": "Guilford", "facility_id": "041012159", "score": 99.0, "addr_line1": "2701 S Main St"}}

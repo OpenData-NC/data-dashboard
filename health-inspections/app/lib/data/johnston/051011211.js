@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sheetz #511", "addr_city": "Smithfield", "item_comments": "SHEETZ #511", "activity_date": "07/11/2014", "county": "Johnston", "facility_id": "051011211", "score": 100.0, "addr_line1": "1700 E. Market St."}}

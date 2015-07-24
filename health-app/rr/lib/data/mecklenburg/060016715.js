@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Steak N` Hoagie Shop, The", "addr_city": "Charlotte", "item_comments": "STEAK N` HOAGIE SHOP, THE", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060016715", "score": 98.5, "addr_line1": "3401-C South Blvd"}}

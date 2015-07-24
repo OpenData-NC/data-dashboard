@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Crowders Mountain Golf Club", "addr_city": "King S Mountain", "item_comments": "CROWDERS MOUNTAIN GOLF CLUB", "activity_date": "09/02/2014", "county": "Gaston", "facility_id": "036010460", "score": 97.0, "addr_line1": "255 Lincoln Academy Rd"}}

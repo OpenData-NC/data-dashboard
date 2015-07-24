@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brasa Brazilian Steakhouse", "addr_city": "Raleigh", "item_comments": "BRASA BRAZILIAN STEAKHOUSE", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092014492", "score": 90.5, "addr_line1": "8551 Brier Creek Pkwy"}}

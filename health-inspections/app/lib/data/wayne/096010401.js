@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rudys Grill", "addr_city": "Goldsboro", "item_comments": "All cold holding on prep cooler &lt;45 degrees F.;", "activity_date": "07/09/2014", "county": "Wayne", "facility_id": "096010401", "score": 0.0, "addr_line1": "246 S Nc 581 Hwy"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell  85", "addr_city": "Smithfield", "item_comments": "TACO BELL  85", "activity_date": "08/07/2014", "county": "Johnston", "facility_id": "051010223", "score": 100.0, "addr_line1": "1217 Brightleaf Blvd"}}

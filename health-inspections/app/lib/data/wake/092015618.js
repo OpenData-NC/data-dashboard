@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hibachi 101", "addr_city": "Raleigh", "item_comments": "HIBACHI 101", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092015618", "score": 98.0, "addr_line1": "7870 Alexander Promenade Pl"}}

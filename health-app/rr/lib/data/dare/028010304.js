@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pops Raw Bar", "addr_city": "Buxton", "item_comments": "PIC MUST BE A CERTIFIED FOOD AND PROTECTION MANAGER.;PREP SINK AND SIDES OF EQUIPMENT NEED TO BE CLEANED.;", "activity_date": "08/20/2014", "county": "Dare", "facility_id": "028010304", "score": 97.5, "addr_line1": "48967 Nc12"}}

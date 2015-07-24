@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Glendas Sweet Shoppe and Grill", "addr_city": "Benson", "item_comments": "GLENDAS SWEET SHOPPE AND GRILL", "activity_date": "07/17/2014", "county": "Johnston", "facility_id": "051011064", "score": 97.5, "addr_line1": "300 S. Wall St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jacks", "addr_city": "Benson", "item_comments": "JACKS", "activity_date": "08/01/2014", "county": "Johnston", "facility_id": "051011202", "score": 98.5, "addr_line1": "7065 Hwy 50 N"}}

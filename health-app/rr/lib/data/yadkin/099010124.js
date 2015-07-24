@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles Famous Chicken and B", "addr_city": "Jonesville", "item_comments": "BOJANGLES FAMOUS CHICKEN AND B", "activity_date": "09/22/2014", "county": "Yadkin", "facility_id": "099010124", "score": 94.5, "addr_line1": "1652 Nc Hwy 67"}}

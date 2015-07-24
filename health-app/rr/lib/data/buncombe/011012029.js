@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Deerfield First Floor Assisted Living Ca", "addr_city": "Asheville", "item_comments": ";;;;3-302.12; Core; Label dry food storage bins after washing.;;;;;;;;", "activity_date": "08/06/2014", "county": "Buncombe", "facility_id": "011012029", "score": 99.0, "addr_line1": "1617 Hendersonville Rd"}}

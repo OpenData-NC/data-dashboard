@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Gold Mine Cafe", "addr_city": "Hickory", "item_comments": "STORE WIPING CLOTHS IN SANITIZING SOLUTION WHEN NOT IN USE;COOL FOODS PROPERLY USING 2  PARTIALLY COVERED SHALLOW PANS AND ICE BATHS AS NEEDED;", "activity_date": "05/27/2014", "county": "Catawba", "facility_id": "018011282", "score": 99.0, "addr_line1": "3888 Section House Rd"}}

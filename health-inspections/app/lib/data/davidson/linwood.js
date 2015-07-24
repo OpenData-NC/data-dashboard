@@ -1,1 +1,0 @@
-{"results": [["Back Country Bbq", "Linwood-Southmont Rd", "Linwood", "09/16/2014", 93.0, "029010007"], ["Bills  Truck Stop", "1210 Snider Kines Road", "Linwood", "07/14/2014", 94.0, "029010013"]]}

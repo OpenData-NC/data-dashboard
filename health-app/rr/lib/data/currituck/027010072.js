@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds", "addr_city": "Currituck", "item_comments": "MINOR WALL DAMAGE AROUND HAND SINK;", "activity_date": "05/19/2014", "county": "Currituck", "facility_id": "027010072", "score": 99.5, "addr_line1": "2859 Caratoke Hwy"}}

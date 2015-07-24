@@ -1,1 +1,0 @@
-{"results": [["Genesis Cafe", "504 Main St", "Gatesville", "05/19/2014", 95.0, "037010051"]]}

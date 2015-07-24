@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Parchies at the Ports", "addr_city": "Wilmington", "item_comments": ";;;4-602.13", "activity_date": "05/05/2014", "county": "New Hanover", "facility_id": "065011842", "score": 98.5, "addr_line1": "2140 Burnett Blv"}}

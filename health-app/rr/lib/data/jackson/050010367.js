@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Banquet Kitchen", "addr_city": "Cherokee", "item_comments": "NEED TO OBTAIN NEW TEST STRIPS.4 302.14 SANITIZING SOLUTIONS, TESTING DEVICES   PF;", "activity_date": "06/25/2014", "county": "Jackson", "facility_id": "050010367", "score": 99.5, "addr_line1": "777 Casino Dr"}}

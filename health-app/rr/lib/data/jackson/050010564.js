@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Noodle Bar", "addr_city": "Cherokee", "item_comments": "WIPING CLOTHS STORED ON COUNTER.  MUST BE STORED IN SANITIZER BETWEEN USE.  CDI;", "activity_date": "08/14/2014", "county": "Jackson", "facility_id": "050010564", "score": 99.5, "addr_line1": "777 Casino Drive"}}

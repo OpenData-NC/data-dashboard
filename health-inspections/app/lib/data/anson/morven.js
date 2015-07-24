@@ -1,1 +1,0 @@
-{"results": [["Mama Nois", "7856 Hwy 52 S", "Morven", "08/08/2014", 97.5, "004010113"], ["Literary Cafe-Holla!", "229 E. Main Street", "Morven", "07/26/2014", 97.0, "004010144"]]}

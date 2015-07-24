@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bonterra", "addr_city": "Charlotte", "item_comments": "BONTERRA", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060013570", "score": 95.0, "addr_line1": "1829 Cleveland Ave"}}

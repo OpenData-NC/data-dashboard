@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin' Donuts/Baskin Robbins #340408", "addr_city": "Charlotte", "item_comments": "DUNKIN\\' DONUTS/BASKIN ROBBINS #340408", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060018029", "score": 99.0, "addr_line1": "709 S Kings Dr"}}

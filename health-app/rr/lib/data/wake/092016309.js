@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wakefield Wine Cellar", "addr_city": "Raleigh", "item_comments": "WAKEFIELD WINE CELLAR", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092016309", "score": 97.0, "addr_line1": "13600 New Falls of Neuse  Rd"}}

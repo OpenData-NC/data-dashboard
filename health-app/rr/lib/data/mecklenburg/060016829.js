@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dina`s Grill & Taco Bar", "addr_city": "Charlotte", "item_comments": "DINA`S GRILL & TACO BAR", "activity_date": "08/29/2014", "county": "Mecklenburg", "facility_id": "060016829", "score": 91.5, "addr_line1": "6406 Old Pineville Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kountry Market", "addr_city": "Morganton", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "07/25/2014", "county": "Burke", "facility_id": "012010517", "score": 99.5, "addr_line1": "3280 Hwy 18 S."}}

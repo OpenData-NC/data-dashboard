@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kobe of Japan", "addr_city": "Greensboro", "item_comments": "KOBE OF JAPAN", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041012451", "score": 95.5, "addr_line1": "1216-F Bridford Prkwy"}}

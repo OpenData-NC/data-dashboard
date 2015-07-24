@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Thai Bangkok", "addr_city": "High Point", "item_comments": "THAI BANGKOK", "activity_date": "09/16/2014", "county": "Guilford", "facility_id": "041013102", "score": 98.0, "addr_line1": "3935  Brian Jordan Pl"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Michaelangelo's 3", "addr_city": "Greenville", "item_comments": "MICHAELANGELO\\'S 3", "activity_date": "09/05/2014", "county": "Pitt", "facility_id": "074011180", "score": 92.5, "addr_line1": "200 East Fifth Street"}}

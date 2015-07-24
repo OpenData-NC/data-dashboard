@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway Windsor", "addr_city": "Windsor", "item_comments": "NO FOOD SAFETY CERTIFICATION;SHELVING WHERE CLEAN UTENSILS ARE KEPT IS BEGINNING TO RUST;", "activity_date": "07/17/2014", "county": "Bertie", "facility_id": "008010041", "score": 97.0, "addr_line1": "112 Us 13n"}}

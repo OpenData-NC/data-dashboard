@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds at Cameron Village", "addr_city": "Raleigh", "item_comments": "MCDONALDS AT CAMERON VILLAGE", "activity_date": "09/05/2014", "county": "Wake", "facility_id": "092013088", "score": 98.5, "addr_line1": "416 Oberlin Rd"}}

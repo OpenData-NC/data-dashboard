@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cakes and Pastries of Lumberton", "addr_city": "Lumberton", "item_comments": "4 602.13 NONFOOD CONTACT SURFACES   C CLEAN SIDES OF EQUIPMENT AND CASES.;6 501.111 CONTROLLING PESTS   PF  FLIES PRESENT IN KITCHEN;", "activity_date": "08/11/2014", "county": "Robeson", "facility_id": "078011067", "score": 98.0, "addr_line1": "701 Farringdom Street"}}

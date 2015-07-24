@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Koto's Japanese Restaurant", "addr_city": "Gastonia", "item_comments": "KOTO\\'S JAPANESE RESTAURANT", "activity_date": "09/04/2014", "county": "Gaston", "facility_id": "036011131", "score": 97.5, "addr_line1": "1825 S New Hope Rd"}}

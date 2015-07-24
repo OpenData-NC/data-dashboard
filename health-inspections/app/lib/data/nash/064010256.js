@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King  2", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "05/20/2014", "county": "Nash", "facility_id": "064010256", "score": 0.0, "addr_line1": "781 Sutter Creek Blvd"}}

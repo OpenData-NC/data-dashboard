@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kfc #G195193", "addr_city": "High Point", "item_comments": "KFC #G195193", "activity_date": "09/05/2014", "county": "Guilford", "facility_id": "041013917", "score": 98.5, "addr_line1": "1711 N. Main Street"}}

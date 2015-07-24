@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Woodland Terrace Indept. Liv.", "addr_city": "Cary", "item_comments": "WOODLAND TERRACE INDEPT. LIV.", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092013400", "score": 100.0, "addr_line1": "300 Kildaire Woods Dr"}}

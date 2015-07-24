@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Piggly Wiggly #33 Deli", "addr_city": "Kinston", "item_comments": "PIGGLY WIGGLY #33 DELI", "activity_date": "07/18/2014", "county": "Lenoir", "facility_id": "054010631", "score": 97.0, "addr_line1": "2202 Hwy 258 N"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lucky Chicken", "addr_city": "Clayton", "item_comments": "LUCKY CHICKEN", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051011134", "score": 94.5, "addr_line1": "312 E. Main St"}}

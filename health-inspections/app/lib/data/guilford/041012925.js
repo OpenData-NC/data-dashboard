@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Golden China", "addr_city": "High Point", "item_comments": "GOLDEN CHINA", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041012925", "score": 98.0, "addr_line1": "3935  Brian Jordan Pl"}}

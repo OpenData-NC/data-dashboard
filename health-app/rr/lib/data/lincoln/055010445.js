@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Agave", "addr_city": "Lincolnton", "item_comments": "4 302.14 SANITIZING SOLUTIONS, TESTING DEVICESPROVIDE A TEST KIT.;4 302.12 FOOD TEMPERATURE MEASURING DEVICESPROVIDE A THERMOMETER IN ALL THE UNITS.;", "activity_date": "06/03/2014", "county": "Lincoln", "facility_id": "055010445", "score": 99.5, "addr_line1": "633 Riverside Dr"}}

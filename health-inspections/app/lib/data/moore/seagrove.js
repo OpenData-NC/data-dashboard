@@ -1,1 +1,0 @@
-{"results": [["Frizbeez Grill", "7042 Us Highway 220 South", "Seagrove", "07/17/2014", 94.5, "076010926"], ["Quik Chek  26", "204 N Broad St", "Seagrove", "06/20/2014", 92.5, "076010620"], ["West Moore Family Restaurant", "2172 Hwy 705", "Seagrove", "05/06/2014", 99.0, "063010355"]]}

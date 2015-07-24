@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kickback Jack's #38", "addr_city": "Fayetteville", "item_comments": "4 101.11 CHARACTERISTICS MATERIALS FOR CONSTRUCTION AND REPAIRCLEAN THE GASKETS OF THE PIZZA PREP COOLER AND THE TOP OF THE ICE MACHINE.;", "activity_date": "06/24/2014", "county": "Cumberland", "facility_id": "026012906", "score": 100.0, "addr_line1": "5081 Morganton Road"}}

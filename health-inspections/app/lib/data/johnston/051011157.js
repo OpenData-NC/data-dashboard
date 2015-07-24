@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes", "addr_city": "Garner", "item_comments": "JERSEY MIKES", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051011157", "score": 99.5, "addr_line1": "106-1 Bratton Dr."}}

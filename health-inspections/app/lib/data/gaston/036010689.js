@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Shrimp Boat Restaurant  The", "addr_city": "Gastonia", "item_comments": "SHRIMP BOAT RESTAURANT  THE", "activity_date": "09/16/2014", "county": "Gaston", "facility_id": "036010689", "score": 96.5, "addr_line1": "120 N Broad St"}}

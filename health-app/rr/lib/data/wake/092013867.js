@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chilis Grill and Bar  953", "addr_city": "Raleigh", "item_comments": "CHILIS GRILL AND BAR  953", "activity_date": "07/09/2014", "county": "Wake", "facility_id": "092013867", "score": 93.0, "addr_line1": "8341 Brier Creek Parkway"}}

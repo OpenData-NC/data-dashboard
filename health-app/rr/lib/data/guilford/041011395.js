@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Steak N Shake-Wendover", "addr_city": "Greensboro", "item_comments": "2 401.11 EATING, DRINKING, OR USING TOBACCO   C, EMPLOYEE DRINKS SHOULD BE STORED BELOW FOOD CONTACT AREAS, IN WALKIN COOLER AND AT PREP AREAS;", "activity_date": "07/02/2014", "county": "Guilford", "facility_id": "041011395", "score": 99.0, "addr_line1": "4409 W. Wendover Avenue"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Comfort Inn", "addr_city": "Greensboro", "item_comments": "COMFORT INN", "activity_date": "07/17/2014", "county": "Guilford", "facility_id": "041014069", "score": 93.5, "addr_line1": "1103 Lanada Rd"}}

@@ -1,1 +1,0 @@
-{"results": [["Blue Line Cafeteria", "3971 Chimney Rock Road", "Edneyville", "07/15/2014", 98.0, "045010892"]]}

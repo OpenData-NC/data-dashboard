@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bayonet at Puppy Creek", "addr_city": "Raeford", "item_comments": "BAYONET AT PUPPY CREEK", "activity_date": "07/03/2014", "county": "Hoke", "facility_id": "047010060", "score": 91.5, "addr_line1": "349 S Parker Ch Rd"}}

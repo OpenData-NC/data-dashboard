@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quality Mart #7", "addr_city": "Liberty", "item_comments": "QUALITY MART #7", "activity_date": "09/10/2014", "county": "Randolph", "facility_id": "076010698", "score": 95.0, "addr_line1": "4994 Hwy 49"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hibachi Express Japanese Restaurant", "addr_city": "Charlotte", "item_comments": "HIBACHI EXPRESS JAPANESE RESTAURANT", "activity_date": "08/28/2014", "county": "Mecklenburg", "facility_id": "060017039", "score": 94.0, "addr_line1": "7945 N Tryon St"}}

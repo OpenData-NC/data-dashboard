@@ -1,1 +1,0 @@
-{"results": [["Bullocksville Grocery & Grill", "20 Bullocksville Park Road", "Manson", "11/10/2014", 96.0, "091010379"], ["Warren Correctional Inst", "379 Collins Road", "Manson", "05/28/2014", 98.0, "093010073"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sullivans Steakhouse", "addr_city": "Charlotte", "item_comments": "SULLIVANS STEAKHOUSE", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060013041", "score": 95.5, "addr_line1": "1928 South Blvd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Madison Park Cafe", "addr_city": "Winston Salem", "item_comments": "MADISON PARK CAFE", "activity_date": "09/16/2014", "county": "Forsyth", "facility_id": "034012255", "score": 86.5, "addr_line1": "5790 University Parkway"}}

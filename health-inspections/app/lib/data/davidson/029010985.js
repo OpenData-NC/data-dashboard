@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #19844", "addr_city": "Winston Salem", "item_comments": "SUBWAY #19844", "activity_date": "09/05/2014", "county": "Davidson", "facility_id": "029010985", "score": 94.5, "addr_line1": "10479 N Nc Hwy 109 Suite 108"}}

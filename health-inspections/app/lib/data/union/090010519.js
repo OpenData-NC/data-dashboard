@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #2382", "addr_city": "Monroe", "item_comments": "SUBWAY #2382", "activity_date": "07/15/2014", "county": "Union", "facility_id": "090010519", "score": 96.0, "addr_line1": "813 J W. Roosevelt Blvd."}}

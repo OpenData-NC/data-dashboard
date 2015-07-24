@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wal-Mart Deli # 1155", "addr_city": "Lumberton", "item_comments": "6 501.111 CONTROLLING PESTS   PFFLIES PRESENT.;", "activity_date": "06/19/2014", "county": "Robeson", "facility_id": "078010589", "score": 98.0, "addr_line1": "5070 Fayetteville Rd"}}

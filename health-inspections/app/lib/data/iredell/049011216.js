@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Randy's Bbq", "addr_city": "Troutman", "item_comments": "RANDY\\'S BBQ", "activity_date": "09/15/2014", "county": "Iredell", "facility_id": "049011216", "score": 95.0, "addr_line1": "103 North Main Street"}}

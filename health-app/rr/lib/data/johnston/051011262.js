@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Simple Twist", "addr_city": "Garner", "item_comments": "SIMPLE TWIST", "activity_date": "08/20/2014", "county": "Johnston", "facility_id": "051011262", "score": 97.0, "addr_line1": "5638 Nc Hwy 42 Suite 212"}}

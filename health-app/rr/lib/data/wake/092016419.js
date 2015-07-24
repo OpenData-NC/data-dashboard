@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin Donuts #350706", "addr_city": "Raleigh", "item_comments": "DUNKIN DONUTS #350706", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092016419", "score": 97.0, "addr_line1": "10030 Green Level Church  Rd"}}

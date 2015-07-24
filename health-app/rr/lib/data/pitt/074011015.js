@@ -1,1 +1,0 @@
-{"results": {"fac_name": "K & W Cafeteria", "addr_city": "Greenville", "item_comments": "K & W CAFETERIA", "activity_date": "09/11/2014", "county": "Pitt", "facility_id": "074011015", "score": 97.5, "addr_line1": "1916 West Arlington Blvd"}}

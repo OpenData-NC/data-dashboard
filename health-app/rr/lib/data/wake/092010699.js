@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Raleigh", "item_comments": "SUBWAY", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092010699", "score": 99.0, "addr_line1": "2808 1/2 Hillsborough St"}}

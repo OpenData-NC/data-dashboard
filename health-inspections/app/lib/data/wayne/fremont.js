@@ -1,1 +1,0 @@
-{"results": [["Capitol Cafe", "102 Main St", "Fremont", "07/28/2014", 95.0, "096010206"], ["Aggie's Pizza & Subs", "105 S Wilson St", "Fremont", "07/28/2014", 97.5, "096011027"], ["Fast Break 2", "501 N Wilson St", "Fremont", "07/16/2014", 96.5, "096010754"], ["Double D'S Bar & Grill", "121 E Main St", "Fremont", "07/08/2014", 96.5, "096010959"]]}

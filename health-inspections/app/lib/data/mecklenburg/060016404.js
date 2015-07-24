@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McLeod Center", "addr_city": "Charlotte", "item_comments": "MCLEOD CENTER", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060016404", "score": 96.0, "addr_line1": "515 Clanton Rd"}}

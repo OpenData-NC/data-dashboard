@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Convention Center/Banquet Kit", "addr_city": "Charlotte", "item_comments": "CONVENTION CENTER/BANQUET KIT", "activity_date": "09/05/2014", "county": "Mecklenburg", "facility_id": "060012208", "score": 96.0, "addr_line1": "501 S College St"}}

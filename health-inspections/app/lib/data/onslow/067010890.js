@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Saltwater Grill", "addr_city": "Swansboro", "item_comments": "SALTWATER GRILL", "activity_date": "09/19/2014", "county": "Onslow", "facility_id": "067010890", "score": 95.5, "addr_line1": "99 Church Street"}}

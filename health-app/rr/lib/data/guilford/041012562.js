@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pancho Villa Mexican Rest.", "addr_city": "High Point", "item_comments": "PANCHO VILLA MEXICAN REST.", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041012562", "score": 98.0, "addr_line1": "206  Fairfield Rd"}}

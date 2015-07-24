@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Great Wok Restaurant", "addr_city": "Wendell", "item_comments": "GREAT WOK RESTAURANT", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092012990", "score": 94.5, "addr_line1": "2823 Wendell Blve"}}

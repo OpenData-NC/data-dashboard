@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ruby Tuesday 3181", "addr_city": "Gastonia", "item_comments": "RUBY TUESDAY 3181", "activity_date": "09/15/2014", "county": "Gaston", "facility_id": "036011110", "score": 98.5, "addr_line1": "424 Cox Rd"}}

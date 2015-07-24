@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Ray Del Pollo", "addr_city": "Charlotte", "item_comments": "EL RAY DEL POLLO", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060015366", "score": 95.0, "addr_line1": "5111 Central Ave."}}

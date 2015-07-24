@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Plaza Azteca Mexican Restaurant", "addr_city": "Raleigh", "item_comments": "PLAZA AZTECA MEXICAN RESTAURANT", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092016491", "score": 96.5, "addr_line1": "7961 Skyland Ridge Pky"}}

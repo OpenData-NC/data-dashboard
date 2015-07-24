@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Virgils Drive In", "addr_city": "Raeford", "item_comments": "VIRGILS DRIVE IN", "activity_date": "08/12/2014", "county": "Hoke", "facility_id": "047010028", "score": 93.5, "addr_line1": "2402 Fayettville Rd"}}

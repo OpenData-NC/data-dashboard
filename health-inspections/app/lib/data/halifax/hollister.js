@@ -1,1 +1,0 @@
-{"results": [["Cleo's Stop N Shop", "38515 Hwy 561", "Hollister", "05/15/2014", 90.0, "042010132"]]}

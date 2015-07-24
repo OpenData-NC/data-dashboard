@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Oak Grove Methodist Church", "addr_city": "Charlotte", "item_comments": "OAK GROVE METHODIST CHURCH", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060016420", "score": 98.5, "addr_line1": "6440 Old Statesville Rd"}}

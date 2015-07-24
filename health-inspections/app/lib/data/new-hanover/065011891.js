@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Salt Works Ii", "addr_city": "Wilmington", "item_comments": "4-602.13", "activity_date": "05/28/2014", "county": "New Hanover", "facility_id": "065011891", "score": 95.0, "addr_line1": "4001 Wrightsville Ave"}}

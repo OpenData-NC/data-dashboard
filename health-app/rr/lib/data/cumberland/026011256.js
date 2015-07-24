@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Garden", "addr_city": "Fayetteville", "item_comments": "CHINA GARDEN", "activity_date": "09/11/2014", "county": "Cumberland", "facility_id": "026011256", "score": 83.5, "addr_line1": "3047 Legion Rd"}}

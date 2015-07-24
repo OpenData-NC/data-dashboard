@@ -1,1 +1,0 @@
-{"results": [["Mickeys Barbecue", "105 W Blount St", "Fountain", "06/12/2014", 96.0, "074010862"]]}

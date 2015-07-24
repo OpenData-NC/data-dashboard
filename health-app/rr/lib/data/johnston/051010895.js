@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Four Oaks", "item_comments": "SUBWAY", "activity_date": "07/07/2014", "county": "Johnston", "facility_id": "051010895", "score": 100.0, "addr_line1": "5960 Hwy 301 S"}}

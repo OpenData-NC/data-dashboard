@@ -1,1 +1,0 @@
-{"results": {"fac_name": "First Citizens Bank Kitchen", "addr_city": "Raleigh", "item_comments": "FIRST CITIZENS BANK KITCHEN", "activity_date": "07/28/2014", "county": "Wake", "facility_id": "092014995", "score": 100.0, "addr_line1": "4300 Six Forks Road"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bj`s Wholesale Club #114 Snack Bar", "addr_city": "Pineville", "item_comments": "BJ`S WHOLESALE CLUB #114 SNACK BAR", "activity_date": "09/23/2014", "county": "Mecklenburg", "facility_id": "060016111", "score": 98.5, "addr_line1": "11715 Carolina Place Pky"}}

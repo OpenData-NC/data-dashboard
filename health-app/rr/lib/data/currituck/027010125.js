@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Coinjock Marina/Resort Inc", "addr_city": "Coinjock", "item_comments": "CLEAN HOOD BETTER/MORE OFTEN;", "activity_date": "09/25/2014", "county": "Currituck", "facility_id": "027010125", "score": 99.5, "addr_line1": "321 Waterlily Road"}}

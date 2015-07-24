@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Monte De Rey of Harper", "addr_city": "Clemmons", "item_comments": "MONTE DE REY OF HARPER", "activity_date": "09/22/2014", "county": "Forsyth", "facility_id": "034012012", "score": 95.0, "addr_line1": "4110 Harper Rd"}}

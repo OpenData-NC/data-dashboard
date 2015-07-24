@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys", "addr_city": "Laurinburg", "item_comments": "CONTROL FLIES ,SEVERAL FLIES WERE IN THE RESTAURANT;HAIR RESTRAINTS ARE REQUIRED FOR ALL EMPLOYEES WORKING IN THE KITCHEN,CORRECTED DURING INSPECTION;", "activity_date": "06/11/2014", "county": "Scotland", "facility_id": "083010215", "score": 98.5, "addr_line1": "1650 South Main St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tracks Shack", "addr_city": "Archdale", "item_comments": "TRACKS SHACK", "activity_date": "09/12/2014", "county": "Guilford", "facility_id": "041013396", "score": 95.5, "addr_line1": "1771   Hwy 62"}}

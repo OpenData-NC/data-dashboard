@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pat's Grill", "addr_city": "Benson", "item_comments": "PAT\\'S GRILL", "activity_date": "07/23/2014", "county": "Johnston", "facility_id": "051010115", "score": 96.0, "addr_line1": "803 S Wall St."}}

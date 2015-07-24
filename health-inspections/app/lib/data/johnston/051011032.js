@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Myers Mart", "addr_city": "Selma", "item_comments": "MYERS MART", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051011032", "score": 95.0, "addr_line1": "4321 Hwy 70 E"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "New China Buffet", "addr_city": "Boone", "item_comments": "NEW CHINA BUFFET", "activity_date": "09/28/2014", "county": "Watauga", "facility_id": "095010406", "score": 92.0, "addr_line1": "1200 Blowing Rock Road"}}

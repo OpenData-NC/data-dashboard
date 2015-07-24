@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #40495 (Walmart)", "addr_city": "Holly Springs", "item_comments": "SUBWAY #40495 (WALMART)", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092016320", "score": 96.5, "addr_line1": "7016 Gb Alford Hwy"}}

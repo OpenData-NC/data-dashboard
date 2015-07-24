@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taste of Italy", "addr_city": "Yadkinville", "item_comments": "TASTE OF ITALY", "activity_date": "09/03/2014", "county": "Yadkin", "facility_id": "099010259", "score": 92.0, "addr_line1": "946 South State Street"}}

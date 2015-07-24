@@ -1,1 +1,0 @@
-{"results": {"fac_name": "International House of Pancake", "addr_city": "Winston Salem", "item_comments": "INTERNATIONAL HOUSE OF PANCAKE", "activity_date": "09/05/2014", "county": "Forsyth", "facility_id": "034014040", "score": 90.0, "addr_line1": "5985 University Parkway"}}

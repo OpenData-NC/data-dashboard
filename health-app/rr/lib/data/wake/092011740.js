@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King 9246", "addr_city": "Raleigh", "item_comments": "BURGER KING 9246", "activity_date": "08/08/2014", "county": "Wake", "facility_id": "092011740", "score": 96.0, "addr_line1": "3500 Poole Rd"}}

@@ -1,1 +1,0 @@
-{"results": [["Riverside Restaurant at Brownwood", "7181 Railroad Grade Road", "Todd", "08/06/2014", 95.5, "005010269"], ["Todd General Store", "3866 Railroad Grade Road", "Todd", "06/09/2014", 94.5, "005010189"]]}

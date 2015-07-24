@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wake County Detention Center Kitchen And", "addr_city": "Raleigh", "item_comments": "WAKE COUNTY DETENTION CENTER KITCHEN AND", "activity_date": "07/08/2014", "county": "Wake", "facility_id": "092016159", "score": 93.0, "addr_line1": "3301 Hammond Rd"}}

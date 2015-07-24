@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bp #18", "addr_city": "Indian Trail", "item_comments": "BP #18", "activity_date": "07/21/2014", "county": "Union", "facility_id": "090010762", "score": 92.0, "addr_line1": "7805 Idlewild Road"}}

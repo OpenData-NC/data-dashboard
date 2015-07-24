@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chrome Side Grill", "addr_city": "Hendersonville", "item_comments": "CHROME SIDE GRILL", "activity_date": "09/25/2014", "county": "Henderson", "facility_id": "045010729", "score": 98.0, "addr_line1": "5701 Asheville Hwy"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tonys Food Mart", "addr_city": "Whitakers", "item_comments": "NOT IN COMPLIANCE;NOT IN COMPLIANCE.  fryer is for household use only.;NOT APPLICABLE;NOT OBSERVED;NOT APPLICABLE;NOT OBSERVED;", "activity_date": "08/08/2014", "county": "Nash", "facility_id": "064010830", "score": 97.0, "addr_line1": "301 N. White St."}}

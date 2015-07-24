@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Meridian Cafe", "addr_city": "Durham", "item_comments": "4 901.11 EQUIPMENT AND UTENSILS, AIR DRYING REQUIRED   C   ALL UTENSILS MUST BE AIR DRIED.;", "activity_date": "10/13/2014", "county": "Durham", "facility_id": "032011910", "score": 99.0, "addr_line1": "2500 Meridian Parkway Suite 13"}}

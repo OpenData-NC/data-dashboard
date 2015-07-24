@@ -1,1 +1,0 @@
-{"results": [["Walnut Woods  Golf Course", "3172 Alamance Ch Rd", "Julian", "10/21/2014", 96.0, "041010451"]]}

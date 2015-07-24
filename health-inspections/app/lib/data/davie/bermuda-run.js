@@ -1,1 +1,0 @@
-{"results": [["Bermuda Run Country Club (East)", "324 Bermuda Run Drive", "Bermuda Run", "08/20/2014", 98.5, "030010274"], ["Bermuda Run Country Club West", "129 Orchard Park Drive", "Bermuda Run", "06/10/2014", 97.5, "030010273"], ["Mulligan's", "324 Bermuda Run Drive", "Bermuda Run", "06/07/2014", 98.0, "030010272"]]}

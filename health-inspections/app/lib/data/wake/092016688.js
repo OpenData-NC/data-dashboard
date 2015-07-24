@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fiesta Mexicana", "addr_city": "Raleigh", "item_comments": "FIESTA MEXICANA", "activity_date": "07/25/2014", "county": "Wake", "facility_id": "092016688", "score": 98.0, "addr_line1": "990 High House Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ming Wok", "addr_city": "Wilmington", "item_comments": "3-304.14", "activity_date": "06/09/2014", "county": "New Hanover", "facility_id": "065012173", "score": 97.0, "addr_line1": "416 Carolina Beach Rd Unit 2,3"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King", "addr_city": "Albemarle", "item_comments": "6 501.11 REPAIRING PREMISES, STRUCTURES, ATTACHMENTS, AND FIXTURES METHODS   CREPAIR AND REPLACE THE CRACKED AND MISSING FLOOR TILES IN CAN WASH.;", "activity_date": "05/09/2014", "county": "Stanly", "facility_id": "084010011", "score": 100.0, "addr_line1": "1720 Hwy 52n"}}

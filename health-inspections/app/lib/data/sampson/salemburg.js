@@ -1,1 +1,0 @@
-{"results": [["Salem Pizza", "1245 Salemburg Hwy", "Salemburg", "08/19/2014", 95.5, "082010205"], ["Nc Justice Academy", "200 W. College Street", "Salemburg", "06/23/2014", 90.0, "082010429"]]}

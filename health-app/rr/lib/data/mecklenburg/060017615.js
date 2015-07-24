@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kfc/Taco Bell #30 E20058", "addr_city": "Charlotte", "item_comments": "GENERAL COMMENT  4 901.12 WIPING CLOTHS, AIR DRYING LOCATION   C. OBSERVED ONE WET WIPING CLOTH BEING STORED ON THE FOOD PREP TABLE.;", "activity_date": "08/07/2014", "county": "Mecklenburg", "facility_id": "060017615", "score": 99.5, "addr_line1": "6424 Albemarle Rd"}}

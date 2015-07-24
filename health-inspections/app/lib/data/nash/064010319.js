@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway of Spring Hope #17965", "addr_city": "Spring Hope", "item_comments": "SUBWAY OF SPRING HOPE #17965", "activity_date": "09/08/2014", "county": "Nash", "facility_id": "064010319", "score": 96.5, "addr_line1": "607 East Nash St"}}

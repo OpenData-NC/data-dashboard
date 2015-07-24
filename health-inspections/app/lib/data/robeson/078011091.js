@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell #030558", "addr_city": "Lumberton", "item_comments": "THOROUGHLY CLEAN ALL NON FOOD CONTACT SURFACES.;PROPERLY STORE SINGLE SERVICE CUPS.;COMPLETELY AIR DRY ALL CONTAINERS BEFORE STACKING AND STORING.;", "activity_date": "06/04/2014", "county": "Robeson", "facility_id": "078011091", "score": 97.0, "addr_line1": "2100 Roberts Avenue"}}

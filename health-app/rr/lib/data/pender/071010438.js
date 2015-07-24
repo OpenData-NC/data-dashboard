@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonald /  Rocky Point", "addr_city": "Rocky Point", "item_comments": "4 502.13 SINGLE SERVICE AND SINGLE USE ARTICLES USE LIMITATIONS;", "activity_date": "07/16/2014", "county": "Pender", "facility_id": "071010438", "score": 99.0, "addr_line1": "Nc Highway 210"}}

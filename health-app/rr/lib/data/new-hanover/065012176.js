@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Corning", "addr_city": "Wilmington", "item_comments": ";;NEED CONSUMER ADVISORY;;;;;3-501.17", "activity_date": "05/14/2014", "county": "New Hanover", "facility_id": "065012176", "score": 98.5, "addr_line1": "310 N College Rd"}}

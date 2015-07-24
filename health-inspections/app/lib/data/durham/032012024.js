@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cilantro Mediterrean Grill & Pizza", "addr_city": "Durham", "item_comments": "CILANTRO MEDITERREAN GRILL & PIZZA", "activity_date": "09/23/2014", "county": "Durham", "facility_id": "032012024", "score": 92.0, "addr_line1": "5400 S Miami Blvd Suite 102"}}

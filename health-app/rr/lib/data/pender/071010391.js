@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway Sloop Pt", "addr_city": "Hampstead", "item_comments": "5 501.113 COVERING RECEPTACLES   C;3 501.16  A  2  AND  B  POTENTIALLY HAZARDOUS FOOD  TIME/TEMPERATURE CONTROL FOR SAFETY FOOD , HOT AND COLD HOLDING   P;", "activity_date": "08/19/2014", "county": "Pender", "facility_id": "071010391", "score": 98.0, "addr_line1": "19344 Hwy 17 N"}}

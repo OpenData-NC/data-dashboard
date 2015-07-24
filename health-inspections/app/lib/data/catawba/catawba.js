@@ -1,1 +1,0 @@
-{"results": [["Cindy's Starlite Cafe", "110 S Main St", "Catawba", "08/27/2014", 95.5, "018011204"], ["Balls Creek Campground", "2039 Buffalo Shoals Rd", "Catawba", "08/12/2014", 92.0, "018010093"], ["Comm Scope Catawba", "6519 Comm Scope Rd", "Catawba", "06/10/2014", 95.5, "018010669"], ["Long Island Marina", "8400 Long Island Rd", "Catawba", "06/06/2014", 98.0, "018011023"]]}

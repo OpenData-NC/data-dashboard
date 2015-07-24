@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Scotchman #3183", "addr_city": "Hampstead", "item_comments": "5 501.113 COVERING RECEPTACLES   C;4 502.12 SINGLE SERVICE AND SINGLE USE ARTICLES, REQUIRED USE   P;", "activity_date": "06/02/2014", "county": "Pender", "facility_id": "071010454", "score": 99.0, "addr_line1": "24 Country Club Road"}}

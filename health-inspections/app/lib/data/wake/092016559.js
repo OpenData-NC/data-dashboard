@@ -1,1 +1,0 @@
-{"results": {"fac_name": "King Chinese Buffet", "addr_city": "Fuquay Varina", "item_comments": "KING CHINESE BUFFET", "activity_date": "07/10/2014", "county": "Wake", "facility_id": "092016559", "score": 92.0, "addr_line1": "1029 E Broad St"}}

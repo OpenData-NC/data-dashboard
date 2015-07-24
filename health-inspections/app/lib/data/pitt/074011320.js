@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cafe Duo", "addr_city": "Greenville", "item_comments": "CAFE DUO", "activity_date": "09/04/2014", "county": "Pitt", "facility_id": "074011320", "score": 98.0, "addr_line1": "505 Red Banks Rd"}}

@@ -1,1 +1,0 @@
-{"results": [["Montreat Assembly Inn", "401 Assembly Dr", "Montreat", "07/16/2014", 98.5, "011010241"]]}

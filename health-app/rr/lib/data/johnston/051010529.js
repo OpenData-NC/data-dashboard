@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Applebee's", "addr_city": "Smithfield", "item_comments": "APPLEBEE\\'S", "activity_date": "08/28/2014", "county": "Johnston", "facility_id": "051010529", "score": 95.0, "addr_line1": "1260 N. Brightleaf Blvd."}}

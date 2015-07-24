@@ -1,1 +1,0 @@
-{"results": [["Sabor Latino", "323 Sycamore St", "Rose Hill", "08/27/2014", 93.5, "031010516"], ["Scotchman #175", "337 Sycamore Street", "Rose Hill", "08/25/2014", 88.5, "031010524"], ["The Bistro of Duplin Winery", "505 N Sycamore St", "Rose Hill", "06/24/2014", 94.5, "031010296"], ["Glenna's Cafe", "88 Delway Hwy", "Rose Hill", "06/10/2014", 93.5, "082010423"]]}

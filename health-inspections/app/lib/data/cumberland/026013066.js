@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Memphis Bbq Co.", "addr_city": "Fayetteville", "item_comments": "MEMPHIS BBQ CO.", "activity_date": "07/10/2014", "county": "Cumberland", "facility_id": "026013066", "score": 93.0, "addr_line1": "1498 Skibo Road"}}

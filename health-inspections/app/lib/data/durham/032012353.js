@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carrboro Coffee Roasters Pop Up Coffee B", "addr_city": "Durham", "item_comments": "NON PHF PASTRY ITEMS HAVE BEEN ADDED TO MENU SINCE LAST INSPECTION . SUPPLIED FROM GUGLHUPF BAKERY.;", "activity_date": "07/23/2014", "county": "Durham", "facility_id": "032012353", "score": 100.0, "addr_line1": "807 E Main Street"}}

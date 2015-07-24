@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Asian Kitchen", "addr_city": "Durham", "item_comments": "ASIAN KITCHEN", "activity_date": "09/19/2014", "county": "Durham", "facility_id": "032012008", "score": 99.0, "addr_line1": "1125 W. Nc Hwy 54 Suite 801"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carinos Italian Grill", "addr_city": "Raleigh", "item_comments": "CARINOS ITALIAN GRILL", "activity_date": "07/29/2014", "county": "Wake", "facility_id": "092015122", "score": 91.0, "addr_line1": "8101 Brier Creek Parkway"}}

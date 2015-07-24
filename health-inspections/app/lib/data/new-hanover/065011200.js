@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Garden", "addr_city": "Wilmington", "item_comments": "6-303.11", "activity_date": "06/04/2014", "county": "New Hanover", "facility_id": "065011200", "score": 90.5, "addr_line1": "1988 Eastwood Rd"}}

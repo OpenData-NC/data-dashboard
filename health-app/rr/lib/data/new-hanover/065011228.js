@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Golden Corral 2452", "addr_city": "Wilmington", "item_comments": ";;;4-901.11   Equipment and Utensils, Air-Drying Required. AIR DRY POTS, PANS AND DISHES PRIOR TO STACKING;5-501.17", "activity_date": "05/26/2014", "county": "New Hanover", "facility_id": "065011228", "score": 92.5, "addr_line1": "5211 S College Rd"}}

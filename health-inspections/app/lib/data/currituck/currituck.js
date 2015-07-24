@@ -1,1 +1,0 @@
-{"results": [["McDonalds", "2859 Caratoke Hwy", "Currituck", "05/19/2014", 99.5, "027010072"]]}

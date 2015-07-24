@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Davinci's Pizza", "addr_city": "Charlotte", "item_comments": "DAVINCI\\'S PIZZA", "activity_date": "09/08/2014", "county": "Mecklenburg", "facility_id": "060017417", "score": 95.5, "addr_line1": "5700 University Pointe Blvd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wolfman Pizza #3", "addr_city": "Charlotte", "item_comments": "WOLFMAN PIZZA #3", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060014191", "score": 97.0, "addr_line1": "106-B S. Sharon Amity Road"}}

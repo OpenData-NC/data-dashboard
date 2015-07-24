@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Weinhaus", "addr_city": "Asheville", "item_comments": ";;6-301.11; Priority Foundation; SOAP NEEDED IN LADIES&apos; ROOM.;;;;;;;;;;;;;;;", "activity_date": "07/25/2014", "county": "Buncombe", "facility_id": "011012294", "score": 99.0, "addr_line1": "86 Patton  Ave"}}

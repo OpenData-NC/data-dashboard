@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lynbrooke Events", "addr_city": "Newton", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   CCLEAN WALL NEXT TO THREE COMPARTMENT SINK.;", "activity_date": "06/10/2014", "county": "Catawba", "facility_id": "018011275", "score": 99.5, "addr_line1": "2289 St Pauls Ch Rd"}}

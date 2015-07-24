@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bakers  Cafe", "addr_city": "Jacksonville", "item_comments": "BAKERS  CAFE", "activity_date": "08/11/2014", "county": "Onslow", "facility_id": "067010008", "score": 96.5, "addr_line1": "3257 Richlands Highway"}}

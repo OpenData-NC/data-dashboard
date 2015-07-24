@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Briggs at the Park", "addr_city": "Durham", "item_comments": "6 501.111 FLIES PRESENT IN FACILITY&apos;;", "activity_date": "07/23/2014", "county": "Durham", "facility_id": "032011598", "score": 99.0, "addr_line1": "4900  Nc 55"}}

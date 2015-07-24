@@ -1,1 +1,0 @@
-{"results": {"fac_name": "B T O Food Store - 2", "addr_city": "Fayetteville", "item_comments": ".;", "activity_date": "05/23/2014", "county": "Cumberland", "facility_id": "026010014", "score": 99.5, "addr_line1": "704 Country Club Drive"}}

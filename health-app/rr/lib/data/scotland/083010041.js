@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nic Pic Kwic Deli-Rest #2", "addr_city": "Laurinburg", "item_comments": "LABEL BREADER CONTAINER .CORRECTED DURING INSPECTION;CLEAN CEILING IN THE KITCHEN;CLEAN PIZZA OVEN,CLEAN TOP OF THE HEATED HOLDING CABINET;", "activity_date": "07/24/2014", "county": "Scotland", "facility_id": "083010041", "score": 97.0, "addr_line1": "408 North Main St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kangaroo Express # 3472", "addr_city": "Kinston", "item_comments": "KANGAROO EXPRESS # 3472", "activity_date": "07/15/2014", "county": "Lenoir", "facility_id": "054010341", "score": 97.0, "addr_line1": "509 E New Bern Hwy"}}

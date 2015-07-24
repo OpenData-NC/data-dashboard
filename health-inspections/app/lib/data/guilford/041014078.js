@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendy's         .", "addr_city": "Greensboro", "item_comments": "WENDY\\'S         .", "activity_date": "09/15/2014", "county": "Guilford", "facility_id": "041014078", "score": 96.0, "addr_line1": "2519 Randleman Rd"}}

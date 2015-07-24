@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bagel Bin & Deli", "addr_city": "Charlotte", "item_comments": "BAGEL BIN & DELI", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060016336", "score": 97.0, "addr_line1": "16709 Orchard Stone Run"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell 4795", "addr_city": "Pineville", "item_comments": "TACO BELL 4795", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060015364", "score": 98.5, "addr_line1": "10917 Carolina Place Pky"}}

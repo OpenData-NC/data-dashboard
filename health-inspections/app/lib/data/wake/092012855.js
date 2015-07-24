@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Buffaloe Lanes - Cary", "addr_city": "Cary", "item_comments": "BUFFALOE LANES - CARY", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092012855", "score": 96.5, "addr_line1": "151 High House Road"}}

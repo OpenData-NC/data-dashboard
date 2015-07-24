@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cafe Carolina and Bakery 7251", "addr_city": "Raleigh", "item_comments": "CAFE CAROLINA AND BAKERY 7251", "activity_date": "07/29/2014", "county": "Wake", "facility_id": "092013250", "score": 96.0, "addr_line1": "401 Daniels St"}}

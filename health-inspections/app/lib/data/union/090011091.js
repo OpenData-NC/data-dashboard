@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Cafetal", "addr_city": "Indian Trail", "item_comments": "EL CAFETAL", "activity_date": "08/08/2014", "county": "Union", "facility_id": "090011091", "score": 0.0, "addr_line1": "4409 Old Monroe Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Muddy S Coffee House", "addr_city": "Jacksonville", "item_comments": "MUDDY S COFFEE HOUSE", "activity_date": "08/11/2014", "county": "Onslow", "facility_id": "067010745", "score": 99.0, "addr_line1": "2040 Suite 2 Wilm. Hwy"}}

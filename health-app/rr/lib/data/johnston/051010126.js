@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pizza Inn", "addr_city": "Selma", "item_comments": "PIZZA INN", "activity_date": "08/07/2014", "county": "Johnston", "facility_id": "051010126", "score": 96.5, "addr_line1": "1441 S Pollock Street"}}

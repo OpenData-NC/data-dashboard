@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Comfort Inn @ Ft. Bragg Breakfast Bar", "addr_city": "Fayetteville", "item_comments": "6 301.11 HAND WASH SOAP WAS OUT CDI;6 501.12 CLEAN UP EXCESSIVE DISCOLORED WAX BUILD UP;4 602,13 CLEAN TOPS OF BEVERAGE EQUIPMENT;", "activity_date": "06/03/2014", "county": "Cumberland", "facility_id": "026013044", "score": 98.0, "addr_line1": "1922 Skibo Road"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway 6697", "addr_city": "Henderson", "item_comments": "SUBWAY 6697", "activity_date": "09/04/2014", "county": "Vance", "facility_id": "091010473", "score": 97.0, "addr_line1": "1413 N Garnett St"}}

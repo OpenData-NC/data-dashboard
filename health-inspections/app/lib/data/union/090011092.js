@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taqueria El Paraiso", "addr_city": "Monroe", "item_comments": "TAQUERIA EL PARAISO", "activity_date": "08/29/2014", "county": "Union", "facility_id": "090011092", "score": 0.0, "addr_line1": "1709 Walk-Up Avenue"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King", "addr_city": "Smithfield", "item_comments": ";;;;;3-501.19; Core; Lettuce is being set out of refrigeration and time must be placed on the container at that time, not when placed in the prep line.;;;;;;;", "activity_date": "09/11/2014", "county": "Johnston", "facility_id": "051010019", "score": 100.0, "addr_line1": "70 at I-95"}}

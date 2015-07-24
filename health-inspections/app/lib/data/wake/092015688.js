@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fairfield Inn and Suites", "addr_city": "Raleigh", "item_comments": "FAIRFIELD INN AND SUITES", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092015688", "score": 99.0, "addr_line1": "10040 Sellona St"}}

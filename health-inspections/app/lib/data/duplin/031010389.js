@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Quelite", "addr_city": "Faison", "item_comments": "EL QUELITE", "activity_date": "08/26/2014", "county": "Duplin", "facility_id": "031010389", "score": 90.0, "addr_line1": "115 South Center Street"}}

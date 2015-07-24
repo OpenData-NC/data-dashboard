@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Restaurant", "addr_city": "Winston Salem", "item_comments": "CHINA RESTAURANT", "activity_date": "09/04/2014", "county": "Forsyth", "facility_id": "034014093", "score": 90.0, "addr_line1": "2510 Somerset Center Drive"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kabob House", "addr_city": "Charlotte", "item_comments": "KABOB HOUSE", "activity_date": "09/05/2014", "county": "Mecklenburg", "facility_id": "060011703", "score": 93.0, "addr_line1": "6432 E Independence Blvd"}}

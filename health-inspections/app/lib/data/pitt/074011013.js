@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sonic Drive in 5449", "addr_city": "Greenville", "item_comments": "SONIC DRIVE IN 5449", "activity_date": "09/04/2014", "county": "Pitt", "facility_id": "074011013", "score": 94.0, "addr_line1": "3751 South Memorial Dr"}}

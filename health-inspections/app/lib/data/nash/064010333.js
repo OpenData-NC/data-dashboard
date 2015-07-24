@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King  11745", "addr_city": "Spring Hope", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;", "activity_date": "07/02/2014", "county": "Nash", "facility_id": "064010333", "score": 0.0, "addr_line1": "625 East Nash St"}}

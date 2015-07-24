@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Four Seasons Restaurant", "addr_city": "Rocky Mount", "item_comments": "NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;NOT OBSERVED;", "activity_date": "06/05/2014", "county": "Nash", "facility_id": "064010873", "score": 98.0, "addr_line1": "209 N. Church St"}}

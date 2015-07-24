@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jesses Pizza and Subs", "addr_city": "Laurinburg", "item_comments": "CLEAN TOP OF OVEN AND CLEAN TOP OF WATER HEATER;", "activity_date": "07/23/2014", "county": "Scotland", "facility_id": "083010151", "score": 99.5, "addr_line1": "201 North Main St"}}

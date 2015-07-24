@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taqueria Las Palmas Mexican Restaurant", "addr_city": "Raeford", "item_comments": "TAQUERIA LAS PALMAS MEXICAN RESTAURANT", "activity_date": "08/18/2014", "county": "Hoke", "facility_id": "047010198", "score": 86.5, "addr_line1": "509 Harris  Ave"}}

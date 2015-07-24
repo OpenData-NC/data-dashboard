@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Eight", "addr_city": "Benson", "item_comments": "CHINA EIGHT", "activity_date": "07/17/2014", "county": "Johnston", "facility_id": "051010382", "score": 96.5, "addr_line1": "704 E Parrish St"}}

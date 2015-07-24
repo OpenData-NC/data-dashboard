@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Krazy Pizza and Subs", "addr_city": "Wilmington", "item_comments": ";;3-304.14", "activity_date": "06/13/2014", "county": "New Hanover", "facility_id": "065012103", "score": 98.0, "addr_line1": "1616 Shipyard Blv Ste 20"}}

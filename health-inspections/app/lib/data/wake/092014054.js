@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes Subs", "addr_city": "Raleigh", "item_comments": "JERSEY MIKES SUBS", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092014054", "score": 100.0, "addr_line1": "3490 Kildaire Farm Rd"}}

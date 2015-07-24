@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Arby S 7368", "addr_city": "Winston Salem", "item_comments": "ARBY S 7368", "activity_date": "09/02/2014", "county": "Forsyth", "facility_id": "034011482", "score": 91.0, "addr_line1": "101 Summit Square Blvd"}}

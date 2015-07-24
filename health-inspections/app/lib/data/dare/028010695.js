@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Harbor Deli", "addr_city": "Hatteras", "item_comments": "MINOR GREASE ACCUMULATION ON FLOOR AT MAIN COOK LINE;ENSURE KNIVES AND BINS ARE THOROUGHLY SCRUBBED OF RESIDUE, THEN WASHED, RINSED AND SANITIZED BEFORE STORING;", "activity_date": "06/24/2014", "county": "Dare", "facility_id": "028010695", "score": 98.5, "addr_line1": "58o58 Hwy 12"}}

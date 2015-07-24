@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin  Donuts", "addr_city": "Manteo", "item_comments": "PIC NOT CERTIFIED;FLIES;ST ORE RAGS IN SANI;C LEANING OF EQUIP...;FLOORS DIRTY ......LEAKING BEV BOX;", "activity_date": "09/10/2014", "county": "Dare", "facility_id": "028010868", "score": 94.5, "addr_line1": "817 Hwy 64 Manteo"}}

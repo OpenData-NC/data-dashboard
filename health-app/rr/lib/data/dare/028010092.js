@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Miller S Waterfront", "addr_city": "Nags Head", "item_comments": "DO NOT STORE TONGS ON LIP OF TRASH CAN.;", "activity_date": "06/27/2014", "county": "Dare", "facility_id": "028010092", "score": 99.5, "addr_line1": "6816 S Croatan Hwy"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fish Mongers", "addr_city": "Durham", "item_comments": "FISH MONGERS", "activity_date": "09/22/2014", "county": "Durham", "facility_id": "032010103", "score": 90.0, "addr_line1": "806 W Main Street"}}

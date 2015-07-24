@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Marilyns Deli", "addr_city": "Rodanthe", "item_comments": "HOT HOLD MUST BE 135;GENERAL CLEANING;PROPER LABELING;USE STEM TYPE THERM......;COLD HOLD MUST BE 41;", "activity_date": "05/22/2014", "county": "Dare", "facility_id": "028010260", "score": 90.5, "addr_line1": "Hwy 12"}}

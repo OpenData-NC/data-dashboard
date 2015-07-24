@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Michaelangelo's", "addr_city": "Jacksonville", "item_comments": "MICHAELANGELO\\'S", "activity_date": "08/21/2014", "county": "Onslow", "facility_id": "067010886", "score": 97.5, "addr_line1": "521 Yopp Road"}}

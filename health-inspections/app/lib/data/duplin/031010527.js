@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Leyla's Coffee Shop", "addr_city": "Wallace", "item_comments": "LEYLA\\'S COFFEE SHOP", "activity_date": "08/12/2014", "county": "Duplin", "facility_id": "031010527", "score": 94.5, "addr_line1": "1240 N. Teachey Rd"}}

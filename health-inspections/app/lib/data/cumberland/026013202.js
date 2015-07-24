@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chopstixs Asian Cuisine Restaurant", "addr_city": "Spring Lake", "item_comments": "CHOPSTIXS ASIAN CUISINE RESTAURANT", "activity_date": "08/28/2014", "county": "Cumberland", "facility_id": "026013202", "score": 91.0, "addr_line1": "414 B Bragg Blvd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Maximillians Grill and Bar", "addr_city": "Cary", "item_comments": "MAXIMILLIANS GRILL AND BAR", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092013590", "score": 93.0, "addr_line1": "8314 Chapel Hill Rd"}}

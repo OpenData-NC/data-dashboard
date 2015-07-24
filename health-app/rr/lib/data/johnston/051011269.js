@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Princeton Food Mart", "addr_city": "Princeton", "item_comments": "PRINCETON FOOD MART", "activity_date": "07/03/2014", "county": "Johnston", "facility_id": "051011269", "score": 96.5, "addr_line1": "106 Jones Blvd."}}

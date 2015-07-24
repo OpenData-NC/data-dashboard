@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Uncle Lims Kitchen", "addr_city": "Wilmington", "item_comments": "3-305.14", "activity_date": "05/22/2014", "county": "New Hanover", "facility_id": "065012259", "score": 95.5, "addr_line1": "3905 Independence Blv Unit F"}}

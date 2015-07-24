@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Camino Real", "addr_city": "Greensboro", "item_comments": "EL CAMINO REAL", "activity_date": "08/27/2014", "county": "Guilford", "facility_id": "041013372", "score": 96.5, "addr_line1": "4131   Spring Garden St"}}

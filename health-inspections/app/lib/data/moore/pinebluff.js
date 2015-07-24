@@ -1,1 +1,0 @@
-{"results": [["Bunker Jack's", "175 Persimmon Dr", "Pinebluff", "07/30/2014", 98.5, "063010976"], ["Nics Pic Kwik #6", "N Walnut St", "Pinebluff", "06/25/2014", 96.5, "063010295"], ["Bluff Golf Links The", "190 Persimmon Dr", "Pinebluff", "05/13/2014", 95.0, "063010810"], ["Kennys  Country Restaurant", "120 S Walnut St", "Pinebluff", "05/06/2014", 96.0, "063010051"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sushi Blues Cafe", "addr_city": "Raleigh", "item_comments": "SUSHI BLUES CAFE", "activity_date": "08/11/2014", "county": "Wake", "facility_id": "092013024", "score": 95.0, "addr_line1": "301 Glenwood Ave"}}

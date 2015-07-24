@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Captain Stanleys Seafood", "addr_city": "Raleigh", "item_comments": "CAPTAIN STANLEYS SEAFOOD", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092016111", "score": 97.5, "addr_line1": "333 S Wilmington St"}}

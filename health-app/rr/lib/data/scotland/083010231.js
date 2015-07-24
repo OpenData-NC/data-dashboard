@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nickys Stop-N-Shop", "addr_city": "Laurinburg", "item_comments": "PERSON IN CHARGE  NO FOOD SERVICE CERTIFICATION;", "activity_date": "07/23/2014", "county": "Scotland", "facility_id": "083010231", "score": 98.0, "addr_line1": "7900 Hasty Rd."}}

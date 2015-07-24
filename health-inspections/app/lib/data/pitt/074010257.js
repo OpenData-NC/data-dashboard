@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Captain Ds  3451", "addr_city": "Greenville", "item_comments": "CAPTAIN DS  3451", "activity_date": "09/24/2014", "county": "Pitt", "facility_id": "074010257", "score": 93.5, "addr_line1": "626 Memorial Drive"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell", "addr_city": "Durham", "item_comments": "TACO BELL", "activity_date": "09/04/2014", "county": "Durham", "facility_id": "032010744", "score": 99.5, "addr_line1": "2101 E Hwy 54"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sams Club Cafe", "addr_city": "Hendersonville", "item_comments": "SAMS CLUB CAFE", "activity_date": "09/22/2014", "county": "Henderson", "facility_id": "045010630", "score": 96.5, "addr_line1": "300 Highlands Square Drive"}}

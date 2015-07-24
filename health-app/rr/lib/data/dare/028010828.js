@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Beachside Bistro", "addr_city": "Kill Devil Hills", "item_comments": "EMPLOYEE DRINKS W/ LID N STRAW;CLEAN CONTAINERS AND SODA AREA;KEEP RAGS IN SANI BUCKET;FLIES;QUICK CHILL GRAVY;", "activity_date": "06/19/2014", "county": "Dare", "facility_id": "028010828", "score": 96.5, "addr_line1": "South Va Dare Tr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Circa 1922", "addr_city": "Wilmington", "item_comments": ";4-501.11", "activity_date": "06/09/2014", "county": "New Hanover", "facility_id": "065011043", "score": 98.5, "addr_line1": "8 N Front St"}}

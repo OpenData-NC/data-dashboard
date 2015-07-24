@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Meals on Wheels", "addr_city": "Clyde", "item_comments": "MEALS ON WHEELS", "activity_date": "09/18/2014", "county": "Haywood", "facility_id": "044010674", "score": 98.0, "addr_line1": "157 Paragon Parkway"}}

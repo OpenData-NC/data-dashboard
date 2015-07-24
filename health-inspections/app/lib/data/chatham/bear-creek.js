@@ -1,1 +1,0 @@
-{"results": [["Brewers Grill", "9944 Siler City Glendon Rd", "Bear Creek", "06/25/2014", 98.5, "019010111"], ["Crossroads Restaurant", "9931 Siler City Glendon Rd", "Bear Creek", "06/25/2014", 98.5, "019010145"], ["Chatham Central Culinary Arts", "14950 Hwy 902", "Bear Creek", "05/28/2014", 93.0, "019010270"]]}

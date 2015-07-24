@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Johnston County Country Club", "addr_city": "Smithfield", "item_comments": "JOHNSTON COUNTY COUNTRY CLUB", "activity_date": "07/29/2014", "county": "Johnston", "facility_id": "051011152", "score": 98.5, "addr_line1": "694 Country Club Rd."}}

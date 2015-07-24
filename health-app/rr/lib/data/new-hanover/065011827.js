@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Cerro Grande", "addr_city": "Wilmington", "item_comments": "6-301.14", "activity_date": "06/09/2014", "county": "New Hanover", "facility_id": "065011827", "score": 92.5, "addr_line1": "051 Military Cutoff Rd Ste 100"}}

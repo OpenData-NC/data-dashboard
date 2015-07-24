@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tazza Kitchen", "addr_city": "Raleigh", "item_comments": "TAZZA KITCHEN", "activity_date": "07/10/2014", "county": "Wake", "facility_id": "092016620", "score": 95.0, "addr_line1": "432 Woodburn  Rd"}}

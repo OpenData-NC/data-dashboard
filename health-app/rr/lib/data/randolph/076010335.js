@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds  19060", "addr_city": "Archdale", "item_comments": "MCDONALDS  19060", "activity_date": "09/09/2014", "county": "Randolph", "facility_id": "076010335", "score": 98.0, "addr_line1": "1057 N Main St"}}

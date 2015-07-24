@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Elevation Burger", "addr_city": "Raleigh", "item_comments": "ELEVATION BURGER", "activity_date": "09/03/2014", "county": "Wake", "facility_id": "092016482", "score": 96.0, "addr_line1": "8301 Brier Creek  Pky"}}

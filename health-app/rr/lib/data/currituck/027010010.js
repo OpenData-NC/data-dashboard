@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Get Go Food Mart", "addr_city": "Harbinger", "item_comments": "MANAGER ON DUTY NEEDS TO HAVE APPROVED FOOD SAFETY CERTIFICATION;STORE SINGLE SERVICE ITEMS OFF FLOOR IN BACK STORAGE AREA AND BESIDE ICE MACHINE;", "activity_date": "05/14/2014", "county": "Currituck", "facility_id": "027010010", "score": 97.5, "addr_line1": "8808 Caratoke Hwy"}}

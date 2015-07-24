@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Uncle Bill's Subs", "addr_city": "Selma", "item_comments": "UNCLE BILL\\'S SUBS", "activity_date": "08/05/2014", "county": "Johnston", "facility_id": "051010387", "score": 94.5, "addr_line1": "1425 South Pollock St"}}

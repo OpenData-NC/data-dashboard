@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Friendly Mart - 7", "addr_city": "Mt Olive", "item_comments": "FRIENDLY MART - 7", "activity_date": "08/28/2014", "county": "Wayne", "facility_id": "096010050", "score": 95.0, "addr_line1": "101 S Breazeale Ave"}}

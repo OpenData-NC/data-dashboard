@@ -1,1 +1,0 @@
-{"results": {"fac_name": "E-Mart", "addr_city": "Erwin", "item_comments": "E-MART", "activity_date": "09/10/2014", "county": "Harnett", "facility_id": "043010493", "score": 94.5, "addr_line1": "201 South 13th St"}}

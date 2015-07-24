@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kimoyo Japanese Restaurant", "addr_city": "Madison", "item_comments": "KIMOYO JAPANESE RESTAURANT", "activity_date": "09/10/2014", "county": "Rockingham", "facility_id": "079010713", "score": 91.0, "addr_line1": "112 New Market"}}

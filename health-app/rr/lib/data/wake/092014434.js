@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Applebees  #350", "addr_city": "Fuquay Varina", "item_comments": "APPLEBEES  #350", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092014434", "score": 91.5, "addr_line1": "1480 N Main St"}}

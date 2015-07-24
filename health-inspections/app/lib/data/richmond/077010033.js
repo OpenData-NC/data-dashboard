@@ -1,1 +1,0 @@
-{"results": {"fac_name": "K's Korner Stop #1", "addr_city": "Hamlet", "item_comments": "PROPERLY DATE MARK HOT DOGS ONCE PACKAGING IS OPENED. CAN HOLD HOT DOGS FOR A MAXIMUM OF 7 DAYS AT 41F OR BELOW.;", "activity_date": "08/12/2014", "county": "Richmond", "facility_id": "077010033", "score": 98.5, "addr_line1": "543 Hamlet Ave."}}

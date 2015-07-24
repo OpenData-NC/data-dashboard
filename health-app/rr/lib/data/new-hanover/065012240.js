@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cameron Art Museum", "addr_city": "Wilmington", "item_comments": ";;4-601.11", "activity_date": "06/05/2014", "county": "New Hanover", "facility_id": "065012240", "score": 94.0, "addr_line1": "3201 S 17th St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "J-L Headstart Food Service", "addr_city": "Smithfield", "item_comments": ";;;;;;;;;", "activity_date": "09/11/2014", "county": "Johnston", "facility_id": "051010074", "score": 100.0, "addr_line1": "1102 Massey Street"}}

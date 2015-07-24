@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Ii Buffet", "addr_city": "Waxhaw", "item_comments": "CHINA II BUFFET", "activity_date": "08/27/2014", "county": "Union", "facility_id": "090010678", "score": 93.0, "addr_line1": "1309 N. Broome Street"}}

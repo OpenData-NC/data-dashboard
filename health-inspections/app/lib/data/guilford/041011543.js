@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jays Deli", "addr_city": "Greensboro", "item_comments": "JAYS DELI", "activity_date": "09/12/2014", "county": "Guilford", "facility_id": "041011543", "score": 98.5, "addr_line1": "630 Friendly Center Rd"}}

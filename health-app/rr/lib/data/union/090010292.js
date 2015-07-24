@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys #41", "addr_city": "Marshville", "item_comments": "WENDYS #41", "activity_date": "08/21/2014", "county": "Union", "facility_id": "090010292", "score": 96.5, "addr_line1": "6807 E. Marshville Blvd."}}

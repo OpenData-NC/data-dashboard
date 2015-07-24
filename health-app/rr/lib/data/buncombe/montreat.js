@@ -1,1 +1,0 @@
-{"results": [["William Black Lodge", "329 N  Terrace", "Montreat", "09/23/2014", 97.5, "011010388"], ["Montreat Assembly Inn", "401 Assembly Dr", "Montreat", "07/16/2014", 98.5, "011010241"]]}

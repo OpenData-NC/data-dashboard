@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mario's Pizza", "addr_city": "High Point", "item_comments": "MARIO\\'S PIZZA", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041013918", "score": 97.0, "addr_line1": "2645 N. Main Street, Suite 102"}}

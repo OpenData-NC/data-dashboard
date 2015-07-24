@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Smokn Bbq Grill", "addr_city": "Kannapolis", "item_comments": "SMOKN BBQ GRILL", "activity_date": "09/11/2014", "county": "Rowan", "facility_id": "080010636", "score": 98.0, "addr_line1": "1608 N Main St"}}

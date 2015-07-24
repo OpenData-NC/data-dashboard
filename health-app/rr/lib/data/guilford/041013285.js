@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles", "addr_city": "Greensboro", "item_comments": "BOJANGLES", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041013285", "score": 98.0, "addr_line1": "300  Pisgah Church Road"}}

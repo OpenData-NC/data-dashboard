@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Art of Living Small Dining Hall", "addr_city": "Boone", "item_comments": "ART OF LIVING SMALL DINING HALL", "activity_date": "09/11/2014", "county": "Watauga", "facility_id": "095010634", "score": 93.0, "addr_line1": "980 Rock Cliff Rd"}}

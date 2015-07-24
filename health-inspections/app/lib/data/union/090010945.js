@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Olive Garden #1861", "addr_city": "Monroe", "item_comments": "OLIVE GARDEN #1861", "activity_date": "07/30/2014", "county": "Union", "facility_id": "090010945", "score": 97.0, "addr_line1": "2983 Monroe Way"}}

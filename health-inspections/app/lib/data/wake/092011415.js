@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Neomonde Deli", "addr_city": "Raleigh", "item_comments": "NEOMONDE DELI", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092011415", "score": 97.0, "addr_line1": "3817 Beryl Rd"}}

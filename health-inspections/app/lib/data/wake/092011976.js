@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Char Grill", "addr_city": "Raleigh", "item_comments": "CHAR GRILL", "activity_date": "07/10/2014", "county": "Wake", "facility_id": "092011976", "score": 98.5, "addr_line1": "9601 Strickland Rd"}}

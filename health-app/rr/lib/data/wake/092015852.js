@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bangkok Thai", "addr_city": "Raleigh", "item_comments": "BANGKOK THAI", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092015852", "score": 98.0, "addr_line1": "13200-131 New Falls of Neuse R"}}

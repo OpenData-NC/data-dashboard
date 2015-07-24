@@ -1,1 +1,0 @@
-{"results": {"fac_name": "New China Taste", "addr_city": "Charlotte", "item_comments": "NEW CHINA TASTE", "activity_date": "09/19/2014", "county": "Mecklenburg", "facility_id": "060017254", "score": 98.0, "addr_line1": "8112 Idlewild Rd"}}

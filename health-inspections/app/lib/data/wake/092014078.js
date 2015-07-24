@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chuck E Cheese's", "addr_city": "Raleigh", "item_comments": "CHUCK E CHEESE\\'S", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092014078", "score": 97.5, "addr_line1": "3501-131 Capital Blvd"}}

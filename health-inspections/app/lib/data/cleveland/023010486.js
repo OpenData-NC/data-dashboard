@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Yamato Express Ii", "addr_city": "Kings Mountain", "item_comments": "YAMATO EXPRESS II", "activity_date": "08/18/2014", "county": "Cleveland", "facility_id": "023010486", "score": 97.5, "addr_line1": "1035 Shelby Road"}}

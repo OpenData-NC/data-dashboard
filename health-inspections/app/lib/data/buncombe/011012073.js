@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hampton Inn", "addr_city": "Asheville", "item_comments": ";;;;;;;;;;;", "activity_date": "08/18/2014", "county": "Buncombe", "facility_id": "011012073", "score": 100.0, "addr_line1": "204 Tunnel  Rd"}}

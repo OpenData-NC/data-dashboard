@@ -1,1 +1,0 @@
-{"results": {"fac_name": "I Got Your Crabs", "addr_city": "Kitty Hawk", "item_comments": "CLEAN FLOORS;", "activity_date": "06/20/2014", "county": "Dare", "facility_id": "028010833", "score": 99.5, "addr_line1": "3809 Suite a Croatan Hwy"}}

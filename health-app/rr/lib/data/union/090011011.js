@@ -1,1 +1,0 @@
-{"results": {"fac_name": "La Costenita", "addr_city": "Monroe", "item_comments": "LA COSTENITA", "activity_date": "07/25/2014", "county": "Union", "facility_id": "090011011", "score": 95.5, "addr_line1": "402 a Patton Avenue"}}

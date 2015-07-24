@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Power Up Cafe", "addr_city": "Morrisville", "item_comments": "POWER UP CAFE", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092015292", "score": 98.5, "addr_line1": "1017 Think Pl"}}

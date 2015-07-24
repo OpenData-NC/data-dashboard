@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes", "addr_city": "Winston Salem", "item_comments": "JERSEY MIKES", "activity_date": "09/02/2014", "county": "Forsyth", "facility_id": "034011245", "score": 91.5, "addr_line1": "5940 N University"}}

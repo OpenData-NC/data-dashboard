@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Which Wich Superior Sandwiches", "addr_city": "Winston Salem", "item_comments": "WHICH WICH SUPERIOR SANDWICHES", "activity_date": "09/04/2014", "county": "Forsyth", "facility_id": "034012330", "score": 100.0, "addr_line1": "1969 North Peacehaven Rd"}}

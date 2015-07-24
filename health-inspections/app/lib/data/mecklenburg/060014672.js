@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Applebee`s #44", "addr_city": "Charlotte", "item_comments": "APPLEBEE`S #44", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060014672", "score": 95.0, "addr_line1": "8710 S Tryon St"}}

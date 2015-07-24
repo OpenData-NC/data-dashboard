@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wal-Mart Deli # 5489", "addr_city": "Pembroke", "item_comments": "6 501.111 CONTROLLING PESTS   PFFLIES NOT PERMITTED IN ESTABLISHMENT.;", "activity_date": "07/28/2014", "county": "Robeson", "facility_id": "078010792", "score": 99.0, "addr_line1": "930 711 East"}}

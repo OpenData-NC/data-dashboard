@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys #6211", "addr_city": "Benson", "item_comments": "WENDYS #6211", "activity_date": "07/22/2014", "county": "Johnston", "facility_id": "051011275", "score": 98.0, "addr_line1": "12300 Nc 210"}}

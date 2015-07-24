@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Top China", "addr_city": "Manteo", "item_comments": "KEEP COOKED FOOD SEOERRATE FROM RAW;FOOD CONTAINERS ,RACKS,GASKETS  NOT APPROVED;LABELING WITH DATES AND ID;", "activity_date": "07/10/2014", "county": "Dare", "facility_id": "028010474", "score": 92.0, "addr_line1": "224 Hwy 64/264"}}

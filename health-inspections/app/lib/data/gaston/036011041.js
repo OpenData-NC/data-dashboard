@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Handy Pantry #4", "addr_city": "Dallas", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C  CERTIFIED FOOD PROTECTION MANAGER NEEDED.;", "activity_date": "07/28/2014", "county": "Gaston", "facility_id": "036011041", "score": 98.0, "addr_line1": "1419 Dallas Cherryville Hwy"}}

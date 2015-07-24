@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Crosswinds Cafe", "addr_city": "Raleigh", "item_comments": "CROSSWINDS CAFE", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092014049", "score": 94.5, "addr_line1": "17505 International Dr"}}

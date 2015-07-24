@@ -1,1 +1,0 @@
-{"results": [["Landis Dairy Bar", "309 S Main St", "Landis", "09/19/2014", 95.0, "080010766"], ["Kings Quick Stop 1", "100 W Ryder Ave", "Landis", "08/06/2014", 98.0, "080010646"], ["Michaels Bbq & Grill", "1013 S Main St", "Landis", "07/10/2014", 91.5, "080010860"]]}

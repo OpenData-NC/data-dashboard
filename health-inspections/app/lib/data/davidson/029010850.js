@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Guadalajara Grill", "addr_city": "Lexingt0n", "item_comments": "GUADALAJARA GRILL", "activity_date": "09/12/2014", "county": "Davidson", "facility_id": "029010850", "score": 93.5, "addr_line1": "217 Us Hwy 64 W Suite 4"}}

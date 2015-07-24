@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Yummi Japan", "addr_city": "Garner", "item_comments": "YUMMI JAPAN", "activity_date": "08/07/2014", "county": "Johnston", "facility_id": "051010964", "score": 98.5, "addr_line1": "87 Glen Road #85"}}

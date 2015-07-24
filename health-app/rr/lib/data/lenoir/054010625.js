@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Baron and the Beef", "addr_city": "Kinston", "item_comments": "BARON AND THE BEEF", "activity_date": "07/18/2014", "county": "Lenoir", "facility_id": "054010625", "score": 96.5, "addr_line1": "1631 Hwy 70 E"}}

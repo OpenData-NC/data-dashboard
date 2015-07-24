@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pender Memorial Cafeteria", "addr_city": "Burgaw", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY;", "activity_date": "08/18/2014", "county": "Pender", "facility_id": "071010203", "score": 99.0, "addr_line1": "507 East Fremont St"}}

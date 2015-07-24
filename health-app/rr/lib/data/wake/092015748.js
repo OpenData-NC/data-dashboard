@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sushi Iwa Apex", "addr_city": "Apex", "item_comments": "SUSHI IWA APEX", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092015748", "score": 97.5, "addr_line1": "2026 Creekside Landing Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dave's Gas & Grill", "addr_city": "Angier", "item_comments": "DAVE\\'S GAS & GRILL", "activity_date": "07/15/2014", "county": "Johnston", "facility_id": "051010788", "score": 97.5, "addr_line1": "14791 Hwy 210"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Q Tavern", "addr_city": "Charlotte", "item_comments": "Q TAVERN", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060017029", "score": 95.5, "addr_line1": "201 South  McDowell Street"}}

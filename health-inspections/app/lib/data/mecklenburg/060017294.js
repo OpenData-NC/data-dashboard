@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Doubletree Restaurant/Charlotte Airport", "addr_city": "Charlotte", "item_comments": "DOUBLETREE RESTAURANT/CHARLOTTE AIRPORT", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060017294", "score": 93.0, "addr_line1": "2600 Yorkmont Rd"}}

@@ -1,1 +1,0 @@
-{"results": [["The Corner Sh0p Inc", "1153 Nc 561 West", "Aulander", "08/20/2014", 100.0, "046010191"], ["Ryan's Cafe", "108 East Main Street", "Aulander", "05/28/2014", 98.0, "008010134"]]}

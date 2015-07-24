@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Freshway", "addr_city": "Rocky Point", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER;.4 202.16 NONFOOD CONTACT SURFACES,  PIZZA OVEN;", "activity_date": "07/07/2014", "county": "Pender", "facility_id": "071010351", "score": 97.0, "addr_line1": "8117 Hwy 117 South"}}

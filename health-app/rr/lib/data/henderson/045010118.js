@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys  #43", "addr_city": "Hendersonville", "item_comments": "WENDYS  #43", "activity_date": "09/26/2014", "county": "Henderson", "facility_id": "045010118", "score": 96.5, "addr_line1": "607 Spartanburg Hwy"}}

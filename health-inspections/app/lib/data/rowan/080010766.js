@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Landis Dairy Bar", "addr_city": "Landis", "item_comments": "LANDIS DAIRY BAR", "activity_date": "09/19/2014", "county": "Rowan", "facility_id": "080010766", "score": 95.0, "addr_line1": "309 S Main St"}}

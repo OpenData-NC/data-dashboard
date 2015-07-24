@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Desoto Lounge", "addr_city": "Asheville", "item_comments": ";;;;;;;;;;7-102.11; Priority Foundation; Label spray bottles as to their contents.;;;;;;", "activity_date": "10/13/2014", "county": "Buncombe", "facility_id": "011011935", "score": 99.0, "addr_line1": "504  Haywood  Rd"}}

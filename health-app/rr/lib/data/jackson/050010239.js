@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lee Garden", "addr_city": "Whittier", "item_comments": "PERSON IN CHARGE DOES NOT HAVE AN APPROVED FOOD SAFETY COURSE,;MAKE SURE TO HAVE A TRASH RECEPTACLE AT EACH HANDWASH SINK.;", "activity_date": "06/24/2014", "county": "Jackson", "facility_id": "050010239", "score": 98.0, "addr_line1": "16 Cherokee Crossing"}}

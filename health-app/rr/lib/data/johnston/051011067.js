@@ -1,1 +1,0 @@
-{"results": {"fac_name": "3 Olives Pizza and Deli", "addr_city": "Clayton", "item_comments": "3 OLIVES PIZZA AND DELI", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051011067", "score": 99.5, "addr_line1": "1225 Amelia Church Rd."}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Grannys Hot Dogs", "addr_city": "Clayton", "item_comments": "GRANNYS HOT DOGS", "activity_date": "07/02/2014", "county": "Johnston", "facility_id": "051010992", "score": 97.5, "addr_line1": "11924 Us Hwy 70 W"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chilis #1534", "addr_city": "Morrisville", "item_comments": "CHILIS #1534", "activity_date": "08/06/2014", "county": "Wake", "facility_id": "092016307", "score": 96.5, "addr_line1": "1201 Marketn Center Dr"}}

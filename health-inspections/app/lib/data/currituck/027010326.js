@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Corolla Cantina", "addr_city": "Corolla,nc", "item_comments": "STORE DISH RACKS OFF FLOOR.;ALL KITCHEN HELP NEED TO WEAR HAIR RESTRAINTS.;", "activity_date": "08/20/2014", "county": "Currituck", "facility_id": "027010326", "score": 99.0, "addr_line1": "1159c  Austin Street Unit B &"}}

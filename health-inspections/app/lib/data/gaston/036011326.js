@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Spindle City Cafe", "addr_city": "Gastonia", "item_comments": "4 302.12 FOOD TEMPERATURE MEASURING DEVICES   PF NEEDLE PROBE THERMOMETER NEEDED.;", "activity_date": "08/13/2014", "county": "Gaston", "facility_id": "036011326", "score": 99.5, "addr_line1": "207 West Main Ave."}}

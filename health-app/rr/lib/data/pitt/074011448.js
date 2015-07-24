@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Road Runner Cafe", "addr_city": "Farmville", "item_comments": ";;;;;;;;;;", "activity_date": "09/25/2014", "county": "Pitt", "facility_id": "074011448", "score": 100.0, "addr_line1": "3569 S. Field St"}}

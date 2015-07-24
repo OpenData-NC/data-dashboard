@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Open Water Grill", "addr_city": "Avon", "item_comments": "NO BARE HAND CONTACT W/ READY TOEAT;BULB SHIELDS/HOT WATER IN WOMENS....;CLEANING OF EQUIP....;NO FOIL ON RACKS........MAKE UNIT DIS REPAIR;STORE EGGS ON BOTTOM;FLIES;", "activity_date": "06/18/2014", "county": "Dare", "facility_id": "028010827", "score": 94.5, "addr_line1": "39450 Hwy 12"}}

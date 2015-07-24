@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Oak City Meatball Shoppe", "addr_city": "Raleigh", "item_comments": "OAK CITY MEATBALL SHOPPE", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092016588", "score": 97.0, "addr_line1": "180 E Davie St"}}

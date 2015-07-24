@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Duneburger", "addr_city": "Nags Head", "item_comments": "NEED TRAINING FOR PERSON IN CHARGE;DONT THAW AT ROOM TEMP;", "activity_date": "06/25/2014", "county": "Dare", "facility_id": "028010864", "score": 97.5, "addr_line1": "7304 S Va Dare Tr"}}

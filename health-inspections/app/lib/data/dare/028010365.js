@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Poor Richards", "addr_city": "Manteo", "item_comments": "MANAGER NEEDS SS;HATS;", "activity_date": "06/23/2014", "county": "Dare", "facility_id": "028010365", "score": 97.5, "addr_line1": "303 Queen Eliz St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Biscuit Stop", "addr_city": "Smithfield", "item_comments": "BISCUIT STOP", "activity_date": "08/28/2014", "county": "Johnston", "facility_id": "051010009", "score": 96.5, "addr_line1": "820 Brightleaf Blvd"}}

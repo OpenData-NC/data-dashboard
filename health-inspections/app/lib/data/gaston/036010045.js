@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Family Carry Out", "addr_city": "Cherryville", "item_comments": "FAMILY CARRY OUT", "activity_date": "09/09/2014", "county": "Gaston", "facility_id": "036010045", "score": 91.5, "addr_line1": "801 W Church Street"}}

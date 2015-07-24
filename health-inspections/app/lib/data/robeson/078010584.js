@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hong Kong", "addr_city": "Red Springs", "item_comments": "HONG KONG", "activity_date": "09/22/2014", "county": "Robeson", "facility_id": "078010584", "score": 93.5, "addr_line1": "702e East 4th Avenue"}}

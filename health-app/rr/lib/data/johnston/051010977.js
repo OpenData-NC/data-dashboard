@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cook Out #51", "addr_city": "Garner", "item_comments": "COOK OUT #51", "activity_date": "08/28/2014", "county": "Johnston", "facility_id": "051010977", "score": 98.5, "addr_line1": "102 Bratton Dr"}}

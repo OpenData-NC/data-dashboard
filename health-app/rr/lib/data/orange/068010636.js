@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Hillsborough", "item_comments": "SUBWAY", "activity_date": "09/17/2014", "county": "Orange", "facility_id": "068010636", "score": 98.0, "addr_line1": "525 Hampton Blvd.  Suite 5"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Texas Roadhouse - Matthews", "addr_city": "Matthews", "item_comments": "TEXAS ROADHOUSE - MATTHEWS", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060016613", "score": 96.5, "addr_line1": "10450 E Independence Blvd"}}

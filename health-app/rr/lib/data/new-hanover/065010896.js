@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Cerro Grande", "addr_city": "Wilmington", "item_comments": ";7-102.11", "activity_date": "05/15/2014", "county": "New Hanover", "facility_id": "065010896", "score": 97.0, "addr_line1": "341 S College Rd 60"}}

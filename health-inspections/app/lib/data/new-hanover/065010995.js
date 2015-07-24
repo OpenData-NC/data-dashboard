@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dock Street Oyster Bar", "addr_city": "Wilmington", "item_comments": "3-202.18", "activity_date": "05/30/2014", "county": "New Hanover", "facility_id": "065010995", "score": 96.0, "addr_line1": "12 Dock St"}}

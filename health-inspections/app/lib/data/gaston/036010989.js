@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Waffle House  1632", "addr_city": "Dallas", "item_comments": "WAFFLE HOUSE  1632", "activity_date": "09/04/2014", "county": "Gaston", "facility_id": "036010989", "score": 97.0, "addr_line1": "1100 Dallas Cherryville Hwy"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sourwood Inn", "addr_city": "Asheville", "item_comments": ";;;;;;;;;;;;;;4-205.10 Refrigerator downstairs, blender and food processor are not NSF approved.;", "activity_date": "09/26/2014", "county": "Buncombe", "facility_id": "011010901", "score": 99.0, "addr_line1": "810 Elk Mountain Scenic Hwy"}}

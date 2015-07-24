@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Stag 'N Doe", "addr_city": "China Grove", "item_comments": "STAG \\'N DOE", "activity_date": "09/17/2014", "county": "Rowan", "facility_id": "080010113", "score": 96.5, "addr_line1": "1770 Hwy 29 South"}}

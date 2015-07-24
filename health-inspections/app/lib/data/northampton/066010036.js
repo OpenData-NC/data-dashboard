@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees  1646", "addr_city": "Gaston", "item_comments": "HARDEES  1646", "activity_date": "09/08/2014", "county": "Northampton", "facility_id": "066010036", "score": 96.5, "addr_line1": "100 Lawrenceville Rd"}}

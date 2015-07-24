@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Barnes Street Shell", "addr_city": "Reidsville", "item_comments": "BARNES STREET SHELL", "activity_date": "09/15/2014", "county": "Rockingham", "facility_id": "079010312", "score": 94.0, "addr_line1": "2201 Barnes Street"}}

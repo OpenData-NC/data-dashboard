@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Garland", "addr_city": "Raleigh", "item_comments": "GARLAND", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092016414", "score": 96.5, "addr_line1": "14 W Martin St"}}

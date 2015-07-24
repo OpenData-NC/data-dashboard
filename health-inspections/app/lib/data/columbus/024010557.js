@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Southern Kitchen", "addr_city": "Whiteville", "item_comments": "SOUTHERN KITCHEN", "activity_date": "09/23/2014", "county": "Columbus", "facility_id": "024010557", "score": 98.5, "addr_line1": "606 S. Madison St"}}

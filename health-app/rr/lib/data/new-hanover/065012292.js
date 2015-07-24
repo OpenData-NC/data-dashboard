@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Katys Great Eats", "addr_city": "Wilmington", "item_comments": ";4-601.11 Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils (B) and (C) CLEAN GRILL, REFRIGERATION UNITS;3-301.11", "activity_date": "05/29/2014", "county": "New Hanover", "facility_id": "065012292", "score": 97.0, "addr_line1": "1054 S College Road"}}

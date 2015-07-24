@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Costco Cafe", "addr_city": "Greensboro", "item_comments": "COSTCO CAFE", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041012461", "score": 97.5, "addr_line1": "4201 W Wendover Ave"}}

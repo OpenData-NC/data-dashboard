@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Clubhouse @ Albemarle Plantation", "addr_city": "Hertford", "item_comments": "CLEAN UNDER RACKS IN WALKIN COOLER;KEEP WET WIPING CLOTHES IN A BUCKET OF SANITIZER WHEN NOT IN USE;", "activity_date": "06/19/2014", "county": "Perquimans", "facility_id": "072010080", "score": 99.5, "addr_line1": "371 Albemarle Blvd"}}

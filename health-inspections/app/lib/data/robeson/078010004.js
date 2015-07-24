@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wow Cafe (Uncp)", "addr_city": "Pembroke", "item_comments": "WOW CAFE (UNCP)", "activity_date": "09/11/2014", "county": "Robeson", "facility_id": "078010004", "score": 97.5, "addr_line1": "Uncp  One University Drive"}}

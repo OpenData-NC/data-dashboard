@@ -1,1 +1,0 @@
-{"results": [["Mount View Bistro", "Fontana Village", "Fontana Dam", "06/23/2014", 98.0, "038010032"], ["Village Cafe", "Fontana Village", "Fontana Dam", "06/23/2014", 97.0, "038010034"], ["Hellbender Pitstop", "11597 Fontana Rd", "Fontana Dam", "06/23/2014", 98.5, "038010090"], ["Stone Creek Grill", "Hwy 28 N0rth", "Fontana Dam", "06/23/2014", 99.0, "038010094"]]}

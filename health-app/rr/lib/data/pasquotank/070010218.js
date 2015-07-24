@@ -1,1 +1,0 @@
-{"results": {"fac_name": "La Tiendita", "addr_city": "Elizabeth City", "item_comments": "LIGHT SHIELD MISSING IN COOLER.;FLOOR TILES DAMAGED/MISSING   REPLACE/REPAIR. FLOOR IN SHED DAMAGED.;PURCHASE TEST STRIPS;", "activity_date": "06/09/2014", "county": "Pasquotank", "facility_id": "070010218", "score": 97.5, "addr_line1": "432 S Hughes Blvd"}}

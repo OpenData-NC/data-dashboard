@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks Coffee 11189", "addr_city": "Raleigh", "item_comments": "STARBUCKS COFFEE 11189", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092014701", "score": 97.5, "addr_line1": "3800 Lake Boone Trail"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ming Moon", "addr_city": "Four Oaks", "item_comments": "MING MOON", "activity_date": "07/14/2014", "county": "Johnston", "facility_id": "051010624", "score": 99.0, "addr_line1": "5841 Hwy 301 South"}}

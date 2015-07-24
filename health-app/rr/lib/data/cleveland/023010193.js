@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees 1500279 Km", "addr_city": "Kings Mtn", "item_comments": "HARDEES 1500279 KM", "activity_date": "09/08/2014", "county": "Cleveland", "facility_id": "023010193", "score": 98.0, "addr_line1": "509 E King St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mi Barrio", "addr_city": "Durham", "item_comments": "MI BARRIO", "activity_date": "09/02/2014", "county": "Durham", "facility_id": "032011137", "score": 92.5, "addr_line1": "5023 Wake Forest Hwy"}}

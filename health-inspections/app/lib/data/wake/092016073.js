@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Great American Grill", "addr_city": "Cary", "item_comments": "THE GREAT AMERICAN GRILL", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092016073", "score": 97.0, "addr_line1": "131 Columbus Ave"}}

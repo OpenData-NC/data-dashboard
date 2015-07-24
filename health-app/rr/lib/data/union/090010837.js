@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway/Kangaroo Express #3986", "addr_city": "Monroe", "item_comments": "SUBWAY/KANGAROO EXPRESS #3986", "activity_date": "07/30/2014", "county": "Union", "facility_id": "090010837", "score": 96.0, "addr_line1": "2226 Lancaster Highway"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Comfort Suites", "addr_city": "Salisbury", "item_comments": "COMFORT SUITES", "activity_date": "09/19/2014", "county": "Rowan", "facility_id": "080010425", "score": 98.0, "addr_line1": "1040 E Innes St"}}

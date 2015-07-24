@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Diamond Restaurant", "addr_city": "Charlotte", "item_comments": "DIAMOND RESTAURANT", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060016966", "score": 95.5, "addr_line1": "1901 Commonwealth Ave"}}

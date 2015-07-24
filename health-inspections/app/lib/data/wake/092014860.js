@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes #3042", "addr_city": "Raleigh", "item_comments": "JERSEY MIKES #3042", "activity_date": "07/02/2014", "county": "Wake", "facility_id": "092014860", "score": 90.0, "addr_line1": "7949 Fayetteville Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brightmore", "addr_city": "Wilmington", "item_comments": ";;;;;;;3-501.15", "activity_date": "05/15/2014", "county": "New Hanover", "facility_id": "065010799", "score": 98.0, "addr_line1": "2324 41st St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mulligan's at Fox Den Country Club", "addr_city": "Statesville", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C   NO CERTIFIED PERSON IN CHARGE AT TIME OF INSPECTON;", "activity_date": "07/17/2014", "county": "Iredell", "facility_id": "049010987", "score": 98.0, "addr_line1": "175 Clubhouse Drive"}}

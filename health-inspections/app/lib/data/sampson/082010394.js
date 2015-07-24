@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sampson Community College Cafeteria", "addr_city": "Clinton", "item_comments": "SAMPSON COMMUNITY COLLEGE CAFETERIA", "activity_date": "09/04/2014", "county": "Sampson", "facility_id": "082010394", "score": 94.5, "addr_line1": "1801 Sunset Ave."}}

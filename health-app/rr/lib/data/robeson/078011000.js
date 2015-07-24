@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Denise's Culinary Creations Llc", "addr_city": "Lumberton", "item_comments": "4 602.13 NONFOOD CONTACT SURFACES   C CLEAN CASES.;", "activity_date": "06/06/2014", "county": "Robeson", "facility_id": "078011000", "score": 99.0, "addr_line1": "510 N Elm Street"}}

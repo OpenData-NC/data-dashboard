@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Little Fugi Grill", "addr_city": "Laurinburg", "item_comments": "PERSON IN CHARGE HAS NO FOOD SERVICE CERTIFICATION;DRAIN PLUG IS NEEDED IN GARBAGE DUMPSTER;", "activity_date": "05/07/2014", "county": "Scotland", "facility_id": "083010217", "score": 97.5, "addr_line1": "894 Hwy 401 South Bypass"}}

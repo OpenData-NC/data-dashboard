@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jonathan Creek Cafe'", "addr_city": "Waynesville", "item_comments": "JONATHAN CREEK CAFE\\'", "activity_date": "09/19/2014", "county": "Haywood", "facility_id": "044010283", "score": 90.0, "addr_line1": "3796 Jonathan Creek Road"}}

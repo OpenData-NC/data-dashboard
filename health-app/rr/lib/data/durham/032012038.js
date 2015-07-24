@@ -1,1 +1,0 @@
-{"results": {"fac_name": "United Therapeutics", "addr_city": "Research Triangle Park", "item_comments": "UNITED THERAPEUTICS", "activity_date": "09/18/2014", "county": "Durham", "facility_id": "032012038", "score": 99.0, "addr_line1": "55 Tw Alexander Drive"}}

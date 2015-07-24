@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Noodles and Company #857", "addr_city": "Raleigh", "item_comments": "NOODLES AND COMPANY #857", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092015805", "score": 95.5, "addr_line1": "8411 Brier Creek Pky"}}

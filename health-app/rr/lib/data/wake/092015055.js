@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quiznos Sub", "addr_city": "Raleigh", "item_comments": "QUIZNOS SUB", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092015055", "score": 95.5, "addr_line1": "1440 Garner Station Blvd"}}

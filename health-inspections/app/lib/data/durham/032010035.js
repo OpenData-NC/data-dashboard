@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles #9", "addr_city": "Durham", "item_comments": "BOJANGLES #9", "activity_date": "09/08/2014", "county": "Durham", "facility_id": "032010035", "score": 98.5, "addr_line1": "4150 Garrett Road"}}

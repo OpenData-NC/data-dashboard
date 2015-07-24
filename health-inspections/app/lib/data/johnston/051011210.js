@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Popeyes Gas and Grill", "addr_city": "Selma", "item_comments": "POPEYES GAS AND GRILL", "activity_date": "08/29/2014", "county": "Johnston", "facility_id": "051011210", "score": 93.0, "addr_line1": "6425 Hwy 96 North"}}

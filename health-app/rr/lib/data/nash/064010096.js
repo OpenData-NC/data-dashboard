@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Montagues Deli", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT IN COMPLIANCE  clean iced tea nozzles.;NOT APPLICABLE;", "activity_date": "08/27/2014", "county": "Nash", "facility_id": "064010096", "score": 98.5, "addr_line1": "2460 Curtis Ellis Deive"}}

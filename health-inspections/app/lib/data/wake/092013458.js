@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds #26919", "addr_city": "Raleigh", "item_comments": "MCDONALDS #26919", "activity_date": "08/19/2014", "county": "Wake", "facility_id": "092013458", "score": 97.0, "addr_line1": "10100 Leesville Rd"}}

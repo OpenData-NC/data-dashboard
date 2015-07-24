@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Boylan Bridge Brew Pub", "addr_city": "Raleigh", "item_comments": "BOYLAN BRIDGE BREW PUB", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092015340", "score": 91.0, "addr_line1": "201 South Boylan Ave"}}

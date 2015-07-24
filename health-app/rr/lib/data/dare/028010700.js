@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks", "addr_city": "S0uthern Sh0res", "item_comments": "REACHIN COOLER IN BACK HAD SPILLED MILK IN BOTTOM. CLEAN OUT.;", "activity_date": "06/27/2014", "county": "Dare", "facility_id": "028010700", "score": 100.0, "addr_line1": "5597 a N0rth Cr0atan Hwy"}}

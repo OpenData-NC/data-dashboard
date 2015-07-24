@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Heritage Food and Drink", "addr_city": "Waxhaw", "item_comments": "HERITAGE FOOD AND DRINK", "activity_date": "08/21/2014", "county": "Union", "facility_id": "090011071", "score": 95.5, "addr_line1": "201 W. South Main Street"}}

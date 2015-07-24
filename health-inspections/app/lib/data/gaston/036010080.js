@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonald Restaurant (b.c.)", "addr_city": "Bessemer City", "item_comments": "MCDONALD\\'S RESTAURANT (B.C.)", "activity_date": "09/10/2014", "county": "Gaston", "facility_id": "036010080", "score": 96.5, "addr_line1": "615 Gastonia Hwy"}}

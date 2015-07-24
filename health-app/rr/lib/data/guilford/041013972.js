@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ro-Rees Catering Restaurant", "addr_city": "Greensboro", "item_comments": "RO-REES CATERING RESTAURANT", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041013972", "score": 95.5, "addr_line1": "2316 Randlemand Rd"}}

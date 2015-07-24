@@ -1,1 +1,0 @@
-{"results": {"fac_name": "J and S New York Pizza", "addr_city": "Fuquay Varina", "item_comments": "J AND S NEW YORK PIZZA", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092014991", "score": 93.0, "addr_line1": "500 E Broad St"}}

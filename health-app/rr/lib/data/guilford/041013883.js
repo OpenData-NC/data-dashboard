@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pizza Vino Ii", "addr_city": "High Point", "item_comments": "PIZZA VINO II", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041013883", "score": 91.0, "addr_line1": "274 Eastchester Drive #118,119"}}

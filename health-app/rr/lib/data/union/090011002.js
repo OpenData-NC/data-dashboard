@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Monroe Country Club Snack Bar", "addr_city": "Monroe", "item_comments": ";;", "activity_date": "09/30/2014", "county": "Union", "facility_id": "090011002", "score": 0.0, "addr_line1": "1680 Pageland Hwy."}}

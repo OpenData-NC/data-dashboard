@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sonic Drive In", "addr_city": "Elizabeth City", "item_comments": "PLUG NEEDED IN CARDBOARD DUMPSTER.;ITEMS STACKED WET   ALLOW TO AIR DRY BEFORE NESTING;", "activity_date": "06/23/2014", "county": "Pasquotank", "facility_id": "070010331", "score": 99.5, "addr_line1": "709 W Ehringhaus Street"}}

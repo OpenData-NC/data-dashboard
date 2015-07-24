@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lucky Chicken Ii", "addr_city": "Cary", "item_comments": "LUCKY CHICKEN II", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092016722", "score": 100.0, "addr_line1": "1851 N. Harrison Avenue"}}

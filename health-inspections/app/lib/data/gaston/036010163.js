@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tony's Ice Cream", "addr_city": "Gastonia", "item_comments": "TONY\\'S ICE CREAM", "activity_date": "09/11/2014", "county": "Gaston", "facility_id": "036010163", "score": 98.5, "addr_line1": "604 E Franklin Blvd"}}

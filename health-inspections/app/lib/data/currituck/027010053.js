@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tomato Patch Pizzeria", "addr_city": "Corolla", "item_comments": "PERSON IN CHARGE NOT CERTIFIED WITH A NC APPROVED FOOD SAFETY COURSE.;ALL EMPLOYEES WORKING IN KITCHEN MUST WEAR HAIR RESTRAINTS.;", "activity_date": "07/17/2014", "county": "Currituck", "facility_id": "027010053", "score": 97.5, "addr_line1": "803 Albecore Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Grifol's", "addr_city": "Durham", "item_comments": "GRIFOL\\'S", "activity_date": "09/11/2014", "county": "Durham", "facility_id": "032012312", "score": 100.0, "addr_line1": "4101 79 Tw Alexander Drive"}}

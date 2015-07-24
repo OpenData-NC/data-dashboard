@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Oak", "addr_city": "Raleigh", "item_comments": "THE OAK", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092016669", "score": 90.0, "addr_line1": "4035 Lake Boone  Trl"}}

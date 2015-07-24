@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Klondike Poolside", "addr_city": "Wingate", "item_comments": "THE KLONDIKE POOLSIDE", "activity_date": "09/04/2014", "county": "Union", "facility_id": "090010847", "score": 0.0, "addr_line1": "1 Jefferson Clubhouse"}}

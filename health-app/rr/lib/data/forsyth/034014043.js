@@ -1,1 +1,0 @@
-{"results": {"fac_name": "East Coast Wings and Grill", "addr_city": "Kernersville", "item_comments": "EAST COAST WINGS AND GRILL", "activity_date": "09/16/2014", "county": "Forsyth", "facility_id": "034014043", "score": 95.5, "addr_line1": "800 J North Main Street"}}

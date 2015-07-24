@@ -1,1 +1,0 @@
-{"results": {"fac_name": "La Hacienda Mexican Restaurant", "addr_city": "Greensboro", "item_comments": "3 301.11 PREVENTING CONTAMINATION FROM HANDS   P,PF, NO BARE HAND CONTACT WITH READY TO EAT FOOD, TACO MAKING WITH OUT GLOVES;", "activity_date": "07/14/2014", "county": "Guilford", "facility_id": "041012735", "score": 98.5, "addr_line1": "1218 E Bridford Pkwy"}}

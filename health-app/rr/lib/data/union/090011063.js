@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Einstein Bros. Bagels", "addr_city": "Wingate", "item_comments": "EINSTEIN BROS. BAGELS", "activity_date": "09/04/2014", "county": "Union", "facility_id": "090011063", "score": 99.5, "addr_line1": "110 Church Street"}}

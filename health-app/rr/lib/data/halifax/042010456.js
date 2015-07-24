@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Campus Cafe", "addr_city": "Weldon", "item_comments": "CAMPUS CAFE", "activity_date": "09/17/2014", "county": "Halifax", "facility_id": "042010456", "score": 97.5, "addr_line1": "200 College Drive"}}

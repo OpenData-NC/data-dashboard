@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Caswell Pines Golf Club", "addr_city": "Yanceyville", "item_comments": "NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;NOT OBSERVED;", "activity_date": "06/19/2014", "county": "Caswell", "facility_id": "017010025", "score": 98.0, "addr_line1": "County Home Rd"}}

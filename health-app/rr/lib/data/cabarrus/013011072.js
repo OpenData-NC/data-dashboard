@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Andele Mexican Restaurant", "addr_city": "Concord", "item_comments": ";FOOD DEBRIS,DRY GOOD STORAGE SHELF IN KITCHEN NEAR END OF COOK LINE AL;;;;;;", "activity_date": "08/19/2014", "county": "Cabarrus", "facility_id": "013011072", "score": 98.5, "addr_line1": "1096 Concord Parkway North"}}

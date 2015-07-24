@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks Coffee #8373", "addr_city": "Raleigh", "item_comments": "STARBUCKS COFFEE #8373", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092013208", "score": 96.0, "addr_line1": "906 Peace St"}}

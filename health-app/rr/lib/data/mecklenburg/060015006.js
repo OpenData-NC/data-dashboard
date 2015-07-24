@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nakato Japanese Steakhouse", "addr_city": "Charlotte", "item_comments": "NAKATO JAPANESE STEAKHOUSE", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060015006", "score": 99.0, "addr_line1": "8601 University Executive Park"}}

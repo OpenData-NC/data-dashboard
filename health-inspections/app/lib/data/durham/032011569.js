@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wing Stop", "addr_city": "Durham", "item_comments": "WING STOP", "activity_date": "09/05/2014", "county": "Durham", "facility_id": "032011569", "score": 99.0, "addr_line1": "202 Nc Hwy 54"}}

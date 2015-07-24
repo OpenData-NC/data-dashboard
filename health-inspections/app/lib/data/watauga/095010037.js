@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Grandview Restaurant", "addr_city": "Banner Elk", "item_comments": "GRANDVIEW RESTAURANT", "activity_date": "09/10/2014", "county": "Watauga", "facility_id": "095010037", "score": 94.5, "addr_line1": "10575 Nc Hwy 105"}}

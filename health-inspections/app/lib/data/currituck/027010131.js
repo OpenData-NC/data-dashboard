@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Philly Steak Sub", "addr_city": "Corolla", "item_comments": "PHILLY STEAK SUB", "activity_date": "08/28/2014", "county": "Currituck", "facility_id": "027010131", "score": 99.0, "addr_line1": "807 Suite 107 Ocean Trail"}}

@@ -1,1 +1,0 @@
-{"results": [["Jason Food Mart", "6403 Hwy 903 S.", "Lagrange", "06/11/2014", 90.0, "040010116"], ["Handy Mart 63", "6024 E Us 70 Hwy", "Lagrange", "05/28/2014", 99.5, "096010797"]]}

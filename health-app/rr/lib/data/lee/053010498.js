@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King  935", "addr_city": "Sanford", "item_comments": "BURGER KING  935", "activity_date": "09/12/2014", "county": "Lee", "facility_id": "053010498", "score": 95.5, "addr_line1": "1219 N. Horner Blvd"}}

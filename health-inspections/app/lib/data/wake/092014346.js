@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carrabbas 8412", "addr_city": "Apex", "item_comments": "CARRABBAS 8412", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092014346", "score": 93.5, "addr_line1": "1201 Haddon Hall Dr"}}

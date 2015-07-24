@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Yum Yum Cafe", "addr_city": "Goldsboro", "item_comments": "YUM YUM CAFE", "activity_date": "09/15/2014", "county": "Wayne", "facility_id": "096011067", "score": 97.5, "addr_line1": "109 S Center St"}}

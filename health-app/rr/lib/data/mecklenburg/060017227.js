@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Monkey Joe's", "addr_city": "Charlotte", "item_comments": "MONKEY JOE\\'S", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060017227", "score": 97.5, "addr_line1": "10215-C University City Blvd"}}

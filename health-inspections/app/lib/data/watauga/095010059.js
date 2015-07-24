@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Marys Kitchen", "addr_city": "Boone", "item_comments": "MARYS KITCHEN", "activity_date": "09/12/2014", "county": "Watauga", "facility_id": "095010059", "score": 93.0, "addr_line1": "486 George Wilson Road"}}

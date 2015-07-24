@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Food City Grill", "addr_city": "Four Oaks", "item_comments": "FOOD CITY GRILL", "activity_date": "08/20/2014", "county": "Johnston", "facility_id": "051010131", "score": 97.0, "addr_line1": "300 Wellon Street"}}

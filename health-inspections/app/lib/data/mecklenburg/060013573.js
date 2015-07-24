@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Renaissance Charlotte Suites", "addr_city": "Charlotte", "item_comments": "RENAISSANCE CHARLOTTE SUITES", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060013573", "score": 96.5, "addr_line1": "2800 Coliseum Centre Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wc Tarts Grill", "addr_city": "Dunn", "item_comments": "WC TARTS GRILL", "activity_date": "08/18/2014", "county": "Johnston", "facility_id": "051010168", "score": 95.0, "addr_line1": "5493 Nc 242 S"}}

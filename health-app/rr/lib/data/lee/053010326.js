@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Smithfields", "addr_city": "Sanford", "item_comments": "NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT OBSERVED;NOT OBSERVED;NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "08/19/2014", "county": "Lee", "facility_id": "053010326", "score": 96.5, "addr_line1": "2642 S Horner Blvd"}}

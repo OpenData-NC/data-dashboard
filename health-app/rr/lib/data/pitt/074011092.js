@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rep Express", "addr_city": "Greenville", "item_comments": "REP EXPRESS", "activity_date": "08/22/2014", "county": "Pitt", "facility_id": "074011092", "score": 100.0, "addr_line1": "805 Red Banks Rd"}}

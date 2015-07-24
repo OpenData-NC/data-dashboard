@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wesley Chapel Diner", "addr_city": "Matthews", "item_comments": "WESLEY CHAPEL DINER", "activity_date": "07/01/2014", "county": "Union", "facility_id": "090011074", "score": 97.0, "addr_line1": "5945 Weddington Rd."}}

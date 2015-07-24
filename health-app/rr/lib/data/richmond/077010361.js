@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Divine Cafe", "addr_city": "Hamlet", "item_comments": "THREE LIVE CRICKETS FOUND IN ESTABLISHMENT TODAY.;SEAL GAP UNDERNEATH BACK DOOR TO ELIMINATE PEST ENTRY INTO ESTABLISHMENT.;", "activity_date": "10/10/2014", "county": "Richmond", "facility_id": "077010361", "score": 98.5, "addr_line1": "108 Earl Franklin Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pizza Hut", "addr_city": "Clayton", "item_comments": "PIZZA HUT", "activity_date": "07/10/2014", "county": "Johnston", "facility_id": "051010122", "score": 99.5, "addr_line1": "10175 Us 70 W"}}

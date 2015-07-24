@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Panera Bread", "addr_city": "High Point", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C  UTILITY AREA NOT DESIGNED FOR PROPER CLEANING;", "activity_date": "10/21/2014", "county": "Guilford", "facility_id": "041012454", "score": 99.0, "addr_line1": "210 S Main St, 2nd Floor"}}

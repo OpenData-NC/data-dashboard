@@ -1,1 +1,0 @@
-{"results": [["Los Arcoiris", "300 Jonas Ridge Hwy", "Pineola", "06/30/2014", 94.5, "006010169"], ["Italian Pizza and Pasta Restau", "2855 Linville Falls Hwy", "Pineola", "06/18/2014", 94.5, "006010073"], ["Lowery's Bbq Company Inc.", "2805 Linville Falls Hwy", "Pineola", "06/12/2014", 96.0, "006010222"]]}

@@ -1,1 +1,0 @@
-{"results": [["Maes  Restaurant", "300 Main Street", "Seven Springs", "07/22/2014", 96.0, "096010529"], ["Tienda Flores", "4397 E Nc 55 Hwy", "Seven Springs", "07/15/2014", 97.5, "096010618"], ["Seven Springs Restaurant", "400 Main Street", "Seven Springs", "06/18/2014", 97.5, "096011056"]]}

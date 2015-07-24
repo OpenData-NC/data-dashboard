@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Howards Mini Mart Inc", "addr_city": "Clayton", "item_comments": "HOWARDS MINI MART INC", "activity_date": "07/16/2014", "county": "Johnston", "facility_id": "051010331", "score": 98.5, "addr_line1": "4222 Barber Mill Rd"}}

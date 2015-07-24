@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pizza Hut #2838", "addr_city": "Lexington", "item_comments": "PIZZA HUT #2838", "activity_date": "09/11/2014", "county": "Davidson", "facility_id": "029010667", "score": 92.0, "addr_line1": "129 Lowe's  Blvd."}}

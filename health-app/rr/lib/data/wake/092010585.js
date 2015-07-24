@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Players Retreat", "addr_city": "Raleigh", "item_comments": "PLAYERS RETREAT", "activity_date": "08/19/2014", "county": "Wake", "facility_id": "092010585", "score": 97.5, "addr_line1": "105 Oberlin Rd"}}

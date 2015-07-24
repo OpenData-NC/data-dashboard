@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ninja Hibachi Express", "addr_city": "Greenville", "item_comments": "NINJA HIBACHI EXPRESS", "activity_date": "09/18/2014", "county": "Pitt", "facility_id": "074011392", "score": 100.0, "addr_line1": "604 Sw Greenville Blvd."}}

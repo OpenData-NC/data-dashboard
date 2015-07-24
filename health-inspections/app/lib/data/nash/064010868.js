@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hunter Hill Cafe", "addr_city": "Rocky Mount", "item_comments": "HUNTER HILL CAFE", "activity_date": "09/10/2014", "county": "Nash", "facility_id": "064010868", "score": 96.5, "addr_line1": "501 Old Mill Road"}}

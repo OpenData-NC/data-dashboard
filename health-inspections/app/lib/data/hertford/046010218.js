@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway Murfreesboro", "addr_city": "Murfreesboro", "item_comments": "SUBWAY MURFREESBORO", "activity_date": "09/05/2014", "county": "Hertford", "facility_id": "046010218", "score": 98.5, "addr_line1": "845 W. Main St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hwy 55 Burgers, Shakes and Fries", "addr_city": "Indian Trail", "item_comments": ";", "activity_date": "09/30/2014", "county": "Union", "facility_id": "090011085", "score": 0.0, "addr_line1": "6640 Old Monroe Rd."}}

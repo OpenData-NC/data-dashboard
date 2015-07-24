@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Char-Grill", "addr_city": "Raleigh", "item_comments": "CHAR-GRILL", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092010138", "score": 98.0, "addr_line1": "3211 Edwards Mill Rd"}}

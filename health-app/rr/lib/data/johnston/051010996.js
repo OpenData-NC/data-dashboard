@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #37460", "addr_city": "Raleigh", "item_comments": "SUBWAY #37460", "activity_date": "07/10/2014", "county": "Johnston", "facility_id": "051010996", "score": 96.0, "addr_line1": "9709 Pentland Court"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ez Food Mart", "addr_city": "Shannon", "item_comments": "EZ FOOD MART", "activity_date": "09/18/2014", "county": "Robeson", "facility_id": "078010955", "score": 93.0, "addr_line1": "14725 71 North"}}

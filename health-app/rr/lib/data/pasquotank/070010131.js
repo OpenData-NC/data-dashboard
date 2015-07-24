@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King #11582", "addr_city": "Elizabeth City", "item_comments": "PANS IN COOLER STACKED WET   ALLOW TO AIR DRY BEFORE NESTING.;", "activity_date": "10/02/2014", "county": "Pasquotank", "facility_id": "070010131", "score": 99.5, "addr_line1": "1333 North Road St"}}

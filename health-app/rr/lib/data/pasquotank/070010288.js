@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hampton Inn-Elizabeth City", "addr_city": "Elizabeth City", "item_comments": "FRONT, RIGHT REACH IN WAS READING 50 DEGREES.  FOOD TEMPS WERE STILL OKAY.  CDI   TEMPERATURE ADJUSTED LOWER ON REACH IN.;", "activity_date": "11/14/2014", "county": "Pasquotank", "facility_id": "070010288", "score": 100.0, "addr_line1": "402 Halstead Blvd"}}

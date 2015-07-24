@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nicks Sub Shop", "addr_city": "High Point", "item_comments": "4 202.18 VENTILATION HOOD SYSTEMS, FILTERS   C  HOOD FILTERS NEED CLEANING;", "activity_date": "08/29/2014", "county": "Guilford", "facility_id": "041012958", "score": 99.5, "addr_line1": "1102 W Fairfield Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lowell Mill Restaurant", "addr_city": "Kenly", "item_comments": "LOWELL MILL RESTAURANT", "activity_date": "07/09/2014", "county": "Johnston", "facility_id": "051011027", "score": 97.0, "addr_line1": "595 Bagley Rd"}}

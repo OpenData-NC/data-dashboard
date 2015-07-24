@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taj Mahal Indian Cuisine", "addr_city": "Raleigh", "item_comments": "TAJ MAHAL INDIAN CUISINE", "activity_date": "09/03/2014", "county": "Wake", "facility_id": "092016616", "score": 95.0, "addr_line1": "6611 Falls of Neuse Rd"}}

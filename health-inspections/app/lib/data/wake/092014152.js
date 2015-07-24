@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks  2970", "addr_city": "Raleigh", "item_comments": "STARBUCKS  2970", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092014152", "score": 98.0, "addr_line1": "10760 Wakefield Commons Dr"}}

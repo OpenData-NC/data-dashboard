@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Frog Island Seafood", "addr_city": "Barco", "item_comments": "CLEAN AROUND FRYERS AND BROILER BETTER.;", "activity_date": "05/02/2014", "county": "Currituck", "facility_id": "027010216", "score": 99.5, "addr_line1": "3997 Caratoke Hwy"}}

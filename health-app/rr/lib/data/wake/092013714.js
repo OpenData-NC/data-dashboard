@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway  1437", "addr_city": "Cary", "item_comments": "SUBWAY  1437", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092013714", "score": 100.0, "addr_line1": "1373 Kildaire Farm Rd"}}

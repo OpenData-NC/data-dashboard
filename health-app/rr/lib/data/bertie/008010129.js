@@ -1,1 +1,0 @@
-{"results": {"fac_name": "In That Order", "addr_city": "Kelford", "item_comments": "NO SERV SAFE;TOILET FACILITIES NEED CLEANING;FLOORS IN KITCHEN NEED ADDITIONAL CLEANING;", "activity_date": "11/04/2014", "county": "Bertie", "facility_id": "008010129", "score": 97.5, "addr_line1": "308 N. Main Street"}}

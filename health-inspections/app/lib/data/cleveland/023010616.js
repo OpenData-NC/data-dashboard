@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Comfort Inn", "addr_city": "Shelby", "item_comments": "COMFORT INN", "activity_date": "09/09/2014", "county": "Cleveland", "facility_id": "023010616", "score": 97.0, "addr_line1": "2012 E Marion Street"}}

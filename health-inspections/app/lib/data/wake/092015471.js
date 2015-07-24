@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chik Fil a # 2181", "addr_city": "Holly Springs", "item_comments": "CHIK FIL A # 2181", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092015471", "score": 97.0, "addr_line1": "801 Village Walk Drive"}}

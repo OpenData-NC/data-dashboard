@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Trophy Brewing Co", "addr_city": "Raleigh", "item_comments": "TROPHY BREWING CO", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092016347", "score": 96.0, "addr_line1": "827 W Morgan St"}}

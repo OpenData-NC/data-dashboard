@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Amalfis Pizza", "addr_city": "Conover", "item_comments": "REFINISH FLOORS AS NEEDED;DUSTY FAN BLOWING OVER UNCOVERED PIZZAS  FAN TURNED OFF AND CLEANED;ENSURE TIMES ARE LABELED FOR FOODS PART OF TPHC  TILT  PLAN;", "activity_date": "06/25/2014", "county": "Catawba", "facility_id": "018011089", "score": 97.5, "addr_line1": "104n Thornburg Dr"}}

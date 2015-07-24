@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds #8283", "addr_city": "High Point", "item_comments": "MCDONALDS #8283", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041011428", "score": 99.0, "addr_line1": "930 Mall Loop Rd"}}

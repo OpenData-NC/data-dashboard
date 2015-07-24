@@ -1,1 +1,0 @@
-{"results": [["Severn Diner", "406 Main St", "Severn", "08/05/2014", 94.5, "066010134"]]}

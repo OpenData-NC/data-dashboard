@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dennys", "addr_city": "Kenly", "item_comments": "DENNYS", "activity_date": "08/08/2014", "county": "Johnston", "facility_id": "051011133", "score": 100.0, "addr_line1": "1800 Princeton-Kenly Rd."}}

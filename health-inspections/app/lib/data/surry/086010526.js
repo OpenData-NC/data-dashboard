@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cedarbrook Country Club", "addr_city": "State Road", "item_comments": "CEDARBROOK COUNTRY CLUB", "activity_date": "08/26/2014", "county": "Surry", "facility_id": "086010526", "score": 93.0, "addr_line1": "225 Country Club Drive"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ecu the Wright Place", "addr_city": "Greenville", "item_comments": "ECU THE WRIGHT PLACE", "activity_date": "09/03/2014", "county": "Pitt", "facility_id": "074011246", "score": 95.0, "addr_line1": "Suite 100 Jones Hall"}}

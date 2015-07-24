@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Homegrown Pizza", "addr_city": "Holly Springs", "item_comments": "HOMEGROWN PIZZA", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092013707", "score": 97.0, "addr_line1": "4928 Linksland Dr"}}

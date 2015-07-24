@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Garden Pizzeria", "addr_city": "Manteo", "item_comments": "COLD HOLD;DAT E MARKING;MAINTENECE;", "activity_date": "09/30/2014", "county": "Dare", "facility_id": "028010279", "score": 93.0, "addr_line1": "512 Southmain Hwy"}}

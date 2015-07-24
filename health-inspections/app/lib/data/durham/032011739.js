@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Melting Pot", "addr_city": "Durham", "item_comments": "MELTING POT", "activity_date": "09/11/2014", "county": "Durham", "facility_id": "032011739", "score": 93.0, "addr_line1": "7011 Fayetteville Rd"}}

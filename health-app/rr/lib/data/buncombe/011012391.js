@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Medeas Espresso and Juice Bar", "addr_city": "Arden", "item_comments": ";;;;;;;;;;;6-501.12; Core; Indirect drains in need of cleaning.;;;", "activity_date": "07/25/2014", "county": "Buncombe", "facility_id": "011012391", "score": 99.5, "addr_line1": "200 Julian  Ln"}}

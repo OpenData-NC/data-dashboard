@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dairy Queen Orange Julius", "addr_city": "Raleigh", "item_comments": "DAIRY QUEEN ORANGE JULIUS", "activity_date": "09/05/2014", "county": "Wake", "facility_id": "092016150", "score": 95.0, "addr_line1": "8321 Brier Creek Pky"}}

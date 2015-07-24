@@ -1,1 +1,0 @@
-{"results": {"fac_name": "K. C.S Restaurant", "addr_city": "High Point", "item_comments": "6 201.12 FLOORS, WALLS, AND CEILINGS, UTILITY LINES   C  OLDER FACILITY WITH OBSTACLE;", "activity_date": "08/20/2014", "county": "Guilford", "facility_id": "041010081", "score": 99.0, "addr_line1": "2728 S Main St"}}

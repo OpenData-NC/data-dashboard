@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks Coffee #10390", "addr_city": "Clayton", "item_comments": "STARBUCKS COFFEE #10390", "activity_date": "07/24/2014", "county": "Johnston", "facility_id": "051010885", "score": 99.5, "addr_line1": "13024 West 70 Suite 103"}}

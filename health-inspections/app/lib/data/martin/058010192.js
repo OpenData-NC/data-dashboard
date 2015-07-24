@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fuleen", "addr_city": "Williamston", "item_comments": "FULEEN", "activity_date": "09/23/2014", "county": "Martin", "facility_id": "058010192", "score": 96.0, "addr_line1": "1141 Wal-Mart Dr"}}

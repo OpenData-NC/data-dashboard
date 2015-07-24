@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kyoto Japan Inc.", "addr_city": "Greenville", "item_comments": "KYOTO JAPAN INC.", "activity_date": "09/25/2014", "county": "Pitt", "facility_id": "074011277", "score": 90.5, "addr_line1": "739 Red Banks Rd."}}

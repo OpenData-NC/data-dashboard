@@ -1,1 +1,0 @@
-{"results": {"fac_name": "South China Buffet", "addr_city": "Kannapolis", "item_comments": ";", "activity_date": "07/01/2014", "county": "Cabarrus", "facility_id": "013010545", "score": 0.0, "addr_line1": "1756 South Cannon Blvd."}}

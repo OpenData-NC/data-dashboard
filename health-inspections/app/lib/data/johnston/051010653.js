@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Star", "addr_city": "Benson", "item_comments": "CHINA STAR", "activity_date": "07/15/2014", "county": "Johnston", "facility_id": "051010653", "score": 98.5, "addr_line1": "12330 Nc 210"}}

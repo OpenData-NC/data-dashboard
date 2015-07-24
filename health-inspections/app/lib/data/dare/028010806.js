@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Oneals Sea Harvest", "addr_city": "Wanchese", "item_comments": "COOK FOOD TO PROPER TEMP THEN HOLD AT 135......... POULTRY 165;KEEP DIRTY RAGS IN SANITIZER........HAIR RESTRAINT;", "activity_date": "07/21/2014", "county": "Dare", "facility_id": "028010806", "score": 96.0, "addr_line1": "618 Harbor Rd"}}

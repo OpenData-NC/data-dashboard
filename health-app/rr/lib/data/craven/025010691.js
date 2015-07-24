@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Handy Mart #53/Subway", "addr_city": "New Bern", "item_comments": "HANDY MART #53/SUBWAY", "activity_date": "09/23/2014", "county": "Craven", "facility_id": "025010691", "score": 96.0, "addr_line1": "4011 Dr Mlk Jr Blvd"}}

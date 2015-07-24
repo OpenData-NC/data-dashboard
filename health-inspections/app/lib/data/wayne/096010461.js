@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dairy Queen of Goldsboro", "addr_city": "Goldsboro", "item_comments": "NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;", "activity_date": "06/18/2014", "county": "Wayne", "facility_id": "096010461", "score": 0.0, "addr_line1": "1803-A Wayne Memorial Dr"}}

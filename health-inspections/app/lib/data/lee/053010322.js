@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brick City Grill", "addr_city": "Sanford", "item_comments": "BRICK CITY GRILL", "activity_date": "09/12/2014", "county": "Lee", "facility_id": "053010322", "score": 97.0, "addr_line1": "120 Bank St."}}

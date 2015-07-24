@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Los Tres Magueyes", "addr_city": "Rolesville", "item_comments": "LOS TRES MAGUEYES", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092013519", "score": 97.5, "addr_line1": "411 J South Main Street"}}

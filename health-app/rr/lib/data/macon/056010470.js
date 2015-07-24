@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Motor Company Grill", "addr_city": "Franklin", "item_comments": "MOTOR COMPANY GRILL", "activity_date": "09/03/2014", "county": "Macon", "facility_id": "056010470", "score": 98.5, "addr_line1": "86 West Main Street"}}

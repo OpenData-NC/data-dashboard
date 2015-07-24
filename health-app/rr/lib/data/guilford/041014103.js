@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rey De Oro Mexican Bar & Grill", "addr_city": "Greensboro", "item_comments": "4 501.11 SPLIT SEALS 1  ON DELFIELD BAR    2  MIGALI REACH IN BAR EQUIP. COMPONENTS SUCH AS SEALS SHALL BE KEPT INTACT IN ACCORD. MANUF. SPEC.;", "activity_date": "10/10/2014", "county": "Guilford", "facility_id": "041014103", "score": 99.0, "addr_line1": "214 S Elm Street"}}

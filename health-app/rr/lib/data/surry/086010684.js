@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Harvest Grill Restaurant", "addr_city": "Dobson", "item_comments": "HARVEST GRILL RESTAURANT", "activity_date": "08/20/2014", "county": "Surry", "facility_id": "086010684", "score": 97.0, "addr_line1": "230 Cabernet Lane"}}

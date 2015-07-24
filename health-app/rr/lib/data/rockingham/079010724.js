@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hampton Inn Continental Breakfast", "addr_city": "Eden", "item_comments": "4 501.11 GOOD REPAIR AND PROPER ADJUSTMENT EQUIPMENT   C SEVERAL PANS HAVE CARBON BUILDUP.REMOVE CARBON BUILDUP OR REPLACE PANS.;", "activity_date": "06/05/2014", "county": "Rockingham", "facility_id": "079010724", "score": 99.0, "addr_line1": "724 S Van Buren Rd"}}

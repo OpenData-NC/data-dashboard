@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chopstix", "addr_city": "Raleigh", "item_comments": "CHOPSTIX", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092016364", "score": 92.0, "addr_line1": "5607 Creedmoor Rd"}}

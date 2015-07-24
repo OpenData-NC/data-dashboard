@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Paparazzi  Ristorante Italiano", "addr_city": "Raleigh", "item_comments": "PAPARAZZI  RISTORANTE ITALIANO", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092015823", "score": 97.0, "addr_line1": "8450-B100 Honeycutt Rd"}}

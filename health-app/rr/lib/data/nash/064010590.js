@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds #1", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT APPLICABLE;", "activity_date": "05/21/2014", "county": "Nash", "facility_id": "064010590", "score": 97.5, "addr_line1": "2640 Sunset Avenue"}}

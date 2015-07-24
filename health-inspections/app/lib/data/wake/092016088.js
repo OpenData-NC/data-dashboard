@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hibachi Blue", "addr_city": "Morrisville", "item_comments": "HIBACHI BLUE", "activity_date": "07/08/2014", "county": "Wake", "facility_id": "092016088", "score": 99.0, "addr_line1": "1500 Village Market Pl"}}

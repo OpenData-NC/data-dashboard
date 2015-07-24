@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell #122", "addr_city": "Morrisville", "item_comments": "TACO BELL #122", "activity_date": "09/03/2014", "county": "Wake", "facility_id": "092016509", "score": 98.0, "addr_line1": "1108 Morrisville Carpenter Rd"}}

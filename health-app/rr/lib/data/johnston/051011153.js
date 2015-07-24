@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Don Betos Tacos", "addr_city": "Clayton", "item_comments": "DON BETOS TACOS", "activity_date": "08/13/2014", "county": "Johnston", "facility_id": "051011153", "score": 97.0, "addr_line1": "10376 Us 70 Bus Hwy W"}}

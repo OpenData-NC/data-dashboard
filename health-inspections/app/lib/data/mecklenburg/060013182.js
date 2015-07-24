@@ -1,1 +1,0 @@
-{"results": {"fac_name": "California Pizza Kitchen", "addr_city": "Charlotte", "item_comments": "CALIFORNIA PIZZA KITCHEN", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060013182", "score": 95.5, "addr_line1": "5501 Josh Birmingham Pky"}}

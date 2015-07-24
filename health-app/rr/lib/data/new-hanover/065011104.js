@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Le Catalan French Cafe & Wine Bar", "addr_city": "Wilmington", "item_comments": ";;;;;;;;;;;;;", "activity_date": "05/30/2014", "county": "New Hanover", "facility_id": "065011104", "score": 100.0, "addr_line1": "224 S Water St"}}

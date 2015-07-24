@@ -1,1 +1,0 @@
-{"results": {"fac_name": "P Incorporated", "addr_city": "Fayetteville", "item_comments": "4 703.11 HOT WATER AND CHEMICAL METHODS   P   SANITIZER SPRAY CORRECTED TO MEET 50 PPM  REQUIREMENT;", "activity_date": "05/20/2014", "county": "Cumberland", "facility_id": "026012161", "score": 97.0, "addr_line1": "400 Airport Rd"}}

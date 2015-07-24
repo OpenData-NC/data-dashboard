@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Currituck Co Detention Center", "addr_city": "Maple", "item_comments": "CURRITUCK CO DETENTION CENTER", "activity_date": "09/10/2014", "county": "Currituck", "facility_id": "027010228", "score": 99.5, "addr_line1": "413 Maple Road"}}

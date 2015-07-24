@@ -1,1 +1,0 @@
-{"results": {"fac_name": "State Farmers Market Restauran", "addr_city": "Raleigh", "item_comments": "STATE FARMERS MARKET RESTAURAN", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092013615", "score": 91.5, "addr_line1": "1240 Market Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bob's Restaurant and Catering", "addr_city": "Madison", "item_comments": "BOB\\'S RESTAURANT AND CATERING", "activity_date": "09/18/2014", "county": "Rockingham", "facility_id": "079010407", "score": 97.0, "addr_line1": "124 S Market Street"}}

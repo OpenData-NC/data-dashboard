@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hops Burger Bar", "addr_city": "Greensboro", "item_comments": "6 501.11 CANWASH FLOOR   ENTRANCE INTO WALK IN COOLER CRACK/SPLIT/DAMAGED PHYSICAL FACILITIES SHALL BE MAINTAINED IN GOOD REPAIR.;", "activity_date": "11/18/2014", "county": "Guilford", "facility_id": "041013145", "score": 99.5, "addr_line1": "2419  Spring Garden St"}}

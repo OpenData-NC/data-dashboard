@@ -1,1 +1,0 @@
-{"results": [["Ye Olde Country Kitchen", "327 Drama Rd", "Snow Camp", "06/27/2014", 95.0, "001010202"], ["Yesterday S Grill", "716 W Greensboro Chapel Hill R", "Snow Camp", "06/05/2014", 98.5, "001010558"], ["Sourwood Forest Golf Club", "8055 Pleasant Hill Church Rd", "Snow Camp", "06/05/2014", 96.0, "001010971"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles Inc #775", "addr_city": "Dallas", "item_comments": "BOJANGLES INC #775", "activity_date": "09/16/2014", "county": "Gaston", "facility_id": "036011217", "score": 96.5, "addr_line1": "1017 Dallas Cherryville Hwy"}}

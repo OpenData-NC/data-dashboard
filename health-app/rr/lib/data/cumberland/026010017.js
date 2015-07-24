@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Deckers Brick Oven Pizzeria", "addr_city": "Fayetteville", "item_comments": ".;.;", "activity_date": "09/09/2014", "county": "Cumberland", "facility_id": "026010017", "score": 98.5, "addr_line1": "3612 Ramsey St"}}

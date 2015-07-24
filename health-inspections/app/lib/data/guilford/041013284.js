@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Comfort Suites Breakfast Bar", "addr_city": "Greensboro", "item_comments": "COMFORT SUITES BREAKFAST BAR", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041013284", "score": 97.0, "addr_line1": "3308 Isler Street"}}

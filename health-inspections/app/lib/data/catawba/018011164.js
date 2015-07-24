@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Five Guys Burgers and Fries", "addr_city": "Hickory", "item_comments": "SLEEVE CUPS AT FRONT REGISTER TO PREVENT CONAMINATION;ADHERE TO APPROVED PROCEDURES FOR TPHC  TILT  PROGRAM   LABEL BASKETS WITH APPROPRIATE TIMES;", "activity_date": "06/06/2014", "county": "Catawba", "facility_id": "018011164", "score": 98.5, "addr_line1": "1520 Hwy 70 Se"}}

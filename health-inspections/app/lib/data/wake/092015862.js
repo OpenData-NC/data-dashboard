@@ -1,1 +1,0 @@
-{"results": {"fac_name": "No. 1 Chinese Restaurant", "addr_city": "Raleigh", "item_comments": "NO. 1 CHINESE RESTAURANT", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092015862", "score": 99.5, "addr_line1": "3667 Sw Cary  Pky"}}

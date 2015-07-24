@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway-Wal Mart", "addr_city": "Kinston", "item_comments": "SUBWAY-WAL MART", "activity_date": "07/14/2014", "county": "Lenoir", "facility_id": "054010645", "score": 97.0, "addr_line1": "4101 W. Vernon Ave"}}

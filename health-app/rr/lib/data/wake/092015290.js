@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brueggers Bagel & Bakery", "addr_city": "Raleigh", "item_comments": "BRUEGGERS BAGEL & BAKERY", "activity_date": "07/29/2014", "county": "Wake", "facility_id": "092015290", "score": 97.0, "addr_line1": "222 Glenwood Ave"}}

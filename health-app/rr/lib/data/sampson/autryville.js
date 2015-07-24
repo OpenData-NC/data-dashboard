@@ -1,1 +1,0 @@
-{"results": [["N&s Grab and Go", "3187 Maxwell Rd.", "Autryville", "08/20/2014", 98.5, "082010477"], ["Big Daddy's Grill", "107 William Street", "Autryville", "06/18/2014", 96.5, "082010433"], ["Pittman's Corner Grill", "105 E. William St", "Autryville", "06/10/2014", 95.0, "082010336"]]}

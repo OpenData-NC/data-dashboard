@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sandhills Womans Exchange", "addr_city": "Pinehurst", "item_comments": "SANDHILLS WOMANS EXCHANGE", "activity_date": "09/24/2014", "county": "Moore", "facility_id": "063010111", "score": 98.0, "addr_line1": "15 Azalea  Dr"}}

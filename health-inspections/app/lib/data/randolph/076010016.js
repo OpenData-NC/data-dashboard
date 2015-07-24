@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Captain Tom's Seafood Restaurant", "addr_city": "Staley", "item_comments": "CAPTAIN TOM\\'S SEAFOOD RESTAURANT", "activity_date": "09/30/2014", "county": "Randolph", "facility_id": "076010016", "score": 95.5, "addr_line1": "320 Brown's Crossroads  Rd"}}

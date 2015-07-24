@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mi Casa", "addr_city": "Lexingt0n", "item_comments": "MI CASA", "activity_date": "09/09/2014", "county": "Davidson", "facility_id": "029010830", "score": 96.0, "addr_line1": "278 N Talbert Blvd"}}

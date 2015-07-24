@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cornerstone Cafe", "addr_city": "Goldsboro", "item_comments": "CORNERSTONE CAFE", "activity_date": "09/24/2014", "county": "Wayne", "facility_id": "096011069", "score": 98.5, "addr_line1": "173 Us Hwy 11 South"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chick-Fil-A #00585", "addr_city": "Raleigh", "item_comments": "CHICK-FIL-A #00585", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092016708", "score": 0.0, "addr_line1": "400 Fayetteville St"}}

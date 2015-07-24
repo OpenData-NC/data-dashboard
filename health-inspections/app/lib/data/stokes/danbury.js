@@ -1,1 +1,0 @@
-{"results": [["Artists Way", "508 Main Street", "Danbury", "08/12/2014", 95.0, "085010119"], ["Dan River Family Restaurant", "1214 Hwy 8 & 89 S", "Danbury", "08/07/2014", 94.0, "085010080"], ["Pioneer Community Hospital of Stokes", "1570 Nc Hwy 8 & 89 N", "Danbury", "06/16/2014", 98.5, "085010226"]]}

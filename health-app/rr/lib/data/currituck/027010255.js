@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fat Crabs Rib Company Llc", "addr_city": "Corolla", "item_comments": "STORE USED WIPING CLOTHES PROPERLY. DO NOT USE IN EMPLOYEE RESTROOMS.;CLEAN FLOORS IN KITCHEN AND EMPLOYEE RESTROOM.;", "activity_date": "07/16/2014", "county": "Currituck", "facility_id": "027010255", "score": 99.0, "addr_line1": "1159 Austin St  Suite 101-A"}}

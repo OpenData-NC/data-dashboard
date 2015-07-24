@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Comfort Inn Breakfast Bar", "addr_city": "Raleigh", "item_comments": "COMFORT INN BREAKFAST BAR", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092016293", "score": 92.0, "addr_line1": "2539 S Saunders St"}}

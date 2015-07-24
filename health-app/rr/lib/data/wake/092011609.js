@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sam & Walleys Eatery", "addr_city": "Raleigh", "item_comments": "SAM & WALLEYS EATERY", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092011609", "score": 95.5, "addr_line1": "Two Hanover Square"}}

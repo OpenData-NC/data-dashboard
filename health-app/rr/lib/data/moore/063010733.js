@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jakes  Place", "addr_city": "Robbins", "item_comments": "JAKES  PLACE", "activity_date": "09/30/2014", "county": "Moore", "facility_id": "063010733", "score": 94.0, "addr_line1": "221 S Nc Hwy # 705"}}

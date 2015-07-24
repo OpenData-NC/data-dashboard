@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway @ Walmart", "addr_city": "Spring Lake", "item_comments": "6 501.16 DRYING MOPSMOPS SHOULD BE STORED HANGING UP OR IN THE BUCKET.;", "activity_date": "05/01/2014", "county": "Cumberland", "facility_id": "026012289", "score": 100.0, "addr_line1": "670 Lillington Hwy"}}

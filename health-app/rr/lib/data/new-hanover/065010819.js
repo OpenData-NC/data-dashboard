@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chilis", "addr_city": "Wilmington", "item_comments": ";;;2-301.12", "activity_date": "05/20/2014", "county": "New Hanover", "facility_id": "065010819", "score": 98.0, "addr_line1": "819 S College Rd"}}

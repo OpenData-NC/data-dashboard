@@ -1,1 +1,0 @@
-{"results": {"fac_name": "L and G", "addr_city": "Edenton", "item_comments": "PIC/MANAGER NOT ON PREMESIS.;DATE MARK BBQ SANDWICHES.;EMPLOYEE HEALTH DISCLOSURE POLICY NEEDED.;", "activity_date": "07/24/2014", "county": "Chowan", "facility_id": "021010081", "score": 95.0, "addr_line1": "654 Virginia Rd"}}

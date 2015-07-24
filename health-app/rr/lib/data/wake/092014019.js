@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jasons Deli", "addr_city": "Raleigh", "item_comments": "JASONS DELI", "activity_date": "08/08/2014", "county": "Wake", "facility_id": "092014019", "score": 96.0, "addr_line1": "8421 101 Brier Creek Pkwy"}}

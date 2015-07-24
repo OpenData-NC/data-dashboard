@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Edenton Coffee House", "addr_city": "Edetnon", "item_comments": "EMPLOYEE HEALTH DISCLOSURE POLICY NEEDED.;REPAIR DAMAGED WALL IN BATHROOM.;NON ANSI EQUIPMENT.;", "activity_date": "07/11/2014", "county": "Chowan", "facility_id": "021010085", "score": 96.0, "addr_line1": "302 S Broad Street"}}

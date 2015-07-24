@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Roadside Raw Bar and Grill", "addr_city": "Duck", "item_comments": "HATS;COMPLETE NEW HOOD;", "activity_date": "05/22/2014", "county": "Dare", "facility_id": "028010277", "score": 98.0, "addr_line1": "1193 Duck Rd"}}

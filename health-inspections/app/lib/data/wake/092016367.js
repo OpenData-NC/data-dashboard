@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Agave Mexican Bar and Grill", "addr_city": "Wendell", "item_comments": "AGAVE MEXICAN BAR AND GRILL", "activity_date": "07/25/2014", "county": "Wake", "facility_id": "092016367", "score": 96.0, "addr_line1": "18 W Third St"}}

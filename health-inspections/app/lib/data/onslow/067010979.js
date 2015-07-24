@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Golden China", "addr_city": "Sneads Ferry", "item_comments": "GOLDEN CHINA", "activity_date": "08/12/2014", "county": "Onslow", "facility_id": "067010979", "score": 96.0, "addr_line1": "965 Old Folkstone Road"}}

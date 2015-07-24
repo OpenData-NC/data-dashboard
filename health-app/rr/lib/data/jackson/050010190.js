@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Happs Place", "addr_city": "Glenville", "item_comments": "THERE ARE 69 CHAIRS COUNTED IN THE DINNING AREA OF THE FACILITY WHICH IS MORE THAN WHAT THE SEPTIC PERMIT ALLOWS.  REMOVE THE ADDITIONAL SEATS.;", "activity_date": "06/04/2014", "county": "Jackson", "facility_id": "050010190", "score": 99.0, "addr_line1": "1275 Hwy 107 N"}}

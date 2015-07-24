@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway Shoreside Center", "addr_city": "Kitty Hawk", "item_comments": "PERSON IN CHARGE MUST HAVE PROPER TRAINING.;KEEP SANITIZER TO STRENGTH USE TEST STRIPS;KEEP BOTH HAND SINKS FREE OF STORAGE FRONT SPLASH ON CUPS;", "activity_date": "05/30/2014", "county": "Dare", "facility_id": "028010215", "score": 95.5, "addr_line1": "5400 N Croatan Hwy"}}

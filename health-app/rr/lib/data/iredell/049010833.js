@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #2551 Cinema Drive", "addr_city": "Statesville", "item_comments": "SUBWAY #2551 CINEMA DRIVE", "activity_date": "09/10/2014", "county": "Iredell", "facility_id": "049010833", "score": 98.5, "addr_line1": "1525g Cinema Drive"}}

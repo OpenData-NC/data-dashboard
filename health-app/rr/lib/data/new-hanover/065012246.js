@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Low Tide Pub", "addr_city": "Wilmington", "item_comments": ";2-301.12", "activity_date": "05/19/2014", "county": "New Hanover", "facility_id": "065012246", "score": 92.0, "addr_line1": "4540 Fountain Dr"}}

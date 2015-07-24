@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Which Wich? #182", "addr_city": "Raleigh", "item_comments": "WHICH WICH? #182", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092015751", "score": 95.5, "addr_line1": "8521 Brier Creek Pky"}}

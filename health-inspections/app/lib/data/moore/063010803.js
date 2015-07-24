@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds of Carthage", "addr_city": "Carthage", "item_comments": "MCDONALDS OF CARTHAGE", "activity_date": "09/18/2014", "county": "Moore", "facility_id": "063010803", "score": 95.0, "addr_line1": "950 B Monroe Street"}}

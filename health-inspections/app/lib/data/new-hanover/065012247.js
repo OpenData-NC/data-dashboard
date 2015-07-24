@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Reel Cuisines Pacific Grille", "addr_city": "Wilmington", "item_comments": ";4-904.11", "activity_date": "05/05/2014", "county": "New Hanover", "facility_id": "065012247", "score": 100.0, "addr_line1": "2547 S 17th St"}}

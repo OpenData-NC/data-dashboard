@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Parkers  Barbecue 1", "addr_city": "Greenville", "item_comments": "PARKERS  BARBECUE 1", "activity_date": "09/23/2014", "county": "Pitt", "facility_id": "074010128", "score": 96.5, "addr_line1": "3109 S Memorial Drive"}}

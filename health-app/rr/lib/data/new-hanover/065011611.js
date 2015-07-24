@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Temptations Everyday Gourmet", "addr_city": "Wilmington", "item_comments": ";;;;;;;;;", "activity_date": "06/04/2014", "county": "New Hanover", "facility_id": "065011611", "score": 100.0, "addr_line1": "8207 Market St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Stone Oven Pizza", "addr_city": "Nags Head", "item_comments": "MANAGER NEEDS SS;BOXES OFF FLOOR;CLEAN UNDER EQUIP;NOT ALL EQUIP NSF;NO CLEANING PRODUCTS ON DRAINBOARDS;", "activity_date": "06/21/2014", "county": "Dare", "facility_id": "028010865", "score": 96.0, "addr_line1": "7531 S Virginia Dare Trl"}}

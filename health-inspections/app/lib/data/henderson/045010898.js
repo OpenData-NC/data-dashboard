@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pupuseria El Aguila", "addr_city": "Fletcher", "item_comments": "PUPUSERIA EL AGUILA", "activity_date": "09/06/2014", "county": "Henderson", "facility_id": "045010898", "score": 98.0, "addr_line1": "5360 Hendersonville Rd"}}

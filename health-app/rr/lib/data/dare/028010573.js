@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kdh Movies 10", "addr_city": "Kill Devil Hills", "item_comments": "NEED BETTER DATE MARKING........NEED STEM TYPE THERM.......SANITIZER;", "activity_date": "10/06/2014", "county": "Dare", "facility_id": "028010573", "score": 98.5, "addr_line1": "1803 N Croatan Hwy"}}

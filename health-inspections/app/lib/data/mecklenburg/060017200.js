@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin Donuts/Baskin Robbins #641637", "addr_city": "Charlotte", "item_comments": "DUNKIN DONUTS/BASKIN ROBBINS #641637", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060017200", "score": 90.0, "addr_line1": "7005 Matthews-Mint Hill Rd"}}

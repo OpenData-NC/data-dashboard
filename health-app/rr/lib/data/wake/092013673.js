@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Goodberrys #13", "addr_city": "Wake Forest", "item_comments": "GOODBERRYS #13", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092013673", "score": 96.5, "addr_line1": "11736 Retail Dr"}}

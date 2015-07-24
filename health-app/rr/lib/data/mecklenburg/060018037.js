@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Urbana Wellness Spa", "addr_city": "Charlotte", "item_comments": "URBANA WELLNESS SPA", "activity_date": "09/04/2014", "county": "Mecklenburg", "facility_id": "060018037", "score": 100.0, "addr_line1": "7510 Pineville Matthews Rd Sui"}}

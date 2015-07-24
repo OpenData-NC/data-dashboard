@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Marshville Rock Store Bar-B-Q", "addr_city": "Marshville", "item_comments": "MARSHVILLE ROCK STORE BAR-B-Q", "activity_date": "07/15/2014", "county": "Union", "facility_id": "090010879", "score": 98.0, "addr_line1": "6608 E. Marshville Blvd."}}

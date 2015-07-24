@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Moes South West Grill", "addr_city": "Raleigh", "item_comments": "MOES SOUTH WEST GRILL", "activity_date": "08/08/2014", "county": "Wake", "facility_id": "092013811", "score": 96.0, "addr_line1": "506 Daniels St"}}

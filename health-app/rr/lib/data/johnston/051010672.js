@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Benson", "item_comments": "SUBWAY", "activity_date": "07/15/2014", "county": "Johnston", "facility_id": "051010672", "score": 100.0, "addr_line1": "12330 Nc 210"}}

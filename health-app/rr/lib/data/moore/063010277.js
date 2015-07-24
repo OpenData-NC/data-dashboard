@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Millers Family Restaurant", "addr_city": "Vass", "item_comments": "MILLERS FAMILY RESTAURANT", "activity_date": "07/16/2014", "county": "Moore", "facility_id": "063010277", "score": 97.0, "addr_line1": "3400 Us Hwy 1"}}

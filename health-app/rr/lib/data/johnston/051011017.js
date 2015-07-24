@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Shop N Go 39 Inc.", "addr_city": "Zebulon", "item_comments": "SHOP N GO 39 INC.", "activity_date": "08/21/2014", "county": "Johnston", "facility_id": "051011017", "score": 96.5, "addr_line1": "13569 Nc Hwy 39"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lemongrass Thai Restaurant", "addr_city": "Raleigh", "item_comments": "LEMONGRASS THAI RESTAURANT", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092013733", "score": 98.0, "addr_line1": "8320-142 Litchford Rd"}}

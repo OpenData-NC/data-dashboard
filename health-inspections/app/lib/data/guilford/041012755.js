@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kobe Japanese Restaurant", "addr_city": "Oak Ridge", "item_comments": "KOBE JAPANESE RESTAURANT", "activity_date": "09/22/2014", "county": "Guilford", "facility_id": "041012755", "score": 99.0, "addr_line1": "2205 L Oak Ridge Rd"}}

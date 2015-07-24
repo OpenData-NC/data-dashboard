@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fitz on Main", "addr_city": "Kernersville", "item_comments": "FITZ ON MAIN", "activity_date": "09/11/2014", "county": "Forsyth", "facility_id": "034011962", "score": 97.5, "addr_line1": "109 N Main Street"}}

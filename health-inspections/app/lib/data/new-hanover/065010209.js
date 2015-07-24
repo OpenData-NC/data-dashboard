@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Parchies", "addr_city": "Wilmington", "item_comments": ";6-201.11", "activity_date": "06/04/2014", "county": "New Hanover", "facility_id": "065010209", "score": 93.5, "addr_line1": "1120 Princess St"}}

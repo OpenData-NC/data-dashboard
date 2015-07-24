@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rondas Kitchen", "addr_city": "Kings Mountain", "item_comments": "RONDAS KITCHEN", "activity_date": "08/28/2014", "county": "Cleveland", "facility_id": "023010689", "score": 97.0, "addr_line1": "1842 S Battleground Avenue"}}

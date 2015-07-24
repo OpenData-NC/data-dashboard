@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cici's Pizza", "addr_city": "Smithfield", "item_comments": "CICI\\'S PIZZA", "activity_date": "07/16/2014", "county": "Johnston", "facility_id": "051010801", "score": 93.5, "addr_line1": "161 Industrial Pkwy"}}

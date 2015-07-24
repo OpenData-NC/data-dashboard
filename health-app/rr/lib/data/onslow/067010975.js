@@ -1,1 +1,0 @@
-{"results": {"fac_name": "New York Pasta and Deli", "addr_city": "Jacksonville", "item_comments": "NEW YORK PASTA AND DELI", "activity_date": "08/11/2014", "county": "Onslow", "facility_id": "067010975", "score": 99.0, "addr_line1": "233 a Western Blvd"}}

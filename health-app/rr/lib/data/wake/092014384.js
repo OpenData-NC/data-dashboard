@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Azitra Indian Restaurant", "addr_city": "Raleigh", "item_comments": "AZITRA INDIAN RESTAURANT", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092014384", "score": 93.5, "addr_line1": "8411 101 Brier Creek Pkwy"}}

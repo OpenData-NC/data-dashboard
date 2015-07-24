@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sir Pizza", "addr_city": "Asheboro", "item_comments": "SIR PIZZA", "activity_date": "09/11/2014", "county": "Randolph", "facility_id": "076010116", "score": 95.5, "addr_line1": "724 N Fayetteville St"}}

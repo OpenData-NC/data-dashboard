@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hope Community Church", "addr_city": "Raleigh", "item_comments": "HOPE COMMUNITY CHURCH", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092014866", "score": 100.0, "addr_line1": "821 Buck Jones Road"}}

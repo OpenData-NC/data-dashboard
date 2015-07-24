@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles #43", "addr_city": "Beulaville", "item_comments": "BOJANGLES #43", "activity_date": "09/02/2014", "county": "Duplin", "facility_id": "031010448", "score": 91.0, "addr_line1": "426 N. Jackson St."}}

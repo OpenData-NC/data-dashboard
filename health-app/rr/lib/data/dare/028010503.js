@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Roccos", "addr_city": "Hatteras", "item_comments": "CLEAN FLOORS ORGANIZE STORAGE;CLEAN BOTTOM OF REFERS;", "activity_date": "06/30/2014", "county": "Dare", "facility_id": "028010503", "score": 98.0, "addr_line1": "57331 Nc 12"}}

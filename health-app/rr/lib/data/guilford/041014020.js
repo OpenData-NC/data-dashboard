@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Real Creations", "addr_city": "High Point", "item_comments": "REAL CREATIONS", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041014020", "score": 97.0, "addr_line1": "136 West Lexington Avenue"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Roma Pizza Shop", "addr_city": "Clayton", "item_comments": "ROMA PIZZA SHOP", "activity_date": "07/24/2014", "county": "Johnston", "facility_id": "051011220", "score": 99.5, "addr_line1": "3300-A Hwy 70 West Business"}}

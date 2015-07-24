@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #3152", "addr_city": "Raleigh", "item_comments": "SUBWAY #3152", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092015709", "score": 93.0, "addr_line1": "4003 Wake Forest Rd"}}

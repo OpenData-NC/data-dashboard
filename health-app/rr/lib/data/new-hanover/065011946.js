@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Big Thai 2", "addr_city": "Wilmington", "item_comments": ";;;4-602.13", "activity_date": "06/17/2014", "county": "New Hanover", "facility_id": "065011946", "score": 99.5, "addr_line1": "1319 Landfall Center Unit L"}}

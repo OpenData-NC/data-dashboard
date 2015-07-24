@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Little Tokyo", "addr_city": "Cary", "item_comments": "LITTLE TOKYO", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092016085", "score": 100.0, "addr_line1": "1105 Walnut St"}}

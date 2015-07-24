@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Paraiso Restaurant", "addr_city": "Cornelius", "item_comments": "EL PARAISO RESTAURANT", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060014868", "score": 94.5, "addr_line1": "20700 N Main St"}}

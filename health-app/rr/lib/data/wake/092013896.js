@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Woodys at City Market", "addr_city": "Raleigh", "item_comments": "WOODYS AT CITY MARKET", "activity_date": "08/11/2014", "county": "Wake", "facility_id": "092013896", "score": 95.5, "addr_line1": "205 Wolfe St"}}

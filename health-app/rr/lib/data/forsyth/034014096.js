@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sonic #3538", "addr_city": "Kernersville", "item_comments": "SONIC #3538", "activity_date": "09/05/2014", "county": "Forsyth", "facility_id": "034014096", "score": 95.5, "addr_line1": "528 Nelson Street"}}

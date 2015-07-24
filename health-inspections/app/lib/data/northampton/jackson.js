@@ -1,1 +1,0 @@
-{"results": [["Embassy Cafe", "124 W Jefferson St", "Jackson", "08/05/2014", 98.0, "066010125"], ["Minit Serv", "311 W. Jefferson St.", "Jackson", "08/05/2014", 90.0, "066010151"], ["Odom Correctional Inst", "485 Odom Prison Rd", "Jackson", "06/19/2014", 92.5, "066010083"]]}

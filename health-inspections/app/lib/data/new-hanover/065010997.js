@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Oceans  - Holiday Inn", "addr_city": "Wrightsville Beach", "item_comments": ";;5-501.17", "activity_date": "05/22/2014", "county": "New Hanover", "facility_id": "065010997", "score": 97.0, "addr_line1": "1706 N Lumina Ave"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Eurest at Metlife Coffee Bar", "addr_city": "Charlotte", "item_comments": "EUREST AT METLIFE COFFEE BAR", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060017830", "score": 98.5, "addr_line1": "11225 North Community House Dr"}}

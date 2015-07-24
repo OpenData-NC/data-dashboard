@@ -1,1 +1,0 @@
-{"results": [["O Henry S", "10225 Nc Hwy 67 East", "East Bend", "09/17/2014", 90.5, "099010035"], ["Mount Olympus Family Restauran", "7844 Highway 67", "East Bend", "08/28/2014", 94.0, "099010283"], ["East Bend Dinette", "417 Hwy 67 Bypass", "East Bend", "08/20/2014", 91.5, "099010327"]]}

@@ -1,1 +1,0 @@
-{"results": [["Parkside Cafe", "2176 Us 70 A", "Pine Level", "08/25/2014", 98.5, "051010716"], ["Serving Spoon", "212 N. Peedin Ave.", "Pine Level", "07/11/2014", 100.0, "051010816"]]}

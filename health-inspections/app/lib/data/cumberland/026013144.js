@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Das Bavarian Haus", "addr_city": "Fayetteville", "item_comments": ".;.;", "activity_date": "06/04/2014", "county": "Cumberland", "facility_id": "026013144", "score": 98.0, "addr_line1": "3500 Murchison Road"}}

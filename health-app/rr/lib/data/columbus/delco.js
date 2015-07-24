@@ -1,1 +1,0 @@
-{"results": [["Burger Hut", "25715 Andrew Jackson Hwy E", "Delco", "10/09/2014", 95.5, "024010003"], ["The Grill in Delco", "27157 Andrew Jackson Hwy E", "Delco", "10/01/2014", 93.5, "024010665"], ["Roberta's Country Kitchen", "27415 Andrew Jackson Hwy E", "Delco", "07/29/2014", 0.0, "024010474"], ["Hwy 55 of Delco", "60 Cronly Rd", "Delco", "07/03/2014", 90.5, "024010578"]]}

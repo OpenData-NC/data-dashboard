@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Blue Moon Beach Grill", "addr_city": "Nags Head", "item_comments": "CHECK ALL COLD HOLD TEMPS..;RACKS IN WALKIN IN DISREPAIR;WORK ON COLD TEMPS CHECK ALL REF.  REGULARLY;RACKS IN WALKIN;", "activity_date": "06/30/2014", "county": "Dare", "facility_id": "028010718", "score": 98.0, "addr_line1": "4104 Va Dare Trail"}}

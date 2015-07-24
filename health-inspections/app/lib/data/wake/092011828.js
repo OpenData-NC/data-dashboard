@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell #89", "addr_city": "Fuquay Varina", "item_comments": "TACO BELL #89", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092011828", "score": 95.5, "addr_line1": "1384 N Main St"}}

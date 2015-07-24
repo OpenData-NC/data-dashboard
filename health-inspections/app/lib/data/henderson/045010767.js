@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles 1099", "addr_city": "Hendersonville", "item_comments": "BOJANGLES 1099", "activity_date": "09/24/2014", "county": "Henderson", "facility_id": "045010767", "score": 96.0, "addr_line1": "5697 Asheville Hwy"}}

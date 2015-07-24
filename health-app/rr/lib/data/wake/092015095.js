@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Monkey Joes", "addr_city": "Cary", "item_comments": ";;;;;;;;;;;", "activity_date": "09/18/2014", "county": "Wake", "facility_id": "092015095", "score": 100.0, "addr_line1": "1747 Walnut Street"}}

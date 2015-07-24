@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wooden Vine Wine Bar & Bistro, The", "addr_city": "Charlotte", "item_comments": "WOODEN VINE WINE BAR & BISTRO, THE", "activity_date": "09/08/2014", "county": "Mecklenburg", "facility_id": "060016955", "score": 96.5, "addr_line1": "231 N Tryon Street"}}

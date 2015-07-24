@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys # 6213", "addr_city": "Selma", "item_comments": "WENDYS # 6213", "activity_date": "07/22/2014", "county": "Johnston", "facility_id": "051011273", "score": 99.0, "addr_line1": "391 Hwy 70 East"}}

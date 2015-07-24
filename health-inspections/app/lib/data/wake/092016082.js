@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Joyce and Family Restaurant Too", "addr_city": "Fuquay Varina", "item_comments": "JOYCE AND FAMILY RESTAURANT TOO", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092016082", "score": 92.0, "addr_line1": "129 N Main St"}}

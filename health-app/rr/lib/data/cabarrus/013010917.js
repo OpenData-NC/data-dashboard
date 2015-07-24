@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway 16376", "addr_city": "Davidson", "item_comments": ";;;;;;;;;;;;4-501.11; Core;  Repair leaking faucet at mop sink.;6-501.12; Core;  Clean splash from walls at prep sink and 3-comp sink.;", "activity_date": "09/19/2014", "county": "Cabarrus", "facility_id": "013010917", "score": 99.5, "addr_line1": "11048 Renissance  Pl"}}

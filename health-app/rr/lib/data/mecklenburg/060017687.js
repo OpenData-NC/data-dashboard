@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Panera Bread #1686", "addr_city": "Charlotte", "item_comments": "PANERA BREAD #1686", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060017687", "score": 96.5, "addr_line1": "3207  Pineville-Matthews Rd"}}

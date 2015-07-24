@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin Donuts", "addr_city": "Durham", "item_comments": "DUNKIN DONUTS", "activity_date": "09/10/2014", "county": "Durham", "facility_id": "032011909", "score": 99.0, "addr_line1": "1125 W. Nc 54 Suite 504"}}

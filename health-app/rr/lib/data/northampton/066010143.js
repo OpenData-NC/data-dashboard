@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Park-N-Shop #9", "addr_city": "Conway", "item_comments": "PARK-N-SHOP #9", "activity_date": "09/15/2014", "county": "Northampton", "facility_id": "066010143", "score": 90.5, "addr_line1": "210 East Main St"}}

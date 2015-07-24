@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tropical Smoothie Cafe", "addr_city": "Raleigh", "item_comments": "TROPICAL SMOOTHIE CAFE", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092015576", "score": 99.0, "addr_line1": "8111-157 Creedmoor Rd"}}

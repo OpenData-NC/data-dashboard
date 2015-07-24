@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Baja Burrito", "addr_city": "Raleigh", "item_comments": "BAJA BURRITO", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092011770", "score": 98.0, "addr_line1": "2109 108 Avent Ferry Rd"}}

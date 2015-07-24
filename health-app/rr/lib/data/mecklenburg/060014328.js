@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Maharani Indian Cuisine", "addr_city": "Charlotte", "item_comments": "MAHARANI INDIAN CUISINE", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060014328", "score": 95.0, "addr_line1": "901-115 S Kings Dr"}}

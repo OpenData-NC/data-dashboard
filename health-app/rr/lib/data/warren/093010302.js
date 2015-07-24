@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ambience Restaurant", "addr_city": "Norlina", "item_comments": "items were date marked correctly;", "activity_date": "06/09/2014", "county": "Warren", "facility_id": "093010302", "score": 0.0, "addr_line1": "2564 Us 1 North"}}

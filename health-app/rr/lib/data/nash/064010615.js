@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Target T-0962", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT IN COMPLIANCE.  hot dogs were being thawed at room temperature on counter.;", "activity_date": "10/01/2014", "county": "Nash", "facility_id": "064010615", "score": 99.5, "addr_line1": "731 Sutters Creek Blvd."}}

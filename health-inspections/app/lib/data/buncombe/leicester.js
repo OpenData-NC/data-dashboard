@@ -1,1 +1,0 @@
-{"results": [["Turkey Creek Cafe", "2772 New Leicester Hwy", "Leicester", "08/05/2014", 97.5, "011012308"], ["Gossetts Express Mart", "2741 New Leicester Hwy", "Leicester", "07/17/2014", 98.5, "011012117"]]}

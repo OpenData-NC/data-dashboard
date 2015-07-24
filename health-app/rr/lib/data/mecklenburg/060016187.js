@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Zoewee`s Restaurant", "addr_city": "Charlotte", "item_comments": "ZOEWEE`S RESTAURANT", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060016187", "score": 98.0, "addr_line1": "4112 N Tryon  St, Suite D"}}

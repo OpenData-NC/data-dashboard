@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Yum Yum Ice Cream", "addr_city": "Greensboro", "item_comments": "YUM YUM ICE CREAM", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041010461", "score": 98.5, "addr_line1": "1219  Spring Garden St"}}

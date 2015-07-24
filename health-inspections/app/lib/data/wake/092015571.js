@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Akari Express", "addr_city": "Raleigh", "item_comments": "AKARI EXPRESS", "activity_date": "07/16/2014", "county": "Wake", "facility_id": "092015571", "score": 96.5, "addr_line1": "2109-118 Avent-Ferry Rd"}}

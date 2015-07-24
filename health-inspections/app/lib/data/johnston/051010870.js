@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Arbys", "addr_city": "Kenly", "item_comments": "ARBYS", "activity_date": "07/07/2014", "county": "Johnston", "facility_id": "051010870", "score": 98.0, "addr_line1": "100b Truckstop Rd"}}

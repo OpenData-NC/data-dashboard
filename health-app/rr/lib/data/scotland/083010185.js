@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sneads Grove Convenient Store", "addr_city": "Laurel Hill", "item_comments": "FLIES WERE PRESENT IN THE STORE;", "activity_date": "07/28/2014", "county": "Scotland", "facility_id": "083010185", "score": 99.0, "addr_line1": "20501 Sneads Grove Rd"}}

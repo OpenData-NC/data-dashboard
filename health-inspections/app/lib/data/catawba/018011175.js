@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Clinton Tabernacle Ame Zion Ch", "addr_city": "Hickory", "item_comments": "NEED SERVE SAFE TYPE ANSI CLASS;REPAIR RUST REFRIGERATION AND LEAK AT SINK;", "activity_date": "06/27/2014", "county": "Catawba", "facility_id": "018011175", "score": 97.0, "addr_line1": "480 Catawba Valley Blvd Se"}}

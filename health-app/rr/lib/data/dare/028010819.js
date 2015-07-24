@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cafe Francos", "addr_city": "Kill Devil Hills", "item_comments": "CLEAN FLR UNDER ALL EQUIPTMENT;", "activity_date": "06/23/2014", "county": "Dare", "facility_id": "028010819", "score": 99.5, "addr_line1": "1712 N Croatan Hwy Unit 7"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees #1505583", "addr_city": "Albemarle", "item_comments": "HARDEES #1505583", "activity_date": "09/16/2014", "county": "Stanly", "facility_id": "084010369", "score": 95.0, "addr_line1": "705 Leonard Ave."}}

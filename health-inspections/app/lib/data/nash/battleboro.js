@@ -1,1 +1,0 @@
-{"results": [["Hong Kong Restaurant", "3922 Bishops Road", "Battleboro", "09/09/2014", 0.0, "064010445"], ["Carolina Bbq & Chicken", "6951 Hwy 4", "Battleboro", "08/21/2014", 95.0, "064010941"], ["Moores Grill", "5049 Hathaway Street", "Battleboro", "06/03/2014", 99.0, "064010092"]]}

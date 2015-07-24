@@ -1,1 +1,0 @@
-{"results": [["Pass the Salt", "138 Courthouse Road", "Currituck", "10/16/2014", 99.5, "027010323"], ["McDonalds", "2859 Caratoke Hwy", "Currituck", "05/19/2014", 99.5, "027010072"]]}

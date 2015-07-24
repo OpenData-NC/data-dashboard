@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks Coffee   #8245", "addr_city": "Chapel Hill", "item_comments": "STARBUCKS COFFEE   #8245", "activity_date": "09/17/2014", "county": "Orange", "facility_id": "068010371", "score": 98.5, "addr_line1": "103 E Franklin St"}}

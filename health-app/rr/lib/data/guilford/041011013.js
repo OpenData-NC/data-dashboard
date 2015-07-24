@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Biscuitville #157", "addr_city": "High Point", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C  OLDER FACILITY WITH OBSTACLES TO CLEANING;", "activity_date": "09/26/2014", "county": "Guilford", "facility_id": "041011013", "score": 99.5, "addr_line1": "1839 N Main St"}}

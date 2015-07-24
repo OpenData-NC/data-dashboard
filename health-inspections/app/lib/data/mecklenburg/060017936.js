@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fox and Hound Sports, Spirits and Fun", "addr_city": "Charlotte", "item_comments": "FOX AND HOUND SPORTS, SPIRITS AND FUN", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060017936", "score": 95.0, "addr_line1": "15235 John J Delaney"}}

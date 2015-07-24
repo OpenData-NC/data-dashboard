@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Beyond the Box", "addr_city": "Jamestown", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C, NO SERV SAFE CERTIFIED MANAGER;", "activity_date": "07/02/2014", "county": "Guilford", "facility_id": "041013289", "score": 98.0, "addr_line1": "7041 E Fork  Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Las Margaritas", "addr_city": "Garner", "item_comments": "LAS MARGARITAS", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092015441", "score": 97.5, "addr_line1": "231 Timber Dr"}}

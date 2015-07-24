@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dawg House Too", "addr_city": "Ocean Isle Beach", "item_comments": "NEED THIN PROBED THERMOMETER FOR MEASURING THIN FOODS.4 302.12 FOOD TEMPERATURE MEASURING DEVICES   PF;", "activity_date": "08/12/2014", "county": "Brunswick", "facility_id": "010010972", "score": 100.0, "addr_line1": "6415 Beach Dr."}}

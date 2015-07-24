@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tarbouch", "addr_city": "Raleigh", "item_comments": "2-102.12; Core; No certified foods safety manager on duty.;;;;;;;;;;;;;;3-501.13 ; Core; Thaw beef in refrigerator or cool running water or other approve methods;", "activity_date": "10/06/2014", "county": "Wake", "facility_id": "092016242", "score": 98.0, "addr_line1": "5645 Creedmoor Rd"}}

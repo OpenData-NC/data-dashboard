@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Wok", "addr_city": "Cary", "item_comments": "CHINA WOK", "activity_date": "07/01/2014", "county": "Wake", "facility_id": "092013627", "score": 96.5, "addr_line1": "2753 Nc Hwy 55"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Queen Anne's Events", "addr_city": "Wanchese", "item_comments": "REPAIR WALLS;DISHWASH MACHINE NOT DISPENSING CHEMICALS. CLEAN ICE MACHINE;", "activity_date": "06/25/2014", "county": "Dare", "facility_id": "028010120", "score": 98.0, "addr_line1": "1064 Old Wharf Road"}}

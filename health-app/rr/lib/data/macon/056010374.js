@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cash's Smokehouse Bbq", "addr_city": "Franklin", "item_comments": "2 402.11 EFFECTIVENESS HAIR RESTRAINTS   C HAIR RESTRAINTS MUST BE WORN BY FOOD HANDLERS.;", "activity_date": "08/11/2014", "county": "Macon", "facility_id": "056010374", "score": 99.5, "addr_line1": "1281 Georgia Rd"}}

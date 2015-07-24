@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dubs at Uncw", "addr_city": "Wilmington", "item_comments": ";;;6-501.11", "activity_date": "05/08/2014", "county": "New Hanover", "facility_id": "065011910", "score": 95.5, "addr_line1": "601 S College Rd"}}

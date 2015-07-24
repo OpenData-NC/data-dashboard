@@ -1,1 +1,0 @@
-{"results": [["Waffle House #1810", "5986 Financial Dr", "Norcross", "10/14/2014", 98.0, "012010443"]]}

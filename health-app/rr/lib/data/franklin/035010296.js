@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Common Grounds", "addr_city": "Bunn", "item_comments": "NOT IN COMPLIANCE   GENERAL COMMENT    SERVE SAFE NEEDED ASAP;NOT IN COMPLIANCE  MILK WAS OUT OF DATE;NOT IN COMPLIANCE  MILDEW GROWING IN ICE MACHINE;", "activity_date": "11/18/2014", "county": "Franklin", "facility_id": "035010296", "score": 98.0, "addr_line1": "20 Cheaves Rd"}}

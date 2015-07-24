@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taste of China", "addr_city": "Clayton", "item_comments": "TASTE OF CHINA", "activity_date": "07/22/2014", "county": "Johnston", "facility_id": "051010530", "score": 98.5, "addr_line1": "11831 Us 70 W."}}

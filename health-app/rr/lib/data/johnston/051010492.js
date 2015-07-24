@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Neuse Golf Club", "addr_city": "Clayton", "item_comments": "THE NEUSE GOLF CLUB", "activity_date": "07/29/2014", "county": "Johnston", "facility_id": "051010492", "score": 98.5, "addr_line1": "918 Birkdale Drive"}}

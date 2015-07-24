@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Edwards Mill Bar and Grill", "addr_city": "Raleigh", "item_comments": "EDWARDS MILL BAR AND GRILL", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092010196", "score": 96.5, "addr_line1": "3201-153 Edwards Mill Road"}}

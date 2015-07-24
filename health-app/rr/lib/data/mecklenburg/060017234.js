@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Leroy Fox", "addr_city": "Charlotte", "item_comments": "LEROY FOX", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060017234", "score": 96.0, "addr_line1": "705 S Sharon Amity Road"}}

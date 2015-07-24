@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Domino's Pizza", "addr_city": "Ahoskie", "item_comments": "DOMINO\\'S PIZZA", "activity_date": "09/09/2014", "county": "Hertford", "facility_id": "046010183", "score": 97.5, "addr_line1": "132 East Main Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pizza Palace", "addr_city": "Monroe", "item_comments": "PIZZA PALACE", "activity_date": "07/24/2014", "county": "Union", "facility_id": "090010823", "score": 92.0, "addr_line1": "5250a Old Charlotte Highway"}}

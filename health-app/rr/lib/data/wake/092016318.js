@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Firewurst", "addr_city": "Cary", "item_comments": ";;;;;;;;;;", "activity_date": "09/12/2014", "county": "Wake", "facility_id": "092016318", "score": 100.0, "addr_line1": "1377  Kildaire Farm Rd"}}

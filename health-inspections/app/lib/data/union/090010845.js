@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Special Touch Catering and Deli", "addr_city": "Indian Trail", "item_comments": "SPECIAL TOUCH CATERING AND DELI", "activity_date": "08/18/2014", "county": "Union", "facility_id": "090010845", "score": 100.0, "addr_line1": "1310 Wesley Chapel Stouts Road"}}

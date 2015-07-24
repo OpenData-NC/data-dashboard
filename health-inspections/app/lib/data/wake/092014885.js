@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hibachi Sushi #2", "addr_city": "Raleigh", "item_comments": "HIBACHI SUSHI #2", "activity_date": "08/19/2014", "county": "Wake", "facility_id": "092014885", "score": 94.5, "addr_line1": "8323 Creedmoor Rd"}}

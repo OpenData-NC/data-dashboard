@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway # 271", "addr_city": "Newport", "item_comments": ";;;;;;;;;;;;;", "activity_date": "10/13/2014", "county": "Carteret", "facility_id": "016010906", "score": 100.0, "addr_line1": "7061 Hwy 70"}}

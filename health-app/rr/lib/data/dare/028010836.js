@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kimballs Kitchen", "addr_city": "Duck", "item_comments": "CIELING PEELING....WALL....RAISE RACKS;NO DUMPSTER LIDS;", "activity_date": "06/17/2014", "county": "Dare", "facility_id": "028010836", "score": 99.0, "addr_line1": "1461 Duck Rd"}}

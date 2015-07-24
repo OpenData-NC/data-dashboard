@@ -1,1 +1,0 @@
-{"results": [["Bostick's Bp", "2183 Caddell Road", "Hoffman", "10/22/2014", 97.0, "077010310"], ["The Meeting Place", "3363 Us Hwy 1", "Hoffman", "10/22/2014", 85.5, "077010384"]]}

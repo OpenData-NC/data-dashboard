@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway P.O.D. - Wingate", "addr_city": "Wingate", "item_comments": "SUBWAY P.O.D. - WINGATE", "activity_date": "09/04/2014", "county": "Union", "facility_id": "090010995", "score": 98.0, "addr_line1": "515 Main Street"}}

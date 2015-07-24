@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Acapulco", "addr_city": "Granite Quarry", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C.A FEW AREAS OF THE WALLS NEED TO BE CLEANED AND WORKED ON.;", "activity_date": "07/25/2014", "county": "Rowan", "facility_id": "080010856", "score": 99.5, "addr_line1": "215 B N Salisbury Ave"}}

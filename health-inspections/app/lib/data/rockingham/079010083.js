@@ -1,1 +1,0 @@
-{"results": {"fac_name": "P & M Truckstop", "addr_city": "Stokesdale", "item_comments": "P & M TRUCKSTOP", "activity_date": "09/11/2014", "county": "Rockingham", "facility_id": "079010083", "score": 90.5, "addr_line1": "2221 Hwy 220 South"}}

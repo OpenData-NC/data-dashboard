@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Acme Food and Beverage", "addr_city": "Carrboro", "item_comments": "ACME FOOD AND BEVERAGE", "activity_date": "09/16/2014", "county": "Orange", "facility_id": "068010407", "score": 97.0, "addr_line1": "110 E Main Street"}}

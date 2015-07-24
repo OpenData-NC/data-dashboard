@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ashtens", "addr_city": "Southern Pines", "item_comments": "ASHTENS", "activity_date": "09/17/2014", "county": "Moore", "facility_id": "063010681", "score": 96.0, "addr_line1": "140 E New Hampshire Ave"}}

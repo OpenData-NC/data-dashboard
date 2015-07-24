@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kabob and Curry", "addr_city": "Raleigh", "item_comments": "KABOB AND CURRY", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092016608", "score": 94.0, "addr_line1": "2418 Hillsborough St"}}

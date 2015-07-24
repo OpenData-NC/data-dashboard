@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Black Pelican", "addr_city": "Kitty Hawk", "item_comments": "HATS;DUMPSTER LIDS;CEILING NEAR LINE;", "activity_date": "06/05/2014", "county": "Dare", "facility_id": "028010212", "score": 98.0, "addr_line1": "242 N Va Dare Tr"}}

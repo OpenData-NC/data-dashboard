@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Maggie's Galley", "addr_city": "Waynesville", "item_comments": "MAGGIE\\'S GALLEY", "activity_date": "09/30/2014", "county": "Haywood", "facility_id": "044010702", "score": 98.5, "addr_line1": "1374 Sulphur Storings Road"}}

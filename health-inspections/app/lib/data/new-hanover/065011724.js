@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Port City Java", "addr_city": "Carolina Beach", "item_comments": "6-501.12", "activity_date": "06/12/2014", "county": "New Hanover", "facility_id": "065011724", "score": 99.5, "addr_line1": "1328 N Lake Park Blv Suit 101"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Daly Cafe and Pub", "addr_city": "Morrisville", "item_comments": "DALY CAFE AND PUB", "activity_date": "09/05/2014", "county": "Wake", "facility_id": "092014980", "score": 94.0, "addr_line1": "930 Airport Blvd"}}

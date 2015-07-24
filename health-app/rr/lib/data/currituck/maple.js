@@ -1,1 +1,0 @@
-{"results": [["Currituck Co Detention Center", "413 Maple Road", "Maple", "09/10/2014", 99.5, "027010228"]]}

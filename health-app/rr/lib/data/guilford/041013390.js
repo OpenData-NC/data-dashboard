@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Imperial Koi", "addr_city": "Greensboro", "item_comments": "IMPERIAL KOI", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041013390", "score": 97.0, "addr_line1": "1941   New Garden Rd"}}

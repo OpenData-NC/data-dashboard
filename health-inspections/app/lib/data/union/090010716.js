@@ -1,1 +1,0 @@
-{"results": {"fac_name": "New China", "addr_city": "Monroe", "item_comments": "NEW CHINA", "activity_date": "08/06/2014", "county": "Union", "facility_id": "090010716", "score": 97.0, "addr_line1": "1684-C W. Franklin Street"}}

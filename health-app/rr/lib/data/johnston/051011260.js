@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Darlenes Cone Cave", "addr_city": "Four Oaks", "item_comments": "DARLENES CONE CAVE", "activity_date": "08/20/2014", "county": "Johnston", "facility_id": "051011260", "score": 100.0, "addr_line1": "108 N. Main St."}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dairy Queen-Avon", "addr_city": "Avon", "item_comments": "GENERAL CLEANING,  BASEBOARD;FLIES,;", "activity_date": "08/29/2014", "county": "Dare", "facility_id": "028010444", "score": 97.0, "addr_line1": "39774 Nc Hwy 12"}}

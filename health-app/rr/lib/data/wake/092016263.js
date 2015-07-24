@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dickeys Barbecue Pit #413", "addr_city": "Raleigh", "item_comments": "DICKEYS BARBECUE PIT #413", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092016263", "score": 100.0, "addr_line1": "6552 Glenwood  Ave"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Orient Garden", "addr_city": "Durham", "item_comments": "ORIENT GARDEN", "activity_date": "09/17/2014", "county": "Durham", "facility_id": "032011041", "score": 94.5, "addr_line1": "202 West Nc Hwy 54"}}

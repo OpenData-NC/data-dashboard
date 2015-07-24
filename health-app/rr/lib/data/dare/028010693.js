@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Aqua S", "addr_city": "Duck", "item_comments": "CUTTING BOARDS WORN, NEED TO BE REFINISHED/REPLACED.  DOOR ON REACH IN FRIDGE HOLDING CONDIMENTS NEEDS TO BE REPAIRED.;ICE MACHINE GROWING MOLD, NEEDS TO BE CLEANED.;", "activity_date": "08/26/2014", "county": "Dare", "facility_id": "028010693", "score": 99.0, "addr_line1": "1174 Duck Rd"}}

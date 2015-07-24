@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kentucky Fried Chicken #59", "addr_city": "Kinston", "item_comments": "KENTUCKY FRIED CHICKEN #59", "activity_date": "07/10/2014", "county": "Lenoir", "facility_id": "054010294", "score": 96.0, "addr_line1": "1613 W Vernon Ave"}}

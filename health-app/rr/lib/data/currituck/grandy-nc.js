@@ -1,1 +1,0 @@
-{"results": [["Mel's Diner", "6684 Caratoke Hwy.", "Grandy,nc", "06/18/2014", 99.0, "027010329"], ["Wiseguys Pies", "6614 Caratoke Hwy", "Grandy,nc", "06/04/2014", 98.0, "027010279"], ["Weeping Radish Restaurant and Pub", "6810 Carotank Hwy", "Grandy,nc", "05/14/2014", 99.0, "027010309"]]}

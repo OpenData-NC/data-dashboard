@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Panera Bread", "addr_city": "High Point", "item_comments": "PANERA BREAD", "activity_date": "09/18/2014", "county": "Guilford", "facility_id": "041011866", "score": 93.5, "addr_line1": "2400  Penny Rd"}}

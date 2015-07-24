@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dragon City", "addr_city": "High Point", "item_comments": "DRAGON CITY", "activity_date": "09/05/2014", "county": "Guilford", "facility_id": "041011812", "score": 93.0, "addr_line1": "274 Eastchester Dr"}}

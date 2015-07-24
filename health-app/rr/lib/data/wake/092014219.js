@@ -1,1 +1,0 @@
-{"results": {"fac_name": "A J S Food Mart", "addr_city": "Apex", "item_comments": "A J S FOOD MART", "activity_date": "08/01/2014", "county": "Wake", "facility_id": "092014219", "score": 89.0, "addr_line1": "6204 Ten Ten Road"}}

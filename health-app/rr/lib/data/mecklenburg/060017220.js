@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Birdsong Brewery", "addr_city": "Charlotte", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER  PROVIDE PIC THAT IS A CERTIFIED FOOD PROTECTION MANAGER  OBSERVED PIC ON SITE NOT A CFPM.;", "activity_date": "06/25/2014", "county": "Mecklenburg", "facility_id": "060017220", "score": 98.0, "addr_line1": "2315 N Davidson St"}}

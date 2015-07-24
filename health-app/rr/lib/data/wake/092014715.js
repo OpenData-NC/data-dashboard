@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Georginnas Pizza 1", "addr_city": "Morrisville", "item_comments": "GEORGINNAS PIZZA 1", "activity_date": "08/07/2014", "county": "Wake", "facility_id": "092014715", "score": 98.5, "addr_line1": "3536 Davis Drive"}}

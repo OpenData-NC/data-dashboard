@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Life Cafe", "addr_city": "Cary", "item_comments": "LIFE CAFE", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092014863", "score": 98.5, "addr_line1": "1700 Regency Pkway"}}

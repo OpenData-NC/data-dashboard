@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Grill at Wil Mar  The", "addr_city": "Raleigh", "item_comments": "GRILL AT WIL MAR  THE", "activity_date": "07/28/2014", "county": "Wake", "facility_id": "092013100", "score": 95.5, "addr_line1": "2300 Old Milburnie Rd"}}

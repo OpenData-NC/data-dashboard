@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Palestine Auction", "addr_city": "Albemarle", "item_comments": "THE PERSON IN CHARGE  PIC  MUST BE A CERTIFIED FOOD PROTECTION MANAGER.;", "activity_date": "06/20/2014", "county": "Stanly", "facility_id": "084010280", "score": 98.0, "addr_line1": "39075 Kemp Rd."}}

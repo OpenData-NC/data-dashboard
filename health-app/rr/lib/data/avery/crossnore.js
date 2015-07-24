@@ -1,1 +1,0 @@
-{"results": [["Miracle Grounds Coffee Shop", "9 Fountain Dr", "Crossnore", "10/06/2014", 98.0, "006010177"], ["Loaves & Fishes Catering", "176 Maple St", "Crossnore", "05/20/2014", 97.5, "006010135"]]}

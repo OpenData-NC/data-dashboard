@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bank of America Cafe", "addr_city": "High Point", "item_comments": "BANK OF AMERICA CAFE", "activity_date": "09/03/2014", "county": "Guilford", "facility_id": "041012234", "score": 100.0, "addr_line1": "4161  Piedmont Pkwy"}}

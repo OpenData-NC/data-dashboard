@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pennys Pizza and Sub Restaurant", "addr_city": "Albemarle", "item_comments": "PENNYS PIZZA AND SUB RESTAURANT", "activity_date": "09/16/2014", "county": "Stanly", "facility_id": "084010158", "score": 97.0, "addr_line1": "636-13 Nc 24/27 East"}}

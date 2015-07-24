@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kfc of Indian Trail", "addr_city": "Indian Trail", "item_comments": "KFC OF INDIAN TRAIL", "activity_date": "08/28/2014", "county": "Union", "facility_id": "090010473", "score": 96.5, "addr_line1": "13900 E. Independence Blvd."}}

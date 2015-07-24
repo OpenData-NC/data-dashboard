@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees  #6 1337", "addr_city": "Wilmington", "item_comments": ";;4-601.11 Equipment, Food-Contact Surfaces, Nonfood-Contact Surfaces, and Utensils (B) and (C)  CLEAN EQUIPMENT;4-601.11", "activity_date": "05/13/2014", "county": "New Hanover", "facility_id": "065010107", "score": 95.0, "addr_line1": "429 S College Rd"}}

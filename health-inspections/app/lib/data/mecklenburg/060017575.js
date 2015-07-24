@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kentucky Fried Chicken E320059", "addr_city": "Charlotte", "item_comments": "KENTUCKY FRIED CHICKEN E320059", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060017575", "score": 98.5, "addr_line1": "8800 Pineville-Matthews Rd"}}

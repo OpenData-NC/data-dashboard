@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bellacino's Pizza & Grinders", "addr_city": "Gastonia", "item_comments": "BELLACINO\\'S PIZZA & GRINDERS", "activity_date": "09/10/2014", "county": "Gaston", "facility_id": "036010659", "score": 97.0, "addr_line1": "1709 Neal Hawkins Rd"}}

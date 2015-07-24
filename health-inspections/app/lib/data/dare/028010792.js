@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Big Als", "addr_city": "Manteo", "item_comments": "REHEAT LEFTOVERS TO 165 THEN HOLD AT 135;CLEAN ROLL CARTS;USE CLEAN CXONTAINERS FOR LEFTOVER FOOD...;", "activity_date": "05/30/2014", "county": "Dare", "facility_id": "028010792", "score": 97.5, "addr_line1": "716 Hwy 64"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Riegelwood", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "07/03/2014", "county": "Columbus", "facility_id": "024010564", "score": 0.0, "addr_line1": "Unit 202 Riegelwood Shop. Cntr"}}

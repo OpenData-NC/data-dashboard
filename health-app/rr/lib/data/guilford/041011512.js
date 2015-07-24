@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Putt Putt Golf", "addr_city": "High Point", "item_comments": "PUTT PUTT GOLF", "activity_date": "09/16/2014", "county": "Guilford", "facility_id": "041011512", "score": 98.0, "addr_line1": "2418 N Main St"}}

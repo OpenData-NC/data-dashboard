@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bridge Tender", "addr_city": "Wilmington", "item_comments": "6-501.12", "activity_date": "05/30/2014", "county": "New Hanover", "facility_id": "065011375", "score": 95.0, "addr_line1": "1414 Airlie Rd"}}

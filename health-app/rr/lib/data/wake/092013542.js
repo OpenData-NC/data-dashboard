@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chick Fil A", "addr_city": "Wake Forest", "item_comments": "CHICK FIL A", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092013542", "score": 94.0, "addr_line1": "11730 Retail Dr"}}

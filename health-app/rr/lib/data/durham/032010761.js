@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ibm Cafeteria  306", "addr_city": "Rtp", "item_comments": "IBM CAFETERIA  306", "activity_date": "09/19/2014", "county": "Durham", "facility_id": "032010761", "score": 98.0, "addr_line1": "Davis Dr"}}

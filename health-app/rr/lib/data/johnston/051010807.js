@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Country Mart", "addr_city": "Benson", "item_comments": "COUNTRY MART", "activity_date": "08/28/2014", "county": "Johnston", "facility_id": "051010807", "score": 93.0, "addr_line1": "1108 Nc 242 N"}}

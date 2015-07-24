@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Havanas", "addr_city": "Wilmington", "item_comments": ";;;3-501.16", "activity_date": "05/21/2014", "county": "New Hanover", "facility_id": "065012112", "score": 98.5, "addr_line1": "6722 Wrightsville Ave"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #2976", "addr_city": "Smithfield", "item_comments": "SUBWAY #2976", "activity_date": "07/09/2014", "county": "Johnston", "facility_id": "051010994", "score": 97.0, "addr_line1": "1299 N Brightleaf Blvd"}}

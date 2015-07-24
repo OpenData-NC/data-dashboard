@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sidneys Cafe and Bistro", "addr_city": "Elizabeth City", "item_comments": "WALL BY DISH SINK DAMAGED. SHELF IN STORAGE NEEDS TO BE 6  OFF FLOOR.;SLICER HAD BUILD UP   REMOVE TOP FOR PROPER CLEANING.;", "activity_date": "06/02/2014", "county": "Pasquotank", "facility_id": "070010294", "score": 98.0, "addr_line1": "507 East Main Street"}}

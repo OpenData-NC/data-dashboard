@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Trent Restaurant", "addr_city": "Pollocksville", "item_comments": "TRENT RESTAURANT", "activity_date": "09/20/2014", "county": "Jones", "facility_id": "052010012", "score": 95.0, "addr_line1": "129 Main Street"}}

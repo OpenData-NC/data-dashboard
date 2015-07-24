@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Theatre Now", "addr_city": "Wilmington", "item_comments": ";;;CHEESE CAKE BATTER NOT COOLING RAPIDLY CDI DISCARDED3-501.15 Cooling Methods.;;;3-501.17", "activity_date": "05/08/2014", "county": "New Hanover", "facility_id": "065012180", "score": 99.5, "addr_line1": "19 S 10th St"}}

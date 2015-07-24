@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kristys  Place", "addr_city": "Edenton", "item_comments": "HAND SOAP AND PAPER TOWELS MUST BE AVAILABLE AT HAND SINKS AT ALL TIMES.;CLEAN/REPAIR FLOORS.;DIRTY DISHES FOUND.;", "activity_date": "08/18/2014", "county": "Chowan", "facility_id": "021010080", "score": 96.5, "addr_line1": "321 S. Broad St"}}

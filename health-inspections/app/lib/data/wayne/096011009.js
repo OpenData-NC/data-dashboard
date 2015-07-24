@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China House Asian Fusion Bistro Inc.", "addr_city": "Goldsboro", "item_comments": "All potentially hazardous foods &lt;45 degrees.;", "activity_date": "08/05/2014", "county": "Wayne", "facility_id": "096011009", "score": 0.0, "addr_line1": "205 B South Berkeley Blvd."}}

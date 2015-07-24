@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mad Crabber", "addr_city": "Avon", "item_comments": "EMP DRINK W/ LID N STRAW;CLEAN FLOORS BEHIND LINE;MAKE UP SANI BUCKETS TO KEEP RAGS IN;", "activity_date": "06/19/2014", "county": "Dare", "facility_id": "028010600", "score": 98.0, "addr_line1": "40606 Nc Hwy 12"}}

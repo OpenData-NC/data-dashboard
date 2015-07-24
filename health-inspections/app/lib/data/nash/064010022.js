@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Central Cafe", "addr_city": "Rocky Mount", "item_comments": "NOT IN COMPLIANCE; REPEAT VIOLATION;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT IN COMPLIANCE;", "activity_date": "05/02/2014", "county": "Nash", "facility_id": "064010022", "score": 97.0, "addr_line1": "132 South Church Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Panera Bread #1137", "addr_city": "Indian Trail", "item_comments": "PANERA BREAD #1137", "activity_date": "08/07/2014", "county": "Union", "facility_id": "090010730", "score": 97.5, "addr_line1": "14035 Highway 74"}}

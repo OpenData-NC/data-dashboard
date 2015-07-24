@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Poppy Seed Market", "addr_city": "Raleigh", "item_comments": "POPPY SEED MARKET", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092014599", "score": 96.0, "addr_line1": "8801 107 Leadmine Rd"}}

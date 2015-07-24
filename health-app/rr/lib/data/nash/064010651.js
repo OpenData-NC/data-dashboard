@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees  1212", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT IN COMPLIANCE.  flies are present.;", "activity_date": "10/29/2014", "county": "Nash", "facility_id": "064010651", "score": 99.0, "addr_line1": "600 N Wesleyan Blvd"}}

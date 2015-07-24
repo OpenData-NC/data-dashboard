@@ -1,1 +1,0 @@
-{"results": [["Valley Cafe", "181 Hwy 107", "Tuckasegee", "09/22/2014", 97.0, "050010633"], ["Ken's Grocery Snack Bar", "Hwy 107 South", "Tuckasegee", "08/13/2014", 98.0, "050010081"]]}

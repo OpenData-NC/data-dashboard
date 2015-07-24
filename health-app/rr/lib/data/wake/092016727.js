@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Harris Teeter #235 Starbucks", "addr_city": "Cary", "item_comments": "HARRIS TEETER #235 STARBUCKS", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092016727", "score": 99.5, "addr_line1": "7145 O'Kelly Chapel Road"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes Subs", "addr_city": "Raleigh", "item_comments": "JERSEY MIKES SUBS", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092015488", "score": 98.0, "addr_line1": "280 Meeting St"}}

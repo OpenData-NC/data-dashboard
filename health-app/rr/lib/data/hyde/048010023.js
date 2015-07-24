@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Howard's Pub Inc", "addr_city": "Ocracoke", "item_comments": "HOWARD\\'S PUB INC", "activity_date": "09/24/2014", "county": "Hyde", "facility_id": "048010023", "score": 98.5, "addr_line1": "1175 Irvin Garrish Hwy"}}

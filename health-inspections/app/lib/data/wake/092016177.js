@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Travinia Italiian Kitchen", "addr_city": "Raleigh", "item_comments": "TRAVINIA ITALIIAN KITCHEN", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092016177", "score": 96.5, "addr_line1": "1301 Market Center Dr"}}

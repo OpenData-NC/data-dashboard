@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway of Waxhaw", "addr_city": "Waxhaw", "item_comments": "SUBWAY OF WAXHAW", "activity_date": "07/24/2014", "county": "Union", "facility_id": "090010638", "score": 99.5, "addr_line1": "3905 a Providence Road"}}

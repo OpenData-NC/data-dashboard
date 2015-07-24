@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cheri's Restaurant", "addr_city": "Surf City", "item_comments": "CHERI\\'S RESTAURANT", "activity_date": "09/18/2014", "county": "Pender", "facility_id": "071010413", "score": 100.0, "addr_line1": "602b Roland Ave."}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Long Island Express Pizza and Deli", "addr_city": "Clayton", "item_comments": "LONG ISLAND EXPRESS PIZZA AND DELI", "activity_date": "08/14/2014", "county": "Johnston", "facility_id": "051011138", "score": 98.0, "addr_line1": "10368 Hwy 70 West"}}

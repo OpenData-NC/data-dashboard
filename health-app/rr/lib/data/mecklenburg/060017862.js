@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fusion 108", "addr_city": "Huntersville", "item_comments": "FUSION 108", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060017862", "score": 90.0, "addr_line1": "10010a Rose Commons Drive"}}

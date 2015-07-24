@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dairy Queen", "addr_city": "Wake Forest", "item_comments": "DAIRY QUEEN", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092014392", "score": 97.0, "addr_line1": "12271 Capital Blvd."}}

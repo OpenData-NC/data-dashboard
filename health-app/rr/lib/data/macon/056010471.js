@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mountaintop Wine Shoppe Llc", "addr_city": "Highlands", "item_comments": "NO POINTS TAKEN   SWEEP THE FLOOR UNDER THE REFRIGERATOR.;", "activity_date": "05/20/2014", "county": "Macon", "facility_id": "056010471", "score": 100.0, "addr_line1": "269 Oak Street"}}

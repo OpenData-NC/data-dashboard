@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Claddagh The", "addr_city": "High Point", "item_comments": "CLADDAGH THE", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041012585", "score": 98.5, "addr_line1": "130 E Parris Av"}}

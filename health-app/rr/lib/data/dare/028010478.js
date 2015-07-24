@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kmart Kcafe", "addr_city": "Kill Devil Hills", "item_comments": "NEEDS SS;", "activity_date": "05/16/2014", "county": "Dare", "facility_id": "028010478", "score": 98.0, "addr_line1": "1901 North Croatan Highway"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #2615", "addr_city": "Raleigh", "item_comments": "SUBWAY #2615", "activity_date": "08/11/2014", "county": "Wake", "facility_id": "092014221", "score": 96.0, "addr_line1": "3416- 112 Poole Rd"}}

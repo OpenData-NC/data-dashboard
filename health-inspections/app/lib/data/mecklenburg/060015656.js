@@ -1,1 +1,0 @@
-{"results": {"fac_name": "On the Green Deli", "addr_city": "Charlotte", "item_comments": "ON THE GREEN DELI", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060015656", "score": 98.0, "addr_line1": "13840 Ballantyne Corporate Pl"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Christ School", "addr_city": "Arden", "item_comments": ";;;;;;;;;;;;4-602.13; Core; Inside bottom of one door refrigeration unit in need of cleaning.;;;;4-602.11; Inside areas of ice machine in need of cleaning.;;;", "activity_date": "08/28/2014", "county": "Buncombe", "facility_id": "011010991", "score": 98.0, "addr_line1": "500 Christ School Rd"}}

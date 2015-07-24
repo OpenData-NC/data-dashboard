@@ -1,1 +1,0 @@
-{"results": {"fac_name": "La Carreta", "addr_city": "Weaverville", "item_comments": ";;4-602.11; Clean blue container holding ice scoop. Clean inside upper portion of ice machine.;;;;;;;;", "activity_date": "09/17/2014", "county": "Buncombe", "facility_id": "011012249", "score": 98.5, "addr_line1": "61 Weaver Blvd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hwy 55 Burgers Shakes and Fries", "addr_city": "Sanford", "item_comments": "HWY 55 BURGERS SHAKES AND FRIES", "activity_date": "09/05/2014", "county": "Lee", "facility_id": "053010501", "score": 99.0, "addr_line1": "3252 Hwy 87 S"}}

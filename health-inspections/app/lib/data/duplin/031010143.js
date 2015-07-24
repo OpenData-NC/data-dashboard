@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Shawns Restaurant", "addr_city": "Wallace", "item_comments": "SHAWNS RESTAURANT", "activity_date": "07/21/2014", "county": "Duplin", "facility_id": "031010143", "score": 92.0, "addr_line1": "530 N Norwood St"}}

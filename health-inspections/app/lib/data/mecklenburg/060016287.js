@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cedarland Restaurant", "addr_city": "Charlotte", "item_comments": "3 202.15 PACKAGE INTEGRITY   PF. OBSERVED ONE DENTED CAN OF OLIVES. CDI  CAN OF OLIVES WERE VOLUNTARILY DISCARDED.;", "activity_date": "08/14/2014", "county": "Mecklenburg", "facility_id": "060016287", "score": 99.0, "addr_line1": "4832 Central Ave"}}

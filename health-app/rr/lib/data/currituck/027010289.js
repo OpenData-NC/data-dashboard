@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bluewater Seafood Market", "addr_city": "Corolla,nc", "item_comments": "ALL KITCHEN WORKERS MUST WEAR HAIR RESTRAINTS.;", "activity_date": "08/12/2014", "county": "Currituck", "facility_id": "027010289", "score": 99.0, "addr_line1": "501c Old Stoney  Rd"}}

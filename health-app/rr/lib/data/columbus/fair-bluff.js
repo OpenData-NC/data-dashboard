@@ -1,1 +1,0 @@
-{"results": [["Johnny's Drive-In, Inc.", "899 Main Street", "Fair Bluff", "10/23/2014", 98.5, "024010035"], ["Yokos Hibachi", "1092 Main Street", "Fair Bluff", "10/14/2014", 96.5, "024010667"], ["Fair Bluff Shop-N-Save", "945 Main St.", "Fair Bluff", "06/23/2014", 95.5, "024010660"]]}

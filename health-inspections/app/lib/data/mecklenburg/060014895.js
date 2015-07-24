@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendy's #56", "addr_city": "Charlotte", "item_comments": "WENDY\\'S #56", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060014895", "score": 98.0, "addr_line1": "16055 Johnston Rd"}}

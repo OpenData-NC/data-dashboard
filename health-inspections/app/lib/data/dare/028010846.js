@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pizza Hut #28314", "addr_city": "Manteo", "item_comments": "FLIES;BULB SHIELD;CLEANING WALKIN FLRS, REFRIG DOORS, CARTS, RACKS;", "activity_date": "06/30/2014", "county": "Dare", "facility_id": "028010846", "score": 96.5, "addr_line1": "204 Hwy 64"}}

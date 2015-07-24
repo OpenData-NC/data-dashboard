@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nashville Diner", "addr_city": "Nashville", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "07/25/2014", "county": "Nash", "facility_id": "064010923", "score": 0.0, "addr_line1": "309 Curtis Street"}}

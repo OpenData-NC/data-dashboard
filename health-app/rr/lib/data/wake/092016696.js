@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Johnnys Pizza", "addr_city": "Apex", "item_comments": "JOHNNYS PIZZA", "activity_date": "07/01/2014", "county": "Wake", "facility_id": "092016696", "score": 100.0, "addr_line1": "8759 Holly Springs Road"}}

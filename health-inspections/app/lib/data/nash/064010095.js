@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nash General Hospital", "addr_city": "Rocky Mount", "item_comments": "NOT OBSERVED;NOT IN COMPLIANCE.  Flies present.;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "06/04/2014", "county": "Nash", "facility_id": "064010095", "score": 99.0, "addr_line1": "2460 Curtis Ellis Drive"}}

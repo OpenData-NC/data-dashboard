@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Piggly Wiggly Deli", "addr_city": "Burgaw", "item_comments": "FOOD DELI MEAT NOT PROPERLY DATED.;6 501.111 CONTROLLING PESTS   PF;", "activity_date": "10/22/2014", "county": "Pender", "facility_id": "071010271", "score": 96.5, "addr_line1": "103 S Dudley St"}}

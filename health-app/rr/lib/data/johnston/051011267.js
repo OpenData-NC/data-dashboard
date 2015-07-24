@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin Donuts #340396", "addr_city": "Clayton", "item_comments": "DUNKIN DONUTS #340396", "activity_date": "07/02/2014", "county": "Johnston", "facility_id": "051011267", "score": 95.5, "addr_line1": "700 Enterprise Dr"}}

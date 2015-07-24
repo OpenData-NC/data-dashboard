@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quality Inn Food Service", "addr_city": "Roanoke Rapids", "item_comments": "QUALITY INN FOOD SERVICE", "activity_date": "09/03/2014", "county": "Halifax", "facility_id": "042010420", "score": 97.5, "addr_line1": "1914 Julian Allsbrook Hwy"}}

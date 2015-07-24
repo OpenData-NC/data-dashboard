@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Giovannis Pizza & Pasta", "addr_city": "Denver", "item_comments": "GIOVANNIS PIZZA & PASTA", "activity_date": "09/11/2014", "county": "Lincoln", "facility_id": "055010335", "score": 99.5, "addr_line1": "3738 Hwy 16 N"}}

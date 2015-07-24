@@ -1,1 +1,0 @@
-{"results": [["Tuscany Gardens/Tom & Jerrys Catering", "6212  Technology Dr", "Brown Summit", "08/22/2014", 97.5, "041012706"], ["Snack N Soda #4", "7212  Browns Summit Rd", "Brown Summit", "07/21/2014", 94.0, "041012954"], ["Crooked Tree Golf Course Kitchen", "7665 Caber Rd", "Brown Summit", "06/03/2014", 96.0, "041012296"]]}

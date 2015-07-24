@@ -1,1 +1,0 @@
-{"results": {"fac_name": "La Pasadita", "addr_city": "Warsaw", "item_comments": "LA PASADITA", "activity_date": "09/19/2014", "county": "Duplin", "facility_id": "031010536", "score": 96.5, "addr_line1": "125 W. College St."}}

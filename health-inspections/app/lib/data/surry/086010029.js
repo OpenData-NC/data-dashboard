@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Aunt Bea's #5", "addr_city": "Pilot Mountain", "item_comments": "AUNT BEA\\'S #5", "activity_date": "09/18/2014", "county": "Surry", "facility_id": "086010029", "score": 97.0, "addr_line1": "642 S Key Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hickory Log Family Restaurant", "addr_city": "Spindale", "item_comments": "HICKORY LOG FAMILY RESTAURANT", "activity_date": "09/12/2014", "county": "Rutherford", "facility_id": "081010698", "score": 91.0, "addr_line1": "239 N Main St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jaars Cafeteria", "addr_city": "Waxhaw", "item_comments": "JAARS CAFETERIA", "activity_date": "08/13/2014", "county": "Union", "facility_id": "090010791", "score": 98.5, "addr_line1": "7405 Jaars Road"}}

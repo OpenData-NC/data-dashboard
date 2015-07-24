@@ -1,1 +1,0 @@
-{"results": [["Rj's Famous", "7105 Hwy 32 N", "Roper", "08/13/2014", 98.5, "094010111"], ["Cypress Manor", "503 West Buncombe St.", "Roper", "07/14/2014", 98.5, "094010095"]]}

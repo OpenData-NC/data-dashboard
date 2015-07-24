@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Darrell's Restaurant Inc", "addr_city": "Manteo", "item_comments": "COVER FOOD IN FRIDGE;REFINISH RUSTY RACKS IN FREEZER;HAND TOWELS NEEDED IN KITCHEN NEAR HAND SINK;", "activity_date": "05/12/2014", "county": "Dare", "facility_id": "028010031", "score": 97.0, "addr_line1": "521 Hwy 64/264"}}

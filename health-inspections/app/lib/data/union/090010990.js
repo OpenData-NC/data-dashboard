@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Spi Express #6", "addr_city": "Marshville", "item_comments": "SPI EXPRESS #6", "activity_date": "07/16/2014", "county": "Union", "facility_id": "090010990", "score": 94.5, "addr_line1": "6706 E. Marshville Blvd."}}

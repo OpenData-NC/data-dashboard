@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hickory Tavern Wesley Chapel", "addr_city": "Wesley Chapel,", "item_comments": "HICKORY TAVERN WESLEY CHAPEL", "activity_date": "07/18/2014", "county": "Union", "facility_id": "090010898", "score": 95.0, "addr_line1": "6400 Weddington Monroe Road"}}

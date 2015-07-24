@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Biscuit King 3", "addr_city": "Lexingt0n", "item_comments": "BISCUIT KING 3", "activity_date": "09/15/2014", "county": "Davidson", "facility_id": "029010834", "score": 96.0, "addr_line1": "2208 S0uth Main St"}}

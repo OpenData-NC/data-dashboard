@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles", "addr_city": "Hendersonville", "item_comments": "BOJANGLES", "activity_date": "09/25/2014", "county": "Henderson", "facility_id": "045010419", "score": 98.0, "addr_line1": "1901 Four Seasons Blvd"}}

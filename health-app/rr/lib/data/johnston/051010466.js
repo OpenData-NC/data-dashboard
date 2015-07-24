@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rockin Comet Diner", "addr_city": "Clayton", "item_comments": "ROCKIN COMET DINER", "activity_date": "08/26/2014", "county": "Johnston", "facility_id": "051010466", "score": 98.5, "addr_line1": "11637 Hwy 70 W."}}

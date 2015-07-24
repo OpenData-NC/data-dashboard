@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tortuga Grille", "addr_city": "Troutman", "item_comments": "TORTUGA GRILLE", "activity_date": "09/03/2014", "county": "Iredell", "facility_id": "049011264", "score": 98.0, "addr_line1": "628 S Main Street"}}

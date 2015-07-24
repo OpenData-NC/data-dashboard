@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Emerald Lake Grille", "addr_city": "Matthews", "item_comments": "EMERALD LAKE GRILLE", "activity_date": "07/23/2014", "county": "Union", "facility_id": "090011028", "score": 95.5, "addr_line1": "9750 Tournament Drive"}}

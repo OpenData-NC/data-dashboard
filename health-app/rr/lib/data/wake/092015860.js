@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles #45", "addr_city": "Rolesville", "item_comments": "BOJANGLES #45", "activity_date": "08/20/2014", "county": "Wake", "facility_id": "092015860", "score": 96.5, "addr_line1": "900 S Main St"}}

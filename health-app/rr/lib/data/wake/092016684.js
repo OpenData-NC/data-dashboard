@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Queen", "addr_city": "Raleigh", "item_comments": "CHINA QUEEN", "activity_date": "08/29/2014", "county": "Wake", "facility_id": "092016684", "score": 96.5, "addr_line1": "2233-103 Avent Ferry Rd"}}

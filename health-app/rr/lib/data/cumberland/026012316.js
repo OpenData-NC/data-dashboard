@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ruby Tuesday #4997", "addr_city": "Fayetteville", "item_comments": "RUBY TUESDAY #4997", "activity_date": "09/19/2014", "county": "Cumberland", "facility_id": "026012316", "score": 95.5, "addr_line1": "1936 Cedar Creek Rd"}}

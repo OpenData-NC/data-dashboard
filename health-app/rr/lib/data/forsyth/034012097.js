@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Moe's Southwest Grill #260", "addr_city": "Winston Salem", "item_comments": "MOE\\'S SOUTHWEST GRILL #260", "activity_date": "09/19/2014", "county": "Forsyth", "facility_id": "034012097", "score": 98.0, "addr_line1": "206 S Stratford Rd"}}

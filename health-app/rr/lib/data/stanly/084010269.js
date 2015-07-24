@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #27622", "addr_city": "Norwood", "item_comments": "5 203.12 TOILETS AND URINALS   C CLEAN THE TOILET IN WOMEN&apos;S RESTROOM.;", "activity_date": "11/12/2014", "county": "Stanly", "facility_id": "084010269", "score": 100.0, "addr_line1": "850 Chad Rd"}}

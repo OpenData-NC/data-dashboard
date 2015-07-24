@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Campbells Diner", "addr_city": "Fuquay Varina", "item_comments": "CAMPBELLS DINER", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092010119", "score": 95.5, "addr_line1": "715 N. Main St"}}

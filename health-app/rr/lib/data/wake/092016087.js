@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Yamato", "addr_city": "Apex", "item_comments": "YAMATO", "activity_date": "07/09/2014", "county": "Wake", "facility_id": "092016087", "score": 97.0, "addr_line1": "700 E Williams St"}}

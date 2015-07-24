@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ichiban", "addr_city": "Salisbury", "item_comments": "ICHIBAN", "activity_date": "09/10/2014", "county": "Rowan", "facility_id": "080010276", "score": 98.5, "addr_line1": "1005 Klumac Rd"}}

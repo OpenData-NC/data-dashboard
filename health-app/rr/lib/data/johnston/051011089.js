@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Stormin Normans", "addr_city": "Kenly", "item_comments": "STORMIN NORMANS", "activity_date": "08/22/2014", "county": "Johnston", "facility_id": "051011089", "score": 98.5, "addr_line1": "404 S Church St"}}

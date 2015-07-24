@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Buffalo Wild Wings # 130", "addr_city": "High Point", "item_comments": "BUFFALO WILD WINGS # 130", "activity_date": "09/12/2014", "county": "Guilford", "facility_id": "041012762", "score": 97.5, "addr_line1": "5836  Samet Dr"}}

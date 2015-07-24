@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Barberitos", "addr_city": "High Point", "item_comments": "BARBERITOS", "activity_date": "09/08/2014", "county": "Guilford", "facility_id": "041012754", "score": 97.5, "addr_line1": "1231-118  Eastchester Dr"}}

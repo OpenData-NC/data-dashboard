@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Smokin' D'S Grill", "addr_city": "Pilot Mountain", "item_comments": "SMOKIN\\' D\\'S GRILL", "activity_date": "08/19/2014", "county": "Surry", "facility_id": "086010448", "score": 92.5, "addr_line1": "711 Hwy 52 Bypass"}}

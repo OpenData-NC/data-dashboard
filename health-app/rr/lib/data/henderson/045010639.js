@@ -1,1 +1,0 @@
-{"results": {"fac_name": "West First Wood Fired Pizza", "addr_city": "Hendersonville", "item_comments": "WEST FIRST WOOD FIRED PIZZA", "activity_date": "09/25/2014", "county": "Henderson", "facility_id": "045010639", "score": 98.0, "addr_line1": "101- B West First St."}}

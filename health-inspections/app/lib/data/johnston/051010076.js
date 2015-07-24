@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jones Lunch", "addr_city": "Clayton", "item_comments": "JONES LUNCH", "activity_date": "09/04/2014", "county": "Johnston", "facility_id": "051010076", "score": 98.5, "addr_line1": "415 E Main St"}}

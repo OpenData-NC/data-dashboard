@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King #6216", "addr_city": "Clayton", "item_comments": "BURGER KING #6216", "activity_date": "08/07/2014", "county": "Johnston", "facility_id": "051010017", "score": 97.5, "addr_line1": "101 South Boling Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hwy 55 Burgers, Shakes and Fries", "addr_city": "Garner", "item_comments": "HWY 55 BURGERS, SHAKES AND FRIES", "activity_date": "07/10/2014", "county": "Johnston", "facility_id": "051010858", "score": 93.5, "addr_line1": "152 Bratton Drive"}}

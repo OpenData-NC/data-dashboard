@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees #1329", "addr_city": "Castle Hayne", "item_comments": ";;;;;;;6-501.12", "activity_date": "05/20/2014", "county": "New Hanover", "facility_id": "065010109", "score": 99.0, "addr_line1": "5601 Castle Hayne Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles #18 (Hilltop)", "addr_city": "Monroe", "item_comments": "BOJANGLES #18 (HILLTOP)", "activity_date": "08/13/2014", "county": "Union", "facility_id": "090010706", "score": 97.5, "addr_line1": "555 E. Roosevelt Blvd."}}

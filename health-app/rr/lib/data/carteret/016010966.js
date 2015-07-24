@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Prime Ten Seventy Nine Bar", "addr_city": "Atlantic Beach", "item_comments": ";;;;;;;;;;;;;;;;Clean mold from gaskets on reach-in coolers.;", "activity_date": "09/25/2014", "county": "Carteret", "facility_id": "016010966", "score": 99.5, "addr_line1": "2717 West Fort Macon Road"}}

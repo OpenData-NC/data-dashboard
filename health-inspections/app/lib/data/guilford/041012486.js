@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #29182", "addr_city": "Greensboro", "item_comments": "3 501.16  A  20 A B  I II TOMATOES   PHILLY STEAK OUT OF TEMP   45F MAINTAIN  / 41F TEMPS B/W 41 45F, NO PTS. DEDUCTED TILL ON/BEFORE JAN. 1,2019.;", "activity_date": "08/08/2014", "county": "Guilford", "facility_id": "041012486", "score": 100.0, "addr_line1": "3011  Spring Garden St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King #722", "addr_city": "Wingate", "item_comments": "BURGER KING #722", "activity_date": "07/01/2014", "county": "Union", "facility_id": "090011014", "score": 0.0, "addr_line1": "3018 Hwy 74"}}

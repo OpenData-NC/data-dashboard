@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nzinga's Breakfast Cafe", "addr_city": "Durham", "item_comments": "NZINGA\\'S BREAKFAST CAFE", "activity_date": "09/11/2014", "county": "Durham", "facility_id": "032012406", "score": 96.0, "addr_line1": "826110 Fayetteville St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Comfort Suites Cary", "addr_city": "Cary", "item_comments": "COMFORT SUITES CARY", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092016008", "score": 100.0, "addr_line1": "350 Asheville Ave"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Airport Cafe", "addr_city": "Richlands", "item_comments": "AIRPORT CAFE", "activity_date": "09/23/2014", "county": "Onslow", "facility_id": "067010944", "score": 95.0, "addr_line1": "264 Albert J. Ellis Airport Rd"}}

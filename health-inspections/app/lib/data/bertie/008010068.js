@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bunns Barbeque", "addr_city": "Windsor", "item_comments": "NO CERTIFICATION;PAINTING UNDERWAY AT TIME OF INSPECTION;NON NSF EQUIPMENT PIECES;", "activity_date": "07/29/2014", "county": "Bertie", "facility_id": "008010068", "score": 97.0, "addr_line1": "127 N. King St."}}

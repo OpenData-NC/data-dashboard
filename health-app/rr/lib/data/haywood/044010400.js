@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fat Buddies Ribs & Bbq", "addr_city": "Waynesville", "item_comments": "FAT BUDDIES RIBS & BBQ", "activity_date": "09/17/2014", "county": "Haywood", "facility_id": "044010400", "score": 0.0, "addr_line1": "193 Russ Ave"}}

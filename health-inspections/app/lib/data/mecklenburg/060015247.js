@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendy`s #558", "addr_city": "Mint Hill", "item_comments": "WENDY`S #558", "activity_date": "09/03/2014", "county": "Mecklenburg", "facility_id": "060015247", "score": 97.5, "addr_line1": "6849 Matthews-Mint Hill Rd"}}

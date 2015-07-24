@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chinatown Buffet - Indian Trail", "addr_city": "Indian Trail", "item_comments": "CHINATOWN BUFFET - INDIAN TRAIL", "activity_date": "08/18/2014", "county": "Union", "facility_id": "090010753", "score": 96.0, "addr_line1": "140 Highway 74 East"}}

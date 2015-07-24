@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kountry Korner Restaurant", "addr_city": "Chadbourn", "item_comments": "KOUNTRY KORNER RESTAURANT", "activity_date": "09/25/2014", "county": "Columbus", "facility_id": "024010479", "score": 96.5, "addr_line1": "2686 Haynes Lennon Hwy"}}

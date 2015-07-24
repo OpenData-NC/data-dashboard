@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pizza Corner", "addr_city": "Wallace", "item_comments": "PIZZA CORNER", "activity_date": "09/02/2014", "county": "Duplin", "facility_id": "031010295", "score": 93.0, "addr_line1": "201 S Norwood St"}}

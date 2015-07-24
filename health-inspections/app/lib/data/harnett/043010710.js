@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sonny's #3", "addr_city": "Dunn", "item_comments": "SONNY\\'S #3", "activity_date": "09/03/2014", "county": "Harnett", "facility_id": "043010710", "score": 96.0, "addr_line1": "720 Carolina Drive"}}

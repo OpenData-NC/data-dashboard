@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brick House Grill", "addr_city": "Mt. Holly", "item_comments": "BRICK HOUSE GRILL", "activity_date": "09/02/2014", "county": "Gaston", "facility_id": "036011508", "score": 97.0, "addr_line1": "1800 North Main Street"}}

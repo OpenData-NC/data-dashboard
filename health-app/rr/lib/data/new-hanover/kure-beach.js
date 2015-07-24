@@ -1,1 +1,0 @@
-{"results": [["Freddies  Restaurante", "111 K Ave", "Kure Beach", "06/05/2014", 97.5, "065010893"], ["Kure Beach Diner", "101 K Ave", "Kure Beach", "06/04/2014", 99.0, "065012143"], ["Jack Mackerals", "113 Ft Fisher Blv", "Kure Beach", "05/21/2014", 97.0, "065011492"]]}

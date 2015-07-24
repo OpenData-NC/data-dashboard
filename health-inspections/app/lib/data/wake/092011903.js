@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kroger Deli  342", "addr_city": "Cary", "item_comments": "KROGER DELI  342", "activity_date": "08/15/2014", "county": "Wake", "facility_id": "092011903", "score": 97.5, "addr_line1": "1273 N W Maynard Rd"}}

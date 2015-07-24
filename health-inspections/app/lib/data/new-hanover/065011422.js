@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kates  Breakfast & Lunch", "addr_city": "Carolina Beach", "item_comments": ";;3-501.16", "activity_date": "05/30/2014", "county": "New Hanover", "facility_id": "065011422", "score": 98.0, "addr_line1": "102 S Lake Park Blv"}}

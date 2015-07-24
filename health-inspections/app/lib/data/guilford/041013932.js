@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Reel Seafood Grill", "addr_city": "Greensboro", "item_comments": "REEL SEAFOOD GRILL", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041013932", "score": 97.0, "addr_line1": "2002 New Garden Rd., Suite 208"}}

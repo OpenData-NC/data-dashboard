@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles  #88", "addr_city": "Greensboro", "item_comments": "BOJANGLES  #88", "activity_date": "09/10/2014", "county": "Guilford", "facility_id": "041010054", "score": 96.5, "addr_line1": "1100 E Bessemer Av"}}

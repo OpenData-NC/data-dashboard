@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lowes Foods 189", "addr_city": "Knightdale", "item_comments": "LOWES FOODS 189", "activity_date": "07/29/2014", "county": "Wake", "facility_id": "092013650", "score": 96.0, "addr_line1": "3001 Widewater Parkway"}}

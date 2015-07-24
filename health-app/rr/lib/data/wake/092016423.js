@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks #19453", "addr_city": "Holly Springs", "item_comments": "STARBUCKS #19453", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092016423", "score": 97.5, "addr_line1": "185 Grand Hill Pl"}}

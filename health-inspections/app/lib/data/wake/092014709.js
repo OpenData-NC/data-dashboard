@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Biscuitville #175", "addr_city": "Cary", "item_comments": "BISCUITVILLE #175", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092014709", "score": 98.0, "addr_line1": "2820 Nc Hwy 55"}}

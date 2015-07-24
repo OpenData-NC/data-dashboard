@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Track I Restaurant", "addr_city": "Camden", "item_comments": "ALL FOOD HANDLERS MUST WEAR APPROVED HAIR RESTRAINTS.;CLEAN FAN IN KITCHEN.;CLEANOUTSIDE OF EUQIPMENT AND HOOD.;", "activity_date": "05/21/2014", "county": "Camden", "facility_id": "015010006", "score": 97.5, "addr_line1": "143 Hwy 158"}}

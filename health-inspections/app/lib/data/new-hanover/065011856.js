@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hwy 55 Burgers, Shakes & Fries", "addr_city": "Wilmington", "item_comments": "4-602.13", "activity_date": "05/28/2014", "county": "New Hanover", "facility_id": "065011856", "score": 96.0, "addr_line1": "6815 Gordon Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Wok", "addr_city": "Raleigh", "item_comments": "CHINA WOK", "activity_date": "08/04/2014", "county": "Wake", "facility_id": "092014761", "score": 90.0, "addr_line1": "8109 Fayetteville Road"}}

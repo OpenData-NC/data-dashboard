@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hearth Restaurant at Sanders Ridge", "addr_city": "Boonville", "item_comments": "HEARTH RESTAURANT AT SANDERS RIDGE", "activity_date": "09/04/2014", "county": "Yadkin", "facility_id": "099010378", "score": 97.0, "addr_line1": "3200 Round Hill Road"}}

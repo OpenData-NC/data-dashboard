@@ -1,1 +1,0 @@
-{"results": {"fac_name": "D P Dough", "addr_city": "Raleigh", "item_comments": "D P DOUGH", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092015947", "score": 93.5, "addr_line1": "2109 Avent Ferry Rd"}}

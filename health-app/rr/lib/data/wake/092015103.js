@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hyatt Place Cafe", "addr_city": "Morrisville", "item_comments": "HYATT PLACE CAFE", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092015103", "score": 98.0, "addr_line1": "200 Airgate Drive"}}

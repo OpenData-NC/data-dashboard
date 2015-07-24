@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Holt Lake Bbq and Seafood", "addr_city": "Smithfield", "item_comments": ";;;;;;;;;;;;4-501.11; Core; Replace torn gasket on reach-in cooler door.;", "activity_date": "09/03/2014", "county": "Johnston", "facility_id": "051011114", "score": 100.0, "addr_line1": "3506 Hwy 301s"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mama's House Soul Food Kitchen", "addr_city": "Fayetteville", "item_comments": "MAMA\\'S HOUSE SOUL FOOD KITCHEN", "activity_date": "09/16/2014", "county": "Cumberland", "facility_id": "026013165", "score": 97.5, "addr_line1": "3319 C Raeford Road"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jamestown Oven & Grill", "addr_city": "Jamestown", "item_comments": "JAMESTOWN OVEN & GRILL", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041013263", "score": 95.5, "addr_line1": "709 W Main St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mountain Magnolia Inn & Ret.", "addr_city": "Hot Springs", "item_comments": "MOUNTAIN MAGNOLIA INN & RET.", "activity_date": "09/12/2014", "county": "Madison", "facility_id": "057010064", "score": 98.5, "addr_line1": "204 Lawson Street"}}

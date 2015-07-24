@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hungry Howies Pizzza", "addr_city": "Cary", "item_comments": "HUNGRY HOWIES PIZZZA", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092016662", "score": 96.5, "addr_line1": "1904 Nw Maynard Rd"}}

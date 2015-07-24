@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Old Nags Head Cafe", "addr_city": "Nags Head", "item_comments": "CLEAN BELOW COOKLINE;", "activity_date": "06/19/2014", "county": "Dare", "facility_id": "028010068", "score": 99.0, "addr_line1": "3948 S Va Dare Trl"}}

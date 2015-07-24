@@ -1,1 +1,0 @@
-{"results": {"fac_name": "White Swan Express", "addr_city": "Smithfield", "item_comments": "WHITE SWAN EXPRESS", "activity_date": "08/25/2014", "county": "Johnston", "facility_id": "051010921", "score": 95.0, "addr_line1": "3103 Us 70"}}

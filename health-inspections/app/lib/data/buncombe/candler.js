@@ -1,1 +1,0 @@
-{"results": [["Hot Dog King #2", "2299 Smoky Park Hwy", "Candler", "08/28/2014", 91.0, "011010987"], ["Artisan Cafe and Coffee House", "1390 Sand Hill Rd", "Candler", "08/26/2014", 94.0, "011012398"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hunan Garden", "addr_city": "Fayetteville", "item_comments": "HUNAN GARDEN", "activity_date": "09/22/2014", "county": "Cumberland", "facility_id": "026013134", "score": 95.5, "addr_line1": "2726 Raeford Road"}}

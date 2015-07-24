@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ingles #55", "addr_city": "Canton", "item_comments": "INGLES #55", "activity_date": "09/26/2014", "county": "Haywood", "facility_id": "044010302", "score": 97.0, "addr_line1": "630 Champion Drive"}}

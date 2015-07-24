@@ -1,1 +1,0 @@
-{"results": {"fac_name": "D and D Restaurant", "addr_city": "Weaverville", "item_comments": ";;;;3-302.12; Core; Label grits container.;;;;4-601.11(B) and (C); Core; Clean dust from around outside of the hood.;;;;", "activity_date": "07/07/2014", "county": "Buncombe", "facility_id": "011011753", "score": 99.5, "addr_line1": "1130  Barnardsville Hwy"}}

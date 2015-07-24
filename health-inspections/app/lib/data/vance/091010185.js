@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Arbys  #104", "addr_city": "Henderson", "item_comments": "ARBYS  #104", "activity_date": "09/18/2014", "county": "Vance", "facility_id": "091010185", "score": 97.5, "addr_line1": "403 Raleigh Rd"}}

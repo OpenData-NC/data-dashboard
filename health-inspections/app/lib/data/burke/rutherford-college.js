@@ -1,1 +1,0 @@
-{"results": [["Speedway Grill", "611 Malcolm Street", "Rutherford College", "07/15/2014", 94.5, "012010321"], ["Jd's Smokehouse", "500 Malcolm Blvd", "Rutherford College", "05/08/2014", 99.0, "012010546"]]}

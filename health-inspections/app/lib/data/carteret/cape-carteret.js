@@ -1,1 +1,0 @@
-{"results": [["Subway #1806", "200 W B McLean Blvd", "Cape Carteret", "07/23/2014", 97.0, "016010707"], ["The Carteret Cafe", "1000 Wb McLean", "Cape Carteret", "07/08/2014", 98.5, "016010882"]]}

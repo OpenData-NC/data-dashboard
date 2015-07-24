@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fei Huang Restaurant at A&c", "addr_city": "Raleigh", "item_comments": "FEI HUANG RESTAURANT AT A&C", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092013967", "score": 90.0, "addr_line1": "3210 131 S Wilmington St"}}

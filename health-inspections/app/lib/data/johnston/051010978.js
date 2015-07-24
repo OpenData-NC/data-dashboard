@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Azteca Market", "addr_city": "Selma", "item_comments": "AZTECA MARKET", "activity_date": "08/19/2014", "county": "Johnston", "facility_id": "051010978", "score": 90.0, "addr_line1": "117 Meghan Circle"}}

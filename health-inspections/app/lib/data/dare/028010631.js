@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mulligans Raw Bar and Grill", "addr_city": "Nags Head", "item_comments": "CLEAN AROUND AND UNDER COOKLINE;", "activity_date": "05/23/2014", "county": "Dare", "facility_id": "028010631", "score": 99.0, "addr_line1": "4005 S Croatan Hwy"}}

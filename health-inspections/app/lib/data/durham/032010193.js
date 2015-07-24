@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mariott-Rtp", "addr_city": "Durham", "item_comments": "4 901.11 ALL UTENSILS MUST BE AIR DRIED.;2 302.11 FOOD WORKER MUST HAIR RESTRAINT ON WHEN HANDLING FOOD.;", "activity_date": "07/02/2014", "county": "Durham", "facility_id": "032010193", "score": 99.0, "addr_line1": "4700 Guardian Drive"}}

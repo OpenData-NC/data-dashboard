@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nick Bombinos", "addr_city": "Princeton", "item_comments": "NICK BOMBINOS", "activity_date": "08/08/2014", "county": "Johnston", "facility_id": "051010470", "score": 94.0, "addr_line1": "405 Old Hwy 70"}}

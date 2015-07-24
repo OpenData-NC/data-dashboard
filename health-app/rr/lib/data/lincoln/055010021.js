@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Home Place", "addr_city": "Lincolnton", "item_comments": "HOME PLACE", "activity_date": "09/22/2014", "county": "Lincoln", "facility_id": "055010021", "score": 98.0, "addr_line1": "1700 W Hwy 27"}}

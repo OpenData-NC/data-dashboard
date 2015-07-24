@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cafe Bliss", "addr_city": "Waxhaw", "item_comments": "CAFE BLISS", "activity_date": "08/23/2014", "county": "Union", "facility_id": "090011052", "score": 0.0, "addr_line1": "8163 a Kensington Dr."}}

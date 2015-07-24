@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kanpai Japanese Restaurant", "addr_city": "Winston Salem", "item_comments": "KANPAI JAPANESE RESTAURANT", "activity_date": "09/17/2014", "county": "Forsyth", "facility_id": "034011027", "score": 94.0, "addr_line1": "1438 Stratford Rd"}}

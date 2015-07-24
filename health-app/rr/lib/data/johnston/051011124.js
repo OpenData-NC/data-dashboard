@@ -1,1 +1,0 @@
-{"results": {"fac_name": "St. George Subs", "addr_city": "Clayton", "item_comments": "ST. GEORGE SUBS", "activity_date": "07/14/2014", "county": "Johnston", "facility_id": "051011124", "score": 98.5, "addr_line1": "11841 Us 70w Business"}}

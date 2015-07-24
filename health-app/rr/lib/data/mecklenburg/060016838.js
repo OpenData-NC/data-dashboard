@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wok, The", "addr_city": "Charlotte", "item_comments": "WOK, THE", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060016838", "score": 95.5, "addr_line1": "11508 Providence Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rowland Catering/Taqueria Y Pupuseria", "addr_city": "Garner", "item_comments": "ROWLAND CATERING/TAQUERIA Y PUPUSERIA", "activity_date": "07/10/2014", "county": "Johnston", "facility_id": "051010920", "score": 98.0, "addr_line1": "130 Commerce Center"}}

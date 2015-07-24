@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Inter-Faith Food Shuttle @ Interact", "addr_city": "Raleigh", "item_comments": ";;;;;;;;;;;;;;", "activity_date": "09/11/2014", "county": "Wake", "facility_id": "092015395", "score": 100.0, "addr_line1": "1012 Oberlin Road"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Roly Poly", "addr_city": "Raleigh", "item_comments": "ROLY POLY", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092016683", "score": 94.0, "addr_line1": "4040 Ed Dr"}}

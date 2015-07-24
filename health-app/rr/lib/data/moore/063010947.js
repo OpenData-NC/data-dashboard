@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Casa Garcia-Carthage", "addr_city": "Carthage", "item_comments": "CASA GARCIA-CARTHAGE", "activity_date": "09/23/2014", "county": "Moore", "facility_id": "063010947", "score": 86.5, "addr_line1": "4505 Us Hwy 15/501 Unit A&b"}}

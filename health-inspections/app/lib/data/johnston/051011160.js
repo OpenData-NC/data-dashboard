@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sheetz #479", "addr_city": "Benson", "item_comments": "SHEETZ #479", "activity_date": "07/14/2014", "county": "Johnston", "facility_id": "051011160", "score": 100.0, "addr_line1": "13433 Nc Hwy 210"}}

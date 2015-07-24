@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Marcos Pizza #8188", "addr_city": "Wake Forest", "item_comments": "MARCOS PIZZA #8188", "activity_date": "08/21/2014", "county": "Wake", "facility_id": "092016596", "score": 94.0, "addr_line1": "3625 Rogers Rd"}}

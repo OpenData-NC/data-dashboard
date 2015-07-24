@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Birch Restaurant & Bar", "addr_city": "Charlotte", "item_comments": "BIRCH RESTAURANT & BAR", "activity_date": "08/28/2014", "county": "Mecklenburg", "facility_id": "060017775", "score": 90.0, "addr_line1": "5700 Westpark Dr"}}

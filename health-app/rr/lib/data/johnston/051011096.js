@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Flip Side", "addr_city": "Clayton", "item_comments": "THE FLIP SIDE", "activity_date": "08/21/2014", "county": "Johnston", "facility_id": "051011096", "score": 94.0, "addr_line1": "105 S Lombard St."}}

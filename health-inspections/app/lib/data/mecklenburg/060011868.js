@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendy`s #23", "addr_city": "Cornelius", "item_comments": "WENDY`S #23", "activity_date": "09/02/2014", "county": "Mecklenburg", "facility_id": "060011868", "score": 96.5, "addr_line1": "20410 W Catawba Ave"}}

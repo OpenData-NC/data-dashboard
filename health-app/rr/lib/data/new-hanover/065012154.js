@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Roko Italian Cuisine", "addr_city": "Wilmington", "item_comments": "4-501.116   Warewashing Equipment, Determining Chemical Sanitizer Concentration. NEED QUAT TEST STRIPS.;;;;;;;;4-601.11", "activity_date": "06/03/2014", "county": "New Hanover", "facility_id": "065012154", "score": 98.0, "addr_line1": "6801 Parker Farm Dr Unit 105"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Adams Farm Swim/Tennis Club", "addr_city": "Greensboro", "item_comments": "PERSON IN CHARGE MUST HAVE APPROVED FOOD SAFETY CERTIFICATION;STORAGE AREAS NEED CLUTTER REMOVED TO REDUCE VERMIN HARBORAGES;", "activity_date": "06/24/2014", "county": "Guilford", "facility_id": "041012418", "score": 97.5, "addr_line1": "1903  Adams Farm Pw"}}

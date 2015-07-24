@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Trolly Stop", "addr_city": "Wilmington", "item_comments": ";;;;;;;3-307.11", "activity_date": "05/27/2014", "county": "New Hanover", "facility_id": "065012193", "score": 99.0, "addr_line1": "121 N Front St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rob and Mickey's Southern Cafe'& Caterin", "addr_city": "Fayetteville", "item_comments": ".;.;.;.;.;.;.;.;.;", "activity_date": "10/23/2014", "county": "Cumberland", "facility_id": "026013159", "score": 97.0, "addr_line1": "1047 Murchison Road"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Langtree Market", "addr_city": "Mooresville", "item_comments": "LANGTREE MARKET", "activity_date": "09/02/2014", "county": "Iredell", "facility_id": "049011245", "score": 99.0, "addr_line1": "115 B Mecklynn Road"}}

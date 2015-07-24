@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quality Inn & Suites Express Kitchen", "addr_city": "Matthews", "item_comments": "QUALITY INN & SUITES EXPRESS KITCHEN", "activity_date": "07/30/2014", "county": "Union", "facility_id": "090010681", "score": 95.0, "addr_line1": "13470 E. Independence Blvd."}}

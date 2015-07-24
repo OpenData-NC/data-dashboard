@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Peppermill Cafe The", "addr_city": "High Point", "item_comments": "PEPPERMILL CAFE THE", "activity_date": "09/05/2014", "county": "Guilford", "facility_id": "041012828", "score": 99.5, "addr_line1": "2600 S Main St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Popeyes", "addr_city": "Greensboro", "item_comments": "POPEYES", "activity_date": "09/15/2014", "county": "Guilford", "facility_id": "041013617", "score": 95.5, "addr_line1": "106   Pisgah Church Rd"}}

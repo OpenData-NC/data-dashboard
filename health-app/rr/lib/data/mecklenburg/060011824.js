@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendy`s #27", "addr_city": "Charlotte", "item_comments": "WENDY`S #27", "activity_date": "09/15/2014", "county": "Mecklenburg", "facility_id": "060011824", "score": 96.5, "addr_line1": "5801 N Sharon Amity Rd"}}

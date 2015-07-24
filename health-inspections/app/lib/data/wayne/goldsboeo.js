@@ -1,1 +1,0 @@
-{"results": [["Berkeley Grill", "1813-L N Berkeley Blvd", "Goldsboeo", "07/14/2014", 96.0, "096011042"]]}

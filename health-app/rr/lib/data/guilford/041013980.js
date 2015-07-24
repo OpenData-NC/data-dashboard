@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Santa Fe Mexican Grill", "addr_city": "Greensboro", "item_comments": "SANTA FE MEXICAN GRILL", "activity_date": "09/12/2014", "county": "Guilford", "facility_id": "041013980", "score": 98.5, "addr_line1": "123 Pisgah Church Road"}}

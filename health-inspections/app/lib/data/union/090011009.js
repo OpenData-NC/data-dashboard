@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #3816", "addr_city": "Matthews", "item_comments": "SUBWAY #3816", "activity_date": "07/24/2014", "county": "Union", "facility_id": "090011009", "score": 98.0, "addr_line1": "7900-L Stevens Mill Rd."}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quizno's # 4242", "addr_city": "Raleigh", "item_comments": "QUIZNO\\'S # 4242", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092015178", "score": 98.5, "addr_line1": "4531 New Bern Ave"}}

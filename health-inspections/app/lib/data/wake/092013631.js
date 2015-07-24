@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wangs Kitchen", "addr_city": "Raleigh", "item_comments": "WANGS KITCHEN", "activity_date": "08/22/2014", "county": "Wake", "facility_id": "092013631", "score": 90.5, "addr_line1": "4701-129 Atlantic Ave"}}

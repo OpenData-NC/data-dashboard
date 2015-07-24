@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jin Jin China", "addr_city": "Raleigh", "item_comments": "JIN JIN CHINA", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092015966", "score": 92.5, "addr_line1": "421 Chapanoke Rd"}}

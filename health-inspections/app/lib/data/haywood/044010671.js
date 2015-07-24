@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sid's on Main", "addr_city": "Canton", "item_comments": "SID\\'S ON MAIN", "activity_date": "09/26/2014", "county": "Haywood", "facility_id": "044010671", "score": 97.5, "addr_line1": "117 Main Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardee's Restaurant", "addr_city": "Burgaw", "item_comments": "6 202.12 HEATING, VENTILATION, AIR CONDITIONING SYSTEM VENTS;4 202.16 NONFOOD CONTACT SURFACES;", "activity_date": "08/18/2014", "county": "Pender", "facility_id": "071010051", "score": 98.5, "addr_line1": "Hwy 53 Box 9"}}

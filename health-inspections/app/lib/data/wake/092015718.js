@@ -1,1 +1,0 @@
-{"results": {"fac_name": "New White Oak Grill Andamp; Lounge", "addr_city": "Garner", "item_comments": "NEW WHITE OAK GRILL ANDAMP; LOUNGE", "activity_date": "08/25/2014", "county": "Wake", "facility_id": "092015718", "score": 95.0, "addr_line1": "7901 White Oak  Rd"}}

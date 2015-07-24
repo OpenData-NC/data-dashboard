@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lake-Shore Barbecue", "addr_city": "Denver", "item_comments": "LAKE-SHORE BARBECUE", "activity_date": "09/18/2014", "county": "Lincoln", "facility_id": "055010219", "score": 100.0, "addr_line1": "1219 N. Hwy 16"}}

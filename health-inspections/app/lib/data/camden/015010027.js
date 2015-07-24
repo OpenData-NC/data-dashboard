@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Water's Edge Grill", "addr_city": "Elizabeth City", "item_comments": "NO MANAGER TRAINING PROVIDED.;ALL OPENED ITEMS MUST BE DATED ONCE OPENED.;", "activity_date": "08/21/2014", "county": "Camden", "facility_id": "015010027", "score": 96.5, "addr_line1": "35 Camden Causeway"}}

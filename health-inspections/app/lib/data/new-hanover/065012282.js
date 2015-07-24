@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Greeks Beau Rivage", "addr_city": "Wilmington", "item_comments": ";;;;;;;6-301.14", "activity_date": "06/13/2014", "county": "New Hanover", "facility_id": "065012282", "score": 99.0, "addr_line1": "5916 Carolina Beach Rd"}}

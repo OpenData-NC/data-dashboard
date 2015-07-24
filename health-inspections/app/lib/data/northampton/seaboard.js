@@ -1,1 +1,0 @@
-{"results": [["Broadnax Diner", "306 Park St", "Seaboard", "07/31/2014", 96.5, "066010045"], ["Cupboard", "101 E. Central Street", "Seaboard", "07/31/2014", 91.5, "066010172"]]}

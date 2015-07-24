@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Highway 55 of Surf City", "addr_city": "Surf City", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C;4 601.11  B  AND  C  EQUIPMENT, FOOD CONTACT SURFACES, NONFOOD CONTACT SURFACES, AND UTENSILS   C;", "activity_date": "05/16/2014", "county": "Pender", "facility_id": "071010416", "score": 98.0, "addr_line1": "106 New River Drive"}}

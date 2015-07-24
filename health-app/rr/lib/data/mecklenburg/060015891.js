@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Atrium, The", "addr_city": "Charlotte", "item_comments": "4 602.13 NONFOOD CONTACT SURFACES   C. DRIED DEBRIS IN DRY STORAGE AREAS AND CABINETS AT BAR AREA. CLEANING IS NEEDED.;", "activity_date": "07/17/2014", "county": "Mecklenburg", "facility_id": "060015891", "score": 99.5, "addr_line1": "3315 Scott Futrell Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Piedmont Restaurant", "addr_city": "Durham", "item_comments": "PIEDMONT RESTAURANT", "activity_date": "09/11/2014", "county": "Durham", "facility_id": "032012057", "score": 96.5, "addr_line1": "401 Foster Street Suite B"}}

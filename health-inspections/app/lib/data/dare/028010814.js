@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taiko Japanese Steak House", "addr_city": "Nags Head", "item_comments": "KEEP ALL ITEMS OFF FLR OF FREEZER;KEEP DUMPSTER LIDS CLOSED;", "activity_date": "05/27/2014", "county": "Dare", "facility_id": "028010814", "score": 98.5, "addr_line1": "5000 S Croatan Hwy Unit N7"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Stagecoach at Ghost Town", "addr_city": "Maggie Valley", "item_comments": "STAGECOACH AT GHOST TOWN", "activity_date": "08/29/2014", "county": "Haywood", "facility_id": "044010701", "score": 96.0, "addr_line1": "16 Fie Top"}}

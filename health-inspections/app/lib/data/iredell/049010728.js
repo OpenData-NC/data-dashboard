@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lowe's Distribution Center", "addr_city": "Statesville", "item_comments": "LOWE\\'S DISTRIBUTION CENTER", "activity_date": "09/18/2014", "county": "Iredell", "facility_id": "049010728", "score": 93.5, "addr_line1": "711 Tomlin Mill Rd"}}

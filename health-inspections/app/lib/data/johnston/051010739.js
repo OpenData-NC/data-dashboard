@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Zaxbys", "addr_city": "Clayton", "item_comments": "ZAXBYS", "activity_date": "07/30/2014", "county": "Johnston", "facility_id": "051010739", "score": 99.0, "addr_line1": "12857 Hwy 70 West"}}

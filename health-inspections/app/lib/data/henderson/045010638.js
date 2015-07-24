@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Don Taco", "addr_city": "Fletcher", "item_comments": "DON TACO", "activity_date": "09/06/2014", "county": "Henderson", "facility_id": "045010638", "score": 97.5, "addr_line1": "5360 Hendersonville Road"}}

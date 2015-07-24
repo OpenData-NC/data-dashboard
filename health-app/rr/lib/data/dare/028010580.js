@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sandbar and Grille", "addr_city": "Buxton", "item_comments": "QUICK CHILL HOT FOODS FOR COLD HOLD   DONOT PLACE HOT FOOD IN MAKE UNIT........;DATE MARKING INADEQUATE....LABEL ALL FOOD IN STORAGE;", "activity_date": "06/13/2014", "county": "Dare", "facility_id": "028010580", "score": 97.0, "addr_line1": "49250 Hwy 12"}}

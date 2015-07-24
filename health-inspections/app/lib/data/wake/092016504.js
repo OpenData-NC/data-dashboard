@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hampton Inn", "addr_city": "Raleigh", "item_comments": "HAMPTON INN", "activity_date": "08/28/2014", "county": "Wake", "facility_id": "092016504", "score": 99.5, "addr_line1": "1001 Wake Towne Dr"}}

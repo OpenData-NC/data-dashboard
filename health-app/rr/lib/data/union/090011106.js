@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Greco Fresh Grille", "addr_city": "Wesley Chapel", "item_comments": "GRECO FRESH GRILLE", "activity_date": "07/22/2014", "county": "Union", "facility_id": "090011106", "score": 96.5, "addr_line1": "6400 Weddington Monroe Rd."}}

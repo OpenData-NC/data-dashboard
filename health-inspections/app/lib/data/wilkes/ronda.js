@@ -1,1 +1,0 @@
-{"results": [["Country Corner Cafe", "122785 Elkin Highway", "Ronda", "06/26/2014", 93.5, "097010497"]]}

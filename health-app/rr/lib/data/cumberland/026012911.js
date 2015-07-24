@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China Wok", "addr_city": "Fayetteville", "item_comments": "CHINA WOK", "activity_date": "09/09/2014", "county": "Cumberland", "facility_id": "026012911", "score": 96.0, "addr_line1": "7071 Raeford Rd."}}

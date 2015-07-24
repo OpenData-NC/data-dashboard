@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Murphy Dining Hall", "addr_city": "Raleigh", "item_comments": "MURPHY DINING HALL", "activity_date": "08/28/2014", "county": "Wake", "facility_id": "092016184", "score": 95.0, "addr_line1": "2200 Trinity Rd"}}

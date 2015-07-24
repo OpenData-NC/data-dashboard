@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wilkes Co Sch Sys Catering Kit", "addr_city": "North Wilkesboro", "item_comments": "2 303.11 PROHIBITION JEWELRY   C   ALL PERSONS INVOLVED IN FOOD PREPERATION MUST REMOVE ALL JEWLERY FROM HANDS AND WRISTS.;", "activity_date": "09/26/2014", "county": "Wilkes", "facility_id": "097010382", "score": 99.0, "addr_line1": "613 Cherry Street"}}

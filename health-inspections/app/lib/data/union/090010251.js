@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tienda Romeros", "addr_city": "Monroe", "item_comments": "TIENDA ROMEROS", "activity_date": "08/29/2014", "county": "Union", "facility_id": "090010251", "score": 92.0, "addr_line1": "405 1/2 Sutherland Avenue"}}

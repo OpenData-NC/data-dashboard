@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #17753", "addr_city": "Garner", "item_comments": "SUBWAY #17753", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051010830", "score": 96.5, "addr_line1": "5477 Nc Hwy 42 W"}}

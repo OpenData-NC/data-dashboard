@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Arrowhead Inn", "addr_city": "Durham", "item_comments": "KEEP FOOD SAFETY MANAGER CERTIFICATION IN AN EASILY ACCESSIBLE LOCATION.;", "activity_date": "06/05/2014", "county": "Durham", "facility_id": "032011219", "score": 100.0, "addr_line1": "106 Mason Road"}}

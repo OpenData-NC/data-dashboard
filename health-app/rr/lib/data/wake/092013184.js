@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Misys Physiian Systems Cafeter", "addr_city": "Raleigh", "item_comments": "MISYS PHYSIIAN SYSTEMS CAFETER", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092013184", "score": 98.5, "addr_line1": "8529 Six Forks Road"}}

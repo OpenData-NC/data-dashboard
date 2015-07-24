@@ -1,1 +1,0 @@
-{"results": {"fac_name": "#1 Chinese Restaurant", "addr_city": "High Point", "item_comments": "#1 CHINESE RESTAURANT", "activity_date": "09/04/2014", "county": "Guilford", "facility_id": "041011367", "score": 93.5, "addr_line1": "1125 E Lexington Av"}}

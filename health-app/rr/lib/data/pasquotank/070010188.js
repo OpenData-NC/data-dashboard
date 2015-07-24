@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cypress Creek", "addr_city": "Elizabeth City", "item_comments": "FLOOR IN COOLER IN POOR SHAPE   REPAIR. PAINT WEARING IN KITCHEN. REPAIR HOLE BEHIND URINAL IN MENS ROOM;", "activity_date": "06/04/2014", "county": "Pasquotank", "facility_id": "070010188", "score": 99.0, "addr_line1": "113 South Water Street"}}

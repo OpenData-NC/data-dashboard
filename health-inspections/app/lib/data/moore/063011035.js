@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Waffle House", "addr_city": "Southern Pines", "item_comments": "WAFFLE HOUSE", "activity_date": "09/08/2014", "county": "Moore", "facility_id": "063011035", "score": 97.5, "addr_line1": "1510 Us Hwy 1s"}}

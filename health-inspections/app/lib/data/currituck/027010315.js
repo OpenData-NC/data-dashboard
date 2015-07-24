@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Urban  Kitchen", "addr_city": "Corolla", "item_comments": "STORE USED WIPING CLOTHES PREOPERLY, NOT ON THE FLOOR.;", "activity_date": "08/21/2014", "county": "Currituck", "facility_id": "027010315", "score": 99.5, "addr_line1": "603 B Currituck Club House Dr"}}

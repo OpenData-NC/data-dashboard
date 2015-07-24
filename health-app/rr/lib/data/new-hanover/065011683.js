@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ruby Tuesday  #5125", "addr_city": "Wilmington", "item_comments": "3-501.15", "activity_date": "06/02/2014", "county": "New Hanover", "facility_id": "065011683", "score": 98.5, "addr_line1": "1138 Military Cutoff Rd"}}

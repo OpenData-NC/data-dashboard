@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Southern Roots Restaurant & Catering", "addr_city": "Jamestown", "item_comments": "4 501.17 WAREWASHING EQUIPMENT, CLEANING AGENTS   PF  STEMWARE NEEDS ADDITIONAL SPOT CLEANING;", "activity_date": "09/24/2014", "county": "Guilford", "facility_id": "041013346", "score": 99.0, "addr_line1": "119 E. Main St"}}

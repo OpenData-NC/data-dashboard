@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cup a Joe", "addr_city": "Raleigh", "item_comments": "CUP A JOE", "activity_date": "08/06/2014", "county": "Wake", "facility_id": "092011773", "score": 95.0, "addr_line1": "2109 Avent Ferry Rd"}}

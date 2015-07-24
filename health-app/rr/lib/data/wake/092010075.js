@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Boondinis", "addr_city": "Raleigh", "item_comments": ";;;;;;;;;;;3-501.15;Partially cover foods located below wire shelves when cooling Priority Foundation;;;;", "activity_date": "10/16/2014", "county": "Wake", "facility_id": "092010075", "score": 99.5, "addr_line1": "7403 Six Forks Rd"}}

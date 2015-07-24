@@ -1,1 +1,0 @@
-{"results": [["Roadrunner Cafe", "128 Main Street", "Broadway", "07/29/2014", 96.5, "053010081"], ["Los Charros", "188 S. Main Street", "Broadway", "07/29/2014", 96.0, "053010517"]]}

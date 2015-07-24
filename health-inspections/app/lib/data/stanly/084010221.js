@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds  Hwy 52", "addr_city": "Albemarle", "item_comments": "2 301.14 WHEN TO WASH   P;.;.;.;3 301.11 PREVENTING CONTAMINATION FROM HANDS   P,PF;", "activity_date": "05/13/2014", "county": "Stanly", "facility_id": "084010221", "score": 95.5, "addr_line1": "1906 Hwy 52 North"}}

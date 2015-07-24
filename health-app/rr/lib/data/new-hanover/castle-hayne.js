@@ -1,1 +1,0 @@
-{"results": [["Hardees #1329", "5601 Castle Hayne Rd", "Castle Hayne", "05/20/2014", 99.0, "065010109"], ["Carolina Cafe", "5512 Castle Hayne Rd", "Castle Hayne", "05/20/2014", 98.5, "065012133"]]}

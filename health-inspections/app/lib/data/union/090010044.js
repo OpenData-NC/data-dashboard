@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Harris Teeter Cafeteria Warehouse", "addr_city": "Indian Trail", "item_comments": "HARRIS TEETER CAFETERIA WAREHOUSE", "activity_date": "07/22/2014", "county": "Union", "facility_id": "090010044", "score": 98.0, "addr_line1": "6001 Highway 74 West"}}

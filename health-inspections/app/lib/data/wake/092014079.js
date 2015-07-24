@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Goat Bar  The", "addr_city": "Raleigh", "item_comments": "GOAT BAR  THE", "activity_date": "07/09/2014", "county": "Wake", "facility_id": "092014079", "score": 98.0, "addr_line1": "5111 Western Blvd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tj's Lunch Counter at Wake Chr", "addr_city": "Raleigh", "item_comments": "TJ\\'S LUNCH COUNTER AT WAKE CHR", "activity_date": "08/29/2014", "county": "Wake", "facility_id": "092013195", "score": 95.0, "addr_line1": "5500 Wake Academy Dr"}}

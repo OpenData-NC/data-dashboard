@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbuck's Coffee  8517", "addr_city": "Winston Salem", "item_comments": "STARBUCK\\'S COFFEE  8517", "activity_date": "09/02/2014", "county": "Forsyth", "facility_id": "034011483", "score": 95.5, "addr_line1": "11 Oakwood Dr"}}

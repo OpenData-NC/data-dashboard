@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Lumberton", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   CMUST HAVE A CERTIFIED FOOD PROTECTION MANAGER ON DUTY DURING ALL HOURS OF OPERATION.;", "activity_date": "06/19/2014", "county": "Robeson", "facility_id": "078010809", "score": 98.0, "addr_line1": "5070 Fayetteville Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Big Steves Bagels", "addr_city": "Benson", "item_comments": "BIG STEVES BAGELS", "activity_date": "07/15/2014", "county": "Johnston", "facility_id": "051010876", "score": 99.0, "addr_line1": "12330 Nc Hwy 210 Ste 105"}}

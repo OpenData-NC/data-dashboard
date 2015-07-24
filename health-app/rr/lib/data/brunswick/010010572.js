@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Little Bit Grill", "addr_city": "Oak Island", "item_comments": "REPAIR THE DAMAGED GASKET ON THE ONE DOOR REACH IN COOLER.4 501.11 GOOD REPAIR AND PROPER ADJUSTMENT EQUIPMENT   C;", "activity_date": "09/29/2014", "county": "Brunswick", "facility_id": "010010572", "score": 100.0, "addr_line1": "5902 E. Oak Island Drive"}}

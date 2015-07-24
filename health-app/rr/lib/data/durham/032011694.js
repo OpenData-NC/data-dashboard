@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Red Robin Gourmet Burgers", "addr_city": "Durham", "item_comments": "RED ROBIN GOURMET BURGERS", "activity_date": "09/05/2014", "county": "Durham", "facility_id": "032011694", "score": 99.0, "addr_line1": "5313 New Hope Commons Dr."}}

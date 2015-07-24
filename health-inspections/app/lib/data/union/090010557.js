@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Vallarta of Marshville", "addr_city": "Marshville", "item_comments": "EL VALLARTA OF MARSHVILLE", "activity_date": "09/02/2014", "county": "Union", "facility_id": "090010557", "score": 97.0, "addr_line1": "109 E. Union Street"}}

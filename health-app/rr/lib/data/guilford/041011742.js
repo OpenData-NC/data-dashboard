@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell/Pizza Hut #20225", "addr_city": "Greensboro", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C, NO CERTIFIED FOOD MANAGER;", "activity_date": "06/30/2014", "county": "Guilford", "facility_id": "041011742", "score": 98.0, "addr_line1": "5705  Inman Rd"}}

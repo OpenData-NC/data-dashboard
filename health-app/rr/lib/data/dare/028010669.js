@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ortega Grill", "addr_city": "Manteo", "item_comments": "CLEAN HOOD FILTERS;CLEAN FLRS BETTER;", "activity_date": "06/23/2014", "county": "Dare", "facility_id": "028010669", "score": 98.0, "addr_line1": "201 Sir Walter Raleigh St"}}

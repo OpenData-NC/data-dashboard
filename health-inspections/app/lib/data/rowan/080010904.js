@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sabaidee Thai & Sushi Restaurant", "addr_city": "Salisbury", "item_comments": "SABAIDEE THAI & SUSHI RESTAURANT", "activity_date": "09/17/2014", "county": "Rowan", "facility_id": "080010904", "score": 95.0, "addr_line1": "2204 S Main St Suite 103"}}

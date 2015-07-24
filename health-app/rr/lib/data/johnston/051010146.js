@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Smithfield Bbq of Clayton", "addr_city": "Clayton", "item_comments": "SMITHFIELD BBQ OF CLAYTON", "activity_date": "08/04/2014", "county": "Johnston", "facility_id": "051010146", "score": 97.0, "addr_line1": "10414 Us 70 West"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chubby's Tacos", "addr_city": "Raleigh", "item_comments": "CHUBBY\\'S TACOS", "activity_date": "07/25/2014", "county": "Wake", "facility_id": "092015356", "score": 96.5, "addr_line1": "2444 Wycliff Road"}}

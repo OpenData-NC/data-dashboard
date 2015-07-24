@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Muncheez Express", "addr_city": "Raeford", "item_comments": "MUNCHEEZ EXPRESS", "activity_date": "07/17/2014", "county": "Hoke", "facility_id": "047010204", "score": 96.5, "addr_line1": "5609 Fayetteville Rd"}}

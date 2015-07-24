@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Little Tokyo", "addr_city": "High Point", "item_comments": "LITTLE TOKYO", "activity_date": "09/17/2014", "county": "Guilford", "facility_id": "041013379", "score": 97.0, "addr_line1": "4045-107   Premier Dr"}}

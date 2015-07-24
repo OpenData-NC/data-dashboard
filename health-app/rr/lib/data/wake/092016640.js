@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jasmin Bistro", "addr_city": "Cary", "item_comments": ";;;;;;;;;", "activity_date": "09/18/2014", "county": "Wake", "facility_id": "092016640", "score": 100.0, "addr_line1": "1109 Ledsome Ln"}}

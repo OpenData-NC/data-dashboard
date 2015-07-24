@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jeters Deli", "addr_city": "Salisbury", "item_comments": "JETERS DELI", "activity_date": "09/03/2014", "county": "Rowan", "facility_id": "080010325", "score": 95.5, "addr_line1": "702 J Alex Blvd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Einstein Brothers Bagels", "addr_city": "Cullowhee", "item_comments": "EINSTEIN BROTHERS BAGELS", "activity_date": "09/10/2014", "county": "Jackson", "facility_id": "050010413", "score": 99.0, "addr_line1": "University Center at Wcu"}}

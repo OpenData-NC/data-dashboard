@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hoff's Grill", "addr_city": "Salisbury", "item_comments": "HOFF\\'S GRILL", "activity_date": "09/18/2014", "county": "Rowan", "facility_id": "080010921", "score": 96.0, "addr_line1": "121 N Long St"}}

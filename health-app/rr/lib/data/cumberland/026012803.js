@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carolina Ale House", "addr_city": "Fayetteville", "item_comments": ".;.;.;", "activity_date": "09/24/2014", "county": "Cumberland", "facility_id": "026012803", "score": 98.5, "addr_line1": "161 Glensford Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Western Sizzlin", "addr_city": "Kill Devil Hills", "item_comments": "DUMPSTER LIDS CLOSED;REPAIR DOOR;", "activity_date": "05/23/2014", "county": "Dare", "facility_id": "028010166", "score": 99.0, "addr_line1": "1729 N Croatan Hwy"}}

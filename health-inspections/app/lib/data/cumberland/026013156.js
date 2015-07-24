@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nana's Chamorro's Restaurant", "addr_city": "Fayetteville", "item_comments": ".;.;.;.;.;", "activity_date": "05/28/2014", "county": "Cumberland", "facility_id": "026013156", "score": 97.0, "addr_line1": "4947 N Bragg Blvd"}}

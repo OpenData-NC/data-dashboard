@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Amor De Brazil Steakhouse", "addr_city": "Matthews", "item_comments": "AMOR DE BRAZIL STEAKHOUSE", "activity_date": "09/17/2014", "county": "Mecklenburg", "facility_id": "060017347", "score": 95.5, "addr_line1": "2225  Matthews Township Pky"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ichiban Sushi & Hibachi Buffet", "addr_city": "Shelby", "item_comments": "ICHIBAN SUSHI & HIBACHI BUFFET", "activity_date": "09/09/2014", "county": "Cleveland", "facility_id": "023010873", "score": 95.0, "addr_line1": "1712 E. Dixon Blvd."}}

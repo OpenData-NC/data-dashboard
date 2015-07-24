@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys", "addr_city": "Garner", "item_comments": "WENDYS", "activity_date": "08/28/2014", "county": "Johnston", "facility_id": "051010343", "score": 99.0, "addr_line1": "5170 N C 42 W"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kyoto Asian Grille", "addr_city": "Wilmington", "item_comments": ";;3-304.14", "activity_date": "05/08/2014", "county": "New Hanover", "facility_id": "065012228", "score": 93.5, "addr_line1": "4102 Market St"}}

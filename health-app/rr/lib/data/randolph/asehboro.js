@@ -1,1 +1,0 @@
-{"results": [["Asheboro Shell", "3445 Us Hwy 64 East", "Asehboro", "08/18/2014", 96.0, "076010700"], ["Jed's Barbeque", "1213 N Fayetteville St", "Asehboro", "07/01/2014", 95.0, "076010062"]]}

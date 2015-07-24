@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Vine American Kitchen", "addr_city": "Charlotte", "item_comments": "VINE AMERICAN KITCHEN", "activity_date": "09/08/2014", "county": "Mecklenburg", "facility_id": "060017517", "score": 97.0, "addr_line1": "13735 Conlan  Cir"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell #2863", "addr_city": "Charlotte", "item_comments": "6 501.111 PESTS SHALL BE CONTROLLED ONSITE. OBSERVED FLIES IN KITCHEN ALONG PREP LINE. CDI  INSTRUCTION PROVIDED;", "activity_date": "07/07/2014", "county": "Mecklenburg", "facility_id": "060013262", "score": 99.0, "addr_line1": "1800 E Woodlawn Rd"}}

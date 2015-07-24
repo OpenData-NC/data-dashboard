@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quesadilla House/Supermexicana Los Reyes", "addr_city": "Asheboro", "item_comments": "QUESADILLA HOUSE/SUPERMEXICANA LOS REYES", "activity_date": "09/25/2014", "county": "Randolph", "facility_id": "076010871", "score": 85.5, "addr_line1": "2419-B&f N. Fayetteville St."}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The House of Fish", "addr_city": "Aberdeen", "item_comments": "THE HOUSE OF FISH", "activity_date": "08/20/2014", "county": "Moore", "facility_id": "063011033", "score": 95.5, "addr_line1": "9671 Hwy 211 E."}}

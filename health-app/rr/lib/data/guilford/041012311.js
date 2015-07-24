@@ -1,1 +1,0 @@
-{"results": {"fac_name": "United House of Prayer", "addr_city": "Greensboro", "item_comments": "UNITED HOUSE OF PRAYER", "activity_date": "09/11/2014", "county": "Guilford", "facility_id": "041012311", "score": 95.5, "addr_line1": "101 S Dudley St"}}

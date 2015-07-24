@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kentucky Fried Chicken", "addr_city": "Wilmington", "item_comments": ";;CLEAN CEILINGS AROUND VENTS AND RE-CAULK HOOD TO BACK SPLASH  6-501.12", "activity_date": "06/17/2014", "county": "New Hanover", "facility_id": "065011773", "score": 99.5, "addr_line1": "2526 Carolina Beach Rd"}}

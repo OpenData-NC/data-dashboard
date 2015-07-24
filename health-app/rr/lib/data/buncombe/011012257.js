@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Vasa De Vino", "addr_city": "Arden", "item_comments": ";5-202.12; Water temperature at front handwash sink needs to be at least 100 degrees f.;;;;;;;;;;;;;;;6-202.15; Core; Back door needs to be fully self-closing.;;;", "activity_date": "07/17/2014", "county": "Buncombe", "facility_id": "011012257", "score": 98.0, "addr_line1": "100 Julian Ln"}}

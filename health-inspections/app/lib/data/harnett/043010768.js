@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kami Japan", "addr_city": "Erwin", "item_comments": "KAMI JAPAN", "activity_date": "09/15/2014", "county": "Harnett", "facility_id": "043010768", "score": 92.5, "addr_line1": "566 East Jackson Blvd."}}

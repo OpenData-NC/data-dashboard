@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Riverwood Pro Shop", "addr_city": "Clayton", "item_comments": "RIVERWOOD PRO SHOP", "activity_date": "07/24/2014", "county": "Johnston", "facility_id": "051010413", "score": 94.0, "addr_line1": "400 Riverwood Dr"}}

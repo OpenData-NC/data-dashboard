@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Caribou Coffee #403", "addr_city": "Charlotte", "item_comments": "6 301.12 ENSURE ALL HAND SINKS ARE STOCKED WITH HAND DRYING PROVISIONS. OBSERVED REAR HAND SINK WITH NO HAND TOWELS  EMPTY DISPENSER. CDI  RESTOCKED;", "activity_date": "07/15/2014", "county": "Mecklenburg", "facility_id": "060016820", "score": 99.0, "addr_line1": "4327 Park Road"}}

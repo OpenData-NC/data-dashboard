@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes #3101", "addr_city": "Raleigh", "item_comments": "JERSEY MIKES #3101", "activity_date": "07/08/2014", "county": "Wake", "facility_id": "092015705", "score": 96.5, "addr_line1": "14460 New Falls of Neuse Rd"}}

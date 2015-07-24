@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Bakehouse", "addr_city": "Aberdeen", "item_comments": "THE BAKEHOUSE", "activity_date": "09/10/2014", "county": "Moore", "facility_id": "063010757", "score": 97.0, "addr_line1": "120 North Poplar Street"}}

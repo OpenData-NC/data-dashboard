@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Great China", "addr_city": "Indian Trail", "item_comments": "GREAT CHINA", "activity_date": "07/10/2014", "county": "Union", "facility_id": "090011001", "score": 97.5, "addr_line1": "610 S. Indian Trail Road"}}

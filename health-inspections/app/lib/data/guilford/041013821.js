@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Waffle House #1942", "addr_city": "High Point", "item_comments": "WAFFLE HOUSE #1942", "activity_date": "09/15/2014", "county": "Guilford", "facility_id": "041013821", "score": 98.0, "addr_line1": "115 Westchester Drive"}}

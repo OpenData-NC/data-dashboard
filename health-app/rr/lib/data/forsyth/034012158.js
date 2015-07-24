@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Springhouse Restaurant", "addr_city": "Winston Salem", "item_comments": "SPRINGHOUSE RESTAURANT", "activity_date": "09/15/2014", "county": "Forsyth", "facility_id": "034012158", "score": 98.5, "addr_line1": "450 Spring Street"}}

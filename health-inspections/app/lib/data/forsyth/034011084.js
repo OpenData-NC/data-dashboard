@@ -1,1 +1,0 @@
-{"results": {"fac_name": "West Town Eatery Express", "addr_city": "Winston Salem", "item_comments": "WEST TOWN EATERY EXPRESS", "activity_date": "09/17/2014", "county": "Forsyth", "facility_id": "034011084", "score": 96.0, "addr_line1": "5584 Shattalon Drive"}}

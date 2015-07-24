@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Harris Teeter  257", "addr_city": "Cary", "item_comments": "HARRIS TEETER  257", "activity_date": "08/06/2014", "county": "Wake", "facility_id": "092013761", "score": 99.5, "addr_line1": "2080 Kildaire Farm Rd"}}

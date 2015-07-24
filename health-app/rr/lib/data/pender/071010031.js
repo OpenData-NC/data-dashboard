@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Max's Pizza - 1", "addr_city": "Surf City", "item_comments": "6 501.16 DRYING MOPS   C;", "activity_date": "10/08/2014", "county": "Pender", "facility_id": "071010031", "score": 99.0, "addr_line1": "601 Roland Avenue"}}

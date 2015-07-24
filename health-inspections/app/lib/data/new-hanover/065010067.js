@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Elijahs", "addr_city": "Wilmington", "item_comments": ";;;6-501.12", "activity_date": "05/06/2014", "county": "New Hanover", "facility_id": "065010067", "score": 95.5, "addr_line1": "2 Ann St"}}

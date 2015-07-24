@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Food Dudes Kitchen", "addr_city": "Kill Devil Hills", "item_comments": "NETS/HATS;CLEAN UNDER EQUIP;", "activity_date": "06/19/2014", "county": "Dare", "facility_id": "028010684", "score": 98.0, "addr_line1": "1216 South Virginia"}}

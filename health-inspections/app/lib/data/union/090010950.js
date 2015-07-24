@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Saigon Kitchen", "addr_city": "Indian Trail", "item_comments": "SAIGON KITCHEN", "activity_date": "07/17/2014", "county": "Union", "facility_id": "090010950", "score": 95.0, "addr_line1": "13803-L Hwy 74 East"}}

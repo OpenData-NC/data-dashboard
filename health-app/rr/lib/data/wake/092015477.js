@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Goodberrys Creamery at Cameron Village", "addr_city": "Raleigh", "item_comments": "GOODBERRYS CREAMERY AT CAMERON VILLAGE", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092015477", "score": 97.0, "addr_line1": "2042 Clark Ave"}}

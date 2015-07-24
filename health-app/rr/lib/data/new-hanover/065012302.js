@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Courtyard Marriot", "addr_city": "Wilmington", "item_comments": ";;;4-204.112   Temperature Measuring Devices.  NEED DIGITAL SMALL PROBE THERMOMETERS;2-301.12", "activity_date": "05/07/2014", "county": "New Hanover", "facility_id": "065012302", "score": 93.5, "addr_line1": "229 2nd Street"}}

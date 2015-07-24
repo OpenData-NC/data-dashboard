@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Emerywood Cafe @ C&d Bistro", "addr_city": "High Point", "item_comments": "6 201.12 FLOORS, WALLS, AND CEILINGS, UTILITY LINES   C  OLDER FACILITY WITH OBSTACLES TO CLEANING;", "activity_date": "10/21/2014", "county": "Guilford", "facility_id": "041014038", "score": 99.0, "addr_line1": "201 W Commerce Ave Suite 53"}}

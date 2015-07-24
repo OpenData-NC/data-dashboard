@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes Subs", "addr_city": "Apex", "item_comments": "JERSEY MIKES SUBS", "activity_date": "08/08/2014", "county": "Wake", "facility_id": "092012026", "score": 97.5, "addr_line1": "922 Hwy 64"}}

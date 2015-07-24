@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Yosties", "addr_city": "Faith", "item_comments": "YOSTIES", "activity_date": "09/09/2014", "county": "Rowan", "facility_id": "080010700", "score": 99.0, "addr_line1": "202 N Main St"}}

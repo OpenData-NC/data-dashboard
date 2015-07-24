@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway - Colington Road", "addr_city": "Kill Devil Hills", "item_comments": "REPAIR DUMPSTER LIDS;REPLACE DISCOLORED CEILING TILES;", "activity_date": "05/26/2014", "county": "Dare", "facility_id": "028010591", "score": 99.0, "addr_line1": "100 W Ocean Bay"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Surfberry", "addr_city": "Wrightsville Beach", "item_comments": ";;;;3-304.14", "activity_date": "05/19/2014", "county": "New Hanover", "facility_id": "065012170", "score": 98.0, "addr_line1": "222 Causeway Dr"}}

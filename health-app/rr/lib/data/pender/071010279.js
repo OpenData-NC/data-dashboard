@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonalds /  Burgaw", "addr_city": "Burgaw", "item_comments": "4 903.11  A  AND  C  EQUIPMENT, UTENSILS, LINENS AND SINGLE SERVICE AND SINGLE USE ARTICLES STORING;6 501.111 CONTROLLING PESTS;", "activity_date": "07/15/2014", "county": "Pender", "facility_id": "071010279", "score": 99.0, "addr_line1": "751 Nc Hwy 53 E"}}

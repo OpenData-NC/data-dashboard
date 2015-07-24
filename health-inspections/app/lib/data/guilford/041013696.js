@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taste of Asia", "addr_city": "High Point", "item_comments": "FLOORS NEED CLEANING AROUND EQUIPMENT;LOG OF SUSHI RICE PH MUST BE KEPT DAILY;", "activity_date": "06/27/2014", "county": "Guilford", "facility_id": "041013696", "score": 98.5, "addr_line1": "3793   Samet  Dr"}}

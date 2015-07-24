@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Phoenix Lounge", "addr_city": "Brevard", "item_comments": "PHOENIX LOUNGE", "activity_date": "09/11/2014", "county": "Transylvania", "facility_id": "088010339", "score": 96.5, "addr_line1": "14 South Gaston St"}}

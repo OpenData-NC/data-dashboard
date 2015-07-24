@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carolina Girls Grillin Cafe", "addr_city": "Wilmington", "item_comments": ";3-603.11", "activity_date": "05/06/2014", "county": "New Hanover", "facility_id": "065012083", "score": 94.5, "addr_line1": "1051 S College Rd"}}

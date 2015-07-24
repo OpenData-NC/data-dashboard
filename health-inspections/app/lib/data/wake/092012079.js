@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Target Food Avenue Xpress T1080", "addr_city": "Raleigh", "item_comments": "TARGET FOOD AVENUE XPRESS T1080", "activity_date": "08/21/2014", "county": "Wake", "facility_id": "092012079", "score": 99.5, "addr_line1": "4841 Grove Barton Rd."}}

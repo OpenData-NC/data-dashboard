@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Panda King Restaurant", "addr_city": "Fayetteville", "item_comments": ".;.;.;.;.;", "activity_date": "09/23/2014", "county": "Cumberland", "facility_id": "026012358", "score": 97.0, "addr_line1": "929 McArthur Road"}}

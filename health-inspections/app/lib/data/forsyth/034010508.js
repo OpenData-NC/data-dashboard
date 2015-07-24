@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wilshire Restaurant", "addr_city": "Winston-Salem", "item_comments": "WILSHIRE RESTAURANT", "activity_date": "09/12/2014", "county": "Forsyth", "facility_id": "034010508", "score": 97.0, "addr_line1": "1570 Bridgton Street"}}

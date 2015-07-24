@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ihop #3331", "addr_city": "Raleigh", "item_comments": "IHOP #3331", "activity_date": "07/09/2014", "county": "Wake", "facility_id": "092015731", "score": 94.5, "addr_line1": "7471 Six Forks Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China House", "addr_city": "Knightdale", "item_comments": "CHINA HOUSE", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092012825", "score": 94.0, "addr_line1": "7063-E Us 64 Hwy"}}

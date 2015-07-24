@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sams Club #4798", "addr_city": "Winston Salem", "item_comments": "SAMS CLUB #4798", "activity_date": "09/04/2014", "county": "Forsyth", "facility_id": "034011494", "score": 95.0, "addr_line1": "284 Summit Square Blvd"}}

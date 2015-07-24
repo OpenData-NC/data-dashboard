@@ -1,1 +1,0 @@
-{"results": {"fac_name": "J & J Grill", "addr_city": "Benson", "item_comments": "J & J GRILL", "activity_date": "08/28/2014", "county": "Johnston", "facility_id": "051010915", "score": 97.0, "addr_line1": "7358 Hwy 50 South"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "South Fork Deli", "addr_city": "Cramerton", "item_comments": "SOUTH FORK DELI", "activity_date": "09/02/2014", "county": "Gaston", "facility_id": "036011506", "score": 97.5, "addr_line1": "119 B Center Street"}}

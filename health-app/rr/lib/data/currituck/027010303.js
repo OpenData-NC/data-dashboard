@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sooeys Bbq Restaurant", "addr_city": "Corolla", "item_comments": "NEED SOAP DISPENSER TO WORK AT HANDWASH SINK NEAR 3 COMPARTMENT SINK.;STORE CLEAN WIPING CLOTHS PROPERLY AT BACK STORAGE AREA.;", "activity_date": "07/08/2014", "county": "Currituck", "facility_id": "027010303", "score": 98.5, "addr_line1": "807 Ocean Trail Unit 15"}}

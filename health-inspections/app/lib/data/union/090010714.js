@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wysacky Trading Post", "addr_city": "Waxhaw", "item_comments": "WYSACKY TRADING POST", "activity_date": "08/11/2014", "county": "Union", "facility_id": "090010714", "score": 0.0, "addr_line1": "7909 Lancaster Highway"}}

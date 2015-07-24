@@ -1,1 +1,0 @@
-{"results": {"fac_name": "La Mexicanita # 2", "addr_city": "Zebulon", "item_comments": "LA MEXICANITA # 2", "activity_date": "08/27/2014", "county": "Wake", "facility_id": "092015379", "score": 92.5, "addr_line1": "225 N Arendell Ave"}}

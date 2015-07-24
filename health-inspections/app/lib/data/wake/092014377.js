@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Earthfare Supermarket Restaura", "addr_city": "Raleigh", "item_comments": "EARTHFARE SUPERMARKET RESTAURA", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092014377", "score": 90.0, "addr_line1": "10341 Moncreiffe Rd"}}

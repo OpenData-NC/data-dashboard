@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Back Porch", "addr_city": "Ocracoke", "item_comments": "NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;NOT OBSERVED;NOT OBSERVED;NOT OBSERVED;NOT APPLICABLE;", "activity_date": "06/10/2014", "county": "Hyde", "facility_id": "048010046", "score": 100.0, "addr_line1": "110 Back Road"}}

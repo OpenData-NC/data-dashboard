@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taco Bell 69", "addr_city": "Cary", "item_comments": "TACO BELL 69", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092012848", "score": 96.0, "addr_line1": "2101 Walnut Street"}}

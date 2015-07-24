@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Crooks  Corner", "addr_city": "Chapel Hill", "item_comments": "4 501.11 GOOD REPAIR AND PROPER ADJUSTMENT EQUIPMENT   CTREAT RUST ON SHELVING.  FRY BASKETS THAT ARE DAMAGED MAY POSE A PHYSICAL CONTAMINATION RISK.;", "activity_date": "06/24/2014", "county": "Orange", "facility_id": "068010029", "score": 99.0, "addr_line1": "610 W Franklin St"}}

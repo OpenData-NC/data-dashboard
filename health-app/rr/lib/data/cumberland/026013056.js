@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Little China", "addr_city": "Fayetteville", "item_comments": ".;.;.;.;.;", "activity_date": "09/09/2014", "county": "Cumberland", "facility_id": "026013056", "score": 98.0, "addr_line1": "3837 Ramsey Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Walmart Subway 40404", "addr_city": "Nashville", "item_comments": "WALMART SUBWAY 40404", "activity_date": "09/08/2014", "county": "Nash", "facility_id": "064010775", "score": 97.5, "addr_line1": "1205 Eastern Avenue"}}

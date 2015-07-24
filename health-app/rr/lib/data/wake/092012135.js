@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Arbys #286", "addr_city": "Fuquay-Varina", "item_comments": "ARBYS #286", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092012135", "score": 94.0, "addr_line1": "1401 N. Main Street"}}

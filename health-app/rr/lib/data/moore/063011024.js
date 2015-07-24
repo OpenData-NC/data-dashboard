@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nosh", "addr_city": "Carthage", "item_comments": "NOSH", "activity_date": "08/25/2014", "county": "Moore", "facility_id": "063011024", "score": 96.5, "addr_line1": "1001 Monroe"}}

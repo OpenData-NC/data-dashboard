@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Nik's Hotdog Shack", "addr_city": "Waynesville", "item_comments": "NIK\\'S HOTDOG SHACK", "activity_date": "09/08/2014", "county": "Haywood", "facility_id": "044010710", "score": 98.5, "addr_line1": "42 Montgomery Street"}}

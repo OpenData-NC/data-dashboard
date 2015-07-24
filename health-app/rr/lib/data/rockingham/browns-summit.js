@@ -1,1 +1,0 @@
-{"results": [["Haw River State Park Cafeteria", "339 Conference Center Dr", "Browns Summit", "08/06/2014", 98.5, "079010531"], ["Procter & Gamble", "6200 Bryan Park Road", "Browns Summit", "07/18/2014", 99.5, "041013898"]]}

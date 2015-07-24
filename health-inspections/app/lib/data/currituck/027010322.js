@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pasquale Pizza", "addr_city": "Corolla", "item_comments": "GENERAL CLEANING OF FLOORS IN KITCHEN   RESTROOMS.;GENERAL CLEANING OF EQUIPMENT IN KITCHEN;STORE PIZZA BOXES OF FLOOR IN KITCHEN;", "activity_date": "07/16/2014", "county": "Currituck", "facility_id": "027010322", "score": 98.0, "addr_line1": "1210 Ocean Trail"}}

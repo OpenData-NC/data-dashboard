@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Goodfellas Grill and Sprots Bar", "addr_city": "Sanford", "item_comments": "GOODFELLAS GRILL AND SPROTS BAR", "activity_date": "09/15/2014", "county": "Lee", "facility_id": "053010436", "score": 95.5, "addr_line1": "2709 Lee Avenue"}}

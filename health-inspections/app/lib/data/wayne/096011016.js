@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jimmy Johns", "addr_city": "Goldsboro", "item_comments": "JIMMY JOHNS", "activity_date": "09/10/2014", "county": "Wayne", "facility_id": "096011016", "score": 99.5, "addr_line1": "1209 B Berkeley Blvd."}}

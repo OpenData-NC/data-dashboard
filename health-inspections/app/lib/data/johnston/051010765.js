@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hong Kong", "addr_city": "Princeton", "item_comments": "HONG KONG", "activity_date": "08/29/2014", "county": "Johnston", "facility_id": "051010765", "score": 97.5, "addr_line1": "1060 B Edwards Road"}}

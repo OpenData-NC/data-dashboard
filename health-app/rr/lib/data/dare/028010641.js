@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sooeys Duck", "addr_city": "Duck", "item_comments": "WEAR HATS;", "activity_date": "06/25/2014", "county": "Dare", "facility_id": "028010641", "score": 99.5, "addr_line1": "Bldg 2 Suite 23 and 24"}}

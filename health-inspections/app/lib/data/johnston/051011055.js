@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fiesta Mexicana Restaurant", "addr_city": "Garner", "item_comments": "FIESTA MEXICANA RESTAURANT", "activity_date": "08/26/2014", "county": "Johnston", "facility_id": "051011055", "score": 94.0, "addr_line1": "5131 Nc 42 W. Suite 270"}}

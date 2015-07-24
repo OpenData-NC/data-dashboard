@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Aunt Beas  Barbecue", "addr_city": "Mount Airy", "item_comments": "AUNT BEAS  BARBECUE", "activity_date": "09/08/2014", "county": "Surry", "facility_id": "086010562", "score": 97.0, "addr_line1": "452 A. Grif. Pkw"}}

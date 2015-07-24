@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Slice of Life", "addr_city": "Wilmington", "item_comments": "2-201.11", "activity_date": "06/10/2014", "county": "New Hanover", "facility_id": "065012301", "score": 90.5, "addr_line1": "3500 Oleander Dt Fc 5"}}

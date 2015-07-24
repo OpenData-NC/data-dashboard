@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Outback Steakhouse  #3402", "addr_city": "Nags Head", "item_comments": "KEEP SINGLE SERVICE ITEMS BAGGED AND TIED UP;DIRTY AREAS ON FLRS, CLEAN UNDER EQUIP;CLEAN FOOD BUILDUP ON FRYERS AND AREA CLEANED;", "activity_date": "06/25/2014", "county": "Dare", "facility_id": "028010848", "score": 97.5, "addr_line1": "5220 S Croatan Hwy"}}

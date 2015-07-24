@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #34319", "addr_city": "High Point", "item_comments": "SUBWAY #34319", "activity_date": "09/17/2014", "county": "Guilford", "facility_id": "041012901", "score": 98.5, "addr_line1": "200 Westwood Ave"}}

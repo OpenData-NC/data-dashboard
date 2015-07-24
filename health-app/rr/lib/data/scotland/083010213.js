@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jin-Jin Chinese Restaurant", "addr_city": "Laurinburg", "item_comments": "JIN-JIN CHINESE RESTAURANT", "activity_date": "09/15/2014", "county": "Scotland", "facility_id": "083010213", "score": 93.0, "addr_line1": "150 Main St"}}

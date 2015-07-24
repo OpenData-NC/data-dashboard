@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Foxs Pizza Den", "addr_city": "Waxhaw", "item_comments": "FOXS PIZZA DEN", "activity_date": "07/23/2014", "county": "Union", "facility_id": "090010582", "score": 94.5, "addr_line1": "407 E. South Main Street"}}

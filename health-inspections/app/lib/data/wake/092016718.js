@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Maui Wowi", "addr_city": "Cary", "item_comments": "MAUI WOWI", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092016718", "score": 95.0, "addr_line1": "919 N. Harrison Avenue"}}

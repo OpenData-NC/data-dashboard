@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Waffle House #1157", "addr_city": "Charlotte", "item_comments": "WAFFLE HOUSE #1157", "activity_date": "09/19/2014", "county": "Mecklenburg", "facility_id": "060012837", "score": 90.5, "addr_line1": "8300 Pineville-Matthews Rd"}}

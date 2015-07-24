@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Gourmet Factory  The", "addr_city": "Raleigh", "item_comments": "GOURMET FACTORY  THE", "activity_date": "08/11/2014", "county": "Wake", "facility_id": "092014562", "score": 94.0, "addr_line1": "3933 Western Blvd"}}

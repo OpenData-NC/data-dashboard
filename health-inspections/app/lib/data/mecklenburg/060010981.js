@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quik Shoppe #15", "addr_city": "Charlotte", "item_comments": "QUIK SHOPPE #15", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060010981", "score": 97.0, "addr_line1": "3000 Wilkinson Blvd"}}

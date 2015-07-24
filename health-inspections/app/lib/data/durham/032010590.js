@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chuck E Cheese", "addr_city": "Durham", "item_comments": "CHUCK E CHEESE", "activity_date": "09/15/2014", "county": "Durham", "facility_id": "032010590", "score": 99.0, "addr_line1": "3724 May Fair Street"}}

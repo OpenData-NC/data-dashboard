@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Big Als Pizza and Wings", "addr_city": "Garner", "item_comments": "BIG ALS PIZZA AND WINGS", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051011272", "score": 98.5, "addr_line1": "5176 K Hwy 42 West"}}

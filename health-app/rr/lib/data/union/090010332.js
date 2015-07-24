@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Victorian Crows Nest", "addr_city": "Monroe", "item_comments": ";;;;;;;;;;;;;;;", "activity_date": "09/12/2014", "county": "Union", "facility_id": "090010332", "score": 100.0, "addr_line1": "1710 W. Franklin Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pita Delite", "addr_city": "Greensboro", "item_comments": "4 501.11 SPLIT SEAL ON VICTORY SINGLE DOOR REACH IN EQUIPMENT COMPONENTS SUCH AS SEALS SHALL BE KEPT INTACT IN ACCORD. MANUF. SPEC.;", "activity_date": "10/16/2014", "county": "Guilford", "facility_id": "041012611", "score": 99.0, "addr_line1": "617 Friendly Center Road"}}

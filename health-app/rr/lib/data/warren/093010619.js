@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bell's Place", "addr_city": "Warrenton", "item_comments": "Test strips are now available in the facility.;", "activity_date": "10/04/2014", "county": "Warren", "facility_id": "093010619", "score": 0.0, "addr_line1": "108 S Main Street"}}

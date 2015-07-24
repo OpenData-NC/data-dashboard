@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kfc/Ljs G135204", "addr_city": "Winston Salem", "item_comments": "KFC/LJS G135204", "activity_date": "09/10/2014", "county": "Forsyth", "facility_id": "034012219", "score": 94.0, "addr_line1": "140 Hanes Square Circle"}}

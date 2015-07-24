@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Moratoc Restaurant", "addr_city": "Williamston", "item_comments": "THE MORATOC RESTAURANT", "activity_date": "09/29/2014", "county": "Martin", "facility_id": "058010174", "score": 96.0, "addr_line1": "102 East Blvd"}}

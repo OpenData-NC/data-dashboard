@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Courtyard Cafe", "addr_city": "Durham", "item_comments": "LIGHT BULBS NEED CHANGING UNDER EXHAUST HOOD.;", "activity_date": "07/14/2014", "county": "Durham", "facility_id": "032010982", "score": 99.0, "addr_line1": "301 Residence Inn Blvd"}}

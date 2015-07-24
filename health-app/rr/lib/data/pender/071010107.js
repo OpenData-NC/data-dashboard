@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway of Burgaw", "addr_city": "Burgaw", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER;", "activity_date": "07/10/2014", "county": "Pender", "facility_id": "071010107", "score": 98.0, "addr_line1": "602 D Pender Landing Shop Ct"}}

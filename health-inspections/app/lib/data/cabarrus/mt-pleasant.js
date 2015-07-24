@@ -1,1 +1,0 @@
-{"results": [["What-A-Burger #13", "8330 W Franklin Street", "Mt Pleasant", "07/23/2014", 99.5, "013010119"]]}

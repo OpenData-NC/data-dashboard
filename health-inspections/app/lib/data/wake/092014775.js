@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sparks Wings & Ribs", "addr_city": "Apex", "item_comments": "SPARKS WINGS & RIBS", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092014775", "score": 96.0, "addr_line1": "5490 Peakway Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Mexicano", "addr_city": "Laurinburg", "item_comments": "PERSON IN CHARGE  NO FOOD SERVICE CERTIFICATION;SEVERAL CONTAINERS OF FOOD WERE ON THE FLOOR IN WALKIN COOLER AND FREEZER;", "activity_date": "07/24/2014", "county": "Scotland", "facility_id": "083010265", "score": 97.0, "addr_line1": "1229 South Main St."}}

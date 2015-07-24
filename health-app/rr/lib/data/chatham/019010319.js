@@ -1,1 +1,0 @@
-{"results": {"fac_name": "458 West B&b Kitchen", "addr_city": "Pittsboro", "item_comments": "6 201.11 FLOORS, WALLS AND CEILINGS CLEANABILITY   C  FINISH WALL TO CEILING GAP WITH MOLDING TO PREVENT PEST ENTRY AND FOR EASE OF CLEANING.;", "activity_date": "06/10/2014", "county": "Chatham", "facility_id": "019010319", "score": 100.0, "addr_line1": "458 West Street"}}

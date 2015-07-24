@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Shaw's Barbecue House", "addr_city": "Williamston", "item_comments": "NOT OBSERVED;NOT APPLICABLE;NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT OBSERVED;", "activity_date": "10/30/2014", "county": "Martin", "facility_id": "058010029", "score": 98.5, "addr_line1": "202 West Blvd"}}

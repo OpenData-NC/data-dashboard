@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway/Caribou Coffee (Truckstop Rd)", "addr_city": "Kenly", "item_comments": "SUBWAY/CARIBOU COFFEE (TRUCKSTOP RD)", "activity_date": "07/09/2014", "county": "Johnston", "facility_id": "051011077", "score": 96.5, "addr_line1": "923 Johnston Pkwy"}}

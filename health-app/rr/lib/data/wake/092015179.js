@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Holiday Inn Express", "addr_city": "Apex", "item_comments": "HOLIDAY INN EXPRESS", "activity_date": "08/11/2014", "county": "Wake", "facility_id": "092015179", "score": 94.0, "addr_line1": "1006 Marco Drive"}}

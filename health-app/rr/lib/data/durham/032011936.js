@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sansui", "addr_city": "Durham", "item_comments": "OUT OF PAPER TOWELS IN THE KITCHEN.;3 202.11 CANS BULGING AT BOTH ENDS.;", "activity_date": "07/07/2014", "county": "Durham", "facility_id": "032011936", "score": 98.5, "addr_line1": "4325 Hwy 55"}}

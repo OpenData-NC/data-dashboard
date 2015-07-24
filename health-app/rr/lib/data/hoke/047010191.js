@@ -1,1 +1,0 @@
-{"results": {"fac_name": "J a Hunt Enterprise", "addr_city": "Red Springs", "item_comments": "J A HUNT ENTERPRISE", "activity_date": "07/24/2014", "county": "Hoke", "facility_id": "047010191", "score": 97.0, "addr_line1": "4232 Old Maxton  Rd"}}

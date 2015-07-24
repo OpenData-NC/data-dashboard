@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King   #4844", "addr_city": "Williamston", "item_comments": "NOT APPLICABLE;NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT IN COMPLIANCE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;NOT APPLICABLE;", "activity_date": "07/30/2014", "county": "Martin", "facility_id": "058010001", "score": 98.5, "addr_line1": "400 East Boulevard"}}

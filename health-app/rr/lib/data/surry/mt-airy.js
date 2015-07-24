@@ -1,1 +1,0 @@
-{"results": [["Derby Restaurant", "1901 S Main St", "Mt Airy", "08/20/2014", 94.5, "086010346"], ["Chili Rojo Restaurant", "1296 Newsome St", "Mt Airy", "08/11/2014", 97.5, "086010433"], ["Arbys #1913", "2128 Rockford St", "Mt Airy", "07/22/2014", 97.0, "086010321"]]}

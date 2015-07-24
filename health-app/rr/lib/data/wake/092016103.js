@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cinco De Mayo", "addr_city": "Raleigh", "item_comments": "CINCO DE MAYO", "activity_date": "08/14/2014", "county": "Wake", "facility_id": "092016103", "score": 86.5, "addr_line1": "2549 S Saunders St"}}

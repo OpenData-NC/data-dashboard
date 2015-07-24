@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Salvios Pizzeria", "addr_city": "Raleigh", "item_comments": "SALVIOS PIZZERIA", "activity_date": "08/28/2014", "county": "Wake", "facility_id": "092016422", "score": 98.0, "addr_line1": "6325 Falls of Neuse Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway Number 8", "addr_city": "Hickory", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   CMUST HAVE CERTIFIED FOOD PROTECTION MANAGER ON SITE AT ALL TIMES.;", "activity_date": "08/05/2014", "county": "Catawba", "facility_id": "018010911", "score": 98.0, "addr_line1": "2159 N Center St"}}

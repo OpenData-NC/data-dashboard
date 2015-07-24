@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees1", "addr_city": "Monroe", "item_comments": "HARDEES1", "activity_date": "07/21/2014", "county": "Union", "facility_id": "090010298", "score": 99.0, "addr_line1": "503 W Roosevelt Blvd"}}

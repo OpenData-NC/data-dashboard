@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendell Country Club Foodservice", "addr_city": "Wendell", "item_comments": "WENDELL COUNTRY CLUB FOODSERVICE", "activity_date": "08/04/2014", "county": "Wake", "facility_id": "092013163", "score": 96.0, "addr_line1": "180 Jake May Rd"}}

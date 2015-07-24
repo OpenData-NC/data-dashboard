@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Golden Corral #2507", "addr_city": "Monroe", "item_comments": "GOLDEN CORRAL #2507", "activity_date": "07/16/2014", "county": "Union", "facility_id": "090010631", "score": 94.0, "addr_line1": "2507 West Roosevelt Blvd."}}

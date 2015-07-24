@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Harris Teeter Deli #212", "addr_city": "Carthage", "item_comments": "HARRIS TEETER DELI #212", "activity_date": "08/19/2014", "county": "Moore", "facility_id": "063010779", "score": 99.5, "addr_line1": "400 Mill Creek Road"}}

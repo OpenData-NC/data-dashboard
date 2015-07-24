@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #30100 (Walmart)", "addr_city": "Clayton", "item_comments": "SUBWAY #30100 (WALMART)", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051011068", "score": 98.0, "addr_line1": "805 Towne Center Blvd"}}

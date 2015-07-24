@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sonic", "addr_city": "Sanford", "item_comments": "SONIC", "activity_date": "09/15/2014", "county": "Lee", "facility_id": "053010525", "score": 99.0, "addr_line1": "2600 S Horner Blvd."}}

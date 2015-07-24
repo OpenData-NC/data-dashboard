@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tuckers on the Green", "addr_city": "Grandy", "item_comments": "ALL OPENED ITEMS MUST BE DATED.;", "activity_date": "06/26/2014", "county": "Currituck", "facility_id": "027010118", "score": 98.5, "addr_line1": "127 Carolina Club Drive"}}

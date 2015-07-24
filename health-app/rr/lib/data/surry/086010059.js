@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Speedy Chef", "addr_city": "Elkin", "item_comments": "SPEEDY CHEF", "activity_date": "09/08/2014", "county": "Surry", "facility_id": "086010059", "score": 92.0, "addr_line1": "685 N Bridge Street"}}

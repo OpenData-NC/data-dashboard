@@ -1,1 +1,0 @@
-{"results": [["Sonic 4930", "210 Charlotte Hwy", "Fairview", "08/14/2014", 94.5, "011011360"], ["Angelos", "1226 Charlotte Hwy", "Fairview", "07/16/2014", 90.0, "011010003"], ["Fairview Pizza", "1321 Charlotte  Hwy", "Fairview", "07/16/2014", 95.0, "011012415"]]}

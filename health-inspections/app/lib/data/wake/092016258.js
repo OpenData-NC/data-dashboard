@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Four Brothers Pizza", "addr_city": "Raleigh", "item_comments": "FOUR BROTHERS PIZZA", "activity_date": "07/07/2014", "county": "Wake", "facility_id": "092016258", "score": 93.5, "addr_line1": "3919 New Bern Ave"}}

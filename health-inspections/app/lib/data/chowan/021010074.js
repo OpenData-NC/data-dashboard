@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King 7176", "addr_city": "Edenton", "item_comments": "FLOOR IS VERY GREASY CLEAN.;KEEP SLEEVES UP ON CUPS.;FRIES ON FLOOR IN FREEZER.  STORE 6  SBOVE THE FLOOR.;", "activity_date": "08/15/2014", "county": "Chowan", "facility_id": "021010074", "score": 98.0, "addr_line1": "228 Virginia Road"}}

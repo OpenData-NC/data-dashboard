@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bojangles", "addr_city": "Cherryville", "item_comments": "BOJANGLES", "activity_date": "09/08/2014", "county": "Gaston", "facility_id": "036011179", "score": 97.0, "addr_line1": "1020 East Church St"}}

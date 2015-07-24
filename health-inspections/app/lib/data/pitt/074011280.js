@@ -1,1 +1,0 @@
-{"results": {"fac_name": "East Coast Wings & Grill", "addr_city": "Greenville", "item_comments": "EAST COAST WINGS & GRILL", "activity_date": "08/15/2014", "county": "Pitt", "facility_id": "074011280", "score": 95.0, "addr_line1": "3109 East 10th Street"}}

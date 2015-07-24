@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Golden Corral", "addr_city": "Greensboro", "item_comments": "GOLDEN CORRAL", "activity_date": "09/22/2014", "county": "Guilford", "facility_id": "041011869", "score": 94.5, "addr_line1": "2419 Lawndale Dr"}}

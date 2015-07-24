@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Monteros Restaurant Bar and Ca", "addr_city": "Elizabeth City", "item_comments": "FLOORS IN KITCHEN/FREEZER PITTED   REPAIR;", "activity_date": "06/10/2014", "county": "Pasquotank", "facility_id": "070010209", "score": 99.0, "addr_line1": "414 McArthur Drive"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "No 1 Chinese Buffet", "addr_city": "Monroe", "item_comments": "NO 1 CHINESE BUFFET", "activity_date": "09/03/2014", "county": "Union", "facility_id": "090010779", "score": 93.5, "addr_line1": "1008 W. Roosevelt Blvd"}}

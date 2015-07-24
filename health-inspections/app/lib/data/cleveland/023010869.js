@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carolina Grocery & Diner", "addr_city": "Shelby", "item_comments": "CAROLINA GROCERY & DINER", "activity_date": "08/07/2014", "county": "Cleveland", "facility_id": "023010869", "score": 98.0, "addr_line1": "4146 Fallston Rd."}}

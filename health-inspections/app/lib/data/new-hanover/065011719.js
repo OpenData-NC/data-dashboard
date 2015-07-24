@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Landing", "addr_city": "Wilmington", "item_comments": ";;4-901.11   Equipment and Utensils, Air-Drying Required.  PANS STORED WET.;4-601.11", "activity_date": "05/07/2014", "county": "New Hanover", "facility_id": "065011719", "score": 98.5, "addr_line1": "601 S College Rd"}}

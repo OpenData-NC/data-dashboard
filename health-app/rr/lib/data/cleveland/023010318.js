@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Shelby Cafe", "addr_city": "Shelby", "item_comments": "SHELBY CAFE", "activity_date": "09/08/2014", "county": "Cleveland", "facility_id": "023010318", "score": 98.5, "addr_line1": "220 South Lafayette St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Spotted Dog Restaurant and Bar", "addr_city": "Carrboro", "item_comments": "SPOTTED DOG RESTAURANT AND BAR", "activity_date": "09/09/2014", "county": "Orange", "facility_id": "068010440", "score": 100.0, "addr_line1": "111 E Main Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "First Health Regional Hospital Hoke Camp", "addr_city": "Raeford", "item_comments": "FIRST HEALTH REGIONAL HOSPITAL HOKE CAMP", "activity_date": "08/19/2014", "county": "Hoke", "facility_id": "047010217", "score": 100.0, "addr_line1": "6408 Fayetteville Rd"}}

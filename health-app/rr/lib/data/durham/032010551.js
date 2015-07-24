@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Outback Steak House  #3446", "addr_city": "Durham", "item_comments": "OUTBACK STEAK HOUSE  #3446", "activity_date": "09/19/2014", "county": "Durham", "facility_id": "032010551", "score": 97.0, "addr_line1": "3500 Mt Moriah Road"}}

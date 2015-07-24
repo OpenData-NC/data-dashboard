@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quik Chek - 47", "addr_city": "Liberty", "item_comments": "QUIK CHEK - 47", "activity_date": "09/05/2014", "county": "Randolph", "facility_id": "076010621", "score": 97.5, "addr_line1": "402 W Swannanoa St"}}

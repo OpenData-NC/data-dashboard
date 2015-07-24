@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Academi Grizzly Cage", "addr_city": "Moyock", "item_comments": "CLEAN CEILING VENT, TOILET   KITCHEN.  CORRECTED DURING INPSECTION;CLEAN UNDER FILL   OUTER SURFACE OF COOKING EQUIPMENT.  CORRECTED DURING INSPECTION;", "activity_date": "06/25/2014", "county": "Camden", "facility_id": "015010026", "score": 100.0, "addr_line1": "850 Puddin Ridge Rd."}}

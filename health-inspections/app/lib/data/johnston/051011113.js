@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wok and Grill", "addr_city": "Clayton", "item_comments": "WOK AND GRILL", "activity_date": "08/13/2014", "county": "Johnston", "facility_id": "051011113", "score": 95.0, "addr_line1": "194 Pritchard Rd."}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rudinos Pizza  and Grinders", "addr_city": "Fayetteville", "item_comments": "RUDINOS PIZZA  AND GRINDERS", "activity_date": "09/10/2014", "county": "Cumberland", "facility_id": "026012968", "score": 93.5, "addr_line1": "3351 South Peak Drive"}}

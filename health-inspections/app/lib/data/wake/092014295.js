@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chilis Grill and Bar", "addr_city": "Apex", "item_comments": "CHILIS GRILL AND BAR", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092014295", "score": 92.5, "addr_line1": "1120 Beaver Creek Commons Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Eurest Dining at Electrolux", "addr_city": "Charlotte", "item_comments": "EUREST DINING AT ELECTROLUX", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060016785", "score": 98.0, "addr_line1": "10200 David Taylor Dr"}}

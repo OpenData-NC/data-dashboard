@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bonamanzee", "addr_city": "Madison", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C   PERSON IN CHARGE MUST BE FOOD SAFETY CERTIFIED.;", "activity_date": "06/24/2014", "county": "Rockingham", "facility_id": "079010744", "score": 98.0, "addr_line1": "2471 Nc Hwy 704"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #12006", "addr_city": "Pisgah Forest", "item_comments": "SUBWAY #12006", "activity_date": "09/04/2014", "county": "Transylvania", "facility_id": "088010116", "score": 95.0, "addr_line1": "320 Asheville Highway"}}

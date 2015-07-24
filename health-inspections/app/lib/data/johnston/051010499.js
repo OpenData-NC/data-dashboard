@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Venero's", "addr_city": "Clayton", "item_comments": "VENERO\\'S", "activity_date": "08/21/2014", "county": "Johnston", "facility_id": "051010499", "score": 98.0, "addr_line1": "9973 Hwy 70 West"}}

@@ -1,1 +1,0 @@
-{"results": [["Marthas Grill", "491 S Main St", "Star", "08/20/2014", 95.5, "062010079"], ["Carriage House Cafe", "614 Spies Road", "Star", "08/14/2014", 93.0, "062010119"], ["McCoa Community Kitchen", "114 King Street", "Star", "07/02/2014", 96.5, "062010248"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jimmy S Seafood Buffett", "addr_city": "Kitty Hawk", "item_comments": "COVER ALL FOODS IN WALKIN;KEEP BACK DOOR AREA CLEAN;LID NEEDED FOR TRASHCAN IN LADIES RM;DRY STRG OFF FLR AND CLEAN COOKLINE;", "activity_date": "06/06/2014", "county": "Dare", "facility_id": "028010561", "score": 96.0, "addr_line1": "4117 N Croatan"}}

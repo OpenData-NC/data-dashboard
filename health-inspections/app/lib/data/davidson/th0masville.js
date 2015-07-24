@@ -1,1 +1,0 @@
-{"results": [["Dennys Restaurant 8150", "103 Sedgehill Drive", "Th0masville", "06/30/2014", 96.5, "029010833"], ["R Lo's Pub and Grub", "207 Fisher Ferry St", "Th0masville", "06/24/2014", 92.0, "029010908"], ["Gogo Yaki", "1055 Randolph Street", "Th0masville", "06/16/2014", 95.0, "029010855"]]}

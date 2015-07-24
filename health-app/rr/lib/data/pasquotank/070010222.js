@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Famous Franks Hot Dogs and Grill", "addr_city": "Elizabeth City", "item_comments": "FAMOUS FRANKS HOT DOGS AND GRILL", "activity_date": "09/11/2014", "county": "Pasquotank", "facility_id": "070010222", "score": 99.5, "addr_line1": "225 S Hughes Blvd"}}

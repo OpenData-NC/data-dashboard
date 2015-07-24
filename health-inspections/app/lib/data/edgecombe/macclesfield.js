@@ -1,1 +1,0 @@
-{"results": [["B B Q House of Macclesfield", "106 East Green St", "Macclesfield", "06/27/2014", 97.0, "033011102"], ["Southern Belle Cafe", "103 Green Street", "Macclesfield", "06/24/2014", 99.5, "033011293"]]}

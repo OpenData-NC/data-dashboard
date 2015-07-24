@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Art Institute of Raleigh Durham", "addr_city": "Durham", "item_comments": "ART INSTITUTE OF RALEIGH DURHAM", "activity_date": "09/19/2014", "county": "Durham", "facility_id": "032011896", "score": 97.5, "addr_line1": "410 Blackwell Street"}}

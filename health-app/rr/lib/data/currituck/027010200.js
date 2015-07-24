@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bay Villa", "addr_city": "Knotts Island", "item_comments": "NO WASTEWATER CONTRACT ON FILE, MUST HAVE A WASTEWATER CONTRACT IN PLACE. SYSTEM NEEDS TO BE SERVICED IMMEDIATELY.  SUBMIT CONTRACT   REPORT THIS TO THIS OFFICE.;", "activity_date": "06/05/2014", "county": "Currituck", "facility_id": "027010200", "score": 99.0, "addr_line1": "112 Osprey Dr"}}

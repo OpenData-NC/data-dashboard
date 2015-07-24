@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bay Breeze", "addr_city": "Sanford", "item_comments": "NOT IN COMPLIANCE;NOT IN COMPLIANCE;", "activity_date": "06/17/2014", "county": "Lee", "facility_id": "053010276", "score": 96.0, "addr_line1": "1385 N. Horner Blvd"}}

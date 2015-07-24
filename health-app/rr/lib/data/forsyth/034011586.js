@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Taqueria Guadalajara  2", "addr_city": "Winston Salem", "item_comments": "TAQUERIA GUADALAJARA  2", "activity_date": "09/08/2014", "county": "Forsyth", "facility_id": "034011586", "score": 91.0, "addr_line1": "980 Peters Creek Parkway"}}

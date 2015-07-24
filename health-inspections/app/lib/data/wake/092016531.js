@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Tlaquepaque Mexican Cuisine", "addr_city": "Wake Forest", "item_comments": "TLAQUEPAQUE MEXICAN CUISINE", "activity_date": "07/01/2014", "county": "Wake", "facility_id": "092016531", "score": 96.0, "addr_line1": "11206 Capital  Blvd"}}

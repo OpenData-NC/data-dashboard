@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cincys Downtown", "addr_city": "Greensboro", "item_comments": "CINCYS DOWNTOWN", "activity_date": "08/29/2014", "county": "Guilford", "facility_id": "041011440", "score": 98.0, "addr_line1": "115 E February One Pl"}}

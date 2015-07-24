@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Li Ming Global Market", "addr_city": "Greensboro", "item_comments": "LI MING GLOBAL MARKET", "activity_date": "09/19/2014", "county": "Guilford", "facility_id": "041013906", "score": 96.5, "addr_line1": "3703 High Point Road"}}

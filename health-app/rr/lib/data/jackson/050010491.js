@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Game Keepers Tavern", "addr_city": "Sapphire", "item_comments": "ALL FOOD ITEMS IN ONE OF THE COLD HOLD PREP UNITS WERE BETWEEN 52 AND 57 DEGREES F.  COLD HOLD IS 41 DEGREES F OR BELOW.  CDI;", "activity_date": "06/04/2014", "county": "Jackson", "facility_id": "050010491", "score": 98.5, "addr_line1": "3646 Us 64 East"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Stancil Food Shop #3", "addr_city": "Selma", "item_comments": "STANCIL FOOD SHOP #3", "activity_date": "08/19/2014", "county": "Johnston", "facility_id": "051010149", "score": 93.0, "addr_line1": "1003 S Pollock St"}}

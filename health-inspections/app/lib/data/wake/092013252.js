@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Macgregor Draft House", "addr_city": "Cary", "item_comments": "MACGREGOR DRAFT HOUSE", "activity_date": "07/22/2014", "county": "Wake", "facility_id": "092013252", "score": 94.0, "addr_line1": "107 S Edinburgh  Suite 120"}}

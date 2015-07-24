@@ -1,1 +1,0 @@
-{"results": [["Wendy's Spout Springs", "Nc Hwy 24/87", "Spout Springs", "10/07/2014", 97.0, "043010741"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Moe's Southwest Grill #2355", "addr_city": "Charlotte", "item_comments": "MOE\\'S SOUTHWEST GRILL #2355", "activity_date": "09/11/2014", "county": "Mecklenburg", "facility_id": "060017106", "score": 97.0, "addr_line1": "210 E Trade  St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hannahs Bbq S0uth", "addr_city": "Lincolnton", "item_comments": "6 501.111 CONTROLLING PESTS   PF FLIES NOTED IN BACK KITCHEN AREA AND IN DINING AREA.  TAKE FURTHER MEASURES TO CONTROL AND ELIMINATE.;", "activity_date": "08/27/2014", "county": "Lincoln", "facility_id": "055010372", "score": 99.0, "addr_line1": "101 Stanf0rd  R0ad"}}

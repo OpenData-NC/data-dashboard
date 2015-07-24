@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King #8883", "addr_city": "Charlotte", "item_comments": "BURGER KING #8883", "activity_date": "09/19/2014", "county": "Mecklenburg", "facility_id": "060012292", "score": 97.0, "addr_line1": "7615 Nations Ford Rd"}}

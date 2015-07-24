@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Djs Diner", "addr_city": "Indian Trail", "item_comments": "DJS DINER", "activity_date": "09/02/2014", "county": "Union", "facility_id": "090011018", "score": 96.5, "addr_line1": "88 Dale Jarrett Blvd"}}

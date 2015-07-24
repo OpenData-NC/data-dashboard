@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Gg the Taste of Chicago & Fish Chicken", "addr_city": "Durham", "item_comments": "GG THE TASTE OF CHICAGO & FISH CHICKEN", "activity_date": "09/11/2014", "county": "Durham", "facility_id": "032012101", "score": 97.5, "addr_line1": "826 Fayetteville St Suite 103"}}

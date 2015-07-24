@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China King", "addr_city": "Kenansville", "item_comments": "CHINA KING", "activity_date": "09/09/2014", "county": "Duplin", "facility_id": "031010476", "score": 90.0, "addr_line1": "166 Liberty Square Shopping"}}

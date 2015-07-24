@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes #3018", "addr_city": "Charlotte", "item_comments": "JERSEY MIKES #3018", "activity_date": "09/22/2014", "county": "Mecklenburg", "facility_id": "060017203", "score": 95.0, "addr_line1": "10110 Johnston Rd Suite 14"}}

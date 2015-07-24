@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rainbow Family Rest.", "addr_city": "High Point", "item_comments": "4 603.15 WASHING, PROCEDURES FOR ALTERNATIVE MANUAL WAREWASHING EQUIPMENT;", "activity_date": "07/24/2014", "county": "Guilford", "facility_id": "041011777", "score": 99.5, "addr_line1": "1715  Westchester Dr"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rippingtons", "addr_city": "Waxhaw", "item_comments": "RIPPINGTONS", "activity_date": "08/12/2014", "county": "Union", "facility_id": "090010494", "score": 96.0, "addr_line1": "109 W. South Main Street"}}

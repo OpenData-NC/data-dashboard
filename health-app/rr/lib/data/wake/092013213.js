@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rehab Snack Bar Gov Morehead", "addr_city": "Raleigh", "item_comments": "REHAB SNACK BAR GOV MOREHEAD", "activity_date": "08/08/2014", "county": "Wake", "facility_id": "092013213", "score": 100.0, "addr_line1": "305 Ashe Ave"}}

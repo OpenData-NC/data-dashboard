@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Old Europe", "addr_city": "Asheville", "item_comments": ";;;;;;;;3-501.17;  Required to date mark milk according to when the container is opened.;;;;;;;;3-302.12; Core;  Label bins located in kitchen prep area.;", "activity_date": "09/30/2014", "county": "Buncombe", "facility_id": "011012019", "score": 97.5, "addr_line1": "13  Broadway St"}}

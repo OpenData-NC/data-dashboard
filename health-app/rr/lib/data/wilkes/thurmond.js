@@ -1,1 +1,0 @@
-{"results": [["Foothills Grocery & Deli", "1681 Us Hwy 21", "Thurmond", "05/23/2014", 96.0, "097010367"]]}

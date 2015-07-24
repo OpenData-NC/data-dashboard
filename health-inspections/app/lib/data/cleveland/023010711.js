@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pleasant City Wood Fired Grill", "addr_city": "Shelby", "item_comments": "PLEASANT CITY WOOD FIRED GRILL", "activity_date": "09/11/2014", "county": "Cleveland", "facility_id": "023010711", "score": 94.0, "addr_line1": "233 S. Lafayette St."}}

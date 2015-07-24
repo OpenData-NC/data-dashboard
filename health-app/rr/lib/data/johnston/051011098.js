@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pitstop Subs and Wings", "addr_city": "Kenly", "item_comments": "PITSTOP SUBS AND WINGS", "activity_date": "07/02/2014", "county": "Johnston", "facility_id": "051011098", "score": 98.0, "addr_line1": "401 S. Church St."}}

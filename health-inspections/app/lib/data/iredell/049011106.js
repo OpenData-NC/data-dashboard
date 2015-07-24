@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chips and Salsa", "addr_city": "Troutman", "item_comments": "CHIPS AND SALSA", "activity_date": "09/22/2014", "county": "Iredell", "facility_id": "049011106", "score": 90.5, "addr_line1": "123 Julian Place"}}

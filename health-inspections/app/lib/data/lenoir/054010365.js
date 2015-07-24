@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cafe at Lenoir Memorial", "addr_city": "Kinston", "item_comments": "CAFE AT LENOIR MEMORIAL", "activity_date": "07/23/2014", "county": "Lenoir", "facility_id": "054010365", "score": 98.0, "addr_line1": "100 Airport Rd"}}

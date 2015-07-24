@@ -1,1 +1,0 @@
-{"results": [["Debbies Country Kitchen", "5552 Wilkes Yadkin Rd", "Ronda", "09/24/2014", 90.0, "097010489"], ["Country Corner Cafe", "122785 Elkin Highway", "Ronda", "06/26/2014", 93.5, "097010497"]]}

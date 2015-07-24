@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Fitzgeralds Irish Pub #1", "addr_city": "Chapel Hill", "item_comments": "FITZGERALDS IRISH PUB #1", "activity_date": "09/17/2014", "county": "Orange", "facility_id": "068010931", "score": 100.0, "addr_line1": "206 West Franklin Street"}}

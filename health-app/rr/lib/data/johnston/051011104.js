@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Roma Pizza Shop", "addr_city": "Clayton", "item_comments": "ROMA PIZZA SHOP", "activity_date": "07/16/2014", "county": "Johnston", "facility_id": "051011104", "score": 96.5, "addr_line1": "50-9 Neuse River Parkway"}}

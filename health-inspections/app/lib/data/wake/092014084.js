@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brigs of Wake Forest", "addr_city": "Wake Forest", "item_comments": "BRIGS OF WAKE FOREST", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092014084", "score": 96.5, "addr_line1": "12338 Wake Union Church Rd"}}

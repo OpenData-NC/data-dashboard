@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Which Wich? #280", "addr_city": "Raleigh", "item_comments": "WHICH WICH? #280", "activity_date": "07/08/2014", "county": "Wake", "facility_id": "092016247", "score": 94.0, "addr_line1": "413 Woodburn Rd"}}

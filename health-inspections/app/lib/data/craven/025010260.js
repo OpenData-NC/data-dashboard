@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Big Apple Pizzeria - Havelock", "addr_city": "Havelock", "item_comments": "BIG APPLE PIZZERIA - HAVELOCK", "activity_date": "09/08/2014", "county": "Craven", "facility_id": "025010260", "score": 98.5, "addr_line1": "1415 E Main St"}}

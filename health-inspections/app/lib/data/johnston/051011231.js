@@ -1,1 +1,0 @@
-{"results": {"fac_name": "El Charro Mexican Restaurant", "addr_city": "Benson", "item_comments": "EL CHARRO MEXICAN RESTAURANT", "activity_date": "07/23/2014", "county": "Johnston", "facility_id": "051011231", "score": 95.5, "addr_line1": "709 S. Wall St."}}

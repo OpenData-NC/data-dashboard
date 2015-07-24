@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cafe Driade", "addr_city": "Chapel Hill", "item_comments": "CAFE DRIADE", "activity_date": "09/16/2014", "county": "Orange", "facility_id": "068010531", "score": 95.0, "addr_line1": "1215 a E Franklin St"}}

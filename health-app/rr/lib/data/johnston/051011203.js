@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King #948", "addr_city": "Garner", "item_comments": "BURGER KING #948", "activity_date": "07/21/2014", "county": "Johnston", "facility_id": "051011203", "score": 97.5, "addr_line1": "101 Commerce Pkwy"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ihop #3439", "addr_city": "Lumberton", "item_comments": "4 601.11  A  EQUIPMENT, FOOD CONTACT SURFACES, NONFOOD CONTACT SURFACES, AND UTENSILS   PPLEASE PROPERLY CLEAN ALL DISHES AND UTENSILS BEFORE STACKING FOR STORAGE.;", "activity_date": "07/17/2014", "county": "Robeson", "facility_id": "078011077", "score": 97.0, "addr_line1": "4470 Kahn Drive"}}

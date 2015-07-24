@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cruizers  20", "addr_city": "Durham", "item_comments": "5 203.12 TOILETS AND URINALS   C     MEN RESTROOM NEEDS CLEANING.;6 501.111 CONTROLLING PESTS   PF  FLIES PRESENT IN KITCHEN AREA.;", "activity_date": "08/19/2014", "county": "Durham", "facility_id": "032011664", "score": 98.5, "addr_line1": "1914 Sedwick Road"}}

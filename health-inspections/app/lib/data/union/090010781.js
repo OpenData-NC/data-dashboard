@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rons Grill", "addr_city": "Monroe", "item_comments": "RONS GRILL", "activity_date": "08/22/2014", "county": "Union", "facility_id": "090010781", "score": 93.5, "addr_line1": "3621 Old Charlotte Hwy"}}

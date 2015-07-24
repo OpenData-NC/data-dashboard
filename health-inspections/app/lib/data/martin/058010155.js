@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hitch'n Post", "addr_city": "Williamston", "item_comments": "HITCH\\'N POST", "activity_date": "09/25/2014", "county": "Martin", "facility_id": "058010155", "score": 99.0, "addr_line1": "1981 Us Hwy 17"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Los Potrillos", "addr_city": "Chapel Hill", "item_comments": "LOS POTRILLOS", "activity_date": "09/11/2014", "county": "Orange", "facility_id": "068010588", "score": 98.5, "addr_line1": "220 W Rosemary Street"}}

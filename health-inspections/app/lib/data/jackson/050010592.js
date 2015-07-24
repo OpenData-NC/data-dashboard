@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dairy Queen #584", "addr_city": "Sylva", "item_comments": "DAIRY QUEEN #584", "activity_date": "08/29/2014", "county": "Jackson", "facility_id": "050010592", "score": 99.5, "addr_line1": "200 East Main Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Your House Rest.", "addr_city": "Greensboro", "item_comments": "2 301.14 WHEN TO WASH HANDS REQUIRED.;", "activity_date": "07/03/2014", "county": "Guilford", "facility_id": "041010479", "score": 98.0, "addr_line1": "2306 Battleground Ave."}}

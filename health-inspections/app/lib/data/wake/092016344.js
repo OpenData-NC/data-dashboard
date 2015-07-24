@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Rock Harbor Grill", "addr_city": "Raleigh", "item_comments": "ROCK HARBOR GRILL", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092016344", "score": 93.5, "addr_line1": "121 N Salem St"}}

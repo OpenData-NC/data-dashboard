@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys #545", "addr_city": "Rocky Point", "item_comments": "4 903.11  A  AND  C  EQUIPMENT, UTENSILS, LINENS AND SINGLE SERVICE AND SINGLE USE ARTICLES STORING;", "activity_date": "07/11/2014", "county": "Pender", "facility_id": "071010356", "score": 99.5, "addr_line1": "8221 B Hwy 117 South"}}

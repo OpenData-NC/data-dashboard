@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Edens Catering & Dining", "addr_city": "Smithfield", "item_comments": ";;;;;;;;;;;;;;;6-501.111; Core; A lot of fruit flies were seen in kitchen area today, improve pest management.;;", "activity_date": "10/08/2014", "county": "Johnston", "facility_id": "051010685", "score": 99.0, "addr_line1": "709 South 3rd Street"}}

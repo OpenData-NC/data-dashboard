@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Novo Nordisk", "addr_city": "Clayton", "item_comments": "NOVO NORDISK", "activity_date": "08/26/2014", "county": "Johnston", "facility_id": "051010951", "score": 99.0, "addr_line1": "3612 Powahatan Road"}}

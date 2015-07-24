@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wang's Bistro", "addr_city": "Zebulon", "item_comments": "WANG\\'S BISTRO", "activity_date": "07/08/2014", "county": "Wake", "facility_id": "092015319", "score": 95.0, "addr_line1": "877-405 E. Gannon Ave"}}

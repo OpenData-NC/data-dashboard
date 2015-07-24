@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sheetz #481", "addr_city": "Wendell", "item_comments": "SHEETZ #481", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092016096", "score": 98.5, "addr_line1": "505 Wendell  Blvd"}}

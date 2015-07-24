@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Clayton", "item_comments": "SUBWAY", "activity_date": "07/09/2014", "county": "Johnston", "facility_id": "051011174", "score": 98.0, "addr_line1": "304 a Pritchard Rd."}}

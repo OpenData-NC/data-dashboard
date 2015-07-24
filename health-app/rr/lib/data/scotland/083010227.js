@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Holiday Inn Express", "addr_city": "Laurinburg", "item_comments": "CLEAN TOP OF THE REACHIN REFRIGERATOR;", "activity_date": "07/23/2014", "county": "Scotland", "facility_id": "083010227", "score": 99.0, "addr_line1": "400 Plaza Drive"}}

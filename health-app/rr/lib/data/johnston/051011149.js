@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cyber Cafe", "addr_city": "Smithfield", "item_comments": "CYBER CAFE", "activity_date": "07/10/2014", "county": "Johnston", "facility_id": "051011149", "score": 100.0, "addr_line1": "514 N. Brightleaf"}}

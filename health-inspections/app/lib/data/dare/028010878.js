@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mykonos", "addr_city": "Nags Head", "item_comments": "PREP TABLE NOT APPROVED,    PAINT ALL SHEETROCK.;", "activity_date": "05/30/2014", "county": "Dare", "facility_id": "028010878", "score": 98.0, "addr_line1": "2706 S Croatan Hwy"}}

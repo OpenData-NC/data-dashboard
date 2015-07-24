@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hillsborough Bbq Company", "addr_city": "Hillsborough", "item_comments": "HILLSBOROUGH BBQ COMPANY", "activity_date": "09/16/2014", "county": "Orange", "facility_id": "068010864", "score": 97.5, "addr_line1": "236 South Nash Street"}}

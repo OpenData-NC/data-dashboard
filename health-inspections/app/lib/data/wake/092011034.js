@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Century Center Cafeteria", "addr_city": "Raleigh", "item_comments": "CENTURY CENTER CAFETERIA", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092011034", "score": 98.0, "addr_line1": "1020 Birch Ridge Drive"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Piggly Wiggly Deli #20", "addr_city": "Vass", "item_comments": "PIGGLY WIGGLY DELI #20", "activity_date": "08/12/2014", "county": "Moore", "facility_id": "063010539", "score": 96.0, "addr_line1": "U S Hwy 1"}}

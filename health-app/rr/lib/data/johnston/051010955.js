@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #42631", "addr_city": "Clayton", "item_comments": "SUBWAY #42631", "activity_date": "08/07/2014", "county": "Johnston", "facility_id": "051010955", "score": 100.0, "addr_line1": "3789-102 Nc Hwy 42 W"}}

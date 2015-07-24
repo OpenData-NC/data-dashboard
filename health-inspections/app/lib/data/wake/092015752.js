@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Troy Mezze Lounge", "addr_city": "Raleigh", "item_comments": "TROY MEZZE LOUNGE", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092015752", "score": 92.5, "addr_line1": "317 Blake St"}}

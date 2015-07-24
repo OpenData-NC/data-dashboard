@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Viva  Mexican Gr1ll", "addr_city": "Nags Head", "item_comments": "KEEP MILK TEMPS BELOW 41;CLEAN FLOORS;", "activity_date": "08/01/2014", "county": "Dare", "facility_id": "028010729", "score": 98.0, "addr_line1": "2424 Cr0atan Hwy"}}

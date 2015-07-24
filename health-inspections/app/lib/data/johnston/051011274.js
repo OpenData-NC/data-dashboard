@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys #6208", "addr_city": "Smithfield", "item_comments": "WENDYS #6208", "activity_date": "08/15/2014", "county": "Johnston", "facility_id": "051011274", "score": 98.5, "addr_line1": "1131 N. Brightleaf Blvd."}}

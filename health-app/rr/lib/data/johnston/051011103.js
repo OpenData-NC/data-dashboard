@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Enoch Winery", "addr_city": "Benson", "item_comments": ";5-202.12; Priority Foundation; Fix hot water faucet on handwashing sink. Water must be able to maintain at 100F or above at hand sink.;;;;;;;;;;;;;;;", "activity_date": "09/19/2014", "county": "Johnston", "facility_id": "051011103", "score": 99.0, "addr_line1": "3735 Nc 50 South"}}

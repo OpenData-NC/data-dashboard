@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lenoir County Shrine Club", "addr_city": "Kinston", "item_comments": ";;;;;;;;;;;;;", "activity_date": "10/18/2014", "county": "Lenoir", "facility_id": "054010546", "score": 100.0, "addr_line1": "1558 Hwy 70 E"}}

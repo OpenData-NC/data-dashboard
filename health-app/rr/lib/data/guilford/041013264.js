@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mexico Restaurant", "addr_city": "Greensboro", "item_comments": "MEXICO RESTAURANT", "activity_date": "09/18/2014", "county": "Guilford", "facility_id": "041013264", "score": 97.0, "addr_line1": "2307   Fleming Rd"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Speckled Trout Cafe", "addr_city": "Blowing Rock", "item_comments": "SPECKLED TROUT CAFE", "activity_date": "09/29/2014", "county": "Watauga", "facility_id": "095010095", "score": 92.0, "addr_line1": "922 South Main Street"}}

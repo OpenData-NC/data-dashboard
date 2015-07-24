@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sammys Tap and Grill", "addr_city": "Raleigh", "item_comments": "SAMMYS TAP AND GRILL", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092013273", "score": 95.5, "addr_line1": "2235 Avent Ferry Road"}}

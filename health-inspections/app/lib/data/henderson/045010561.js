@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Waffle House #1651", "addr_city": "Hendersonville", "item_comments": "WAFFLE HOUSE #1651", "activity_date": "09/26/2014", "county": "Henderson", "facility_id": "045010561", "score": 94.0, "addr_line1": "100 Sugarloaf Road"}}

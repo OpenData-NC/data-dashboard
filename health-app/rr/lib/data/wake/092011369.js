@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway  2046", "addr_city": "Cary", "item_comments": "SUBWAY  2046", "activity_date": "07/29/2014", "county": "Wake", "facility_id": "092011369", "score": 94.0, "addr_line1": "921 N. Harrison Avenue"}}

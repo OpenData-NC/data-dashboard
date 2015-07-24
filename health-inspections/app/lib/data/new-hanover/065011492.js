@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jack Mackerals", "addr_city": "Kure Beach", "item_comments": ";;;;;;;;;;;3-501.17", "activity_date": "05/21/2014", "county": "New Hanover", "facility_id": "065011492", "score": 97.0, "addr_line1": "113 Ft Fisher Blv"}}

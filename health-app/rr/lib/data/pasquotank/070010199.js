@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Herritage Care", "addr_city": "Elizabeth City", "item_comments": "BREADER MUST BE STORED IN COVERED CONTAINER AFTER OPENING. LABE APPROPRIATELY.;WIPING CLOTHS NEED TO BE KEPT IN SANITIZER WHEN WET.;", "activity_date": "09/19/2014", "county": "Pasquotank", "facility_id": "070010199", "score": 99.0, "addr_line1": "100 Timmerman Dr"}}

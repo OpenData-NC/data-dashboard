@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Shuttle Inn C-Store", "addr_city": "Raleigh", "item_comments": "SHUTTLE INN C-STORE", "activity_date": "09/03/2014", "county": "Wake", "facility_id": "092015789", "score": 98.5, "addr_line1": "1000 Main Campus Dr"}}

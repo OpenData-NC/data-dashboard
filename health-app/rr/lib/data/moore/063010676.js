@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carolina West Lawn Kitchen", "addr_city": "Village of Pinehurst", "item_comments": "CAROLINA WEST LAWN KITCHEN", "activity_date": "08/18/2014", "county": "Moore", "facility_id": "063010676", "score": 95.0, "addr_line1": "80 Carolina Vista Dr"}}

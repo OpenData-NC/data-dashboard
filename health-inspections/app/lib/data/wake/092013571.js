@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Applebees # 342", "addr_city": "Wake Forest", "item_comments": "APPLEBEES # 342", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092013571", "score": 96.0, "addr_line1": "11805 Retail Dr"}}

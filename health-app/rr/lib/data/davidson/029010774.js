@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China City", "addr_city": "Thomasville", "item_comments": "CHINA CITY", "activity_date": "09/02/2014", "county": "Davidson", "facility_id": "029010774", "score": 95.0, "addr_line1": "1447 National Highway"}}

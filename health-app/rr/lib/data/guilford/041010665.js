@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cracker Barrel #107", "addr_city": "Greensboro", "item_comments": "CRACKER BARREL #107", "activity_date": "09/02/2014", "county": "Guilford", "facility_id": "041010665", "score": 97.5, "addr_line1": "4402 Landview Dr"}}

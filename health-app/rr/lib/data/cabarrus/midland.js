@@ -1,1 +1,0 @@
-{"results": [["Subway #21050", "4445 Highway 24/27 East", "Midland", "10/02/2014", 96.0, "013010972"], ["Dannass Kitchen", "11850 Hwy 601", "Midland", "09/23/2014", 96.5, "013011003"], ["Corning Cafe", "14556 Hwy 601 South", "Midland", "09/23/2014", 97.0, "013010983"], ["Terrys Kitchen", "10588 Flowes Store Road", "Midland", "07/31/2014", 94.5, "013010638"]]}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks #8272", "addr_city": "Raleigh", "item_comments": "STARBUCKS #8272", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092012307", "score": 95.0, "addr_line1": "3101-105 Edwards Mill Road"}}

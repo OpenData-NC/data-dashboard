@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bocelli's", "addr_city": "Waynesville", "item_comments": "BOCELLI\\'S", "activity_date": "09/22/2014", "county": "Haywood", "facility_id": "044010491", "score": 99.5, "addr_line1": "319 N. Haywood St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Border Station", "addr_city": "Moyock", "item_comments": "CLEAN STORAGE ROOM FLOORS.;CLEAN CEILING IN MENS TOILET;SMOKED MEAT STORE IN OPEN BOX ON FLOOR OF WALK IN;", "activity_date": "05/12/2014", "county": "Currituck", "facility_id": "027010086", "score": 97.5, "addr_line1": "101 Caratoke Hwy"}}

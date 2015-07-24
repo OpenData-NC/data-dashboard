@@ -1,1 +1,0 @@
-{"results": {"fac_name": "East Coast Wings", "addr_city": "Winston Salem", "item_comments": "EAST COAST WINGS", "activity_date": "09/22/2014", "county": "Forsyth", "facility_id": "034011624", "score": 98.0, "addr_line1": "5014 Peters Creek Parkway"}}

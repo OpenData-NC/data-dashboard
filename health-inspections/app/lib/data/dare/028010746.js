@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Outer Banks Taco Bar", "addr_city": "Kitty Hawk", "item_comments": "NEEDS SS;HATS/NETS;", "activity_date": "05/16/2014", "county": "Dare", "facility_id": "028010746", "score": 97.5, "addr_line1": "Po 1865"}}

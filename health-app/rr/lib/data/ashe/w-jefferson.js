@@ -1,1 +1,0 @@
-{"results": [["Kfc and Taco Bell", "51 Beaver Creek School Rd", "W Jefferson", "09/16/2014", 91.5, "005010094"]]}

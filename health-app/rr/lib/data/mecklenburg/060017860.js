@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Chef Kwo", "addr_city": "Charlotte", "item_comments": "CHEF KWO", "activity_date": "09/10/2014", "county": "Mecklenburg", "facility_id": "060017860", "score": 92.0, "addr_line1": "15105 G John J Delaney Dr"}}

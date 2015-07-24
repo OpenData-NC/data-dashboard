@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Lucys Bakery", "addr_city": "Stallings", "item_comments": "LUCYS BAKERY", "activity_date": "08/07/2014", "county": "Union", "facility_id": "090011033", "score": 96.5, "addr_line1": "4522 Potter Rd"}}

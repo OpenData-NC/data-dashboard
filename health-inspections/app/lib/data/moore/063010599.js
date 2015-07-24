@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Whispering Pines Subway", "addr_city": "Carthage", "item_comments": "WHISPERING PINES SUBWAY", "activity_date": "08/22/2014", "county": "Moore", "facility_id": "063010599", "score": 95.0, "addr_line1": "7451 Suite A"}}

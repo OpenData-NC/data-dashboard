@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cup a Joe", "addr_city": "Raleigh", "item_comments": "CUP A JOE", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092010975", "score": 96.0, "addr_line1": "3100 Hillsborough Street"}}

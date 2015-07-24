@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sherrill's Pioneer Restaurant", "addr_city": "Clyde", "item_comments": "SHERRILL\\'S PIONEER RESTAURANT", "activity_date": "09/05/2014", "county": "Haywood", "facility_id": "044010507", "score": 96.5, "addr_line1": "8363 Carolina Blvd"}}

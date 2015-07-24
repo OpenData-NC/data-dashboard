@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Delvecchios", "addr_city": "Asheville", "item_comments": ";4-601.11(B) and (C); Core; Clean inside prep coolers.;;;;;;;;;;;", "activity_date": "08/11/2014", "county": "Buncombe", "facility_id": "011012278", "score": 99.5, "addr_line1": "333 Merrimon Ave"}}

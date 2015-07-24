@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway #20502", "addr_city": "Winston Salem", "item_comments": "SUBWAY #20502", "activity_date": "09/08/2014", "county": "Davidson", "facility_id": "029010418", "score": 98.0, "addr_line1": "12201 N Nc Hwy 150 Suite 15"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Armstrongs Seafood", "addr_city": "Nags Head", "item_comments": "NEEDS SS;", "activity_date": "06/21/2014", "county": "Dare", "facility_id": "028010838", "score": 98.0, "addr_line1": "3022 S Croatan Hwy"}}

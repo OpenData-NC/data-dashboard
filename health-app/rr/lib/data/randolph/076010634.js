@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mona Lisa Restaurant", "addr_city": "Ramseur", "item_comments": "MONA LISA RESTAURANT", "activity_date": "09/16/2014", "county": "Randolph", "facility_id": "076010634", "score": 96.0, "addr_line1": "133 N Brady St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Employee Dining Hall", "addr_city": "Cherokee", "item_comments": "GENERAL COMMENT   ONE TRASH CAN AT THE HAND SINK DID NOT HAVE LINER IN IT.  ALWAYS HAVE LINER IN TRASH CANS. CDI;", "activity_date": "08/19/2014", "county": "Jackson", "facility_id": "050010562", "score": 100.0, "addr_line1": "777 Casino Drive"}}

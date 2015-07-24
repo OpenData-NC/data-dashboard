@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jacks Seafood", "addr_city": "Raleigh", "item_comments": "JACKS SEAFOOD", "activity_date": "07/10/2014", "county": "Wake", "facility_id": "092016057", "score": 94.5, "addr_line1": "5416 Rock Quarry Rd"}}

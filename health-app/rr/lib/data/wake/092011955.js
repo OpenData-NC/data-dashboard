@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pams Farm House Restaurant", "addr_city": "Raleigh", "item_comments": "PAMS FARM HOUSE RESTAURANT", "activity_date": "07/11/2014", "county": "Wake", "facility_id": "092011955", "score": 98.0, "addr_line1": "5111 Western Blvd"}}

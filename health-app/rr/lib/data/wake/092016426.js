@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jersey Mikes 3133", "addr_city": "Cary", "item_comments": "JERSEY MIKES 3133", "activity_date": "07/17/2014", "county": "Wake", "facility_id": "092016426", "score": 93.0, "addr_line1": "2055 Renaissance Park  Pl"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Friendship Class Hot Dogs", "addr_city": "Greensboro", "item_comments": "5 501.17 TOILET ROOM RECEPTACLE, COVEREDNEED A COVERED CONTAINER IN RESTROOM;", "activity_date": "06/21/2014", "county": "Guilford", "facility_id": "041011480", "score": 100.0, "addr_line1": "1301 16th St"}}

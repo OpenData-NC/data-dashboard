@@ -1,1 +1,0 @@
-{"results": [["Keefers Bar and Grille at the Point", "308 Pointe Golf Club Drive", "Powells Point", "08/19/2014", 99.5, "027010067"], ["215 Westside", "215 Westside", "Powells Point", "06/04/2014", 99.5, "027010234"]]}

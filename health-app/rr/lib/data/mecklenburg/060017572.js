@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Viva Chicken", "addr_city": "Charlotte", "item_comments": "VIVA CHICKEN", "activity_date": "09/05/2014", "county": "Mecklenburg", "facility_id": "060017572", "score": 97.0, "addr_line1": "1617 Elizabeth Ave"}}

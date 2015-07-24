@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Neo-China", "addr_city": "Raleigh", "item_comments": "NEO-CHINA", "activity_date": "08/21/2014", "county": "Wake", "facility_id": "092011175", "score": 94.0, "addr_line1": "6602 Glenwood Avenue"}}

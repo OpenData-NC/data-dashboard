@@ -1,1 +1,0 @@
-{"results": {"fac_name": "One World Brewing", "addr_city": "Asheville", "item_comments": ";;;;;4-501.114; Priority;  When using QUAT as a sanitizer in glassware sink, temperature of sanitizer required to be at least 75 degrees F.;;;;;;;;;;;;;;;;;;", "activity_date": "10/03/2014", "county": "Buncombe", "facility_id": "011012414", "score": 98.5, "addr_line1": "10  Patton  Ave"}}

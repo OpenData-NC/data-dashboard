@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Drum & Quill", "addr_city": "Pinehurst", "item_comments": "THE DRUM & QUILL", "activity_date": "09/03/2014", "county": "Moore", "facility_id": "063011031", "score": 95.5, "addr_line1": "40 Chinquapin Rd."}}

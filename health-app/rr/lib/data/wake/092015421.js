@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quality Inn Express", "addr_city": "Fuquay Varina", "item_comments": "QUALITY INN EXPRESS", "activity_date": "07/23/2014", "county": "Wake", "facility_id": "092015421", "score": 93.5, "addr_line1": "511 N Judd Pky Ne"}}

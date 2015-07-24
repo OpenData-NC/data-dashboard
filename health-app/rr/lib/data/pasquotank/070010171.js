@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway 3924", "addr_city": "Elizabeth City", "item_comments": "PLUG NEEDED FOR DUMPSTER;", "activity_date": "08/01/2014", "county": "Pasquotank", "facility_id": "070010171", "score": 100.0, "addr_line1": "1013 N. Road St"}}

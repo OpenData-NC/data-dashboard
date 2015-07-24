@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin Donuts #347603", "addr_city": "Raleigh", "item_comments": "DUNKIN DONUTS #347603", "activity_date": "07/14/2014", "county": "Wake", "facility_id": "092015725", "score": 95.0, "addr_line1": "13240 Strickland Rd"}}

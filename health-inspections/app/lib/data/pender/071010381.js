@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quartermasters", "addr_city": "Surf City", "item_comments": "6 201.13 FLOOR AND WALL JUNCTURES, COVED, AND ENCLOSED OR SEALED  EXTERIOR DOOR NEEDS STRAIN REPLACE.;", "activity_date": "06/10/2014", "county": "Pender", "facility_id": "071010381", "score": 99.0, "addr_line1": "13741 Nc Hwy 50"}}

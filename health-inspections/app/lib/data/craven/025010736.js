@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Outback Steakhouse", "addr_city": "New Bern", "item_comments": "OUTBACK STEAKHOUSE", "activity_date": "09/11/2014", "county": "Craven", "facility_id": "025010736", "score": 93.0, "addr_line1": "111 Howell Rd"}}

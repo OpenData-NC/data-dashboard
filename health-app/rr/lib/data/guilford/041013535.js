@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Singha Ii", "addr_city": "High Point", "item_comments": "SINGHA II", "activity_date": "09/12/2014", "county": "Guilford", "facility_id": "041013535", "score": 98.0, "addr_line1": "2401-101 Penny Rd"}}

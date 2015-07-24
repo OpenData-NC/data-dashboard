@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hotdoggers Suf Cafe", "addr_city": "Point Harbor", "item_comments": "DO NOT PLACE WIPING CLOTHES UNDER SODA FOUNTAIN AREA.;ALL KITCHEN WORKERS NEED TO WEAR HAIR RESTRAINTS;", "activity_date": "08/19/2014", "county": "Currituck", "facility_id": "027010281", "score": 99.0, "addr_line1": "9040 Caratoke Hwy"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway 4286 - Kangaroo 1516", "addr_city": "Cary", "item_comments": "SUBWAY 4286 - KANGAROO 1516", "activity_date": "08/12/2014", "county": "Wake", "facility_id": "092015202", "score": 98.5, "addr_line1": "3505 Kildaire Farm Road"}}

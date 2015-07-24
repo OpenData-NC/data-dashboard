@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardee's Andrews Road 1635", "addr_city": "Fayetteville", "item_comments": ".;.;.;.;", "activity_date": "10/14/2014", "county": "Cumberland", "facility_id": "026010644", "score": 97.5, "addr_line1": "6397 Ramsey Street"}}

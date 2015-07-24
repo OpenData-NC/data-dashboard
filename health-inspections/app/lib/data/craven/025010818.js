@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Carolina Colours Pavillion", "addr_city": "New Bern", "item_comments": "CAROLINA COLOURS PAVILLION", "activity_date": "09/03/2014", "county": "Craven", "facility_id": "025010818", "score": 97.0, "addr_line1": "3300 Waterscape Way"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Russell's Pub and Grill", "addr_city": "Charlotte", "item_comments": "RUSSELL\\'S PUB AND GRILL", "activity_date": "09/18/2014", "county": "Mecklenburg", "facility_id": "060017105", "score": 98.5, "addr_line1": "1609-A Sardis Rd North"}}

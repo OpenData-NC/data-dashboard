@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Walkertown Seafood Shack", "addr_city": "Walkertown", "item_comments": "WALKERTOWN SEAFOOD SHACK", "activity_date": "09/09/2014", "county": "Forsyth", "facility_id": "034014015", "score": 97.0, "addr_line1": "2890 Darrow Road"}}

@@ -1,1 +1,0 @@
-{"results": [["Stricklands Grill", "7740 Hwy 11", "Willard", "07/21/2014", 97.0, "071010078"]]}

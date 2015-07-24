@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cracker Barrel #581", "addr_city": "Asheville", "item_comments": ";;Several pans retaining food deposits.;;;;;;;Air dry pans before stacking.;Non-food contact surfaces in need of cleaning.;", "activity_date": "09/16/2014", "county": "Buncombe", "facility_id": "011011532", "score": 98.0, "addr_line1": "34 Tunnel Rd"}}

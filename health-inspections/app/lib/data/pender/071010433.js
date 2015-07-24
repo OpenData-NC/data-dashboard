@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mojo's", "addr_city": "Atkinson", "item_comments": "4 501.115 MANUAL WAREWASHING EQUIPMENT, CHEMICAL SANITIZATION USING DETERGENT SANITIZERS   C4 602.11 EQUIPMENT FOOD CONTACT SURFACES AND UTENSILS FREQUENCY   P;", "activity_date": "07/22/2014", "county": "Pender", "facility_id": "071010433", "score": 97.0, "addr_line1": "700 East Church Street"}}

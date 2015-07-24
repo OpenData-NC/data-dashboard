@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dunkin Donuts of Aberdeen", "addr_city": "Aberdeen", "item_comments": "DUNKIN DONUTS OF ABERDEEN", "activity_date": "09/30/2014", "county": "Moore", "facility_id": "063010868", "score": 97.5, "addr_line1": "1798 Sandhills Blvd"}}

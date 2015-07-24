@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kona Coast Bakery & Cafe", "addr_city": "Wilmington", "item_comments": ";4-601.11", "activity_date": "05/05/2014", "county": "New Hanover", "facility_id": "065011123", "score": 96.0, "addr_line1": "2131 S 17 St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Herren House", "addr_city": "Waynesville", "item_comments": "HERREN HOUSE", "activity_date": "09/24/2014", "county": "Haywood", "facility_id": "044010651", "score": 97.5, "addr_line1": "94 East St"}}

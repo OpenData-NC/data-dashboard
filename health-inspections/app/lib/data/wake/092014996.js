@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Village Deli # 1", "addr_city": "Raleigh", "item_comments": "VILLAGE DELI # 1", "activity_date": "08/19/2014", "county": "Wake", "facility_id": "092014996", "score": 0.0, "addr_line1": "500 Daniels Street"}}

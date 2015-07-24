@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Honors Commons C-Store", "addr_city": "Raleigh", "item_comments": "HONORS COMMONS C-STORE", "activity_date": "08/21/2014", "county": "Wake", "facility_id": "092015777", "score": 99.0, "addr_line1": "2221  Dunn Ave"}}

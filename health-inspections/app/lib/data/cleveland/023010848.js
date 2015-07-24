@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Kfc #22", "addr_city": "Shelby", "item_comments": "KFC #22", "activity_date": "08/27/2014", "county": "Cleveland", "facility_id": "023010848", "score": 97.5, "addr_line1": "219 S Main Street"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dog House Rest.", "addr_city": "High Point", "item_comments": "DOG HOUSE REST.", "activity_date": "09/17/2014", "county": "Guilford", "facility_id": "041010122", "score": 98.0, "addr_line1": "662 N Main St"}}

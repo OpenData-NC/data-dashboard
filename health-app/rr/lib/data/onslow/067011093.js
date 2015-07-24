@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mission Bbq", "addr_city": "Jacksonville", "item_comments": "MISSION BBQ", "activity_date": "09/15/2014", "county": "Onslow", "facility_id": "067011093", "score": 96.5, "addr_line1": "1638 Western Blvd Ste 200"}}

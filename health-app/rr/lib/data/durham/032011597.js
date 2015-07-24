@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Circle K  6330", "addr_city": "Durham", "item_comments": "6 501.111 CONTROLLING PESTS   PF     FLIES PRESENT.;", "activity_date": "08/22/2014", "county": "Durham", "facility_id": "032011597", "score": 99.0, "addr_line1": "3308 Hwy 55"}}

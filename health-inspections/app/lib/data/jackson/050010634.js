@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dlp Harris Regional Hospital", "addr_city": "Sylva", "item_comments": "DLP HARRIS REGIONAL HOSPITAL", "activity_date": "09/17/2014", "county": "Jackson", "facility_id": "050010634", "score": 99.5, "addr_line1": "68 Hospital"}}

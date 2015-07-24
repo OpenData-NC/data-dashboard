@@ -1,1 +1,0 @@
-{"results": {"fac_name": "88 China Bistro", "addr_city": "Charlotte", "item_comments": "88 CHINA BISTRO", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060015106", "score": 97.0, "addr_line1": "1620-A E. 4th St."}}

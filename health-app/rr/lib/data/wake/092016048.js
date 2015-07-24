@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Gonza Tacos Y Tequila", "addr_city": "Raleigh", "item_comments": "GONZA TACOS Y TEQUILA", "activity_date": "08/05/2014", "county": "Wake", "facility_id": "092016048", "score": 97.5, "addr_line1": "7713 Lead Mine  Rd"}}

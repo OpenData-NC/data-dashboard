@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dos Taquitos Xoco", "addr_city": "Raleigh", "item_comments": "DOS TAQUITOS XOCO", "activity_date": "07/21/2014", "county": "Wake", "facility_id": "092016371", "score": 94.0, "addr_line1": "410 Glenwood Ave"}}

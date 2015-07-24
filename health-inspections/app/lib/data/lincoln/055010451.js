@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Cap'n Petes Seafood Restaurant", "addr_city": "Lincolnton", "item_comments": "CAP\\'N PETES SEAFOOD RESTAURANT", "activity_date": "08/28/2014", "county": "Lincoln", "facility_id": "055010451", "score": 99.5, "addr_line1": "1855 N Aspen St"}}

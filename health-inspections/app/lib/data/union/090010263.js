@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jin Jin", "addr_city": "Monroe", "item_comments": "JIN JIN", "activity_date": "08/25/2014", "county": "Union", "facility_id": "090010263", "score": 93.5, "addr_line1": "221 E Franklin St"}}

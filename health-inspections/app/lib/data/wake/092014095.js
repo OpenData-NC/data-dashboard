@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Quiznos Classic Subs", "addr_city": "Cary", "item_comments": "QUIZNOS CLASSIC SUBS", "activity_date": "09/02/2014", "county": "Wake", "facility_id": "092014095", "score": 94.0, "addr_line1": "1246 N W  Maynard"}}

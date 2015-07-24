@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mr. Gs", "addr_city": "Charlotte", "item_comments": "MR. GS", "activity_date": "09/16/2014", "county": "Mecklenburg", "facility_id": "060010399", "score": 97.0, "addr_line1": "5027 Morris Field Dr"}}

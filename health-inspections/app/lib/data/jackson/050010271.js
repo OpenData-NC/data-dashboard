@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Scc Culinary Kitchen", "addr_city": "Sylva", "item_comments": "SCC CULINARY KITCHEN", "activity_date": "09/17/2014", "county": "Jackson", "facility_id": "050010271", "score": 95.5, "addr_line1": "447 College Drive"}}

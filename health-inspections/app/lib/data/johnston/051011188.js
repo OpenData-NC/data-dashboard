@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dairy Queen", "addr_city": "Kenly", "item_comments": "DAIRY QUEEN", "activity_date": "08/18/2014", "county": "Johnston", "facility_id": "051011188", "score": 100.0, "addr_line1": "923 Johnston Pkwy"}}

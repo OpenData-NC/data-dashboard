@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Torero's Mexican Rest V", "addr_city": "Cary", "item_comments": "TORERO\\'S MEXICAN REST V", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092012056", "score": 96.0, "addr_line1": "1207-C Kildaire Farm Rd"}}

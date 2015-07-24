@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King Dunn I-95", "addr_city": "Dunn", "item_comments": "BURGER KING DUNN I-95", "activity_date": "08/28/2014", "county": "Harnett", "facility_id": "043010707", "score": 96.5, "addr_line1": "1004 East Cumberland Street"}}

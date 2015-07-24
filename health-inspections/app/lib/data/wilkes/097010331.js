@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McGradys Cafe", "addr_city": "Elkin", "item_comments": "DOMESTIC REFRIGERATOR.4 205.10 FOOD EQUIPMENT, CERTIFICATION AND CLASSIFICATION   C;", "activity_date": "08/20/2014", "county": "Wilkes", "facility_id": "097010331", "score": 99.0, "addr_line1": "8342 Austin Traphill Rd"}}

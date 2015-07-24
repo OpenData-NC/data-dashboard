@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dannys Restaurant", "addr_city": "Greensboro", "item_comments": "DANNYS RESTAURANT", "activity_date": "09/16/2014", "county": "Guilford", "facility_id": "041011752", "score": 92.0, "addr_line1": "2109  New Garden Rd"}}

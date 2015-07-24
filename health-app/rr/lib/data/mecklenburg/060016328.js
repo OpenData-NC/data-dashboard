@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Red Bowl Restaurant", "addr_city": "Charlotte", "item_comments": "RED BOWL RESTAURANT", "activity_date": "09/09/2014", "county": "Mecklenburg", "facility_id": "060016328", "score": 90.0, "addr_line1": "10822  Providence Road Suite 1"}}

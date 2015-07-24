@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Butcher Block American Grill", "addr_city": "Raleigh", "item_comments": "BUTCHER BLOCK AMERICAN GRILL", "activity_date": "07/31/2014", "county": "Wake", "facility_id": "092016704", "score": 98.0, "addr_line1": "10630 Durant Road"}}

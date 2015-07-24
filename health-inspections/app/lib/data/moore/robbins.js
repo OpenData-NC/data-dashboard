@@ -1,1 +1,0 @@
-{"results": [["Jakes  Place", "221 S Nc Hwy # 705", "Robbins", "09/30/2014", 94.0, "063010733"], ["Edens Garden Cafe", "121e Salisbury", "Robbins", "09/03/2014", 99.5, "063010861"], ["Robbins Friendly Mart", "13028 Hwy 24/27", "Robbins", "09/03/2014", 95.0, "063010950"], ["Little Village Restaurant", "151 Middleton St", "Robbins", "05/08/2014", 95.5, "063010381"]]}

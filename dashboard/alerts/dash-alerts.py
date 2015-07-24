@@ -1,4 +1,18 @@
 #!/usr/bin/env python
+
+#script to check if any new data has been collected that matches a query the user has saved
+#we use SendGrid, so you'll need to set up an account there. The free tier is allows something
+#like 25K/mo., so it should be adequate for most cases.
+#we use the same rEST API as the dashboard search. the data we store for the alerts is used to build the
+#the query url and data is returned as json.
+#if we find new data, we'll format it into a table and send an email -- one email per user/day, regardless of the number of alerts
+#that user has saved.
+#NOTE: This is only searching crime data at this point, in large part because the other data isn't updated more than once a month.
+#in addition, "new data" means data that's new to the database. Each scrape looks for recent data *and* for data that's older than the
+#oldest data currently in the database for that agency. we do this to gather historic data as well.
+#each record gets timestamped when it enters our database. that timestamp is used by the alert system to determine whether
+#data is new -- whether it entered the database after the last time we searched as part of the alert system.
+
 import MySQLdb
 import datetime
 import requests
@@ -6,25 +20,14 @@ import sendgrid
 import json
 import jinja2
 
-#config stuff
+from alert_config import make_config
 
-#used to make queries to api
-#base_url = 'http://beta.open-nc.org'
-base_url = 'http://data.open-nc.org'
+base_url, sg_user, sg_pw, email_template_dir, results_template_file, email_template_file, db, host, db_user, db_pw, insert_user, insert_pw = make_config()
 
 #to send email alerts
-sg = sendgrid.SendGridClient('opennc', 'send0pengr!dNC')
-from_email = 'Open N.C. Dashboard Alerts <dash@open-nc.org>'
+sg = sendgrid.SendGridClient(sg_user, sg_pw)
 
-#db config
-user = 'dataDa5h'
-pw = 'UnC0p3n'
-db = 'crime'
-#used to update alert info
-insert_user = 'crimeloader'
-insert_pw = 'redaolemirc'
 
-host = '10.240.220.181'
 select_connection = MySQLdb.connect(user=user, passwd=pw, db=db, host=host)
 select_cursor = select_connection.cursor()
 #for updates
@@ -32,12 +35,11 @@ insert_connection = MySQLdb.connect(user=insert_user, passwd=insert_pw, db=db, h
 insert_cursor = insert_connection.cursor()
 
 #templates to format results for emails
-template_loader = jinja2.FileSystemLoader( '/home/vaughn.hagerty/alerts/jinja-templates' )
+template_loader = jinja2.FileSystemLoader( email_template_dir )
 template_env = jinja2.Environment( loader=template_loader )
-results_template_file = "results.jinja"
-email_template_file = "email.jinja"
 results_template = template_env.get_template( results_template_file )
 email_template = template_env.get_template( email_template_file )
+
 #update last searched so next run will get subsequent data
 def update_last_searched():
     sql = 'update dash_alerts set last_searched = now()'
@@ -157,7 +159,6 @@ def organize_alerts(alerts):
 
 
 def main():
-    #alerts_to_send = {}
     #a dictionary of each users' alerts. see organize_alerts above
     alerts = organize_alerts(fetch_alerts())
     name = ''

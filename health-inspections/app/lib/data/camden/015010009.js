@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Duck Thru #16", "addr_city": "Camden", "item_comments": "FLIES PRESENT.;", "activity_date": "05/13/2014", "county": "Camden", "facility_id": "015010009", "score": 99.0, "addr_line1": "103 East Hwy 158"}}

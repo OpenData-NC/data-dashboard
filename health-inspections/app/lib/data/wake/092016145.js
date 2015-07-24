@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Buffalo Wild Wings #357", "addr_city": "Morrisville", "item_comments": "BUFFALO WILD WINGS #357", "activity_date": "08/29/2014", "county": "Wake", "facility_id": "092016145", "score": 98.0, "addr_line1": "1300 Village Market Pl"}}

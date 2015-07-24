@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Southern Woods and Waters", "addr_city": "Benson", "item_comments": "SOUTHERN WOODS AND WATERS", "activity_date": "07/07/2014", "county": "Johnston", "facility_id": "051010429", "score": 96.5, "addr_line1": "3405 Nc 242 N"}}

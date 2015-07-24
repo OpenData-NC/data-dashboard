@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendy's      2431", "addr_city": "Cary", "item_comments": "WENDY\\'S      2431", "activity_date": "08/26/2014", "county": "Wake", "facility_id": "092011932", "score": 95.5, "addr_line1": "1213 N. W. Maynard Road"}}

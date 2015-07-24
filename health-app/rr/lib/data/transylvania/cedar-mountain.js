@@ -1,1 +1,0 @@
-{"results": [["Cedar Mountain Cafe", "10667 Greenville Highway", "Cedar Mountain", "11/19/2014", 98.0, "088010354"]]}

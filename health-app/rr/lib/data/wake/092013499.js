@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mellow Mushroom", "addr_city": "Raleigh", "item_comments": "MELLOW MUSHROOM", "activity_date": "07/18/2014", "county": "Wake", "facility_id": "092013499", "score": 95.5, "addr_line1": "601 W Peae St"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pamlico Jacks", "addr_city": "Nags Head", "item_comments": "ALL FOOD OFF FLRS IN FREEZERS AND WALKINS;", "activity_date": "06/05/2014", "county": "Dare", "facility_id": "028010107", "score": 98.0, "addr_line1": "6708 S Croatan Highway"}}

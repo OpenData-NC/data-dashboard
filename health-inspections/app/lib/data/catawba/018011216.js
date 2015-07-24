@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hatch Sandwich Bar", "addr_city": "Hickory", "item_comments": "REFINISH FLOORS, WALLS AS NEEDED;REPLACE WORN CUTTING BOARDS AS NEEDED;RAPIDLY COOL FOODS USING PARTIALLY COVERED SHALLOW PANS;", "activity_date": "06/26/2014", "county": "Catawba", "facility_id": "018011216", "score": 98.0, "addr_line1": "268 1st Ave Nw"}}

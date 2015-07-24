@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Pho 9n9", "addr_city": "Durham", "item_comments": "PHO 9N9", "activity_date": "09/18/2014", "county": "Durham", "facility_id": "032012334", "score": 95.5, "addr_line1": "2945 S Miami Blvd  102"}}

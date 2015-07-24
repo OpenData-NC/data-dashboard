@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Salsa`s", "addr_city": "Charlotte", "item_comments": "KEEP FOOD CONTACT SURFACES CLEAN. OBSERVED GUN SODA NOZZLE AT BAR WITH MILDEW PRESENT ON FOOD CONTACT HEAD ENCLOSURE. CDI   BY PIC CLEANING NOZZLE;", "activity_date": "09/25/2014", "county": "Mecklenburg", "facility_id": "060016126", "score": 98.5, "addr_line1": "2045 Ayrsley Town Blvd"}}

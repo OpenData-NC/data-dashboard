@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hong Kong", "addr_city": "Raleigh", "item_comments": "HONG KONG", "activity_date": "07/15/2014", "county": "Wake", "facility_id": "092013789", "score": 98.5, "addr_line1": "3490-190 Kildaire Farm Rd"}}

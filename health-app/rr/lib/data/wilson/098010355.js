@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Burger King #13014", "addr_city": "Wilson", "item_comments": "BURGER KING #13014", "activity_date": "09/08/2014", "county": "Wilson", "facility_id": "098010355", "score": 98.5, "addr_line1": "5011 Us Highway 264 W"}}

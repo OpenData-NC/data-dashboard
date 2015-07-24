@@ -1,1 +1,0 @@
-{"results": {"fac_name": "China One", "addr_city": "Fayetteville", "item_comments": ".;.;.;", "activity_date": "09/30/2014", "county": "Cumberland", "facility_id": "026012326", "score": 99.0, "addr_line1": "150 Andrews Rd"}}

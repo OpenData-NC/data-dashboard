@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sonnys Sports Place", "addr_city": "Waxhaw", "item_comments": "SONNYS SPORTS PLACE", "activity_date": "08/11/2014", "county": "Union", "facility_id": "090011025", "score": 95.0, "addr_line1": "203 North Broome St."}}

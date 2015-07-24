@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dairy Queen in Waves", "addr_city": "Waves", "item_comments": "GENERAL CLEANING,  MAINTENACE  FLOORS,WALLS ETC;FLIES,    ORGANIZE STORAGE IN B ROOM;", "activity_date": "08/29/2014", "county": "Dare", "facility_id": "028010644", "score": 97.5, "addr_line1": "25199 Lela Ct"}}

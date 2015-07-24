@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Arbys 6795", "addr_city": "Lincolnton", "item_comments": "TIME CLOCK OR TIMER WAS NOT STARTED FOR UNION STRINGS TO MONITOR TPHC CLOCK SET AND  STARTED DURING INSPECTION.3 501.19 TIME AS A PUBLIC HEALTH CONTROL;", "activity_date": "08/18/2014", "county": "Lincoln", "facility_id": "055010351", "score": 99.0, "addr_line1": "2216 E Main St"}}

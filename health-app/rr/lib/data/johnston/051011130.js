@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jumpin Jax", "addr_city": "Garner", "item_comments": "JUMPIN JAX", "activity_date": "07/22/2014", "county": "Johnston", "facility_id": "051011130", "score": 97.5, "addr_line1": "74 Son-Lan Parkway"}}

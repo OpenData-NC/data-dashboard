@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Harrisons", "addr_city": "Dillsb0r0", "item_comments": "2 102.12 CERTIFIED FOOD PROTECTION MANAGER   C NO PERSON IN CHARGE WITH APPROVED FOOD SAFTEY TRAINING. OBTAIN FOOD SAFTEY TRAINING TO AVOID 2 POINT DEDUCTION.;", "activity_date": "08/22/2014", "county": "Jackson", "facility_id": "050010446", "score": 98.0, "addr_line1": "212 Marsh Lily Drive"}}

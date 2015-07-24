@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brixx Woodfired Pizza", "addr_city": "Raleigh", "item_comments": "BRIXX WOODFIRED PIZZA", "activity_date": "09/04/2014", "county": "Wake", "facility_id": "092014938", "score": 96.5, "addr_line1": "8511 Briercreek Pkway"}}

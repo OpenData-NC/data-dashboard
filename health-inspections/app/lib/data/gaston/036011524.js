@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Passion Grill", "addr_city": "Gastonia", "item_comments": "PASSION GRILL", "activity_date": "09/03/2014", "county": "Gaston", "facility_id": "036011524", "score": 94.0, "addr_line1": "212 South New Hope Road"}}

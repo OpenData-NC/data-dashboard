@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Samaritans Purse Food Services", "addr_city": "Boone", "item_comments": "SAMARITANS PURSE FOOD SERVICES", "activity_date": "09/16/2014", "county": "Watauga", "facility_id": "095010565", "score": 94.0, "addr_line1": "132 Milton Brown Heirs Road"}}

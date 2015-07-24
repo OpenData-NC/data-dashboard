@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bonzer Shack", "addr_city": "Kill Devil Hills", "item_comments": "HATS;. ....COVER FOOD IN STORAGE    ......LABEL ALL DRY GOODS;", "activity_date": "06/26/2014", "county": "Dare", "facility_id": "028010612", "score": 98.5, "addr_line1": "1200 Va Dare Tr"}}

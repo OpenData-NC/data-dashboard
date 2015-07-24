@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Fit Station", "addr_city": "Jamestown", "item_comments": "4 903.11  A ,  B  AND  D  EQUIPMENT, UTENSILS, LINENS AND SINGLE SERVICE AND SINGLE USE ARTICLES STORING   C, UTENSILS STORED IN DIRTY CONTAINER;", "activity_date": "07/14/2014", "county": "Guilford", "facility_id": "041013846", "score": 99.5, "addr_line1": "4835 W. Wendover Avenue, Ste."}}

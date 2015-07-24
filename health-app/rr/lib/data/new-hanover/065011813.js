@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Bento Box", "addr_city": "Wilmington", "item_comments": "6-201.11", "activity_date": "06/10/2014", "county": "New Hanover", "facility_id": "065011813", "score": 98.0, "addr_line1": "1121 Military Cutoff Rd L"}}

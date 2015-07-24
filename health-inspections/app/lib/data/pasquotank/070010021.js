@@ -1,1 +1,0 @@
-{"results": {"fac_name": "McDonald S - 1947", "addr_city": "Elizabeth City", "item_comments": "MCDONALD S - 1947", "activity_date": "09/09/2014", "county": "Pasquotank", "facility_id": "070010021", "score": 96.5, "addr_line1": "1316 Ehringhaus  St"}}

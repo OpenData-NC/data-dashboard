@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Miller Mart Food Store  6", "addr_city": "Barco", "item_comments": "FAN NEEDS TO BE CLEANED;", "activity_date": "05/19/2014", "county": "Currituck", "facility_id": "027010032", "score": 99.5, "addr_line1": "4473 Caratoke Hwy"}}

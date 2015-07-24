@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Sushi Court", "addr_city": "Fayetteville", "item_comments": ".;.;", "activity_date": "09/29/2014", "county": "Cumberland", "facility_id": "026012577", "score": 98.0, "addr_line1": "251 Westwood Shopping Center"}}

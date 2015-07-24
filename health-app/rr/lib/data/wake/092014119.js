@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hong Kong Restaurant", "addr_city": "Raleigh", "item_comments": "HONG KONG RESTAURANT", "activity_date": "07/24/2014", "county": "Wake", "facility_id": "092014119", "score": 91.0, "addr_line1": "5563 Western Blvd"}}

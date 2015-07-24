@@ -1,1 +1,0 @@
-{"results": {"fac_name": "No 1 Chinese Restaurant", "addr_city": "Grandy", "item_comments": "FOOD SAFETY COURSE NOT PROVIDED;HOOD TO BE CLEANED. SCHEDULED FOR NEXT WEEK.;", "activity_date": "06/26/2014", "county": "Currituck", "facility_id": "027010245", "score": 97.5, "addr_line1": "Unit 1 Shops of Grandy"}}

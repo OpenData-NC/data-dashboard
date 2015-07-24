@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Scotchman #3083", "addr_city": "Wilmington", "item_comments": ";3-305.11", "activity_date": "05/20/2014", "county": "New Hanover", "facility_id": "065012254", "score": 98.0, "addr_line1": "610 Eastwood Rd"}}

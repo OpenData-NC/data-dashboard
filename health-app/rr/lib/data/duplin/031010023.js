@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Hardees of Wallace 1330", "addr_city": "Wallace", "item_comments": "HARDEES OF WALLACE 1330", "activity_date": "08/26/2014", "county": "Duplin", "facility_id": "031010023", "score": 90.0, "addr_line1": "709 N Norwood St"}}

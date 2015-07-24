@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Subway", "addr_city": "Clayton", "item_comments": "SUBWAY", "activity_date": "08/12/2014", "county": "Johnston", "facility_id": "051011258", "score": 100.0, "addr_line1": "8948 Cleveland Rd. Ste 101"}}

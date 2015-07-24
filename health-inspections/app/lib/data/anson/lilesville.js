@@ -1,1 +1,0 @@
-{"results": [["Scotty's Bait and Tackle", "50 Power Plant Road", "Lilesville", "08/09/2014", 96.5, "004010104"], ["The Old Store", "3944 Vintage Road", "Lilesville", "08/09/2014", 98.0, "004010130"], ["Welika  Fish House", "265 Hailey's Ferry Road", "Lilesville", "06/27/2014", 97.0, "004010032"]]}

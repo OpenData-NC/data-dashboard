@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Bladez on Ice", "addr_city": "Greenville", "item_comments": "BLADEZ ON ICE", "activity_date": "09/10/2014", "county": "Pitt", "facility_id": "074011221", "score": 92.0, "addr_line1": "104 Red Banks Road"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Holly Inn Dining Room & Bar", "addr_city": "Pinehurst", "item_comments": "HOLLY INN DINING ROOM & BAR", "activity_date": "09/29/2014", "county": "Moore", "facility_id": "063010457", "score": 93.5, "addr_line1": "1555 Cherokee Rd"}}

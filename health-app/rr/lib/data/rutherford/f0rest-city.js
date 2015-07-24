@@ -1,1 +1,0 @@
-{"results": [["Ryans Steakhouse #2420", "115 Ryans Drive", "F0rest City", "11/10/2014", 93.0, "081010525"]]}

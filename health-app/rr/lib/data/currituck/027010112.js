@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Corolla Village Bbq", "addr_city": "Corolla", "item_comments": "GENERAL REPAIR  PAINT/SEAL  FLOORS;CLEAN VENT GRILLS IN KITCHEN AREA.;", "activity_date": "10/16/2014", "county": "Currituck", "facility_id": "027010112", "score": 98.5, "addr_line1": "1129a Corolla Village Road"}}

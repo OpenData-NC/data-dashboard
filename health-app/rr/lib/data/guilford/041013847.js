@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Zaxby's #43001", "addr_city": "High Point", "item_comments": "ZAXBY\\'S #43001", "activity_date": "09/09/2014", "county": "Guilford", "facility_id": "041013847", "score": 98.0, "addr_line1": "1827 N. Main Street"}}

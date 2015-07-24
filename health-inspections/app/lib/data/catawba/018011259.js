@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Ingco Express #2", "addr_city": "Hickory", "item_comments": "FLOOR STORAGE PROHIBITED;DO NOT STORE DIRTY RAGS ON 3 COMPARTMENT SINK;DATE MARK FOODS ACCORDINGLY   USE 7 DAY DISCARD DATE WITH INITIAL PREP DAY AS DAY ONE;", "activity_date": "05/22/2014", "county": "Catawba", "facility_id": "018011259", "score": 97.5, "addr_line1": "1120 Old Lenoir Rd"}}

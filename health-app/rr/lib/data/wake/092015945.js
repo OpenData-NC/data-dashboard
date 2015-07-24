@@ -1,1 +1,0 @@
-{"results": {"fac_name": "The Hilton Garden Inn Rdu Restaurant", "addr_city": "Morrisville", "item_comments": "THE HILTON GARDEN INN RDU RESTAURANT", "activity_date": "08/18/2014", "county": "Wake", "facility_id": "092015945", "score": 91.0, "addr_line1": "1500 Rdu Center Dr"}}

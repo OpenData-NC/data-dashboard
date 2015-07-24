@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Mako Mike's", "addr_city": "Kill Devil Hill", "item_comments": "NETS/HATS;CLEAN UNDER EQUIP;", "activity_date": "06/19/2014", "county": "Dare", "facility_id": "028010284", "score": 98.0, "addr_line1": "1630 Croatan Hwy"}}

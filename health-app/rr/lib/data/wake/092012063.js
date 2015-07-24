@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Whole Foods Market Cafe", "addr_city": "Raleigh", "item_comments": ";", "activity_date": "09/10/2014", "county": "Wake", "facility_id": "092012063", "score": 0.0, "addr_line1": "3540 Wade Ave"}}

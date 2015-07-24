@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Jack in the Box 6839", "addr_city": "Hendersonville", "item_comments": "JACK IN THE BOX 6839", "activity_date": "09/22/2014", "county": "Henderson", "facility_id": "045010899", "score": 95.5, "addr_line1": "76 Highland Square Drive"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Dixie Diner", "addr_city": "Hendersonville", "item_comments": "DIXIE DINER", "activity_date": "09/24/2014", "county": "Henderson", "facility_id": "045010308", "score": 96.0, "addr_line1": "1724 Brevard Hwy"}}

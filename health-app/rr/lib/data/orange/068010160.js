@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wilco Food Mart #201", "addr_city": "Chapel Hill", "item_comments": "WILCO FOOD MART #201", "activity_date": "09/18/2014", "county": "Orange", "facility_id": "068010160", "score": 97.0, "addr_line1": "1213 Airport Road"}}

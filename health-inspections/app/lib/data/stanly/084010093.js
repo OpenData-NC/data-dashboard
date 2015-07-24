@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Wendys #10", "addr_city": "Albemarle", "item_comments": "WENDYS #10", "activity_date": "09/05/2014", "county": "Stanly", "facility_id": "084010093", "score": 99.0, "addr_line1": "824 Hwy 24/27 East"}}

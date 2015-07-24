@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Starbucks Coffee  8875", "addr_city": "Raleigh", "item_comments": "STARBUCKS COFFEE  8875", "activity_date": "08/13/2014", "county": "Wake", "facility_id": "092014199", "score": 97.0, "addr_line1": "7854 Alexander Promenade Pla"}}

@@ -1,1 +1,0 @@
-{"results": {"fac_name": "Brueggers Bagels #20644", "addr_city": "Raleigh", "item_comments": "BRUEGGERS BAGELS #20644", "activity_date": "07/09/2014", "county": "Wake", "facility_id": "092015087", "score": 97.0, "addr_line1": "3510 Wade Ave"}}
