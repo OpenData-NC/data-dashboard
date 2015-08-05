@@ -14,5 +14,5 @@ def make_config(dir_append=''):
     #the source site urls, number of days to scrape and other info is stored in a google spreadsheet
     #we slurp it as csv
     commands_url = \
-        'https://docs.google.com/spreadsheets/d/1353q8QCgtscYRBU0INeOKIhPAiXt2IXpdTjD3ufl8Ko/export?gid=0&format=csv'
+        'https://docs.google.com/spreadsheets/d/1353q8QCgtscYRBU0INeOKIhPAiXt2IXpdTjD3ufl8Ko/pub?output=csv'
     return (home_dir, data_dir, database, db_user, db_pw, commands_url)

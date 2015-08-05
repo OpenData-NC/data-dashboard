@@ -69,6 +69,9 @@ def fetch_commands(url=None):
         data = requests.get(url)
         lines = data.text.split("\n")
         headers = lines.pop(0).split(",")
+        headers = [header.strip() for header in headers]
         for line in lines:
-            commands.append(dict(zip(headers, line.split(","))))
+            pieces = line.split(",")
+            pieces = [p.strip() for p in pieces]
+            commands.append(dict(zip(headers, pieces)))
         return commands
