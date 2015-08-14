@@ -92,7 +92,7 @@ You'll also find server paths in the scripts for voter data, health inspections 
 		
 Be sure to see the list of Python dependencies above and install those modules.
 		
-##Dashboard
+###Dashboard
 		
 **Back end:** This includes dashboard/search, dashboard/stats, and dashboard/alerts. See the config files for each of these for directory structures, database configuration and other items you may need to update for your particular setup.
 			
