@@ -1,5 +1,3 @@
-![Open N.C. logo](https://open-nc.org/static/bootstrap/img/opennc_logo.png)
-
 Open N.C. Data Dashboard
 =====================
 
