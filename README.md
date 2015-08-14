@@ -83,7 +83,7 @@ Our dashboard included four database users:
 - Search user: This user had read-only access to the data files.
 - User management: Read, write, update access on tables used to manage user email alerts.
 		
-###Scrapers: 
+###Scrapers
 Create a directory for your scraper scripts. In that directory create the following directories: pdfs, data, logs. If you are running the scrapers for Fayetteville PD and New Hanover County SO, create data_fay and data_nh. IMPORTANT: The pdfs directory can get fairly large, fairly fast. Be sure you've allocated enough space and check it regularly.
 		
 For crime data, examine scrapers/scraper_config/config.py. You'll find spots for you to add information about the database, as for server paths to reflect your directory structure. Examine scrapers/scraper.py for more specific setup information on how to use it to scrape specific sites.
