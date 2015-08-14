@@ -1,0 +1,304 @@
+cd /home/vaughn.hagerty/nc-voters/data
+rm *.txt
+rm *.zip
+wget ftp://alt.ncsbe.gov/data/ncvoter1.zip
+unzip -q ncvoter1.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v1.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter2.zip
+unzip -q ncvoter2.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v2.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter3.zip
+unzip -q ncvoter3.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v3.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter4.zip
+unzip -q ncvoter4.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v4.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter5.zip
+unzip -q ncvoter5.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v5.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter6.zip
+unzip -q ncvoter6.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v6.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter7.zip
+unzip -q ncvoter7.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v7.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter8.zip
+unzip -q ncvoter8.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v8.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter9.zip
+unzip -q ncvoter9.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v9.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter10.zip
+unzip -q ncvoter10.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v10.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter11.zip
+unzip -q ncvoter11.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v11.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter12.zip
+unzip -q ncvoter12.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v12.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter13.zip
+unzip -q ncvoter13.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v13.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter14.zip
+unzip -q ncvoter14.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v14.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter15.zip
+unzip -q ncvoter15.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v15.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter16.zip
+unzip -q ncvoter16.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v16.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter17.zip
+unzip -q ncvoter17.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v17.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter18.zip
+unzip -q ncvoter18.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v18.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter19.zip
+unzip -q ncvoter19.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v19.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter20.zip
+unzip -q ncvoter20.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v20.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter21.zip
+unzip -q ncvoter21.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v21.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter22.zip
+unzip -q ncvoter22.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v22.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter23.zip
+unzip -q ncvoter23.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v23.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter24.zip
+unzip -q ncvoter24.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v24.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter25.zip
+unzip -q ncvoter25.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v25.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter26.zip
+unzip -q ncvoter26.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v26.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter27.zip
+unzip -q ncvoter27.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v27.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter28.zip
+unzip -q ncvoter28.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v28.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter29.zip
+unzip -q ncvoter29.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v29.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter30.zip
+unzip -q ncvoter30.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v30.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter31.zip
+unzip -q ncvoter31.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v31.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter32.zip
+unzip -q ncvoter32.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v32.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter33.zip
+unzip -q ncvoter33.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v33.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter34.zip
+unzip -q ncvoter34.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v34.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter35.zip
+unzip -q ncvoter35.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v35.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter36.zip
+unzip -q ncvoter36.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v36.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter37.zip
+unzip -q ncvoter37.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v37.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter38.zip
+unzip -q ncvoter38.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v38.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter39.zip
+unzip -q ncvoter39.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v39.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter40.zip
+unzip -q ncvoter40.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v40.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter41.zip
+unzip -q ncvoter41.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v41.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter42.zip
+unzip -q ncvoter42.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v42.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter43.zip
+unzip -q ncvoter43.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v43.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter44.zip
+unzip -q ncvoter44.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v44.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter45.zip
+unzip -q ncvoter45.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v45.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter46.zip
+unzip -q ncvoter46.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v46.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter47.zip
+unzip -q ncvoter47.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v47.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter48.zip
+unzip -q ncvoter48.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v48.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter49.zip
+unzip -q ncvoter49.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v49.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter50.zip
+unzip -q ncvoter50.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v50.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter51.zip
+unzip -q ncvoter51.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v51.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter52.zip
+unzip -q ncvoter52.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v52.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter53.zip
+unzip -q ncvoter53.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v53.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter54.zip
+unzip -q ncvoter54.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v54.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter55.zip
+unzip -q ncvoter55.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v55.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter56.zip
+unzip -q ncvoter56.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v56.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter57.zip
+unzip -q ncvoter57.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v57.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter58.zip
+unzip -q ncvoter58.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v58.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter59.zip
+unzip -q ncvoter59.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v59.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter60.zip
+unzip -q ncvoter60.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v60.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter61.zip
+unzip -q ncvoter61.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v61.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter62.zip
+unzip -q ncvoter62.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v62.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter63.zip
+unzip -q ncvoter63.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v63.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter64.zip
+unzip -q ncvoter64.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v64.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter65.zip
+unzip -q ncvoter65.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v65.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter66.zip
+unzip -q ncvoter66.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v66.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter67.zip
+unzip -q ncvoter67.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v67.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter68.zip
+unzip -q ncvoter68.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v68.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter69.zip
+unzip -q ncvoter69.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v69.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter70.zip
+unzip -q ncvoter70.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v70.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter71.zip
+unzip -q ncvoter71.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v71.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter72.zip
+unzip -q ncvoter72.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v72.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter73.zip
+unzip -q ncvoter73.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v73.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter74.zip
+unzip -q ncvoter74.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v74.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter75.zip
+unzip -q ncvoter75.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v75.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter76.zip
+unzip -q ncvoter76.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v76.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter77.zip
+unzip -q ncvoter77.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v77.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter78.zip
+unzip -q ncvoter78.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v78.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter79.zip
+unzip -q ncvoter79.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v79.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter80.zip
+unzip -q ncvoter80.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v80.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter81.zip
+unzip -q ncvoter81.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v81.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter82.zip
+unzip -q ncvoter82.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v82.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter83.zip
+unzip -q ncvoter83.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v83.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter84.zip
+unzip -q ncvoter84.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v84.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter85.zip
+unzip -q ncvoter85.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v85.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter86.zip
+unzip -q ncvoter86.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v86.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter87.zip
+unzip -q ncvoter87.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v87.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter88.zip
+unzip -q ncvoter88.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v88.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter89.zip
+unzip -q ncvoter89.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v89.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter90.zip
+unzip -q ncvoter90.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v90.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter91.zip
+unzip -q ncvoter91.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v91.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter92.zip
+unzip -q ncvoter92.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v92.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter93.zip
+unzip -q ncvoter93.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v93.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter94.zip
+unzip -q ncvoter94.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v94.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter95.zip
+unzip -q ncvoter95.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v95.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter96.zip
+unzip -q ncvoter96.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v96.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter97.zip
+unzip -q ncvoter97.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v97.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter98.zip
+unzip -q ncvoter98.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v98.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter99.zip
+unzip -q ncvoter99.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v99.sql
+wget ftp://alt.ncsbe.gov/data/ncvoter100.zip
+unzip -q ncvoter100.zip
+mysql -u[username here] -p[password here] crime --local-infile < ../sql/v100.sql
+

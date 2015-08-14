@@ -1,0 +1,68 @@
+<div id="login-register-modal" class="modal fade">
+    <div class="modal-dialog">
+		<div class="modal-content">
+		    <div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			    <h4 class="modal-title">Create a user or log in</h4>
+		    </div>
+		    <div class="modal-body">
+                <p id="alert-msg"></p>
+			    <p><strong>Already registered? Log in here</strong></p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="registered-user-email" class="control-label">Email</label>
+                                <input type="email" class="form-control" id="registered-user-email" placeholder="Your email address">
+                        </div>
+                        <div class="col-md-4 col-xs-10">
+
+                            <label for="registered-user-password" class="control-label">Password</label>
+                                <input type="password" class="form-control" id="registered-user-password">
+                                <input type="hidden" id="alert-query" value="{{alert-query}}">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <button id="login-registered" type="button" class="btn btn-default">Log in</button>
+                        </div>
+                    </div>
+
+                </form>
+			    <p><strong>Register as a new user</strong></p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="new-user-email" class="control-label">Name</label>
+                                <input type="text" class="form-control" id="new-user-name" placeholder="e.g., Sue Smith" required>
+                        </div>
+                        <div class="col-md-4">
+
+                            <label for="new-user-password" class="control-label">Phone (for support)</label>
+                                <input type="tel" class="form-control" id="new-user-phone" placeholder="###-###-####">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="new-user-email" class="control-label">Email</label>
+                                <input type="email" class="form-control" id="new-user-email" placeholder="Your email address" required>
+                        </div>
+                        <div class="col-md-4">
+
+                            <label for="new-user-password" class="control-label">Choose password</label>
+                                <input type="text" class="form-control" id="new-user-password" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <button id="register-user" type="button" class="btn btn-default">Register</button>
+                        </div>
+                    </div>
+
+                </form>
+		    </div>
+		    <div class="modal-footer">
+			    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		    </div>
+		</div>
+    </div>
+</div>

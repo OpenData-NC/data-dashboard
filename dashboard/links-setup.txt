@@ -1,16 +1,18 @@
-﻿sudo rm arrests/index.html
+﻿mkdir arrests citations health-inspections incidents property-tax real-estate traffic-accidents voter-registration
+cd arrests
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html arrests/index.html
-sudo rm citations/index.html
+cd ../citations
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html citations/index.html
+cd ../health-inspections
 sudo rm health-inspections/index.html
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html health-inspections/index.html
-sudo rm incidents/index.html
+cd ../incidents
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html incidents/index.html
-sudo rm property-tax/index.html
+cd ../property-tax
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html property-tax/index.html
-sudo rm real-estate/index.html
+cd ../real-estate
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html real-estate/index.html
-sudo rm traffic-accidents/index.html
+cd ../traffic-accidents
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html traffic-accidents/index.html
-sudo rm voter-registration/index.html
+cd ../voter-registration
 sudo ln -s /home/vaughn.hagerty/stats/html/search/index.html voter-registration/index.html

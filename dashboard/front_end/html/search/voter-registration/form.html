@@ -1,0 +1,86 @@
+﻿    <div class="row">
+        <div class="center-block col-md-8">
+            <h3 class="text-center">Search voter registration records</h3>
+        </div>
+    </div>
+    <div class="row">
+        <form>
+            <div class="row"  style="margin-bottom: .5em">
+                <h4>Voter</h4>
+                <div class="col-md-4 col-xs-10">
+                    <label for="first-name" class="control-label">First name</label>
+                        <input type="text" class="form-control search-item" id="first-name" placeholder="First name">
+                </div>
+                <div class="col-md-4 col-xs-10">
+
+                    <label for="last-name" class="control-label">Last name</label>
+                        <input type="text" class="form-control search-item" id="last-name" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <h4>Mailin address</h4>
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-number" class="control-label">Street number </label>
+                        <input type="text" class="form-control search-item" id="street-number" placeholder="Ex. 123">
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="street-name" class="control-label">Street name </label>
+                        <input type="text" class="form-control search-item" id="street-name" placeholder="Main">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-xs-10">
+                    <label for="city" class="control-label">City</label>
+                        <input type="text" class="form-control search-item" id="city" placeholder="All or part">
+                </div>
+                <div class="col-md-4 col-xs-10">
+                    <label for="zip-code" class="control-label">ZIP code </label>
+                        <input type="text" class="form-control search-item" id="zip-code" placeholder="12345">
+                </div>
+            </div>
+            <div class="row">
+                <div class="checkbox">
+                    <div class="col-md-4">
+                        <h4>Party affiliation</h4>
+                        <label class="checkbox">
+                            <input type="checkbox" id="DEM" class="party-type" value="1">
+                            Democrat
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="LIB" class="party-type" value="1">
+                            Libertarian
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="UNA" class="party-type" value="1">
+                            Unaffiliated
+                        </label>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Gender</h4>
+                        <label class="checkbox">
+                            <input type="checkbox" id="F" class="gender-type" value="1">
+                            Female
+                        </label>
+                        <label class="checkbox">
+                            <input type="checkbox" id="M" class="gender-type" value="1">
+                            Male
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="col-sm-4">
+            <input type="hidden" class="data-type" id="voter" value="picked" />
+            <button type="button" class="btn btn-default" id="search">Search</button>
+            <button class="btn btn-default" type="reset">Reset</button>
+            </div>
+            </div>
+        </form>
+
+    </div>
+            <div class="row">
+                <div class="col-md-10 col-xs-10" id="data-tables">
+                </div>
+
+            </div>

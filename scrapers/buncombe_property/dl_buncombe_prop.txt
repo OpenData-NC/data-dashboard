@@ -1,0 +1,12 @@
+cd /home/vaughn.hagerty/crime-scrapers/dash/buncombe
+rm property/*
+rm realestate/*
+cd property
+wget http://www.buncombetax.org/property/webprcls.zip
+unzip webprcls.zip
+mysql --user=[username here] --password=[password here] --local-infile crime < ../prop.sql
+cd ../realestate
+wget http://www.buncombetax.org/property/websales.zip
+unzip websales.zip
+mysql --user=crimeloader --password=redaolemirc --local-infile crime < ../re.sql
+
