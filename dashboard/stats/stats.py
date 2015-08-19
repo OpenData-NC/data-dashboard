@@ -33,8 +33,11 @@ def date_range(table, county=None):
     return max_min
 
 
+#build and execute queries depending on the data type (incidents, real estate, etc.
+#and query type (e.g., all data, top 10, etc.)
 def query_data(table, max_min, this_type='all', county=None):
-#this horrible mess of a function needs to be cleaned up
+#yes, yes this function probably could be rewritten to be more compact.
+# sorry! :)
     if table not in select_all:
         return False
     if this_type not in select_all[table]:
@@ -107,7 +110,6 @@ if __name__ == '__main__':
                     response[return_type][this_type]['date ranges'] = dict(zip(['end','start'], max_min[-2:]))
                 response[return_type][this_type]['data'] = query_data(table, max_min, this_type, county)
         with open(output_file, 'w') as output:
-#            output.write(json.dumps(response, indent=4, sort_keys=True))
             output.write(json.dumps(response))
     connection.close()
     

@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import scrape_bulletin
 #import scrape_search
-import db_load
 import sys
 from scraper_config import make_config
 from scraper_commands import check_data, print_files, fetch_commands, all_data

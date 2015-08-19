@@ -1,11 +1,15 @@
 #!/usr/bin/env python
-
+#pull data from fayetteville, nc, pd's p2c site
+#this is custom because that site is so different from others
 import scrape_bulletin
 import scrape_search_fay
-import scraper_commands
-import db_load
+from scraper_commands import check_data, print_files, fetch_commands, all_data
+from db_load import db_load
 
-home_dir = '/home/vaughn.hagerty/crime-scrapers/'
+from scraper_config import make_config
+
+home_dir, data_dir, database, db_user, db_pw, commands_url = make_config()
+
 data_dir = home_dir + 'data_fay'
 database = 'crime'
 user = {'user': 'crimeloader','pw':'redaolemirc'}
@@ -37,6 +41,6 @@ def main():
     for data_type in scraper_commands.all_data:
         data_file = data_dir + '/' + data_type + '.txt'
         table = data_type.lower() + 's'
-        db_load.load(database,data_file, table, user)
+        db_load(database,data_file, table, db_user, db_pw)
 if __name__ == "__main__":
     main()

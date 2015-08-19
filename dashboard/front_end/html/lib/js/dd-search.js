@@ -1,11 +1,13 @@
-﻿    (function(){
+﻿//The bulk of functionality for the search pages, including search itself,
+//widget maker and alert management.
+    (function(){
         google.load("visualization", "1", {packages:["corechart", "table"]});
 //widget configs
         var graph_configs = {}
             , which_graph
             
             , table_options = {page:"enable",pageSize:8, allowHtml: true, width: 700};
-        
+//formats certain data types depending on the heading        
         var data_formats = {
                     'Total $s sold': format_currency,
                     'Tax value': format_currency,
@@ -69,16 +71,20 @@
         $('.dd-nav').each(function() {
             $(this).attr('href', '/' + county_dir + '/' + $(this).attr('href'));
         });
+//if a user is logged in, they'll have a cookie.
 
         if(get_cookie('dd-email')) {
+            //show a user management option in the top menu
             show_manage_user();
         }
         else {
             show_log_in();
         }
-        
+//functions for saved searches (URL bookmarking and sharing of searches).
+
+//if the URL has a #! in it, then it's one of these. We use the parts after that hashbang to construct a search and execute it.        
         check_search();
-        
+//rewrite URL window after searches for saved searches feature        
         window.onpopstate = function(e){
             if(e.state){
                 document.getElementById('main-content').innerHTML = e.state.html;
@@ -89,8 +95,21 @@
                 add_click();
             }
         }
-        
-        
+       
+        function check_search(){
+            //no saved search
+            if(location.href.indexOf('#!') === -1) {
+                return false;
+            }
+            else {
+                var pieces = location.href.split('#!');
+                base_url = pieces[0];
+                query_data(pieces[1]);
+            }
+        }        
+//user management functions
+//these are used to create users, which are for creating email alerts
+       
         function show_manage_user(){
             var manage_user = fill_template('user-management',{});
             $('#dd-log-in-menu').remove();
@@ -105,7 +124,6 @@
         }
         
         function show_manage_alerts() {
-
             $('#alert-modify-modal').remove();
             var email = get_cookie('dd-email');
             manage_alerts_data(email, false);
@@ -207,32 +225,27 @@
             });
             
         }
-        
+
+//handles clicks on search button        
         function add_click() {
             $('#search').click(function(){
                 var query = find_query_params();
+                //show a simple error message if the user hasn't entered enough in the query
                 query?query_data(query):error();
             });
         }
-        
-        function check_search(){
-            if(location.href.indexOf('#!') === -1) {
-                return false;
-            }
-            else{
-                var pieces = location.href.split('#!');
-                base_url = pieces[0];
-                query_data(pieces[1]);
-            }
-        }
+
+//executes search and passes off response
         
         function query_data(query) {
-            console.log(query);
+            //for debugging
+//            console.log(query);
             $('#data-tables').empty();
             $('#data-tables').html('<h2>Searching ...</h2>');
             $.get(query)
                 .done(function(data){
-                    console.log(data);
+                    //for debugging
+//                    console.log(data);
                     //make sure google's viz library is loaded.
                     //if not, give it a few secs
                     if(!google.visualization.DataTable) {
@@ -246,10 +259,12 @@
                 });
             
         }
+//show error message if they haven't at least selected one data type
         function error(){
             $('#data-tables').html('<h4 class="text-danger">Specify at least one search category.</h4>');
             
         }
+//next two functions build our query params based on element classes and ids        
         function find_query_params() {
             //these need to be formatted to allow multiple values
             var multiples = ['category-type','party-type', 'gender-type'];
@@ -281,7 +296,6 @@
 
             
             return data_types.length === 0?false:build_query(search_params);
-//            return has_data_type?build_query(search_params):false;
         }
         
         function build_query(search_params) {
@@ -294,7 +308,7 @@
             return [base, query.join('|')].join('/');
             
         }
-        
+//this version of the dashboard only allowed alerts on crime data, so we don't show option on other data types        
         function allowed_alert(query) {
             var filtered_alert = [];
             var not_allowed = ['voter','health','property','realestate'];
@@ -312,13 +326,13 @@
                 
             }
         }
-        
+
+//calls various functions to display the data returned by a query        
         function show_data(data, query){
             var have_no_data = true;
             $('#data-tables').empty();
             for (data_type in data.results) {
-//                    console.log(data_type);
-//                    console.log(data.results[data_type]);
+
                 if(data.results[data_type].data.length > 0) {
                     have_no_data = false;
                     if(data.results[data_type].detail) {
@@ -357,7 +371,6 @@
             query = query.replace('search/','search/alerts/');
             var today = new Date();
             today = [today.getFullYear(),(today.getMonth()+1),today.getDate()].join('-');
-            console.log(query + ['|','last-searched','|',today].join(''));
             
         }
 //not used anymore
@@ -371,12 +384,13 @@
             if(county === '') { county = 'New Hanover'; }
             return county;
         }
-//uses url ad config file to get county        
+//uses url and config file to get county        
         function find_county() {
             var county_re = /org\/([^\/]+)\//;
             var county_match = county_re.exec(location.href);
             return county_match[1];        
         }
+//we need to remove and then add a click listener to ensure that it remains if the table or graph changes
 
         function make_items_clickable(data_type){
             $('.dd-detail').unbind('click');
@@ -385,7 +399,8 @@
             });
 
         }
-        
+//used to make a query for a detailed result, which shows pretty much all available data for 
+//a single record        
         function build_detail_query(key, data_source) {
             var detail_param = '|detail|1|';
             var search_types = {
@@ -406,7 +421,6 @@
             }
             var search_url = '/search/county|'
                 + county + detail_param + key + '|data_types|' + data_source;
-//            window.location.replace('#!' + search_url);
             query_data(search_url);
             
         }
@@ -426,22 +440,22 @@
             });
         }
         
-        
+//calls various functions to build a google data table that shows returned results        
         function build_table(data_type, data_content, page_size){
             var data_source = data_content.data_source,
                 formatted_table_data = format_data(data_content, data_source),
                 table_data_holder = {};
             if(data_type === 'arrests' || data_type === 'incidents' || data_type === 'accidents' || data_type === 'citations') {
                 formatted_table_data.data = formatted_table_data.data.map(function(row) { 
-//                    row[0] = truncate(row[0], 15);
                     if(row[row.length-1].indexOf('pdf') !== -1) {
-                        var pdf_url = row[row.length-1].replace('/home/vaughn.hagerty/crime-scrapers','');
-                        row[row.length-1] = '<a href="http://130.211.132.6' + pdf_url + '" target="_blank">Report</a>';
+                        //this builds a link to the pdf file
+                        //we replace the server path with a base url and make it into a link
+                        var pdf_url = row[row.length-1].replace('[YOUR SERVER PATH HERE]','');
+                        row[row.length-1] = '<a href="[YOUR BASE URL HERE]' + pdf_url + '" target="_blank">Report</a>';
                     }
                     return row; 
                 });
             }
-//            else { formatted_table_data = data_content.data; }
             
             var rows = $('.row');
             var table_width = ($(rows[0]).width() - 50) + 'px';
@@ -458,7 +472,9 @@
             var table_div = '<div><h2 style="text-transform: capitalize; display:inline">' + data_type.replace('estate',' estate') + ': ' + data_content.data.length + ' records</h2> <button type="button" style="margin-left: 3em; margin-bottom: 1em;" id="' + viz_click_btn + '" class="btn btn-default" data-which="' + table_div_id + '">Create visualization</button></div><div style="width:100%" id="' + table_div_id + '"></div>';
             $('#data-tables').append(table_div);
             
-            
+//Google data tables don't seem to retain events if tables are sorted or when paging through.
+//Maybe they get redrawn every time? In any case, we need to make specific items clickable if any
+//of these things occur.           
             var table = new google.visualization.Table(document.getElementById(table_div_id));
             google.visualization.events.addListener(table, 'ready', function(){
                 
@@ -480,13 +496,13 @@
                 show_widget_wizard(data.toJSON(), data_type, county);
             });
         }
+//formats the data, including removing specific items we don't want to show, dates, etc.
         function format_data(data, data_source) {
             var headings = []
                 ,rows = []
                 ,row
                 , heading_indexes = []
                 , headings = data.headings.filter(function(h,i) {
-    //                if(h === 'lat' || h === 'lon' || h === 'Order' || h === 'Record ID') {
                     if(h === 'lat' || h === 'lon' || h === 'Order') {
                         return false;
                     }
@@ -556,7 +572,8 @@
             console.log(url);
             $.get(url)
                 .done(function(data) {
-                    console.log(data);
+//for debugging
+//                    console.log(data);
                     if(data.success == 'no') {
                         if(is_registration) {
                             msg = 'That email is already registered. Please log in or create a new account';
@@ -583,10 +600,12 @@
         function add_alert(email, query, is_modal) {
             query+= '|user|' + email;
             query = query.replace('/search/','/search/alerts/');
-            console.log(query);
+//for debugging
+//            console.log(query);
             $.get(query)
                 .done(function(data){
-                    console.log(data);
+//for debugging
+ //                   console.log(data);
                     show_query_added(data, is_modal);
                 });
             
@@ -646,8 +665,8 @@
             show_available_graphs(JSON.parse(data), data_type, county);
         }
 
+//in an ideal world, this function would be broken up. Sorry! :)
         function show_available_graphs(table_data, data_type, county) {
-//            console.log(table_data);
                 
             var skip_labels = ['Record ID', 'View report']
                 , skip_labels_table = ['Record ID']
@@ -685,13 +704,9 @@
                 $('#open-nc-widget').append(msg);
 
             }
-
-
-            //pull out into own function
             $('.graph-option').click(function() {
                 which_graph = $(this).data('which');
                 var graph_config = graph_configs[which_graph];
-    //            console.log(graph_config);
                 $('.dd-graphs').each(function(index, el) {
                     if($(this).attr('id') !== ('holder-' + which_graph)) {
                         $(this).hide('slow');
@@ -727,7 +742,6 @@
                     e.preventDefault();
                     if(graph_type !== graph_config['graph_type']) {
                         graph_type = graph_config['graph_type'];
-    //                    show_graph(graph_config['data'],which_graph,graph_config['options'], graph_type);
                         show_graph(graph_config,which_graph);
                     }
                     $('#embed-code-row, .widget-form, .graph-show-code').remove();                
@@ -737,7 +751,6 @@
                     $('#graph-change-form').remove();
                 });
 
-                //own function
                 //puts existing values in form
                 var form_template = 'graph_widget_form';
                 var context = {};
@@ -784,7 +797,6 @@
                     graph_type = $(this).val();
                     var temp_config = graph_config;
                     graph_config['graph_type'] = graph_type;
-    //                show_graph(graph_config['data'],which_graph,graph_config['options'], graph_type);
                     show_graph(graph_config,which_graph);
                 });
                 //puts form values in option obj
@@ -842,7 +854,6 @@
                         });
                         graph_config['view'] = show_cols;
                     }
-    //                show_graph(graph_config['data'],which_graph,graph_config['options'], graph_config['graph_type'], graph_config['view']);
                     show_graph(graph_config,which_graph);
                     $('#embed-code-row').remove();                
                 });
@@ -882,14 +893,13 @@
                         }
                         if(graph_type !== 'ColumnChart') {
                             graph_type = 'ColumnChart';
-    //                        show_graph(graph_config['data'],which_graph,graph_config['options'], graph_type);
                             show_graph(graph_config,which_graph);
                         }
                     });                
                 });
             });
         }
-        
+//used to make various items more human-friendly in the output       
         function find_source(county, data_type, headings, data){
             var crime = ['incidents', 'arrests', 'accidents', 'citations']
                 , agencyIndex
@@ -938,11 +948,9 @@
 
         } 
         
-        //group_on('Category', headings, table_data.rows);
         //show headings to pick
         function group_on(field, data_type, headings, data, options) {
             var index = index_wanted(field, headings)
-    //            , date_labels = ['Date occurred', 'Date reported', 'Sale date', 'Insp. date']
                 , date_labels = []
                 , grouped = {}
                 , grouped_array = [[field,"Count"]]
@@ -970,10 +978,10 @@
                 graph_configs[graph_div] = {'data': grouped_array, 'options': options, 'graph_type': graph_type};
                 show_graph(graph_configs[graph_div],graph_div);
                 $('#' + graph_holder).prepend('<button class="btn btn-default graph-option" data-which="' + graph_div + '">Customize</button>');
-    //            console.log(JSON.stringify(grouped_array));
             }
             return {'data': grouped_array, 'msg': msg, 'div': graph_div};
         }
+//make a google data table
         function make_table(table_data, table_headings, skip_indexes){
             var table_data_rows = table_data.rows.map( function(row) {
                 var new_row = [];
@@ -998,9 +1006,9 @@
             $('#' + table_holder).append('<div id="' + table_div + '" class="dd-graph-div"></div>');
             $('#' + table_holder).prepend('<button class="btn btn-default graph-option" data-which="' + table_div + '">Customize</button>');
             graph_configs[table_div] = {'data': filtered_table_data, 'options': table_options, 'graph_type': 'Table', 'headings': headings,'view':view};        
-    //        show_graph(filtered_table_data, table_div, table_options, 'Table');
             show_graph(graph_configs[table_div],table_div);
         }
+//optinos we'll use to build graphs
         function init_options(field, data_type) {
             var colors = ['#ADCD9E','#8E7098','#F3D469','#E1755F','#7EBEE4'];
             var options = {
@@ -1017,9 +1025,8 @@
             return options;
         }
 
-    //    function show_graph(graph_data, graph_div, options, graph_type, view) {
+//builds google api graphs
         function show_graph(graph_config, graph_div) {
-    //        console.log(graph_config);
             var graph_type = graph_config.graph_type || "ColumnChart";
             if(graph_type === 'Table') {
                 var data = new google.visualization.DataTable(graph_config.data);
@@ -1096,6 +1103,7 @@
             return detail_link;
             
         }
+//formats numbers with commas and decimals
         Number.prototype.formatNumber = function (c, d, t) {
             var decimal_places = 2;    
             var n = this,
@@ -1107,7 +1115,7 @@
                 j = (j = i.length) > 3 ? j % 3 : 0;
             return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
         };
-            
+//truncates longer table field values so they display correctly            
         function truncate(string,length) {
             string = string.length > length ? string.substr(0,length-1) + ' ...': string;
             return string;

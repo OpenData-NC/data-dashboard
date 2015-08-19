@@ -1,15 +1,17 @@
+#!/usr/bin/env python
+
+#simple script to download and load raleigh pd data
+
 import ftplib
 import datetime
 from subprocess import call
 import MySQLdb
+from scraper_config import make_config
 
-
+home_dir, data_dir, database, db_user, db_pw, commands_url = make_config()
 table = 'raleigh_incidents'
-database = 'crime'
-data_path = '/home/vaughn.hagerty/crime-scrapers/data/'
 server = 'ftp.raleighpd.org'
 ftp_user = {'user': 'opennc@raleighpd.org', 'pw': '4560$Bzitrj'}
-db_user = {'user': 'crimeloader', 'pw': 'redaolemirc'}
 
 
 def make_filename():
@@ -19,17 +21,15 @@ def make_filename():
 
 
 def load_data(filename):
-    load_command = 'mysql --local-infile --user=' + db_user['user'] + ' --password=' + db_user[
-        'pw'] + ' ' + database + ' -e ' \
-                   + '"load data local infile \'' + data_path + filename + '\' ' \
+    load_command = 'mysql --local-infile --user=' + db_user + ' --password=' + db_pw + ' ' + database + ' -e ' \
+                   + '"load data local infile \'' + data_dir + filename + '\' ' \
                    + 'replace into table ' + table + '";'
-    print load_command
-    exit()
+
     call(load_command, shell=True)
 
     sql = "insert into incidents(record_id, agency, county, charge, date_reported, time_reported, on_date, address, lat, lon, scrape_type, id_generate) \
           select report_id, 'Raleigh Police Department','Wake', charge, date_reported, time_reported, if(date_occurred != '0000-00-00', date_occurred, ''), address, lat, lon, 'custom', 0 from raleigh_incidents"
-    connection = MySQLdb.connect(user=db_user['user'],passwd=db_user['pw'],db=database)
+    connection = MySQLdb.connect(user=db_user,passwd=db_pw,db=database)
     cursor = connection.cursor()
     cursor.execute(sql)
     connection.commit()
@@ -44,7 +44,7 @@ def print_file(data, filename):
         for key in keys_wanted:
             line.append(row[key])
         datafile += "\t".join(line) + "\n"
-    with open(data_path + filename, 'w') as f:
+    with open(data_dir + filename, 'w') as f:
         f.write(datafile)
         f.close()
 

@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+#pull data from new hanover county, nc, sheriff's p2c site
+#this is custom because that site is so different from others
 from scrape_bulletin_nh import try_bulletin, start_scrape
 from scraper_config import make_config
 from scraper_commands import print_files, all_data
@@ -27,6 +29,6 @@ def main():
     for data_type in all_data:
         data_file = data_dir + '/' + data_type + '.txt'
         table = data_type.lower() + 's'
-        load(database,data_file, table, user)
+        load(database,data_file, table, db_user, db_pw)
 if __name__ == "__main__":
     main()

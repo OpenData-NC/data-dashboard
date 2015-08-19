@@ -1,4 +1,6 @@
-﻿(function(){
+﻿//Builds the 30-day snapshot tables and graphs
+(function(){
+    //note that the top-level keys in these objects come from the JSON data file
     //types of google vizualizations we'll use
     var viz_types = {
                 'all': 'Table',
@@ -20,90 +22,72 @@
         , viz_options = {
                 'all': {page:"enable",pageSize:8, allowHtml: true}
                 , 'by category': {
-//              hAxis:{title:"Number"}
                  colors: viz_colors
-              , legend: { position: "none" }
-              , animation:{
+                , legend: { position: "none" }
+                , animation:{
                   duration: 1000,
                   easing: 'out'
                 }
                 , width: 500
                 , height: 500
                 , chartArea: {top: 15, left: 100}
-    //            , hAxis: {slantedText: true}
-    //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
                 
                 
             },
                 'by day of week': {
-//              hAxis:{title:"Number"}
-              colors: viz_colors
-              , legend: { position: "none" }
-              , animation:{
+                colors: viz_colors
+                , legend: { position: "none" }
+                , animation:{
                   duration: 1000,
                   easing: 'out'
                 }
                 , width: 500
                 , height: 250
-                , chartArea: {top: 15, left: 75}
-    //            , hAxis: {slantedText: true}
-    //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
-                
-                
+                , chartArea: {top: 15, left: 75}               
             },
                 'by hour of day': {
-              hAxis:{title:"Hour"}
-              , colors: viz_colors
-              , legend: { position: "none" }
-              , animation:{
+                hAxis:{title:"Hour"}
+                , colors: viz_colors
+                , legend: { position: "none" }
+                , animation:{
                   duration: 1000,
                   easing: 'out'
                 }
                 , width: 500
                 , height: 700
                 , chartArea: {top: 15, left: 100}
-                , hAxis: {slantedText: true}
-    //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
-                
-                
+                , hAxis: {slantedText: true}               
             },
                 'by address': {page:"enable",pageSize:20, allowHtml: true},
                 'by officer': {page:"enable",pageSize:20, allowHtml: true, width: 450},
                 'lowest 10 scores': {page:"enable",pageSize:20, allowHtml: true},
                 'score distribution': {
-              hAxis:{title:"Score"}
-              , vAxis: {title: "#"}
-              , colors: viz_colors
-              , legend: { position: "none" }
-              , animation:{
-                  duration: 1000,
-                  easing: 'out'
-                }
-                , width: 900
-                , height: 400
-                , chartArea: {top: 40, left: 100}
-     //           , hAxis: {slantedText: true}
-    //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
-                
+                    hAxis:{title:"Score"}
+                    , vAxis: {title: "#"}
+                    , colors: viz_colors
+                    , legend: { position: "none" }
+                    , animation:{
+                      duration: 1000,
+                      easing: 'out'
+                    }
+                    , width: 900
+                    , height: 400
+                    , chartArea: {top: 40, left: 100}               
                 
             },
                 'by party': {page:"enable",pageSize:20, allowHtml: true, width: 230},
                 'total by day': {
-              hAxis:{title:"Sale date"}
-              , vAxis: {title: "$s"}
-              , colors: viz_colors
-              , legend: { position: "none" }
-              , animation:{
-                  duration: 1000,
-                  easing: 'out'
-                }
-                , width: 1000
-                , height: 400
-                , chartArea: {top: 40, left: 100}
-//                , hAxis: {slantedText: true}
-    //          , chartArea:{left:20,top:0,width:'50%',height:'75%'}
-                
-                
+                    hAxis:{title:"Sale date"}
+                    , vAxis: {title: "$s"}
+                    , colors: viz_colors
+                    , legend: { position: "none" }
+                    , animation:{
+                        duration: 1000,
+                        easing: 'out'
+                    }
+                    , width: 1000
+                    , height: 400
+                    , chartArea: {top: 40, left: 100}                
             },
                 'top 10 sellers': {page:"enable",pageSize:20, allowHtml: true},
                 'top 10 buyers': {page:"enable",pageSize:20, allowHtml: true}
@@ -138,7 +122,6 @@
     //Data types are Arrests, Accidents, Incidents, Citations, Real Estate, RR grades and Voter registration
     $('#voter-registration-head').hide();
     google.load("visualization", "1", {packages:["corechart", "table"]});
-//    google.setOnLoadCallback(build_all_viz);
     var county = dd_config[find_county()].county;
     $('#dd-county').text(county);
     google.setOnLoadCallback(load_data);
@@ -147,7 +130,6 @@
         
     }
     function build_all_viz(all_data) {
-//    function build_all_viz() {
         $('#dd-loading').remove();
         var has_data;
         for(data_type in all_data) {
@@ -167,7 +149,6 @@
                     , viz_type = viz_types[summary_type] //type of viz (table, line chart or column chart
                     , viz_option = viz_options[summary_type]; //options for this div
                 if(all_data[data_type][summary_type]["date ranges"] && range === '') {
-//                    main_data_type = data_type.toLowerCase().replace(/ /g,'-');
                     var main_heading = '<h2 class="dd-upper">' + data_type + '</h2>';
                     $('#' + main_data_type).prepend(main_heading);
                     range = '<h4>Data from ' + all_data[data_type][summary_type]["date ranges"].start + ' to ' + all_data[data_type][summary_type]["date ranges"].end  + '</h4>';
@@ -181,7 +162,6 @@
             }
         }
         $('.row').addClass('main-data-cat'); //puts borders around specific data types
-//        $('.health-insp').addClass('health-insp-cat'); //horizontal line between health insp and voter data
         $('#voter-registration-head').show();
     }
     //appends the div to hold the viz and returns its id
@@ -192,15 +172,14 @@
             , div = ['<div id="', div_id, '"></div>'].join('')
             , heading = ['<h4 class="dd-cap">', summary_type, '</h4>'].join('');
         $('#' + div_id).before(heading);
-//        $('#' + main_data_type).append(div);
         return div_id;
     }
 
+//calls the various functions to build a specific table or graphs
     function draw_viz(data, viz_type, div, options, data_source) {
         var viz_data = make_viz_data(data, data_source);
         if(viz_type) {
             var viz = new google.visualization[viz_type](document.getElementById(div));
-//            if(typeof viz_data.getValue(0,0) === 'string' && viz_data.getValue(0,0).indexOf('See detail') !== -1) {
                 google.visualization.events.addListener(viz, 'ready', function(){
                     
                     make_items_clickable(data_source);
@@ -211,13 +190,11 @@
                         make_items_clickable(data_source);
                     });
                 });
-//            }
             viz.draw(viz_data,options);
-
-            
         }
     }
 
+//we need to remove and then add a click listener to ensure that it remains if the table or graph changes
     function make_items_clickable(data_type){
         $('.dd-detail').unbind('click');
         $('.dd-detail').bind('click', function(){
@@ -248,15 +225,13 @@
         var base_match = base_re.exec(location.href);
         var base_url = base_match[1];        
  
-//        var search_url = 'http://data.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
-//        var search_url = 'http://beta.open-nc.org/' + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
         var search_url = base_url + county.replace(/ /g,'-') + '/search/' + search_types[data_source] + '/#!/search/county|'
             + county + detail_param + key + '|data_types|' + data_source;
         window.location.assign(search_url);
         
         
     }
-    
+//calls various functions to format the data as we'll use it    
     function make_viz_data(data, data_source) {
         var formatted_data = format_data(data, data_source)
             , headings = formatted_data.headings
@@ -268,14 +243,13 @@
         viz_data.addRows(formatted_data.rows);
         return viz_data;
     }
-
+//formats the data, including removing specific items we don't want to show, dates, etc.
     function format_data(data, data_source) {
         var headings = []
             ,rows = []
             ,row
             , heading_indexes = []
             , headings = data.headings.filter(function(h,i) {
-//                if(h === 'lat' || h === 'lon' || h === 'Order' || h === 'Record ID') {
                 if(h === 'lat' || h === 'lon' || h === 'Order') {
                     return false;
                 }
@@ -314,12 +288,13 @@
             , formatted = prefix + number.formatNumber(decimal_places)
         return {v: number, f: formatted };
     }
-    
+//creates a dom object we use to make the "See detail" link clickable to pass the right info to the search python script    
     function format_detail(record_key, data_source) {
         var detail_link = '<span class="dd-detail" data-key="' + record_key.replace(/"/g,'%22') + '" data-source="' + data_source +'">See detail</span>';
         return detail_link;
         
     }
+//we determine which county we're in using the URL structure
     function find_county() {
         var county_re = /org\/([^\/]+)\//;
         var county_match = county_re.exec(location.href);
@@ -329,7 +304,7 @@
     function toTitleCase(str) {
         return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
     }
-
+//formats numbers with commas and decimals
     Number.prototype.formatNumber = function (c, d, t) {
         var decimal_places = 2;    
         var n = this,
