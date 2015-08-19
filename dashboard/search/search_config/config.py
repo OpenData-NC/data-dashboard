@@ -3,18 +3,18 @@
 #change these to match your values
 def make_config():
     #where the search app lives
-    home_dir = '/home/vaughn.hagerty/search'
+    home_dir = '[where search app lives]'
     #db config
-    db = 'crime'
+    db = '[db name]'
     #set this to localhost or the ip of your database if not on the same server
-    host = '10.240.220.181'
+    host = '[host''
 
     #this user only has select permissions
-    db_user = 'dataDa5h'
-    db_pw = 'UnC0p3n'
+    db_user = '[db user with select permissions on database]'
+    db_pw = '[select pw]'
     #used to update alert info
-    insert_user = 'crimeloader'
-    insert_pw = 'redaolemirc'
+    insert_user = '[db user with select, insert, update permissions on alert tables]'
+    insert_pw = '[insert pw]'
 
    return (db, host, db_user, db_pw, insert_user, insert_pw)
 

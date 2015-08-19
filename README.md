@@ -91,6 +91,8 @@ For crime data, examine scrapers/scraper_config/config.py. You'll find spots for
 You'll also find server paths in the scripts for voter data, health inspections and Buncombe County property data. Update those to reflect your setup.
 		
 Be sure to see the list of Python dependencies above and install those modules.
+
+Finally, you'll need a Google spreadsheet with data such as the county, agency, P2C URL, etc., for your scrapers. See scrapers/google-spreadsheet-example.csv for an example. Be sure to use these same headings or update the scripts to reflect any changes you make.
 		
 ###Dashboard
 		

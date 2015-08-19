@@ -4,13 +4,13 @@
 def make_config():
     #where the search app lives
     #db config
-    db = 'crime'
+    db = '[database name]'
     #set this to localhost or the ip of your database if not on the same server
-    host = '10.240.220.181'
+    host = '[host]'
 
     #this user only has select permissions
-    db_user = 'dataDa5h'
-    db_pw = 'UnC0p3n'
+    db_user = '[has select permissions on database]'
+    db_pw = '[select county]'
 
    return (db, host, db_user, db_pw)
 
