@@ -107,6 +107,13 @@ all_search_items = {
                   'to-date': '(total_sale_date >= "%s" and total_sale_date <= "%s")',
                   'street-number': 'site_address_street_number = "%s"',
                   'street-name': 'site_address_street_name = "%s"', 'min-value': 'sum(building_assessed_value,land_assessed_value) >= %s', 'max-value': 'sum(building_assessed_value,land_assessed_value) <= %s'},
+#orange here                  
+    'dash_orange_property': {'pin_num': 'pin = "%s"', 'first-name': '(owner1_fir like "%s%%" or owner2_fir like "%s%%")',
+                  'last-name': '(owner1_las like "%% %s" or owner2_las like "%% %s")',
+                  'from-date': 'datesold = "%s"',
+                  'to-date': '(datesold >= "%s" and total_sale_date <= "%s")',
+                  'street-number': '(address1 like "%s %%" or address2 like "%s %%")',
+                  'street-name': '(address1 like "%%%s%%" or address1 like "%%%s%%"', 'min-value': 'valuation >= %s', 'max-value': 'valuation <= %s'},
 
     'dash_wake_real_estate': {'pin_num': 'pin_num = "%s"', 'card_number': 'card_number = "%s"', 'first-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
                   'last-name': '(buyer_line1 like "%%%s%%" or buyer_line2 like "%%%s%%")',
@@ -130,6 +137,9 @@ selects = {
     'dash_nh_property': 'concat_ws("|", "pid", pid) `Record ID`, pid `Parcel ID`, owner `Owner 1`, `co-owner` `Owner 2`, concat_ws(" ", `situs-num`, `situs-street`) `Address`, `situs-city` `City code`, `real-assval` `Tax value`',
     'dash_nh_real_estate': 'concat_ws("|", "pid", pid, "from-date", sale_date, "instrument", instrument, "buyer", buyer, "seller", seller) `Record ID`, pid `Parcel ID`, seller `Seller`, buyer `Buyer`, date_format(sale_date,"%%m/%%d/%%Y") `Sale date`, address `Address`, city `City`, price `Sale price`',
     'dash_wake_property': 'concat_ws("|", "pin_num", pin_num, "card_number", card_number, "from-date",total_sale_date) `Record ID`, pin_num `Parcel ID`, owner_line1 `Owner 1`, owner_line2 `Owner 2`, date_format(deed_date,"%%m/%%d/%%Y") `Deed date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, sum(building_assessed_value,land_assessed_value) `Tax value`',
+#orange here
+    'dash_orange_property': 'concat_ws("|", "pin", pin_num, "from-date",datesold) `Record ID`, pin `Parcel ID`, concat_ws(" ", owner1_fir, owner1_las) `Owner 1`, concat_ws(" ", owner2_fir, owner2_las) `Owner 2`, date_format(datesold,"%%m/%%d/%%Y") `Date sold`, concat_ws(" ", address1, address2) `address`, city `City cod`, valuation `Tax value`',
+
     'dash_wake_real_estate': 'concat_ws("|", "pin_num", pin_num, "card_number", card_number) `Record ID`, pin_num `Parcel ID`, buyer_line1 `Buyer 1`, buyer_line2 `Buyer 2`, date_format(total_sale_date,"%%m/%%d/%%Y") `Sale date`, concat_ws(" ", site_address_street_number, site_address_street_units, site_address_street_prefix, site_address_street_name, site_address_street_type, site_address_street_suffix) `address`, city `City code`, total_sale_price `Sale price`'
 }
 
@@ -148,6 +158,7 @@ detail_selects = {
     'dash_buncombe_real_estate': '*',
     'dash_wake_property': '*',
     'dash_wake_real_estate': '*',
+    'dash_orange_property': '*',
 
 }
 
@@ -166,7 +177,8 @@ joins = {
     'dash_nh_property': '',
     'dash_nh_real_estate': '',
     'dash_wake_property': '',
-    'dash_wake_real_estate': ''
+    'dash_wake_real_estate': '',
+    'dash_orange_property'
     
 }
 
@@ -191,12 +203,13 @@ name_counts = {
     'dash_buncombe_real_estate': {'first-name':3, 'last-name': 3, 'buyer-first-name': 1, 'buyer-last-name': 1,
     'seller-first-name': 1, 'seller-last-name': 1},
     'dash_nh_property': {'first-name':1, 'last-name': 1}, 
+    'dash_orange_property': {'first-name':3, 'last-name': 3}, 
     'dash_nh_real_estate': {'first-name':1, 'last-name': 1},
     'dash_wake_property': {'first-name':1, 'last-name': 1 }, 
     'dash_wake_real_estate': {'first-name':1, 'last-name': 1, 'buyer-first-name':1, 'buyer-last-name': 1 }
 }
 #we don't use the county in these tables. they don't have a county field because they're already county-specific.
-skip_counties = ['dash_buncombe_property','dash_buncombe_real_estate','dash_nh_property', 'dash_nh_real_estate','dash_wake_property', 'dash_wake_real_estate']
+skip_counties = ['dash_buncombe_property','dash_buncombe_real_estate','dash_nh_property', 'dash_nh_real_estate','dash_wake_property', 'dash_wake_real_estate', 'dash_orange_property']
 #no seller data in wake
 skip_sellers = ['dash_wake_real_estate']
 #the query for these needs to use in (val1, val2)

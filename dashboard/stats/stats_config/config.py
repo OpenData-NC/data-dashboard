@@ -22,6 +22,7 @@ counties = {
             'Buncombe': ['incidents','arrests','accidents','citations','dash_buncombe_real_estate','rr','nc_voters_new'], 
             'New Hanover': ['incidents','arrests','accidents','citations','dash_nh_real_estate','dash_nh_rr','nc_voters_new'],
             'Wake':['incidents','arrests','accidents','citations','dash_wake_real_estate','rr','nc_voters_new'],
+            'Orange':['incidents','arrests','accidents','citations','rr','nc_voters_new'],
 }
 
 #types of queries appropriate to each data type

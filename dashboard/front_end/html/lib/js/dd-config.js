@@ -11,4 +11,7 @@ var dd_config = {
     'wake':{
             'county' : 'wake'
     },
+    'orange': {
+            'county' : 'orange'
+    }
 }
