@@ -31,6 +31,7 @@ System overview and setup
  - scrapers/health/health_inspections.py: Load    health inspections
    data from the state.
  - scrapers/buncombe_property/dl_buncombe_property.txt: Command-line calls to download Buncombe County property tax and real estate transactions data.
+ - scrapers/orange_property/dl_orange_property.txt: Command-line calls to download Orange County property tax data. See the readme file in that directory for specific installation requirements.
 
 	
 ####The user-facing Data Dashboard

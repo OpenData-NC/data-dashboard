@@ -1,0 +1,7 @@
+cd /home/vaughn.hagerty/orange/data
+rm *.zip
+rm parview.*
+wget -q http://web.co.orange.nc.us/gisdownloads/parcels.zip 
+unzip -qq parcels.zip
+dbf_dump -fs="|" parview.dbf > parview.txt
+mysql -ucrimeloader -predaolemirc --local-infile crime < orange.sql
